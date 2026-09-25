@@ -1,0 +1,13 @@
+cue_row,content_test_id,style_test_id,model,prediction,decision
+50,6288,7726,ResNet-50 head,deer,shape
+50,6288,7726,ViT-B/16 head,deer,shape
+50,6288,7726,CLIP head,deer,shape
+50,6288,7726,CLIP zero-shot,deer,shape
+170,4893,1833,ResNet-50 head,ship,texture
+170,4893,1833,ViT-B/16 head,airplane,shape
+170,4893,1833,CLIP head,airplane,shape
+170,4893,1833,CLIP zero-shot,airplane,shape
+100,1579,2116,ResNet-50 head,cat,other
+100,1579,2116,ViT-B/16 head,monkey,shape
+100,1579,2116,CLIP head,cat,other
+100,1579,2116,CLIP zero-shot,bird,texture

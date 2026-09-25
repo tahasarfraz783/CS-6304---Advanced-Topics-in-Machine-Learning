@@ -1,0 +1,22 @@
+{
+  "seed": 6304,
+  "dataset": "STL-10",
+  "cue_conflicts": "preserved_only",
+  "hue_factor": 0.25,
+  "grid": 4,
+  "displacements": [
+    0,
+    8,
+    16,
+    32
+  ],
+  "max_epochs": 50,
+  "patience": 5,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "pretrained": {
+    "resnet50": "IMAGENET1K_V2",
+    "vit_b16": "IMAGENET1K_V1",
+    "clip": "ViT-B-32/openai"
+  }
+}

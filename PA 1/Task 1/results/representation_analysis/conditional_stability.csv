@@ -1,0 +1,121 @@
+model,condition,prediction_unchanged,mean_cosine,n_pairs
+CLIP ViT-B/32 + linear head,cue_conflict,False,0.7099484,62
+CLIP ViT-B/32 + linear head,cue_conflict,True,0.7691085,138
+CLIP ViT-B/32 + linear head,grayscale,False,0.8606386,26
+CLIP ViT-B/32 + linear head,grayscale,True,0.89701366,474
+CLIP ViT-B/32 + linear head,patch_shuffle,False,0.71218544,105
+CLIP ViT-B/32 + linear head,patch_shuffle,True,0.74365133,395
+CLIP ViT-B/32 + linear head,translation_08_down,False,0.97500503,7
+CLIP ViT-B/32 + linear head,translation_08_down,True,0.9811643,493
+CLIP ViT-B/32 + linear head,translation_08_left,False,0.97860676,11
+CLIP ViT-B/32 + linear head,translation_08_left,True,0.9813052,489
+CLIP ViT-B/32 + linear head,translation_08_right,False,0.9758347,7
+CLIP ViT-B/32 + linear head,translation_08_right,True,0.98128814,493
+CLIP ViT-B/32 + linear head,translation_08_up,False,0.9734853,10
+CLIP ViT-B/32 + linear head,translation_08_up,True,0.9809002,490
+CLIP ViT-B/32 + linear head,translation_16_down,False,0.9620238,11
+CLIP ViT-B/32 + linear head,translation_16_down,True,0.97141606,489
+CLIP ViT-B/32 + linear head,translation_16_left,False,0.9372995,9
+CLIP ViT-B/32 + linear head,translation_16_left,True,0.96579415,491
+CLIP ViT-B/32 + linear head,translation_16_right,False,0.9482499,12
+CLIP ViT-B/32 + linear head,translation_16_right,True,0.96618307,488
+CLIP ViT-B/32 + linear head,translation_16_up,False,0.9629271,11
+CLIP ViT-B/32 + linear head,translation_16_up,True,0.96997607,489
+CLIP ViT-B/32 + linear head,translation_32_down,False,0.9778112,7
+CLIP ViT-B/32 + linear head,translation_32_down,True,0.97632986,493
+CLIP ViT-B/32 + linear head,translation_32_left,False,0.9415245,14
+CLIP ViT-B/32 + linear head,translation_32_left,True,0.963879,486
+CLIP ViT-B/32 + linear head,translation_32_right,False,0.93725276,8
+CLIP ViT-B/32 + linear head,translation_32_right,True,0.96266294,492
+CLIP ViT-B/32 + linear head,translation_32_up,False,0.956178,10
+CLIP ViT-B/32 + linear head,translation_32_up,True,0.974886,490
+CLIP ViT-B/32 zero-shot,cue_conflict,False,0.71914005,70
+CLIP ViT-B/32 zero-shot,cue_conflict,True,0.7677998,130
+CLIP ViT-B/32 zero-shot,grayscale,False,0.85629606,23
+CLIP ViT-B/32 zero-shot,grayscale,True,0.8969943,477
+CLIP ViT-B/32 zero-shot,patch_shuffle,False,0.7149434,114
+CLIP ViT-B/32 zero-shot,patch_shuffle,True,0.74357045,386
+CLIP ViT-B/32 zero-shot,translation_08_down,False,0.97878885,10
+CLIP ViT-B/32 zero-shot,translation_08_down,True,0.9811248,490
+CLIP ViT-B/32 zero-shot,translation_08_left,False,0.97563815,8
+CLIP ViT-B/32 zero-shot,translation_08_left,True,0.9813371,492
+CLIP ViT-B/32 zero-shot,translation_08_right,False,0.9690236,9
+CLIP ViT-B/32 zero-shot,translation_08_right,True,0.9814352,491
+CLIP ViT-B/32 zero-shot,translation_08_up,False,0.9764908,11
+CLIP ViT-B/32 zero-shot,translation_08_up,True,0.98084784,489
+CLIP ViT-B/32 zero-shot,translation_16_down,False,0.9681828,11
+CLIP ViT-B/32 zero-shot,translation_16_down,True,0.97127753,489
+CLIP ViT-B/32 zero-shot,translation_16_left,False,0.92851716,8
+CLIP ViT-B/32 zero-shot,translation_16_left,True,0.965879,492
+CLIP ViT-B/32 zero-shot,translation_16_right,False,0.9474549,10
+CLIP ViT-B/32 zero-shot,translation_16_right,True,0.9661261,490
+CLIP ViT-B/32 zero-shot,translation_16_up,False,0.9633591,12
+CLIP ViT-B/32 zero-shot,translation_16_up,True,0.9699798,488
+CLIP ViT-B/32 zero-shot,translation_32_down,False,0.96809864,12
+CLIP ViT-B/32 zero-shot,translation_32_down,True,0.97655356,488
+CLIP ViT-B/32 zero-shot,translation_32_left,False,0.9537248,17
+CLIP ViT-B/32 zero-shot,translation_32_left,True,0.9635884,483
+CLIP ViT-B/32 zero-shot,translation_32_right,False,0.95030695,14
+CLIP ViT-B/32 zero-shot,translation_32_right,True,0.9626006,486
+CLIP ViT-B/32 zero-shot,translation_32_up,False,0.9653534,11
+CLIP ViT-B/32 zero-shot,translation_32_up,True,0.9747179,489
+ResNet-50 + linear head,cue_conflict,False,0.40796056,89
+ResNet-50 + linear head,cue_conflict,True,0.51105887,111
+ResNet-50 + linear head,grayscale,False,0.72488713,17
+ResNet-50 + linear head,grayscale,True,0.79138225,483
+ResNet-50 + linear head,patch_shuffle,False,0.7079849,51
+ResNet-50 + linear head,patch_shuffle,True,0.7189652,449
+ResNet-50 + linear head,translation_08_down,False,0.95481306,4
+ResNet-50 + linear head,translation_08_down,True,0.96561193,496
+ResNet-50 + linear head,translation_08_left,False,0.9589402,5
+ResNet-50 + linear head,translation_08_left,True,0.9739403,495
+ResNet-50 + linear head,translation_08_right,False,0.9282398,3
+ResNet-50 + linear head,translation_08_right,True,0.9658245,497
+ResNet-50 + linear head,translation_08_up,False,0.96793586,3
+ResNet-50 + linear head,translation_08_up,True,0.9692143,497
+ResNet-50 + linear head,translation_16_down,False,0.9433164,4
+ResNet-50 + linear head,translation_16_down,True,0.9493515,496
+ResNet-50 + linear head,translation_16_left,False,0.929173,6
+ResNet-50 + linear head,translation_16_left,True,0.96117693,494
+ResNet-50 + linear head,translation_16_right,False,0.8620346,5
+ResNet-50 + linear head,translation_16_right,True,0.94478667,495
+ResNet-50 + linear head,translation_16_up,False,0.92894185,4
+ResNet-50 + linear head,translation_16_up,True,0.9561343,496
+ResNet-50 + linear head,translation_32_down,False,0.921534,7
+ResNet-50 + linear head,translation_32_down,True,0.9328209,493
+ResNet-50 + linear head,translation_32_left,False,0.9243444,7
+ResNet-50 + linear head,translation_32_left,True,0.94043887,493
+ResNet-50 + linear head,translation_32_right,False,0.89344406,8
+ResNet-50 + linear head,translation_32_right,True,0.9204836,492
+ResNet-50 + linear head,translation_32_up,False,0.9021781,5
+ResNet-50 + linear head,translation_32_up,True,0.9383316,495
+ViT-B/16 + linear head,cue_conflict,False,0.35713387,45
+ViT-B/16 + linear head,cue_conflict,True,0.52740586,155
+ViT-B/16 + linear head,grayscale,False,0.5760565,25
+ViT-B/16 + linear head,grayscale,True,0.74783427,475
+ViT-B/16 + linear head,patch_shuffle,False,0.58952415,41
+ViT-B/16 + linear head,patch_shuffle,True,0.6590716,459
+ViT-B/16 + linear head,translation_08_down,False,0.91552746,9
+ViT-B/16 + linear head,translation_08_down,True,0.9452529,491
+ViT-B/16 + linear head,translation_08_left,False,0.91047037,10
+ViT-B/16 + linear head,translation_08_left,True,0.9508219,490
+ViT-B/16 + linear head,translation_08_right,False,0.9064436,7
+ViT-B/16 + linear head,translation_08_right,True,0.94954824,493
+ViT-B/16 + linear head,translation_08_up,False,0.9305996,11
+ViT-B/16 + linear head,translation_08_up,True,0.94512135,489
+ViT-B/16 + linear head,translation_16_down,False,0.9625792,6
+ViT-B/16 + linear head,translation_16_down,True,0.97177094,494
+ViT-B/16 + linear head,translation_16_left,False,0.94739693,5
+ViT-B/16 + linear head,translation_16_left,True,0.97638774,495
+ViT-B/16 + linear head,translation_16_right,False,0.9349594,6
+ViT-B/16 + linear head,translation_16_right,True,0.9755668,494
+ViT-B/16 + linear head,translation_16_up,False,0.9479534,8
+ViT-B/16 + linear head,translation_16_up,True,0.97487,492
+ViT-B/16 + linear head,translation_32_down,False,0.8973132,11
+ViT-B/16 + linear head,translation_32_down,True,0.93443465,489
+ViT-B/16 + linear head,translation_32_left,False,0.87265736,12
+ViT-B/16 + linear head,translation_32_left,True,0.9497187,488
+ViT-B/16 + linear head,translation_32_right,False,0.890706,11
+ViT-B/16 + linear head,translation_32_right,True,0.94980824,489
+ViT-B/16 + linear head,translation_32_up,False,0.84694165,14
+ViT-B/16 + linear head,translation_32_up,True,0.9396433,486

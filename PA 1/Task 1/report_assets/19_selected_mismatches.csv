@@ -1,0 +1,7 @@
+backbone,condition,pair_index,official_test_index,content_label,cosine_similarity,model,clean_prediction,transformed_prediction,prediction_unchanged
+resnet50,patch_shuffle,345,7047,9,0.37910444,ResNet-50 + linear head,9,9,True
+resnet50,translation_08_left,442,4069,8,0.9857802,ResNet-50 + linear head,8,0,False
+vit_b16,patch_shuffle,489,3318,9,0.27439865,ViT-B/16 + linear head,9,9,True
+vit_b16,translation_16_down,332,1960,4,0.9953763,ViT-B/16 + linear head,5,4,False
+clip,patch_shuffle,223,49,2,0.5651414,CLIP ViT-B/32 + linear head,2,2,True
+clip,translation_08_up,411,568,5,0.9913897,CLIP ViT-B/32 + linear head,3,5,False

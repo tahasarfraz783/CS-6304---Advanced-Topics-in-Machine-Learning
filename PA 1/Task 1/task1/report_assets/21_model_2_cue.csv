@@ -1,2 +1,0 @@
-model,Nshape,Ntexture,Nother,Ntotal,shape_bias_pct,coverage_pct
-ViT-B/16 head,154,37,9,200,80.6282722513089,95.5

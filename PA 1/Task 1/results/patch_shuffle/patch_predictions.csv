@@ -1,0 +1,2001 @@
+official_test_index,label,image_id,class_name,model,predicted_label,predicted_class,clean_predicted_label,matches_clean,confidence
+632,3,stl10/test/00632,cat,ResNet-50 + linear head,3,cat,3,True,0.9736067
+131,9,stl10/test/00131,truck,ResNet-50 + linear head,9,truck,9,True,0.98373944
+7081,7,stl10/test/07081,monkey,ResNet-50 + linear head,7,monkey,7,True,0.88380855
+1836,9,stl10/test/01836,truck,ResNet-50 + linear head,9,truck,9,True,0.60857
+6437,0,stl10/test/06437,airplane,ResNet-50 + linear head,0,airplane,0,True,0.9943125
+6609,0,stl10/test/06609,airplane,ResNet-50 + linear head,0,airplane,0,True,0.99192035
+3467,7,stl10/test/03467,monkey,ResNet-50 + linear head,7,monkey,7,True,0.4758171
+1401,3,stl10/test/01401,cat,ResNet-50 + linear head,3,cat,3,True,0.98643064
+1839,2,stl10/test/01839,car,ResNet-50 + linear head,2,car,2,True,0.99869376
+4168,3,stl10/test/04168,cat,ResNet-50 + linear head,3,cat,3,True,0.9771483
+35,2,stl10/test/00035,car,ResNet-50 + linear head,2,car,2,True,0.9563761
+4177,8,stl10/test/04177,ship,ResNet-50 + linear head,8,ship,8,True,0.9908449
+7270,7,stl10/test/07270,monkey,ResNet-50 + linear head,7,monkey,7,True,0.96305746
+2265,5,stl10/test/02265,dog,ResNet-50 + linear head,5,dog,5,True,0.79713917
+3288,7,stl10/test/03288,monkey,ResNet-50 + linear head,7,monkey,7,True,0.87020653
+5451,8,stl10/test/05451,ship,ResNet-50 + linear head,8,ship,8,True,0.99141556
+4023,3,stl10/test/04023,cat,ResNet-50 + linear head,3,cat,3,True,0.9335358
+261,1,stl10/test/00261,bird,ResNet-50 + linear head,1,bird,1,True,0.8032851
+4570,5,stl10/test/04570,dog,ResNet-50 + linear head,5,dog,5,True,0.68327564
+4966,5,stl10/test/04966,dog,ResNet-50 + linear head,5,dog,5,True,0.9604346
+7955,1,stl10/test/07955,bird,ResNet-50 + linear head,1,bird,1,True,0.9999635
+6288,4,stl10/test/06288,deer,ResNet-50 + linear head,4,deer,4,True,0.9769355
+7810,8,stl10/test/07810,ship,ResNet-50 + linear head,8,ship,8,True,0.9843724
+1927,7,stl10/test/01927,monkey,ResNet-50 + linear head,7,monkey,7,True,0.96662825
+1871,1,stl10/test/01871,bird,ResNet-50 + linear head,3,cat,1,False,0.8594862
+6922,5,stl10/test/06922,dog,ResNet-50 + linear head,5,dog,5,True,0.82771796
+3512,4,stl10/test/03512,deer,ResNet-50 + linear head,4,deer,4,True,0.97976
+4754,6,stl10/test/04754,horse,ResNet-50 + linear head,6,horse,6,True,0.9882882
+714,2,stl10/test/00714,car,ResNet-50 + linear head,2,car,2,True,0.97852325
+2191,8,stl10/test/02191,ship,ResNet-50 + linear head,8,ship,8,True,0.8469267
+4615,0,stl10/test/04615,airplane,ResNet-50 + linear head,0,airplane,0,True,0.9406842
+4662,8,stl10/test/04662,ship,ResNet-50 + linear head,8,ship,8,True,0.99424213
+5915,9,stl10/test/05915,truck,ResNet-50 + linear head,9,truck,9,True,0.76048917
+766,4,stl10/test/00766,deer,ResNet-50 + linear head,6,horse,6,True,0.5223684
+5218,2,stl10/test/05218,car,ResNet-50 + linear head,2,car,2,True,0.9939229
+2340,8,stl10/test/02340,ship,ResNet-50 + linear head,8,ship,8,True,0.9963349
+1954,8,stl10/test/01954,ship,ResNet-50 + linear head,0,airplane,8,False,0.53857976
+7875,8,stl10/test/07875,ship,ResNet-50 + linear head,8,ship,8,True,0.98273957
+3418,6,stl10/test/03418,horse,ResNet-50 + linear head,6,horse,6,True,0.98862165
+5572,9,stl10/test/05572,truck,ResNet-50 + linear head,9,truck,9,True,0.9119193
+5977,7,stl10/test/05977,monkey,ResNet-50 + linear head,7,monkey,7,True,0.96458423
+5123,1,stl10/test/05123,bird,ResNet-50 + linear head,1,bird,1,True,0.9900832
+5851,9,stl10/test/05851,truck,ResNet-50 + linear head,9,truck,9,True,0.95973456
+4094,9,stl10/test/04094,truck,ResNet-50 + linear head,9,truck,9,True,0.97315365
+4254,6,stl10/test/04254,horse,ResNet-50 + linear head,6,horse,6,True,0.8838047
+2501,7,stl10/test/02501,monkey,ResNet-50 + linear head,7,monkey,7,True,0.8967522
+6938,1,stl10/test/06938,bird,ResNet-50 + linear head,1,bird,1,True,0.9992884
+171,4,stl10/test/00171,deer,ResNet-50 + linear head,4,deer,4,True,0.9190768
+4215,3,stl10/test/04215,cat,ResNet-50 + linear head,1,bird,3,False,0.8903083
+5705,8,stl10/test/05705,ship,ResNet-50 + linear head,8,ship,8,True,0.9982023
+3458,4,stl10/test/03458,deer,ResNet-50 + linear head,4,deer,4,True,0.9828183
+1220,7,stl10/test/01220,monkey,ResNet-50 + linear head,7,monkey,7,True,0.83196086
+962,8,stl10/test/00962,ship,ResNet-50 + linear head,8,ship,8,True,0.9998117
+2950,5,stl10/test/02950,dog,ResNet-50 + linear head,5,dog,5,True,0.9819911
+2623,5,stl10/test/02623,dog,ResNet-50 + linear head,5,dog,5,True,0.9554723
+4539,0,stl10/test/04539,airplane,ResNet-50 + linear head,0,airplane,0,True,0.9569037
+1553,0,stl10/test/01553,airplane,ResNet-50 + linear head,0,airplane,0,True,0.9791869
+4740,4,stl10/test/04740,deer,ResNet-50 + linear head,4,deer,4,True,0.75933224
+6844,0,stl10/test/06844,airplane,ResNet-50 + linear head,0,airplane,0,True,0.97332484
+2668,7,stl10/test/02668,monkey,ResNet-50 + linear head,7,monkey,7,True,0.82750183
+3153,7,stl10/test/03153,monkey,ResNet-50 + linear head,7,monkey,7,True,0.7366752
+5135,4,stl10/test/05135,deer,ResNet-50 + linear head,3,cat,4,False,0.27823827
+2291,3,stl10/test/02291,cat,ResNet-50 + linear head,3,cat,3,True,0.6118417
+116,1,stl10/test/00116,bird,ResNet-50 + linear head,1,bird,1,True,0.9259946
+7797,3,stl10/test/07797,cat,ResNet-50 + linear head,3,cat,3,True,0.9698761
+4609,3,stl10/test/04609,cat,ResNet-50 + linear head,4,deer,3,False,0.56529224
+81,0,stl10/test/00081,airplane,ResNet-50 + linear head,0,airplane,0,True,0.68502206
+5580,6,stl10/test/05580,horse,ResNet-50 + linear head,6,horse,6,True,0.9895237
+3024,2,stl10/test/03024,car,ResNet-50 + linear head,2,car,2,True,0.9878521
+2766,5,stl10/test/02766,dog,ResNet-50 + linear head,5,dog,5,True,0.9024946
+5000,8,stl10/test/05000,ship,ResNet-50 + linear head,8,ship,8,True,0.9305046
+2610,6,stl10/test/02610,horse,ResNet-50 + linear head,6,horse,6,True,0.40356714
+2024,0,stl10/test/02024,airplane,ResNet-50 + linear head,0,airplane,0,True,0.9526629
+6097,4,stl10/test/06097,deer,ResNet-50 + linear head,4,deer,4,True,0.84236395
+964,6,stl10/test/00964,horse,ResNet-50 + linear head,6,horse,6,True,0.79755664
+7634,0,stl10/test/07634,airplane,ResNet-50 + linear head,0,airplane,0,True,0.9901064
+6434,8,stl10/test/06434,ship,ResNet-50 + linear head,8,ship,8,True,0.99480164
+5183,2,stl10/test/05183,car,ResNet-50 + linear head,2,car,2,True,0.94072586
+6986,0,stl10/test/06986,airplane,ResNet-50 + linear head,0,airplane,0,True,0.8785231
+645,5,stl10/test/00645,dog,ResNet-50 + linear head,5,dog,5,True,0.90199155
+3347,0,stl10/test/03347,airplane,ResNet-50 + linear head,0,airplane,0,True,0.95760757
+5677,2,stl10/test/05677,car,ResNet-50 + linear head,2,car,2,True,0.9904207
+3412,8,stl10/test/03412,ship,ResNet-50 + linear head,8,ship,8,True,0.9757175
+3937,1,stl10/test/03937,bird,ResNet-50 + linear head,1,bird,1,True,0.9977847
+873,6,stl10/test/00873,horse,ResNet-50 + linear head,6,horse,6,True,0.5946101
+2167,9,stl10/test/02167,truck,ResNet-50 + linear head,9,truck,9,True,0.8997321
+6490,3,stl10/test/06490,cat,ResNet-50 + linear head,3,cat,3,True,0.9709263
+738,3,stl10/test/00738,cat,ResNet-50 + linear head,3,cat,3,True,0.6513638
+6616,2,stl10/test/06616,car,ResNet-50 + linear head,2,car,2,True,0.9385046
+4093,6,stl10/test/04093,horse,ResNet-50 + linear head,1,bird,6,False,0.72049737
+5788,9,stl10/test/05788,truck,ResNet-50 + linear head,9,truck,9,True,0.9960736
+7818,8,stl10/test/07818,ship,ResNet-50 + linear head,8,ship,8,True,0.9611984
+304,1,stl10/test/00304,bird,ResNet-50 + linear head,1,bird,1,True,0.8741379
+2082,2,stl10/test/02082,car,ResNet-50 + linear head,2,car,2,True,0.9281978
+2746,7,stl10/test/02746,monkey,ResNet-50 + linear head,3,cat,7,False,0.88215864
+7944,4,stl10/test/07944,deer,ResNet-50 + linear head,4,deer,4,True,0.40311328
+6689,8,stl10/test/06689,ship,ResNet-50 + linear head,8,ship,8,True,0.96114695
+2414,9,stl10/test/02414,truck,ResNet-50 + linear head,8,ship,9,False,0.38345128
+3779,6,stl10/test/03779,horse,ResNet-50 + linear head,6,horse,6,True,0.87973
+2095,1,stl10/test/02095,bird,ResNet-50 + linear head,1,bird,1,True,0.9960658
+7262,0,stl10/test/07262,airplane,ResNet-50 + linear head,0,airplane,0,True,0.97257733
+5694,8,stl10/test/05694,ship,ResNet-50 + linear head,8,ship,8,True,0.98654455
+7413,5,stl10/test/07413,dog,ResNet-50 + linear head,5,dog,5,True,0.5301881
+6805,1,stl10/test/06805,bird,ResNet-50 + linear head,1,bird,1,True,0.9811405
+3446,7,stl10/test/03446,monkey,ResNet-50 + linear head,7,monkey,7,True,0.47344515
+2807,5,stl10/test/02807,dog,ResNet-50 + linear head,4,deer,4,True,0.65433717
+7940,4,stl10/test/07940,deer,ResNet-50 + linear head,4,deer,4,True,0.7492469
+4172,7,stl10/test/04172,monkey,ResNet-50 + linear head,7,monkey,7,True,0.9411762
+7744,3,stl10/test/07744,cat,ResNet-50 + linear head,1,bird,3,False,0.93608636
+1586,2,stl10/test/01586,car,ResNet-50 + linear head,2,car,2,True,0.993804
+7999,8,stl10/test/07999,ship,ResNet-50 + linear head,8,ship,8,True,0.9982913
+6349,1,stl10/test/06349,bird,ResNet-50 + linear head,1,bird,1,True,0.98217505
+6594,1,stl10/test/06594,bird,ResNet-50 + linear head,1,bird,1,True,0.8439073
+2109,8,stl10/test/02109,ship,ResNet-50 + linear head,8,ship,8,True,0.9618611
+3079,1,stl10/test/03079,bird,ResNet-50 + linear head,1,bird,1,True,0.99831724
+2070,1,stl10/test/02070,bird,ResNet-50 + linear head,1,bird,1,True,0.9502501
+319,5,stl10/test/00319,dog,ResNet-50 + linear head,5,dog,5,True,0.72091836
+2888,0,stl10/test/02888,airplane,ResNet-50 + linear head,0,airplane,0,True,0.98499274
+6224,5,stl10/test/06224,dog,ResNet-50 + linear head,5,dog,5,True,0.67616314
+3353,5,stl10/test/03353,dog,ResNet-50 + linear head,3,cat,3,True,0.90037197
+6244,2,stl10/test/06244,car,ResNet-50 + linear head,2,car,2,True,0.75628424
+4704,7,stl10/test/04704,monkey,ResNet-50 + linear head,7,monkey,7,True,0.94162524
+2427,5,stl10/test/02427,dog,ResNet-50 + linear head,5,dog,5,True,0.7962182
+7995,9,stl10/test/07995,truck,ResNet-50 + linear head,2,car,9,False,0.8550901
+1124,4,stl10/test/01124,deer,ResNet-50 + linear head,1,bird,4,False,0.55700773
+6733,1,stl10/test/06733,bird,ResNet-50 + linear head,1,bird,1,True,0.46801937
+2062,9,stl10/test/02062,truck,ResNet-50 + linear head,9,truck,9,True,0.9954236
+805,9,stl10/test/00805,truck,ResNet-50 + linear head,9,truck,9,True,0.9687491
+2028,3,stl10/test/02028,cat,ResNet-50 + linear head,3,cat,3,True,0.93240106
+2392,2,stl10/test/02392,car,ResNet-50 + linear head,2,car,2,True,0.9854285
+3292,6,stl10/test/03292,horse,ResNet-50 + linear head,6,horse,6,True,0.94055367
+1440,7,stl10/test/01440,monkey,ResNet-50 + linear head,7,monkey,7,True,0.94722974
+1115,1,stl10/test/01115,bird,ResNet-50 + linear head,1,bird,1,True,0.9708171
+4242,8,stl10/test/04242,ship,ResNet-50 + linear head,8,ship,8,True,0.994466
+2230,8,stl10/test/02230,ship,ResNet-50 + linear head,8,ship,8,True,0.9615761
+3163,2,stl10/test/03163,car,ResNet-50 + linear head,2,car,2,True,0.997621
+545,6,stl10/test/00545,horse,ResNet-50 + linear head,2,car,6,False,0.5209672
+3863,5,stl10/test/03863,dog,ResNet-50 + linear head,5,dog,5,True,0.67926574
+4748,7,stl10/test/04748,monkey,ResNet-50 + linear head,7,monkey,7,True,0.98136204
+2399,4,stl10/test/02399,deer,ResNet-50 + linear head,4,deer,4,True,0.89219904
+4341,6,stl10/test/04341,horse,ResNet-50 + linear head,6,horse,6,True,0.99283147
+3078,4,stl10/test/03078,deer,ResNet-50 + linear head,4,deer,4,True,0.92735916
+3763,4,stl10/test/03763,deer,ResNet-50 + linear head,4,deer,4,True,0.9616766
+2958,6,stl10/test/02958,horse,ResNet-50 + linear head,6,horse,6,True,0.99537235
+6381,6,stl10/test/06381,horse,ResNet-50 + linear head,6,horse,6,True,0.9895126
+1640,8,stl10/test/01640,ship,ResNet-50 + linear head,8,ship,8,True,0.48541802
+1783,8,stl10/test/01783,ship,ResNet-50 + linear head,8,ship,8,True,0.9941953
+3914,3,stl10/test/03914,cat,ResNet-50 + linear head,3,cat,3,True,0.7750172
+1534,6,stl10/test/01534,horse,ResNet-50 + linear head,6,horse,6,True,0.64653504
+685,5,stl10/test/00685,dog,ResNet-50 + linear head,5,dog,5,True,0.9183362
+4617,0,stl10/test/04617,airplane,ResNet-50 + linear head,0,airplane,0,True,0.93396264
+5508,9,stl10/test/05508,truck,ResNet-50 + linear head,9,truck,9,True,0.97513264
+1022,9,stl10/test/01022,truck,ResNet-50 + linear head,9,truck,9,True,0.98315537
+1230,1,stl10/test/01230,bird,ResNet-50 + linear head,1,bird,1,True,0.9276922
+7475,4,stl10/test/07475,deer,ResNet-50 + linear head,4,deer,4,True,0.85494757
+5756,2,stl10/test/05756,car,ResNet-50 + linear head,2,car,2,True,0.99620086
+3122,4,stl10/test/03122,deer,ResNet-50 + linear head,4,deer,4,True,0.9565049
+7202,1,stl10/test/07202,bird,ResNet-50 + linear head,1,bird,1,True,0.9875392
+4723,9,stl10/test/04723,truck,ResNet-50 + linear head,9,truck,9,True,0.9331988
+1552,5,stl10/test/01552,dog,ResNet-50 + linear head,5,dog,5,True,0.7929539
+603,9,stl10/test/00603,truck,ResNet-50 + linear head,2,car,9,False,0.6116267
+2861,3,stl10/test/02861,cat,ResNet-50 + linear head,3,cat,3,True,0.97915286
+6426,2,stl10/test/06426,car,ResNet-50 + linear head,2,car,2,True,0.9997315
+7864,4,stl10/test/07864,deer,ResNet-50 + linear head,4,deer,4,True,0.77900755
+5729,6,stl10/test/05729,horse,ResNet-50 + linear head,6,horse,6,True,0.98292184
+7474,5,stl10/test/07474,dog,ResNet-50 + linear head,5,dog,5,True,0.96353453
+4298,1,stl10/test/04298,bird,ResNet-50 + linear head,1,bird,1,True,0.99860734
+1175,0,stl10/test/01175,airplane,ResNet-50 + linear head,0,airplane,0,True,0.9979621
+3454,2,stl10/test/03454,car,ResNet-50 + linear head,2,car,2,True,0.83799314
+2754,3,stl10/test/02754,cat,ResNet-50 + linear head,6,horse,3,False,0.40119672
+855,4,stl10/test/00855,deer,ResNet-50 + linear head,4,deer,4,True,0.9078306
+2854,7,stl10/test/02854,monkey,ResNet-50 + linear head,7,monkey,7,True,0.9374395
+5092,1,stl10/test/05092,bird,ResNet-50 + linear head,1,bird,1,True,0.9997794
+5590,9,stl10/test/05590,truck,ResNet-50 + linear head,0,airplane,9,False,0.45080847
+4463,3,stl10/test/04463,cat,ResNet-50 + linear head,3,cat,3,True,0.99917537
+5318,2,stl10/test/05318,car,ResNet-50 + linear head,2,car,2,True,0.9956808
+3515,6,stl10/test/03515,horse,ResNet-50 + linear head,4,deer,6,False,0.5136364
+4642,4,stl10/test/04642,deer,ResNet-50 + linear head,4,deer,4,True,0.83546007
+852,9,stl10/test/00852,truck,ResNet-50 + linear head,9,truck,9,True,0.89530075
+1247,8,stl10/test/01247,ship,ResNet-50 + linear head,8,ship,8,True,0.9978725
+7084,2,stl10/test/07084,car,ResNet-50 + linear head,2,car,2,True,0.9905069
+5301,9,stl10/test/05301,truck,ResNet-50 + linear head,0,airplane,9,False,0.41442236
+5082,6,stl10/test/05082,horse,ResNet-50 + linear head,6,horse,6,True,0.98643494
+5077,4,stl10/test/05077,deer,ResNet-50 + linear head,4,deer,4,True,0.9796286
+1563,3,stl10/test/01563,cat,ResNet-50 + linear head,7,monkey,3,False,0.70238066
+29,7,stl10/test/00029,monkey,ResNet-50 + linear head,3,cat,7,False,0.4724093
+3867,7,stl10/test/03867,monkey,ResNet-50 + linear head,7,monkey,7,True,0.76684606
+4620,6,stl10/test/04620,horse,ResNet-50 + linear head,6,horse,6,True,0.99155796
+4065,2,stl10/test/04065,car,ResNet-50 + linear head,2,car,2,True,0.97917616
+1095,5,stl10/test/01095,dog,ResNet-50 + linear head,5,dog,5,True,0.94415516
+4229,3,stl10/test/04229,cat,ResNet-50 + linear head,3,cat,3,True,0.9437669
+3562,3,stl10/test/03562,cat,ResNet-50 + linear head,4,deer,3,False,0.554206
+2342,8,stl10/test/02342,ship,ResNet-50 + linear head,8,ship,8,True,0.9823789
+1667,6,stl10/test/01667,horse,ResNet-50 + linear head,6,horse,6,True,0.95652866
+7033,1,stl10/test/07033,bird,ResNet-50 + linear head,3,cat,1,False,0.344181
+1771,7,stl10/test/01771,monkey,ResNet-50 + linear head,4,deer,7,False,0.90975875
+3157,8,stl10/test/03157,ship,ResNet-50 + linear head,8,ship,8,True,0.9816496
+3851,3,stl10/test/03851,cat,ResNet-50 + linear head,5,dog,3,False,0.8600846
+1287,7,stl10/test/01287,monkey,ResNet-50 + linear head,7,monkey,7,True,0.73172075
+7320,0,stl10/test/07320,airplane,ResNet-50 + linear head,0,airplane,0,True,0.9930386
+7600,6,stl10/test/07600,horse,ResNet-50 + linear head,6,horse,6,True,0.99973124
+3852,5,stl10/test/03852,dog,ResNet-50 + linear head,5,dog,5,True,0.96580863
+269,7,stl10/test/00269,monkey,ResNet-50 + linear head,5,dog,7,False,0.6012808
+1703,7,stl10/test/01703,monkey,ResNet-50 + linear head,3,cat,7,False,0.7873681
+7776,5,stl10/test/07776,dog,ResNet-50 + linear head,5,dog,5,True,0.6088965
+3891,4,stl10/test/03891,deer,ResNet-50 + linear head,4,deer,4,True,0.8186128
+7009,0,stl10/test/07009,airplane,ResNet-50 + linear head,0,airplane,0,True,0.96043444
+4893,0,stl10/test/04893,airplane,ResNet-50 + linear head,0,airplane,0,True,0.98862946
+2351,9,stl10/test/02351,truck,ResNet-50 + linear head,9,truck,9,True,0.9475528
+3550,1,stl10/test/03550,bird,ResNet-50 + linear head,1,bird,1,True,0.79043037
+5719,7,stl10/test/05719,monkey,ResNet-50 + linear head,7,monkey,7,True,0.9818771
+1884,7,stl10/test/01884,monkey,ResNet-50 + linear head,7,monkey,7,True,0.8806274
+2898,4,stl10/test/02898,deer,ResNet-50 + linear head,4,deer,4,True,0.5283619
+4640,1,stl10/test/04640,bird,ResNet-50 + linear head,1,bird,1,True,0.85590017
+7610,4,stl10/test/07610,deer,ResNet-50 + linear head,4,deer,4,True,0.9058467
+1833,8,stl10/test/01833,ship,ResNet-50 + linear head,8,ship,8,True,0.94843584
+6455,0,stl10/test/06455,airplane,ResNet-50 + linear head,0,airplane,0,True,0.9625666
+3893,9,stl10/test/03893,truck,ResNet-50 + linear head,9,truck,9,True,0.9849262
+4731,6,stl10/test/04731,horse,ResNet-50 + linear head,6,horse,6,True,0.9764605
+929,6,stl10/test/00929,horse,ResNet-50 + linear head,6,horse,6,True,0.9261361
+3962,6,stl10/test/03962,horse,ResNet-50 + linear head,6,horse,6,True,0.6330212
+3778,3,stl10/test/03778,cat,ResNet-50 + linear head,3,cat,3,True,0.9844996
+1429,4,stl10/test/01429,deer,ResNet-50 + linear head,4,deer,4,True,0.9841323
+49,2,stl10/test/00049,car,ResNet-50 + linear head,2,car,2,True,0.9575784
+276,9,stl10/test/00276,truck,ResNet-50 + linear head,9,truck,9,True,0.72761816
+6076,1,stl10/test/06076,bird,ResNet-50 + linear head,1,bird,1,True,0.98687196
+1389,0,stl10/test/01389,airplane,ResNet-50 + linear head,0,airplane,0,True,0.9918582
+3362,2,stl10/test/03362,car,ResNet-50 + linear head,2,car,2,True,0.9693425
+317,2,stl10/test/00317,car,ResNet-50 + linear head,2,car,2,True,0.9629636
+4675,0,stl10/test/04675,airplane,ResNet-50 + linear head,0,airplane,0,True,0.9979393
+5924,5,stl10/test/05924,dog,ResNet-50 + linear head,5,dog,5,True,0.930542
+198,1,stl10/test/00198,bird,ResNet-50 + linear head,1,bird,1,True,0.89060485
+7779,6,stl10/test/07779,horse,ResNet-50 + linear head,6,horse,6,True,0.99229187
+4054,4,stl10/test/04054,deer,ResNet-50 + linear head,4,deer,4,True,0.7946723
+5556,4,stl10/test/05556,deer,ResNet-50 + linear head,4,deer,4,True,0.80982965
+2687,1,stl10/test/02687,bird,ResNet-50 + linear head,1,bird,1,True,0.99913234
+1202,2,stl10/test/01202,car,ResNet-50 + linear head,2,car,2,True,0.9910484
+97,5,stl10/test/00097,dog,ResNet-50 + linear head,5,dog,5,True,0.6863995
+6033,4,stl10/test/06033,deer,ResNet-50 + linear head,4,deer,4,True,0.9919735
+1711,7,stl10/test/01711,monkey,ResNet-50 + linear head,7,monkey,7,True,0.9121332
+1430,9,stl10/test/01430,truck,ResNet-50 + linear head,9,truck,9,True,0.84504265
+739,8,stl10/test/00739,ship,ResNet-50 + linear head,8,ship,8,True,0.9924932
+3491,1,stl10/test/03491,bird,ResNet-50 + linear head,1,bird,1,True,0.95943445
+1568,1,stl10/test/01568,bird,ResNet-50 + linear head,1,bird,1,True,0.8676821
+1211,4,stl10/test/01211,deer,ResNet-50 + linear head,4,deer,4,True,0.90283847
+4913,2,stl10/test/04913,car,ResNet-50 + linear head,2,car,2,True,0.979227
+2502,2,stl10/test/02502,car,ResNet-50 + linear head,2,car,2,True,0.9910651
+2539,3,stl10/test/02539,cat,ResNet-50 + linear head,3,cat,3,True,0.99745923
+979,3,stl10/test/00979,cat,ResNet-50 + linear head,3,cat,3,True,0.99910337
+6354,2,stl10/test/06354,car,ResNet-50 + linear head,2,car,2,True,0.9799223
+4735,2,stl10/test/04735,car,ResNet-50 + linear head,2,car,2,True,0.8875756
+5912,0,stl10/test/05912,airplane,ResNet-50 + linear head,0,airplane,0,True,0.99338984
+3844,6,stl10/test/03844,horse,ResNet-50 + linear head,6,horse,6,True,0.829581
+1263,3,stl10/test/01263,cat,ResNet-50 + linear head,4,deer,3,False,0.61800086
+3404,7,stl10/test/03404,monkey,ResNet-50 + linear head,7,monkey,7,True,0.95190203
+3905,8,stl10/test/03905,ship,ResNet-50 + linear head,8,ship,8,True,0.95152456
+1596,0,stl10/test/01596,airplane,ResNet-50 + linear head,8,ship,0,False,0.58737445
+3083,0,stl10/test/03083,airplane,ResNet-50 + linear head,0,airplane,0,True,0.8645683
+2003,6,stl10/test/02003,horse,ResNet-50 + linear head,6,horse,6,True,0.99070144
+5030,2,stl10/test/05030,car,ResNet-50 + linear head,2,car,2,True,0.988439
+95,1,stl10/test/00095,bird,ResNet-50 + linear head,1,bird,1,True,0.99617696
+2757,4,stl10/test/02757,deer,ResNet-50 + linear head,4,deer,4,True,0.73815954
+3413,1,stl10/test/03413,bird,ResNet-50 + linear head,1,bird,1,True,0.9998357
+5488,1,stl10/test/05488,bird,ResNet-50 + linear head,7,monkey,7,True,0.6060352
+4827,6,stl10/test/04827,horse,ResNet-50 + linear head,6,horse,6,True,0.9965507
+1877,5,stl10/test/01877,dog,ResNet-50 + linear head,4,deer,5,False,0.7624296
+2157,1,stl10/test/02157,bird,ResNet-50 + linear head,1,bird,1,True,0.9999082
+4821,3,stl10/test/04821,cat,ResNet-50 + linear head,3,cat,3,True,0.9815221
+4953,5,stl10/test/04953,dog,ResNet-50 + linear head,3,cat,5,False,0.8030422
+5525,8,stl10/test/05525,ship,ResNet-50 + linear head,8,ship,8,True,0.98667186
+5381,5,stl10/test/05381,dog,ResNet-50 + linear head,6,horse,5,False,0.97864145
+672,3,stl10/test/00672,cat,ResNet-50 + linear head,3,cat,3,True,0.9487296
+323,7,stl10/test/00323,monkey,ResNet-50 + linear head,7,monkey,7,True,0.41242853
+5436,7,stl10/test/05436,monkey,ResNet-50 + linear head,7,monkey,7,True,0.86843574
+5450,7,stl10/test/05450,monkey,ResNet-50 + linear head,7,monkey,7,True,0.93210155
+6358,5,stl10/test/06358,dog,ResNet-50 + linear head,3,cat,5,False,0.39039212
+372,3,stl10/test/00372,cat,ResNet-50 + linear head,3,cat,3,True,0.74787647
+378,5,stl10/test/00378,dog,ResNet-50 + linear head,5,dog,5,True,0.9764396
+7706,5,stl10/test/07706,dog,ResNet-50 + linear head,3,cat,5,False,0.45892814
+2178,1,stl10/test/02178,bird,ResNet-50 + linear head,1,bird,1,True,0.9999957
+5237,2,stl10/test/05237,car,ResNet-50 + linear head,2,car,2,True,0.9623571
+5478,0,stl10/test/05478,airplane,ResNet-50 + linear head,0,airplane,0,True,0.9310938
+5452,9,stl10/test/05452,truck,ResNet-50 + linear head,9,truck,9,True,0.930375
+5623,4,stl10/test/05623,deer,ResNet-50 + linear head,4,deer,4,True,0.84315187
+6772,7,stl10/test/06772,monkey,ResNet-50 + linear head,3,cat,7,False,0.3931609
+1111,4,stl10/test/01111,deer,ResNet-50 + linear head,4,deer,4,True,0.9663811
+5528,3,stl10/test/05528,cat,ResNet-50 + linear head,5,dog,5,True,0.74482393
+3777,6,stl10/test/03777,horse,ResNet-50 + linear head,6,horse,6,True,0.8701287
+2458,5,stl10/test/02458,dog,ResNet-50 + linear head,3,cat,5,False,0.43831545
+4921,2,stl10/test/04921,car,ResNet-50 + linear head,2,car,2,True,0.95221895
+3015,8,stl10/test/03015,ship,ResNet-50 + linear head,8,ship,8,True,0.9956606
+7476,8,stl10/test/07476,ship,ResNet-50 + linear head,8,ship,8,True,0.9398454
+1520,2,stl10/test/01520,car,ResNet-50 + linear head,2,car,2,True,0.99140304
+6713,6,stl10/test/06713,horse,ResNet-50 + linear head,6,horse,6,True,0.9060044
+1852,1,stl10/test/01852,bird,ResNet-50 + linear head,1,bird,1,True,0.99988854
+2268,5,stl10/test/02268,dog,ResNet-50 + linear head,5,dog,5,True,0.9914129
+151,8,stl10/test/00151,ship,ResNet-50 + linear head,8,ship,8,True,0.9887756
+890,6,stl10/test/00890,horse,ResNet-50 + linear head,6,horse,6,True,0.9666462
+825,1,stl10/test/00825,bird,ResNet-50 + linear head,1,bird,1,True,0.88193065
+2536,3,stl10/test/02536,cat,ResNet-50 + linear head,3,cat,3,True,0.98866326
+470,2,stl10/test/00470,car,ResNet-50 + linear head,2,car,2,True,0.95744276
+5256,1,stl10/test/05256,bird,ResNet-50 + linear head,1,bird,1,True,0.9995623
+2011,9,stl10/test/02011,truck,ResNet-50 + linear head,9,truck,9,True,0.92445856
+7150,0,stl10/test/07150,airplane,ResNet-50 + linear head,0,airplane,0,True,0.99104136
+449,6,stl10/test/00449,horse,ResNet-50 + linear head,6,horse,6,True,0.91812027
+2704,4,stl10/test/02704,deer,ResNet-50 + linear head,4,deer,4,True,0.9059785
+3437,0,stl10/test/03437,airplane,ResNet-50 + linear head,0,airplane,0,True,0.87525046
+3375,3,stl10/test/03375,cat,ResNet-50 + linear head,3,cat,3,True,0.6781664
+4552,8,stl10/test/04552,ship,ResNet-50 + linear head,8,ship,8,True,0.9822465
+920,6,stl10/test/00920,horse,ResNet-50 + linear head,6,horse,6,True,0.733293
+2242,0,stl10/test/02242,airplane,ResNet-50 + linear head,0,airplane,0,True,0.9671677
+2745,8,stl10/test/02745,ship,ResNet-50 + linear head,8,ship,8,True,0.9853042
+1032,7,stl10/test/01032,monkey,ResNet-50 + linear head,7,monkey,7,True,0.9777569
+365,3,stl10/test/00365,cat,ResNet-50 + linear head,3,cat,3,True,0.9793245
+4850,5,stl10/test/04850,dog,ResNet-50 + linear head,5,dog,5,True,0.9819603
+4819,0,stl10/test/04819,airplane,ResNet-50 + linear head,0,airplane,0,True,0.97099394
+7338,6,stl10/test/07338,horse,ResNet-50 + linear head,6,horse,6,True,0.7398733
+7372,0,stl10/test/07372,airplane,ResNet-50 + linear head,0,airplane,0,True,0.9934223
+1090,1,stl10/test/01090,bird,ResNet-50 + linear head,1,bird,1,True,0.89965713
+5062,4,stl10/test/05062,deer,ResNet-50 + linear head,4,deer,4,True,0.5137827
+981,2,stl10/test/00981,car,ResNet-50 + linear head,2,car,2,True,0.994645
+5857,6,stl10/test/05857,horse,ResNet-50 + linear head,4,deer,4,True,0.7399078
+1986,1,stl10/test/01986,bird,ResNet-50 + linear head,1,bird,1,True,0.9189285
+5560,1,stl10/test/05560,bird,ResNet-50 + linear head,1,bird,1,True,0.7704811
+1814,2,stl10/test/01814,car,ResNet-50 + linear head,2,car,2,True,0.9370021
+194,8,stl10/test/00194,ship,ResNet-50 + linear head,8,ship,8,True,0.9894259
+1993,1,stl10/test/01993,bird,ResNet-50 + linear head,1,bird,1,True,0.99905914
+5333,2,stl10/test/05333,car,ResNet-50 + linear head,2,car,2,True,0.9606325
+4311,8,stl10/test/04311,ship,ResNet-50 + linear head,8,ship,8,True,0.999421
+7425,2,stl10/test/07425,car,ResNet-50 + linear head,2,car,2,True,0.9945457
+3889,5,stl10/test/03889,dog,ResNet-50 + linear head,5,dog,5,True,0.96630394
+4308,7,stl10/test/04308,monkey,ResNet-50 + linear head,7,monkey,7,True,0.77089614
+1960,4,stl10/test/01960,deer,ResNet-50 + linear head,4,deer,4,True,0.65415925
+4399,0,stl10/test/04399,airplane,ResNet-50 + linear head,0,airplane,0,True,0.9621979
+3191,6,stl10/test/03191,horse,ResNet-50 + linear head,4,deer,6,False,0.719267
+1626,5,stl10/test/01626,dog,ResNet-50 + linear head,5,dog,5,True,0.91209275
+176,3,stl10/test/00176,cat,ResNet-50 + linear head,3,cat,3,True,0.994011
+7726,6,stl10/test/07726,horse,ResNet-50 + linear head,6,horse,6,True,0.97918916
+2334,5,stl10/test/02334,dog,ResNet-50 + linear head,5,dog,5,True,0.9584403
+1648,0,stl10/test/01648,airplane,ResNet-50 + linear head,0,airplane,0,True,0.97666526
+6084,7,stl10/test/06084,monkey,ResNet-50 + linear head,7,monkey,7,True,0.95893437
+3455,0,stl10/test/03455,airplane,ResNet-50 + linear head,0,airplane,0,True,0.9726316
+1468,9,stl10/test/01468,truck,ResNet-50 + linear head,9,truck,9,True,0.98128945
+1296,7,stl10/test/01296,monkey,ResNet-50 + linear head,7,monkey,7,True,0.65807706
+5213,4,stl10/test/05213,deer,ResNet-50 + linear head,4,deer,4,True,0.95670056
+7047,9,stl10/test/07047,truck,ResNet-50 + linear head,9,truck,9,True,0.99108773
+5360,9,stl10/test/05360,truck,ResNet-50 + linear head,9,truck,9,True,0.98501265
+5824,2,stl10/test/05824,car,ResNet-50 + linear head,2,car,2,True,0.9899384
+7460,8,stl10/test/07460,ship,ResNet-50 + linear head,8,ship,8,True,0.93430895
+4791,7,stl10/test/04791,monkey,ResNet-50 + linear head,7,monkey,7,True,0.91116375
+6692,2,stl10/test/06692,car,ResNet-50 + linear head,2,car,2,True,0.896045
+6931,9,stl10/test/06931,truck,ResNet-50 + linear head,4,deer,9,False,0.5117901
+667,8,stl10/test/00667,ship,ResNet-50 + linear head,8,ship,8,True,0.99589854
+7781,6,stl10/test/07781,horse,ResNet-50 + linear head,6,horse,6,True,0.940386
+7793,3,stl10/test/07793,cat,ResNet-50 + linear head,5,dog,5,True,0.64233667
+1411,9,stl10/test/01411,truck,ResNet-50 + linear head,9,truck,9,True,0.8501788
+1473,7,stl10/test/01473,monkey,ResNet-50 + linear head,7,monkey,7,True,0.64207995
+7130,5,stl10/test/07130,dog,ResNet-50 + linear head,5,dog,5,True,0.7386217
+1956,7,stl10/test/01956,monkey,ResNet-50 + linear head,3,cat,3,True,0.8932946
+6716,5,stl10/test/06716,dog,ResNet-50 + linear head,5,dog,5,True,0.60712373
+4106,5,stl10/test/04106,dog,ResNet-50 + linear head,5,dog,5,True,0.8669863
+3494,6,stl10/test/03494,horse,ResNet-50 + linear head,6,horse,6,True,0.9999511
+691,4,stl10/test/00691,deer,ResNet-50 + linear head,4,deer,4,True,0.9640973
+5220,1,stl10/test/05220,bird,ResNet-50 + linear head,3,cat,3,True,0.5021176
+4908,3,stl10/test/04908,cat,ResNet-50 + linear head,3,cat,3,True,0.9990269
+7029,1,stl10/test/07029,bird,ResNet-50 + linear head,1,bird,1,True,0.9949502
+4130,0,stl10/test/04130,airplane,ResNet-50 + linear head,0,airplane,0,True,0.99174225
+7938,9,stl10/test/07938,truck,ResNet-50 + linear head,9,truck,9,True,0.954964
+5101,5,stl10/test/05101,dog,ResNet-50 + linear head,5,dog,5,True,0.9916946
+1515,9,stl10/test/01515,truck,ResNet-50 + linear head,9,truck,9,True,0.95966035
+3287,4,stl10/test/03287,deer,ResNet-50 + linear head,4,deer,4,True,0.9966912
+716,8,stl10/test/00716,ship,ResNet-50 + linear head,8,ship,8,True,0.98477376
+4236,7,stl10/test/04236,monkey,ResNet-50 + linear head,7,monkey,7,True,0.9486756
+5408,6,stl10/test/05408,horse,ResNet-50 + linear head,4,deer,6,False,0.6389727
+5496,5,stl10/test/05496,dog,ResNet-50 + linear head,3,cat,5,False,0.68284726
+3365,4,stl10/test/03365,deer,ResNet-50 + linear head,3,cat,4,False,0.46994507
+4323,3,stl10/test/04323,cat,ResNet-50 + linear head,5,dog,3,False,0.6044924
+5467,4,stl10/test/05467,deer,ResNet-50 + linear head,4,deer,4,True,0.6631381
+1644,5,stl10/test/01644,dog,ResNet-50 + linear head,5,dog,5,True,0.9406851
+3948,8,stl10/test/03948,ship,ResNet-50 + linear head,8,ship,8,True,0.9784144
+6726,7,stl10/test/06726,monkey,ResNet-50 + linear head,4,deer,7,False,0.7150692
+5395,2,stl10/test/05395,car,ResNet-50 + linear head,2,car,2,True,0.99833006
+1579,7,stl10/test/01579,monkey,ResNet-50 + linear head,7,monkey,7,True,0.7375737
+5918,0,stl10/test/05918,airplane,ResNet-50 + linear head,0,airplane,0,True,0.9861596
+7041,5,stl10/test/07041,dog,ResNet-50 + linear head,5,dog,5,True,0.62284726
+506,4,stl10/test/00506,deer,ResNet-50 + linear head,4,deer,4,True,0.8952652
+4011,6,stl10/test/04011,horse,ResNet-50 + linear head,6,horse,6,True,0.9927422
+5981,9,stl10/test/05981,truck,ResNet-50 + linear head,9,truck,9,True,0.65104336
+409,2,stl10/test/00409,car,ResNet-50 + linear head,2,car,2,True,0.9959882
+6954,1,stl10/test/06954,bird,ResNet-50 + linear head,3,cat,1,False,0.6573715
+7555,6,stl10/test/07555,horse,ResNet-50 + linear head,6,horse,6,True,0.977688
+3965,0,stl10/test/03965,airplane,ResNet-50 + linear head,0,airplane,0,True,0.9852638
+7266,9,stl10/test/07266,truck,ResNet-50 + linear head,9,truck,9,True,0.6369274
+4785,0,stl10/test/04785,airplane,ResNet-50 + linear head,0,airplane,0,True,0.5502459
+6028,2,stl10/test/06028,car,ResNet-50 + linear head,2,car,2,True,0.979908
+6503,2,stl10/test/06503,car,ResNet-50 + linear head,2,car,2,True,0.9387969
+6414,5,stl10/test/06414,dog,ResNet-50 + linear head,5,dog,5,True,0.5067811
+5382,6,stl10/test/05382,horse,ResNet-50 + linear head,6,horse,6,True,0.86952466
+6836,1,stl10/test/06836,bird,ResNet-50 + linear head,1,bird,1,True,0.99601173
+6508,4,stl10/test/06508,deer,ResNet-50 + linear head,4,deer,4,True,0.8436893
+3994,4,stl10/test/03994,deer,ResNet-50 + linear head,4,deer,4,True,0.9766154
+3942,9,stl10/test/03942,truck,ResNet-50 + linear head,9,truck,9,True,0.8938161
+3542,7,stl10/test/03542,monkey,ResNet-50 + linear head,7,monkey,7,True,0.9893969
+6952,3,stl10/test/06952,cat,ResNet-50 + linear head,3,cat,3,True,0.99739265
+4290,5,stl10/test/04290,dog,ResNet-50 + linear head,4,deer,5,False,0.4476133
+7446,8,stl10/test/07446,ship,ResNet-50 + linear head,8,ship,8,True,0.996567
+6169,1,stl10/test/06169,bird,ResNet-50 + linear head,1,bird,1,True,0.707271
+1109,1,stl10/test/01109,bird,ResNet-50 + linear head,1,bird,1,True,0.999843
+3179,4,stl10/test/03179,deer,ResNet-50 + linear head,4,deer,4,True,0.843216
+7835,7,stl10/test/07835,monkey,ResNet-50 + linear head,7,monkey,7,True,0.9297025
+7390,1,stl10/test/07390,bird,ResNet-50 + linear head,1,bird,1,True,0.97946244
+568,5,stl10/test/00568,dog,ResNet-50 + linear head,5,dog,5,True,0.96042585
+4629,4,stl10/test/04629,deer,ResNet-50 + linear head,4,deer,4,True,0.9340098
+7138,8,stl10/test/07138,ship,ResNet-50 + linear head,8,ship,8,True,0.94826496
+5284,9,stl10/test/05284,truck,ResNet-50 + linear head,9,truck,9,True,0.993091
+3,0,stl10/test/00003,airplane,ResNet-50 + linear head,0,airplane,0,True,0.8389239
+2690,1,stl10/test/02690,bird,ResNet-50 + linear head,1,bird,1,True,0.97607136
+5858,6,stl10/test/05858,horse,ResNet-50 + linear head,6,horse,6,True,0.6768787
+1266,4,stl10/test/01266,deer,ResNet-50 + linear head,4,deer,4,True,0.7890474
+3034,4,stl10/test/03034,deer,ResNet-50 + linear head,4,deer,4,True,0.8442555
+2655,9,stl10/test/02655,truck,ResNet-50 + linear head,9,truck,9,True,0.88086843
+6190,7,stl10/test/06190,monkey,ResNet-50 + linear head,7,monkey,7,True,0.76563996
+4170,8,stl10/test/04170,ship,ResNet-50 + linear head,8,ship,8,True,0.9597743
+7380,9,stl10/test/07380,truck,ResNet-50 + linear head,2,car,9,False,0.521165
+7752,9,stl10/test/07752,truck,ResNet-50 + linear head,9,truck,9,True,0.98467004
+3996,9,stl10/test/03996,truck,ResNet-50 + linear head,9,truck,9,True,0.39265135
+1204,3,stl10/test/01204,cat,ResNet-50 + linear head,3,cat,3,True,0.9642996
+1654,9,stl10/test/01654,truck,ResNet-50 + linear head,9,truck,9,True,0.9989555
+4746,6,stl10/test/04746,horse,ResNet-50 + linear head,6,horse,6,True,0.88007545
+4590,3,stl10/test/04590,cat,ResNet-50 + linear head,3,cat,3,True,0.9888678
+562,0,stl10/test/00562,airplane,ResNet-50 + linear head,0,airplane,0,True,0.99548656
+7108,6,stl10/test/07108,horse,ResNet-50 + linear head,6,horse,6,True,0.9803345
+5999,0,stl10/test/05999,airplane,ResNet-50 + linear head,0,airplane,0,True,0.98837155
+1403,2,stl10/test/01403,car,ResNet-50 + linear head,2,car,2,True,0.9986676
+4403,7,stl10/test/04403,monkey,ResNet-50 + linear head,7,monkey,7,True,0.93318206
+6332,2,stl10/test/06332,car,ResNet-50 + linear head,2,car,2,True,0.85981166
+6264,2,stl10/test/06264,car,ResNet-50 + linear head,2,car,2,True,0.99003905
+303,9,stl10/test/00303,truck,ResNet-50 + linear head,9,truck,9,True,0.9770832
+791,3,stl10/test/00791,cat,ResNet-50 + linear head,3,cat,3,True,0.9868435
+3067,2,stl10/test/03067,car,ResNet-50 + linear head,2,car,2,True,0.97130156
+484,0,stl10/test/00484,airplane,ResNet-50 + linear head,8,ship,0,False,0.83098763
+1370,3,stl10/test/01370,cat,ResNet-50 + linear head,3,cat,3,True,0.9275589
+4069,8,stl10/test/04069,ship,ResNet-50 + linear head,4,deer,8,False,0.56142366
+7373,0,stl10/test/07373,airplane,ResNet-50 + linear head,0,airplane,0,True,0.91787094
+4330,3,stl10/test/04330,cat,ResNet-50 + linear head,3,cat,3,True,0.72644585
+5701,5,stl10/test/05701,dog,ResNet-50 + linear head,5,dog,5,True,0.7397579
+7465,0,stl10/test/07465,airplane,ResNet-50 + linear head,0,airplane,0,True,0.99281436
+1531,3,stl10/test/01531,cat,ResNet-50 + linear head,5,dog,3,False,0.49548554
+4676,8,stl10/test/04676,ship,ResNet-50 + linear head,8,ship,8,True,0.99927443
+4531,3,stl10/test/04531,cat,ResNet-50 + linear head,3,cat,3,True,0.8258455
+706,8,stl10/test/00706,ship,ResNet-50 + linear head,8,ship,8,True,0.9895326
+2844,8,stl10/test/02844,ship,ResNet-50 + linear head,8,ship,8,True,0.9737824
+3755,2,stl10/test/03755,car,ResNet-50 + linear head,2,car,2,True,0.99479115
+5848,7,stl10/test/05848,monkey,ResNet-50 + linear head,7,monkey,7,True,0.96960044
+2114,9,stl10/test/02114,truck,ResNet-50 + linear head,9,truck,9,True,0.9465162
+3876,0,stl10/test/03876,airplane,ResNet-50 + linear head,0,airplane,0,True,0.9745796
+677,3,stl10/test/00677,cat,ResNet-50 + linear head,3,cat,3,True,0.98409003
+2116,1,stl10/test/02116,bird,ResNet-50 + linear head,3,cat,3,True,0.6563854
+4661,7,stl10/test/04661,monkey,ResNet-50 + linear head,7,monkey,7,True,0.6949017
+2676,6,stl10/test/02676,horse,ResNet-50 + linear head,6,horse,6,True,0.94536495
+3025,0,stl10/test/03025,airplane,ResNet-50 + linear head,0,airplane,0,True,0.51775616
+4449,9,stl10/test/04449,truck,ResNet-50 + linear head,9,truck,9,True,0.78440315
+977,6,stl10/test/00977,horse,ResNet-50 + linear head,6,horse,6,True,0.9951599
+4990,8,stl10/test/04990,ship,ResNet-50 + linear head,8,ship,8,True,0.969828
+7309,0,stl10/test/07309,airplane,ResNet-50 + linear head,0,airplane,0,True,0.970326
+1048,7,stl10/test/01048,monkey,ResNet-50 + linear head,7,monkey,7,True,0.5933287
+3276,3,stl10/test/03276,cat,ResNet-50 + linear head,4,deer,3,False,0.5337639
+5512,2,stl10/test/05512,car,ResNet-50 + linear head,9,truck,9,True,0.74307173
+7692,4,stl10/test/07692,deer,ResNet-50 + linear head,4,deer,4,True,0.97093964
+1436,1,stl10/test/01436,bird,ResNet-50 + linear head,1,bird,1,True,0.99072695
+7544,9,stl10/test/07544,truck,ResNet-50 + linear head,9,truck,9,True,0.9770652
+3383,3,stl10/test/03383,cat,ResNet-50 + linear head,3,cat,3,True,0.9902858
+1977,0,stl10/test/01977,airplane,ResNet-50 + linear head,0,airplane,0,True,0.9501291
+2750,0,stl10/test/02750,airplane,ResNet-50 + linear head,0,airplane,0,True,0.9382221
+7996,6,stl10/test/07996,horse,ResNet-50 + linear head,6,horse,6,True,0.99483216
+6989,5,stl10/test/06989,dog,ResNet-50 + linear head,5,dog,5,True,0.65200424
+1431,3,stl10/test/01431,cat,ResNet-50 + linear head,5,dog,3,False,0.43542948
+7416,3,stl10/test/07416,cat,ResNet-50 + linear head,5,dog,5,True,0.9930113
+4547,5,stl10/test/04547,dog,ResNet-50 + linear head,5,dog,5,True,0.9525284
+42,0,stl10/test/00042,airplane,ResNet-50 + linear head,0,airplane,0,True,0.4996831
+5117,0,stl10/test/05117,airplane,ResNet-50 + linear head,0,airplane,0,True,0.99619776
+4411,6,stl10/test/04411,horse,ResNet-50 + linear head,6,horse,6,True,0.9731759
+5789,4,stl10/test/05789,deer,ResNet-50 + linear head,4,deer,4,True,0.9654682
+483,2,stl10/test/00483,car,ResNet-50 + linear head,2,car,2,True,0.9775759
+6650,7,stl10/test/06650,monkey,ResNet-50 + linear head,7,monkey,7,True,0.8877511
+4881,3,stl10/test/04881,cat,ResNet-50 + linear head,3,cat,3,True,0.87340283
+391,3,stl10/test/00391,cat,ResNet-50 + linear head,3,cat,3,True,0.572126
+370,7,stl10/test/00370,monkey,ResNet-50 + linear head,7,monkey,7,True,0.85755724
+419,9,stl10/test/00419,truck,ResNet-50 + linear head,9,truck,9,True,0.885236
+3318,9,stl10/test/03318,truck,ResNet-50 + linear head,9,truck,9,True,0.7336648
+4355,8,stl10/test/04355,ship,ResNet-50 + linear head,8,ship,8,True,0.7732084
+5402,4,stl10/test/05402,deer,ResNet-50 + linear head,4,deer,4,True,0.9490458
+5332,5,stl10/test/05332,dog,ResNet-50 + linear head,5,dog,5,True,0.85488665
+239,9,stl10/test/00239,truck,ResNet-50 + linear head,9,truck,9,True,0.94564545
+6271,2,stl10/test/06271,car,ResNet-50 + linear head,2,car,2,True,0.9776609
+1129,8,stl10/test/01129,ship,ResNet-50 + linear head,8,ship,8,True,0.9906094
+2391,5,stl10/test/02391,dog,ResNet-50 + linear head,4,deer,5,False,0.73195595
+191,9,stl10/test/00191,truck,ResNet-50 + linear head,2,car,9,False,0.6266608
+5447,9,stl10/test/05447,truck,ResNet-50 + linear head,9,truck,9,True,0.96529305
+6528,4,stl10/test/06528,deer,ResNet-50 + linear head,4,deer,4,True,0.9024949
+632,3,stl10/test/00632,cat,ViT-B/16 + linear head,3,cat,3,True,0.99934703
+131,9,stl10/test/00131,truck,ViT-B/16 + linear head,9,truck,9,True,0.685719
+7081,7,stl10/test/07081,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.9850235
+1836,9,stl10/test/01836,truck,ViT-B/16 + linear head,9,truck,9,True,0.70897275
+6437,0,stl10/test/06437,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.9719568
+6609,0,stl10/test/06609,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.9810114
+3467,7,stl10/test/03467,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.75124204
+1401,3,stl10/test/01401,cat,ViT-B/16 + linear head,3,cat,3,True,0.99723095
+1839,2,stl10/test/01839,car,ViT-B/16 + linear head,2,car,2,True,0.9954881
+4168,3,stl10/test/04168,cat,ViT-B/16 + linear head,3,cat,3,True,0.98988944
+35,2,stl10/test/00035,car,ViT-B/16 + linear head,2,car,2,True,0.471971
+4177,8,stl10/test/04177,ship,ViT-B/16 + linear head,8,ship,8,True,0.93859446
+7270,7,stl10/test/07270,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.92500496
+2265,5,stl10/test/02265,dog,ViT-B/16 + linear head,4,deer,5,False,0.5355643
+3288,7,stl10/test/03288,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.9890583
+5451,8,stl10/test/05451,ship,ViT-B/16 + linear head,8,ship,8,True,0.97462386
+4023,3,stl10/test/04023,cat,ViT-B/16 + linear head,3,cat,3,True,0.94685996
+261,1,stl10/test/00261,bird,ViT-B/16 + linear head,5,dog,1,False,0.24851502
+4570,5,stl10/test/04570,dog,ViT-B/16 + linear head,5,dog,5,True,0.92999184
+4966,5,stl10/test/04966,dog,ViT-B/16 + linear head,5,dog,5,True,0.73320824
+7955,1,stl10/test/07955,bird,ViT-B/16 + linear head,1,bird,1,True,0.9658005
+6288,4,stl10/test/06288,deer,ViT-B/16 + linear head,4,deer,4,True,0.9301385
+7810,8,stl10/test/07810,ship,ViT-B/16 + linear head,8,ship,8,True,0.9958246
+1927,7,stl10/test/01927,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.99035746
+1871,1,stl10/test/01871,bird,ViT-B/16 + linear head,1,bird,1,True,0.36506
+6922,5,stl10/test/06922,dog,ViT-B/16 + linear head,5,dog,5,True,0.9861812
+3512,4,stl10/test/03512,deer,ViT-B/16 + linear head,4,deer,4,True,0.97909194
+4754,6,stl10/test/04754,horse,ViT-B/16 + linear head,6,horse,6,True,0.9969003
+714,2,stl10/test/00714,car,ViT-B/16 + linear head,0,airplane,2,False,0.37995902
+2191,8,stl10/test/02191,ship,ViT-B/16 + linear head,8,ship,8,True,0.92253196
+4615,0,stl10/test/04615,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.99466103
+4662,8,stl10/test/04662,ship,ViT-B/16 + linear head,8,ship,8,True,0.9980578
+5915,9,stl10/test/05915,truck,ViT-B/16 + linear head,9,truck,9,True,0.9699921
+766,4,stl10/test/00766,deer,ViT-B/16 + linear head,4,deer,6,False,0.4787613
+5218,2,stl10/test/05218,car,ViT-B/16 + linear head,2,car,2,True,0.99218595
+2340,8,stl10/test/02340,ship,ViT-B/16 + linear head,8,ship,8,True,0.99804926
+1954,8,stl10/test/01954,ship,ViT-B/16 + linear head,8,ship,8,True,0.92196316
+7875,8,stl10/test/07875,ship,ViT-B/16 + linear head,8,ship,8,True,0.9950722
+3418,6,stl10/test/03418,horse,ViT-B/16 + linear head,6,horse,6,True,0.99371207
+5572,9,stl10/test/05572,truck,ViT-B/16 + linear head,9,truck,9,True,0.43304002
+5977,7,stl10/test/05977,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.99194884
+5123,1,stl10/test/05123,bird,ViT-B/16 + linear head,1,bird,1,True,0.48075873
+5851,9,stl10/test/05851,truck,ViT-B/16 + linear head,9,truck,9,True,0.99677116
+4094,9,stl10/test/04094,truck,ViT-B/16 + linear head,9,truck,9,True,0.96597975
+4254,6,stl10/test/04254,horse,ViT-B/16 + linear head,6,horse,6,True,0.6339499
+2501,7,stl10/test/02501,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.9457078
+6938,1,stl10/test/06938,bird,ViT-B/16 + linear head,1,bird,1,True,0.99952614
+171,4,stl10/test/00171,deer,ViT-B/16 + linear head,4,deer,4,True,0.9750758
+4215,3,stl10/test/04215,cat,ViT-B/16 + linear head,3,cat,3,True,0.49735114
+5705,8,stl10/test/05705,ship,ViT-B/16 + linear head,8,ship,8,True,0.9946109
+3458,4,stl10/test/03458,deer,ViT-B/16 + linear head,4,deer,4,True,0.9984875
+1220,7,stl10/test/01220,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.9948715
+962,8,stl10/test/00962,ship,ViT-B/16 + linear head,8,ship,8,True,0.9992231
+2950,5,stl10/test/02950,dog,ViT-B/16 + linear head,5,dog,5,True,0.9643445
+2623,5,stl10/test/02623,dog,ViT-B/16 + linear head,5,dog,5,True,0.92001605
+4539,0,stl10/test/04539,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.99060434
+1553,0,stl10/test/01553,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.99622476
+4740,4,stl10/test/04740,deer,ViT-B/16 + linear head,4,deer,4,True,0.9438423
+6844,0,stl10/test/06844,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.99673504
+2668,7,stl10/test/02668,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.9985757
+3153,7,stl10/test/03153,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.9297284
+5135,4,stl10/test/05135,deer,ViT-B/16 + linear head,4,deer,4,True,0.98916537
+2291,3,stl10/test/02291,cat,ViT-B/16 + linear head,4,deer,3,False,0.43428522
+116,1,stl10/test/00116,bird,ViT-B/16 + linear head,1,bird,1,True,0.75609744
+7797,3,stl10/test/07797,cat,ViT-B/16 + linear head,3,cat,3,True,0.9193531
+4609,3,stl10/test/04609,cat,ViT-B/16 + linear head,3,cat,3,True,0.9783231
+81,0,stl10/test/00081,airplane,ViT-B/16 + linear head,8,ship,0,False,0.6327709
+5580,6,stl10/test/05580,horse,ViT-B/16 + linear head,5,dog,5,True,0.82009596
+3024,2,stl10/test/03024,car,ViT-B/16 + linear head,2,car,2,True,0.92624414
+2766,5,stl10/test/02766,dog,ViT-B/16 + linear head,5,dog,5,True,0.94913405
+5000,8,stl10/test/05000,ship,ViT-B/16 + linear head,8,ship,8,True,0.98282754
+2610,6,stl10/test/02610,horse,ViT-B/16 + linear head,6,horse,6,True,0.5193782
+2024,0,stl10/test/02024,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.97662747
+6097,4,stl10/test/06097,deer,ViT-B/16 + linear head,4,deer,4,True,0.7721613
+964,6,stl10/test/00964,horse,ViT-B/16 + linear head,6,horse,6,True,0.9694491
+7634,0,stl10/test/07634,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.95410496
+6434,8,stl10/test/06434,ship,ViT-B/16 + linear head,8,ship,8,True,0.9905738
+5183,2,stl10/test/05183,car,ViT-B/16 + linear head,2,car,2,True,0.9655443
+6986,0,stl10/test/06986,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.881681
+645,5,stl10/test/00645,dog,ViT-B/16 + linear head,5,dog,5,True,0.98907346
+3347,0,stl10/test/03347,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.98624265
+5677,2,stl10/test/05677,car,ViT-B/16 + linear head,2,car,2,True,0.97530895
+3412,8,stl10/test/03412,ship,ViT-B/16 + linear head,8,ship,8,True,0.9941896
+3937,1,stl10/test/03937,bird,ViT-B/16 + linear head,1,bird,1,True,0.9046479
+873,6,stl10/test/00873,horse,ViT-B/16 + linear head,4,deer,6,False,0.5957145
+2167,9,stl10/test/02167,truck,ViT-B/16 + linear head,9,truck,9,True,0.84785414
+6490,3,stl10/test/06490,cat,ViT-B/16 + linear head,3,cat,3,True,0.8498519
+738,3,stl10/test/00738,cat,ViT-B/16 + linear head,4,deer,3,False,0.5420912
+6616,2,stl10/test/06616,car,ViT-B/16 + linear head,2,car,2,True,0.98758507
+4093,6,stl10/test/04093,horse,ViT-B/16 + linear head,6,horse,6,True,0.5930471
+5788,9,stl10/test/05788,truck,ViT-B/16 + linear head,9,truck,9,True,0.9996412
+7818,8,stl10/test/07818,ship,ViT-B/16 + linear head,8,ship,8,True,0.9888337
+304,1,stl10/test/00304,bird,ViT-B/16 + linear head,7,monkey,1,False,0.56646436
+2082,2,stl10/test/02082,car,ViT-B/16 + linear head,2,car,2,True,0.75437033
+2746,7,stl10/test/02746,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.877228
+7944,4,stl10/test/07944,deer,ViT-B/16 + linear head,4,deer,4,True,0.64281386
+6689,8,stl10/test/06689,ship,ViT-B/16 + linear head,8,ship,8,True,0.99178714
+2414,9,stl10/test/02414,truck,ViT-B/16 + linear head,2,car,9,False,0.37007248
+3779,6,stl10/test/03779,horse,ViT-B/16 + linear head,6,horse,6,True,0.752959
+2095,1,stl10/test/02095,bird,ViT-B/16 + linear head,1,bird,1,True,0.94330144
+7262,0,stl10/test/07262,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.997591
+5694,8,stl10/test/05694,ship,ViT-B/16 + linear head,8,ship,8,True,0.98011416
+7413,5,stl10/test/07413,dog,ViT-B/16 + linear head,5,dog,5,True,0.52233803
+6805,1,stl10/test/06805,bird,ViT-B/16 + linear head,0,airplane,1,False,0.5013349
+3446,7,stl10/test/03446,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.8284971
+2807,5,stl10/test/02807,dog,ViT-B/16 + linear head,4,deer,4,True,0.731411
+7940,4,stl10/test/07940,deer,ViT-B/16 + linear head,4,deer,4,True,0.9246954
+4172,7,stl10/test/04172,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.98412144
+7744,3,stl10/test/07744,cat,ViT-B/16 + linear head,5,dog,3,False,0.4924009
+1586,2,stl10/test/01586,car,ViT-B/16 + linear head,2,car,2,True,0.97860956
+7999,8,stl10/test/07999,ship,ViT-B/16 + linear head,8,ship,8,True,0.99665725
+6349,1,stl10/test/06349,bird,ViT-B/16 + linear head,1,bird,1,True,0.87269807
+6594,1,stl10/test/06594,bird,ViT-B/16 + linear head,1,bird,1,True,0.9599282
+2109,8,stl10/test/02109,ship,ViT-B/16 + linear head,8,ship,8,True,0.981111
+3079,1,stl10/test/03079,bird,ViT-B/16 + linear head,1,bird,1,True,0.98823327
+2070,1,stl10/test/02070,bird,ViT-B/16 + linear head,1,bird,1,True,0.9444717
+319,5,stl10/test/00319,dog,ViT-B/16 + linear head,5,dog,5,True,0.9855041
+2888,0,stl10/test/02888,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.9318192
+6224,5,stl10/test/06224,dog,ViT-B/16 + linear head,5,dog,5,True,0.7116546
+3353,5,stl10/test/03353,dog,ViT-B/16 + linear head,1,bird,5,False,0.30606
+6244,2,stl10/test/06244,car,ViT-B/16 + linear head,2,car,2,True,0.9830739
+4704,7,stl10/test/04704,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.98037016
+2427,5,stl10/test/02427,dog,ViT-B/16 + linear head,5,dog,5,True,0.6443795
+7995,9,stl10/test/07995,truck,ViT-B/16 + linear head,9,truck,9,True,0.6029484
+1124,4,stl10/test/01124,deer,ViT-B/16 + linear head,4,deer,4,True,0.9517575
+6733,1,stl10/test/06733,bird,ViT-B/16 + linear head,1,bird,1,True,0.93219197
+2062,9,stl10/test/02062,truck,ViT-B/16 + linear head,9,truck,9,True,0.9930102
+805,9,stl10/test/00805,truck,ViT-B/16 + linear head,9,truck,9,True,0.9447153
+2028,3,stl10/test/02028,cat,ViT-B/16 + linear head,3,cat,3,True,0.9505628
+2392,2,stl10/test/02392,car,ViT-B/16 + linear head,2,car,2,True,0.9934596
+3292,6,stl10/test/03292,horse,ViT-B/16 + linear head,6,horse,6,True,0.69851303
+1440,7,stl10/test/01440,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.99487114
+1115,1,stl10/test/01115,bird,ViT-B/16 + linear head,1,bird,1,True,0.902642
+4242,8,stl10/test/04242,ship,ViT-B/16 + linear head,8,ship,8,True,0.9856473
+2230,8,stl10/test/02230,ship,ViT-B/16 + linear head,8,ship,8,True,0.8936209
+3163,2,stl10/test/03163,car,ViT-B/16 + linear head,2,car,2,True,0.9967169
+545,6,stl10/test/00545,horse,ViT-B/16 + linear head,6,horse,6,True,0.89652634
+3863,5,stl10/test/03863,dog,ViT-B/16 + linear head,5,dog,5,True,0.9682368
+4748,7,stl10/test/04748,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.9950604
+2399,4,stl10/test/02399,deer,ViT-B/16 + linear head,4,deer,4,True,0.87486154
+4341,6,stl10/test/04341,horse,ViT-B/16 + linear head,6,horse,6,True,0.990931
+3078,4,stl10/test/03078,deer,ViT-B/16 + linear head,4,deer,4,True,0.9746046
+3763,4,stl10/test/03763,deer,ViT-B/16 + linear head,4,deer,4,True,0.9821945
+2958,6,stl10/test/02958,horse,ViT-B/16 + linear head,6,horse,6,True,0.98825836
+6381,6,stl10/test/06381,horse,ViT-B/16 + linear head,6,horse,6,True,0.96546835
+1640,8,stl10/test/01640,ship,ViT-B/16 + linear head,0,airplane,8,False,0.33858386
+1783,8,stl10/test/01783,ship,ViT-B/16 + linear head,8,ship,8,True,0.9964019
+3914,3,stl10/test/03914,cat,ViT-B/16 + linear head,3,cat,3,True,0.99905866
+1534,6,stl10/test/01534,horse,ViT-B/16 + linear head,6,horse,6,True,0.59912026
+685,5,stl10/test/00685,dog,ViT-B/16 + linear head,5,dog,5,True,0.9537683
+4617,0,stl10/test/04617,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.9919784
+5508,9,stl10/test/05508,truck,ViT-B/16 + linear head,9,truck,9,True,0.96057737
+1022,9,stl10/test/01022,truck,ViT-B/16 + linear head,9,truck,9,True,0.6371837
+1230,1,stl10/test/01230,bird,ViT-B/16 + linear head,7,monkey,1,False,0.8874715
+7475,4,stl10/test/07475,deer,ViT-B/16 + linear head,4,deer,4,True,0.9310524
+5756,2,stl10/test/05756,car,ViT-B/16 + linear head,2,car,2,True,0.9946131
+3122,4,stl10/test/03122,deer,ViT-B/16 + linear head,4,deer,4,True,0.99063337
+7202,1,stl10/test/07202,bird,ViT-B/16 + linear head,1,bird,1,True,0.9255701
+4723,9,stl10/test/04723,truck,ViT-B/16 + linear head,9,truck,9,True,0.52928126
+1552,5,stl10/test/01552,dog,ViT-B/16 + linear head,5,dog,5,True,0.927858
+603,9,stl10/test/00603,truck,ViT-B/16 + linear head,9,truck,9,True,0.9191742
+2861,3,stl10/test/02861,cat,ViT-B/16 + linear head,3,cat,3,True,0.9980363
+6426,2,stl10/test/06426,car,ViT-B/16 + linear head,2,car,2,True,0.9959329
+7864,4,stl10/test/07864,deer,ViT-B/16 + linear head,4,deer,4,True,0.96257716
+5729,6,stl10/test/05729,horse,ViT-B/16 + linear head,6,horse,6,True,0.99510586
+7474,5,stl10/test/07474,dog,ViT-B/16 + linear head,5,dog,5,True,0.9933761
+4298,1,stl10/test/04298,bird,ViT-B/16 + linear head,1,bird,1,True,0.9996197
+1175,0,stl10/test/01175,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.9929208
+3454,2,stl10/test/03454,car,ViT-B/16 + linear head,2,car,2,True,0.7498599
+2754,3,stl10/test/02754,cat,ViT-B/16 + linear head,3,cat,3,True,0.99126816
+855,4,stl10/test/00855,deer,ViT-B/16 + linear head,4,deer,4,True,0.7507854
+2854,7,stl10/test/02854,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.9700998
+5092,1,stl10/test/05092,bird,ViT-B/16 + linear head,1,bird,1,True,0.9980069
+5590,9,stl10/test/05590,truck,ViT-B/16 + linear head,9,truck,9,True,0.47017914
+4463,3,stl10/test/04463,cat,ViT-B/16 + linear head,3,cat,3,True,0.99794
+5318,2,stl10/test/05318,car,ViT-B/16 + linear head,2,car,2,True,0.9130188
+3515,6,stl10/test/03515,horse,ViT-B/16 + linear head,4,deer,4,True,0.82608986
+4642,4,stl10/test/04642,deer,ViT-B/16 + linear head,4,deer,4,True,0.97518677
+852,9,stl10/test/00852,truck,ViT-B/16 + linear head,9,truck,9,True,0.7738467
+1247,8,stl10/test/01247,ship,ViT-B/16 + linear head,8,ship,8,True,0.9922781
+7084,2,stl10/test/07084,car,ViT-B/16 + linear head,2,car,2,True,0.9987999
+5301,9,stl10/test/05301,truck,ViT-B/16 + linear head,8,ship,9,False,0.69087225
+5082,6,stl10/test/05082,horse,ViT-B/16 + linear head,6,horse,6,True,0.9281714
+5077,4,stl10/test/05077,deer,ViT-B/16 + linear head,4,deer,4,True,0.99656075
+1563,3,stl10/test/01563,cat,ViT-B/16 + linear head,3,cat,3,True,0.54493994
+29,7,stl10/test/00029,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.49025172
+3867,7,stl10/test/03867,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.95095164
+4620,6,stl10/test/04620,horse,ViT-B/16 + linear head,6,horse,6,True,0.7923317
+4065,2,stl10/test/04065,car,ViT-B/16 + linear head,2,car,2,True,0.7958594
+1095,5,stl10/test/01095,dog,ViT-B/16 + linear head,5,dog,5,True,0.9913628
+4229,3,stl10/test/04229,cat,ViT-B/16 + linear head,3,cat,3,True,0.9997985
+3562,3,stl10/test/03562,cat,ViT-B/16 + linear head,4,deer,3,False,0.54234433
+2342,8,stl10/test/02342,ship,ViT-B/16 + linear head,8,ship,8,True,0.99185634
+1667,6,stl10/test/01667,horse,ViT-B/16 + linear head,6,horse,6,True,0.8703109
+7033,1,stl10/test/07033,bird,ViT-B/16 + linear head,1,bird,1,True,0.897556
+1771,7,stl10/test/01771,monkey,ViT-B/16 + linear head,4,deer,7,False,0.6606286
+3157,8,stl10/test/03157,ship,ViT-B/16 + linear head,8,ship,8,True,0.9992434
+3851,3,stl10/test/03851,cat,ViT-B/16 + linear head,5,dog,3,False,0.60138476
+1287,7,stl10/test/01287,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.95188755
+7320,0,stl10/test/07320,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.98375434
+7600,6,stl10/test/07600,horse,ViT-B/16 + linear head,6,horse,6,True,0.9995943
+3852,5,stl10/test/03852,dog,ViT-B/16 + linear head,5,dog,5,True,0.7161376
+269,7,stl10/test/00269,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.9848232
+1703,7,stl10/test/01703,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.7266546
+7776,5,stl10/test/07776,dog,ViT-B/16 + linear head,5,dog,5,True,0.9641547
+3891,4,stl10/test/03891,deer,ViT-B/16 + linear head,3,cat,4,False,0.5900693
+7009,0,stl10/test/07009,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.90669733
+4893,0,stl10/test/04893,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.9836394
+2351,9,stl10/test/02351,truck,ViT-B/16 + linear head,9,truck,9,True,0.94579875
+3550,1,stl10/test/03550,bird,ViT-B/16 + linear head,1,bird,1,True,0.98727554
+5719,7,stl10/test/05719,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.98702604
+1884,7,stl10/test/01884,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.8200451
+2898,4,stl10/test/02898,deer,ViT-B/16 + linear head,4,deer,4,True,0.97006905
+4640,1,stl10/test/04640,bird,ViT-B/16 + linear head,1,bird,1,True,0.89681244
+7610,4,stl10/test/07610,deer,ViT-B/16 + linear head,4,deer,4,True,0.9741597
+1833,8,stl10/test/01833,ship,ViT-B/16 + linear head,8,ship,8,True,0.9846222
+6455,0,stl10/test/06455,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.9860436
+3893,9,stl10/test/03893,truck,ViT-B/16 + linear head,9,truck,9,True,0.99880946
+4731,6,stl10/test/04731,horse,ViT-B/16 + linear head,6,horse,6,True,0.994779
+929,6,stl10/test/00929,horse,ViT-B/16 + linear head,6,horse,6,True,0.89441895
+3962,6,stl10/test/03962,horse,ViT-B/16 + linear head,6,horse,6,True,0.9936113
+3778,3,stl10/test/03778,cat,ViT-B/16 + linear head,3,cat,3,True,0.8911765
+1429,4,stl10/test/01429,deer,ViT-B/16 + linear head,4,deer,4,True,0.99290246
+49,2,stl10/test/00049,car,ViT-B/16 + linear head,2,car,2,True,0.9233631
+276,9,stl10/test/00276,truck,ViT-B/16 + linear head,9,truck,9,True,0.6984768
+6076,1,stl10/test/06076,bird,ViT-B/16 + linear head,1,bird,1,True,0.8821912
+1389,0,stl10/test/01389,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.9839156
+3362,2,stl10/test/03362,car,ViT-B/16 + linear head,2,car,2,True,0.97222805
+317,2,stl10/test/00317,car,ViT-B/16 + linear head,2,car,2,True,0.92450386
+4675,0,stl10/test/04675,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.98914695
+5924,5,stl10/test/05924,dog,ViT-B/16 + linear head,4,deer,5,False,0.5822261
+198,1,stl10/test/00198,bird,ViT-B/16 + linear head,1,bird,1,True,0.48489803
+7779,6,stl10/test/07779,horse,ViT-B/16 + linear head,6,horse,6,True,0.8730876
+4054,4,stl10/test/04054,deer,ViT-B/16 + linear head,4,deer,4,True,0.6821918
+5556,4,stl10/test/05556,deer,ViT-B/16 + linear head,4,deer,4,True,0.7874895
+2687,1,stl10/test/02687,bird,ViT-B/16 + linear head,1,bird,1,True,0.98246276
+1202,2,stl10/test/01202,car,ViT-B/16 + linear head,2,car,2,True,0.88317096
+97,5,stl10/test/00097,dog,ViT-B/16 + linear head,5,dog,5,True,0.9526567
+6033,4,stl10/test/06033,deer,ViT-B/16 + linear head,4,deer,4,True,0.98133105
+1711,7,stl10/test/01711,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.96336657
+1430,9,stl10/test/01430,truck,ViT-B/16 + linear head,9,truck,9,True,0.9099866
+739,8,stl10/test/00739,ship,ViT-B/16 + linear head,8,ship,8,True,0.93617934
+3491,1,stl10/test/03491,bird,ViT-B/16 + linear head,1,bird,1,True,0.7083658
+1568,1,stl10/test/01568,bird,ViT-B/16 + linear head,3,cat,1,False,0.8964678
+1211,4,stl10/test/01211,deer,ViT-B/16 + linear head,4,deer,4,True,0.97188884
+4913,2,stl10/test/04913,car,ViT-B/16 + linear head,2,car,2,True,0.98877525
+2502,2,stl10/test/02502,car,ViT-B/16 + linear head,2,car,2,True,0.98337805
+2539,3,stl10/test/02539,cat,ViT-B/16 + linear head,3,cat,3,True,0.98884773
+979,3,stl10/test/00979,cat,ViT-B/16 + linear head,3,cat,3,True,0.9969547
+6354,2,stl10/test/06354,car,ViT-B/16 + linear head,2,car,2,True,0.7408308
+4735,2,stl10/test/04735,car,ViT-B/16 + linear head,2,car,2,True,0.9984113
+5912,0,stl10/test/05912,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.9917286
+3844,6,stl10/test/03844,horse,ViT-B/16 + linear head,6,horse,6,True,0.997422
+1263,3,stl10/test/01263,cat,ViT-B/16 + linear head,3,cat,3,True,0.97395444
+3404,7,stl10/test/03404,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.99200726
+3905,8,stl10/test/03905,ship,ViT-B/16 + linear head,8,ship,8,True,0.9805853
+1596,0,stl10/test/01596,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.9494107
+3083,0,stl10/test/03083,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.9985973
+2003,6,stl10/test/02003,horse,ViT-B/16 + linear head,6,horse,6,True,0.94366103
+5030,2,stl10/test/05030,car,ViT-B/16 + linear head,2,car,2,True,0.9965366
+95,1,stl10/test/00095,bird,ViT-B/16 + linear head,1,bird,1,True,0.9794558
+2757,4,stl10/test/02757,deer,ViT-B/16 + linear head,4,deer,4,True,0.9878306
+3413,1,stl10/test/03413,bird,ViT-B/16 + linear head,1,bird,1,True,0.99516886
+5488,1,stl10/test/05488,bird,ViT-B/16 + linear head,7,monkey,1,False,0.8227631
+4827,6,stl10/test/04827,horse,ViT-B/16 + linear head,6,horse,6,True,0.9982741
+1877,5,stl10/test/01877,dog,ViT-B/16 + linear head,4,deer,5,False,0.6971522
+2157,1,stl10/test/02157,bird,ViT-B/16 + linear head,1,bird,1,True,0.99477637
+4821,3,stl10/test/04821,cat,ViT-B/16 + linear head,3,cat,3,True,0.99698836
+4953,5,stl10/test/04953,dog,ViT-B/16 + linear head,5,dog,5,True,0.27365837
+5525,8,stl10/test/05525,ship,ViT-B/16 + linear head,8,ship,8,True,0.97635967
+5381,5,stl10/test/05381,dog,ViT-B/16 + linear head,4,deer,5,False,0.6552842
+672,3,stl10/test/00672,cat,ViT-B/16 + linear head,3,cat,3,True,0.9211846
+323,7,stl10/test/00323,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.9897711
+5436,7,stl10/test/05436,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.99379057
+5450,7,stl10/test/05450,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.907945
+6358,5,stl10/test/06358,dog,ViT-B/16 + linear head,5,dog,5,True,0.942448
+372,3,stl10/test/00372,cat,ViT-B/16 + linear head,3,cat,3,True,0.9376282
+378,5,stl10/test/00378,dog,ViT-B/16 + linear head,5,dog,5,True,0.9793433
+7706,5,stl10/test/07706,dog,ViT-B/16 + linear head,6,horse,5,False,0.46947336
+2178,1,stl10/test/02178,bird,ViT-B/16 + linear head,1,bird,1,True,0.99735415
+5237,2,stl10/test/05237,car,ViT-B/16 + linear head,2,car,2,True,0.93277854
+5478,0,stl10/test/05478,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.8401177
+5452,9,stl10/test/05452,truck,ViT-B/16 + linear head,9,truck,9,True,0.98005074
+5623,4,stl10/test/05623,deer,ViT-B/16 + linear head,4,deer,4,True,0.97745353
+6772,7,stl10/test/06772,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.95258194
+1111,4,stl10/test/01111,deer,ViT-B/16 + linear head,4,deer,4,True,0.95202744
+5528,3,stl10/test/05528,cat,ViT-B/16 + linear head,5,dog,3,False,0.49785337
+3777,6,stl10/test/03777,horse,ViT-B/16 + linear head,6,horse,6,True,0.8200326
+2458,5,stl10/test/02458,dog,ViT-B/16 + linear head,5,dog,5,True,0.9742097
+4921,2,stl10/test/04921,car,ViT-B/16 + linear head,2,car,2,True,0.99720484
+3015,8,stl10/test/03015,ship,ViT-B/16 + linear head,8,ship,8,True,0.9928886
+7476,8,stl10/test/07476,ship,ViT-B/16 + linear head,0,airplane,0,True,0.79539555
+1520,2,stl10/test/01520,car,ViT-B/16 + linear head,2,car,2,True,0.7237451
+6713,6,stl10/test/06713,horse,ViT-B/16 + linear head,6,horse,6,True,0.82590604
+1852,1,stl10/test/01852,bird,ViT-B/16 + linear head,1,bird,1,True,0.9928162
+2268,5,stl10/test/02268,dog,ViT-B/16 + linear head,5,dog,5,True,0.96246606
+151,8,stl10/test/00151,ship,ViT-B/16 + linear head,8,ship,8,True,0.99858814
+890,6,stl10/test/00890,horse,ViT-B/16 + linear head,6,horse,6,True,0.9941875
+825,1,stl10/test/00825,bird,ViT-B/16 + linear head,1,bird,1,True,0.97789294
+2536,3,stl10/test/02536,cat,ViT-B/16 + linear head,3,cat,3,True,0.9717999
+470,2,stl10/test/00470,car,ViT-B/16 + linear head,2,car,2,True,0.9685582
+5256,1,stl10/test/05256,bird,ViT-B/16 + linear head,1,bird,1,True,0.9922307
+2011,9,stl10/test/02011,truck,ViT-B/16 + linear head,9,truck,9,True,0.85162634
+7150,0,stl10/test/07150,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.7821901
+449,6,stl10/test/00449,horse,ViT-B/16 + linear head,6,horse,6,True,0.8303939
+2704,4,stl10/test/02704,deer,ViT-B/16 + linear head,4,deer,4,True,0.9465254
+3437,0,stl10/test/03437,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.782273
+3375,3,stl10/test/03375,cat,ViT-B/16 + linear head,3,cat,3,True,0.92649615
+4552,8,stl10/test/04552,ship,ViT-B/16 + linear head,8,ship,8,True,0.99049944
+920,6,stl10/test/00920,horse,ViT-B/16 + linear head,6,horse,6,True,0.90852976
+2242,0,stl10/test/02242,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.9983543
+2745,8,stl10/test/02745,ship,ViT-B/16 + linear head,8,ship,8,True,0.99771166
+1032,7,stl10/test/01032,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.998428
+365,3,stl10/test/00365,cat,ViT-B/16 + linear head,3,cat,3,True,0.98427236
+4850,5,stl10/test/04850,dog,ViT-B/16 + linear head,5,dog,5,True,0.9819178
+4819,0,stl10/test/04819,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.9930219
+7338,6,stl10/test/07338,horse,ViT-B/16 + linear head,6,horse,6,True,0.96766573
+7372,0,stl10/test/07372,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.96636635
+1090,1,stl10/test/01090,bird,ViT-B/16 + linear head,1,bird,1,True,0.878881
+5062,4,stl10/test/05062,deer,ViT-B/16 + linear head,4,deer,4,True,0.99578863
+981,2,stl10/test/00981,car,ViT-B/16 + linear head,2,car,2,True,0.98169965
+5857,6,stl10/test/05857,horse,ViT-B/16 + linear head,4,deer,4,True,0.7299106
+1986,1,stl10/test/01986,bird,ViT-B/16 + linear head,1,bird,1,True,0.93248767
+5560,1,stl10/test/05560,bird,ViT-B/16 + linear head,1,bird,1,True,0.8954628
+1814,2,stl10/test/01814,car,ViT-B/16 + linear head,2,car,2,True,0.60932845
+194,8,stl10/test/00194,ship,ViT-B/16 + linear head,8,ship,8,True,0.999603
+1993,1,stl10/test/01993,bird,ViT-B/16 + linear head,1,bird,1,True,0.999244
+5333,2,stl10/test/05333,car,ViT-B/16 + linear head,2,car,2,True,0.8882967
+4311,8,stl10/test/04311,ship,ViT-B/16 + linear head,8,ship,8,True,0.998928
+7425,2,stl10/test/07425,car,ViT-B/16 + linear head,2,car,2,True,0.9962632
+3889,5,stl10/test/03889,dog,ViT-B/16 + linear head,5,dog,5,True,0.63665944
+4308,7,stl10/test/04308,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.9915643
+1960,4,stl10/test/01960,deer,ViT-B/16 + linear head,4,deer,5,False,0.97329086
+4399,0,stl10/test/04399,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.48681238
+3191,6,stl10/test/03191,horse,ViT-B/16 + linear head,6,horse,6,True,0.9391464
+1626,5,stl10/test/01626,dog,ViT-B/16 + linear head,5,dog,5,True,0.97669345
+176,3,stl10/test/00176,cat,ViT-B/16 + linear head,3,cat,3,True,0.83189094
+7726,6,stl10/test/07726,horse,ViT-B/16 + linear head,6,horse,6,True,0.95802665
+2334,5,stl10/test/02334,dog,ViT-B/16 + linear head,5,dog,5,True,0.99527514
+1648,0,stl10/test/01648,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.97840285
+6084,7,stl10/test/06084,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.9925608
+3455,0,stl10/test/03455,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.9737471
+1468,9,stl10/test/01468,truck,ViT-B/16 + linear head,9,truck,9,True,0.94778305
+1296,7,stl10/test/01296,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.98935974
+5213,4,stl10/test/05213,deer,ViT-B/16 + linear head,4,deer,4,True,0.9871149
+7047,9,stl10/test/07047,truck,ViT-B/16 + linear head,9,truck,9,True,0.9970964
+5360,9,stl10/test/05360,truck,ViT-B/16 + linear head,9,truck,9,True,0.8970545
+5824,2,stl10/test/05824,car,ViT-B/16 + linear head,2,car,2,True,0.9754102
+7460,8,stl10/test/07460,ship,ViT-B/16 + linear head,8,ship,8,True,0.9220287
+4791,7,stl10/test/04791,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.9922579
+6692,2,stl10/test/06692,car,ViT-B/16 + linear head,2,car,2,True,0.98699784
+6931,9,stl10/test/06931,truck,ViT-B/16 + linear head,9,truck,9,True,0.7878089
+667,8,stl10/test/00667,ship,ViT-B/16 + linear head,8,ship,8,True,0.99737346
+7781,6,stl10/test/07781,horse,ViT-B/16 + linear head,6,horse,6,True,0.9946792
+7793,3,stl10/test/07793,cat,ViT-B/16 + linear head,3,cat,3,True,0.8130973
+1411,9,stl10/test/01411,truck,ViT-B/16 + linear head,9,truck,9,True,0.6929936
+1473,7,stl10/test/01473,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.9869435
+7130,5,stl10/test/07130,dog,ViT-B/16 + linear head,5,dog,5,True,0.9603062
+1956,7,stl10/test/01956,monkey,ViT-B/16 + linear head,3,cat,7,False,0.5133769
+6716,5,stl10/test/06716,dog,ViT-B/16 + linear head,5,dog,6,False,0.42464638
+4106,5,stl10/test/04106,dog,ViT-B/16 + linear head,5,dog,5,True,0.9067773
+3494,6,stl10/test/03494,horse,ViT-B/16 + linear head,6,horse,6,True,0.9997341
+691,4,stl10/test/00691,deer,ViT-B/16 + linear head,4,deer,4,True,0.90409195
+5220,1,stl10/test/05220,bird,ViT-B/16 + linear head,3,cat,1,False,0.41374978
+4908,3,stl10/test/04908,cat,ViT-B/16 + linear head,3,cat,3,True,0.99991477
+7029,1,stl10/test/07029,bird,ViT-B/16 + linear head,1,bird,1,True,0.9305355
+4130,0,stl10/test/04130,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.98786944
+7938,9,stl10/test/07938,truck,ViT-B/16 + linear head,9,truck,9,True,0.9750499
+5101,5,stl10/test/05101,dog,ViT-B/16 + linear head,2,car,2,True,0.75962836
+1515,9,stl10/test/01515,truck,ViT-B/16 + linear head,9,truck,9,True,0.96674013
+3287,4,stl10/test/03287,deer,ViT-B/16 + linear head,4,deer,4,True,0.9979473
+716,8,stl10/test/00716,ship,ViT-B/16 + linear head,8,ship,8,True,0.9778281
+4236,7,stl10/test/04236,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.99646324
+5408,6,stl10/test/05408,horse,ViT-B/16 + linear head,4,deer,6,False,0.56571734
+5496,5,stl10/test/05496,dog,ViT-B/16 + linear head,5,dog,5,True,0.9766763
+3365,4,stl10/test/03365,deer,ViT-B/16 + linear head,4,deer,4,True,0.9507369
+4323,3,stl10/test/04323,cat,ViT-B/16 + linear head,5,dog,3,False,0.9376842
+5467,4,stl10/test/05467,deer,ViT-B/16 + linear head,4,deer,4,True,0.9632823
+1644,5,stl10/test/01644,dog,ViT-B/16 + linear head,5,dog,5,True,0.9791018
+3948,8,stl10/test/03948,ship,ViT-B/16 + linear head,8,ship,8,True,0.9824979
+6726,7,stl10/test/06726,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.5889599
+5395,2,stl10/test/05395,car,ViT-B/16 + linear head,2,car,2,True,0.99613535
+1579,7,stl10/test/01579,monkey,ViT-B/16 + linear head,5,dog,7,False,0.5479349
+5918,0,stl10/test/05918,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.9970592
+7041,5,stl10/test/07041,dog,ViT-B/16 + linear head,5,dog,5,True,0.9791043
+506,4,stl10/test/00506,deer,ViT-B/16 + linear head,4,deer,4,True,0.8630994
+4011,6,stl10/test/04011,horse,ViT-B/16 + linear head,6,horse,6,True,0.9823
+5981,9,stl10/test/05981,truck,ViT-B/16 + linear head,9,truck,9,True,0.98388946
+409,2,stl10/test/00409,car,ViT-B/16 + linear head,2,car,2,True,0.9852152
+6954,1,stl10/test/06954,bird,ViT-B/16 + linear head,1,bird,1,True,0.4354371
+7555,6,stl10/test/07555,horse,ViT-B/16 + linear head,6,horse,6,True,0.9848822
+3965,0,stl10/test/03965,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.9919518
+7266,9,stl10/test/07266,truck,ViT-B/16 + linear head,9,truck,9,True,0.7806268
+4785,0,stl10/test/04785,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.9534778
+6028,2,stl10/test/06028,car,ViT-B/16 + linear head,2,car,2,True,0.69191766
+6503,2,stl10/test/06503,car,ViT-B/16 + linear head,2,car,2,True,0.8464819
+6414,5,stl10/test/06414,dog,ViT-B/16 + linear head,5,dog,5,True,0.48153222
+5382,6,stl10/test/05382,horse,ViT-B/16 + linear head,6,horse,6,True,0.9927811
+6836,1,stl10/test/06836,bird,ViT-B/16 + linear head,1,bird,1,True,0.9794254
+6508,4,stl10/test/06508,deer,ViT-B/16 + linear head,4,deer,4,True,0.9194204
+3994,4,stl10/test/03994,deer,ViT-B/16 + linear head,4,deer,4,True,0.99527824
+3942,9,stl10/test/03942,truck,ViT-B/16 + linear head,9,truck,9,True,0.9795878
+3542,7,stl10/test/03542,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.8834985
+6952,3,stl10/test/06952,cat,ViT-B/16 + linear head,3,cat,3,True,0.9930224
+4290,5,stl10/test/04290,dog,ViT-B/16 + linear head,4,deer,1,False,0.72693956
+7446,8,stl10/test/07446,ship,ViT-B/16 + linear head,8,ship,8,True,0.99166274
+6169,1,stl10/test/06169,bird,ViT-B/16 + linear head,4,deer,1,False,0.28991055
+1109,1,stl10/test/01109,bird,ViT-B/16 + linear head,1,bird,1,True,0.53810644
+3179,4,stl10/test/03179,deer,ViT-B/16 + linear head,4,deer,4,True,0.9977582
+7835,7,stl10/test/07835,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.94945836
+7390,1,stl10/test/07390,bird,ViT-B/16 + linear head,1,bird,1,True,0.9928154
+568,5,stl10/test/00568,dog,ViT-B/16 + linear head,5,dog,5,True,0.83884144
+4629,4,stl10/test/04629,deer,ViT-B/16 + linear head,4,deer,4,True,0.90230715
+7138,8,stl10/test/07138,ship,ViT-B/16 + linear head,8,ship,8,True,0.88711196
+5284,9,stl10/test/05284,truck,ViT-B/16 + linear head,9,truck,9,True,0.9810699
+3,0,stl10/test/00003,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.96536505
+2690,1,stl10/test/02690,bird,ViT-B/16 + linear head,1,bird,1,True,0.76347977
+5858,6,stl10/test/05858,horse,ViT-B/16 + linear head,6,horse,6,True,0.77270305
+1266,4,stl10/test/01266,deer,ViT-B/16 + linear head,4,deer,4,True,0.9078433
+3034,4,stl10/test/03034,deer,ViT-B/16 + linear head,4,deer,4,True,0.963914
+2655,9,stl10/test/02655,truck,ViT-B/16 + linear head,9,truck,9,True,0.74314755
+6190,7,stl10/test/06190,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.9477915
+4170,8,stl10/test/04170,ship,ViT-B/16 + linear head,8,ship,8,True,0.99527043
+7380,9,stl10/test/07380,truck,ViT-B/16 + linear head,9,truck,9,True,0.95008564
+7752,9,stl10/test/07752,truck,ViT-B/16 + linear head,9,truck,9,True,0.94655865
+3996,9,stl10/test/03996,truck,ViT-B/16 + linear head,9,truck,9,True,0.32660097
+1204,3,stl10/test/01204,cat,ViT-B/16 + linear head,3,cat,3,True,0.98248106
+1654,9,stl10/test/01654,truck,ViT-B/16 + linear head,9,truck,9,True,0.9905269
+4746,6,stl10/test/04746,horse,ViT-B/16 + linear head,6,horse,6,True,0.9933296
+4590,3,stl10/test/04590,cat,ViT-B/16 + linear head,3,cat,3,True,0.9827556
+562,0,stl10/test/00562,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.98847675
+7108,6,stl10/test/07108,horse,ViT-B/16 + linear head,6,horse,6,True,0.6723876
+5999,0,stl10/test/05999,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.9762147
+1403,2,stl10/test/01403,car,ViT-B/16 + linear head,2,car,2,True,0.97369844
+4403,7,stl10/test/04403,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.99415994
+6332,2,stl10/test/06332,car,ViT-B/16 + linear head,2,car,2,True,0.55352163
+6264,2,stl10/test/06264,car,ViT-B/16 + linear head,2,car,2,True,0.9935442
+303,9,stl10/test/00303,truck,ViT-B/16 + linear head,9,truck,9,True,0.9117886
+791,3,stl10/test/00791,cat,ViT-B/16 + linear head,3,cat,3,True,0.99070835
+3067,2,stl10/test/03067,car,ViT-B/16 + linear head,2,car,2,True,0.9957961
+484,0,stl10/test/00484,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.87216485
+1370,3,stl10/test/01370,cat,ViT-B/16 + linear head,3,cat,3,True,0.9989976
+4069,8,stl10/test/04069,ship,ViT-B/16 + linear head,8,ship,8,True,0.50057673
+7373,0,stl10/test/07373,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.98929214
+4330,3,stl10/test/04330,cat,ViT-B/16 + linear head,3,cat,3,True,0.9944787
+5701,5,stl10/test/05701,dog,ViT-B/16 + linear head,5,dog,5,True,0.95440674
+7465,0,stl10/test/07465,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.9968382
+1531,3,stl10/test/01531,cat,ViT-B/16 + linear head,3,cat,3,True,0.91892225
+4676,8,stl10/test/04676,ship,ViT-B/16 + linear head,8,ship,8,True,0.9987638
+4531,3,stl10/test/04531,cat,ViT-B/16 + linear head,3,cat,3,True,0.6897319
+706,8,stl10/test/00706,ship,ViT-B/16 + linear head,8,ship,8,True,0.5197525
+2844,8,stl10/test/02844,ship,ViT-B/16 + linear head,8,ship,8,True,0.9979906
+3755,2,stl10/test/03755,car,ViT-B/16 + linear head,2,car,2,True,0.9818948
+5848,7,stl10/test/05848,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.9963652
+2114,9,stl10/test/02114,truck,ViT-B/16 + linear head,9,truck,9,True,0.98544115
+3876,0,stl10/test/03876,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.9861923
+677,3,stl10/test/00677,cat,ViT-B/16 + linear head,3,cat,3,True,0.99097776
+2116,1,stl10/test/02116,bird,ViT-B/16 + linear head,3,cat,3,True,0.98647296
+4661,7,stl10/test/04661,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.9824625
+2676,6,stl10/test/02676,horse,ViT-B/16 + linear head,2,car,6,False,0.45856172
+3025,0,stl10/test/03025,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.98553574
+4449,9,stl10/test/04449,truck,ViT-B/16 + linear head,8,ship,9,False,0.636078
+977,6,stl10/test/00977,horse,ViT-B/16 + linear head,6,horse,6,True,0.995122
+4990,8,stl10/test/04990,ship,ViT-B/16 + linear head,8,ship,8,True,0.9901108
+7309,0,stl10/test/07309,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.99430263
+1048,7,stl10/test/01048,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.9720258
+3276,3,stl10/test/03276,cat,ViT-B/16 + linear head,3,cat,3,True,0.63181674
+5512,2,stl10/test/05512,car,ViT-B/16 + linear head,9,truck,9,True,0.93046397
+7692,4,stl10/test/07692,deer,ViT-B/16 + linear head,4,deer,4,True,0.98221415
+1436,1,stl10/test/01436,bird,ViT-B/16 + linear head,1,bird,1,True,0.98742175
+7544,9,stl10/test/07544,truck,ViT-B/16 + linear head,9,truck,9,True,0.9364142
+3383,3,stl10/test/03383,cat,ViT-B/16 + linear head,3,cat,3,True,0.9945304
+1977,0,stl10/test/01977,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.98392534
+2750,0,stl10/test/02750,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.9925237
+7996,6,stl10/test/07996,horse,ViT-B/16 + linear head,6,horse,6,True,0.9976234
+6989,5,stl10/test/06989,dog,ViT-B/16 + linear head,5,dog,5,True,0.86045974
+1431,3,stl10/test/01431,cat,ViT-B/16 + linear head,3,cat,3,True,0.9861211
+7416,3,stl10/test/07416,cat,ViT-B/16 + linear head,5,dog,3,False,0.9544118
+4547,5,stl10/test/04547,dog,ViT-B/16 + linear head,5,dog,5,True,0.91028976
+42,0,stl10/test/00042,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.8609455
+5117,0,stl10/test/05117,airplane,ViT-B/16 + linear head,0,airplane,0,True,0.9858592
+4411,6,stl10/test/04411,horse,ViT-B/16 + linear head,6,horse,6,True,0.66484314
+5789,4,stl10/test/05789,deer,ViT-B/16 + linear head,4,deer,4,True,0.972273
+483,2,stl10/test/00483,car,ViT-B/16 + linear head,2,car,2,True,0.9005821
+6650,7,stl10/test/06650,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.9785882
+4881,3,stl10/test/04881,cat,ViT-B/16 + linear head,3,cat,3,True,0.8828732
+391,3,stl10/test/00391,cat,ViT-B/16 + linear head,3,cat,3,True,0.98569065
+370,7,stl10/test/00370,monkey,ViT-B/16 + linear head,7,monkey,7,True,0.97318757
+419,9,stl10/test/00419,truck,ViT-B/16 + linear head,2,car,9,False,0.52989477
+3318,9,stl10/test/03318,truck,ViT-B/16 + linear head,9,truck,9,True,0.7573844
+4355,8,stl10/test/04355,ship,ViT-B/16 + linear head,0,airplane,0,True,0.8266815
+5402,4,stl10/test/05402,deer,ViT-B/16 + linear head,4,deer,4,True,0.95810974
+5332,5,stl10/test/05332,dog,ViT-B/16 + linear head,5,dog,5,True,0.76897496
+239,9,stl10/test/00239,truck,ViT-B/16 + linear head,9,truck,9,True,0.9886395
+6271,2,stl10/test/06271,car,ViT-B/16 + linear head,2,car,2,True,0.9521904
+1129,8,stl10/test/01129,ship,ViT-B/16 + linear head,8,ship,8,True,0.98476297
+2391,5,stl10/test/02391,dog,ViT-B/16 + linear head,4,deer,5,False,0.50773114
+191,9,stl10/test/00191,truck,ViT-B/16 + linear head,9,truck,9,True,0.9931485
+5447,9,stl10/test/05447,truck,ViT-B/16 + linear head,9,truck,9,True,0.9857933
+6528,4,stl10/test/06528,deer,ViT-B/16 + linear head,4,deer,4,True,0.97633606
+632,3,stl10/test/00632,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.12867048
+131,9,stl10/test/00131,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.11494741
+7081,7,stl10/test/07081,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.11812745
+1836,9,stl10/test/01836,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.11643542
+6437,0,stl10/test/06437,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.1391765
+6609,0,stl10/test/06609,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.13813186
+3467,7,stl10/test/03467,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.11499141
+1401,3,stl10/test/01401,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.13424467
+1839,2,stl10/test/01839,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.121369526
+4168,3,stl10/test/04168,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.12121062
+35,2,stl10/test/00035,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.11770006
+4177,8,stl10/test/04177,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.120334655
+7270,7,stl10/test/07270,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.1151956
+2265,5,stl10/test/02265,dog,CLIP ViT-B/32 + linear head,5,dog,5,True,0.13860305
+3288,7,stl10/test/03288,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.13479486
+5451,8,stl10/test/05451,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.12868866
+4023,3,stl10/test/04023,cat,CLIP ViT-B/32 + linear head,7,monkey,3,False,0.12546389
+261,1,stl10/test/00261,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.12943088
+4570,5,stl10/test/04570,dog,CLIP ViT-B/32 + linear head,6,horse,5,False,0.112980664
+4966,5,stl10/test/04966,dog,CLIP ViT-B/32 + linear head,5,dog,5,True,0.12336715
+7955,1,stl10/test/07955,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.1288022
+6288,4,stl10/test/06288,deer,CLIP ViT-B/32 + linear head,1,bird,4,False,0.11530367
+7810,8,stl10/test/07810,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.12232682
+1927,7,stl10/test/01927,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.13444524
+1871,1,stl10/test/01871,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.12356491
+6922,5,stl10/test/06922,dog,CLIP ViT-B/32 + linear head,5,dog,5,True,0.12012175
+3512,4,stl10/test/03512,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.12042854
+4754,6,stl10/test/04754,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.13363385
+714,2,stl10/test/00714,car,CLIP ViT-B/32 + linear head,2,car,9,False,0.1109352
+2191,8,stl10/test/02191,ship,CLIP ViT-B/32 + linear head,0,airplane,8,False,0.130159
+4615,0,stl10/test/04615,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.140619
+4662,8,stl10/test/04662,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.12960616
+5915,9,stl10/test/05915,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.11986956
+766,4,stl10/test/00766,deer,CLIP ViT-B/32 + linear head,5,dog,6,False,0.10616274
+5218,2,stl10/test/05218,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.122989655
+2340,8,stl10/test/02340,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.13460638
+1954,8,stl10/test/01954,ship,CLIP ViT-B/32 + linear head,0,airplane,8,False,0.111339316
+7875,8,stl10/test/07875,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.11413115
+3418,6,stl10/test/03418,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.13937621
+5572,9,stl10/test/05572,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.10618703
+5977,7,stl10/test/05977,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.13312152
+5123,1,stl10/test/05123,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.13253738
+5851,9,stl10/test/05851,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.12643172
+4094,9,stl10/test/04094,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.109865256
+4254,6,stl10/test/04254,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.12008939
+2501,7,stl10/test/02501,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.13924855
+6938,1,stl10/test/06938,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.15075822
+171,4,stl10/test/00171,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.119503014
+4215,3,stl10/test/04215,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.105376124
+5705,8,stl10/test/05705,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.13902394
+3458,4,stl10/test/03458,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.13162743
+1220,7,stl10/test/01220,monkey,CLIP ViT-B/32 + linear head,3,cat,7,False,0.12356281
+962,8,stl10/test/00962,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.11482606
+2950,5,stl10/test/02950,dog,CLIP ViT-B/32 + linear head,5,dog,5,True,0.12911268
+2623,5,stl10/test/02623,dog,CLIP ViT-B/32 + linear head,7,monkey,5,False,0.1030219
+4539,0,stl10/test/04539,airplane,CLIP ViT-B/32 + linear head,1,bird,0,False,0.11117896
+1553,0,stl10/test/01553,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.13252842
+4740,4,stl10/test/04740,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.12080086
+6844,0,stl10/test/06844,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.13909099
+2668,7,stl10/test/02668,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.1330762
+3153,7,stl10/test/03153,monkey,CLIP ViT-B/32 + linear head,1,bird,7,False,0.11787091
+5135,4,stl10/test/05135,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.11909794
+2291,3,stl10/test/02291,cat,CLIP ViT-B/32 + linear head,1,bird,3,False,0.11187043
+116,1,stl10/test/00116,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.11727623
+7797,3,stl10/test/07797,cat,CLIP ViT-B/32 + linear head,1,bird,3,False,0.1324158
+4609,3,stl10/test/04609,cat,CLIP ViT-B/32 + linear head,1,bird,3,False,0.12198507
+81,0,stl10/test/00081,airplane,CLIP ViT-B/32 + linear head,1,bird,0,False,0.104668684
+5580,6,stl10/test/05580,horse,CLIP ViT-B/32 + linear head,5,dog,6,False,0.11165958
+3024,2,stl10/test/03024,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.114660434
+2766,5,stl10/test/02766,dog,CLIP ViT-B/32 + linear head,3,cat,5,False,0.11335811
+5000,8,stl10/test/05000,ship,CLIP ViT-B/32 + linear head,0,airplane,8,False,0.11378962
+2610,6,stl10/test/02610,horse,CLIP ViT-B/32 + linear head,1,bird,6,False,0.10571983
+2024,0,stl10/test/02024,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.1085816
+6097,4,stl10/test/06097,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.14454168
+964,6,stl10/test/00964,horse,CLIP ViT-B/32 + linear head,1,bird,6,False,0.10377791
+7634,0,stl10/test/07634,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.1376617
+6434,8,stl10/test/06434,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.1294132
+5183,2,stl10/test/05183,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.11200592
+6986,0,stl10/test/06986,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.1408083
+645,5,stl10/test/00645,dog,CLIP ViT-B/32 + linear head,5,dog,5,True,0.12024545
+3347,0,stl10/test/03347,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.123344034
+5677,2,stl10/test/05677,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.11937031
+3412,8,stl10/test/03412,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.12737513
+3937,1,stl10/test/03937,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.14599566
+873,6,stl10/test/00873,horse,CLIP ViT-B/32 + linear head,5,dog,4,False,0.10892173
+2167,9,stl10/test/02167,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.121791676
+6490,3,stl10/test/06490,cat,CLIP ViT-B/32 + linear head,1,bird,3,False,0.12192642
+738,3,stl10/test/00738,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.11396428
+6616,2,stl10/test/06616,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.11786544
+4093,6,stl10/test/04093,horse,CLIP ViT-B/32 + linear head,3,cat,6,False,0.10421763
+5788,9,stl10/test/05788,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.119765155
+7818,8,stl10/test/07818,ship,CLIP ViT-B/32 + linear head,1,bird,8,False,0.10447947
+304,1,stl10/test/00304,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.11379424
+2082,2,stl10/test/02082,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.116567194
+2746,7,stl10/test/02746,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.121359594
+7944,4,stl10/test/07944,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.120345876
+6689,8,stl10/test/06689,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.12461704
+2414,9,stl10/test/02414,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.1150375
+3779,6,stl10/test/03779,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.11953828
+2095,1,stl10/test/02095,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.14136708
+7262,0,stl10/test/07262,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.12942164
+5694,8,stl10/test/05694,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.12748508
+7413,5,stl10/test/07413,dog,CLIP ViT-B/32 + linear head,3,cat,3,True,0.11982048
+6805,1,stl10/test/06805,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.13010512
+3446,7,stl10/test/03446,monkey,CLIP ViT-B/32 + linear head,1,bird,7,False,0.1228399
+2807,5,stl10/test/02807,dog,CLIP ViT-B/32 + linear head,1,bird,4,False,0.118673496
+7940,4,stl10/test/07940,deer,CLIP ViT-B/32 + linear head,7,monkey,4,False,0.11574124
+4172,7,stl10/test/04172,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.12564309
+7744,3,stl10/test/07744,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.10776598
+1586,2,stl10/test/01586,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.12353918
+7999,8,stl10/test/07999,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.1291882
+6349,1,stl10/test/06349,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.13037817
+6594,1,stl10/test/06594,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.12841734
+2109,8,stl10/test/02109,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.12847948
+3079,1,stl10/test/03079,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.11915624
+2070,1,stl10/test/02070,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.12597324
+319,5,stl10/test/00319,dog,CLIP ViT-B/32 + linear head,5,dog,5,True,0.124365985
+2888,0,stl10/test/02888,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.14354862
+6224,5,stl10/test/06224,dog,CLIP ViT-B/32 + linear head,5,dog,5,True,0.11578117
+3353,5,stl10/test/03353,dog,CLIP ViT-B/32 + linear head,1,bird,5,False,0.11459924
+6244,2,stl10/test/06244,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.110684216
+4704,7,stl10/test/04704,monkey,CLIP ViT-B/32 + linear head,1,bird,7,False,0.121729985
+2427,5,stl10/test/02427,dog,CLIP ViT-B/32 + linear head,5,dog,5,True,0.12818569
+7995,9,stl10/test/07995,truck,CLIP ViT-B/32 + linear head,2,car,9,False,0.116393864
+1124,4,stl10/test/01124,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.1171645
+6733,1,stl10/test/06733,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.12836619
+2062,9,stl10/test/02062,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.1332886
+805,9,stl10/test/00805,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.120189115
+2028,3,stl10/test/02028,cat,CLIP ViT-B/32 + linear head,1,bird,3,False,0.105120465
+2392,2,stl10/test/02392,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.1245101
+3292,6,stl10/test/03292,horse,CLIP ViT-B/32 + linear head,7,monkey,6,False,0.10581361
+1440,7,stl10/test/01440,monkey,CLIP ViT-B/32 + linear head,4,deer,7,False,0.12251323
+1115,1,stl10/test/01115,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.11781704
+4242,8,stl10/test/04242,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.118020535
+2230,8,stl10/test/02230,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.12251898
+3163,2,stl10/test/03163,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.11915203
+545,6,stl10/test/00545,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.116051935
+3863,5,stl10/test/03863,dog,CLIP ViT-B/32 + linear head,5,dog,5,True,0.12035919
+4748,7,stl10/test/04748,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.13792229
+2399,4,stl10/test/02399,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.124811575
+4341,6,stl10/test/04341,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.13917318
+3078,4,stl10/test/03078,deer,CLIP ViT-B/32 + linear head,6,horse,4,False,0.115592875
+3763,4,stl10/test/03763,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.14866257
+2958,6,stl10/test/02958,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.13386515
+6381,6,stl10/test/06381,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.13358882
+1640,8,stl10/test/01640,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.11920065
+1783,8,stl10/test/01783,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.12621833
+3914,3,stl10/test/03914,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.13026467
+1534,6,stl10/test/01534,horse,CLIP ViT-B/32 + linear head,7,monkey,6,False,0.10948777
+685,5,stl10/test/00685,dog,CLIP ViT-B/32 + linear head,5,dog,5,True,0.12619708
+4617,0,stl10/test/04617,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.11246798
+5508,9,stl10/test/05508,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.12640819
+1022,9,stl10/test/01022,truck,CLIP ViT-B/32 + linear head,7,monkey,9,False,0.10575954
+1230,1,stl10/test/01230,bird,CLIP ViT-B/32 + linear head,1,bird,7,False,0.120870486
+7475,4,stl10/test/07475,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.13794722
+5756,2,stl10/test/05756,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.12680955
+3122,4,stl10/test/03122,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.12655194
+7202,1,stl10/test/07202,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.12097061
+4723,9,stl10/test/04723,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.119264394
+1552,5,stl10/test/01552,dog,CLIP ViT-B/32 + linear head,7,monkey,5,False,0.12465562
+603,9,stl10/test/00603,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.10701056
+2861,3,stl10/test/02861,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.13074604
+6426,2,stl10/test/06426,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.13247226
+7864,4,stl10/test/07864,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.13060664
+5729,6,stl10/test/05729,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.14981963
+7474,5,stl10/test/07474,dog,CLIP ViT-B/32 + linear head,5,dog,5,True,0.12567377
+4298,1,stl10/test/04298,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.1403003
+1175,0,stl10/test/01175,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.11527935
+3454,2,stl10/test/03454,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.11033922
+2754,3,stl10/test/02754,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.1268983
+855,4,stl10/test/00855,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.11227301
+2854,7,stl10/test/02854,monkey,CLIP ViT-B/32 + linear head,1,bird,7,False,0.119205154
+5092,1,stl10/test/05092,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.13252087
+5590,9,stl10/test/05590,truck,CLIP ViT-B/32 + linear head,0,airplane,9,False,0.11172365
+4463,3,stl10/test/04463,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.11222634
+5318,2,stl10/test/05318,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.10920644
+3515,6,stl10/test/03515,horse,CLIP ViT-B/32 + linear head,4,deer,6,False,0.122172184
+4642,4,stl10/test/04642,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.12646642
+852,9,stl10/test/00852,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.10881404
+1247,8,stl10/test/01247,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.12594429
+7084,2,stl10/test/07084,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.12136386
+5301,9,stl10/test/05301,truck,CLIP ViT-B/32 + linear head,0,airplane,9,False,0.103120066
+5082,6,stl10/test/05082,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.13872574
+5077,4,stl10/test/05077,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.14781357
+1563,3,stl10/test/01563,cat,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.12616946
+29,7,stl10/test/00029,monkey,CLIP ViT-B/32 + linear head,1,bird,7,False,0.10623012
+3867,7,stl10/test/03867,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.1254293
+4620,6,stl10/test/04620,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.11667299
+4065,2,stl10/test/04065,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.11185004
+1095,5,stl10/test/01095,dog,CLIP ViT-B/32 + linear head,5,dog,5,True,0.13002262
+4229,3,stl10/test/04229,cat,CLIP ViT-B/32 + linear head,1,bird,3,False,0.12506056
+3562,3,stl10/test/03562,cat,CLIP ViT-B/32 + linear head,4,deer,3,False,0.12049937
+2342,8,stl10/test/02342,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.11547563
+1667,6,stl10/test/01667,horse,CLIP ViT-B/32 + linear head,4,deer,6,False,0.11221816
+7033,1,stl10/test/07033,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.124062456
+1771,7,stl10/test/01771,monkey,CLIP ViT-B/32 + linear head,1,bird,7,False,0.104689814
+3157,8,stl10/test/03157,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.110712074
+3851,3,stl10/test/03851,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.12839736
+1287,7,stl10/test/01287,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.12093545
+7320,0,stl10/test/07320,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.1064275
+7600,6,stl10/test/07600,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.13297169
+3852,5,stl10/test/03852,dog,CLIP ViT-B/32 + linear head,1,bird,5,False,0.10994092
+269,7,stl10/test/00269,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.11108653
+1703,7,stl10/test/01703,monkey,CLIP ViT-B/32 + linear head,5,dog,7,False,0.116354704
+7776,5,stl10/test/07776,dog,CLIP ViT-B/32 + linear head,4,deer,5,False,0.10445756
+3891,4,stl10/test/03891,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.13292477
+7009,0,stl10/test/07009,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.1277293
+4893,0,stl10/test/04893,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.13808501
+2351,9,stl10/test/02351,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.1112798
+3550,1,stl10/test/03550,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.1285021
+5719,7,stl10/test/05719,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.13038993
+1884,7,stl10/test/01884,monkey,CLIP ViT-B/32 + linear head,1,bird,7,False,0.11696077
+2898,4,stl10/test/02898,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.124870494
+4640,1,stl10/test/04640,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.13080588
+7610,4,stl10/test/07610,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.13172746
+1833,8,stl10/test/01833,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.1296608
+6455,0,stl10/test/06455,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.1356854
+3893,9,stl10/test/03893,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.12132369
+4731,6,stl10/test/04731,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.13006215
+929,6,stl10/test/00929,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.11905014
+3962,6,stl10/test/03962,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.11592746
+3778,3,stl10/test/03778,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.13146316
+1429,4,stl10/test/01429,deer,CLIP ViT-B/32 + linear head,7,monkey,4,False,0.1104417
+49,2,stl10/test/00049,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.1131697
+276,9,stl10/test/00276,truck,CLIP ViT-B/32 + linear head,7,monkey,9,False,0.110018596
+6076,1,stl10/test/06076,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.13487507
+1389,0,stl10/test/01389,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.14074819
+3362,2,stl10/test/03362,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.12918694
+317,2,stl10/test/00317,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.1090472
+4675,0,stl10/test/04675,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.1260341
+5924,5,stl10/test/05924,dog,CLIP ViT-B/32 + linear head,5,dog,5,True,0.13065429
+198,1,stl10/test/00198,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.125022
+7779,6,stl10/test/07779,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.109556444
+4054,4,stl10/test/04054,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.12274824
+5556,4,stl10/test/05556,deer,CLIP ViT-B/32 + linear head,6,horse,4,False,0.12723814
+2687,1,stl10/test/02687,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.11844066
+1202,2,stl10/test/01202,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.11986804
+97,5,stl10/test/00097,dog,CLIP ViT-B/32 + linear head,7,monkey,5,False,0.11910945
+6033,4,stl10/test/06033,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.115442984
+1711,7,stl10/test/01711,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.12336746
+1430,9,stl10/test/01430,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.11779873
+739,8,stl10/test/00739,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.12836248
+3491,1,stl10/test/03491,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.13825308
+1568,1,stl10/test/01568,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.11938887
+1211,4,stl10/test/01211,deer,CLIP ViT-B/32 + linear head,6,horse,4,False,0.120763294
+4913,2,stl10/test/04913,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.1264018
+2502,2,stl10/test/02502,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.12241268
+2539,3,stl10/test/02539,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.115324475
+979,3,stl10/test/00979,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.1320132
+6354,2,stl10/test/06354,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.10916167
+4735,2,stl10/test/04735,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.1131976
+5912,0,stl10/test/05912,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.126574
+3844,6,stl10/test/03844,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.13824518
+1263,3,stl10/test/01263,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.12341207
+3404,7,stl10/test/03404,monkey,CLIP ViT-B/32 + linear head,1,bird,7,False,0.113224186
+3905,8,stl10/test/03905,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.12551598
+1596,0,stl10/test/01596,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.13819566
+3083,0,stl10/test/03083,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.13028972
+2003,6,stl10/test/02003,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.13015844
+5030,2,stl10/test/05030,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.12852527
+95,1,stl10/test/00095,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.1453327
+2757,4,stl10/test/02757,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.123486854
+3413,1,stl10/test/03413,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.13432187
+5488,1,stl10/test/05488,bird,CLIP ViT-B/32 + linear head,7,monkey,1,False,0.12320476
+4827,6,stl10/test/04827,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.12615614
+1877,5,stl10/test/01877,dog,CLIP ViT-B/32 + linear head,5,dog,5,True,0.123428784
+2157,1,stl10/test/02157,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.12888795
+4821,3,stl10/test/04821,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.1325902
+4953,5,stl10/test/04953,dog,CLIP ViT-B/32 + linear head,5,dog,5,True,0.12559712
+5525,8,stl10/test/05525,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.13365589
+5381,5,stl10/test/05381,dog,CLIP ViT-B/32 + linear head,7,monkey,5,False,0.114367075
+672,3,stl10/test/00672,cat,CLIP ViT-B/32 + linear head,1,bird,3,False,0.11550986
+323,7,stl10/test/00323,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.11240268
+5436,7,stl10/test/05436,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.13924997
+5450,7,stl10/test/05450,monkey,CLIP ViT-B/32 + linear head,1,bird,7,False,0.11821606
+6358,5,stl10/test/06358,dog,CLIP ViT-B/32 + linear head,5,dog,5,True,0.13016312
+372,3,stl10/test/00372,cat,CLIP ViT-B/32 + linear head,7,monkey,3,False,0.10645053
+378,5,stl10/test/00378,dog,CLIP ViT-B/32 + linear head,3,cat,5,False,0.12488159
+7706,5,stl10/test/07706,dog,CLIP ViT-B/32 + linear head,3,cat,5,False,0.115911156
+2178,1,stl10/test/02178,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.1421383
+5237,2,stl10/test/05237,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.12333417
+5478,0,stl10/test/05478,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.112593964
+5452,9,stl10/test/05452,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.11115106
+5623,4,stl10/test/05623,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.13455532
+6772,7,stl10/test/06772,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.11143986
+1111,4,stl10/test/01111,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.15209225
+5528,3,stl10/test/05528,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.13091463
+3777,6,stl10/test/03777,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.13654195
+2458,5,stl10/test/02458,dog,CLIP ViT-B/32 + linear head,5,dog,5,True,0.12399428
+4921,2,stl10/test/04921,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.115138486
+3015,8,stl10/test/03015,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.12572384
+7476,8,stl10/test/07476,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.11614744
+1520,2,stl10/test/01520,car,CLIP ViT-B/32 + linear head,1,bird,2,False,0.10759027
+6713,6,stl10/test/06713,horse,CLIP ViT-B/32 + linear head,5,dog,6,False,0.11412858
+1852,1,stl10/test/01852,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.13005948
+2268,5,stl10/test/02268,dog,CLIP ViT-B/32 + linear head,5,dog,5,True,0.12640227
+151,8,stl10/test/00151,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.112707585
+890,6,stl10/test/00890,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.1281782
+825,1,stl10/test/00825,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.13638799
+2536,3,stl10/test/02536,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.13171448
+470,2,stl10/test/00470,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.1257106
+5256,1,stl10/test/05256,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.13260387
+2011,9,stl10/test/02011,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.11221584
+7150,0,stl10/test/07150,airplane,CLIP ViT-B/32 + linear head,1,bird,0,False,0.11646999
+449,6,stl10/test/00449,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.11751729
+2704,4,stl10/test/02704,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.138328
+3437,0,stl10/test/03437,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.114705846
+3375,3,stl10/test/03375,cat,CLIP ViT-B/32 + linear head,5,dog,3,False,0.11748216
+4552,8,stl10/test/04552,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.1103707
+920,6,stl10/test/00920,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.13740945
+2242,0,stl10/test/02242,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.13019173
+2745,8,stl10/test/02745,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.12615629
+1032,7,stl10/test/01032,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.13140008
+365,3,stl10/test/00365,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.13337453
+4850,5,stl10/test/04850,dog,CLIP ViT-B/32 + linear head,5,dog,5,True,0.12584837
+4819,0,stl10/test/04819,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.13402915
+7338,6,stl10/test/07338,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.11736186
+7372,0,stl10/test/07372,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.13566446
+1090,1,stl10/test/01090,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.12449208
+5062,4,stl10/test/05062,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.121028736
+981,2,stl10/test/00981,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.11592702
+5857,6,stl10/test/05857,horse,CLIP ViT-B/32 + linear head,5,dog,6,False,0.107904956
+1986,1,stl10/test/01986,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.12806821
+5560,1,stl10/test/05560,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.13981251
+1814,2,stl10/test/01814,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.11950724
+194,8,stl10/test/00194,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.12860174
+1993,1,stl10/test/01993,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.14227432
+5333,2,stl10/test/05333,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.12516366
+4311,8,stl10/test/04311,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.13256082
+7425,2,stl10/test/07425,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.11885178
+3889,5,stl10/test/03889,dog,CLIP ViT-B/32 + linear head,7,monkey,5,False,0.11679747
+4308,7,stl10/test/04308,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.12971975
+1960,4,stl10/test/01960,deer,CLIP ViT-B/32 + linear head,5,dog,4,False,0.12575133
+4399,0,stl10/test/04399,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.10697649
+3191,6,stl10/test/03191,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.11634334
+1626,5,stl10/test/01626,dog,CLIP ViT-B/32 + linear head,5,dog,5,True,0.12203519
+176,3,stl10/test/00176,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.12591626
+7726,6,stl10/test/07726,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.12132504
+2334,5,stl10/test/02334,dog,CLIP ViT-B/32 + linear head,5,dog,5,True,0.12687168
+1648,0,stl10/test/01648,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.1318226
+6084,7,stl10/test/06084,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.13260981
+3455,0,stl10/test/03455,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.13157277
+1468,9,stl10/test/01468,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.11997617
+1296,7,stl10/test/01296,monkey,CLIP ViT-B/32 + linear head,1,bird,7,False,0.12413501
+5213,4,stl10/test/05213,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.12076125
+7047,9,stl10/test/07047,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.121561006
+5360,9,stl10/test/05360,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.11525954
+5824,2,stl10/test/05824,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.11316214
+7460,8,stl10/test/07460,ship,CLIP ViT-B/32 + linear head,1,bird,8,False,0.10488954
+4791,7,stl10/test/04791,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.11898154
+6692,2,stl10/test/06692,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.122618884
+6931,9,stl10/test/06931,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.10960241
+667,8,stl10/test/00667,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.13390025
+7781,6,stl10/test/07781,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.14050236
+7793,3,stl10/test/07793,cat,CLIP ViT-B/32 + linear head,3,cat,5,False,0.118801765
+1411,9,stl10/test/01411,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.11095869
+1473,7,stl10/test/01473,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.13814843
+7130,5,stl10/test/07130,dog,CLIP ViT-B/32 + linear head,4,deer,5,False,0.110907085
+1956,7,stl10/test/01956,monkey,CLIP ViT-B/32 + linear head,5,dog,7,False,0.11083829
+6716,5,stl10/test/06716,dog,CLIP ViT-B/32 + linear head,1,bird,5,False,0.11291824
+4106,5,stl10/test/04106,dog,CLIP ViT-B/32 + linear head,3,cat,5,False,0.12007666
+3494,6,stl10/test/03494,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.14338288
+691,4,stl10/test/00691,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.12542613
+5220,1,stl10/test/05220,bird,CLIP ViT-B/32 + linear head,1,bird,3,False,0.11631713
+4908,3,stl10/test/04908,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.13897602
+7029,1,stl10/test/07029,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.14785813
+4130,0,stl10/test/04130,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.11993791
+7938,9,stl10/test/07938,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.11725152
+5101,5,stl10/test/05101,dog,CLIP ViT-B/32 + linear head,5,dog,5,True,0.12776908
+1515,9,stl10/test/01515,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.114693485
+3287,4,stl10/test/03287,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.13948698
+716,8,stl10/test/00716,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.12691791
+4236,7,stl10/test/04236,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.14780644
+5408,6,stl10/test/05408,horse,CLIP ViT-B/32 + linear head,4,deer,6,False,0.118443646
+5496,5,stl10/test/05496,dog,CLIP ViT-B/32 + linear head,5,dog,5,True,0.12711672
+3365,4,stl10/test/03365,deer,CLIP ViT-B/32 + linear head,5,dog,4,False,0.114643954
+4323,3,stl10/test/04323,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.114683785
+5467,4,stl10/test/05467,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.12663825
+1644,5,stl10/test/01644,dog,CLIP ViT-B/32 + linear head,5,dog,5,True,0.123745725
+3948,8,stl10/test/03948,ship,CLIP ViT-B/32 + linear head,0,airplane,8,False,0.11096216
+6726,7,stl10/test/06726,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.119303785
+5395,2,stl10/test/05395,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.12258028
+1579,7,stl10/test/01579,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.1261617
+5918,0,stl10/test/05918,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.13338012
+7041,5,stl10/test/07041,dog,CLIP ViT-B/32 + linear head,5,dog,5,True,0.12395941
+506,4,stl10/test/00506,deer,CLIP ViT-B/32 + linear head,1,bird,4,False,0.112006925
+4011,6,stl10/test/04011,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.121774144
+5981,9,stl10/test/05981,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.1085412
+409,2,stl10/test/00409,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.116313644
+6954,1,stl10/test/06954,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.14156345
+7555,6,stl10/test/07555,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.121843554
+3965,0,stl10/test/03965,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.1281381
+7266,9,stl10/test/07266,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.110706255
+4785,0,stl10/test/04785,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.1340281
+6028,2,stl10/test/06028,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.12297919
+6503,2,stl10/test/06503,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.11317131
+6414,5,stl10/test/06414,dog,CLIP ViT-B/32 + linear head,7,monkey,5,False,0.10846473
+5382,6,stl10/test/05382,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.12798427
+6836,1,stl10/test/06836,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.13658212
+6508,4,stl10/test/06508,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.12582837
+3994,4,stl10/test/03994,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.12235752
+3942,9,stl10/test/03942,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.12069869
+3542,7,stl10/test/03542,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.12650047
+6952,3,stl10/test/06952,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.1281718
+4290,5,stl10/test/04290,dog,CLIP ViT-B/32 + linear head,1,bird,4,False,0.11371239
+7446,8,stl10/test/07446,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.1138169
+6169,1,stl10/test/06169,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.12063027
+1109,1,stl10/test/01109,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.12017368
+3179,4,stl10/test/03179,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.14392804
+7835,7,stl10/test/07835,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.14793798
+7390,1,stl10/test/07390,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.1391839
+568,5,stl10/test/00568,dog,CLIP ViT-B/32 + linear head,3,cat,3,True,0.12868413
+4629,4,stl10/test/04629,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.14389943
+7138,8,stl10/test/07138,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.12138071
+5284,9,stl10/test/05284,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.13557631
+3,0,stl10/test/00003,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.13677286
+2690,1,stl10/test/02690,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.12868321
+5858,6,stl10/test/05858,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.11782809
+1266,4,stl10/test/01266,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.129839
+3034,4,stl10/test/03034,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.138768
+2655,9,stl10/test/02655,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.12960853
+6190,7,stl10/test/06190,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.13308273
+4170,8,stl10/test/04170,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.13011734
+7380,9,stl10/test/07380,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.120267116
+7752,9,stl10/test/07752,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.12411704
+3996,9,stl10/test/03996,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.11785116
+1204,3,stl10/test/01204,cat,CLIP ViT-B/32 + linear head,1,bird,3,False,0.1278138
+1654,9,stl10/test/01654,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.1247046
+4746,6,stl10/test/04746,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.122574575
+4590,3,stl10/test/04590,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.13099262
+562,0,stl10/test/00562,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.132701
+7108,6,stl10/test/07108,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.12995446
+5999,0,stl10/test/05999,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.109499045
+1403,2,stl10/test/01403,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.12045119
+4403,7,stl10/test/04403,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.13285795
+6332,2,stl10/test/06332,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.11936601
+6264,2,stl10/test/06264,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.12418042
+303,9,stl10/test/00303,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.12871298
+791,3,stl10/test/00791,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.13555914
+3067,2,stl10/test/03067,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.1190591
+484,0,stl10/test/00484,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.12837304
+1370,3,stl10/test/01370,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.13024041
+4069,8,stl10/test/04069,ship,CLIP ViT-B/32 + linear head,1,bird,8,False,0.10837386
+7373,0,stl10/test/07373,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.13571852
+4330,3,stl10/test/04330,cat,CLIP ViT-B/32 + linear head,1,bird,5,False,0.12121865
+5701,5,stl10/test/05701,dog,CLIP ViT-B/32 + linear head,3,cat,5,False,0.12981029
+7465,0,stl10/test/07465,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.14260484
+1531,3,stl10/test/01531,cat,CLIP ViT-B/32 + linear head,5,dog,3,False,0.12209451
+4676,8,stl10/test/04676,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.11962964
+4531,3,stl10/test/04531,cat,CLIP ViT-B/32 + linear head,7,monkey,3,False,0.12158872
+706,8,stl10/test/00706,ship,CLIP ViT-B/32 + linear head,0,airplane,8,False,0.10581522
+2844,8,stl10/test/02844,ship,CLIP ViT-B/32 + linear head,8,ship,8,True,0.12901503
+3755,2,stl10/test/03755,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.118125066
+5848,7,stl10/test/05848,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.12386116
+2114,9,stl10/test/02114,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.122564204
+3876,0,stl10/test/03876,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.12273668
+677,3,stl10/test/00677,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.13314041
+2116,1,stl10/test/02116,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.1368538
+4661,7,stl10/test/04661,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.12915114
+2676,6,stl10/test/02676,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.10831291
+3025,0,stl10/test/03025,airplane,CLIP ViT-B/32 + linear head,1,bird,0,False,0.10970615
+4449,9,stl10/test/04449,truck,CLIP ViT-B/32 + linear head,0,airplane,9,False,0.11110661
+977,6,stl10/test/00977,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.13730593
+4990,8,stl10/test/04990,ship,CLIP ViT-B/32 + linear head,0,airplane,8,False,0.10784858
+7309,0,stl10/test/07309,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.1298979
+1048,7,stl10/test/01048,monkey,CLIP ViT-B/32 + linear head,1,bird,7,False,0.12205882
+3276,3,stl10/test/03276,cat,CLIP ViT-B/32 + linear head,3,cat,7,False,0.11568926
+5512,2,stl10/test/05512,car,CLIP ViT-B/32 + linear head,9,truck,9,True,0.10463188
+7692,4,stl10/test/07692,deer,CLIP ViT-B/32 + linear head,1,bird,4,False,0.11516578
+1436,1,stl10/test/01436,bird,CLIP ViT-B/32 + linear head,1,bird,1,True,0.1488917
+7544,9,stl10/test/07544,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.12146742
+3383,3,stl10/test/03383,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.12056758
+1977,0,stl10/test/01977,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.14084938
+2750,0,stl10/test/02750,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.11159437
+7996,6,stl10/test/07996,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.14313012
+6989,5,stl10/test/06989,dog,CLIP ViT-B/32 + linear head,7,monkey,5,False,0.118579514
+1431,3,stl10/test/01431,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.12643275
+7416,3,stl10/test/07416,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.1119921
+4547,5,stl10/test/04547,dog,CLIP ViT-B/32 + linear head,5,dog,5,True,0.12957828
+42,0,stl10/test/00042,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.11327054
+5117,0,stl10/test/05117,airplane,CLIP ViT-B/32 + linear head,0,airplane,0,True,0.13028216
+4411,6,stl10/test/04411,horse,CLIP ViT-B/32 + linear head,6,horse,6,True,0.104596004
+5789,4,stl10/test/05789,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.11867402
+483,2,stl10/test/00483,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.12751083
+6650,7,stl10/test/06650,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.11282898
+4881,3,stl10/test/04881,cat,CLIP ViT-B/32 + linear head,1,bird,3,False,0.12381363
+391,3,stl10/test/00391,cat,CLIP ViT-B/32 + linear head,3,cat,3,True,0.11814728
+370,7,stl10/test/00370,monkey,CLIP ViT-B/32 + linear head,7,monkey,7,True,0.1233126
+419,9,stl10/test/00419,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.10937258
+3318,9,stl10/test/03318,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.11039421
+4355,8,stl10/test/04355,ship,CLIP ViT-B/32 + linear head,1,bird,8,False,0.10774948
+5402,4,stl10/test/05402,deer,CLIP ViT-B/32 + linear head,4,deer,4,True,0.14556627
+5332,5,stl10/test/05332,dog,CLIP ViT-B/32 + linear head,5,dog,5,True,0.11763254
+239,9,stl10/test/00239,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.11733931
+6271,2,stl10/test/06271,car,CLIP ViT-B/32 + linear head,2,car,2,True,0.12668434
+1129,8,stl10/test/01129,ship,CLIP ViT-B/32 + linear head,0,airplane,8,False,0.11421788
+2391,5,stl10/test/02391,dog,CLIP ViT-B/32 + linear head,1,bird,5,False,0.12279857
+191,9,stl10/test/00191,truck,CLIP ViT-B/32 + linear head,2,car,9,False,0.11717619
+5447,9,stl10/test/05447,truck,CLIP ViT-B/32 + linear head,9,truck,9,True,0.117008254
+6528,4,stl10/test/06528,deer,CLIP ViT-B/32 + linear head,5,dog,4,False,0.11545575
+632,3,stl10/test/00632,cat,CLIP ViT-B/32 zero-shot,3,cat,3,True,0.7462318
+131,9,stl10/test/00131,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.6231717
+7081,7,stl10/test/07081,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.5829831
+1836,9,stl10/test/01836,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.71664757
+6437,0,stl10/test/06437,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.9297614
+6609,0,stl10/test/06609,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.97733635
+3467,7,stl10/test/03467,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.53484
+1401,3,stl10/test/01401,cat,CLIP ViT-B/32 zero-shot,3,cat,3,True,0.9655627
+1839,2,stl10/test/01839,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.9488505
+4168,3,stl10/test/04168,cat,CLIP ViT-B/32 zero-shot,3,cat,3,True,0.6443437
+35,2,stl10/test/00035,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.93289214
+4177,8,stl10/test/04177,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.89700973
+7270,7,stl10/test/07270,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.60381275
+2265,5,stl10/test/02265,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.96186465
+3288,7,stl10/test/03288,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.964179
+5451,8,stl10/test/05451,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.97767264
+4023,3,stl10/test/04023,cat,CLIP ViT-B/32 zero-shot,5,dog,3,False,0.5401181
+261,1,stl10/test/00261,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.96817553
+4570,5,stl10/test/04570,dog,CLIP ViT-B/32 zero-shot,6,horse,5,False,0.38028693
+4966,5,stl10/test/04966,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.96718955
+7955,1,stl10/test/07955,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.92841566
+6288,4,stl10/test/06288,deer,CLIP ViT-B/32 zero-shot,1,bird,4,False,0.59743387
+7810,8,stl10/test/07810,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.9108432
+1927,7,stl10/test/01927,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.9905628
+1871,1,stl10/test/01871,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.886684
+6922,5,stl10/test/06922,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.8828137
+3512,4,stl10/test/03512,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.7397559
+4754,6,stl10/test/04754,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.99573356
+714,2,stl10/test/00714,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.6281306
+2191,8,stl10/test/02191,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.5084416
+4615,0,stl10/test/04615,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.93324095
+4662,8,stl10/test/04662,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.97671616
+5915,9,stl10/test/05915,truck,CLIP ViT-B/32 zero-shot,2,car,9,False,0.66056865
+766,4,stl10/test/00766,deer,CLIP ViT-B/32 zero-shot,5,dog,6,False,0.4154597
+5218,2,stl10/test/05218,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.88367647
+2340,8,stl10/test/02340,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.98230064
+1954,8,stl10/test/01954,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.5507799
+7875,8,stl10/test/07875,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.8988519
+3418,6,stl10/test/03418,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.99821776
+5572,9,stl10/test/05572,truck,CLIP ViT-B/32 zero-shot,2,car,9,False,0.44645
+5977,7,stl10/test/05977,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.6292009
+5123,1,stl10/test/05123,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.9931444
+5851,9,stl10/test/05851,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.9693282
+4094,9,stl10/test/04094,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.7858546
+4254,6,stl10/test/04254,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.9667031
+2501,7,stl10/test/02501,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.98820347
+6938,1,stl10/test/06938,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.9989987
+171,4,stl10/test/00171,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.78593004
+4215,3,stl10/test/04215,cat,CLIP ViT-B/32 zero-shot,3,cat,3,True,0.3639287
+5705,8,stl10/test/05705,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.9959835
+3458,4,stl10/test/03458,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.95234346
+1220,7,stl10/test/01220,monkey,CLIP ViT-B/32 zero-shot,3,cat,7,False,0.47896957
+962,8,stl10/test/00962,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.8559596
+2950,5,stl10/test/02950,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.9444967
+2623,5,stl10/test/02623,dog,CLIP ViT-B/32 zero-shot,1,bird,5,False,0.24937111
+4539,0,stl10/test/04539,airplane,CLIP ViT-B/32 zero-shot,1,bird,0,False,0.5830941
+1553,0,stl10/test/01553,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.9748054
+4740,4,stl10/test/04740,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.48891062
+6844,0,stl10/test/06844,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.7448437
+2668,7,stl10/test/02668,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.96730274
+3153,7,stl10/test/03153,monkey,CLIP ViT-B/32 zero-shot,1,bird,7,False,0.6037913
+5135,4,stl10/test/05135,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.8132969
+2291,3,stl10/test/02291,cat,CLIP ViT-B/32 zero-shot,1,bird,3,False,0.43929377
+116,1,stl10/test/00116,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.83272123
+7797,3,stl10/test/07797,cat,CLIP ViT-B/32 zero-shot,1,bird,3,False,0.9082537
+4609,3,stl10/test/04609,cat,CLIP ViT-B/32 zero-shot,1,bird,7,False,0.90205914
+81,0,stl10/test/00081,airplane,CLIP ViT-B/32 zero-shot,8,ship,0,False,0.24527806
+5580,6,stl10/test/05580,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.3725079
+3024,2,stl10/test/03024,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.8710945
+2766,5,stl10/test/02766,dog,CLIP ViT-B/32 zero-shot,3,cat,5,False,0.6617326
+5000,8,stl10/test/05000,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.8899322
+2610,6,stl10/test/02610,horse,CLIP ViT-B/32 zero-shot,1,bird,6,False,0.4361345
+2024,0,stl10/test/02024,airplane,CLIP ViT-B/32 zero-shot,1,bird,0,False,0.49763462
+6097,4,stl10/test/06097,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.9870091
+964,6,stl10/test/00964,horse,CLIP ViT-B/32 zero-shot,2,car,6,False,0.20813568
+7634,0,stl10/test/07634,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.65976197
+6434,8,stl10/test/06434,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.9922833
+5183,2,stl10/test/05183,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.809176
+6986,0,stl10/test/06986,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.79992896
+645,5,stl10/test/00645,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.6663566
+3347,0,stl10/test/03347,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.8212031
+5677,2,stl10/test/05677,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.90773946
+3412,8,stl10/test/03412,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.97955906
+3937,1,stl10/test/03937,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.99852556
+873,6,stl10/test/00873,horse,CLIP ViT-B/32 zero-shot,5,dog,6,False,0.29550055
+2167,9,stl10/test/02167,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.91546696
+6490,3,stl10/test/06490,cat,CLIP ViT-B/32 zero-shot,1,bird,3,False,0.9206364
+738,3,stl10/test/00738,cat,CLIP ViT-B/32 zero-shot,1,bird,3,False,0.7426464
+6616,2,stl10/test/06616,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.86561686
+4093,6,stl10/test/04093,horse,CLIP ViT-B/32 zero-shot,5,dog,6,False,0.35202232
+5788,9,stl10/test/05788,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.9005527
+7818,8,stl10/test/07818,ship,CLIP ViT-B/32 zero-shot,2,car,8,False,0.24056797
+304,1,stl10/test/00304,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.8587578
+2082,2,stl10/test/02082,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.8593188
+2746,7,stl10/test/02746,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.8435424
+7944,4,stl10/test/07944,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.85607475
+6689,8,stl10/test/06689,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.9541823
+2414,9,stl10/test/02414,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.6136091
+3779,6,stl10/test/03779,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.9322137
+2095,1,stl10/test/02095,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.9871169
+7262,0,stl10/test/07262,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.69240147
+5694,8,stl10/test/05694,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.9861888
+7413,5,stl10/test/07413,dog,CLIP ViT-B/32 zero-shot,3,cat,3,True,0.5984983
+6805,1,stl10/test/06805,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.96840537
+3446,7,stl10/test/03446,monkey,CLIP ViT-B/32 zero-shot,1,bird,7,False,0.5327372
+2807,5,stl10/test/02807,dog,CLIP ViT-B/32 zero-shot,1,bird,4,False,0.8135475
+7940,4,stl10/test/07940,deer,CLIP ViT-B/32 zero-shot,7,monkey,4,False,0.52605414
+4172,7,stl10/test/04172,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.47585285
+7744,3,stl10/test/07744,cat,CLIP ViT-B/32 zero-shot,1,bird,3,False,0.45160452
+1586,2,stl10/test/01586,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.96835864
+7999,8,stl10/test/07999,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.9722164
+6349,1,stl10/test/06349,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.9338989
+6594,1,stl10/test/06594,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.95464545
+2109,8,stl10/test/02109,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.93674815
+3079,1,stl10/test/03079,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.95028484
+2070,1,stl10/test/02070,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.95041573
+319,5,stl10/test/00319,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.9041806
+2888,0,stl10/test/02888,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.922714
+6224,5,stl10/test/06224,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.7542353
+3353,5,stl10/test/03353,dog,CLIP ViT-B/32 zero-shot,1,bird,5,False,0.80847687
+6244,2,stl10/test/06244,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.7321273
+4704,7,stl10/test/04704,monkey,CLIP ViT-B/32 zero-shot,1,bird,7,False,0.78551257
+2427,5,stl10/test/02427,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.94722825
+7995,9,stl10/test/07995,truck,CLIP ViT-B/32 zero-shot,2,car,9,False,0.80293894
+1124,4,stl10/test/01124,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.49159634
+6733,1,stl10/test/06733,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.95563346
+2062,9,stl10/test/02062,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.97194326
+805,9,stl10/test/00805,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.711713
+2028,3,stl10/test/02028,cat,CLIP ViT-B/32 zero-shot,5,dog,3,False,0.32936642
+2392,2,stl10/test/02392,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.91800827
+3292,6,stl10/test/03292,horse,CLIP ViT-B/32 zero-shot,5,dog,6,False,0.5800391
+1440,7,stl10/test/01440,monkey,CLIP ViT-B/32 zero-shot,4,deer,7,False,0.5597529
+1115,1,stl10/test/01115,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.81830156
+4242,8,stl10/test/04242,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.9307525
+2230,8,stl10/test/02230,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.95147306
+3163,2,stl10/test/03163,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.84532577
+545,6,stl10/test/00545,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.6600843
+3863,5,stl10/test/03863,dog,CLIP ViT-B/32 zero-shot,6,horse,5,False,0.7027864
+4748,7,stl10/test/04748,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.7987456
+2399,4,stl10/test/02399,deer,CLIP ViT-B/32 zero-shot,7,monkey,4,False,0.5091042
+4341,6,stl10/test/04341,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.9962853
+3078,4,stl10/test/03078,deer,CLIP ViT-B/32 zero-shot,6,horse,4,False,0.545919
+3763,4,stl10/test/03763,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.99470633
+2958,6,stl10/test/02958,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.9894567
+6381,6,stl10/test/06381,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.9813162
+1640,8,stl10/test/01640,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.94856834
+1783,8,stl10/test/01783,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.9673451
+3914,3,stl10/test/03914,cat,CLIP ViT-B/32 zero-shot,3,cat,3,True,0.8189687
+1534,6,stl10/test/01534,horse,CLIP ViT-B/32 zero-shot,7,monkey,6,False,0.43095255
+685,5,stl10/test/00685,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.9539321
+4617,0,stl10/test/04617,airplane,CLIP ViT-B/32 zero-shot,1,bird,0,False,0.5287231
+5508,9,stl10/test/05508,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.9114266
+1022,9,stl10/test/01022,truck,CLIP ViT-B/32 zero-shot,3,cat,9,False,0.22091497
+1230,1,stl10/test/01230,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.8146669
+7475,4,stl10/test/07475,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.9916182
+5756,2,stl10/test/05756,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.93515724
+3122,4,stl10/test/03122,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.96205074
+7202,1,stl10/test/07202,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.8669211
+4723,9,stl10/test/04723,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.7750432
+1552,5,stl10/test/01552,dog,CLIP ViT-B/32 zero-shot,7,monkey,5,False,0.66587996
+603,9,stl10/test/00603,truck,CLIP ViT-B/32 zero-shot,1,bird,9,False,0.2940207
+2861,3,stl10/test/02861,cat,CLIP ViT-B/32 zero-shot,3,cat,3,True,0.95061415
+6426,2,stl10/test/06426,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.97361743
+7864,4,stl10/test/07864,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.9584909
+5729,6,stl10/test/05729,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.99908483
+7474,5,stl10/test/07474,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.95503783
+4298,1,stl10/test/04298,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.9910534
+1175,0,stl10/test/01175,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.574127
+3454,2,stl10/test/03454,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.71187353
+2754,3,stl10/test/02754,cat,CLIP ViT-B/32 zero-shot,3,cat,3,True,0.8343138
+855,4,stl10/test/00855,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.7545853
+2854,7,stl10/test/02854,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.42736855
+5092,1,stl10/test/05092,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.9693546
+5590,9,stl10/test/05590,truck,CLIP ViT-B/32 zero-shot,0,airplane,9,False,0.39130595
+4463,3,stl10/test/04463,cat,CLIP ViT-B/32 zero-shot,3,cat,3,True,0.6452203
+5318,2,stl10/test/05318,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.544561
+3515,6,stl10/test/03515,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.7635039
+4642,4,stl10/test/04642,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.9436119
+852,9,stl10/test/00852,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.70396554
+1247,8,stl10/test/01247,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.9639769
+7084,2,stl10/test/07084,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.9339687
+5301,9,stl10/test/05301,truck,CLIP ViT-B/32 zero-shot,1,bird,9,False,0.22427708
+5082,6,stl10/test/05082,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.9952769
+5077,4,stl10/test/05077,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.9879247
+1563,3,stl10/test/01563,cat,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.8578889
+29,7,stl10/test/00029,monkey,CLIP ViT-B/32 zero-shot,1,bird,7,False,0.39354962
+3867,7,stl10/test/03867,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.94019926
+4620,6,stl10/test/04620,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.91611856
+4065,2,stl10/test/04065,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.823492
+1095,5,stl10/test/01095,dog,CLIP ViT-B/32 zero-shot,6,horse,5,False,0.5232482
+4229,3,stl10/test/04229,cat,CLIP ViT-B/32 zero-shot,7,monkey,3,False,0.58669716
+3562,3,stl10/test/03562,cat,CLIP ViT-B/32 zero-shot,7,monkey,4,False,0.51752514
+2342,8,stl10/test/02342,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.9389616
+1667,6,stl10/test/01667,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.85182905
+7033,1,stl10/test/07033,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.8616047
+1771,7,stl10/test/01771,monkey,CLIP ViT-B/32 zero-shot,6,horse,7,False,0.28150138
+3157,8,stl10/test/03157,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.81273
+3851,3,stl10/test/03851,cat,CLIP ViT-B/32 zero-shot,3,cat,3,True,0.9108309
+1287,7,stl10/test/01287,monkey,CLIP ViT-B/32 zero-shot,5,dog,7,False,0.6745468
+7320,0,stl10/test/07320,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.3794269
+7600,6,stl10/test/07600,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.9858817
+3852,5,stl10/test/03852,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.49915648
+269,7,stl10/test/00269,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.69291997
+1703,7,stl10/test/01703,monkey,CLIP ViT-B/32 zero-shot,5,dog,7,False,0.760594
+7776,5,stl10/test/07776,dog,CLIP ViT-B/32 zero-shot,6,horse,5,False,0.23773344
+3891,4,stl10/test/03891,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.9900423
+7009,0,stl10/test/07009,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.93532395
+4893,0,stl10/test/04893,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.7467483
+2351,9,stl10/test/02351,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.7994503
+3550,1,stl10/test/03550,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.96733356
+5719,7,stl10/test/05719,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.6546501
+1884,7,stl10/test/01884,monkey,CLIP ViT-B/32 zero-shot,1,bird,7,False,0.5740224
+2898,4,stl10/test/02898,deer,CLIP ViT-B/32 zero-shot,6,horse,4,False,0.55164754
+4640,1,stl10/test/04640,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.9177087
+7610,4,stl10/test/07610,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.9807957
+1833,8,stl10/test/01833,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.9791931
+6455,0,stl10/test/06455,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.9577699
+3893,9,stl10/test/03893,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.9000663
+4731,6,stl10/test/04731,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.9898122
+929,6,stl10/test/00929,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.81381065
+3962,6,stl10/test/03962,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.84808105
+3778,3,stl10/test/03778,cat,CLIP ViT-B/32 zero-shot,3,cat,3,True,0.9211776
+1429,4,stl10/test/01429,deer,CLIP ViT-B/32 zero-shot,7,monkey,4,False,0.43085083
+49,2,stl10/test/00049,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.80650485
+276,9,stl10/test/00276,truck,CLIP ViT-B/32 zero-shot,7,monkey,9,False,0.46155912
+6076,1,stl10/test/06076,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.9927746
+1389,0,stl10/test/01389,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.9482862
+3362,2,stl10/test/03362,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.9635225
+317,2,stl10/test/00317,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.7214709
+4675,0,stl10/test/04675,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.94109106
+5924,5,stl10/test/05924,dog,CLIP ViT-B/32 zero-shot,5,dog,6,False,0.9227843
+198,1,stl10/test/00198,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.79794014
+7779,6,stl10/test/07779,horse,CLIP ViT-B/32 zero-shot,1,bird,6,False,0.51367104
+4054,4,stl10/test/04054,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.78455865
+5556,4,stl10/test/05556,deer,CLIP ViT-B/32 zero-shot,6,horse,4,False,0.9797019
+2687,1,stl10/test/02687,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.6964788
+1202,2,stl10/test/01202,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.8019841
+97,5,stl10/test/00097,dog,CLIP ViT-B/32 zero-shot,7,monkey,5,False,0.5662616
+6033,4,stl10/test/06033,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.5713742
+1711,7,stl10/test/01711,monkey,CLIP ViT-B/32 zero-shot,6,horse,7,False,0.4559594
+1430,9,stl10/test/01430,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.8560029
+739,8,stl10/test/00739,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.9832774
+3491,1,stl10/test/03491,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.9924522
+1568,1,stl10/test/01568,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.7758287
+1211,4,stl10/test/01211,deer,CLIP ViT-B/32 zero-shot,6,horse,4,False,0.77553487
+4913,2,stl10/test/04913,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.94508153
+2502,2,stl10/test/02502,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.5866054
+2539,3,stl10/test/02539,cat,CLIP ViT-B/32 zero-shot,1,bird,3,False,0.29975498
+979,3,stl10/test/00979,cat,CLIP ViT-B/32 zero-shot,3,cat,3,True,0.9603901
+6354,2,stl10/test/06354,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.735284
+4735,2,stl10/test/04735,car,CLIP ViT-B/32 zero-shot,9,truck,2,False,0.7472638
+5912,0,stl10/test/05912,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.71896595
+3844,6,stl10/test/03844,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.9954332
+1263,3,stl10/test/01263,cat,CLIP ViT-B/32 zero-shot,3,cat,4,False,0.4515906
+3404,7,stl10/test/03404,monkey,CLIP ViT-B/32 zero-shot,1,bird,7,False,0.606514
+3905,8,stl10/test/03905,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.9747873
+1596,0,stl10/test/01596,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.8427371
+3083,0,stl10/test/03083,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.962045
+2003,6,stl10/test/02003,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.98016846
+5030,2,stl10/test/05030,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.9569054
+95,1,stl10/test/00095,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.9946589
+2757,4,stl10/test/02757,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.81940603
+3413,1,stl10/test/03413,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.9672944
+5488,1,stl10/test/05488,bird,CLIP ViT-B/32 zero-shot,7,monkey,1,False,0.8586175
+4827,6,stl10/test/04827,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.9683546
+1877,5,stl10/test/01877,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.64149153
+2157,1,stl10/test/02157,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.9768325
+4821,3,stl10/test/04821,cat,CLIP ViT-B/32 zero-shot,3,cat,3,True,0.871716
+4953,5,stl10/test/04953,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.97144204
+5525,8,stl10/test/05525,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.9902069
+5381,5,stl10/test/05381,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.35727835
+672,3,stl10/test/00672,cat,CLIP ViT-B/32 zero-shot,1,bird,3,False,0.29279432
+323,7,stl10/test/00323,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.2878338
+5436,7,stl10/test/05436,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.9800118
+5450,7,stl10/test/05450,monkey,CLIP ViT-B/32 zero-shot,1,bird,7,False,0.8024621
+6358,5,stl10/test/06358,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.9711157
+372,3,stl10/test/00372,cat,CLIP ViT-B/32 zero-shot,1,bird,3,False,0.24838935
+378,5,stl10/test/00378,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.6354555
+7706,5,stl10/test/07706,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.55404687
+2178,1,stl10/test/02178,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.9957022
+5237,2,stl10/test/05237,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.74323344
+5478,0,stl10/test/05478,airplane,CLIP ViT-B/32 zero-shot,2,car,0,False,0.30031624
+5452,9,stl10/test/05452,truck,CLIP ViT-B/32 zero-shot,2,car,9,False,0.59274226
+5623,4,stl10/test/05623,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.9876863
+6772,7,stl10/test/06772,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.65005356
+1111,4,stl10/test/01111,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.9968881
+5528,3,stl10/test/05528,cat,CLIP ViT-B/32 zero-shot,3,cat,3,True,0.95914704
+3777,6,stl10/test/03777,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.98138213
+2458,5,stl10/test/02458,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.8744225
+4921,2,stl10/test/04921,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.8963914
+3015,8,stl10/test/03015,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.9838848
+7476,8,stl10/test/07476,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.9167524
+1520,2,stl10/test/01520,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.64593995
+6713,6,stl10/test/06713,horse,CLIP ViT-B/32 zero-shot,5,dog,6,False,0.86731124
+1852,1,stl10/test/01852,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.97212344
+2268,5,stl10/test/02268,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.94422776
+151,8,stl10/test/00151,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.831431
+890,6,stl10/test/00890,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.9885649
+825,1,stl10/test/00825,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.97971785
+2536,3,stl10/test/02536,cat,CLIP ViT-B/32 zero-shot,3,cat,3,True,0.60381234
+470,2,stl10/test/00470,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.9542659
+5256,1,stl10/test/05256,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.9965641
+2011,9,stl10/test/02011,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.3987159
+7150,0,stl10/test/07150,airplane,CLIP ViT-B/32 zero-shot,1,bird,0,False,0.74689275
+449,6,stl10/test/00449,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.9358658
+2704,4,stl10/test/02704,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.99718034
+3437,0,stl10/test/03437,airplane,CLIP ViT-B/32 zero-shot,1,bird,0,False,0.77990955
+3375,3,stl10/test/03375,cat,CLIP ViT-B/32 zero-shot,4,deer,3,False,0.7630902
+4552,8,stl10/test/04552,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.7402119
+920,6,stl10/test/00920,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.99829775
+2242,0,stl10/test/02242,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.8800284
+2745,8,stl10/test/02745,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.8565476
+1032,7,stl10/test/01032,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.83335066
+365,3,stl10/test/00365,cat,CLIP ViT-B/32 zero-shot,3,cat,3,True,0.96434116
+4850,5,stl10/test/04850,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.9095566
+4819,0,stl10/test/04819,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.8776432
+7338,6,stl10/test/07338,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.92669916
+7372,0,stl10/test/07372,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.922292
+1090,1,stl10/test/01090,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.9637056
+5062,4,stl10/test/05062,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.48012492
+981,2,stl10/test/00981,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.89442563
+5857,6,stl10/test/05857,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.48475116
+1986,1,stl10/test/01986,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.9715631
+5560,1,stl10/test/05560,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.9944291
+1814,2,stl10/test/01814,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.8293005
+194,8,stl10/test/00194,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.966098
+1993,1,stl10/test/01993,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.99696094
+5333,2,stl10/test/05333,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.9647866
+4311,8,stl10/test/04311,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.99175686
+7425,2,stl10/test/07425,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.82067114
+3889,5,stl10/test/03889,dog,CLIP ViT-B/32 zero-shot,7,monkey,5,False,0.49509415
+4308,7,stl10/test/04308,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.9813333
+1960,4,stl10/test/01960,deer,CLIP ViT-B/32 zero-shot,5,dog,4,False,0.68867755
+4399,0,stl10/test/04399,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.42932177
+3191,6,stl10/test/03191,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.82926047
+1626,5,stl10/test/01626,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.9564895
+176,3,stl10/test/00176,cat,CLIP ViT-B/32 zero-shot,1,bird,3,False,0.5807711
+7726,6,stl10/test/07726,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.9773728
+2334,5,stl10/test/02334,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.905867
+1648,0,stl10/test/01648,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.9173479
+6084,7,stl10/test/06084,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.86737883
+3455,0,stl10/test/03455,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.77150726
+1468,9,stl10/test/01468,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.79152524
+1296,7,stl10/test/01296,monkey,CLIP ViT-B/32 zero-shot,1,bird,7,False,0.8860171
+5213,4,stl10/test/05213,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.6328942
+7047,9,stl10/test/07047,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.90659136
+5360,9,stl10/test/05360,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.83006626
+5824,2,stl10/test/05824,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.8776482
+7460,8,stl10/test/07460,ship,CLIP ViT-B/32 zero-shot,1,bird,8,False,0.3940407
+4791,7,stl10/test/04791,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.56147546
+6692,2,stl10/test/06692,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.7949411
+6931,9,stl10/test/06931,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.42176953
+667,8,stl10/test/00667,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.9947489
+7781,6,stl10/test/07781,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.99913305
+7793,3,stl10/test/07793,cat,CLIP ViT-B/32 zero-shot,3,cat,3,True,0.53570217
+1411,9,stl10/test/01411,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.37839553
+1473,7,stl10/test/01473,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.98152554
+7130,5,stl10/test/07130,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.39088905
+1956,7,stl10/test/01956,monkey,CLIP ViT-B/32 zero-shot,5,dog,7,False,0.63106704
+6716,5,stl10/test/06716,dog,CLIP ViT-B/32 zero-shot,1,bird,5,False,0.45200628
+4106,5,stl10/test/04106,dog,CLIP ViT-B/32 zero-shot,3,cat,5,False,0.65211934
+3494,6,stl10/test/03494,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.9984528
+691,4,stl10/test/00691,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.89778274
+5220,1,stl10/test/05220,bird,CLIP ViT-B/32 zero-shot,1,bird,5,False,0.92287844
+4908,3,stl10/test/04908,cat,CLIP ViT-B/32 zero-shot,3,cat,3,True,0.943112
+7029,1,stl10/test/07029,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.99392456
+4130,0,stl10/test/04130,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.65479267
+7938,9,stl10/test/07938,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.51963246
+5101,5,stl10/test/05101,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.86877555
+1515,9,stl10/test/01515,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.84929293
+3287,4,stl10/test/03287,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.98566043
+716,8,stl10/test/00716,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.9561476
+4236,7,stl10/test/04236,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.99551976
+5408,6,stl10/test/05408,horse,CLIP ViT-B/32 zero-shot,4,deer,6,False,0.782011
+5496,5,stl10/test/05496,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.9848246
+3365,4,stl10/test/03365,deer,CLIP ViT-B/32 zero-shot,5,dog,4,False,0.47489387
+4323,3,stl10/test/04323,cat,CLIP ViT-B/32 zero-shot,3,cat,3,True,0.6690754
+5467,4,stl10/test/05467,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.85803586
+1644,5,stl10/test/01644,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.90677804
+3948,8,stl10/test/03948,ship,CLIP ViT-B/32 zero-shot,1,bird,8,False,0.41404843
+6726,7,stl10/test/06726,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.8030553
+5395,2,stl10/test/05395,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.9413523
+1579,7,stl10/test/01579,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.98909354
+5918,0,stl10/test/05918,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.88434756
+7041,5,stl10/test/07041,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.88434154
+506,4,stl10/test/00506,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.34536898
+4011,6,stl10/test/04011,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.9578991
+5981,9,stl10/test/05981,truck,CLIP ViT-B/32 zero-shot,2,car,9,False,0.43914595
+409,2,stl10/test/00409,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.86215085
+6954,1,stl10/test/06954,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.98475444
+7555,6,stl10/test/07555,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.96108407
+3965,0,stl10/test/03965,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.8398407
+7266,9,stl10/test/07266,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.64995867
+4785,0,stl10/test/04785,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.96003145
+6028,2,stl10/test/06028,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.9286998
+6503,2,stl10/test/06503,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.80286217
+6414,5,stl10/test/06414,dog,CLIP ViT-B/32 zero-shot,1,bird,5,False,0.5535977
+5382,6,stl10/test/05382,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.94431275
+6836,1,stl10/test/06836,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.99283993
+6508,4,stl10/test/06508,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.6762703
+3994,4,stl10/test/03994,deer,CLIP ViT-B/32 zero-shot,7,monkey,4,False,0.5012864
+3942,9,stl10/test/03942,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.79750466
+3542,7,stl10/test/03542,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.92992944
+6952,3,stl10/test/06952,cat,CLIP ViT-B/32 zero-shot,3,cat,3,True,0.90420586
+4290,5,stl10/test/04290,dog,CLIP ViT-B/32 zero-shot,1,bird,4,False,0.5355935
+7446,8,stl10/test/07446,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.93627745
+6169,1,stl10/test/06169,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.96717614
+1109,1,stl10/test/01109,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.9490293
+3179,4,stl10/test/03179,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.9958847
+7835,7,stl10/test/07835,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.99801207
+7390,1,stl10/test/07390,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.98494196
+568,5,stl10/test/00568,dog,CLIP ViT-B/32 zero-shot,3,cat,5,False,0.9328997
+4629,4,stl10/test/04629,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.99859554
+7138,8,stl10/test/07138,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.9738885
+5284,9,stl10/test/05284,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.9777108
+3,0,stl10/test/00003,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.8374357
+2690,1,stl10/test/02690,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.97411704
+5858,6,stl10/test/05858,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.9474942
+1266,4,stl10/test/01266,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.9850118
+3034,4,stl10/test/03034,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.9953381
+2655,9,stl10/test/02655,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.97409886
+6190,7,stl10/test/06190,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.9817061
+4170,8,stl10/test/04170,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.9735874
+7380,9,stl10/test/07380,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.82239103
+7752,9,stl10/test/07752,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.77946275
+3996,9,stl10/test/03996,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.94065744
+1204,3,stl10/test/01204,cat,CLIP ViT-B/32 zero-shot,1,bird,3,False,0.933827
+1654,9,stl10/test/01654,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.81606406
+4746,6,stl10/test/04746,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.9673681
+4590,3,stl10/test/04590,cat,CLIP ViT-B/32 zero-shot,3,cat,3,True,0.97418153
+562,0,stl10/test/00562,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.944095
+7108,6,stl10/test/07108,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.9772537
+5999,0,stl10/test/05999,airplane,CLIP ViT-B/32 zero-shot,1,bird,0,False,0.36200354
+1403,2,stl10/test/01403,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.8246917
+4403,7,stl10/test/04403,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.99616516
+6332,2,stl10/test/06332,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.8315615
+6264,2,stl10/test/06264,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.9479043
+303,9,stl10/test/00303,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.9043804
+791,3,stl10/test/00791,cat,CLIP ViT-B/32 zero-shot,3,cat,3,True,0.98536754
+3067,2,stl10/test/03067,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.8329123
+484,0,stl10/test/00484,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.76729155
+1370,3,stl10/test/01370,cat,CLIP ViT-B/32 zero-shot,3,cat,3,True,0.9391479
+4069,8,stl10/test/04069,ship,CLIP ViT-B/32 zero-shot,1,bird,8,False,0.50398594
+7373,0,stl10/test/07373,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.93400383
+4330,3,stl10/test/04330,cat,CLIP ViT-B/32 zero-shot,1,bird,5,False,0.7101218
+5701,5,stl10/test/05701,dog,CLIP ViT-B/32 zero-shot,3,cat,5,False,0.8294434
+7465,0,stl10/test/07465,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.98507845
+1531,3,stl10/test/01531,cat,CLIP ViT-B/32 zero-shot,5,dog,4,False,0.6890991
+4676,8,stl10/test/04676,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.93147844
+4531,3,stl10/test/04531,cat,CLIP ViT-B/32 zero-shot,4,deer,3,False,0.55956256
+706,8,stl10/test/00706,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.3372818
+2844,8,stl10/test/02844,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.98660606
+3755,2,stl10/test/03755,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.8343469
+5848,7,stl10/test/05848,monkey,CLIP ViT-B/32 zero-shot,1,bird,7,False,0.74068797
+2114,9,stl10/test/02114,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.7639853
+3876,0,stl10/test/03876,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.49406004
+677,3,stl10/test/00677,cat,CLIP ViT-B/32 zero-shot,3,cat,3,True,0.9820202
+2116,1,stl10/test/02116,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.9758
+4661,7,stl10/test/04661,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.88623774
+2676,6,stl10/test/02676,horse,CLIP ViT-B/32 zero-shot,5,dog,6,False,0.5685539
+3025,0,stl10/test/03025,airplane,CLIP ViT-B/32 zero-shot,1,bird,0,False,0.35339758
+4449,9,stl10/test/04449,truck,CLIP ViT-B/32 zero-shot,2,car,9,False,0.29847276
+977,6,stl10/test/00977,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.9963721
+4990,8,stl10/test/04990,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.47331792
+7309,0,stl10/test/07309,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.89859915
+1048,7,stl10/test/01048,monkey,CLIP ViT-B/32 zero-shot,1,bird,7,False,0.8386213
+3276,3,stl10/test/03276,cat,CLIP ViT-B/32 zero-shot,4,deer,7,False,0.45824167
+5512,2,stl10/test/05512,car,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.4347575
+7692,4,stl10/test/07692,deer,CLIP ViT-B/32 zero-shot,1,bird,4,False,0.5454313
+1436,1,stl10/test/01436,bird,CLIP ViT-B/32 zero-shot,1,bird,1,True,0.9972319
+7544,9,stl10/test/07544,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.7760394
+3383,3,stl10/test/03383,cat,CLIP ViT-B/32 zero-shot,1,bird,3,False,0.46103868
+1977,0,stl10/test/01977,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.9223068
+2750,0,stl10/test/02750,airplane,CLIP ViT-B/32 zero-shot,8,ship,0,False,0.39698043
+7996,6,stl10/test/07996,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.99485505
+6989,5,stl10/test/06989,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.4159179
+1431,3,stl10/test/01431,cat,CLIP ViT-B/32 zero-shot,3,cat,3,True,0.92841816
+7416,3,stl10/test/07416,cat,CLIP ViT-B/32 zero-shot,3,cat,3,True,0.654289
+4547,5,stl10/test/04547,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.9740191
+42,0,stl10/test/00042,airplane,CLIP ViT-B/32 zero-shot,1,bird,0,False,0.500716
+5117,0,stl10/test/05117,airplane,CLIP ViT-B/32 zero-shot,0,airplane,0,True,0.92542475
+4411,6,stl10/test/04411,horse,CLIP ViT-B/32 zero-shot,6,horse,6,True,0.4998642
+5789,4,stl10/test/05789,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.6224591
+483,2,stl10/test/00483,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.96791357
+6650,7,stl10/test/06650,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.60108817
+4881,3,stl10/test/04881,cat,CLIP ViT-B/32 zero-shot,1,bird,7,False,0.82967705
+391,3,stl10/test/00391,cat,CLIP ViT-B/32 zero-shot,3,cat,4,False,0.46947634
+370,7,stl10/test/00370,monkey,CLIP ViT-B/32 zero-shot,7,monkey,7,True,0.8680685
+419,9,stl10/test/00419,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.5360704
+3318,9,stl10/test/03318,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.49840763
+4355,8,stl10/test/04355,ship,CLIP ViT-B/32 zero-shot,1,bird,8,False,0.40207937
+5402,4,stl10/test/05402,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.98820436
+5332,5,stl10/test/05332,dog,CLIP ViT-B/32 zero-shot,5,dog,5,True,0.8463527
+239,9,stl10/test/00239,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.760447
+6271,2,stl10/test/06271,car,CLIP ViT-B/32 zero-shot,2,car,2,True,0.96293616
+1129,8,stl10/test/01129,ship,CLIP ViT-B/32 zero-shot,8,ship,8,True,0.45867044
+2391,5,stl10/test/02391,dog,CLIP ViT-B/32 zero-shot,1,bird,5,False,0.5451617
+191,9,stl10/test/00191,truck,CLIP ViT-B/32 zero-shot,2,car,9,False,0.76048076
+5447,9,stl10/test/05447,truck,CLIP ViT-B/32 zero-shot,9,truck,9,True,0.79092395
+6528,4,stl10/test/06528,deer,CLIP ViT-B/32 zero-shot,4,deer,4,True,0.59994644

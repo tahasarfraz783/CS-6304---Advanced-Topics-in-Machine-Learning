@@ -1,0 +1,3 @@
+accepted,reason,count
+False,Only background color transferred; no visible object texture.,375
+True,Content outline remains clear; style surface pattern is visible.,200

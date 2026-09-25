@@ -1,0 +1,6 @@
+condition,n,agreement_pct,disagreements
+Clean,500,97.39999999999999,13
+grayscale,500,96.8,16
+hue_rotation,500,95.39999999999999,23
+Cue conflict,200,81.5,37
+Patch shuffle,500,86.2,69

@@ -1,0 +1,4 @@
+model,representation_dimension,trainable_parameters,selected_epoch,epochs_run,best_validation_accuracy_pct
+ResNet-50 head,2048,20490,11,16,97.2000002861023
+ViT-B/16 head,768,7690,19,24,98.00000190734863
+CLIP head,512,5130,4,9,98.4000027179718
