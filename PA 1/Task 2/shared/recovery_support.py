@@ -20,7 +20,7 @@ RECOVERY_RUNS = {
 
 
 def recovery_task_dir(task):
-    return RECOVERY_PA1 / f'Task {task}' / f'task{task}'
+    return RECOVERY_PA1 / f'Task {task}' / ('task2' if task == 2 else '.')
 
 
 def recovery_hash(path):

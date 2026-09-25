@@ -5,9 +5,9 @@ Run the notebooks sequentially; each training notebook saves results automatical
 
 1. `Task 2/task2/train_recovery_v1.ipynb`
    trains DANN, CDAN, then DAN lambda=10.
-2. `Task 3/task3/train_recovery_v1.ipynb`
+2. `Task 3/train_recovery_v1.ipynb`
    trains DAN-DG lambda=1, then DAN-DG lambda=10.
-3. `Task 3/task3/review_recovery_v1.ipynb`
+3. `Task 3/review_recovery_v1.ipynb`
    reviews source predictions, locks all five completed checkpoints, recomputes
    source accuracy, evaluates Sketch, and displays a separate old/new accuracy
    table for each task. Both the old references and the new runs are from the
@@ -48,7 +48,7 @@ stabilize training but do not guarantee better accuracy.
 ## Saved files
 
 New training artifacts are under each Recommended Structure task's
-`task2/results/recovery_v1/` or `task3/results/recovery_v1/`, in named run folders.
+`task2/results/recovery_v1/` or `results/recovery_v1/`, in named run folders.
 Each contains `best.pt`, `config.json` (including initialization hash),
 `completion.json`, `history.csv`, `source_validation.csv`,
 `source_validation_predictions.csv`, and `training_curves.png`.

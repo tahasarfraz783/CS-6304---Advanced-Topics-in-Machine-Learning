@@ -18,7 +18,7 @@ def replace(s, old, new):
 
 
 for task, repo in [(2, T2), (3, T3)]:
-    path = repo / f'task{task}/train.ipynb'
+    path = repo / ('task2' if task == 2 else '.') / f'train.ipynb'
     nb = json.loads(path.read_text(encoding='utf-8'))
     cell = next(c for c in nb['cells'] if c['cell_type'] == 'code' and 'def train_pacs(' in source(c))
     s = source(cell)
@@ -91,7 +91,7 @@ for task, repo in [(2, T2), (3, T3)]:
     nb['cells'][0]['source'] = [f'# Task {task} training\nOriginal defaults are retained. For the five revised runs, use `train_recovery_v1.ipynb`.\n']
     path.write_text(json.dumps(nb, indent=1), encoding='utf-8')
 
-path = T3 / 'task3/selection/source_validation.ipynb'
+path = T3 / 'selection/source_validation.ipynb'
 nb = json.loads(path.read_text())
 cell = next(c for c in nb['cells'] if c['cell_type'] == 'code' and 'def validate_config' in source(c))
 s = source(cell)
@@ -109,7 +109,7 @@ settings = dict(experiment='recovery_v1', experiment_note='Follow-up after origi
                 freeze_batchnorm_affine=True, batchnorm='frozen_pretrained_running_stats_and_affine',
                 gradient_clip_norm=1.0, alignment_ramp_epochs=5, selection_start_epoch=5)
 for task, repo in [(2, T2), (3, T3)]:
-    (repo / f'task{task}/configs/recovery_v1.yaml').write_text(json.dumps(settings, indent=2))
+    (repo / ('task2' if task == 2 else '.') / f'configs/recovery_v1.yaml').write_text(json.dumps(settings, indent=2))
 
 
 def md(s):
@@ -139,7 +139,7 @@ repo = RECOVERY_PA1 / 'Task {task}'
 previous_cwd = Path.cwd()
 try:
     os.chdir(repo)
-    document = json.loads((repo / 'task{task}/train.ipynb').read_text())
+    document = json.loads((repo / '{'task2/' if task == 2 else ''}train.ipynb').read_text())
     for cell in document['cells'][1:3]:
         exec(compile(''.join(cell['source']), 'recommended_training_definitions', 'exec'), globals())
 finally:
@@ -155,13 +155,13 @@ for task, repo, runs in [(2, T2, ['dann', 'cdan', 'dan_lambda_10']), (3, T3, ['d
     for run in runs:
         cells += [md(f'## {run}'), code(f"display(train_recovery_run('{run}'))\n")]
     cells += [code('display(review_recovery_sources())\n')]
-    write(repo / f'task{task}/train_recovery_v1.ipynb', cells)
+    write(repo / ('task2' if task == 2 else '.') / f'train_recovery_v1.ipynb', cells)
 
 # Use Task 3 definitions for the common model/evaluate helper. The extraction
 # definitions come directly from the Recommended Structure evaluation notebook.
-write(T3 / 'task3/review_recovery_v1.ipynb', [md('# Review all five revised runs\nRun after both recovery training notebooks complete. Only Recommended Structure results are read and written.\n'),
+write(T3 / 'review_recovery_v1.ipynb', [md('# Review all five revised runs\nRun after both recovery training notebooks complete. Only Recommended Structure results are read and written.\n'),
     code(setup(3)), code('display(review_recovery_sources())\n'),
-    code('''evaluation_nb = RECOVERY_PA1 / 'Task 3/task3/evaluate_sketch.ipynb'
+    code('''evaluation_nb = RECOVERY_PA1 / 'Task 3/evaluate_sketch.ipynb'
 document = json.loads(evaluation_nb.read_text())
 extraction = next(c for c in document['cells'] if c['cell_type'] == 'code' and 'def extract(' in ''.join(c['source']))
 exec(compile(''.join(extraction['source']), str(evaluation_nb), 'exec'), globals())

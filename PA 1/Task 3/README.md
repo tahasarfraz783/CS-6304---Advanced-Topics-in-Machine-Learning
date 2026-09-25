@@ -19,7 +19,7 @@ Use the existing pa1_env Jupyter kernel and installed scientific dependencies.
 
 ## Exact run order
 Start Jupyter inside Task 3.
-Open task3/train.ipynb. Before running, review HYPOTHESIS in its study-plan cell.
+Open train.ipynb. Before running, review HYPOTHESIS in its study-plan cell.
 The hypothesis is recorded once and protected against silent changes.
 Set RUN in the final cell, then run all cells for each action below.
 Restart the kernel between actions.
@@ -40,7 +40,7 @@ Restart the kernel between actions.
    Locks checkpoints and computes source metrics, three-way source separability,
    and the shared sharpness proxy. No Sketch images are accessed.
 7. Freeze all Task 3 settings and checkpoint choices.
-8. Open task3/evaluate_sketch.ipynb in a fresh kernel.
+8. Open evaluate_sketch.ipynb in a fresh kernel.
    Set ALL_DECISIONS_LOCKED = True in its final cell and run all cells.
    Only this entry point opens Sketch and performs final target/failure analysis.
 

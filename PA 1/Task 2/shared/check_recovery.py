@@ -55,7 +55,7 @@ with tempfile.TemporaryDirectory(dir=Path(__file__).parent, prefix='test_recover
     root = Path(temp)
     for task in (2, 3):
         repo = root / f'Task {task}'
-        configs = repo / f'task{task}/configs'
+        configs = repo / ('task2' if task == 2 else '.') / f'configs'
         configs.mkdir(parents=True)
         original = PA1 / f'Task {task}/task{task}/configs'
         for file in original.glob('*.yaml'):
