@@ -1,0 +1,11 @@
+{
+  "lambda_mmd": 1.0,
+  "kernel_scales": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "target_batch_size": 24,
+  "mmd_estimator": "biased_including_diagonals",
+  "kernel_definition": "sum exp(-squared_distance / (scale * batch_median_squared_distance))"
+}

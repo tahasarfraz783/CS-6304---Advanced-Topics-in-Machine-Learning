@@ -1,0 +1,482 @@
+[
+  {
+    "path": "photo/house/pic_090.jpg",
+    "label": 5,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/house/pic_175.jpg",
+    "label": 5,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/house/pic_284.jpg",
+    "label": 5,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/elephant/n02503517_5527.jpg",
+    "label": 1,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/person/253_0301.jpg",
+    "label": 6,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/guitar/n03272010_7092.jpg",
+    "label": 3,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/elephant/n02503517_9827.jpg",
+    "label": 1,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/horse/n02374451_2248.jpg",
+    "label": 4,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/person/253_0338.jpg",
+    "label": 6,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/person/253_0106.jpg",
+    "label": 6,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/elephant/064_0062.jpg",
+    "label": 1,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/dog/n02103406_3964.jpg",
+    "label": 0,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/person/253_0074.jpg",
+    "label": 6,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/elephant/064_0097.jpg",
+    "label": 1,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/person/253_0050.jpg",
+    "label": 6,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/person/253_0006.jpg",
+    "label": 6,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/guitar/063_0024.jpg",
+    "label": 3,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/dog/n02103406_3538.jpg",
+    "label": 0,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/person/253_0386.jpg",
+    "label": 6,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/horse/n02374451_10098.jpg",
+    "label": 4,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/elephant/064_0125.jpg",
+    "label": 1,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/giraffe/n02439033_11627.jpg",
+    "label": 2,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/house/pic_028.jpg",
+    "label": 5,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/dog/n02106662_1922.jpg",
+    "label": 0,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/giraffe/n02439033_11114.jpg",
+    "label": 2,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/house/pic_034.jpg",
+    "label": 5,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/person/253_0323.jpg",
+    "label": 6,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/person/253_0361.jpg",
+    "label": 6,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/house/pic_038.jpg",
+    "label": 5,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/guitar/063_0001.jpg",
+    "label": 3,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/elephant/n02503517_8901.jpg",
+    "label": 1,
+    "domain": "photo"
+  },
+  {
+    "path": "photo/guitar/n03467517_22785.jpg",
+    "label": 3,
+    "domain": "photo"
+  },
+  {
+    "path": "art_painting/guitar/pic_023.jpg",
+    "label": 3,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/house/pic_187.jpg",
+    "label": 5,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/giraffe/pic_239.jpg",
+    "label": 2,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/giraffe/pic_010.jpg",
+    "label": 2,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/house/pic_088.jpg",
+    "label": 5,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/person/pic_094.jpg",
+    "label": 6,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/elephant/pic_119.jpg",
+    "label": 1,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/giraffe/pic_077.jpg",
+    "label": 2,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/person/pic_194.jpg",
+    "label": 6,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/horse/pic_213.jpg",
+    "label": 4,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/horse/pic_042.jpg",
+    "label": 4,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/giraffe/pic_176.jpg",
+    "label": 2,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/dog/pic_251.jpg",
+    "label": 0,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/person/pic_162.jpg",
+    "label": 6,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/horse/pic_228.jpg",
+    "label": 4,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/person/pic_464.jpg",
+    "label": 6,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/dog/pic_079.jpg",
+    "label": 0,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/dog/pic_172.jpg",
+    "label": 0,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/house/pic_008.jpg",
+    "label": 5,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/giraffe/pic_170.jpg",
+    "label": 2,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/person/pic_126.jpg",
+    "label": 6,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/person/pic_277.jpg",
+    "label": 6,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/giraffe/pic_068.jpg",
+    "label": 2,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/person/pic_350.jpg",
+    "label": 6,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/guitar/pic_044.jpg",
+    "label": 3,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/person/pic_479.jpg",
+    "label": 6,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/horse/pic_001.jpg",
+    "label": 4,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/dog/pic_084.jpg",
+    "label": 0,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/elephant/pic_090.jpg",
+    "label": 1,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/dog/pic_327.jpg",
+    "label": 0,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/house/pic_136.jpg",
+    "label": 5,
+    "domain": "art_painting"
+  },
+  {
+    "path": "art_painting/elephant/pic_227.jpg",
+    "label": 1,
+    "domain": "art_painting"
+  },
+  {
+    "path": "cartoon/person/pic_377.jpg",
+    "label": 6,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/elephant/pic_432.jpg",
+    "label": 1,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/house/pic_354.jpg",
+    "label": 5,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/person/pic_216.jpg",
+    "label": 6,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/giraffe/pic_341.jpg",
+    "label": 2,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/house/pic_198.jpg",
+    "label": 5,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/person/pic_314.jpg",
+    "label": 6,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/dog/pic_176.jpg",
+    "label": 0,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/horse/pic_051.jpg",
+    "label": 4,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/elephant/pic_030.jpg",
+    "label": 1,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/house/pic_265.jpg",
+    "label": 5,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/horse/pic_086.jpg",
+    "label": 4,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/horse/pic_243.jpg",
+    "label": 4,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/giraffe/pic_385.jpg",
+    "label": 2,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/dog/pic_334.jpg",
+    "label": 0,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/house/pic_223.jpg",
+    "label": 5,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/dog/pic_083.jpg",
+    "label": 0,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/elephant/pic_416.jpg",
+    "label": 1,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/giraffe/pic_356.jpg",
+    "label": 2,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/elephant/pic_296.jpg",
+    "label": 1,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/giraffe/pic_198.jpg",
+    "label": 2,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/person/pic_209.jpg",
+    "label": 6,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/house/pic_023.jpg",
+    "label": 5,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/elephant/pic_446.jpg",
+    "label": 1,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/elephant/pic_180.jpg",
+    "label": 1,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/dog/pic_265.jpg",
+    "label": 0,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/giraffe/pic_209.jpg",
+    "label": 2,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/house/pic_167.jpg",
+    "label": 5,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/dog/pic_210.jpg",
+    "label": 0,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/dog/pic_369.jpg",
+    "label": 0,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/house/pic_314.jpg",
+    "label": 5,
+    "domain": "cartoon"
+  },
+  {
+    "path": "cartoon/dog/pic_103.jpg",
+    "label": 0,
+    "domain": "cartoon"
+  }
+]

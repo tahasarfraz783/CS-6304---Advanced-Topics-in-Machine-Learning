@@ -1,0 +1,18 @@
+{
+  "seed": 6304,
+  "epochs": 100,
+  "batch_size": 128,
+  "lr": 0.1,
+  "momentum": 0.9,
+  "weight_decay": 0.0005,
+  "normalization_mean": [
+    0.4914,
+    0.4822,
+    0.4465
+  ],
+  "normalization_std": [
+    0.247,
+    0.2435,
+    0.2616
+  ]
+}

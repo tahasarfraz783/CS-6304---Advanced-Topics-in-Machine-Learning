@@ -1,0 +1,7 @@
+group,index,unknown_class,predicted_known_class,score,threshold,selected_for_figure,semantic_interpretation
+near,5201,bus,truck,-12.68542194366455,-5.762001752853393,True,Review image: plausible confusion or surprising failure; explain why.
+near,7658,pickup_truck,automobile,-12.006089210510254,-5.762001752853393,True,Review image: plausible confusion or surprising failure; explain why.
+near,959,fox,dog,-11.00361156463623,-5.762001752853393,True,Review image: plausible confusion or surprising failure; explain why.
+far,1196,mushroom,frog,-11.825851440429688,-5.762001752853393,True,Review image: plausible confusion or surprising failure; explain why.
+far,4252,bowl,cat,-11.517572402954102,-5.762001752853393,True,Review image: plausible confusion or surprising failure; explain why.
+far,9734,wardrobe,cat,-10.93007755279541,-5.762001752853393,True,Review image: plausible confusion or surprising failure; explain why.

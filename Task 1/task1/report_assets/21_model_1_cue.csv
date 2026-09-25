@@ -1,0 +1,2 @@
+model,Nshape,Ntexture,Nother,Ntotal,shape_bias_pct,coverage_pct
+ResNet-50 head,108,77,15,200,58.37837837837838,92.5

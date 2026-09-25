@@ -1,0 +1,2 @@
+method,mean_source_accuracy_pct,mean_source_macro_f1_pct,target_accuracy_pct,target_macro_f1_pct,change_vs_source_only_pp,change_vs_original_method_pp,domain_separability_pct,selected_epoch,epochs_run,predicted_classes,dominant_prediction,dominant_share_pct
+CDAN recovery,95.72911278695923,95.6229540482445,79.38406719266989,82.85869471207558,10.231611096971239,77.29702214303896,,6,14,7,horse,25.85899720030542

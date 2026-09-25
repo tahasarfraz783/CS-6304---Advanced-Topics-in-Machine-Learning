@@ -1,0 +1,50 @@
+{
+  "files": [
+    "Task 1\\task1\\README.md",
+    "Task 1\\task1\\scripts\\run_task1.ipynb",
+    "Task 2\\RECOVERY_RUN_ORDER.md",
+    "Task 2\\shared\\build_recovery_notebooks.py",
+    "Task 2\\shared\\check_recovery.py",
+    "Task 2\\shared\\recovery_support.py",
+    "Task 2\\task2\\evaluate_final.ipynb",
+    "Task 2\\task2\\train.ipynb",
+    "Task 2\\task2\\train_recovery_v1.ipynb",
+    "Task 2\\task2\\results\\recovery_v1\\cdan\\config.json",
+    "Task 2\\task2\\results\\recovery_v1\\dann\\config.json",
+    "Task 2\\task2\\results\\recovery_v1\\dan_lambda_10\\config.json",
+    "Task 2\\task2\\results\\recovery_v1\\final_evaluation\\evaluation_lock.json",
+    "Task 3\\task3\\evaluate_sketch.ipynb",
+    "Task 3\\task3\\README.md",
+    "Task 3\\task3\\review_recovery_v1.ipynb",
+    "Task 3\\task3\\train.ipynb",
+    "Task 3\\task3\\train_recovery_v1.ipynb",
+    "Task 3\\task3\\evaluation\\domain_metrics.ipynb",
+    "Task 3\\task3\\methods\\erm.ipynb",
+    "Task 3\\task3\\results\\erm\\provenance.json",
+    "Task 3\\task3\\results\\final_evaluation\\evaluation_lock.json",
+    "Task 3\\task3\\results\\recovery_v1\\dan_dg\\config.json",
+    "Task 3\\task3\\results\\recovery_v1\\dan_dg_lambda_10\\config.json",
+    "Task 3\\task3\\results\\recovery_v1\\final_evaluation\\evaluation_lock.json",
+    "Task 4\\task4\\evaluate_osr.ipynb",
+    "Task 4\\task4\\extract_outputs.ipynb",
+    "Task 4\\task4\\train.ipynb",
+    "RECOVERY_RUN_ORDER.md",
+    "review_recovery_v1.ipynb"
+  ],
+  "task4_source_hash_changes": {
+    "evaluate_osr.ipynb": {
+      "before": "0211e9393ba88f78688b0175e7fda9dbb73a51c0aadc59d7a205415879d98ba5",
+      "after": "12f3452d28957201a130ba7be5f857cbe9d7c41d963111becf4d54e31c643659"
+    },
+    "extract_outputs.ipynb": {
+      "before": "c53ff5188568a738e2cd6d29e50e63f393a94c4d5da974016e12bd1b09259334",
+      "after": "8f0d24e897b5f36fbcf2e77479e66c9c84f90b94a86ccb9bb9e94c53b3b2d79b"
+    },
+    "train.ipynb": {
+      "before": "e50ed978e8c4f7263a537d290bdcfe08f913ee36e784b5c588af068b8204c67d",
+      "after": "b2a2434b3e02814476597b61c3376fa9dd51b419622bd2b3bb5ef041e18d67cf"
+    }
+  },
+  "preexisting_task4_source_mismatches": [],
+  "task4_mismatch_resolution": "Removed one empty code cell; reversing only the folder rename then exactly reproduces the original locked source fingerprint. No executable training changes."
+}

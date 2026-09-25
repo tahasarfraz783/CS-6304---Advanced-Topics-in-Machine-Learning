@@ -1,0 +1,15 @@
+{
+  "experiment": "recovery_v1",
+  "experiment_note": "Follow-up after original target-result inspection",
+  "epochs": 20,
+  "patience": 8,
+  "learning_rate": 1e-05,
+  "backbone_learning_rate": 1e-05,
+  "discriminator_learning_rate": 1e-05,
+  "max_grl_strength": 0.1,
+  "freeze_batchnorm_affine": true,
+  "batchnorm": "frozen_pretrained_running_stats_and_affine",
+  "gradient_clip_norm": 1.0,
+  "alignment_ramp_epochs": 5,
+  "selection_start_epoch": 5
+}

@@ -1,0 +1,9 @@
+{
+  "protocol_lock_sha256": "63525b1fb5fd27f8140d0413fcf0612fc1084889d0c093f62935e76405971d72",
+  "unknown_manifest_sha256": "02d67c46b0be18ae103746e3853829c4959d48cfd148cd99432ca28c8cbde31b",
+  "generated_tables": [
+    "table1_vanilla_scores.csv",
+    "table2_model_comparison.csv"
+  ],
+  "note": "Generated from fixed caches; no model optimization or unknown-based calibration."
+}

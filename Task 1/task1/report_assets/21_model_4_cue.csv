@@ -1,0 +1,2 @@
+model,Nshape,Ntexture,Nother,Ntotal,shape_bias_pct,coverage_pct
+CLIP zero-shot,131,48,21,200,73.18435754189944,89.5

@@ -1,0 +1,15 @@
+task,run,class_name,count,accuracy
+3,dan_dg,dog,772,0.4520725388601036
+3,dan_dg,elephant,740,0.9351351351351351
+3,dan_dg,giraffe,753,0.5896414342629482
+3,dan_dg,guitar,608,0.8634868421052632
+3,dan_dg,horse,816,0.633578431372549
+3,dan_dg,house,80,0.7
+3,dan_dg,person,160,0.84375
+3,dan_dg_lambda_10,dog,772,0.6101036269430051
+3,dan_dg_lambda_10,elephant,740,0.0
+3,dan_dg_lambda_10,giraffe,753,0.0
+3,dan_dg_lambda_10,guitar,608,0.0
+3,dan_dg_lambda_10,horse,816,0.0
+3,dan_dg_lambda_10,house,80,0.0
+3,dan_dg_lambda_10,person,160,0.80625

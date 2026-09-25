@@ -1,0 +1,50 @@
+domain,partition,class_name,count
+photo,train,dog,151
+photo,train,elephant,161
+photo,train,giraffe,146
+photo,train,guitar,149
+photo,train,horse,159
+photo,train,house,224
+photo,train,person,346
+photo,val,dog,38
+photo,val,elephant,41
+photo,val,giraffe,36
+photo,val,guitar,37
+photo,val,horse,40
+photo,val,house,56
+photo,val,person,86
+art_painting,train,dog,303
+art_painting,train,elephant,204
+art_painting,train,giraffe,228
+art_painting,train,guitar,147
+art_painting,train,horse,161
+art_painting,train,house,236
+art_painting,train,person,359
+art_painting,val,dog,76
+art_painting,val,elephant,51
+art_painting,val,giraffe,57
+art_painting,val,guitar,37
+art_painting,val,horse,40
+art_painting,val,house,59
+art_painting,val,person,90
+cartoon,train,dog,311
+cartoon,train,elephant,366
+cartoon,train,giraffe,277
+cartoon,train,guitar,108
+cartoon,train,horse,259
+cartoon,train,house,230
+cartoon,train,person,324
+cartoon,val,dog,78
+cartoon,val,elephant,91
+cartoon,val,giraffe,69
+cartoon,val,guitar,27
+cartoon,val,horse,65
+cartoon,val,house,58
+cartoon,val,person,81
+sketch,unlabeled adaptation / final analysis,dog,772
+sketch,unlabeled adaptation / final analysis,elephant,740
+sketch,unlabeled adaptation / final analysis,giraffe,753
+sketch,unlabeled adaptation / final analysis,guitar,608
+sketch,unlabeled adaptation / final analysis,horse,816
+sketch,unlabeled adaptation / final analysis,house,80
+sketch,unlabeled adaptation / final analysis,person,160

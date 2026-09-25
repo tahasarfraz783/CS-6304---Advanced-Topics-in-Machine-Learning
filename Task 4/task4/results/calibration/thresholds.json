@@ -1,0 +1,37 @@
+{
+  "vanilla/mls": {
+    "threshold": -5.762001752853393,
+    "known_validation_acceptance": 0.95,
+    "n": 5000
+  },
+  "vanilla/msp": {
+    "threshold": 0.18004802955879154,
+    "known_validation_acceptance": 0.95,
+    "n": 5000
+  },
+  "vanilla/energy": {
+    "threshold": -5.969621971883522,
+    "known_validation_acceptance": 0.95,
+    "n": 5000
+  },
+  "vanilla/mahalanobis": {
+    "threshold": 3087.8484105502284,
+    "known_validation_acceptance": 0.95,
+    "n": 5000
+  },
+  "gcsc/mls": {
+    "threshold": -5.980741930007932,
+    "known_validation_acceptance": 0.95,
+    "n": 5000
+  },
+  "proser/mls": {
+    "threshold": -3.952697741985321,
+    "known_validation_acceptance": 0.95,
+    "n": 5000
+  },
+  "proser/placeholder": {
+    "threshold": -1.1919679696470952e-12,
+    "known_validation_acceptance": 0.95,
+    "n": 5000
+  }
+}

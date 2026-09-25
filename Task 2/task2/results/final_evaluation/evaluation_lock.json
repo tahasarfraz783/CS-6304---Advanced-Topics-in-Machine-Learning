@@ -1,0 +1,227 @@
+{
+  "seed": 6304,
+  "split_sha256": "450b80382481f4fc156b39b8c5cc2546596a557baba888ecce3296df40158448",
+  "runs": {
+    "Source-only": {
+      "checkpoint_sha256": "b77f917a9a6a5e478089f1943ed6fdbf7f69a3171945917bccb3d75f175414d6",
+      "config": {
+        "seed": 6304,
+        "epochs": 30,
+        "patience": 5,
+        "learning_rate": 0.0001,
+        "weight_decay": 0.0001,
+        "batch_per_domain": 8,
+        "workers": 0,
+        "weights": "ResNet18_Weights.IMAGENET1K_V1",
+        "selection": "mean_source_validation_macro_f1",
+        "batchnorm": "frozen_pretrained_running_stats_trainable_affine",
+        "epoch_definition": "ceil(largest_source_training_count / 8) balanced updates",
+        "precision": "float32",
+        "resize": [
+          256,
+          256
+        ],
+        "crop": 224
+      },
+      "completion": {
+        "completed_epochs": 9,
+        "best_epoch": 4,
+        "best_source_macro_f1": 0.9374109122302152,
+        "stopped_early": true
+      }
+    },
+    "DAN": {
+      "checkpoint_sha256": "6b88b3c008ca05a6be62420315fa3fa3b8b4c62a578ba3a468237de5a44ac69b",
+      "config": {
+        "seed": 6304,
+        "epochs": 30,
+        "patience": 5,
+        "learning_rate": 0.0001,
+        "weight_decay": 0.0001,
+        "batch_per_domain": 8,
+        "workers": 0,
+        "weights": "ResNet18_Weights.IMAGENET1K_V1",
+        "selection": "mean_source_validation_macro_f1",
+        "batchnorm": "frozen_pretrained_running_stats_trainable_affine",
+        "epoch_definition": "ceil(largest_source_training_count / 8) balanced updates",
+        "precision": "float32",
+        "resize": [
+          256,
+          256
+        ],
+        "crop": 224,
+        "lambda_mmd": 1.0,
+        "kernel_scales": [
+          0.5,
+          1.0,
+          2.0
+        ],
+        "target_batch_size": 24,
+        "mmd_estimator": "biased_including_diagonals",
+        "kernel_definition": "sum exp(-squared_distance / (scale * batch_median_squared_distance))"
+      },
+      "completion": {
+        "completed_epochs": 10,
+        "best_epoch": 5,
+        "best_source_macro_f1": 0.9394005458534167,
+        "stopped_early": true
+      }
+    },
+    "DANN": {
+      "checkpoint_sha256": "0dce5a1f8c27aa7cd5244c84c06d4ce13792c834de6f0155f7dde8796df4aee7",
+      "config": {
+        "seed": 6304,
+        "epochs": 30,
+        "patience": 5,
+        "learning_rate": 0.0001,
+        "weight_decay": 0.0001,
+        "batch_per_domain": 8,
+        "workers": 0,
+        "weights": "ResNet18_Weights.IMAGENET1K_V1",
+        "selection": "mean_source_validation_macro_f1",
+        "batchnorm": "frozen_pretrained_running_stats_trainable_affine",
+        "epoch_definition": "ceil(largest_source_training_count / 8) balanced updates",
+        "precision": "float32",
+        "resize": [
+          256,
+          256
+        ],
+        "crop": 224,
+        "target_batch_size": 24,
+        "max_grl_strength": 1.0,
+        "domain_loss_weight": 1.0,
+        "discriminator_hidden": 256,
+        "discriminator_dropout": 0.5,
+        "grl_schedule": "max_strength * (2 / (1 + exp(-10*p)) - 1)",
+        "progress_definition": "zero_based_update / (maximum_total_updates - 1)"
+      },
+      "completion": {
+        "completed_epochs": 7,
+        "best_epoch": 2,
+        "best_source_macro_f1": 0.16035271217026079,
+        "stopped_early": true
+      }
+    },
+    "CDAN": {
+      "checkpoint_sha256": "9e3a5c40dbc7a80e2f05f5d5b2facb890735d170a54395ba3b89c1d55c2920cd",
+      "config": {
+        "seed": 6304,
+        "epochs": 30,
+        "patience": 5,
+        "learning_rate": 0.0001,
+        "weight_decay": 0.0001,
+        "batch_per_domain": 8,
+        "workers": 0,
+        "weights": "ResNet18_Weights.IMAGENET1K_V1",
+        "selection": "mean_source_validation_macro_f1",
+        "batchnorm": "frozen_pretrained_running_stats_trainable_affine",
+        "epoch_definition": "ceil(largest_source_training_count / 8) balanced updates",
+        "precision": "float32",
+        "resize": [
+          256,
+          256
+        ],
+        "crop": 224,
+        "target_batch_size": 24,
+        "max_grl_strength": 1.0,
+        "domain_loss_weight": 1.0,
+        "discriminator_hidden": 256,
+        "discriminator_dropout": 0.5,
+        "grl_schedule": "max_strength * (2 / (1 + exp(-10*p)) - 1)",
+        "progress_definition": "zero_based_update / (maximum_total_updates - 1)",
+        "conditioning": "full_feature_probability_outer_product",
+        "discriminator_input_dim": 3584,
+        "entropy_conditioning": false,
+        "detach_features": false,
+        "detach_probabilities": false
+      },
+      "completion": {
+        "completed_epochs": 8,
+        "best_epoch": 3,
+        "best_source_macro_f1": 0.32755856739319417,
+        "stopped_early": true
+      }
+    },
+    "DAN lambda=0.1": {
+      "checkpoint_sha256": "c4143e77b6ffe691132dfc3bf67b3c9b6fecf7fd85c9297d8480d065039d0e42",
+      "config": {
+        "seed": 6304,
+        "epochs": 30,
+        "patience": 5,
+        "learning_rate": 0.0001,
+        "weight_decay": 0.0001,
+        "batch_per_domain": 8,
+        "workers": 0,
+        "weights": "ResNet18_Weights.IMAGENET1K_V1",
+        "selection": "mean_source_validation_macro_f1",
+        "batchnorm": "frozen_pretrained_running_stats_trainable_affine",
+        "epoch_definition": "ceil(largest_source_training_count / 8) balanced updates",
+        "precision": "float32",
+        "resize": [
+          256,
+          256
+        ],
+        "crop": 224,
+        "lambda_mmd": 0.1,
+        "kernel_scales": [
+          0.5,
+          1.0,
+          2.0
+        ],
+        "target_batch_size": 24,
+        "mmd_estimator": "biased_including_diagonals",
+        "kernel_definition": "sum exp(-squared_distance / (scale * batch_median_squared_distance))"
+      },
+      "completion": {
+        "completed_epochs": 17,
+        "best_epoch": 12,
+        "best_source_macro_f1": 0.9561290037186572,
+        "stopped_early": true
+      }
+    },
+    "DAN lambda=10": {
+      "checkpoint_sha256": "65216b962f622c99b1d52a183b26eba85a314ac2d472a98317b5c5f8d8c1a604",
+      "config": {
+        "seed": 6304,
+        "epochs": 30,
+        "patience": 5,
+        "learning_rate": 0.0001,
+        "weight_decay": 0.0001,
+        "batch_per_domain": 8,
+        "workers": 0,
+        "weights": "ResNet18_Weights.IMAGENET1K_V1",
+        "selection": "mean_source_validation_macro_f1",
+        "batchnorm": "frozen_pretrained_running_stats_trainable_affine",
+        "epoch_definition": "ceil(largest_source_training_count / 8) balanced updates",
+        "precision": "float32",
+        "resize": [
+          256,
+          256
+        ],
+        "crop": 224,
+        "lambda_mmd": 10.0,
+        "kernel_scales": [
+          0.5,
+          1.0,
+          2.0
+        ],
+        "target_batch_size": 24,
+        "mmd_estimator": "biased_including_diagonals",
+        "kernel_definition": "sum exp(-squared_distance / (scale * batch_median_squared_distance))"
+      },
+      "completion": {
+        "completed_epochs": 6,
+        "best_epoch": 1,
+        "best_source_macro_f1": 0.05066996495567924,
+        "stopped_early": true
+      }
+    }
+  },
+  "probe": {
+    "C": 1.0,
+    "class_weight": "balanced",
+    "train_fraction": 0.7,
+    "scaling": "StandardScaler fit on probe training only",
+    "max_iter": 5000
+  }
+}

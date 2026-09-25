@@ -1,0 +1,201 @@
+{
+  "seed": 6304,
+  "split_sha256": "450b80382481f4fc156b39b8c5cc2546596a557baba888ecce3296df40158448",
+  "runs": {
+    "ERM": {
+      "checkpoint": "Task 2\\task2\\results\\source_only\\best.pt",
+      "sha256": "b77f917a9a6a5e478089f1943ed6fdbf7f69a3171945917bccb3d75f175414d6",
+      "config": {
+        "seed": 6304,
+        "epochs": 30,
+        "patience": 5,
+        "learning_rate": 0.0001,
+        "weight_decay": 0.0001,
+        "batch_per_domain": 8,
+        "workers": 0,
+        "weights": "ResNet18_Weights.IMAGENET1K_V1",
+        "selection": "mean_source_validation_macro_f1",
+        "batchnorm": "frozen_pretrained_running_stats_trainable_affine",
+        "epoch_definition": "ceil(largest_source_training_count / 8) balanced updates",
+        "precision": "float32",
+        "resize": [
+          256,
+          256
+        ],
+        "crop": 224
+      },
+      "completion": {
+        "completed_epochs": 9,
+        "best_epoch": 4,
+        "best_source_macro_f1": 0.9374109122302152,
+        "stopped_early": true
+      }
+    },
+    "DAN-DG": {
+      "checkpoint": "Task 3\\task3\\results\\dan_dg\\best.pt",
+      "sha256": "d1375eeaede74e5973d66c4db3ae634b7dad0d19a0e5f02858fafb58106484d2",
+      "config": {
+        "seed": 6304,
+        "epochs": 30,
+        "patience": 5,
+        "learning_rate": 0.0001,
+        "weight_decay": 0.0001,
+        "batch_per_domain": 8,
+        "workers": 0,
+        "weights": "ResNet18_Weights.IMAGENET1K_V1",
+        "selection": "mean_source_validation_macro_f1",
+        "batchnorm": "frozen_pretrained_running_stats_trainable_affine",
+        "epoch_definition": "ceil(largest_source_training_count / 8) balanced updates",
+        "precision": "float32",
+        "resize": [
+          256,
+          256
+        ],
+        "crop": 224,
+        "lambda_dg": 1.0,
+        "kernel_scales": [
+          0.5,
+          1.0,
+          2.0
+        ],
+        "mmd_estimator": "biased_including_diagonals",
+        "kernel_definition": "sum exp(-squared_distance / (scale * batch_median_squared_distance))",
+        "alignment": "mean of Photo-Art, Photo-Cartoon, Art-Cartoon MMD; per-pair bandwidth"
+      },
+      "completion": {
+        "completed_epochs": 6,
+        "best_epoch": 1,
+        "best_source_macro_f1": 0.05066996495567924,
+        "stopped_early": true
+      }
+    },
+    "SAM": {
+      "checkpoint": "Task 3\\task3\\results\\sam\\best.pt",
+      "sha256": "d052a762314d548a33cd73f5e3490f280bf2b123d390bcb824620a11382b2def",
+      "config": {
+        "seed": 6304,
+        "epochs": 30,
+        "patience": 5,
+        "learning_rate": 0.0001,
+        "weight_decay": 0.0001,
+        "batch_per_domain": 8,
+        "workers": 0,
+        "weights": "ResNet18_Weights.IMAGENET1K_V1",
+        "selection": "mean_source_validation_macro_f1",
+        "batchnorm": "frozen_pretrained_running_stats_trainable_affine",
+        "epoch_definition": "ceil(largest_source_training_count / 8) balanced updates",
+        "precision": "float32",
+        "resize": [
+          256,
+          256
+        ],
+        "crop": 224,
+        "rho": 0.05,
+        "adaptive": false,
+        "base_optimizer": "AdamW",
+        "sam_batch": "same augmented source batch for both passes",
+        "sam_norm": "global L2 over all trainable parameters with gradients"
+      },
+      "completion": {
+        "completed_epochs": 9,
+        "best_epoch": 4,
+        "best_source_macro_f1": 0.9512735172498493,
+        "stopped_early": true
+      }
+    },
+    "DAN-DG lambda=0.1": {
+      "checkpoint": "Task 3\\task3\\results\\dan_dg_lambda_0p1\\best.pt",
+      "sha256": "e2d444ae2999c6cc2bdbde267f67bbd4c46ab2155d94db5596a2eaf261211ead",
+      "config": {
+        "seed": 6304,
+        "epochs": 30,
+        "patience": 5,
+        "learning_rate": 0.0001,
+        "weight_decay": 0.0001,
+        "batch_per_domain": 8,
+        "workers": 0,
+        "weights": "ResNet18_Weights.IMAGENET1K_V1",
+        "selection": "mean_source_validation_macro_f1",
+        "batchnorm": "frozen_pretrained_running_stats_trainable_affine",
+        "epoch_definition": "ceil(largest_source_training_count / 8) balanced updates",
+        "precision": "float32",
+        "resize": [
+          256,
+          256
+        ],
+        "crop": 224,
+        "lambda_dg": 0.1,
+        "kernel_scales": [
+          0.5,
+          1.0,
+          2.0
+        ],
+        "mmd_estimator": "biased_including_diagonals",
+        "kernel_definition": "sum exp(-squared_distance / (scale * batch_median_squared_distance))",
+        "alignment": "mean of Photo-Art, Photo-Cartoon, Art-Cartoon MMD; per-pair bandwidth"
+      },
+      "completion": {
+        "completed_epochs": 19,
+        "best_epoch": 14,
+        "best_source_macro_f1": 0.9514189853646755,
+        "stopped_early": true
+      }
+    },
+    "DAN-DG lambda=10": {
+      "checkpoint": "Task 3\\task3\\results\\dan_dg_lambda_10\\best.pt",
+      "sha256": "0d3848723277bfeff9f443eedd96e604315cd603577b083c5fd1ea59acdffee2",
+      "config": {
+        "seed": 6304,
+        "epochs": 30,
+        "patience": 5,
+        "learning_rate": 0.0001,
+        "weight_decay": 0.0001,
+        "batch_per_domain": 8,
+        "workers": 0,
+        "weights": "ResNet18_Weights.IMAGENET1K_V1",
+        "selection": "mean_source_validation_macro_f1",
+        "batchnorm": "frozen_pretrained_running_stats_trainable_affine",
+        "epoch_definition": "ceil(largest_source_training_count / 8) balanced updates",
+        "precision": "float32",
+        "resize": [
+          256,
+          256
+        ],
+        "crop": 224,
+        "lambda_dg": 10.0,
+        "kernel_scales": [
+          0.5,
+          1.0,
+          2.0
+        ],
+        "mmd_estimator": "biased_including_diagonals",
+        "kernel_definition": "sum exp(-squared_distance / (scale * batch_median_squared_distance))",
+        "alignment": "mean of Photo-Art, Photo-Cartoon, Art-Cartoon MMD; per-pair bandwidth"
+      },
+      "completion": {
+        "completed_epochs": 6,
+        "best_epoch": 1,
+        "best_source_macro_f1": 0.05066996495567924,
+        "stopped_early": true
+      }
+    }
+  },
+  "study_plan_sha256": "861de2d5f8c8bfce7ba7755dfb6e933f30e55be75324aac4c5ac4aa132148242",
+  "probe": {
+    "C": 1.0,
+    "solver": "lbfgs",
+    "objective": "multinomial",
+    "max_iter": 5000,
+    "scaling": "StandardScaler fit only on probe training features",
+    "split": "domain-stratified 70/30",
+    "subset": "equal count per source"
+  },
+  "sharpness": {
+    "radius": 0.05,
+    "count_per_source": 32,
+    "mode": "eval",
+    "norm": "global L2",
+    "objective": "cross-entropy",
+    "perturbations": 1
+  }
+}

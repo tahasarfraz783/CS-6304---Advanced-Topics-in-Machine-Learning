@@ -1,0 +1,12 @@
+{
+  "seed": 6304,
+  "probe_split_sha256": "7f02f2f44eca69ae848ae08b52970b0ca363f08082b366102ad41e3d3401cdf4",
+  "C": 1,
+  "class_weight": "balanced",
+  "max_iter": 5000,
+  "scaling": "StandardScaler fit on probe training only",
+  "features": "unnormalized 512-D; original shared evaluation preprocessing",
+  "object_labels_used": false,
+  "checkpoints_modified": false,
+  "note": "Post-hoc diagnostic only; no model or hyperparameter selection"
+}

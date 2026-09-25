@@ -1,0 +1,13 @@
+{
+  "method": "DAN-DG",
+  "values": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "main_lambda": 1.0,
+  "main_sam_rho": 0.05,
+  "seed": 6304,
+  "hypothesis": "Stronger source alignment may reduce source-domain separability but can remove class information; Sketch performance need not improve monotonically.",
+  "selection": "Mean source validation macro-F1 only"
+}

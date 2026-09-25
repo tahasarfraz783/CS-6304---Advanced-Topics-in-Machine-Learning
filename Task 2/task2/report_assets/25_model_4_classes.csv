@@ -1,0 +1,8 @@
+method,class_name,count,accuracy,dominant_confusion,dominant_confusion_count,accuracy_change_pp
+CDAN,dog,772,0.0,house,765,-34.067357512953365
+CDAN,elephant,740,0.0027027027027027,house,738,-98.91891891891892
+CDAN,giraffe,753,0.0,house,729,-71.97875166002656
+CDAN,guitar,608,0.0,house,598,-85.36184210526315
+CDAN,horse,816,0.0,house,813,-64.70588235294117
+CDAN,house,80,1.0,,0,27.500000000000004
+CDAN,person,160,0.0,house,160,-45.625

@@ -1,0 +1,2 @@
+method,mean_source_accuracy_pct,mean_source_macro_f1_pct,target_accuracy_pct,target_macro_f1_pct,change_vs_source_only_pp,change_vs_original_method_pp,domain_separability_pct,selected_epoch,epochs_run,predicted_classes,dominant_prediction,dominant_share_pct
+DAN λ=10 recovery,88.58788118287322,88.3398621224531,65.10562484092645,61.762334418340515,-4.04683125477221,61.0333418172563,,5,13,7,person,23.64469330618478

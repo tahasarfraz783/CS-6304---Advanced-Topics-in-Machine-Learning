@@ -1,0 +1,9 @@
+method,path,label,predicted_label,correct,baseline_correct,baseline_prediction,class_name,change
+DAN-DG,sketch/person/12082.png,6,6,True,False,1,person,corrected
+DAN-DG,sketch/person/12083.png,6,6,True,False,1,person,corrected
+DAN-DG,sketch/elephant/5921.png,1,6,False,True,1,elephant,introduced_error
+DAN-DG,sketch/elephant/5922.png,1,6,False,True,1,elephant,introduced_error
+SAM,sketch/person/12083.png,6,6,True,False,1,person,corrected
+SAM,sketch/person/12084.png,6,6,True,False,1,person,corrected
+SAM,sketch/elephant/5988.png,1,2,False,True,1,elephant,introduced_error
+SAM,sketch/elephant/n02503517_10036-2.png,1,0,False,True,1,elephant,introduced_error

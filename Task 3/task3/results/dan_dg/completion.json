@@ -1,0 +1,6 @@
+{
+  "completed_epochs": 6,
+  "best_epoch": 1,
+  "best_source_macro_f1": 0.05066996495567924,
+  "stopped_early": true
+}

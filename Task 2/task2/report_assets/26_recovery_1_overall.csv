@@ -1,0 +1,2 @@
+method,mean_source_accuracy_pct,mean_source_macro_f1_pct,target_accuracy_pct,target_macro_f1_pct,change_vs_source_only_pp,change_vs_original_method_pp,domain_separability_pct,selected_epoch,epochs_run,predicted_classes,dominant_prediction,dominant_share_pct
+DANN recovery,92.47180401275563,92.34011357355276,22.295749554594043,12.018789455368461,-46.85670654110461,4.2504454059557135,,13,20,6,horse,57.01196233138203

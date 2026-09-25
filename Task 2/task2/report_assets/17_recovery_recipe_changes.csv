@@ -1,0 +1,46 @@
+method,setting,original,recovery
+DANN,alignment_ramp_epochs,None,5
+DANN,backbone_learning_rate,None,1e-05
+DANN,batchnorm,frozen_pretrained_running_stats_trainable_affine,frozen_pretrained_running_stats_and_affine
+DANN,discriminator_learning_rate,None,1e-05
+DANN,epochs,30,20
+DANN,experiment,None,recovery_v1
+DANN,experiment_note,None,Follow-up after original target-result inspection
+DANN,freeze_batchnorm_affine,None,True
+DANN,gradient_clip_norm,None,1.0
+DANN,initial_checkpoint,None,d:\LUMS GAMING\6. 2026 Fall\CS 6304\Programming Assignments\PA1\Task 2\task2\results\source_only\best.pt
+DANN,initial_checkpoint_sha256,None,b77f917a9a6a5e478089f1943ed6fdbf7f69a3171945917bccb3d75f175414d6
+DANN,learning_rate,0.0001,1e-05
+DANN,max_grl_strength,1.0,0.1
+DANN,patience,5,8
+DANN,selection_start_epoch,None,5
+CDAN,alignment_ramp_epochs,None,5
+CDAN,backbone_learning_rate,None,1e-05
+CDAN,batchnorm,frozen_pretrained_running_stats_trainable_affine,frozen_pretrained_running_stats_and_affine
+CDAN,discriminator_learning_rate,None,1e-05
+CDAN,epochs,30,20
+CDAN,experiment,None,recovery_v1
+CDAN,experiment_note,None,Follow-up after original target-result inspection
+CDAN,freeze_batchnorm_affine,None,True
+CDAN,gradient_clip_norm,None,1.0
+CDAN,initial_checkpoint,None,d:\LUMS GAMING\6. 2026 Fall\CS 6304\Programming Assignments\PA1\Task 2\task2\results\source_only\best.pt
+CDAN,initial_checkpoint_sha256,None,b77f917a9a6a5e478089f1943ed6fdbf7f69a3171945917bccb3d75f175414d6
+CDAN,learning_rate,0.0001,1e-05
+CDAN,max_grl_strength,1.0,0.1
+CDAN,patience,5,8
+CDAN,selection_start_epoch,None,5
+DAN λ=10,alignment_ramp_epochs,None,5
+DAN λ=10,backbone_learning_rate,None,1e-06
+DAN λ=10,batchnorm,frozen_pretrained_running_stats_trainable_affine,frozen_pretrained_running_stats_and_affine
+DAN λ=10,discriminator_learning_rate,None,1e-05
+DAN λ=10,epochs,30,20
+DAN λ=10,experiment,None,recovery_v1
+DAN λ=10,experiment_note,None,Follow-up after original target-result inspection
+DAN λ=10,freeze_batchnorm_affine,None,True
+DAN λ=10,gradient_clip_norm,None,1.0
+DAN λ=10,initial_checkpoint,None,d:\LUMS GAMING\6. 2026 Fall\CS 6304\Programming Assignments\PA1\Task 2\task2\results\source_only\best.pt
+DAN λ=10,initial_checkpoint_sha256,None,b77f917a9a6a5e478089f1943ed6fdbf7f69a3171945917bccb3d75f175414d6
+DAN λ=10,learning_rate,0.0001,1e-05
+DAN λ=10,max_grl_strength,None,0.1
+DAN λ=10,patience,5,8
+DAN λ=10,selection_start_epoch,None,5

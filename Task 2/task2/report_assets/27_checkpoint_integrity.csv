@@ -1,0 +1,10 @@
+family,method,checkpoint_hash_matches
+original,Source-only,True
+original,DAN,True
+original,DANN,True
+original,CDAN,True
+original,DAN λ=0.1,True
+original,DAN λ=10,True
+recovery,DANN recovery,True
+recovery,CDAN recovery,True
+recovery,DAN λ=10 recovery,True

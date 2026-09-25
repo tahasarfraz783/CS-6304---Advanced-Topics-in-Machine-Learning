@@ -1,0 +1,7 @@
+method,case_type,path,true_class,baseline_prediction,adapted_prediction
+DAN,corrected,sketch/dog/n02103406_1011-2.png,dog,elephant,dog
+DAN,introduced error,sketch/dog/5288.png,dog,dog,house
+DAN λ=0.1,corrected,sketch/dog/5299.png,dog,elephant,dog
+DAN λ=0.1,introduced error,sketch/dog/5288.png,dog,dog,person
+CDAN recovery,corrected,sketch/dog/5284.png,dog,elephant,dog
+CDAN recovery,introduced error,sketch/dog/5332.png,dog,dog,horse

@@ -1,0 +1,138 @@
+method,path,label,predicted_label,correct,baseline_correct,baseline_prediction,class_name,change
+DAN,sketch/dog/5288.png,0,5,False,True,0,dog,introduced_error
+DAN,sketch/dog/5297.png,0,5,False,True,0,dog,introduced_error
+DAN,sketch/dog/5301.png,0,5,False,True,0,dog,introduced_error
+DAN,sketch/dog/n02103406_1011-2.png,0,0,True,False,1,dog,corrected
+DAN,sketch/dog/n02103406_1011-5.png,0,0,True,False,1,dog,corrected
+DAN,sketch/dog/n02103406_1138-2.png,0,0,True,False,1,dog,corrected
+DAN,sketch/elephant/5921.png,1,5,False,True,1,elephant,introduced_error
+DAN,sketch/elephant/5922.png,1,5,False,True,1,elephant,introduced_error
+DAN,sketch/elephant/5923.png,1,5,False,True,1,elephant,introduced_error
+DAN,sketch/giraffe/7361.png,2,5,False,True,2,giraffe,introduced_error
+DAN,sketch/giraffe/7362.png,2,5,False,True,2,giraffe,introduced_error
+DAN,sketch/giraffe/7363.png,2,5,False,True,2,giraffe,introduced_error
+DAN,sketch/giraffe/n02439033_10130-1.png,2,2,True,False,0,giraffe,corrected
+DAN,sketch/giraffe/n02439033_10130-5.png,2,2,True,False,1,giraffe,corrected
+DAN,sketch/giraffe/n02439033_10130-6.png,2,2,True,False,1,giraffe,corrected
+DAN,sketch/guitar/7604.png,3,5,False,True,3,guitar,introduced_error
+DAN,sketch/guitar/7605.png,3,5,False,True,3,guitar,introduced_error
+DAN,sketch/guitar/7606.png,3,5,False,True,3,guitar,introduced_error
+DAN,sketch/guitar/n02676566_11377-1.png,3,3,True,False,1,guitar,corrected
+DAN,sketch/guitar/n02676566_2866-5.png,3,3,True,False,2,guitar,corrected
+DAN,sketch/guitar/n02676566_4058-1.png,3,3,True,False,1,guitar,corrected
+DAN,sketch/horse/8484.png,4,5,False,True,4,horse,introduced_error
+DAN,sketch/horse/8485.png,4,5,False,True,4,horse,introduced_error
+DAN,sketch/horse/8486.png,4,5,False,True,4,horse,introduced_error
+DAN,sketch/horse/n02374451_10669-1.png,4,4,True,False,1,horse,corrected
+DAN,sketch/horse/n02374451_10669-4.png,4,4,True,False,1,horse,corrected
+DAN,sketch/horse/n02374451_11479-3.png,4,4,True,False,1,horse,corrected
+DAN,sketch/house/8801.png,5,5,True,False,1,house,corrected
+DAN,sketch/house/8803.png,5,5,True,False,6,house,corrected
+DAN,sketch/house/8806.png,5,5,True,False,1,house,corrected
+DAN,sketch/person/12081.png,6,5,False,True,6,person,introduced_error
+DAN,sketch/person/12086.png,6,5,False,True,6,person,introduced_error
+DAN,sketch/person/12089.png,6,5,False,True,6,person,introduced_error
+DAN,sketch/person/12199.png,6,6,True,False,2,person,corrected
+DANN,sketch/dog/5281.png,0,0,True,False,1,dog,corrected
+DANN,sketch/dog/5282.png,0,0,True,False,1,dog,corrected
+DANN,sketch/dog/5283.png,0,0,True,False,1,dog,corrected
+DANN,sketch/dog/5304.png,0,2,False,True,0,dog,introduced_error
+DANN,sketch/dog/n02103406_1247-1.png,0,2,False,True,0,dog,introduced_error
+DANN,sketch/dog/n02103406_1247-4.png,0,2,False,True,0,dog,introduced_error
+DANN,sketch/elephant/5921.png,1,0,False,True,1,elephant,introduced_error
+DANN,sketch/elephant/5922.png,1,0,False,True,1,elephant,introduced_error
+DANN,sketch/elephant/5923.png,1,0,False,True,1,elephant,introduced_error
+DANN,sketch/giraffe/7361.png,2,0,False,True,2,giraffe,introduced_error
+DANN,sketch/giraffe/7362.png,2,0,False,True,2,giraffe,introduced_error
+DANN,sketch/giraffe/7363.png,2,6,False,True,2,giraffe,introduced_error
+DANN,sketch/giraffe/n02439033_10130-1.png,2,2,True,False,0,giraffe,corrected
+DANN,sketch/giraffe/n02439033_10541-1.png,2,2,True,False,0,giraffe,corrected
+DANN,sketch/giraffe/n02439033_10541-6.png,2,2,True,False,1,giraffe,corrected
+DANN,sketch/guitar/7604.png,3,6,False,True,3,guitar,introduced_error
+DANN,sketch/guitar/7605.png,3,0,False,True,3,guitar,introduced_error
+DANN,sketch/guitar/7606.png,3,0,False,True,3,guitar,introduced_error
+DANN,sketch/horse/8484.png,4,0,False,True,4,horse,introduced_error
+DANN,sketch/horse/8485.png,4,0,False,True,4,horse,introduced_error
+DANN,sketch/horse/8486.png,4,0,False,True,4,horse,introduced_error
+DANN,sketch/house/8802.png,5,0,False,True,5,house,introduced_error
+DANN,sketch/house/8804.png,5,0,False,True,5,house,introduced_error
+DANN,sketch/house/8805.png,5,0,False,True,5,house,introduced_error
+DANN,sketch/person/12081.png,6,0,False,True,6,person,introduced_error
+DANN,sketch/person/12086.png,6,0,False,True,6,person,introduced_error
+DANN,sketch/person/12089.png,6,0,False,True,6,person,introduced_error
+DANN,sketch/person/12132.png,6,6,True,False,1,person,corrected
+CDAN,sketch/dog/5288.png,0,5,False,True,0,dog,introduced_error
+CDAN,sketch/dog/5297.png,0,5,False,True,0,dog,introduced_error
+CDAN,sketch/dog/5301.png,0,5,False,True,0,dog,introduced_error
+CDAN,sketch/elephant/5921.png,1,5,False,True,1,elephant,introduced_error
+CDAN,sketch/elephant/5922.png,1,5,False,True,1,elephant,introduced_error
+CDAN,sketch/elephant/5923.png,1,5,False,True,1,elephant,introduced_error
+CDAN,sketch/giraffe/7361.png,2,5,False,True,2,giraffe,introduced_error
+CDAN,sketch/giraffe/7362.png,2,5,False,True,2,giraffe,introduced_error
+CDAN,sketch/giraffe/7363.png,2,5,False,True,2,giraffe,introduced_error
+CDAN,sketch/guitar/7604.png,3,5,False,True,3,guitar,introduced_error
+CDAN,sketch/guitar/7605.png,3,5,False,True,3,guitar,introduced_error
+CDAN,sketch/guitar/7606.png,3,5,False,True,3,guitar,introduced_error
+CDAN,sketch/horse/8484.png,4,5,False,True,4,horse,introduced_error
+CDAN,sketch/horse/8485.png,4,5,False,True,4,horse,introduced_error
+CDAN,sketch/horse/8486.png,4,5,False,True,4,horse,introduced_error
+CDAN,sketch/house/8801.png,5,5,True,False,1,house,corrected
+CDAN,sketch/house/8803.png,5,5,True,False,6,house,corrected
+CDAN,sketch/house/8806.png,5,5,True,False,1,house,corrected
+CDAN,sketch/person/12081.png,6,5,False,True,6,person,introduced_error
+CDAN,sketch/person/12086.png,6,5,False,True,6,person,introduced_error
+CDAN,sketch/person/12089.png,6,5,False,True,6,person,introduced_error
+DAN lambda=0.1,sketch/dog/5288.png,0,6,False,True,0,dog,introduced_error
+DAN lambda=0.1,sketch/dog/5297.png,0,5,False,True,0,dog,introduced_error
+DAN lambda=0.1,sketch/dog/5299.png,0,0,True,False,1,dog,corrected
+DAN lambda=0.1,sketch/dog/5301.png,0,6,False,True,0,dog,introduced_error
+DAN lambda=0.1,sketch/dog/n02103406_1011-2.png,0,0,True,False,1,dog,corrected
+DAN lambda=0.1,sketch/dog/n02103406_1011-3.png,0,0,True,False,1,dog,corrected
+DAN lambda=0.1,sketch/elephant/5921.png,1,5,False,True,1,elephant,introduced_error
+DAN lambda=0.1,sketch/elephant/5922.png,1,5,False,True,1,elephant,introduced_error
+DAN lambda=0.1,sketch/elephant/5923.png,1,6,False,True,1,elephant,introduced_error
+DAN lambda=0.1,sketch/giraffe/7373.png,2,5,False,True,2,giraffe,introduced_error
+DAN lambda=0.1,sketch/giraffe/7374.png,2,5,False,True,2,giraffe,introduced_error
+DAN lambda=0.1,sketch/giraffe/7375.png,2,5,False,True,2,giraffe,introduced_error
+DAN lambda=0.1,sketch/giraffe/7410.png,2,2,True,False,1,giraffe,corrected
+DAN lambda=0.1,sketch/giraffe/n02439033_10130-1.png,2,2,True,False,0,giraffe,corrected
+DAN lambda=0.1,sketch/giraffe/n02439033_10130-6.png,2,2,True,False,1,giraffe,corrected
+DAN lambda=0.1,sketch/guitar/7603.png,3,3,True,False,1,guitar,corrected
+DAN lambda=0.1,sketch/guitar/7604.png,3,6,False,True,3,guitar,introduced_error
+DAN lambda=0.1,sketch/guitar/7605.png,3,6,False,True,3,guitar,introduced_error
+DAN lambda=0.1,sketch/guitar/7609.png,3,6,False,True,3,guitar,introduced_error
+DAN lambda=0.1,sketch/guitar/7653.png,3,3,True,False,1,guitar,corrected
+DAN lambda=0.1,sketch/guitar/n02676566_11377-1.png,3,3,True,False,1,guitar,corrected
+DAN lambda=0.1,sketch/horse/8484.png,4,5,False,True,4,horse,introduced_error
+DAN lambda=0.1,sketch/horse/8486.png,4,5,False,True,4,horse,introduced_error
+DAN lambda=0.1,sketch/horse/8488.png,4,6,False,True,4,horse,introduced_error
+DAN lambda=0.1,sketch/horse/8517.png,4,4,True,False,1,horse,corrected
+DAN lambda=0.1,sketch/horse/n02374451_10669-1.png,4,4,True,False,1,horse,corrected
+DAN lambda=0.1,sketch/horse/n02374451_10669-6.png,4,4,True,False,1,horse,corrected
+DAN lambda=0.1,sketch/house/8801.png,5,5,True,False,1,house,corrected
+DAN lambda=0.1,sketch/house/8803.png,5,5,True,False,6,house,corrected
+DAN lambda=0.1,sketch/house/8806.png,5,5,True,False,1,house,corrected
+DAN lambda=0.1,sketch/person/12082.png,6,6,True,False,1,person,corrected
+DAN lambda=0.1,sketch/person/12083.png,6,6,True,False,1,person,corrected
+DAN lambda=0.1,sketch/person/12084.png,6,6,True,False,1,person,corrected
+DAN lambda=10,sketch/dog/5288.png,0,6,False,True,0,dog,introduced_error
+DAN lambda=10,sketch/dog/5297.png,0,6,False,True,0,dog,introduced_error
+DAN lambda=10,sketch/dog/5301.png,0,6,False,True,0,dog,introduced_error
+DAN lambda=10,sketch/elephant/5921.png,1,6,False,True,1,elephant,introduced_error
+DAN lambda=10,sketch/elephant/5922.png,1,6,False,True,1,elephant,introduced_error
+DAN lambda=10,sketch/elephant/5923.png,1,6,False,True,1,elephant,introduced_error
+DAN lambda=10,sketch/giraffe/7361.png,2,6,False,True,2,giraffe,introduced_error
+DAN lambda=10,sketch/giraffe/7362.png,2,6,False,True,2,giraffe,introduced_error
+DAN lambda=10,sketch/giraffe/7363.png,2,6,False,True,2,giraffe,introduced_error
+DAN lambda=10,sketch/guitar/7604.png,3,6,False,True,3,guitar,introduced_error
+DAN lambda=10,sketch/guitar/7605.png,3,6,False,True,3,guitar,introduced_error
+DAN lambda=10,sketch/guitar/7606.png,3,6,False,True,3,guitar,introduced_error
+DAN lambda=10,sketch/horse/8484.png,4,6,False,True,4,horse,introduced_error
+DAN lambda=10,sketch/horse/8485.png,4,6,False,True,4,horse,introduced_error
+DAN lambda=10,sketch/horse/8486.png,4,6,False,True,4,horse,introduced_error
+DAN lambda=10,sketch/house/8802.png,5,6,False,True,5,house,introduced_error
+DAN lambda=10,sketch/house/8804.png,5,6,False,True,5,house,introduced_error
+DAN lambda=10,sketch/house/8805.png,5,6,False,True,5,house,introduced_error
+DAN lambda=10,sketch/person/12082.png,6,6,True,False,1,person,corrected
+DAN lambda=10,sketch/person/12083.png,6,6,True,False,1,person,corrected
+DAN lambda=10,sketch/person/12084.png,6,6,True,False,1,person,corrected

@@ -1,0 +1,8 @@
+method,class_name,count,accuracy,dominant_confusion,dominant_confusion_count,accuracy_change_pp
+DANN,dog,772,0.8290155440414507,giraffe,119,48.83419689119171
+DANN,elephant,740,0.004054054054054,dog,582,-98.7837837837838
+DANN,giraffe,753,0.0863213811420982,dog,554,-63.34661354581673
+DANN,guitar,608,0.0,dog,460,-85.36184210526315
+DANN,horse,816,0.0,dog,578,-64.70588235294117
+DANN,house,80,0.0,dog,75,-72.5
+DANN,person,160,0.00625,dog,155,-45.0

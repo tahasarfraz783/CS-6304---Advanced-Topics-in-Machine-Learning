@@ -1,0 +1,2 @@
+method,mean_source_accuracy_pct,mean_source_macro_f1_pct,target_accuracy_pct,target_macro_f1_pct,target_accuracy_change_pp,domain_separability_pct
+DAN,93.96290574501319,93.94005458534168,59.20081445660473,53.84162593501497,-9.95164163909392,82.41758241758241

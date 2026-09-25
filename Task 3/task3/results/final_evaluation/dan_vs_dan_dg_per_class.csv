@@ -1,0 +1,8 @@
+class_name,task2_dan_accuracy,task3_dan_dg_accuracy
+dog,0.5194300518134715,0.0
+elephant,0.7094594594594594,0.0
+giraffe,0.5670650730411687,0.0
+guitar,0.7171052631578947,0.0
+horse,0.5575980392156863,0.0
+house,1.0,0.0
+person,0.0125,1.0

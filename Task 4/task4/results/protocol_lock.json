@@ -1,0 +1,65 @@
+{
+  "checkpoints": {
+    "vanilla": "a678f8e85b4a753eb1bd147ef951e7494e6cfa5caadecb481f2ea4a17bedd2a7",
+    "gcsc": "d46f158c64054bb5ae8df40a926da06a59f4ce04c1e46b5403adf0f3b04802e8",
+    "proser": "985ee19d60a462cd6f74b66f873ea8cafd1d21385030b2e9d48cc412033726c1"
+  },
+  "sources": {
+    "data\\cifar10.ipynb": "98733a64b28104ea173ce5584b891f2eded054b6dc17146b7b3e6d928f774ed4",
+    "data\\cifar100_unknowns.ipynb": "e5adf9117238d695712bc0e87fafaa66260fc84a1a01af515115d9ae68295cd6",
+    "data\\make_splits.ipynb": "fc01e92f556c247e8e8c65cf99e4b7cac42cac187b2b54e8577e4999c6192d8e",
+    "evaluate_osr.ipynb": "12f3452d28957201a130ba7be5f857cbe9d7c41d963111becf4d54e31c643659",
+    "evaluation\\failure_analysis.ipynb": "7675889eea7830335f1fe951e6fa2768eab802577656cf517878aa2b81f5d8d2",
+    "evaluation\\metrics.ipynb": "e8220c418fcc2f82ec0ef5c3e026350e5028e3f75884e8eedc0f6275f83156c4",
+    "evaluation\\thresholds.ipynb": "76d453687b6b7112e8e098c7690b31f33e53b7356065940444268033b6b7cc2e",
+    "extract_outputs.ipynb": "8f0d24e897b5f36fbcf2e77479e66c9c84f90b94a86ccb9bb9e94c53b3b2d79b",
+    "methods\\gcsc.ipynb": "8524b23856329314b60203bb5c3bfb876b0b48a13319986ff48e9b51ee944bf8",
+    "methods\\manifold_mixup.ipynb": "7b21a42f08b9d57f2423b752f2766e4955779a79ffb8404ebcbdaff461829600",
+    "methods\\proser.ipynb": "6e583d6083b3a62d444f5c585589a3ba4f6f03c657bd4e450bef76154a268a58",
+    "methods\\vanilla.ipynb": "d1ca2921a098cf436190a8afa8d9c6780dce4ae3701c0436a64aad72378c581c",
+    "models\\resnet_cifar.ipynb": "ac8f7ed4d1f7680726209b2cbe8260876421f39217be7c3c16f41f53a46ea4b1",
+    "scores\\energy.ipynb": "98a068ee76c1adb5728a05d81d881637fcc0d1a268b5e662f72a2e892917e081",
+    "scores\\mahalanobis.ipynb": "a6580e19891c3eacde83cfb5edfc89840c544a4e6b17035cf502d6482c357adb",
+    "scores\\mls.ipynb": "3f71a87261dd87f0382fab3bae1011af5612345c74ecc0408521bfb7e104ea20",
+    "scores\\msp.ipynb": "9b8e92896739f4025cf5a33a6bef773d012494d4699ecae2adeccbd25b8a0369",
+    "train.ipynb": "b2a2434b3e02814476597b61c3376fa9dd51b419622bd2b3bb5ef041e18d67cf",
+    "configs\\gcsc.yaml": "8ab1232ee1431d1baba052852a9eaccefd25b148e9a50467d9bb64f80ed56e18",
+    "configs\\proser.yaml": "94db7226bcc3961c5d20901c5af36cff2f408ce1eaa19b7404d4fd321b7b53b7",
+    "configs\\vanilla.yaml": "075c66d890893d0d662e6a1d8ce91d47aa853a515aeae1ce86f91f8250c14239"
+  },
+  "artifacts": {
+    "cache\\gcsc\\test.npz": "77e3d4be412e3c744658eecc0815aa61fcbe8785b09bee2c06f9f68dc057405d",
+    "cache\\gcsc\\train.npz": "e3a39bb765f7eeeb37a0c2ef9daed55a5e63672b0e0b90e62fb8a3384ee8838a",
+    "cache\\gcsc\\validation.npz": "18d2a4838155b496547462a9ec8b6ea894dce7ec3e9a221f900439392cf1a6d0",
+    "cache\\proser\\test.npz": "610cc9948e355b0e8c166d4c96f51c7f214db8284ad833e1188356de1ee655bd",
+    "cache\\proser\\train.npz": "425c6ffaf2df17779245d91f70484d19696dc0125c9ee4d662108d5740fb1894",
+    "cache\\proser\\validation.npz": "4c30b310b84483d42d4f90151aff3c81b9002bc892289ae6f1635cd42ddaeb32",
+    "cache\\vanilla\\test.npz": "3430810f656539b6389986d12977e55d52f327ebfb7afc7f90ad191b5f1650d3",
+    "cache\\vanilla\\train.npz": "0655fb5f1d08419747be68bc313ccb002642aa9cf09c677bb9be3c05b88db34f",
+    "cache\\vanilla\\validation.npz": "c633274d262faa227381631863b4a31101727eda98ea5c6270e20ad4ba00cb69",
+    "results\\calibration\\mahalanobis.npz": "ab5da312ee61cc63a53f1fc5a7173c12a3f13e6f307fbbf93ba5391277170baf",
+    "results\\calibration\\placeholder.json": "ee5e42838d31744e15e076f49855891bafbc8338dfaac050a2bc8e73868fc638",
+    "results\\calibration\\thresholds.json": "150bdb03bbdf205039f1b91d987bfa62c8d1f7a1f453c6f7f97fed73ee1a66e7"
+  },
+  "unknown_data_accessed": false,
+  "near": [
+    "bus",
+    "pickup_truck",
+    "motorcycle",
+    "tractor",
+    "wolf",
+    "fox",
+    "leopard",
+    "camel"
+  ],
+  "far": [
+    "bottle",
+    "bowl",
+    "chair",
+    "clock",
+    "keyboard",
+    "mushroom",
+    "sunflower",
+    "wardrobe"
+  ]
+}

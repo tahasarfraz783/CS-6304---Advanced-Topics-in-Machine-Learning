@@ -1,0 +1,7 @@
+method,initialization,epochs_run,selected_epoch,selected_source_macro_f1_pct,target_seen_unlabeled
+Source-only,ImageNet,9,4,93.74109122302153,False
+DAN,ImageNet,10,5,93.94005458534167,True
+DANN,ImageNet,7,2,16.03527121702608,True
+CDAN,ImageNet,8,3,32.75585673931942,True
+DAN λ=0.1,ImageNet,17,12,95.61290037186572,True
+DAN λ=10,ImageNet,6,1,5.066996495567924,True

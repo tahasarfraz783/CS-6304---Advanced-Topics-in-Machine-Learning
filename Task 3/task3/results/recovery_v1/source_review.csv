@@ -1,0 +1,3 @@
+task,run,status,source_accuracy,source_macro_f1,predicted_classes,dominant_prediction_share,collapsed,best_epoch
+3,dan_dg,completed,0.9533283632952515,0.9545764828451967,7,0.2225886232481451,False,6
+3,dan_dg_lambda_10,completed,0.20957552366274776,0.13865996107935616,5,0.6727122835943941,False,5

@@ -1,0 +1,48 @@
+{
+  "config": {
+    "seed": 6304,
+    "epochs": 30,
+    "patience": 5,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "batch_per_domain": 8,
+    "workers": 0,
+    "weights": "ResNet18_Weights.IMAGENET1K_V1",
+    "selection": "mean_source_validation_macro_f1",
+    "batchnorm": "frozen_pretrained_running_stats_trainable_affine",
+    "epoch_definition": "ceil(largest_source_training_count / 8) balanced updates",
+    "precision": "float32",
+    "resize": [
+      256,
+      256
+    ],
+    "crop": 224,
+    "lambda_dg": 1.0,
+    "kernel_scales": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "mmd_estimator": "biased_including_diagonals",
+    "kernel_definition": "sum exp(-squared_distance / (scale * batch_median_squared_distance))",
+    "alignment": "mean of Photo-Art, Photo-Cartoon, Art-Cartoon MMD; per-pair bandwidth"
+  },
+  "split_sha256": "450b80382481f4fc156b39b8c5cc2546596a557baba888ecce3296df40158448",
+  "class_to_idx": {
+    "dog": 0,
+    "elephant": 1,
+    "giraffe": 2,
+    "guitar": 3,
+    "horse": 4,
+    "house": 5,
+    "person": 6
+  },
+  "environment": {
+    "python": "3.10.21",
+    "torch": "2.5.1",
+    "torchvision": "0.20.1",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU"
+  },
+  "method": "dan_dg"
+}

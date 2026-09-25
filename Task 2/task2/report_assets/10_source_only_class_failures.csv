@@ -1,0 +1,8 @@
+method,class_name,count,accuracy,dominant_confusion,dominant_confusion_count,accuracy_change_pp
+Source-only,dog,772,0.3406735751295336,elephant,356,0.0
+Source-only,person,160,0.45625,elephant,49,0.0
+Source-only,horse,816,0.6470588235294118,elephant,214,0.0
+Source-only,giraffe,753,0.7197875166002656,horse,90,0.0
+Source-only,house,80,0.725,elephant,15,0.0
+Source-only,guitar,608,0.8536184210526315,elephant,79,0.0
+Source-only,elephant,740,0.991891891891892,dog,3,0.0

@@ -1,0 +1,3 @@
+method,sketch_accuracy,sketch_macro_f1,sketch_accuracy_change_pp
+Task 2 DAN (target-aware),0.5920081445660473,0.5384162593501497,-9.951641639093921
+Task 3 DAN-DG (source-only),0.0407228302367014,0.0111798204241344,-65.08017307202851

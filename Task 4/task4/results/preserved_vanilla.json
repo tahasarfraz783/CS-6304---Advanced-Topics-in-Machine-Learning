@@ -1,0 +1,30 @@
+{
+  "best.pt": {
+    "source": "D:\\LUMS GAMING\\6. 2026 Fall\\CS 6304\\Programming Assignments\\PA1\\Task 4\\results\\vanilla\\best.pt",
+    "sha256": "a678f8e85b4a753eb1bd147ef951e7494e6cfa5caadecb481f2ea4a17bedd2a7"
+  },
+  "complete.json": {
+    "source": "D:\\LUMS GAMING\\6. 2026 Fall\\CS 6304\\Programming Assignments\\PA1\\Task 4\\results\\vanilla\\complete.json",
+    "sha256": "92adf30d76a734d046a14069c39f0e384f33d7093513fc94d420e7762a5fde97"
+  },
+  "config.json": {
+    "source": "D:\\LUMS GAMING\\6. 2026 Fall\\CS 6304\\Programming Assignments\\PA1\\Task 4\\results\\vanilla\\config.json",
+    "sha256": "10a7c13fe9313ebff3757a892853a939e84d5ce17e40c748b3582531b5a464ad"
+  },
+  "history.json": {
+    "source": "D:\\LUMS GAMING\\6. 2026 Fall\\CS 6304\\Programming Assignments\\PA1\\Task 4\\results\\vanilla\\history.json",
+    "sha256": "9567375eb8decfe1353d0dba6bc318744495ef5a31c38ec324621d36a1f0b605"
+  },
+  "split.json": {
+    "source": "D:\\LUMS GAMING\\6. 2026 Fall\\CS 6304\\Programming Assignments\\PA1\\Task 4\\results\\vanilla\\split.json",
+    "sha256": "2def641c4a058dc7975c44da057b0a35b12d196eee841ba4c23be6b1a2e64613"
+  },
+  "known_evaluation.json": {
+    "source": "D:\\LUMS GAMING\\6. 2026 Fall\\CS 6304\\Programming Assignments\\PA1\\Task 4\\results\\vanilla\\known_evaluation.json",
+    "sha256": "0279aa3369b0c2c5da6aeb60b14a7c03d56489e70e5e3e2270cd59d2ec73073c"
+  },
+  "training_curves.png": {
+    "source": "D:\\LUMS GAMING\\6. 2026 Fall\\CS 6304\\Programming Assignments\\PA1\\Task 4\\results\\vanilla\\training_curves.png",
+    "sha256": "c5b4c46a1bd9068b2cd26200b40ea66d4cd1186d1dc7c5ad1b4f5eabee18c9ae"
+  }
+}

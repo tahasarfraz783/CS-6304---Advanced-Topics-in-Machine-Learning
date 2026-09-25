@@ -1,0 +1,295 @@
+method,true_class,predicted_class,count
+Source-only,dog,dog,263
+Source-only,dog,elephant,356
+Source-only,dog,giraffe,63
+Source-only,dog,guitar,1
+Source-only,dog,horse,76
+Source-only,dog,house,0
+Source-only,dog,person,13
+Source-only,elephant,dog,3
+Source-only,elephant,elephant,734
+Source-only,elephant,giraffe,2
+Source-only,elephant,guitar,0
+Source-only,elephant,horse,1
+Source-only,elephant,house,0
+Source-only,elephant,person,0
+Source-only,giraffe,dog,31
+Source-only,giraffe,elephant,89
+Source-only,giraffe,giraffe,542
+Source-only,giraffe,guitar,0
+Source-only,giraffe,horse,90
+Source-only,giraffe,house,0
+Source-only,giraffe,person,1
+Source-only,guitar,dog,0
+Source-only,guitar,elephant,79
+Source-only,guitar,giraffe,6
+Source-only,guitar,guitar,519
+Source-only,guitar,horse,1
+Source-only,guitar,house,1
+Source-only,guitar,person,2
+Source-only,horse,dog,28
+Source-only,horse,elephant,214
+Source-only,horse,giraffe,40
+Source-only,horse,guitar,2
+Source-only,horse,horse,528
+Source-only,horse,house,3
+Source-only,horse,person,1
+Source-only,house,dog,0
+Source-only,house,elephant,15
+Source-only,house,giraffe,2
+Source-only,house,guitar,0
+Source-only,house,horse,0
+Source-only,house,house,58
+Source-only,house,person,5
+Source-only,person,dog,0
+Source-only,person,elephant,49
+Source-only,person,giraffe,35
+Source-only,person,guitar,0
+Source-only,person,horse,3
+Source-only,person,house,0
+Source-only,person,person,73
+DAN,dog,dog,401
+DAN,dog,elephant,26
+DAN,dog,giraffe,31
+DAN,dog,guitar,0
+DAN,dog,horse,22
+DAN,dog,house,96
+DAN,dog,person,196
+DAN,elephant,dog,61
+DAN,elephant,elephant,525
+DAN,elephant,giraffe,2
+DAN,elephant,guitar,0
+DAN,elephant,horse,1
+DAN,elephant,house,90
+DAN,elephant,person,61
+DAN,giraffe,dog,58
+DAN,giraffe,elephant,11
+DAN,giraffe,giraffe,427
+DAN,giraffe,guitar,0
+DAN,giraffe,horse,17
+DAN,giraffe,house,88
+DAN,giraffe,person,152
+DAN,guitar,dog,2
+DAN,guitar,elephant,3
+DAN,guitar,giraffe,8
+DAN,guitar,guitar,436
+DAN,guitar,horse,0
+DAN,guitar,house,90
+DAN,guitar,person,69
+DAN,horse,dog,125
+DAN,horse,elephant,16
+DAN,horse,giraffe,47
+DAN,horse,guitar,0
+DAN,horse,horse,455
+DAN,horse,house,117
+DAN,horse,person,56
+DAN,house,dog,0
+DAN,house,elephant,0
+DAN,house,giraffe,0
+DAN,house,guitar,0
+DAN,house,horse,0
+DAN,house,house,80
+DAN,house,person,0
+DAN,person,dog,0
+DAN,person,elephant,0
+DAN,person,giraffe,0
+DAN,person,guitar,0
+DAN,person,horse,0
+DAN,person,house,158
+DAN,person,person,2
+DANN,dog,dog,640
+DANN,dog,elephant,2
+DANN,dog,giraffe,119
+DANN,dog,guitar,0
+DANN,dog,horse,0
+DANN,dog,house,0
+DANN,dog,person,11
+DANN,elephant,dog,582
+DANN,elephant,elephant,3
+DANN,elephant,giraffe,148
+DANN,elephant,guitar,0
+DANN,elephant,horse,0
+DANN,elephant,house,0
+DANN,elephant,person,7
+DANN,giraffe,dog,554
+DANN,giraffe,elephant,3
+DANN,giraffe,giraffe,65
+DANN,giraffe,guitar,0
+DANN,giraffe,horse,0
+DANN,giraffe,house,0
+DANN,giraffe,person,131
+DANN,guitar,dog,460
+DANN,guitar,elephant,7
+DANN,guitar,giraffe,21
+DANN,guitar,guitar,0
+DANN,guitar,horse,0
+DANN,guitar,house,0
+DANN,guitar,person,120
+DANN,horse,dog,578
+DANN,horse,elephant,1
+DANN,horse,giraffe,215
+DANN,horse,guitar,0
+DANN,horse,horse,0
+DANN,horse,house,0
+DANN,horse,person,22
+DANN,house,dog,75
+DANN,house,elephant,0
+DANN,house,giraffe,2
+DANN,house,guitar,0
+DANN,house,horse,0
+DANN,house,house,0
+DANN,house,person,3
+DANN,person,dog,155
+DANN,person,elephant,0
+DANN,person,giraffe,4
+DANN,person,guitar,0
+DANN,person,horse,0
+DANN,person,house,0
+DANN,person,person,1
+CDAN,dog,dog,0
+CDAN,dog,elephant,5
+CDAN,dog,giraffe,0
+CDAN,dog,guitar,0
+CDAN,dog,horse,0
+CDAN,dog,house,765
+CDAN,dog,person,2
+CDAN,elephant,dog,0
+CDAN,elephant,elephant,2
+CDAN,elephant,giraffe,0
+CDAN,elephant,guitar,0
+CDAN,elephant,horse,0
+CDAN,elephant,house,738
+CDAN,elephant,person,0
+CDAN,giraffe,dog,0
+CDAN,giraffe,elephant,23
+CDAN,giraffe,giraffe,0
+CDAN,giraffe,guitar,0
+CDAN,giraffe,horse,0
+CDAN,giraffe,house,729
+CDAN,giraffe,person,1
+CDAN,guitar,dog,0
+CDAN,guitar,elephant,7
+CDAN,guitar,giraffe,3
+CDAN,guitar,guitar,0
+CDAN,guitar,horse,0
+CDAN,guitar,house,598
+CDAN,guitar,person,0
+CDAN,horse,dog,0
+CDAN,horse,elephant,2
+CDAN,horse,giraffe,0
+CDAN,horse,guitar,0
+CDAN,horse,horse,0
+CDAN,horse,house,813
+CDAN,horse,person,1
+CDAN,house,dog,0
+CDAN,house,elephant,0
+CDAN,house,giraffe,0
+CDAN,house,guitar,0
+CDAN,house,horse,0
+CDAN,house,house,80
+CDAN,house,person,0
+CDAN,person,dog,0
+CDAN,person,elephant,0
+CDAN,person,giraffe,0
+CDAN,person,guitar,0
+CDAN,person,horse,0
+CDAN,person,house,160
+CDAN,person,person,0
+DAN lambda=0.1,dog,dog,361
+DAN lambda=0.1,dog,elephant,37
+DAN lambda=0.1,dog,giraffe,25
+DAN lambda=0.1,dog,guitar,0
+DAN lambda=0.1,dog,horse,57
+DAN lambda=0.1,dog,house,40
+DAN lambda=0.1,dog,person,252
+DAN lambda=0.1,elephant,dog,64
+DAN lambda=0.1,elephant,elephant,501
+DAN lambda=0.1,elephant,giraffe,1
+DAN lambda=0.1,elephant,guitar,0
+DAN lambda=0.1,elephant,horse,4
+DAN lambda=0.1,elephant,house,56
+DAN lambda=0.1,elephant,person,114
+DAN lambda=0.1,giraffe,dog,34
+DAN lambda=0.1,giraffe,elephant,17
+DAN lambda=0.1,giraffe,giraffe,546
+DAN lambda=0.1,giraffe,guitar,1
+DAN lambda=0.1,giraffe,horse,43
+DAN lambda=0.1,giraffe,house,23
+DAN lambda=0.1,giraffe,person,89
+DAN lambda=0.1,guitar,dog,3
+DAN lambda=0.1,guitar,elephant,3
+DAN lambda=0.1,guitar,giraffe,9
+DAN lambda=0.1,guitar,guitar,535
+DAN lambda=0.1,guitar,horse,0
+DAN lambda=0.1,guitar,house,9
+DAN lambda=0.1,guitar,person,49
+DAN lambda=0.1,horse,dog,41
+DAN lambda=0.1,horse,elephant,19
+DAN lambda=0.1,horse,giraffe,40
+DAN lambda=0.1,horse,guitar,0
+DAN lambda=0.1,horse,horse,551
+DAN lambda=0.1,horse,house,85
+DAN lambda=0.1,horse,person,80
+DAN lambda=0.1,house,dog,0
+DAN lambda=0.1,house,elephant,0
+DAN lambda=0.1,house,giraffe,0
+DAN lambda=0.1,house,guitar,0
+DAN lambda=0.1,house,horse,0
+DAN lambda=0.1,house,house,80
+DAN lambda=0.1,house,person,0
+DAN lambda=0.1,person,dog,0
+DAN lambda=0.1,person,elephant,0
+DAN lambda=0.1,person,giraffe,0
+DAN lambda=0.1,person,guitar,0
+DAN lambda=0.1,person,horse,0
+DAN lambda=0.1,person,house,6
+DAN lambda=0.1,person,person,154
+DAN lambda=10,dog,dog,0
+DAN lambda=10,dog,elephant,0
+DAN lambda=10,dog,giraffe,0
+DAN lambda=10,dog,guitar,0
+DAN lambda=10,dog,horse,0
+DAN lambda=10,dog,house,0
+DAN lambda=10,dog,person,772
+DAN lambda=10,elephant,dog,0
+DAN lambda=10,elephant,elephant,0
+DAN lambda=10,elephant,giraffe,0
+DAN lambda=10,elephant,guitar,0
+DAN lambda=10,elephant,horse,0
+DAN lambda=10,elephant,house,0
+DAN lambda=10,elephant,person,740
+DAN lambda=10,giraffe,dog,0
+DAN lambda=10,giraffe,elephant,0
+DAN lambda=10,giraffe,giraffe,0
+DAN lambda=10,giraffe,guitar,0
+DAN lambda=10,giraffe,horse,0
+DAN lambda=10,giraffe,house,0
+DAN lambda=10,giraffe,person,753
+DAN lambda=10,guitar,dog,0
+DAN lambda=10,guitar,elephant,0
+DAN lambda=10,guitar,giraffe,0
+DAN lambda=10,guitar,guitar,0
+DAN lambda=10,guitar,horse,0
+DAN lambda=10,guitar,house,0
+DAN lambda=10,guitar,person,608
+DAN lambda=10,horse,dog,0
+DAN lambda=10,horse,elephant,0
+DAN lambda=10,horse,giraffe,0
+DAN lambda=10,horse,guitar,0
+DAN lambda=10,horse,horse,0
+DAN lambda=10,horse,house,0
+DAN lambda=10,horse,person,816
+DAN lambda=10,house,dog,0
+DAN lambda=10,house,elephant,0
+DAN lambda=10,house,giraffe,0
+DAN lambda=10,house,guitar,0
+DAN lambda=10,house,horse,0
+DAN lambda=10,house,house,0
+DAN lambda=10,house,person,80
+DAN lambda=10,person,dog,0
+DAN lambda=10,person,elephant,0
+DAN lambda=10,person,giraffe,0
+DAN lambda=10,person,guitar,0
+DAN lambda=10,person,horse,0
+DAN lambda=10,person,house,0
+DAN lambda=10,person,person,160

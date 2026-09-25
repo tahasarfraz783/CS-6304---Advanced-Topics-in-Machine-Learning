@@ -1,0 +1,18 @@
+{
+  "seed": 6304,
+  "perplexity": 30,
+  "max_iter": 1000,
+  "learning_rate": "auto",
+  "metric": "euclidean",
+  "init": "pca",
+  "early_exaggeration": 12,
+  "angle": 0.5,
+  "pca_components": 50,
+  "l2_normalize": true,
+  "conditions": [
+    "grayscale",
+    "cue_conflict",
+    "translation_32_right",
+    "patch_shuffle"
+  ]
+}

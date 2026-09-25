@@ -1,0 +1,8 @@
+method,class_name,count,accuracy_pct,change_vs_source_only_pp
+DANN recovery,dog,772,4.404145077720207,-29.663212435233156
+DANN recovery,elephant,740,0.0,-99.1891891891892
+DANN recovery,giraffe,753,0.13280212483399734,-71.84594953519256
+DANN recovery,guitar,608,5.921052631578947,-79.4407894736842
+DANN recovery,horse,816,80.75980392156863,16.053921568627448
+DANN recovery,house,80,2.5,-70.0
+DANN recovery,person,160,90.0,44.375

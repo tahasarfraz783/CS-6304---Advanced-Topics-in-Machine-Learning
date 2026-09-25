@@ -1,0 +1,8 @@
+domain,partition,count
+photo,train,1336
+photo,val,334
+art_painting,train,1638
+art_painting,val,410
+cartoon,train,1875
+cartoon,val,469
+sketch,unlabeled adaptation / final analysis,3929

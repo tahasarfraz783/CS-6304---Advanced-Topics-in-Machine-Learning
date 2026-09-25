@@ -1,0 +1,11 @@
+{
+  "files": {
+    "cache\\vanilla\\near.npz": "a1a3dd1039edaaef7e5eab8f5637769e324d8f67a029859f43e836cd4bd49dc8",
+    "cache\\vanilla\\far.npz": "bdfe04fd292f57bb75ab193df87cc7d8df0f74823c8b6bb63861d66225f0fe74",
+    "cache\\gcsc\\near.npz": "c787db1b752aedf1d75d38f3cc1c35c81b6efd14210d874d0ecb11c260cad780",
+    "cache\\gcsc\\far.npz": "e2b4e0dea0e99ece58aa057e2726ea75954fe920d4357563fb9a58e67be7850e",
+    "cache\\proser\\near.npz": "3b42b2d24805c405c37f7e66f1fdc2f11272b9ff3a45665105b1e1fcc9438fb0",
+    "cache\\proser\\far.npz": "bb99c54e823a8772722941a7b76215bc8ce8abb8fc2241ebb9b6772106329447"
+  },
+  "protocol_lock_sha256": "63525b1fb5fd27f8140d0413fcf0612fc1084889d0c093f62935e76405971d72"
+}

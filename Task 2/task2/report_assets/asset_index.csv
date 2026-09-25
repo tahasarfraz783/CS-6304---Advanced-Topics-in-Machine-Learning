@@ -1,0 +1,81 @@
+file,purpose
+01_split_counts.csv,Class counts; Sketch labels shown for final reporting only
+01_split_totals.csv,Source train/validation and complete target counts
+02_original_run_protocol.csv,Saved selected epochs and training durations
+03_pacs_domain_examples.png,Seven classes across three labeled source domains and the unlabeled target domain
+03_pacs_domain_examples.svg,Seven classes across three labeled source domains and the unlabeled target domain
+04_same_image_augmentation.png,Same source and target image across evaluation and illustrative training views
+04_same_image_augmentation.svg,Same source and target image across evaluation and illustrative training views
+03_example_paths.csv,Exact PACS file paths for the domain illustration
+05_full_original_comparison.csv,"All source-domain, target, change and held-out probe results"
+05_main_comparison.csv,Required four-method comparison
+06_source_target_gap.csv,Descriptive source-only domain gap
+06_source_domain_metrics.csv,Source validation results by domain; original rate columns are fractions
+07_source_target_and_separability.png,Domain gap and relationship between held-out separability and recognition
+07_source_target_and_separability.svg,Domain gap and relationship between held-out separability and recognition
+07_probe_split.csv,"Balanced held-out domain diagnostic sample counts: 0=source, 1=target"
+08_original_learning_curves.png,"Saved original training and source validation curves, with selected epochs"
+08_original_learning_curves.svg,"Saved original training and source validation curves, with selected epochs"
+09_original_alignment_losses.png,MMD and adversarial learning diagnostics; chance accuracy does not establish success
+09_original_alignment_losses.svg,MMD and adversarial learning diagnostics; chance accuracy does not establish success
+08_original_histories.csv,Full original epoch measurements; rate columns are fractions
+10_original_per_class.csv,"Class accuracy, dominant confusion, and change from source-only"
+10_source_only_class_failures.csv,Source-only target classes ordered by increasing accuracy
+11_class_transfer.png,Original class-level accuracy changes from source-only
+11_class_transfer.svg,Original class-level accuracy changes from source-only
+12_original_confusions.png,Row-normalized target confusions for all original runs
+12_original_confusions.svg,Row-normalized target confusions for all original runs
+13_prediction_distribution.png,True class proportions and original predicted class shares
+13_prediction_distribution.svg,True class proportions and original predicted class shares
+13_prediction_concentration.csv,Target predicted-class count and dominant prediction share
+14_controlled_lambda_study.csv,Original lambda-only comparison; all other saved recipe fields match
+15_lambda_tradeoff.png,"Source, probe and target behavior as original alignment pressure changes"
+15_lambda_tradeoff.svg,"Source, probe and target behavior as original alignment pressure changes"
+16_lambda_losses.png,Distinguish raw discrepancy from its weighted contribution
+16_lambda_losses.svg,Distinguish raw discrepancy from its weighted contribution
+17_recovery_recipe_changes.csv,Every saved configuration difference between original and follow-up
+18_recovery_comparison.csv,Recovery target metrics derived from saved predictions; probe intentionally missing
+18_recovery_source_domains.csv,Per-source recovery validation measurements
+18_recovery_per_class.csv,Recovery class changes relative to the unchanged source-only baseline
+19_recovery_vs_original.png,Follow-up gains versus original methods and source-only
+19_recovery_vs_original.svg,Follow-up gains versus original methods and source-only
+20_recovery_learning_curves.png,Actual follow-up source curves; stars mark eligible selected checkpoints
+20_recovery_learning_curves.svg,Actual follow-up source curves; stars mark eligible selected checkpoints
+21_recovery_diagnostics.png,"Recovery alignment objectives, gradient norms and reversal schedule"
+21_recovery_diagnostics.svg,"Recovery alignment objectives, gradient norms and reversal schedule"
+20_recovery_histories.csv,Full recovery epoch measurements
+22_recovery_class_changes.png,Follow-up class changes relative to source-only
+22_recovery_class_changes.svg,Follow-up class changes relative to source-only
+23_recovery_confusions.png,Baseline and follow-up row-normalized target confusion matrices
+23_recovery_confusions.svg,Baseline and follow-up row-normalized target confusion matrices
+24_transfer_examples.png,Paired baseline/adaptation outcomes on actual target examples
+24_transfer_examples.svg,Paired baseline/adaptation outcomes on actual target examples
+24_transfer_case_paths.csv,Exact paths and predictions for illustrated transfer cases
+25_model_1_overall.csv,Separate overview for Source-only
+25_model_1_source.csv,Separate source-domain metrics for Source-only
+25_model_1_classes.csv,Separate target class results for Source-only
+25_model_2_overall.csv,Separate overview for DAN
+25_model_2_source.csv,Separate source-domain metrics for DAN
+25_model_2_classes.csv,Separate target class results for DAN
+25_model_3_overall.csv,Separate overview for DANN
+25_model_3_source.csv,Separate source-domain metrics for DANN
+25_model_3_classes.csv,Separate target class results for DANN
+25_model_4_overall.csv,Separate overview for CDAN
+25_model_4_source.csv,Separate source-domain metrics for CDAN
+25_model_4_classes.csv,Separate target class results for CDAN
+25_model_5_overall.csv,Separate overview for DAN λ=0.1
+25_model_5_source.csv,Separate source-domain metrics for DAN λ=0.1
+25_model_5_classes.csv,Separate target class results for DAN λ=0.1
+25_model_6_overall.csv,Separate overview for DAN λ=10
+25_model_6_source.csv,Separate source-domain metrics for DAN λ=10
+25_model_6_classes.csv,Separate target class results for DAN λ=10
+26_recovery_1_overall.csv,Separate recovery overview
+26_recovery_1_source.csv,Separate recovery source domains
+26_recovery_1_classes.csv,Separate recovery target class results
+26_recovery_2_overall.csv,Separate recovery overview
+26_recovery_2_source.csv,Separate recovery source domains
+26_recovery_2_classes.csv,Separate recovery target class results
+26_recovery_3_overall.csv,Separate recovery overview
+26_recovery_3_source.csv,Separate recovery source domains
+26_recovery_3_classes.csv,Separate recovery target class results
+27_checkpoint_integrity.csv,Saved selected checkpoints match experiment evaluation locks

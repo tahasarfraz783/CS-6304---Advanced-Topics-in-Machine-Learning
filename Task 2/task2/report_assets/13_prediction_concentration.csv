@@ -1,0 +1,7 @@
+method,predicted_classes,dominant_class,dominant_share_pct
+Source-only,7,elephant,39.093917027233395
+DAN,7,house,18.299821837617714
+DANN,4,dog,77.47518452532451
+CDAN,4,house,98.82921863069484
+DAN λ=0.1,7,person,18.783405446678543
+DAN λ=10,1,person,100.0

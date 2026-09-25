@@ -1,0 +1,2 @@
+method,mean_source_accuracy_pct,mean_source_macro_f1_pct,target_accuracy_pct,target_macro_f1_pct,target_accuracy_change_pp,domain_separability_pct
+DAN λ=10,21.65683713959568,5.06699649556792,4.07228302367014,1.11798204241344,-65.08017307202851,73.48901098901099

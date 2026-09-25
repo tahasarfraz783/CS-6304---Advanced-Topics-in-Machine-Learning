@@ -1,0 +1,25 @@
+backbone,condition,pair_index,official_test_index,content_label,cosine_similarity,model,clean_prediction,transformed_prediction,prediction_unchanged,example_type,clean_prediction_class,transformed_prediction_class
+clip,patch_shuffle,223,49,2,0.5651414,CLIP ViT-B/32 + linear head,2,2,True,Lowest cosine among unchanged predictions,car,car
+clip,patch_shuffle,435,6332,2,0.577453,CLIP ViT-B/32 + linear head,2,2,True,Lowest cosine among unchanged predictions,car,car
+clip,patch_shuffle,250,4735,2,0.5838634,CLIP ViT-B/32 + linear head,2,2,True,Lowest cosine among unchanged predictions,car,car
+clip,translation_08_up,411,568,5,0.9913897,CLIP ViT-B/32 + linear head,3,5,False,Highest cosine among changed predictions,cat,dog
+clip,translation_08_left,102,7413,5,0.98990154,CLIP ViT-B/32 + linear head,3,7,False,Highest cosine among changed predictions,cat,monkey
+clip,translation_32_down,191,3562,3,0.98790264,CLIP ViT-B/32 + linear head,3,4,False,Highest cosine among changed predictions,cat,deer
+clip,patch_shuffle,223,49,2,0.5651414,CLIP ViT-B/32 zero-shot,2,2,True,Lowest cosine among unchanged predictions,car,car
+clip,patch_shuffle,435,6332,2,0.577453,CLIP ViT-B/32 zero-shot,2,2,True,Lowest cosine among unchanged predictions,car,car
+clip,patch_shuffle,488,419,9,0.5875007,CLIP ViT-B/32 zero-shot,9,9,True,Lowest cosine among unchanged predictions,truck,truck
+clip,translation_32_down,299,2536,3,0.9905929,CLIP ViT-B/32 zero-shot,3,4,False,Highest cosine among changed predictions,cat,deer
+clip,translation_32_down,473,2750,0,0.989943,CLIP ViT-B/32 zero-shot,0,8,False,Highest cosine among changed predictions,airplane,ship
+clip,translation_08_left,102,7413,5,0.98990154,CLIP ViT-B/32 zero-shot,3,7,False,Highest cosine among changed predictions,cat,monkey
+resnet50,cue_conflict,194,2340,8,0.20759776,ResNet-50 + linear head,8,8,True,Lowest cosine among unchanged predictions,ship,ship
+resnet50,cue_conflict,91,6805,1,0.220256,ResNet-50 + linear head,1,1,True,Lowest cosine among unchanged predictions,bird,bird
+resnet50,cue_conflict,197,667,8,0.24087371,ResNet-50 + linear head,8,8,True,Lowest cosine among unchanged predictions,ship,ship
+resnet50,translation_08_left,442,4069,8,0.9857802,ResNet-50 + linear head,8,0,False,Highest cosine among changed predictions,ship,airplane
+resnet50,translation_08_up,447,1531,3,0.9809555,ResNet-50 + linear head,3,5,False,Highest cosine among changed predictions,cat,dog
+resnet50,translation_08_left,136,545,6,0.98016846,ResNet-50 + linear head,6,2,False,Highest cosine among changed predictions,horse,car
+vit_b16,cue_conflict,102,1703,7,0.13789597,ViT-B/16 + linear head,7,7,True,Lowest cosine among unchanged predictions,monkey,monkey
+vit_b16,grayscale,323,5560,1,0.16734472,ViT-B/16 + linear head,1,1,True,Lowest cosine among unchanged predictions,bird,bird
+vit_b16,cue_conflict,110,1032,7,0.17449613,ViT-B/16 + linear head,7,7,True,Lowest cosine among unchanged predictions,monkey,monkey
+vit_b16,translation_16_down,332,1960,4,0.9953763,ViT-B/16 + linear head,5,4,False,Highest cosine among changed predictions,dog,deer
+vit_b16,translation_16_left,291,7476,8,0.9914444,ViT-B/16 + linear head,0,8,False,Highest cosine among changed predictions,airplane,ship
+vit_b16,translation_08_up,17,261,1,0.9887519,ViT-B/16 + linear head,1,5,False,Highest cosine among changed predictions,bird,dog

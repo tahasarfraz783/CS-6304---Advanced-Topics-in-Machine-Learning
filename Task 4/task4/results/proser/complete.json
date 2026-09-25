@@ -1,0 +1,29 @@
+{
+  "config": {
+    "seed": 6304,
+    "epochs": 50,
+    "batch_size": 128,
+    "lr": 0.001,
+    "momentum": 0.9,
+    "weight_decay": 0.0005,
+    "normalization_mean": [
+      0.4914,
+      0.4822,
+      0.4465
+    ],
+    "normalization_std": [
+      0.247,
+      0.2435,
+      0.2616
+    ],
+    "method": "proser",
+    "dummy_count": 5,
+    "beta": 1.0,
+    "gamma": 0.1,
+    "mixup_alpha": 2.0,
+    "placeholder_temperature": 1024.0,
+    "vanilla_checkpoint_sha256": "a678f8e85b4a753eb1bd147ef951e7494e6cfa5caadecb481f2ea4a17bedd2a7"
+  },
+  "best_validation_accuracy": 0.9472,
+  "epochs_completed": 50
+}

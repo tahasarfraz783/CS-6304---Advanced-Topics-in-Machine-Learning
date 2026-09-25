@@ -1,0 +1,8 @@
+method,class_name,count,accuracy,dominant_confusion,dominant_confusion_count,accuracy_change_pp
+DAN λ=10,dog,772,0.0,person,772,-34.067357512953365
+DAN λ=10,elephant,740,0.0,person,740,-99.1891891891892
+DAN λ=10,giraffe,753,0.0,person,753,-71.97875166002656
+DAN λ=10,guitar,608,0.0,person,608,-85.36184210526315
+DAN λ=10,horse,816,0.0,person,816,-64.70588235294117
+DAN λ=10,house,80,0.0,person,80,-72.5
+DAN λ=10,person,160,1.0,,0,54.37499999999999

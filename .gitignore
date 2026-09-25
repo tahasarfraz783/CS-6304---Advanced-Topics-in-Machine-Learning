@@ -1,0 +1,12 @@
+**/.venv*/
+**/__pycache__/
+*.pyc
+**/datasets/
+**/adain_weights/
+*.pt
+*.pth
+**/results/runs/*/features/
+tmp/
+data/
+*.zip
+Task 2/results/final_evaluation/features/

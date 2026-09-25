@@ -1,0 +1,11 @@
+method,class_name,count,accuracy,dominant_confusion,dominant_confusion_count,accuracy_change_pp,selection
+DAN,house,80,1.0,,0,27.500000000000004,largest_change
+DAN,person,160,0.0125,house,158,-44.375,smallest_change
+DANN,dog,772,0.8290155440414507,giraffe,119,48.83419689119171,largest_change
+DANN,elephant,740,0.004054054054054054,dog,582,-98.78378378378379,smallest_change
+CDAN,house,80,1.0,,0,27.500000000000004,largest_change
+CDAN,elephant,740,0.002702702702702703,house,738,-98.91891891891892,smallest_change
+DAN lambda=0.1,person,160,0.9625,house,6,50.62500000000001,largest_change
+DAN lambda=0.1,elephant,740,0.677027027027027,person,114,-31.486486486486488,smallest_change
+DAN lambda=10,person,160,1.0,,0,54.37499999999999,largest_change
+DAN lambda=10,elephant,740,0.0,person,740,-99.1891891891892,smallest_change

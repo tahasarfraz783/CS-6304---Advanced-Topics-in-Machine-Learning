@@ -1,0 +1,315 @@
+{
+  "experiment": "recovery_v1_followup",
+  "split_sha256": "450b80382481f4fc156b39b8c5cc2546596a557baba888ecce3296df40158448",
+  "runs": {
+    "dann": {
+      "checkpoint_sha256": "de56fac7a30da5943f43e09ba14cdc59c976a1720b4247ac612b35336fc2a721",
+      "metadata": {
+        "config": {
+          "seed": 6304,
+          "epochs": 20,
+          "patience": 8,
+          "learning_rate": 1e-05,
+          "weight_decay": 0.0001,
+          "batch_per_domain": 8,
+          "workers": 0,
+          "weights": "ResNet18_Weights.IMAGENET1K_V1",
+          "selection": "mean_source_validation_macro_f1",
+          "batchnorm": "frozen_pretrained_running_stats_and_affine",
+          "epoch_definition": "ceil(largest_source_training_count / 8) balanced updates",
+          "precision": "float32",
+          "resize": [
+            256,
+            256
+          ],
+          "crop": 224,
+          "target_batch_size": 24,
+          "max_grl_strength": 0.1,
+          "domain_loss_weight": 1.0,
+          "discriminator_hidden": 256,
+          "discriminator_dropout": 0.5,
+          "grl_schedule": "max_strength * (2 / (1 + exp(-10*p)) - 1)",
+          "progress_definition": "zero_based_update / (maximum_total_updates - 1)",
+          "experiment": "recovery_v1",
+          "experiment_note": "Follow-up after original target-result inspection",
+          "backbone_learning_rate": 1e-05,
+          "discriminator_learning_rate": 1e-05,
+          "freeze_batchnorm_affine": true,
+          "gradient_clip_norm": 1.0,
+          "alignment_ramp_epochs": 5,
+          "selection_start_epoch": 5,
+          "initial_checkpoint": "d:\\LUMS GAMING\\6. 2026 Fall\\CS 6304\\Programming Assignments\\PA1\\Task 2\\task2\\results\\source_only\\best.pt",
+          "initial_checkpoint_sha256": "b77f917a9a6a5e478089f1943ed6fdbf7f69a3171945917bccb3d75f175414d6"
+        },
+        "split_sha256": "450b80382481f4fc156b39b8c5cc2546596a557baba888ecce3296df40158448",
+        "class_to_idx": {
+          "dog": 0,
+          "elephant": 1,
+          "giraffe": 2,
+          "guitar": 3,
+          "horse": 4,
+          "house": 5,
+          "person": 6
+        },
+        "environment": {
+          "python": "3.10.21",
+          "torch": "2.5.1",
+          "torchvision": "0.20.1",
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU"
+        },
+        "method": "dann"
+      }
+    },
+    "cdan": {
+      "checkpoint_sha256": "9db36efdebc20b8eeaac4a0dcdae431cd2dbf51fb8b5213be32e312f3245f67f",
+      "metadata": {
+        "config": {
+          "seed": 6304,
+          "epochs": 20,
+          "patience": 8,
+          "learning_rate": 1e-05,
+          "weight_decay": 0.0001,
+          "batch_per_domain": 8,
+          "workers": 0,
+          "weights": "ResNet18_Weights.IMAGENET1K_V1",
+          "selection": "mean_source_validation_macro_f1",
+          "batchnorm": "frozen_pretrained_running_stats_and_affine",
+          "epoch_definition": "ceil(largest_source_training_count / 8) balanced updates",
+          "precision": "float32",
+          "resize": [
+            256,
+            256
+          ],
+          "crop": 224,
+          "target_batch_size": 24,
+          "max_grl_strength": 0.1,
+          "domain_loss_weight": 1.0,
+          "discriminator_hidden": 256,
+          "discriminator_dropout": 0.5,
+          "grl_schedule": "max_strength * (2 / (1 + exp(-10*p)) - 1)",
+          "progress_definition": "zero_based_update / (maximum_total_updates - 1)",
+          "conditioning": "full_feature_probability_outer_product",
+          "discriminator_input_dim": 3584,
+          "entropy_conditioning": false,
+          "detach_features": false,
+          "detach_probabilities": false,
+          "experiment": "recovery_v1",
+          "experiment_note": "Follow-up after original target-result inspection",
+          "backbone_learning_rate": 1e-05,
+          "discriminator_learning_rate": 1e-05,
+          "freeze_batchnorm_affine": true,
+          "gradient_clip_norm": 1.0,
+          "alignment_ramp_epochs": 5,
+          "selection_start_epoch": 5,
+          "initial_checkpoint": "d:\\LUMS GAMING\\6. 2026 Fall\\CS 6304\\Programming Assignments\\PA1\\Task 2\\task2\\results\\source_only\\best.pt",
+          "initial_checkpoint_sha256": "b77f917a9a6a5e478089f1943ed6fdbf7f69a3171945917bccb3d75f175414d6"
+        },
+        "split_sha256": "450b80382481f4fc156b39b8c5cc2546596a557baba888ecce3296df40158448",
+        "class_to_idx": {
+          "dog": 0,
+          "elephant": 1,
+          "giraffe": 2,
+          "guitar": 3,
+          "horse": 4,
+          "house": 5,
+          "person": 6
+        },
+        "environment": {
+          "python": "3.10.21",
+          "torch": "2.5.1",
+          "torchvision": "0.20.1",
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU"
+        },
+        "method": "cdan"
+      }
+    },
+    "dan_lambda_10": {
+      "checkpoint_sha256": "d88428cac915b3e39a4ef28d0a736443548a681ea2b7667639c6a657f64adc69",
+      "metadata": {
+        "config": {
+          "seed": 6304,
+          "epochs": 20,
+          "patience": 8,
+          "learning_rate": 1e-05,
+          "weight_decay": 0.0001,
+          "batch_per_domain": 8,
+          "workers": 0,
+          "weights": "ResNet18_Weights.IMAGENET1K_V1",
+          "selection": "mean_source_validation_macro_f1",
+          "batchnorm": "frozen_pretrained_running_stats_and_affine",
+          "epoch_definition": "ceil(largest_source_training_count / 8) balanced updates",
+          "precision": "float32",
+          "resize": [
+            256,
+            256
+          ],
+          "crop": 224,
+          "lambda_mmd": 10.0,
+          "kernel_scales": [
+            0.5,
+            1.0,
+            2.0
+          ],
+          "target_batch_size": 24,
+          "mmd_estimator": "biased_including_diagonals",
+          "kernel_definition": "sum exp(-squared_distance / (scale * batch_median_squared_distance))",
+          "experiment": "recovery_v1",
+          "experiment_note": "Follow-up after original target-result inspection",
+          "backbone_learning_rate": 1e-06,
+          "discriminator_learning_rate": 1e-05,
+          "max_grl_strength": 0.1,
+          "freeze_batchnorm_affine": true,
+          "gradient_clip_norm": 1.0,
+          "alignment_ramp_epochs": 5,
+          "selection_start_epoch": 5,
+          "initial_checkpoint": "d:\\LUMS GAMING\\6. 2026 Fall\\CS 6304\\Programming Assignments\\PA1\\Task 2\\task2\\results\\source_only\\best.pt",
+          "initial_checkpoint_sha256": "b77f917a9a6a5e478089f1943ed6fdbf7f69a3171945917bccb3d75f175414d6"
+        },
+        "split_sha256": "450b80382481f4fc156b39b8c5cc2546596a557baba888ecce3296df40158448",
+        "class_to_idx": {
+          "dog": 0,
+          "elephant": 1,
+          "giraffe": 2,
+          "guitar": 3,
+          "horse": 4,
+          "house": 5,
+          "person": 6
+        },
+        "environment": {
+          "python": "3.10.21",
+          "torch": "2.5.1",
+          "torchvision": "0.20.1",
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU"
+        },
+        "method": "dan"
+      }
+    },
+    "dan_dg": {
+      "checkpoint_sha256": "f9e51c5cb30a8f282a731262d55a610c2dcbf8fdb59a23e69843a5d5dc16ebd0",
+      "metadata": {
+        "config": {
+          "seed": 6304,
+          "epochs": 20,
+          "patience": 8,
+          "learning_rate": 1e-05,
+          "weight_decay": 0.0001,
+          "batch_per_domain": 8,
+          "workers": 0,
+          "weights": "ResNet18_Weights.IMAGENET1K_V1",
+          "selection": "mean_source_validation_macro_f1",
+          "batchnorm": "frozen_pretrained_running_stats_and_affine",
+          "epoch_definition": "ceil(largest_source_training_count / 8) balanced updates",
+          "precision": "float32",
+          "resize": [
+            256,
+            256
+          ],
+          "crop": 224,
+          "lambda_dg": 1.0,
+          "kernel_scales": [
+            0.5,
+            1.0,
+            2.0
+          ],
+          "mmd_estimator": "biased_including_diagonals",
+          "kernel_definition": "sum exp(-squared_distance / (scale * batch_median_squared_distance))",
+          "alignment": "mean of Photo-Art, Photo-Cartoon, Art-Cartoon MMD; per-pair bandwidth",
+          "experiment": "recovery_v1",
+          "experiment_note": "Follow-up after original target-result inspection",
+          "backbone_learning_rate": 1e-05,
+          "discriminator_learning_rate": 1e-05,
+          "max_grl_strength": 0.1,
+          "freeze_batchnorm_affine": true,
+          "gradient_clip_norm": 1.0,
+          "alignment_ramp_epochs": 5,
+          "selection_start_epoch": 5,
+          "initial_checkpoint": "d:\\LUMS GAMING\\6. 2026 Fall\\CS 6304\\Programming Assignments\\PA1\\Task 2\\task2\\results\\source_only\\best.pt",
+          "initial_checkpoint_sha256": "b77f917a9a6a5e478089f1943ed6fdbf7f69a3171945917bccb3d75f175414d6"
+        },
+        "split_sha256": "450b80382481f4fc156b39b8c5cc2546596a557baba888ecce3296df40158448",
+        "class_to_idx": {
+          "dog": 0,
+          "elephant": 1,
+          "giraffe": 2,
+          "guitar": 3,
+          "horse": 4,
+          "house": 5,
+          "person": 6
+        },
+        "environment": {
+          "python": "3.10.21",
+          "torch": "2.5.1",
+          "torchvision": "0.20.1",
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU"
+        },
+        "method": "dan_dg"
+      }
+    },
+    "dan_dg_lambda_10": {
+      "checkpoint_sha256": "70d9da2414531afbeb278afe55c358bdb8f33ea642dc15e45696e29daf814d5c",
+      "metadata": {
+        "config": {
+          "seed": 6304,
+          "epochs": 20,
+          "patience": 8,
+          "learning_rate": 1e-05,
+          "weight_decay": 0.0001,
+          "batch_per_domain": 8,
+          "workers": 0,
+          "weights": "ResNet18_Weights.IMAGENET1K_V1",
+          "selection": "mean_source_validation_macro_f1",
+          "batchnorm": "frozen_pretrained_running_stats_and_affine",
+          "epoch_definition": "ceil(largest_source_training_count / 8) balanced updates",
+          "precision": "float32",
+          "resize": [
+            256,
+            256
+          ],
+          "crop": 224,
+          "lambda_dg": 10.0,
+          "kernel_scales": [
+            0.5,
+            1.0,
+            2.0
+          ],
+          "mmd_estimator": "biased_including_diagonals",
+          "kernel_definition": "sum exp(-squared_distance / (scale * batch_median_squared_distance))",
+          "alignment": "mean of Photo-Art, Photo-Cartoon, Art-Cartoon MMD; per-pair bandwidth",
+          "experiment": "recovery_v1",
+          "experiment_note": "Follow-up after original target-result inspection",
+          "backbone_learning_rate": 1e-06,
+          "discriminator_learning_rate": 1e-05,
+          "max_grl_strength": 0.1,
+          "freeze_batchnorm_affine": true,
+          "gradient_clip_norm": 1.0,
+          "alignment_ramp_epochs": 5,
+          "selection_start_epoch": 5,
+          "initial_checkpoint": "d:\\LUMS GAMING\\6. 2026 Fall\\CS 6304\\Programming Assignments\\PA1\\Task 2\\task2\\results\\source_only\\best.pt",
+          "initial_checkpoint_sha256": "b77f917a9a6a5e478089f1943ed6fdbf7f69a3171945917bccb3d75f175414d6"
+        },
+        "split_sha256": "450b80382481f4fc156b39b8c5cc2546596a557baba888ecce3296df40158448",
+        "class_to_idx": {
+          "dog": 0,
+          "elephant": 1,
+          "giraffe": 2,
+          "guitar": 3,
+          "horse": 4,
+          "house": 5,
+          "person": 6
+        },
+        "environment": {
+          "python": "3.10.21",
+          "torch": "2.5.1",
+          "torchvision": "0.20.1",
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU"
+        },
+        "method": "dan_dg"
+      }
+    }
+  }
+}

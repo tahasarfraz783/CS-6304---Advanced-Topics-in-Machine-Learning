@@ -1,0 +1,59 @@
+{
+  "config": {
+    "seed": 6304,
+    "epochs": 20,
+    "patience": 8,
+    "learning_rate": 1e-05,
+    "weight_decay": 0.0001,
+    "batch_per_domain": 8,
+    "workers": 0,
+    "weights": "ResNet18_Weights.IMAGENET1K_V1",
+    "selection": "mean_source_validation_macro_f1",
+    "batchnorm": "frozen_pretrained_running_stats_and_affine",
+    "epoch_definition": "ceil(largest_source_training_count / 8) balanced updates",
+    "precision": "float32",
+    "resize": [
+      256,
+      256
+    ],
+    "crop": 224,
+    "lambda_dg": 1.0,
+    "kernel_scales": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "mmd_estimator": "biased_including_diagonals",
+    "kernel_definition": "sum exp(-squared_distance / (scale * batch_median_squared_distance))",
+    "alignment": "mean of Photo-Art, Photo-Cartoon, Art-Cartoon MMD; per-pair bandwidth",
+    "experiment": "recovery_v1",
+    "experiment_note": "Follow-up after original target-result inspection",
+    "backbone_learning_rate": 1e-05,
+    "discriminator_learning_rate": 1e-05,
+    "max_grl_strength": 0.1,
+    "freeze_batchnorm_affine": true,
+    "gradient_clip_norm": 1.0,
+    "alignment_ramp_epochs": 5,
+    "selection_start_epoch": 5,
+    "initial_checkpoint": "d:\\LUMS GAMING\\6. 2026 Fall\\CS 6304\\Programming Assignments\\PA1\\Task 2\\task2\\results\\source_only\\best.pt",
+    "initial_checkpoint_sha256": "b77f917a9a6a5e478089f1943ed6fdbf7f69a3171945917bccb3d75f175414d6"
+  },
+  "split_sha256": "450b80382481f4fc156b39b8c5cc2546596a557baba888ecce3296df40158448",
+  "class_to_idx": {
+    "dog": 0,
+    "elephant": 1,
+    "giraffe": 2,
+    "guitar": 3,
+    "horse": 4,
+    "house": 5,
+    "person": 6
+  },
+  "environment": {
+    "python": "3.10.21",
+    "torch": "2.5.1",
+    "torchvision": "0.20.1",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU"
+  },
+  "method": "dan_dg"
+}

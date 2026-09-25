@@ -1,0 +1,6 @@
+{
+  "bias": -1.1291736364364624,
+  "temperature": 1024.0,
+  "bias_quantile": 0.05,
+  "acceptance_quantile": 0.95
+}
