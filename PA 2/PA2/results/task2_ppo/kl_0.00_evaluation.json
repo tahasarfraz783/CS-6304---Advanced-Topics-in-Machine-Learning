@@ -1,0 +1,22 @@
+{
+  "name": "kl_0.00",
+  "adapter": "D:\\LUMS GAMING\\6. 2026 Fall\\CS 6304\\Programming Assignments\\PA 2\\PA2\\outputs\\task2_ppo\\kl_0.00",
+  "examples": 200,
+  "seed": 6304,
+  "generation": {
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "do_sample": true
+  },
+  "max_response_length": 768,
+  "entropy_estimator": "sampled negative raw log-probability",
+  "kl_estimator": "sampled token log-probability difference; may be negative",
+  "aggregation": "equal weight per prompt",
+  "learned_reward": 1.7073070526123046,
+  "effective_reward": 1.6323070526123047,
+  "kl": 8.891093756119517e-05,
+  "entropy": 0.8017190653877333,
+  "response_length": 289.325,
+  "truncated": 0.075,
+  "terminated_with_eos": 0.925
+}

@@ -1,0 +1,22 @@
+{
+  "name": "verification_normalization_final_dr_grpo",
+  "adapter": "D:\\LUMS GAMING\\6. 2026 Fall\\CS 6304\\Programming Assignments\\PA 2\\PA2\\outputs\\task3_grpo\\verification_normalization_final_dr_grpo",
+  "examples": 1,
+  "seed": 6304,
+  "generation": {
+    "do_sample": true,
+    "temperature": 0.7,
+    "top_p": 0.9
+  },
+  "max_response_length": 64,
+  "entropy_estimator": "sampled negative raw log-probability",
+  "kl_estimator": "sampled token log-probability difference; may be negative",
+  "aggregation": "equal weight per prompt",
+  "learned_reward": -0.1038818359375,
+  "effective_reward": -0.1038818359375,
+  "kl": 0.0001311907690251246,
+  "entropy": 0.4556610584259033,
+  "response_length": 64.0,
+  "truncated": 1.0,
+  "terminated_with_eos": 0.0
+}

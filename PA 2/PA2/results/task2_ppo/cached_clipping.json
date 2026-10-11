@@ -1,0 +1,34 @@
+{
+  "new_policy": "checkpoints/ppo_midpoint_policy",
+  "old_policy": "log-probabilities stored in supplied rollout cache",
+  "advantage_normalization": "all valid cached tokens",
+  "results": [
+    {
+      "epsilon": 0.05,
+      "clipped_surrogate": -0.0053390744142234325,
+      "unclipped_surrogate": 0.00013376976130530238,
+      "outside_ratio_bounds_fraction": 0.10653505474328995,
+      "affected_token_fraction": 0.052189696580171585,
+      "tokens": 8814,
+      "responses": 32
+    },
+    {
+      "epsilon": 0.2,
+      "clipped_surrogate": -0.003939636517316103,
+      "unclipped_surrogate": 0.00013376976130530238,
+      "outside_ratio_bounds_fraction": 0.008395734243094921,
+      "affected_token_fraction": 0.004538234788924456,
+      "tokens": 8814,
+      "responses": 32
+    },
+    {
+      "epsilon": 0.5,
+      "clipped_surrogate": -0.003287368221208453,
+      "unclipped_surrogate": 0.00013376976130530238,
+      "outside_ratio_bounds_fraction": 0.005559337325394154,
+      "affected_token_fraction": 0.0032902201637625694,
+      "tokens": 8814,
+      "responses": 32
+    }
+  ]
+}

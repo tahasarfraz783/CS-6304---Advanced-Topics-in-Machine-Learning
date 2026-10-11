@@ -1,0 +1,10 @@
+name: atml-pa2
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu128
+      - -r requirements.txt
+      - torch==2.11.0+cu128

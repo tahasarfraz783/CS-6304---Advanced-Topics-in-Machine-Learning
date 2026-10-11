@@ -1,0 +1,3 @@
+name,training_examples,word_limit_prompts,generated_tokens_mean,generated_tokens_median,generated_tokens_std,generated_words_mean,word_limit_compliance,truncation_rate
+standard,1500,10,49.3,39.5,26.548257946614875,42.5,0.5,0.0
+length_balanced,1500,10,45.9,35.5,28.70348410907637,39.8,0.6,0.0

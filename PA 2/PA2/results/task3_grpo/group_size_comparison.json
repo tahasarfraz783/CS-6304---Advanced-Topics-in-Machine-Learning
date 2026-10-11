@@ -1,0 +1,120 @@
+{
+  "difficulty_rule": "Mean reward over all eight completions; <= global median is lower_reward, > median is higher_reward. Reward is a proxy for difficulty.",
+  "difficulty_threshold": 2.19873046875,
+  "informative_rule": "population reward std > 1e-6",
+  "partition_rule": "Sort by generation_index and split each prompt into disjoint consecutive K-sized groups; use every cached completion once per K.",
+  "signal_definition": "(reward - group mean)/(population group std + 1e-6); population variance across all completion advantages",
+  "signal_caveat": "Standardization makes informative-group variance near one; this statistic largely tracks the rate of informative groups.",
+  "conditions": [
+    {
+      "k": 2,
+      "groups": 96,
+      "generations": 192,
+      "informative_group_rate": 0.9375,
+      "mean_reward_std": 0.3845672607421875,
+      "relative_signal_variance": 0.9374814173564774,
+      "difficulty_bins": {
+        "lower_reward": {
+          "groups": 48,
+          "generations": 96,
+          "informative_group_rate": 0.8958333333333334,
+          "mean_reward_std": 0.5283304850260416,
+          "relative_signal_variance": 0.8958263622728104
+        },
+        "higher_reward": {
+          "groups": 48,
+          "generations": 96,
+          "informative_group_rate": 0.9791666666666666,
+          "mean_reward_std": 0.24080403645833334,
+          "relative_signal_variance": 0.979136472440144
+        }
+      }
+    },
+    {
+      "k": 4,
+      "groups": 48,
+      "generations": 192,
+      "informative_group_rate": 0.9583333333333334,
+      "mean_reward_std": 0.5410043647319412,
+      "relative_signal_variance": 0.9583276282884473,
+      "difficulty_bins": {
+        "lower_reward": {
+          "groups": 24,
+          "generations": 96,
+          "informative_group_rate": 0.9166666666666666,
+          "mean_reward_std": 0.711506330909153,
+          "relative_signal_variance": 0.9166630916976176
+        },
+        "higher_reward": {
+          "groups": 24,
+          "generations": 96,
+          "informative_group_rate": 1.0,
+          "mean_reward_std": 0.37050239855472933,
+          "relative_signal_variance": 0.999992164879277
+        }
+      }
+    },
+    {
+      "k": 8,
+      "groups": 24,
+      "generations": 192,
+      "informative_group_rate": 0.9583333333333334,
+      "mean_reward_std": 0.6190544134665206,
+      "relative_signal_variance": 0.9583290996055105,
+      "difficulty_bins": {
+        "lower_reward": {
+          "groups": 12,
+          "generations": 96,
+          "informative_group_rate": 0.9166666666666666,
+          "mean_reward_std": 0.8002487347571022,
+          "relative_signal_variance": 0.9166641410131647
+        },
+        "higher_reward": {
+          "groups": 12,
+          "generations": 96,
+          "informative_group_rate": 1.0,
+          "mean_reward_std": 0.4378600921759388,
+          "relative_signal_variance": 0.9999940581978564
+        }
+      }
+    }
+  ],
+  "qualitative_examples": [
+    {
+      "source_index": "280",
+      "difficulty_bin": "lower_reward",
+      "rewards": [
+        1.2734375,
+        1.2734375,
+        1.2734375,
+        1.2734375,
+        1.2734375,
+        1.2734375,
+        1.2734375,
+        1.2734375
+      ],
+      "completions": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "source_index": "463",
+      "difficulty_bin": "higher_reward",
+      "rewards": [
+        3.40625,
+        3.03125,
+        2.828125,
+        2.953125,
+        3.046875,
+        2.78125,
+        3.046875,
+        2.9375
+      ],
+      "completions": [
+        "MeSH (Medical Subject Headings) is a controlled vocabulary used in bibliographic databases to categorize and index biomedical literature. It provides a standardized way to describe topics within medicine and health sciences. By using MeSH terms related to genetics and the molecular basis of rare medical conditions, you can more effectively identify relevant scholarly articles.\n\nHere’s how you can use MeSH to find such articles:\n\n1. **Identify Key Terms**: Start by identifying key MeSH terms that are associated with genetic studies or research on the molecular basis of rare medical conditions. Common terms might include:\n   - \"Genetics\"\n   - \"Molecular biology\"\n   - \"Rare diseases\"\n   - \"Gene expression\"\n   - \"Mutations\"\n   - \"Transcription factors\"\n   - \"Proteins\"\n\n2. **Use Boolean Operators**: Utilize logical operators like AND, OR, and NOT to refine your search criteria. For example:\n   - Use `AND` between keywords like \"genetics\" and \"rare disease\" to narrow down results.\n   - Combine terms for specific conditions or mechanisms; e.g., \"genetic disorders AND rare disease\".\n   - Add a term like \"NOT gene therapy\" if you're specifically looking at non-genetic treatments.\n\n3. **Check Subheadings**: Explore subheadings of broad MeSH headings which often provide more specific details about methodologies, populations studied, and types of genetic findings.\n\n4. **Look at Related Concepts**: Sometimes, concepts with similar meanings but broader coverage may be useful too. Look up synonyms or alternative terms under the same heading to expand your search.\n\n5. **Consider Thesaurus Tools**: Many databases offer tools to navigate through hierarchical categories, allowing you to drill deeper into various aspects of genetic research.\n\n6. **Evaluate Abstracts**: While not always perfect, reading abstracts from potential matches can give insight into whether they align well with what you need. Articles that discuss experimental methods, clinical implications, or novel therapeutic approaches are typically better candidates.\n\n7. **Explore Open Access Databases**: Some open access repositories have preprints and full texts that are particularly valuable for rapid discovery.\n\nBy systematically applying these strategies, you should be able to efficiently locate relevant literature focusing on the genetics or molecular basis of rare medical conditions.",
+        "MeSH (Medical Subject Headings) is a controlled vocabulary system used in the health sciences to categorize and describe biomedical literature. It helps researchers, librarians, and others find relevant information efficiently.\n\nTo identify articles focusing on the genetics or molecular basis of a rare medical condition using MeSH, you would typically:\n\n1. **Search for Key Terms**: Use MeSH terms related to the genetic aspects or molecular biology of your specific condition. For example:\n   - \"Rare Diseases\"\n   - \"Genetics\"\n   - \"Molecular Basis\"\n   - \"Mutation\"\n   - \"Gene Expression\"\n\n2. **Use Broad and Narrow Filters**: Utilize filters like \"and,\" \"or,\" and \"not\" to refine searches based on various criteria. For instance, if you're interested in conditions specifically caused by mutations, use \"mutation\" with the filter set to include only those affecting rare diseases.\n\n3. **Combine Concepts**: Use MeSH headings in combination to get more precise results. For example: \"genetic disease\" OR \"molecular biology\".\n\n4. **Review Descriptions and References**: After identifying potential articles through search queries, review their abstracts and full texts to confirm whether they discuss genetic or molecular bases of the rare medical condition at hand.\n\n5. **Check Authorship**: Some rare medical conditions have been associated with specific genes. Check the author list to see who has contributed significant work to these topics within your area of interest.\n\nBy leveraging MeSH effectively, you can pinpoint studies that provide critical insights into the genetic or molecular underpinnings of rare medical conditions, thus aiding in understanding and treating them more effectively."
+      ]
+    }
+  ]
+}

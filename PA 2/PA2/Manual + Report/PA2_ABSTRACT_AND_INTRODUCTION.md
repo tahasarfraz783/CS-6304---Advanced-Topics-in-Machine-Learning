@@ -1,0 +1,24 @@
+# Abstract
+
+Post-training optimizes measurable feedback, but success on that feedback may conceal failures in correctness, instruction following, or safety. We study this gap using Qwen2.5-1.5B-Instruct across offline Direct Preference Optimization (DPO), bounded Proximal Policy Optimization (PPO) and Group Relative Policy Optimization (GRPO) continuations, safety evaluation, and supplied policies trained with verifiable or AI-generated feedback. Ablations examine preference strength, response length, clipping, reference-policy penalties, group size, and loss normalization. PPO's clipping forks produce identical held-out outputs because clipping remains inactive, while GRPO normalization changes gradient allocation without a clear held-out reward gain. Safety annotations expose over-refusals missed by the automated judge. On 20 controlled outcome-changing pairs, exact verification always prefers the correct final answer, whereas the AI judge always ties; the judge also prefers persuasive filler in 40% of filler comparisons. These bounded experiments emphasize the need to evaluate optimization mechanics, feedback reliability, and behavior together. Code and results: [GitHub repository](https://github.com/tahasarfraz783/CS-6304---Advanced-Topics-in-Machine-Learning).
+
+# 1 Introduction
+
+Post-training shapes a language model through signals that stand in for desired behavior. Preference pairs identify which response should be favored, learned rewards score sampled outputs, and exact verifiers check specified outcomes. Each signal measures only part of response quality. A fluent answer can receive a favorable score while remaining incorrect, and a refusal can sound cautious while rejecting a harmless request. This motivates our central question: **how do optimization constraints and feedback sources shape policy behavior, and where do their measurements fail to capture the behavior we want?**
+
+We investigate this question through a progression from optimization mechanics to feedback reliability. Direct Preference Optimization learns from fixed preferred/rejected pairs relative to a reference policy [Rafailov et al., 2023](https://arxiv.org/abs/2305.18290). Its preference-strength and length-control experiments examine how fitting depends on the training pairs. PPO uses sampled trajectories and a learned value baseline; its clipped objective constrains probability-ratio updates [Schulman et al., 2017](https://arxiv.org/abs/1707.06347). We distinguish this constraint from reference-policy KL pressure. GRPO replaces the learned critic with within-group relative rewards [Shao et al., 2024](https://arxiv.org/abs/2402.03300), allowing us to examine group informativeness, length normalization, and usable samples.
+
+We then assess the standard policies on safe and unsafe XSTest prompts, using the supplied manual annotations to audit automated judgments. Finally, supplied RLVR and direct-RLAIF policies support comparisons on GSM8K and SVAMP, while controlled perturbations test whether exact verification and AI preferences detect reasoning errors, incorrect final answers, and persuasive filler.
+
+Across these experiments, we ask whether stronger feedback fitting accompanies useful behavior, whether an intervention actually changes the learning signal, and whether the evaluator detects relevant failures. DPO starts from the original policy, whereas PPO and GRPO continue from separate supplied checkpoints; the short runs and imperfectly matched comparisons therefore support bounded findings rather than a global optimizer ranking. We connect aggregate metrics with diagnostic and qualitative evidence to distinguish observed behavior from explanations that require further experiments.
+
+---
+
+Draft notes (exclude from the report):
+
+- The abstract's outcome-sensitivity result refers specifically to the 20 clean-versus-good-reasoning/wrong-final pairs, not every diagnostic category.
+- Safety annotations are supplied records; the files do not establish annotator independence or blinding. A class-inconsistent GRPO label remains unresolved. The wording deliberately avoids calling them validated ground truth.
+- The repository URL is the configured origin; public accessibility and the presence of the final PA2 files have not been verified.
+- The prose is approximately 470 words, including the repository label and author citations. Check its rendered space against the guide's 0.65-page working allocation.
+- Numerical evidence: `PA2/results/task2_ppo/all_results.md`; `PA2/results/task3_grpo/research_answers.md`; `PA2/results/task4_safety/all_results.md`; `PA2/results/task5_feedback/diagnostic_summary.json`.
+- The course manual prohibits generative-AI-authored report language. This file is AI-authored; using it as submitted prose would conflict with that rule.

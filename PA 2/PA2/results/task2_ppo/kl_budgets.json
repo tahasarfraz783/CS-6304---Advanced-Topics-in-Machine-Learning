@@ -1,0 +1,11 @@
+{
+  "updates_per_fork": 8,
+  "prompts_per_update": 1,
+  "max_generated_tokens_per_fork": 4096,
+  "actual_generated_tokens": {
+    "kl_0.00": 1988,
+    "kl_0.10": 1942,
+    "kl_0.20": 2018
+  },
+  "note": "Matched prompt IDs, seeds, update counts and generation caps. EOS can produce unequal actual token counts; report these explicitly."
+}

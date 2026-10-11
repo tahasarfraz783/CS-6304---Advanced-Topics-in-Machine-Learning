@@ -1,0 +1,22 @@
+{
+  "name": "clip_0.05",
+  "adapter": "D:\\LUMS GAMING\\6. 2026 Fall\\CS 6304\\Programming Assignments\\PA 2\\PA2\\outputs\\task2_ppo\\clip_0.05",
+  "examples": 200,
+  "seed": 6304,
+  "generation": {
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "do_sample": true
+  },
+  "max_response_length": 768,
+  "entropy_estimator": "sampled negative raw log-probability",
+  "kl_estimator": "sampled token log-probability difference; may be negative",
+  "aggregation": "equal weight per prompt",
+  "learned_reward": 1.7274730682373047,
+  "effective_reward": 1.6474730682373047,
+  "kl": 2.875731278500382e-05,
+  "entropy": 0.7976033515972085,
+  "response_length": 292.135,
+  "truncated": 0.08,
+  "terminated_with_eos": 0.92
+}

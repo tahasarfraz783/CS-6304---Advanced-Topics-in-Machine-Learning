@@ -1,0 +1,20 @@
+{
+  "training_strata": {
+    "rejected_longer": 500,
+    "preferred_longer": 500,
+    "length_matched": 500
+  },
+  "held_out_strata": {
+    "rejected_longer": 82,
+    "preferred_longer": 82,
+    "length_matched": 82
+  },
+  "standard_training_examples": 1500,
+  "word_count_definition": "Regex word tokens: \\b\\w+\\b; under N is strict, other supplied limits inclusive",
+  "generation": {
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "do_sample": true
+  },
+  "per_prompt_seed": "config seed + prompt index"
+}

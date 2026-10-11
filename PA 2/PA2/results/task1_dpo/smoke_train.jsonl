@@ -1,0 +1,2 @@
+{"epoch": 1, "batch": 1, "updates": 0, "loss": 0.6931471824645996, "beta": 0.1, "logit_mean": 0.0, "policy_margin_mean": 87.63765716552734, "preference_accuracy": 0.5, "implicit_reward_accuracy": 0.0}
+{"epoch": 1, "batch": 2, "updates": 1, "loss": 0.6931471824645996, "beta": 0.1, "logit_mean": 0.0, "policy_margin_mean": -27.701797485351562, "preference_accuracy": 0.5, "implicit_reward_accuracy": 0.0}

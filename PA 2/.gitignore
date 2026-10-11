@@ -1,0 +1,19 @@
+**/.venv*/
+**/__pycache__/
+*.pyc
+**/datasets/
+**/adain_weights/
+*.pt
+*.pth
+**/results/runs/*/features/
+tmp/
+data/
+*.zip
+Task 2/results/final_evaluation/features/
+
+# Local PA2 setup metadata
+.setup/
+
+# Let PA2's own ignore rules select its fixed tiny prompt file
+!PA2/data/
+!PA2/data/word_limit_prompts.jsonl

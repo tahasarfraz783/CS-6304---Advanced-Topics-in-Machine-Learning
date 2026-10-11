@@ -1,0 +1,9 @@
+Python: 3.12.14
+PyTorch: 2.11.0+cu128
+Transformers: 4.57.1
+Tokenizers: 0.22.1
+PEFT: 0.17.1
+TRL: 0.27.2
+CUDA available: True
+GPU: NVIDIA GeForce RTX 4050 Laptop GPU
+VRAM GiB: 6.0

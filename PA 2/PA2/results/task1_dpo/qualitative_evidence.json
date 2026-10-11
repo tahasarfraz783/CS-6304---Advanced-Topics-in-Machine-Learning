@@ -1,0 +1,226 @@
+{
+  "method": "Manual inspection of saved generations; selected examples, not a representative error-rate estimate.",
+  "reward_disagreements": [
+    {
+      "prompt_id": "f4f4c3cf74765eab1f5e06cf4088dd107b7ddf56e62d8f693485913f37ac8464",
+      "course_pair": {
+        "source_split": "test_prefs",
+        "source_index": 508,
+        "prompt_id": "f4f4c3cf74765eab1f5e06cf4088dd107b7ddf56e62d8f693485913f37ac8464",
+        "prompt": "I would like you to help me generate a table. I am going to give you some answers from an answer key. Please generate at table that has 3 columns - a column for the question number, the answer letter, the first 10 words of the explanation",
+        "chosen": [
+          {
+            "content": "I would like you to help me generate a table. I am going to give you some answers from an answer key. Please generate at table that has 3 columns - a column for the question number, the answer letter, the first 10 words of the explanation",
+            "role": "user"
+          },
+          {
+            "content": "Sure, I'd be happy to help you generate that table! Just provide me with the answers and any additional information necessary, and I'll create a table for you.",
+            "role": "assistant"
+          }
+        ],
+        "rejected": [
+          {
+            "content": "I would like you to help me generate a table. I am going to give you some answers from an answer key. Please generate at table that has 3 columns - a column for the question number, the answer letter, the first 10 words of the explanation",
+            "role": "user"
+          },
+          {
+            "content": "Is there any specific format or style that you want the table to be in?",
+            "role": "assistant"
+          }
+        ],
+        "score_chosen": 5.0,
+        "score_rejected": 3.0
+      },
+      "generations": {
+        "standard": {
+          "prompt_id": "f4f4c3cf74765eab1f5e06cf4088dd107b7ddf56e62d8f693485913f37ac8464",
+          "messages": [
+            {
+              "content": "I would like you to help me generate a table. I am going to give you some answers from an answer key. Please generate at table that has 3 columns - a column for the question number, the answer letter, the first 10 words of the explanation",
+              "role": "user"
+            }
+          ],
+          "response": "Sure, please provide the answers and their corresponding explanations so I can create the table for you.",
+          "tokens": 20,
+          "words": 17,
+          "truncated": false,
+          "conditional_kl_sum": 0.007456994945455264,
+          "sampled_log_ratio_sum": -0.07663241028785706,
+          "reward_score": -0.607421875
+        },
+        "beta_0.03": {
+          "prompt_id": "f4f4c3cf74765eab1f5e06cf4088dd107b7ddf56e62d8f693485913f37ac8464",
+          "messages": [
+            {
+              "content": "I would like you to help me generate a table. I am going to give you some answers from an answer key. Please generate at table that has 3 columns - a column for the question number, the answer letter, the first 10 words of the explanation",
+              "role": "user"
+            }
+          ],
+          "response": "Sure! Here is your table:\n\n| Question Number | Answer Letter | Explanation (First 10 Words) |\n|-----------------|---------------|-------------------------------|\n| 1               | A             | The correct answer is choice A. |\n| 2               | B             | This option does not match any correct choices. |\n| 3               | C             | Choice C is the only one that fits perfectly. |\n| 4               | D             | Option D is entirely incorrect. |\n| 5               | E             | The explanation starts with \"The correct answer is...\". |\n\nFeel free to let me know if you need anything else or if there's a specific format you'd prefer!",
+          "tokens": 143,
+          "words": 80,
+          "truncated": false,
+          "conditional_kl_sum": 0.005158330022537128,
+          "sampled_log_ratio_sum": -0.03367384523153305,
+          "reward_score": 1.2958984375
+        },
+        "beta_0.10": {
+          "prompt_id": "f4f4c3cf74765eab1f5e06cf4088dd107b7ddf56e62d8f693485913f37ac8464",
+          "messages": [
+            {
+              "content": "I would like you to help me generate a table. I am going to give you some answers from an answer key. Please generate at table that has 3 columns - a column for the question number, the answer letter, the first 10 words of the explanation",
+              "role": "user"
+            }
+          ],
+          "response": "Sure! Please provide me with the questions and their corresponding answers, along with explanations about the first 10 words of each one.",
+          "tokens": 28,
+          "words": 22,
+          "truncated": false,
+          "conditional_kl_sum": 0.0012590800280491976,
+          "sampled_log_ratio_sum": 0.043070223182439804,
+          "reward_score": -0.486083984375
+        },
+        "beta_0.30": {
+          "prompt_id": "f4f4c3cf74765eab1f5e06cf4088dd107b7ddf56e62d8f693485913f37ac8464",
+          "messages": [
+            {
+              "content": "I would like you to help me generate a table. I am going to give you some answers from an answer key. Please generate at table that has 3 columns - a column for the question number, the answer letter, the first 10 words of the explanation",
+              "role": "user"
+            }
+          ],
+          "response": "Sure! Could you please provide me with the list of question numbers and their corresponding answers? Also, could you share any explanations or details about those questions if available?",
+          "tokens": 34,
+          "words": 29,
+          "truncated": false,
+          "conditional_kl_sum": 0.0020699124631509136,
+          "sampled_log_ratio_sum": -0.020442605018615723,
+          "reward_score": -0.03070068359375
+        }
+      }
+    },
+    {
+      "prompt_id": "295d81c7643e12a8817bb6c78b753f5a8009b6a3d9d98441fb023bec8117db72",
+      "course_pair": {
+        "source_split": "test_prefs",
+        "source_index": 529,
+        "prompt_id": "295d81c7643e12a8817bb6c78b753f5a8009b6a3d9d98441fb023bec8117db72",
+        "prompt": "Definition: In this task you are given a tweet that contains some form of irony. You must classify the type of irony the tweet has. Label the tweets (\"polarity\",\"situational\",\"other\") based on the irony they have. Situational irony happens when a situation fails to meet some expectations, Label these instances as \"situational\". polarity irony happens when irony is achieved by inverting the intended sentence, Label these instances as \"polarity\". There are other kinds of ironies that are neither polarity nor situational, Label these instances as \"other\". Note that URLs in the text have been replaced with [Link].\nInput: I feel faint after chasing a whippet and Lily, Libby, Gabby, Millie the cats who were playing chase in the garden #AintItFun !! #notfun\nOutput:",
+        "chosen": [
+          {
+            "content": "Definition: In this task you are given a tweet that contains some form of irony. You must classify the type of irony the tweet has. Label the tweets (\"polarity\",\"situational\",\"other\") based on the irony they have. Situational irony happens when a situation fails to meet some expectations, Label these instances as \"situational\". polarity irony happens when irony is achieved by inverting the intended sentence, Label these instances as \"polarity\". There are other kinds of ironies that are neither polarity nor situational, Label these instances as \"other\". Note that URLs in the text have been replaced with [Link].\nInput: I feel faint after chasing a whippet and Lily, Libby, Gabby, Millie the cats who were playing chase in the garden #AintItFun !! #notfun\nOutput:",
+            "role": "user"
+          },
+          {
+            "content": "Classification:\n\n* Polarity: The tweet contains a positive statement about enjoying the chase, but the use of the hashtag #notfun suggests the opposite. This is an example of polarity irony.\n* Situational: There is no situational irony present in the tweet.\n* Other: There is no other type of irony present in the tweet.",
+            "role": "assistant"
+          }
+        ],
+        "rejected": [
+          {
+            "content": "Definition: In this task you are given a tweet that contains some form of irony. You must classify the type of irony the tweet has. Label the tweets (\"polarity\",\"situational\",\"other\") based on the irony they have. Situational irony happens when a situation fails to meet some expectations, Label these instances as \"situational\". polarity irony happens when irony is achieved by inverting the intended sentence, Label these instances as \"polarity\". There are other kinds of ironies that are neither polarity nor situational, Label these instances as \"other\". Note that URLs in the text have been replaced with [Link].\nInput: I feel faint after chasing a whippet and Lily, Libby, Gabby, Millie the cats who were playing chase in the garden #AintItFun !! #notfun\nOutput:",
+            "role": "user"
+          },
+          {
+            "content": "The tweet \"I feel faint after chasing a whippet and Lily, Libby, Gabby, Millie the cats who were playing chase in the garden #AintItFun !! #notfun\" contains situational irony. The speaker mentions feeling faint after chasing the cats, which is the opposite of what they probably expected, as they were supposed to be the ones doing the chasing. Therefore, this tweet would be labeled as \"situational.\"",
+            "role": "assistant"
+          }
+        ],
+        "score_chosen": 8.0,
+        "score_rejected": 7.5
+      },
+      "generations": {
+        "standard": {
+          "prompt_id": "295d81c7643e12a8817bb6c78b753f5a8009b6a3d9d98441fb023bec8117db72",
+          "messages": [
+            {
+              "content": "Definition: In this task you are given a tweet that contains some form of irony. You must classify the type of irony the tweet has. Label the tweets (\"polarity\",\"situational\",\"other\") based on the irony they have. Situational irony happens when a situation fails to meet some expectations, Label these instances as \"situational\". polarity irony happens when irony is achieved by inverting the intended sentence, Label these instances as \"polarity\". There are other kinds of ironies that are neither polarity nor situational, Label these instances as \"other\". Note that URLs in the text have been replaced with [Link].\nInput: I feel faint after chasing a whippet and Lily, Libby, Gabby, Millie the cats who were playing chase in the garden #AintItFun !! #notfun\nOutput:",
+              "role": "user"
+            }
+          ],
+          "response": "polarity",
+          "tokens": 3,
+          "words": 1,
+          "truncated": false,
+          "conditional_kl_sum": 0.0011604817045736127,
+          "sampled_log_ratio_sum": -0.010898260399699211,
+          "reward_score": 0.74951171875
+        },
+        "beta_0.03": {
+          "prompt_id": "295d81c7643e12a8817bb6c78b753f5a8009b6a3d9d98441fb023bec8117db72",
+          "messages": [
+            {
+              "content": "Definition: In this task you are given a tweet that contains some form of irony. You must classify the type of irony the tweet has. Label the tweets (\"polarity\",\"situational\",\"other\") based on the irony they have. Situational irony happens when a situation fails to meet some expectations, Label these instances as \"situational\". polarity irony happens when irony is achieved by inverting the intended sentence, Label these instances as \"polarity\". There are other kinds of ironies that are neither polarity nor situational, Label these instances as \"other\". Note that URLs in the text have been replaced with [Link].\nInput: I feel faint after chasing a whippet and Lily, Libby, Gabby, Millie the cats who were playing chase in the garden #AintItFun !! #notfun\nOutput:",
+              "role": "user"
+            }
+          ],
+          "response": "polarity",
+          "tokens": 3,
+          "words": 1,
+          "truncated": false,
+          "conditional_kl_sum": 0.00012395259967235006,
+          "sampled_log_ratio_sum": 0.007995042949914932,
+          "reward_score": 0.74951171875
+        },
+        "beta_0.10": {
+          "prompt_id": "295d81c7643e12a8817bb6c78b753f5a8009b6a3d9d98441fb023bec8117db72",
+          "messages": [
+            {
+              "content": "Definition: In this task you are given a tweet that contains some form of irony. You must classify the type of irony the tweet has. Label the tweets (\"polarity\",\"situational\",\"other\") based on the irony they have. Situational irony happens when a situation fails to meet some expectations, Label these instances as \"situational\". polarity irony happens when irony is achieved by inverting the intended sentence, Label these instances as \"polarity\". There are other kinds of ironies that are neither polarity nor situational, Label these instances as \"other\". Note that URLs in the text have been replaced with [Link].\nInput: I feel faint after chasing a whippet and Lily, Libby, Gabby, Millie the cats who were playing chase in the garden #AintItFun !! #notfun\nOutput:",
+              "role": "user"
+            }
+          ],
+          "response": "situational",
+          "tokens": 4,
+          "words": 1,
+          "truncated": false,
+          "conditional_kl_sum": 9.116156047284107e-05,
+          "sampled_log_ratio_sum": 0.014806470833718777,
+          "reward_score": 1.0703125
+        },
+        "beta_0.30": {
+          "prompt_id": "295d81c7643e12a8817bb6c78b753f5a8009b6a3d9d98441fb023bec8117db72",
+          "messages": [
+            {
+              "content": "Definition: In this task you are given a tweet that contains some form of irony. You must classify the type of irony the tweet has. Label the tweets (\"polarity\",\"situational\",\"other\") based on the irony they have. Situational irony happens when a situation fails to meet some expectations, Label these instances as \"situational\". polarity irony happens when irony is achieved by inverting the intended sentence, Label these instances as \"polarity\". There are other kinds of ironies that are neither polarity nor situational, Label these instances as \"other\". Note that URLs in the text have been replaced with [Link].\nInput: I feel faint after chasing a whippet and Lily, Libby, Gabby, Millie the cats who were playing chase in the garden #AintItFun !! #notfun\nOutput:",
+              "role": "user"
+            }
+          ],
+          "response": "polarity",
+          "tokens": 3,
+          "words": 1,
+          "truncated": false,
+          "conditional_kl_sum": 0.0002770827359199757,
+          "sampled_log_ratio_sum": -0.008571896702051163,
+          "reward_score": 0.74951171875
+        }
+      }
+    }
+  ],
+  "instruction_compliance": {
+    "prompt_id": "wl04",
+    "prompt": "Explain gradient descent in under 35 words.",
+    "standard": {
+      "prompt_id": "wl04",
+      "prompt": "Explain gradient descent in under 35 words.",
+      "response": "Gradient Descent is an optimization algorithm used to find the minimum of a function. It works by iteratively moving in the direction of steepest decrease of the objective function, following the negative gradient (slope) at each step. The process continues until convergence or a maximum number of iterations is reached.",
+      "seed": 6307,
+      "word_limit": 35,
+      "words": 50,
+      "compliant": false,
+      "tokens": 61,
+      "truncated": false
+    },
+    "length_balanced": {
+      "prompt_id": "wl04",
+      "prompt": "Explain gradient descent in under 35 words.",
+      "response": "Gradient Descent is an optimization algorithm used to find the minimum of a function by iteratively moving in the direction of steepest descent as defined by the negative of the gradient.",
+      "seed": 6307,
+      "word_limit": 35,
+      "words": 31,
+      "compliant": true,
+      "tokens": 37,
+      "truncated": false
+    }
+  },
+  "limits": "No frozen-reference generated-answer baseline; comparisons are between trained conditions. No claim of systematic degradation, causal reward hacking, or aggregate correctness improvement."
+}

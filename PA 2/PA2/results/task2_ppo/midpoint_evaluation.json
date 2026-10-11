@@ -1,0 +1,22 @@
+{
+  "name": "midpoint",
+  "adapter": "D:\\LUMS GAMING\\6. 2026 Fall\\CS 6304\\Programming Assignments\\PA 2\\PA2\\checkpoints\\ppo_midpoint_policy",
+  "examples": 200,
+  "seed": 6304,
+  "generation": {
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "do_sample": true
+  },
+  "max_response_length": 768,
+  "entropy_estimator": "sampled negative raw log-probability",
+  "kl_estimator": "sampled token log-probability difference; may be negative",
+  "aggregation": "equal weight per prompt",
+  "learned_reward": 1.720366439819336,
+  "effective_reward": 1.620366439819336,
+  "kl": 1.2658315555711396e-05,
+  "entropy": 0.8027926278603263,
+  "response_length": 296.89,
+  "truncated": 0.1,
+  "terminated_with_eos": 0.9
+}

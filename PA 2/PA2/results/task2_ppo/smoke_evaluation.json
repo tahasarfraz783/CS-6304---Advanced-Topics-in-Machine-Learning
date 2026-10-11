@@ -1,0 +1,22 @@
+{
+  "name": "smoke",
+  "adapter": "D:\\LUMS GAMING\\6. 2026 Fall\\CS 6304\\Programming Assignments\\PA 2\\PA2\\outputs\\task2_ppo\\smoke",
+  "examples": 2,
+  "seed": 6304,
+  "generation": {
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "do_sample": true
+  },
+  "max_response_length": 768,
+  "entropy_estimator": "sampled negative raw log-probability",
+  "kl_estimator": "sampled token log-probability difference; may be negative",
+  "aggregation": "equal weight per prompt",
+  "learned_reward": 1.57470703125,
+  "effective_reward": 1.57470703125,
+  "kl": 6.82253294144175e-05,
+  "entropy": 0.7630356252193451,
+  "response_length": 459.5,
+  "truncated": 0.0,
+  "terminated_with_eos": 1.0
+}
