@@ -1,0 +1,17 @@
+{
+  "phase": "package evidence and model weights",
+  "completed": 0,
+  "total": 0,
+  "status": "running",
+  "timestamp": 1793043244.6364076,
+  "activity_age_seconds": 11.369571447372437,
+  "elapsed_seconds": 2730.9866995811462,
+  "phase_eta_seconds": null,
+  "heartbeat": true,
+  "cache_batch": 128,
+  "global_update": 4500,
+  "loss": 1.7258,
+  "examples_per_second": 28.13,
+  "gpu_GB": 5.09,
+  "checkpoint": "update_4500.pt"
+}

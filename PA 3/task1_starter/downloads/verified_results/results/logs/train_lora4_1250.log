@@ -1,0 +1,1772 @@
+[START] lora4_1250 | starting | elapsed 0s
+[PHASE] lora4_1250 | loading training model/optimizer/checkpoint | elapsed 0s
+`torch_dtype` is deprecated! Use `dtype` instead!
+[PHASE] lora4_1250 | one-epoch training 0/1250 optimizer update attempts | elapsed 0s
+[PROGRESS] lora4_1250 | one-epoch training 0/1250 optimizer update attempts | elapsed 0s
+[PROGRESS] lora4_1250 | one-epoch training 1/1250 optimizer update attempts | elapsed 6s
+lora4: 1/1250  SFT=1.0284  5.71s/update
+[HEARTBEAT] lora4_1250 | one-epoch training 1/1250 optimizer update attempts | elapsed 7s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 2/1250 optimizer update attempts | elapsed 11s
+[PROGRESS] lora4_1250 | one-epoch training 3/1250 optimizer update attempts | elapsed 16s
+[PROGRESS] lora4_1250 | one-epoch training 4/1250 optimizer update attempts | elapsed 22s
+[HEARTBEAT] lora4_1250 | one-epoch training 4/1250 optimizer update attempts | elapsed 22s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 5/1250 optimizer update attempts | elapsed 27s
+[PROGRESS] lora4_1250 | one-epoch training 6/1250 optimizer update attempts | elapsed 32s
+[HEARTBEAT] lora4_1250 | one-epoch training 6/1250 optimizer update attempts | elapsed 37s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 7/1250 optimizer update attempts | elapsed 37s
+[PROGRESS] lora4_1250 | one-epoch training 8/1250 optimizer update attempts | elapsed 43s
+[PROGRESS] lora4_1250 | one-epoch training 9/1250 optimizer update attempts | elapsed 48s
+[HEARTBEAT] lora4_1250 | one-epoch training 9/1250 optimizer update attempts | elapsed 52s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 10/1250 optimizer update attempts | elapsed 53s
+[PROGRESS] lora4_1250 | one-epoch training 11/1250 optimizer update attempts | elapsed 58s
+[PROGRESS] lora4_1250 | one-epoch training 12/1250 optimizer update attempts | elapsed 64s
+[HEARTBEAT] lora4_1250 | one-epoch training 12/1250 optimizer update attempts | elapsed 67s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 13/1250 optimizer update attempts | elapsed 69s
+[PROGRESS] lora4_1250 | one-epoch training 14/1250 optimizer update attempts | elapsed 74s
+[PROGRESS] lora4_1250 | one-epoch training 15/1250 optimizer update attempts | elapsed 79s
+[HEARTBEAT] lora4_1250 | one-epoch training 15/1250 optimizer update attempts | elapsed 82s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 16/1250 optimizer update attempts | elapsed 85s
+[PROGRESS] lora4_1250 | one-epoch training 17/1250 optimizer update attempts | elapsed 90s
+[PROGRESS] lora4_1250 | one-epoch training 18/1250 optimizer update attempts | elapsed 95s
+[HEARTBEAT] lora4_1250 | one-epoch training 18/1250 optimizer update attempts | elapsed 97s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 19/1250 optimizer update attempts | elapsed 100s
+[PROGRESS] lora4_1250 | one-epoch training 20/1250 optimizer update attempts | elapsed 106s
+[PROGRESS] lora4_1250 | one-epoch training 21/1250 optimizer update attempts | elapsed 111s
+[HEARTBEAT] lora4_1250 | one-epoch training 21/1250 optimizer update attempts | elapsed 112s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 22/1250 optimizer update attempts | elapsed 116s
+[PROGRESS] lora4_1250 | one-epoch training 23/1250 optimizer update attempts | elapsed 121s
+[PROGRESS] lora4_1250 | one-epoch training 24/1250 optimizer update attempts | elapsed 126s
+[HEARTBEAT] lora4_1250 | one-epoch training 24/1250 optimizer update attempts | elapsed 127s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 25/1250 optimizer update attempts | elapsed 132s
+lora4: 25/1250  SFT=0.3598  5.28s/update
+[PROGRESS] lora4_1250 | one-epoch training 26/1250 optimizer update attempts | elapsed 137s
+[HEARTBEAT] lora4_1250 | one-epoch training 26/1250 optimizer update attempts | elapsed 142s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 27/1250 optimizer update attempts | elapsed 142s
+[PROGRESS] lora4_1250 | one-epoch training 28/1250 optimizer update attempts | elapsed 147s
+[PROGRESS] lora4_1250 | one-epoch training 29/1250 optimizer update attempts | elapsed 153s
+[HEARTBEAT] lora4_1250 | one-epoch training 29/1250 optimizer update attempts | elapsed 157s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 30/1250 optimizer update attempts | elapsed 158s
+[PROGRESS] lora4_1250 | one-epoch training 31/1250 optimizer update attempts | elapsed 163s
+[PROGRESS] lora4_1250 | one-epoch training 32/1250 optimizer update attempts | elapsed 168s
+[HEARTBEAT] lora4_1250 | one-epoch training 32/1250 optimizer update attempts | elapsed 172s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 33/1250 optimizer update attempts | elapsed 174s
+[PROGRESS] lora4_1250 | one-epoch training 34/1250 optimizer update attempts | elapsed 179s
+[PROGRESS] lora4_1250 | one-epoch training 35/1250 optimizer update attempts | elapsed 185s
+[HEARTBEAT] lora4_1250 | one-epoch training 35/1250 optimizer update attempts | elapsed 187s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 36/1250 optimizer update attempts | elapsed 190s
+[PROGRESS] lora4_1250 | one-epoch training 37/1250 optimizer update attempts | elapsed 195s
+[PROGRESS] lora4_1250 | one-epoch training 38/1250 optimizer update attempts | elapsed 200s
+[HEARTBEAT] lora4_1250 | one-epoch training 38/1250 optimizer update attempts | elapsed 202s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 39/1250 optimizer update attempts | elapsed 206s
+[PROGRESS] lora4_1250 | one-epoch training 40/1250 optimizer update attempts | elapsed 211s
+[PROGRESS] lora4_1250 | one-epoch training 41/1250 optimizer update attempts | elapsed 216s
+[HEARTBEAT] lora4_1250 | one-epoch training 41/1250 optimizer update attempts | elapsed 217s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 42/1250 optimizer update attempts | elapsed 221s
+[PROGRESS] lora4_1250 | one-epoch training 43/1250 optimizer update attempts | elapsed 227s
+[HEARTBEAT] lora4_1250 | one-epoch training 43/1250 optimizer update attempts | elapsed 232s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 44/1250 optimizer update attempts | elapsed 232s
+[PROGRESS] lora4_1250 | one-epoch training 45/1250 optimizer update attempts | elapsed 237s
+[PROGRESS] lora4_1250 | one-epoch training 46/1250 optimizer update attempts | elapsed 242s
+[HEARTBEAT] lora4_1250 | one-epoch training 46/1250 optimizer update attempts | elapsed 247s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 47/1250 optimizer update attempts | elapsed 248s
+[PROGRESS] lora4_1250 | one-epoch training 48/1250 optimizer update attempts | elapsed 253s
+[PROGRESS] lora4_1250 | one-epoch training 49/1250 optimizer update attempts | elapsed 258s
+[HEARTBEAT] lora4_1250 | one-epoch training 49/1250 optimizer update attempts | elapsed 262s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 50/1250 optimizer update attempts | elapsed 263s
+lora4: 50/1250  SFT=0.2794  5.37s/update
+[PROGRESS] lora4_1250 | one-epoch training 51/1250 optimizer update attempts | elapsed 269s
+[PROGRESS] lora4_1250 | one-epoch training 52/1250 optimizer update attempts | elapsed 274s
+[HEARTBEAT] lora4_1250 | one-epoch training 52/1250 optimizer update attempts | elapsed 277s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 53/1250 optimizer update attempts | elapsed 280s
+[PROGRESS] lora4_1250 | one-epoch training 54/1250 optimizer update attempts | elapsed 285s
+[PROGRESS] lora4_1250 | one-epoch training 55/1250 optimizer update attempts | elapsed 290s
+[HEARTBEAT] lora4_1250 | one-epoch training 55/1250 optimizer update attempts | elapsed 292s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 56/1250 optimizer update attempts | elapsed 295s
+[PROGRESS] lora4_1250 | one-epoch training 57/1250 optimizer update attempts | elapsed 300s
+[PROGRESS] lora4_1250 | one-epoch training 58/1250 optimizer update attempts | elapsed 306s
+[HEARTBEAT] lora4_1250 | one-epoch training 58/1250 optimizer update attempts | elapsed 307s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 59/1250 optimizer update attempts | elapsed 311s
+[PROGRESS] lora4_1250 | one-epoch training 60/1250 optimizer update attempts | elapsed 316s
+[PROGRESS] lora4_1250 | one-epoch training 61/1250 optimizer update attempts | elapsed 322s
+[HEARTBEAT] lora4_1250 | one-epoch training 61/1250 optimizer update attempts | elapsed 322s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 62/1250 optimizer update attempts | elapsed 326s
+[PROGRESS] lora4_1250 | one-epoch training 63/1250 optimizer update attempts | elapsed 332s
+[HEARTBEAT] lora4_1250 | one-epoch training 63/1250 optimizer update attempts | elapsed 337s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 64/1250 optimizer update attempts | elapsed 337s
+[PROGRESS] lora4_1250 | one-epoch training 65/1250 optimizer update attempts | elapsed 342s
+[PROGRESS] lora4_1250 | one-epoch training 66/1250 optimizer update attempts | elapsed 348s
+[HEARTBEAT] lora4_1250 | one-epoch training 66/1250 optimizer update attempts | elapsed 352s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 67/1250 optimizer update attempts | elapsed 353s
+[PROGRESS] lora4_1250 | one-epoch training 68/1250 optimizer update attempts | elapsed 358s
+[PROGRESS] lora4_1250 | one-epoch training 69/1250 optimizer update attempts | elapsed 363s
+[HEARTBEAT] lora4_1250 | one-epoch training 69/1250 optimizer update attempts | elapsed 367s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 70/1250 optimizer update attempts | elapsed 369s
+[PROGRESS] lora4_1250 | one-epoch training 71/1250 optimizer update attempts | elapsed 374s
+[PROGRESS] lora4_1250 | one-epoch training 72/1250 optimizer update attempts | elapsed 379s
+[HEARTBEAT] lora4_1250 | one-epoch training 72/1250 optimizer update attempts | elapsed 382s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 73/1250 optimizer update attempts | elapsed 385s
+[PROGRESS] lora4_1250 | one-epoch training 74/1250 optimizer update attempts | elapsed 390s
+[PROGRESS] lora4_1250 | one-epoch training 75/1250 optimizer update attempts | elapsed 396s
+lora4: 75/1250  SFT=0.2700  5.46s/update
+[HEARTBEAT] lora4_1250 | one-epoch training 75/1250 optimizer update attempts | elapsed 397s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 76/1250 optimizer update attempts | elapsed 401s
+[PROGRESS] lora4_1250 | one-epoch training 77/1250 optimizer update attempts | elapsed 407s
+[PROGRESS] lora4_1250 | one-epoch training 78/1250 optimizer update attempts | elapsed 412s
+[HEARTBEAT] lora4_1250 | one-epoch training 78/1250 optimizer update attempts | elapsed 412s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 79/1250 optimizer update attempts | elapsed 417s
+[PROGRESS] lora4_1250 | one-epoch training 80/1250 optimizer update attempts | elapsed 423s
+[HEARTBEAT] lora4_1250 | one-epoch training 80/1250 optimizer update attempts | elapsed 427s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 81/1250 optimizer update attempts | elapsed 428s
+[PROGRESS] lora4_1250 | one-epoch training 82/1250 optimizer update attempts | elapsed 433s
+[PROGRESS] lora4_1250 | one-epoch training 83/1250 optimizer update attempts | elapsed 438s
+[HEARTBEAT] lora4_1250 | one-epoch training 83/1250 optimizer update attempts | elapsed 442s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 84/1250 optimizer update attempts | elapsed 444s
+[PROGRESS] lora4_1250 | one-epoch training 85/1250 optimizer update attempts | elapsed 449s
+[PROGRESS] lora4_1250 | one-epoch training 86/1250 optimizer update attempts | elapsed 454s
+[HEARTBEAT] lora4_1250 | one-epoch training 86/1250 optimizer update attempts | elapsed 457s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 87/1250 optimizer update attempts | elapsed 460s
+[PROGRESS] lora4_1250 | one-epoch training 88/1250 optimizer update attempts | elapsed 465s
+[PROGRESS] lora4_1250 | one-epoch training 89/1250 optimizer update attempts | elapsed 470s
+[HEARTBEAT] lora4_1250 | one-epoch training 89/1250 optimizer update attempts | elapsed 472s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 90/1250 optimizer update attempts | elapsed 475s
+[PROGRESS] lora4_1250 | one-epoch training 91/1250 optimizer update attempts | elapsed 480s
+[PROGRESS] lora4_1250 | one-epoch training 92/1250 optimizer update attempts | elapsed 486s
+[HEARTBEAT] lora4_1250 | one-epoch training 92/1250 optimizer update attempts | elapsed 487s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 93/1250 optimizer update attempts | elapsed 491s
+[PROGRESS] lora4_1250 | one-epoch training 94/1250 optimizer update attempts | elapsed 496s
+[PROGRESS] lora4_1250 | one-epoch training 95/1250 optimizer update attempts | elapsed 501s
+[HEARTBEAT] lora4_1250 | one-epoch training 95/1250 optimizer update attempts | elapsed 502s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 96/1250 optimizer update attempts | elapsed 507s
+[PROGRESS] lora4_1250 | one-epoch training 97/1250 optimizer update attempts | elapsed 512s
+[PROGRESS] lora4_1250 | one-epoch training 98/1250 optimizer update attempts | elapsed 517s
+[HEARTBEAT] lora4_1250 | one-epoch training 98/1250 optimizer update attempts | elapsed 517s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 99/1250 optimizer update attempts | elapsed 522s
+[PROGRESS] lora4_1250 | one-epoch training 100/1250 optimizer update attempts | elapsed 528s
+lora4: 100/1250  SFT=0.2704  5.37s/update
+[CHECKPOINT] lora4_1250 | one-epoch training 100/1250 optimizer update attempts | elapsed 528s
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/lora4/checkpoints/rolling_update_0100.pt | update 100 | 0.03 GiB
+[HEARTBEAT] lora4_1250 | one-epoch training 100/1250 optimizer update attempts | elapsed 532s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 101/1250 optimizer update attempts | elapsed 533s
+[PROGRESS] lora4_1250 | one-epoch training 102/1250 optimizer update attempts | elapsed 539s
+[PROGRESS] lora4_1250 | one-epoch training 103/1250 optimizer update attempts | elapsed 544s
+[HEARTBEAT] lora4_1250 | one-epoch training 103/1250 optimizer update attempts | elapsed 547s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 104/1250 optimizer update attempts | elapsed 549s
+[PROGRESS] lora4_1250 | one-epoch training 105/1250 optimizer update attempts | elapsed 554s
+[PROGRESS] lora4_1250 | one-epoch training 106/1250 optimizer update attempts | elapsed 560s
+[HEARTBEAT] lora4_1250 | one-epoch training 106/1250 optimizer update attempts | elapsed 562s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 107/1250 optimizer update attempts | elapsed 565s
+[PROGRESS] lora4_1250 | one-epoch training 108/1250 optimizer update attempts | elapsed 570s
+[PROGRESS] lora4_1250 | one-epoch training 109/1250 optimizer update attempts | elapsed 576s
+[HEARTBEAT] lora4_1250 | one-epoch training 109/1250 optimizer update attempts | elapsed 577s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 110/1250 optimizer update attempts | elapsed 581s
+[PROGRESS] lora4_1250 | one-epoch training 111/1250 optimizer update attempts | elapsed 586s
+[PROGRESS] lora4_1250 | one-epoch training 112/1250 optimizer update attempts | elapsed 592s
+[HEARTBEAT] lora4_1250 | one-epoch training 112/1250 optimizer update attempts | elapsed 592s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 113/1250 optimizer update attempts | elapsed 597s
+[PROGRESS] lora4_1250 | one-epoch training 114/1250 optimizer update attempts | elapsed 602s
+[HEARTBEAT] lora4_1250 | one-epoch training 114/1250 optimizer update attempts | elapsed 607s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 115/1250 optimizer update attempts | elapsed 608s
+[PROGRESS] lora4_1250 | one-epoch training 116/1250 optimizer update attempts | elapsed 613s
+[PROGRESS] lora4_1250 | one-epoch training 117/1250 optimizer update attempts | elapsed 618s
+[HEARTBEAT] lora4_1250 | one-epoch training 117/1250 optimizer update attempts | elapsed 622s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 118/1250 optimizer update attempts | elapsed 623s
+[PROGRESS] lora4_1250 | one-epoch training 119/1250 optimizer update attempts | elapsed 629s
+[PROGRESS] lora4_1250 | one-epoch training 120/1250 optimizer update attempts | elapsed 634s
+[HEARTBEAT] lora4_1250 | one-epoch training 120/1250 optimizer update attempts | elapsed 637s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 121/1250 optimizer update attempts | elapsed 639s
+[PROGRESS] lora4_1250 | one-epoch training 122/1250 optimizer update attempts | elapsed 644s
+[PROGRESS] lora4_1250 | one-epoch training 123/1250 optimizer update attempts | elapsed 650s
+[HEARTBEAT] lora4_1250 | one-epoch training 123/1250 optimizer update attempts | elapsed 652s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 124/1250 optimizer update attempts | elapsed 655s
+[PROGRESS] lora4_1250 | one-epoch training 125/1250 optimizer update attempts | elapsed 660s
+lora4: 125/1250  SFT=0.2949  5.30s/update
+[PROGRESS] lora4_1250 | one-epoch training 126/1250 optimizer update attempts | elapsed 666s
+[HEARTBEAT] lora4_1250 | one-epoch training 126/1250 optimizer update attempts | elapsed 667s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 127/1250 optimizer update attempts | elapsed 671s
+[PROGRESS] lora4_1250 | one-epoch training 128/1250 optimizer update attempts | elapsed 676s
+[PROGRESS] lora4_1250 | one-epoch training 129/1250 optimizer update attempts | elapsed 682s
+[HEARTBEAT] lora4_1250 | one-epoch training 129/1250 optimizer update attempts | elapsed 682s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 130/1250 optimizer update attempts | elapsed 687s
+[PROGRESS] lora4_1250 | one-epoch training 131/1250 optimizer update attempts | elapsed 692s
+[HEARTBEAT] lora4_1250 | one-epoch training 131/1250 optimizer update attempts | elapsed 697s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 132/1250 optimizer update attempts | elapsed 698s
+[PROGRESS] lora4_1250 | one-epoch training 133/1250 optimizer update attempts | elapsed 703s
+[PROGRESS] lora4_1250 | one-epoch training 134/1250 optimizer update attempts | elapsed 708s
+[HEARTBEAT] lora4_1250 | one-epoch training 134/1250 optimizer update attempts | elapsed 712s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 135/1250 optimizer update attempts | elapsed 713s
+[PROGRESS] lora4_1250 | one-epoch training 136/1250 optimizer update attempts | elapsed 719s
+[PROGRESS] lora4_1250 | one-epoch training 137/1250 optimizer update attempts | elapsed 724s
+[HEARTBEAT] lora4_1250 | one-epoch training 137/1250 optimizer update attempts | elapsed 727s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 138/1250 optimizer update attempts | elapsed 730s
+[PROGRESS] lora4_1250 | one-epoch training 139/1250 optimizer update attempts | elapsed 735s
+[PROGRESS] lora4_1250 | one-epoch training 140/1250 optimizer update attempts | elapsed 740s
+[HEARTBEAT] lora4_1250 | one-epoch training 140/1250 optimizer update attempts | elapsed 742s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 141/1250 optimizer update attempts | elapsed 746s
+[PROGRESS] lora4_1250 | one-epoch training 142/1250 optimizer update attempts | elapsed 751s
+[PROGRESS] lora4_1250 | one-epoch training 143/1250 optimizer update attempts | elapsed 756s
+[HEARTBEAT] lora4_1250 | one-epoch training 143/1250 optimizer update attempts | elapsed 757s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 144/1250 optimizer update attempts | elapsed 762s
+[PROGRESS] lora4_1250 | one-epoch training 145/1250 optimizer update attempts | elapsed 767s
+[HEARTBEAT] lora4_1250 | one-epoch training 145/1250 optimizer update attempts | elapsed 772s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 146/1250 optimizer update attempts | elapsed 772s
+[PROGRESS] lora4_1250 | one-epoch training 147/1250 optimizer update attempts | elapsed 778s
+[PROGRESS] lora4_1250 | one-epoch training 148/1250 optimizer update attempts | elapsed 783s
+[HEARTBEAT] lora4_1250 | one-epoch training 148/1250 optimizer update attempts | elapsed 787s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 149/1250 optimizer update attempts | elapsed 788s
+[PROGRESS] lora4_1250 | one-epoch training 150/1250 optimizer update attempts | elapsed 794s
+lora4: 150/1250  SFT=0.2604  5.36s/update
+[PROGRESS] lora4_1250 | one-epoch training 151/1250 optimizer update attempts | elapsed 799s
+[HEARTBEAT] lora4_1250 | one-epoch training 151/1250 optimizer update attempts | elapsed 802s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 152/1250 optimizer update attempts | elapsed 804s
+[PROGRESS] lora4_1250 | one-epoch training 153/1250 optimizer update attempts | elapsed 810s
+[PROGRESS] lora4_1250 | one-epoch training 154/1250 optimizer update attempts | elapsed 815s
+[HEARTBEAT] lora4_1250 | one-epoch training 154/1250 optimizer update attempts | elapsed 817s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 155/1250 optimizer update attempts | elapsed 820s
+[PROGRESS] lora4_1250 | one-epoch training 156/1250 optimizer update attempts | elapsed 826s
+[PROGRESS] lora4_1250 | one-epoch training 157/1250 optimizer update attempts | elapsed 831s
+[HEARTBEAT] lora4_1250 | one-epoch training 157/1250 optimizer update attempts | elapsed 832s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 158/1250 optimizer update attempts | elapsed 836s
+[PROGRESS] lora4_1250 | one-epoch training 159/1250 optimizer update attempts | elapsed 842s
+[PROGRESS] lora4_1250 | one-epoch training 160/1250 optimizer update attempts | elapsed 847s
+[HEARTBEAT] lora4_1250 | one-epoch training 160/1250 optimizer update attempts | elapsed 847s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 161/1250 optimizer update attempts | elapsed 853s
+[PROGRESS] lora4_1250 | one-epoch training 162/1250 optimizer update attempts | elapsed 858s
+[HEARTBEAT] lora4_1250 | one-epoch training 162/1250 optimizer update attempts | elapsed 862s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 163/1250 optimizer update attempts | elapsed 863s
+[PROGRESS] lora4_1250 | one-epoch training 164/1250 optimizer update attempts | elapsed 869s
+[PROGRESS] lora4_1250 | one-epoch training 165/1250 optimizer update attempts | elapsed 874s
+[HEARTBEAT] lora4_1250 | one-epoch training 165/1250 optimizer update attempts | elapsed 877s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 166/1250 optimizer update attempts | elapsed 879s
+[PROGRESS] lora4_1250 | one-epoch training 167/1250 optimizer update attempts | elapsed 885s
+[PROGRESS] lora4_1250 | one-epoch training 168/1250 optimizer update attempts | elapsed 890s
+[HEARTBEAT] lora4_1250 | one-epoch training 168/1250 optimizer update attempts | elapsed 892s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 169/1250 optimizer update attempts | elapsed 895s
+[PROGRESS] lora4_1250 | one-epoch training 170/1250 optimizer update attempts | elapsed 901s
+[PROGRESS] lora4_1250 | one-epoch training 171/1250 optimizer update attempts | elapsed 906s
+[HEARTBEAT] lora4_1250 | one-epoch training 171/1250 optimizer update attempts | elapsed 907s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 172/1250 optimizer update attempts | elapsed 912s
+[PROGRESS] lora4_1250 | one-epoch training 173/1250 optimizer update attempts | elapsed 917s
+[HEARTBEAT] lora4_1250 | one-epoch training 173/1250 optimizer update attempts | elapsed 922s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 174/1250 optimizer update attempts | elapsed 922s
+[PROGRESS] lora4_1250 | one-epoch training 175/1250 optimizer update attempts | elapsed 928s
+lora4: 175/1250  SFT=0.2255  5.13s/update
+[PROGRESS] lora4_1250 | one-epoch training 176/1250 optimizer update attempts | elapsed 933s
+[HEARTBEAT] lora4_1250 | one-epoch training 176/1250 optimizer update attempts | elapsed 937s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 177/1250 optimizer update attempts | elapsed 938s
+[PROGRESS] lora4_1250 | one-epoch training 178/1250 optimizer update attempts | elapsed 944s
+[PROGRESS] lora4_1250 | one-epoch training 179/1250 optimizer update attempts | elapsed 949s
+[HEARTBEAT] lora4_1250 | one-epoch training 179/1250 optimizer update attempts | elapsed 952s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 180/1250 optimizer update attempts | elapsed 954s
+[PROGRESS] lora4_1250 | one-epoch training 181/1250 optimizer update attempts | elapsed 960s
+[PROGRESS] lora4_1250 | one-epoch training 182/1250 optimizer update attempts | elapsed 966s
+[HEARTBEAT] lora4_1250 | one-epoch training 182/1250 optimizer update attempts | elapsed 967s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 183/1250 optimizer update attempts | elapsed 971s
+[PROGRESS] lora4_1250 | one-epoch training 184/1250 optimizer update attempts | elapsed 976s
+[PROGRESS] lora4_1250 | one-epoch training 185/1250 optimizer update attempts | elapsed 982s
+[HEARTBEAT] lora4_1250 | one-epoch training 185/1250 optimizer update attempts | elapsed 982s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 186/1250 optimizer update attempts | elapsed 987s
+[PROGRESS] lora4_1250 | one-epoch training 187/1250 optimizer update attempts | elapsed 993s
+[HEARTBEAT] lora4_1250 | one-epoch training 187/1250 optimizer update attempts | elapsed 997s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 188/1250 optimizer update attempts | elapsed 998s
+[PROGRESS] lora4_1250 | one-epoch training 189/1250 optimizer update attempts | elapsed 1003s
+[PROGRESS] lora4_1250 | one-epoch training 190/1250 optimizer update attempts | elapsed 1009s
+[HEARTBEAT] lora4_1250 | one-epoch training 190/1250 optimizer update attempts | elapsed 1012s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 191/1250 optimizer update attempts | elapsed 1014s
+[PROGRESS] lora4_1250 | one-epoch training 192/1250 optimizer update attempts | elapsed 1019s
+[PROGRESS] lora4_1250 | one-epoch training 193/1250 optimizer update attempts | elapsed 1024s
+[HEARTBEAT] lora4_1250 | one-epoch training 193/1250 optimizer update attempts | elapsed 1027s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 194/1250 optimizer update attempts | elapsed 1030s
+[PROGRESS] lora4_1250 | one-epoch training 195/1250 optimizer update attempts | elapsed 1035s
+[PROGRESS] lora4_1250 | one-epoch training 196/1250 optimizer update attempts | elapsed 1041s
+[HEARTBEAT] lora4_1250 | one-epoch training 196/1250 optimizer update attempts | elapsed 1042s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 197/1250 optimizer update attempts | elapsed 1046s
+[PROGRESS] lora4_1250 | one-epoch training 198/1250 optimizer update attempts | elapsed 1051s
+[PROGRESS] lora4_1250 | one-epoch training 199/1250 optimizer update attempts | elapsed 1056s
+[HEARTBEAT] lora4_1250 | one-epoch training 199/1250 optimizer update attempts | elapsed 1057s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 200/1250 optimizer update attempts | elapsed 1062s
+lora4: 200/1250  SFT=0.2184  5.37s/update
+[CHECKPOINT] lora4_1250 | one-epoch training 200/1250 optimizer update attempts | elapsed 1062s
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/lora4/checkpoints/rolling_update_0200.pt | update 200 | 0.03 GiB
+[PROGRESS] lora4_1250 | one-epoch training 201/1250 optimizer update attempts | elapsed 1067s
+[PROGRESS] lora4_1250 | one-epoch training 202/1250 optimizer update attempts | elapsed 1072s
+[HEARTBEAT] lora4_1250 | one-epoch training 202/1250 optimizer update attempts | elapsed 1072s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 203/1250 optimizer update attempts | elapsed 1078s
+[PROGRESS] lora4_1250 | one-epoch training 204/1250 optimizer update attempts | elapsed 1083s
+[HEARTBEAT] lora4_1250 | one-epoch training 204/1250 optimizer update attempts | elapsed 1087s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 205/1250 optimizer update attempts | elapsed 1088s
+[PROGRESS] lora4_1250 | one-epoch training 206/1250 optimizer update attempts | elapsed 1094s
+[PROGRESS] lora4_1250 | one-epoch training 207/1250 optimizer update attempts | elapsed 1099s
+[HEARTBEAT] lora4_1250 | one-epoch training 207/1250 optimizer update attempts | elapsed 1102s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 208/1250 optimizer update attempts | elapsed 1104s
+[PROGRESS] lora4_1250 | one-epoch training 209/1250 optimizer update attempts | elapsed 1110s
+[PROGRESS] lora4_1250 | one-epoch training 210/1250 optimizer update attempts | elapsed 1115s
+[HEARTBEAT] lora4_1250 | one-epoch training 210/1250 optimizer update attempts | elapsed 1117s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 211/1250 optimizer update attempts | elapsed 1120s
+[PROGRESS] lora4_1250 | one-epoch training 212/1250 optimizer update attempts | elapsed 1126s
+[PROGRESS] lora4_1250 | one-epoch training 213/1250 optimizer update attempts | elapsed 1131s
+[HEARTBEAT] lora4_1250 | one-epoch training 213/1250 optimizer update attempts | elapsed 1132s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 214/1250 optimizer update attempts | elapsed 1136s
+[PROGRESS] lora4_1250 | one-epoch training 215/1250 optimizer update attempts | elapsed 1141s
+[PROGRESS] lora4_1250 | one-epoch training 216/1250 optimizer update attempts | elapsed 1147s
+[HEARTBEAT] lora4_1250 | one-epoch training 216/1250 optimizer update attempts | elapsed 1147s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 217/1250 optimizer update attempts | elapsed 1152s
+[PROGRESS] lora4_1250 | one-epoch training 218/1250 optimizer update attempts | elapsed 1157s
+[HEARTBEAT] lora4_1250 | one-epoch training 218/1250 optimizer update attempts | elapsed 1162s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 219/1250 optimizer update attempts | elapsed 1163s
+[PROGRESS] lora4_1250 | one-epoch training 220/1250 optimizer update attempts | elapsed 1168s
+[PROGRESS] lora4_1250 | one-epoch training 221/1250 optimizer update attempts | elapsed 1173s
+[HEARTBEAT] lora4_1250 | one-epoch training 221/1250 optimizer update attempts | elapsed 1177s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 222/1250 optimizer update attempts | elapsed 1178s
+[PROGRESS] lora4_1250 | one-epoch training 223/1250 optimizer update attempts | elapsed 1184s
+[PROGRESS] lora4_1250 | one-epoch training 224/1250 optimizer update attempts | elapsed 1189s
+[HEARTBEAT] lora4_1250 | one-epoch training 224/1250 optimizer update attempts | elapsed 1192s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 225/1250 optimizer update attempts | elapsed 1194s
+lora4: 225/1250  SFT=0.2628  5.28s/update
+[PROGRESS] lora4_1250 | one-epoch training 226/1250 optimizer update attempts | elapsed 1199s
+[PROGRESS] lora4_1250 | one-epoch training 227/1250 optimizer update attempts | elapsed 1205s
+[HEARTBEAT] lora4_1250 | one-epoch training 227/1250 optimizer update attempts | elapsed 1207s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 228/1250 optimizer update attempts | elapsed 1210s
+[PROGRESS] lora4_1250 | one-epoch training 229/1250 optimizer update attempts | elapsed 1215s
+[PROGRESS] lora4_1250 | one-epoch training 230/1250 optimizer update attempts | elapsed 1220s
+[HEARTBEAT] lora4_1250 | one-epoch training 230/1250 optimizer update attempts | elapsed 1222s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 231/1250 optimizer update attempts | elapsed 1226s
+[PROGRESS] lora4_1250 | one-epoch training 232/1250 optimizer update attempts | elapsed 1231s
+[PROGRESS] lora4_1250 | one-epoch training 233/1250 optimizer update attempts | elapsed 1236s
+[HEARTBEAT] lora4_1250 | one-epoch training 233/1250 optimizer update attempts | elapsed 1237s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 234/1250 optimizer update attempts | elapsed 1241s
+[PROGRESS] lora4_1250 | one-epoch training 235/1250 optimizer update attempts | elapsed 1246s
+[PROGRESS] lora4_1250 | one-epoch training 236/1250 optimizer update attempts | elapsed 1252s
+[HEARTBEAT] lora4_1250 | one-epoch training 236/1250 optimizer update attempts | elapsed 1252s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 237/1250 optimizer update attempts | elapsed 1257s
+[PROGRESS] lora4_1250 | one-epoch training 238/1250 optimizer update attempts | elapsed 1262s
+[PROGRESS] lora4_1250 | one-epoch training 239/1250 optimizer update attempts | elapsed 1267s
+[HEARTBEAT] lora4_1250 | one-epoch training 239/1250 optimizer update attempts | elapsed 1267s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 240/1250 optimizer update attempts | elapsed 1273s
+[PROGRESS] lora4_1250 | one-epoch training 241/1250 optimizer update attempts | elapsed 1278s
+[HEARTBEAT] lora4_1250 | one-epoch training 241/1250 optimizer update attempts | elapsed 1282s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 242/1250 optimizer update attempts | elapsed 1283s
+[PROGRESS] lora4_1250 | one-epoch training 243/1250 optimizer update attempts | elapsed 1288s
+[PROGRESS] lora4_1250 | one-epoch training 244/1250 optimizer update attempts | elapsed 1294s
+[HEARTBEAT] lora4_1250 | one-epoch training 244/1250 optimizer update attempts | elapsed 1297s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 245/1250 optimizer update attempts | elapsed 1299s
+[PROGRESS] lora4_1250 | one-epoch training 246/1250 optimizer update attempts | elapsed 1304s
+[PROGRESS] lora4_1250 | one-epoch training 247/1250 optimizer update attempts | elapsed 1309s
+[HEARTBEAT] lora4_1250 | one-epoch training 247/1250 optimizer update attempts | elapsed 1312s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 248/1250 optimizer update attempts | elapsed 1314s
+[PROGRESS] lora4_1250 | one-epoch training 249/1250 optimizer update attempts | elapsed 1320s
+[PROGRESS] lora4_1250 | one-epoch training 250/1250 optimizer update attempts | elapsed 1325s
+lora4: 250/1250  SFT=0.2596  5.28s/update
+[HEARTBEAT] lora4_1250 | one-epoch training 250/1250 optimizer update attempts | elapsed 1327s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 251/1250 optimizer update attempts | elapsed 1330s
+[PROGRESS] lora4_1250 | one-epoch training 252/1250 optimizer update attempts | elapsed 1335s
+[PROGRESS] lora4_1250 | one-epoch training 253/1250 optimizer update attempts | elapsed 1340s
+[HEARTBEAT] lora4_1250 | one-epoch training 253/1250 optimizer update attempts | elapsed 1342s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 254/1250 optimizer update attempts | elapsed 1346s
+[PROGRESS] lora4_1250 | one-epoch training 255/1250 optimizer update attempts | elapsed 1351s
+[PROGRESS] lora4_1250 | one-epoch training 256/1250 optimizer update attempts | elapsed 1356s
+[HEARTBEAT] lora4_1250 | one-epoch training 256/1250 optimizer update attempts | elapsed 1357s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 257/1250 optimizer update attempts | elapsed 1361s
+[PROGRESS] lora4_1250 | one-epoch training 258/1250 optimizer update attempts | elapsed 1367s
+[PROGRESS] lora4_1250 | one-epoch training 259/1250 optimizer update attempts | elapsed 1372s
+[HEARTBEAT] lora4_1250 | one-epoch training 259/1250 optimizer update attempts | elapsed 1372s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 260/1250 optimizer update attempts | elapsed 1377s
+[PROGRESS] lora4_1250 | one-epoch training 261/1250 optimizer update attempts | elapsed 1382s
+[PROGRESS] lora4_1250 | one-epoch training 262/1250 optimizer update attempts | elapsed 1387s
+[HEARTBEAT] lora4_1250 | one-epoch training 262/1250 optimizer update attempts | elapsed 1387s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 263/1250 optimizer update attempts | elapsed 1393s
+[PROGRESS] lora4_1250 | one-epoch training 264/1250 optimizer update attempts | elapsed 1398s
+[HEARTBEAT] lora4_1250 | one-epoch training 264/1250 optimizer update attempts | elapsed 1402s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 265/1250 optimizer update attempts | elapsed 1403s
+[PROGRESS] lora4_1250 | one-epoch training 266/1250 optimizer update attempts | elapsed 1408s
+[PROGRESS] lora4_1250 | one-epoch training 267/1250 optimizer update attempts | elapsed 1414s
+[HEARTBEAT] lora4_1250 | one-epoch training 267/1250 optimizer update attempts | elapsed 1417s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 268/1250 optimizer update attempts | elapsed 1418s
+[PROGRESS] lora4_1250 | one-epoch training 269/1250 optimizer update attempts | elapsed 1424s
+[PROGRESS] lora4_1250 | one-epoch training 270/1250 optimizer update attempts | elapsed 1429s
+[HEARTBEAT] lora4_1250 | one-epoch training 270/1250 optimizer update attempts | elapsed 1432s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 271/1250 optimizer update attempts | elapsed 1434s
+[PROGRESS] lora4_1250 | one-epoch training 272/1250 optimizer update attempts | elapsed 1440s
+[PROGRESS] lora4_1250 | one-epoch training 273/1250 optimizer update attempts | elapsed 1445s
+[HEARTBEAT] lora4_1250 | one-epoch training 273/1250 optimizer update attempts | elapsed 1447s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 274/1250 optimizer update attempts | elapsed 1450s
+[PROGRESS] lora4_1250 | one-epoch training 275/1250 optimizer update attempts | elapsed 1455s
+lora4: 275/1250  SFT=0.2492  5.35s/update
+[PROGRESS] lora4_1250 | one-epoch training 276/1250 optimizer update attempts | elapsed 1461s
+[HEARTBEAT] lora4_1250 | one-epoch training 276/1250 optimizer update attempts | elapsed 1462s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 277/1250 optimizer update attempts | elapsed 1466s
+[PROGRESS] lora4_1250 | one-epoch training 278/1250 optimizer update attempts | elapsed 1471s
+[PROGRESS] lora4_1250 | one-epoch training 279/1250 optimizer update attempts | elapsed 1476s
+[HEARTBEAT] lora4_1250 | one-epoch training 279/1250 optimizer update attempts | elapsed 1477s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 280/1250 optimizer update attempts | elapsed 1482s
+[PROGRESS] lora4_1250 | one-epoch training 281/1250 optimizer update attempts | elapsed 1487s
+[PROGRESS] lora4_1250 | one-epoch training 282/1250 optimizer update attempts | elapsed 1492s
+[HEARTBEAT] lora4_1250 | one-epoch training 282/1250 optimizer update attempts | elapsed 1492s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 283/1250 optimizer update attempts | elapsed 1497s
+[PROGRESS] lora4_1250 | one-epoch training 284/1250 optimizer update attempts | elapsed 1503s
+[HEARTBEAT] lora4_1250 | one-epoch training 284/1250 optimizer update attempts | elapsed 1507s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 285/1250 optimizer update attempts | elapsed 1508s
+[PROGRESS] lora4_1250 | one-epoch training 286/1250 optimizer update attempts | elapsed 1513s
+[PROGRESS] lora4_1250 | one-epoch training 287/1250 optimizer update attempts | elapsed 1518s
+[HEARTBEAT] lora4_1250 | one-epoch training 287/1250 optimizer update attempts | elapsed 1522s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 288/1250 optimizer update attempts | elapsed 1523s
+[PROGRESS] lora4_1250 | one-epoch training 289/1250 optimizer update attempts | elapsed 1529s
+[PROGRESS] lora4_1250 | one-epoch training 290/1250 optimizer update attempts | elapsed 1534s
+[HEARTBEAT] lora4_1250 | one-epoch training 290/1250 optimizer update attempts | elapsed 1537s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 291/1250 optimizer update attempts | elapsed 1539s
+[PROGRESS] lora4_1250 | one-epoch training 292/1250 optimizer update attempts | elapsed 1544s
+[PROGRESS] lora4_1250 | one-epoch training 293/1250 optimizer update attempts | elapsed 1549s
+[HEARTBEAT] lora4_1250 | one-epoch training 293/1250 optimizer update attempts | elapsed 1552s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 294/1250 optimizer update attempts | elapsed 1555s
+[PROGRESS] lora4_1250 | one-epoch training 295/1250 optimizer update attempts | elapsed 1560s
+[PROGRESS] lora4_1250 | one-epoch training 296/1250 optimizer update attempts | elapsed 1565s
+[HEARTBEAT] lora4_1250 | one-epoch training 296/1250 optimizer update attempts | elapsed 1567s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 297/1250 optimizer update attempts | elapsed 1571s
+[PROGRESS] lora4_1250 | one-epoch training 298/1250 optimizer update attempts | elapsed 1576s
+[PROGRESS] lora4_1250 | one-epoch training 299/1250 optimizer update attempts | elapsed 1581s
+[HEARTBEAT] lora4_1250 | one-epoch training 299/1250 optimizer update attempts | elapsed 1582s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 300/1250 optimizer update attempts | elapsed 1586s
+lora4: 300/1250  SFT=0.2257  5.29s/update
+[CHECKPOINT] lora4_1250 | one-epoch training 300/1250 optimizer update attempts | elapsed 1586s
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/lora4/checkpoints/rolling_update_0300.pt | update 300 | 0.03 GiB
+[PROGRESS] lora4_1250 | one-epoch training 301/1250 optimizer update attempts | elapsed 1592s
+[PROGRESS] lora4_1250 | one-epoch training 302/1250 optimizer update attempts | elapsed 1597s
+[HEARTBEAT] lora4_1250 | one-epoch training 302/1250 optimizer update attempts | elapsed 1597s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 303/1250 optimizer update attempts | elapsed 1602s
+[PROGRESS] lora4_1250 | one-epoch training 304/1250 optimizer update attempts | elapsed 1608s
+[HEARTBEAT] lora4_1250 | one-epoch training 304/1250 optimizer update attempts | elapsed 1612s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 305/1250 optimizer update attempts | elapsed 1613s
+[PROGRESS] lora4_1250 | one-epoch training 306/1250 optimizer update attempts | elapsed 1618s
+[PROGRESS] lora4_1250 | one-epoch training 307/1250 optimizer update attempts | elapsed 1624s
+[HEARTBEAT] lora4_1250 | one-epoch training 307/1250 optimizer update attempts | elapsed 1627s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 308/1250 optimizer update attempts | elapsed 1628s
+[PROGRESS] lora4_1250 | one-epoch training 309/1250 optimizer update attempts | elapsed 1634s
+[PROGRESS] lora4_1250 | one-epoch training 310/1250 optimizer update attempts | elapsed 1639s
+[HEARTBEAT] lora4_1250 | one-epoch training 310/1250 optimizer update attempts | elapsed 1642s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 311/1250 optimizer update attempts | elapsed 1645s
+[PROGRESS] lora4_1250 | one-epoch training 312/1250 optimizer update attempts | elapsed 1650s
+[CHECKPOINT] lora4_1250 | one-epoch training 312/1250 optimizer update attempts | elapsed 1650s
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/lora4/checkpoints/update_0312.pt | update 312 | 0.03 GiB
+[PROGRESS] lora4_1250 | one-epoch training 313/1250 optimizer update attempts | elapsed 1655s
+[HEARTBEAT] lora4_1250 | one-epoch training 313/1250 optimizer update attempts | elapsed 1657s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 314/1250 optimizer update attempts | elapsed 1661s
+[PROGRESS] lora4_1250 | one-epoch training 315/1250 optimizer update attempts | elapsed 1666s
+[PROGRESS] lora4_1250 | one-epoch training 316/1250 optimizer update attempts | elapsed 1672s
+[HEARTBEAT] lora4_1250 | one-epoch training 316/1250 optimizer update attempts | elapsed 1672s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 317/1250 optimizer update attempts | elapsed 1677s
+[PROGRESS] lora4_1250 | one-epoch training 318/1250 optimizer update attempts | elapsed 1683s
+[HEARTBEAT] lora4_1250 | one-epoch training 318/1250 optimizer update attempts | elapsed 1687s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 319/1250 optimizer update attempts | elapsed 1688s
+[PROGRESS] lora4_1250 | one-epoch training 320/1250 optimizer update attempts | elapsed 1694s
+[PROGRESS] lora4_1250 | one-epoch training 321/1250 optimizer update attempts | elapsed 1699s
+[HEARTBEAT] lora4_1250 | one-epoch training 321/1250 optimizer update attempts | elapsed 1702s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 322/1250 optimizer update attempts | elapsed 1704s
+[PROGRESS] lora4_1250 | one-epoch training 323/1250 optimizer update attempts | elapsed 1710s
+[PROGRESS] lora4_1250 | one-epoch training 324/1250 optimizer update attempts | elapsed 1715s
+[HEARTBEAT] lora4_1250 | one-epoch training 324/1250 optimizer update attempts | elapsed 1717s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 325/1250 optimizer update attempts | elapsed 1720s
+lora4: 325/1250  SFT=0.2546  5.33s/update
+[PROGRESS] lora4_1250 | one-epoch training 326/1250 optimizer update attempts | elapsed 1726s
+[PROGRESS] lora4_1250 | one-epoch training 327/1250 optimizer update attempts | elapsed 1731s
+[HEARTBEAT] lora4_1250 | one-epoch training 327/1250 optimizer update attempts | elapsed 1732s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 328/1250 optimizer update attempts | elapsed 1736s
+[PROGRESS] lora4_1250 | one-epoch training 329/1250 optimizer update attempts | elapsed 1742s
+[PROGRESS] lora4_1250 | one-epoch training 330/1250 optimizer update attempts | elapsed 1747s
+[HEARTBEAT] lora4_1250 | one-epoch training 330/1250 optimizer update attempts | elapsed 1747s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 331/1250 optimizer update attempts | elapsed 1752s
+[PROGRESS] lora4_1250 | one-epoch training 332/1250 optimizer update attempts | elapsed 1758s
+[HEARTBEAT] lora4_1250 | one-epoch training 332/1250 optimizer update attempts | elapsed 1762s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 333/1250 optimizer update attempts | elapsed 1763s
+[PROGRESS] lora4_1250 | one-epoch training 334/1250 optimizer update attempts | elapsed 1768s
+[PROGRESS] lora4_1250 | one-epoch training 335/1250 optimizer update attempts | elapsed 1773s
+[HEARTBEAT] lora4_1250 | one-epoch training 335/1250 optimizer update attempts | elapsed 1777s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 336/1250 optimizer update attempts | elapsed 1779s
+[PROGRESS] lora4_1250 | one-epoch training 337/1250 optimizer update attempts | elapsed 1784s
+[PROGRESS] lora4_1250 | one-epoch training 338/1250 optimizer update attempts | elapsed 1789s
+[HEARTBEAT] lora4_1250 | one-epoch training 338/1250 optimizer update attempts | elapsed 1792s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 339/1250 optimizer update attempts | elapsed 1794s
+[PROGRESS] lora4_1250 | one-epoch training 340/1250 optimizer update attempts | elapsed 1800s
+[PROGRESS] lora4_1250 | one-epoch training 341/1250 optimizer update attempts | elapsed 1805s
+[HEARTBEAT] lora4_1250 | one-epoch training 341/1250 optimizer update attempts | elapsed 1807s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 342/1250 optimizer update attempts | elapsed 1810s
+[PROGRESS] lora4_1250 | one-epoch training 343/1250 optimizer update attempts | elapsed 1815s
+[PROGRESS] lora4_1250 | one-epoch training 344/1250 optimizer update attempts | elapsed 1821s
+[HEARTBEAT] lora4_1250 | one-epoch training 344/1250 optimizer update attempts | elapsed 1822s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 345/1250 optimizer update attempts | elapsed 1826s
+[PROGRESS] lora4_1250 | one-epoch training 346/1250 optimizer update attempts | elapsed 1831s
+[PROGRESS] lora4_1250 | one-epoch training 347/1250 optimizer update attempts | elapsed 1837s
+[HEARTBEAT] lora4_1250 | one-epoch training 347/1250 optimizer update attempts | elapsed 1837s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 348/1250 optimizer update attempts | elapsed 1842s
+[PROGRESS] lora4_1250 | one-epoch training 349/1250 optimizer update attempts | elapsed 1847s
+[PROGRESS] lora4_1250 | one-epoch training 350/1250 optimizer update attempts | elapsed 1852s
+lora4: 350/1250  SFT=0.2346  5.30s/update
+[HEARTBEAT] lora4_1250 | one-epoch training 350/1250 optimizer update attempts | elapsed 1852s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 351/1250 optimizer update attempts | elapsed 1858s
+[PROGRESS] lora4_1250 | one-epoch training 352/1250 optimizer update attempts | elapsed 1862s
+[HEARTBEAT] lora4_1250 | one-epoch training 352/1250 optimizer update attempts | elapsed 1867s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 353/1250 optimizer update attempts | elapsed 1868s
+[PROGRESS] lora4_1250 | one-epoch training 354/1250 optimizer update attempts | elapsed 1873s
+[PROGRESS] lora4_1250 | one-epoch training 355/1250 optimizer update attempts | elapsed 1878s
+[HEARTBEAT] lora4_1250 | one-epoch training 355/1250 optimizer update attempts | elapsed 1882s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 356/1250 optimizer update attempts | elapsed 1884s
+[PROGRESS] lora4_1250 | one-epoch training 357/1250 optimizer update attempts | elapsed 1889s
+[PROGRESS] lora4_1250 | one-epoch training 358/1250 optimizer update attempts | elapsed 1894s
+[HEARTBEAT] lora4_1250 | one-epoch training 358/1250 optimizer update attempts | elapsed 1897s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 359/1250 optimizer update attempts | elapsed 1899s
+[PROGRESS] lora4_1250 | one-epoch training 360/1250 optimizer update attempts | elapsed 1905s
+[PROGRESS] lora4_1250 | one-epoch training 361/1250 optimizer update attempts | elapsed 1910s
+[HEARTBEAT] lora4_1250 | one-epoch training 361/1250 optimizer update attempts | elapsed 1912s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 362/1250 optimizer update attempts | elapsed 1915s
+[PROGRESS] lora4_1250 | one-epoch training 363/1250 optimizer update attempts | elapsed 1920s
+[PROGRESS] lora4_1250 | one-epoch training 364/1250 optimizer update attempts | elapsed 1926s
+[HEARTBEAT] lora4_1250 | one-epoch training 364/1250 optimizer update attempts | elapsed 1927s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 365/1250 optimizer update attempts | elapsed 1931s
+[PROGRESS] lora4_1250 | one-epoch training 366/1250 optimizer update attempts | elapsed 1936s
+[PROGRESS] lora4_1250 | one-epoch training 367/1250 optimizer update attempts | elapsed 1941s
+[HEARTBEAT] lora4_1250 | one-epoch training 367/1250 optimizer update attempts | elapsed 1942s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 368/1250 optimizer update attempts | elapsed 1947s
+[PROGRESS] lora4_1250 | one-epoch training 369/1250 optimizer update attempts | elapsed 1952s
+[PROGRESS] lora4_1250 | one-epoch training 370/1250 optimizer update attempts | elapsed 1957s
+[HEARTBEAT] lora4_1250 | one-epoch training 370/1250 optimizer update attempts | elapsed 1958s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 371/1250 optimizer update attempts | elapsed 1962s
+[PROGRESS] lora4_1250 | one-epoch training 372/1250 optimizer update attempts | elapsed 1968s
+[HEARTBEAT] lora4_1250 | one-epoch training 372/1250 optimizer update attempts | elapsed 1972s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 373/1250 optimizer update attempts | elapsed 1973s
+[PROGRESS] lora4_1250 | one-epoch training 374/1250 optimizer update attempts | elapsed 1978s
+[PROGRESS] lora4_1250 | one-epoch training 375/1250 optimizer update attempts | elapsed 1983s
+lora4: 375/1250  SFT=0.1975  5.23s/update
+[HEARTBEAT] lora4_1250 | one-epoch training 375/1250 optimizer update attempts | elapsed 1988s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 376/1250 optimizer update attempts | elapsed 1988s
+[PROGRESS] lora4_1250 | one-epoch training 377/1250 optimizer update attempts | elapsed 1994s
+[PROGRESS] lora4_1250 | one-epoch training 378/1250 optimizer update attempts | elapsed 1999s
+[HEARTBEAT] lora4_1250 | one-epoch training 378/1250 optimizer update attempts | elapsed 2002s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 379/1250 optimizer update attempts | elapsed 2004s
+[PROGRESS] lora4_1250 | one-epoch training 380/1250 optimizer update attempts | elapsed 2009s
+[PROGRESS] lora4_1250 | one-epoch training 381/1250 optimizer update attempts | elapsed 2014s
+[HEARTBEAT] lora4_1250 | one-epoch training 381/1250 optimizer update attempts | elapsed 2018s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 382/1250 optimizer update attempts | elapsed 2020s
+[PROGRESS] lora4_1250 | one-epoch training 383/1250 optimizer update attempts | elapsed 2024s
+[PROGRESS] lora4_1250 | one-epoch training 384/1250 optimizer update attempts | elapsed 2030s
+[HEARTBEAT] lora4_1250 | one-epoch training 384/1250 optimizer update attempts | elapsed 2032s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 385/1250 optimizer update attempts | elapsed 2035s
+[PROGRESS] lora4_1250 | one-epoch training 386/1250 optimizer update attempts | elapsed 2041s
+[PROGRESS] lora4_1250 | one-epoch training 387/1250 optimizer update attempts | elapsed 2046s
+[HEARTBEAT] lora4_1250 | one-epoch training 387/1250 optimizer update attempts | elapsed 2048s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 388/1250 optimizer update attempts | elapsed 2051s
+[PROGRESS] lora4_1250 | one-epoch training 389/1250 optimizer update attempts | elapsed 2056s
+[PROGRESS] lora4_1250 | one-epoch training 390/1250 optimizer update attempts | elapsed 2062s
+[HEARTBEAT] lora4_1250 | one-epoch training 390/1250 optimizer update attempts | elapsed 2062s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 391/1250 optimizer update attempts | elapsed 2067s
+[PROGRESS] lora4_1250 | one-epoch training 392/1250 optimizer update attempts | elapsed 2072s
+[PROGRESS] lora4_1250 | one-epoch training 393/1250 optimizer update attempts | elapsed 2077s
+[HEARTBEAT] lora4_1250 | one-epoch training 393/1250 optimizer update attempts | elapsed 2078s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 394/1250 optimizer update attempts | elapsed 2082s
+[PROGRESS] lora4_1250 | one-epoch training 395/1250 optimizer update attempts | elapsed 2088s
+[HEARTBEAT] lora4_1250 | one-epoch training 395/1250 optimizer update attempts | elapsed 2092s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 396/1250 optimizer update attempts | elapsed 2093s
+[PROGRESS] lora4_1250 | one-epoch training 397/1250 optimizer update attempts | elapsed 2098s
+[PROGRESS] lora4_1250 | one-epoch training 398/1250 optimizer update attempts | elapsed 2103s
+[HEARTBEAT] lora4_1250 | one-epoch training 398/1250 optimizer update attempts | elapsed 2108s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 399/1250 optimizer update attempts | elapsed 2108s
+[PROGRESS] lora4_1250 | one-epoch training 400/1250 optimizer update attempts | elapsed 2114s
+lora4: 400/1250  SFT=0.2190  5.22s/update
+[CHECKPOINT] lora4_1250 | one-epoch training 400/1250 optimizer update attempts | elapsed 2114s
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/lora4/checkpoints/rolling_update_0400.pt | update 400 | 0.03 GiB
+[PROGRESS] lora4_1250 | one-epoch training 401/1250 optimizer update attempts | elapsed 2119s
+[HEARTBEAT] lora4_1250 | one-epoch training 401/1250 optimizer update attempts | elapsed 2122s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 402/1250 optimizer update attempts | elapsed 2124s
+[PROGRESS] lora4_1250 | one-epoch training 403/1250 optimizer update attempts | elapsed 2129s
+[PROGRESS] lora4_1250 | one-epoch training 404/1250 optimizer update attempts | elapsed 2135s
+[HEARTBEAT] lora4_1250 | one-epoch training 404/1250 optimizer update attempts | elapsed 2138s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 405/1250 optimizer update attempts | elapsed 2140s
+[PROGRESS] lora4_1250 | one-epoch training 406/1250 optimizer update attempts | elapsed 2145s
+[PROGRESS] lora4_1250 | one-epoch training 407/1250 optimizer update attempts | elapsed 2150s
+[HEARTBEAT] lora4_1250 | one-epoch training 407/1250 optimizer update attempts | elapsed 2152s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 408/1250 optimizer update attempts | elapsed 2155s
+[PROGRESS] lora4_1250 | one-epoch training 409/1250 optimizer update attempts | elapsed 2161s
+[PROGRESS] lora4_1250 | one-epoch training 410/1250 optimizer update attempts | elapsed 2166s
+[HEARTBEAT] lora4_1250 | one-epoch training 410/1250 optimizer update attempts | elapsed 2168s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 411/1250 optimizer update attempts | elapsed 2171s
+[PROGRESS] lora4_1250 | one-epoch training 412/1250 optimizer update attempts | elapsed 2176s
+[PROGRESS] lora4_1250 | one-epoch training 413/1250 optimizer update attempts | elapsed 2181s
+[HEARTBEAT] lora4_1250 | one-epoch training 413/1250 optimizer update attempts | elapsed 2182s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 414/1250 optimizer update attempts | elapsed 2186s
+[PROGRESS] lora4_1250 | one-epoch training 415/1250 optimizer update attempts | elapsed 2192s
+[PROGRESS] lora4_1250 | one-epoch training 416/1250 optimizer update attempts | elapsed 2197s
+[HEARTBEAT] lora4_1250 | one-epoch training 416/1250 optimizer update attempts | elapsed 2198s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 417/1250 optimizer update attempts | elapsed 2202s
+[PROGRESS] lora4_1250 | one-epoch training 418/1250 optimizer update attempts | elapsed 2208s
+[HEARTBEAT] lora4_1250 | one-epoch training 418/1250 optimizer update attempts | elapsed 2212s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 419/1250 optimizer update attempts | elapsed 2213s
+[PROGRESS] lora4_1250 | one-epoch training 420/1250 optimizer update attempts | elapsed 2218s
+[PROGRESS] lora4_1250 | one-epoch training 421/1250 optimizer update attempts | elapsed 2223s
+[HEARTBEAT] lora4_1250 | one-epoch training 421/1250 optimizer update attempts | elapsed 2228s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 422/1250 optimizer update attempts | elapsed 2229s
+[PROGRESS] lora4_1250 | one-epoch training 423/1250 optimizer update attempts | elapsed 2234s
+[PROGRESS] lora4_1250 | one-epoch training 424/1250 optimizer update attempts | elapsed 2239s
+[HEARTBEAT] lora4_1250 | one-epoch training 424/1250 optimizer update attempts | elapsed 2242s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 425/1250 optimizer update attempts | elapsed 2244s
+lora4: 425/1250  SFT=0.2371  5.19s/update
+[PROGRESS] lora4_1250 | one-epoch training 426/1250 optimizer update attempts | elapsed 2249s
+[PROGRESS] lora4_1250 | one-epoch training 427/1250 optimizer update attempts | elapsed 2255s
+[HEARTBEAT] lora4_1250 | one-epoch training 427/1250 optimizer update attempts | elapsed 2258s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 428/1250 optimizer update attempts | elapsed 2260s
+[PROGRESS] lora4_1250 | one-epoch training 429/1250 optimizer update attempts | elapsed 2265s
+[PROGRESS] lora4_1250 | one-epoch training 430/1250 optimizer update attempts | elapsed 2270s
+[HEARTBEAT] lora4_1250 | one-epoch training 430/1250 optimizer update attempts | elapsed 2272s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 431/1250 optimizer update attempts | elapsed 2275s
+[PROGRESS] lora4_1250 | one-epoch training 432/1250 optimizer update attempts | elapsed 2280s
+[PROGRESS] lora4_1250 | one-epoch training 433/1250 optimizer update attempts | elapsed 2285s
+[HEARTBEAT] lora4_1250 | one-epoch training 433/1250 optimizer update attempts | elapsed 2288s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 434/1250 optimizer update attempts | elapsed 2291s
+[PROGRESS] lora4_1250 | one-epoch training 435/1250 optimizer update attempts | elapsed 2296s
+[PROGRESS] lora4_1250 | one-epoch training 436/1250 optimizer update attempts | elapsed 2301s
+[HEARTBEAT] lora4_1250 | one-epoch training 436/1250 optimizer update attempts | elapsed 2302s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 437/1250 optimizer update attempts | elapsed 2306s
+[PROGRESS] lora4_1250 | one-epoch training 438/1250 optimizer update attempts | elapsed 2311s
+[PROGRESS] lora4_1250 | one-epoch training 439/1250 optimizer update attempts | elapsed 2317s
+[HEARTBEAT] lora4_1250 | one-epoch training 439/1250 optimizer update attempts | elapsed 2318s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 440/1250 optimizer update attempts | elapsed 2322s
+[PROGRESS] lora4_1250 | one-epoch training 441/1250 optimizer update attempts | elapsed 2327s
+[PROGRESS] lora4_1250 | one-epoch training 442/1250 optimizer update attempts | elapsed 2332s
+[HEARTBEAT] lora4_1250 | one-epoch training 442/1250 optimizer update attempts | elapsed 2332s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 443/1250 optimizer update attempts | elapsed 2337s
+[PROGRESS] lora4_1250 | one-epoch training 444/1250 optimizer update attempts | elapsed 2342s
+[HEARTBEAT] lora4_1250 | one-epoch training 444/1250 optimizer update attempts | elapsed 2348s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 445/1250 optimizer update attempts | elapsed 2348s
+[PROGRESS] lora4_1250 | one-epoch training 446/1250 optimizer update attempts | elapsed 2353s
+[PROGRESS] lora4_1250 | one-epoch training 447/1250 optimizer update attempts | elapsed 2358s
+[HEARTBEAT] lora4_1250 | one-epoch training 447/1250 optimizer update attempts | elapsed 2362s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 448/1250 optimizer update attempts | elapsed 2363s
+[PROGRESS] lora4_1250 | one-epoch training 449/1250 optimizer update attempts | elapsed 2369s
+[PROGRESS] lora4_1250 | one-epoch training 450/1250 optimizer update attempts | elapsed 2374s
+lora4: 450/1250  SFT=0.2464  5.16s/update
+[HEARTBEAT] lora4_1250 | one-epoch training 450/1250 optimizer update attempts | elapsed 2378s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 451/1250 optimizer update attempts | elapsed 2379s
+[PROGRESS] lora4_1250 | one-epoch training 452/1250 optimizer update attempts | elapsed 2385s
+[PROGRESS] lora4_1250 | one-epoch training 453/1250 optimizer update attempts | elapsed 2390s
+[HEARTBEAT] lora4_1250 | one-epoch training 453/1250 optimizer update attempts | elapsed 2392s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 454/1250 optimizer update attempts | elapsed 2395s
+[PROGRESS] lora4_1250 | one-epoch training 455/1250 optimizer update attempts | elapsed 2401s
+[PROGRESS] lora4_1250 | one-epoch training 456/1250 optimizer update attempts | elapsed 2406s
+[HEARTBEAT] lora4_1250 | one-epoch training 456/1250 optimizer update attempts | elapsed 2408s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 457/1250 optimizer update attempts | elapsed 2412s
+[PROGRESS] lora4_1250 | one-epoch training 458/1250 optimizer update attempts | elapsed 2417s
+[PROGRESS] lora4_1250 | one-epoch training 459/1250 optimizer update attempts | elapsed 2422s
+[HEARTBEAT] lora4_1250 | one-epoch training 459/1250 optimizer update attempts | elapsed 2422s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 460/1250 optimizer update attempts | elapsed 2428s
+[PROGRESS] lora4_1250 | one-epoch training 461/1250 optimizer update attempts | elapsed 2433s
+[HEARTBEAT] lora4_1250 | one-epoch training 461/1250 optimizer update attempts | elapsed 2438s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 462/1250 optimizer update attempts | elapsed 2439s
+[PROGRESS] lora4_1250 | one-epoch training 463/1250 optimizer update attempts | elapsed 2444s
+[PROGRESS] lora4_1250 | one-epoch training 464/1250 optimizer update attempts | elapsed 2450s
+[HEARTBEAT] lora4_1250 | one-epoch training 464/1250 optimizer update attempts | elapsed 2452s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 465/1250 optimizer update attempts | elapsed 2455s
+[PROGRESS] lora4_1250 | one-epoch training 466/1250 optimizer update attempts | elapsed 2460s
+[PROGRESS] lora4_1250 | one-epoch training 467/1250 optimizer update attempts | elapsed 2466s
+[HEARTBEAT] lora4_1250 | one-epoch training 467/1250 optimizer update attempts | elapsed 2468s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 468/1250 optimizer update attempts | elapsed 2471s
+[PROGRESS] lora4_1250 | one-epoch training 469/1250 optimizer update attempts | elapsed 2477s
+[PROGRESS] lora4_1250 | one-epoch training 470/1250 optimizer update attempts | elapsed 2482s
+[HEARTBEAT] lora4_1250 | one-epoch training 470/1250 optimizer update attempts | elapsed 2482s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 471/1250 optimizer update attempts | elapsed 2487s
+[PROGRESS] lora4_1250 | one-epoch training 472/1250 optimizer update attempts | elapsed 2493s
+[HEARTBEAT] lora4_1250 | one-epoch training 472/1250 optimizer update attempts | elapsed 2498s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 473/1250 optimizer update attempts | elapsed 2498s
+[PROGRESS] lora4_1250 | one-epoch training 474/1250 optimizer update attempts | elapsed 2504s
+[PROGRESS] lora4_1250 | one-epoch training 475/1250 optimizer update attempts | elapsed 2509s
+lora4: 475/1250  SFT=0.1910  5.39s/update
+[HEARTBEAT] lora4_1250 | one-epoch training 475/1250 optimizer update attempts | elapsed 2512s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 476/1250 optimizer update attempts | elapsed 2514s
+[PROGRESS] lora4_1250 | one-epoch training 477/1250 optimizer update attempts | elapsed 2520s
+[PROGRESS] lora4_1250 | one-epoch training 478/1250 optimizer update attempts | elapsed 2525s
+[HEARTBEAT] lora4_1250 | one-epoch training 478/1250 optimizer update attempts | elapsed 2528s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 479/1250 optimizer update attempts | elapsed 2531s
+[PROGRESS] lora4_1250 | one-epoch training 480/1250 optimizer update attempts | elapsed 2536s
+[PROGRESS] lora4_1250 | one-epoch training 481/1250 optimizer update attempts | elapsed 2541s
+[HEARTBEAT] lora4_1250 | one-epoch training 481/1250 optimizer update attempts | elapsed 2542s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 482/1250 optimizer update attempts | elapsed 2547s
+[PROGRESS] lora4_1250 | one-epoch training 483/1250 optimizer update attempts | elapsed 2552s
+[HEARTBEAT] lora4_1250 | one-epoch training 483/1250 optimizer update attempts | elapsed 2558s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 484/1250 optimizer update attempts | elapsed 2558s
+[PROGRESS] lora4_1250 | one-epoch training 485/1250 optimizer update attempts | elapsed 2563s
+[PROGRESS] lora4_1250 | one-epoch training 486/1250 optimizer update attempts | elapsed 2568s
+[HEARTBEAT] lora4_1250 | one-epoch training 486/1250 optimizer update attempts | elapsed 2572s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 487/1250 optimizer update attempts | elapsed 2574s
+[PROGRESS] lora4_1250 | one-epoch training 488/1250 optimizer update attempts | elapsed 2579s
+[PROGRESS] lora4_1250 | one-epoch training 489/1250 optimizer update attempts | elapsed 2584s
+[HEARTBEAT] lora4_1250 | one-epoch training 489/1250 optimizer update attempts | elapsed 2588s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 490/1250 optimizer update attempts | elapsed 2589s
+[PROGRESS] lora4_1250 | one-epoch training 491/1250 optimizer update attempts | elapsed 2595s
+[PROGRESS] lora4_1250 | one-epoch training 492/1250 optimizer update attempts | elapsed 2600s
+[HEARTBEAT] lora4_1250 | one-epoch training 492/1250 optimizer update attempts | elapsed 2602s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 493/1250 optimizer update attempts | elapsed 2605s
+[PROGRESS] lora4_1250 | one-epoch training 494/1250 optimizer update attempts | elapsed 2610s
+[PROGRESS] lora4_1250 | one-epoch training 495/1250 optimizer update attempts | elapsed 2616s
+[HEARTBEAT] lora4_1250 | one-epoch training 495/1250 optimizer update attempts | elapsed 2618s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 496/1250 optimizer update attempts | elapsed 2621s
+[PROGRESS] lora4_1250 | one-epoch training 497/1250 optimizer update attempts | elapsed 2626s
+[PROGRESS] lora4_1250 | one-epoch training 498/1250 optimizer update attempts | elapsed 2632s
+[HEARTBEAT] lora4_1250 | one-epoch training 498/1250 optimizer update attempts | elapsed 2632s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 499/1250 optimizer update attempts | elapsed 2637s
+[PROGRESS] lora4_1250 | one-epoch training 500/1250 optimizer update attempts | elapsed 2642s
+lora4: 500/1250  SFT=0.2224  5.35s/update
+[CHECKPOINT] lora4_1250 | one-epoch training 500/1250 optimizer update attempts | elapsed 2642s
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/lora4/checkpoints/rolling_update_0500.pt | update 500 | 0.03 GiB
+[HEARTBEAT] lora4_1250 | one-epoch training 500/1250 optimizer update attempts | elapsed 2648s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 501/1250 optimizer update attempts | elapsed 2648s
+[PROGRESS] lora4_1250 | one-epoch training 502/1250 optimizer update attempts | elapsed 2653s
+[PROGRESS] lora4_1250 | one-epoch training 503/1250 optimizer update attempts | elapsed 2658s
+[HEARTBEAT] lora4_1250 | one-epoch training 503/1250 optimizer update attempts | elapsed 2662s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 504/1250 optimizer update attempts | elapsed 2664s
+[PROGRESS] lora4_1250 | one-epoch training 505/1250 optimizer update attempts | elapsed 2669s
+[PROGRESS] lora4_1250 | one-epoch training 506/1250 optimizer update attempts | elapsed 2674s
+[HEARTBEAT] lora4_1250 | one-epoch training 506/1250 optimizer update attempts | elapsed 2678s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 507/1250 optimizer update attempts | elapsed 2680s
+[PROGRESS] lora4_1250 | one-epoch training 508/1250 optimizer update attempts | elapsed 2685s
+[PROGRESS] lora4_1250 | one-epoch training 509/1250 optimizer update attempts | elapsed 2690s
+[HEARTBEAT] lora4_1250 | one-epoch training 509/1250 optimizer update attempts | elapsed 2692s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 510/1250 optimizer update attempts | elapsed 2696s
+[PROGRESS] lora4_1250 | one-epoch training 511/1250 optimizer update attempts | elapsed 2701s
+[PROGRESS] lora4_1250 | one-epoch training 512/1250 optimizer update attempts | elapsed 2706s
+[HEARTBEAT] lora4_1250 | one-epoch training 512/1250 optimizer update attempts | elapsed 2708s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 513/1250 optimizer update attempts | elapsed 2712s
+[PROGRESS] lora4_1250 | one-epoch training 514/1250 optimizer update attempts | elapsed 2717s
+[PROGRESS] lora4_1250 | one-epoch training 515/1250 optimizer update attempts | elapsed 2722s
+[HEARTBEAT] lora4_1250 | one-epoch training 515/1250 optimizer update attempts | elapsed 2722s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 516/1250 optimizer update attempts | elapsed 2727s
+[PROGRESS] lora4_1250 | one-epoch training 517/1250 optimizer update attempts | elapsed 2732s
+[HEARTBEAT] lora4_1250 | one-epoch training 517/1250 optimizer update attempts | elapsed 2738s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 518/1250 optimizer update attempts | elapsed 2738s
+[PROGRESS] lora4_1250 | one-epoch training 519/1250 optimizer update attempts | elapsed 2743s
+[PROGRESS] lora4_1250 | one-epoch training 520/1250 optimizer update attempts | elapsed 2748s
+[HEARTBEAT] lora4_1250 | one-epoch training 520/1250 optimizer update attempts | elapsed 2752s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 521/1250 optimizer update attempts | elapsed 2754s
+[PROGRESS] lora4_1250 | one-epoch training 522/1250 optimizer update attempts | elapsed 2759s
+[PROGRESS] lora4_1250 | one-epoch training 523/1250 optimizer update attempts | elapsed 2764s
+[HEARTBEAT] lora4_1250 | one-epoch training 523/1250 optimizer update attempts | elapsed 2768s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 524/1250 optimizer update attempts | elapsed 2769s
+[PROGRESS] lora4_1250 | one-epoch training 525/1250 optimizer update attempts | elapsed 2774s
+lora4: 525/1250  SFT=0.2097  5.26s/update
+[PROGRESS] lora4_1250 | one-epoch training 526/1250 optimizer update attempts | elapsed 2780s
+[HEARTBEAT] lora4_1250 | one-epoch training 526/1250 optimizer update attempts | elapsed 2782s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 527/1250 optimizer update attempts | elapsed 2785s
+[PROGRESS] lora4_1250 | one-epoch training 528/1250 optimizer update attempts | elapsed 2790s
+[PROGRESS] lora4_1250 | one-epoch training 529/1250 optimizer update attempts | elapsed 2796s
+[HEARTBEAT] lora4_1250 | one-epoch training 529/1250 optimizer update attempts | elapsed 2798s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 530/1250 optimizer update attempts | elapsed 2801s
+[PROGRESS] lora4_1250 | one-epoch training 531/1250 optimizer update attempts | elapsed 2806s
+[PROGRESS] lora4_1250 | one-epoch training 532/1250 optimizer update attempts | elapsed 2812s
+[HEARTBEAT] lora4_1250 | one-epoch training 532/1250 optimizer update attempts | elapsed 2812s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 533/1250 optimizer update attempts | elapsed 2817s
+[PROGRESS] lora4_1250 | one-epoch training 534/1250 optimizer update attempts | elapsed 2822s
+[PROGRESS] lora4_1250 | one-epoch training 535/1250 optimizer update attempts | elapsed 2827s
+[HEARTBEAT] lora4_1250 | one-epoch training 535/1250 optimizer update attempts | elapsed 2828s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 536/1250 optimizer update attempts | elapsed 2833s
+[PROGRESS] lora4_1250 | one-epoch training 537/1250 optimizer update attempts | elapsed 2838s
+[HEARTBEAT] lora4_1250 | one-epoch training 537/1250 optimizer update attempts | elapsed 2842s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 538/1250 optimizer update attempts | elapsed 2843s
+[PROGRESS] lora4_1250 | one-epoch training 539/1250 optimizer update attempts | elapsed 2849s
+[PROGRESS] lora4_1250 | one-epoch training 540/1250 optimizer update attempts | elapsed 2854s
+[HEARTBEAT] lora4_1250 | one-epoch training 540/1250 optimizer update attempts | elapsed 2858s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 541/1250 optimizer update attempts | elapsed 2860s
+[PROGRESS] lora4_1250 | one-epoch training 542/1250 optimizer update attempts | elapsed 2865s
+[PROGRESS] lora4_1250 | one-epoch training 543/1250 optimizer update attempts | elapsed 2870s
+[HEARTBEAT] lora4_1250 | one-epoch training 543/1250 optimizer update attempts | elapsed 2872s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 544/1250 optimizer update attempts | elapsed 2876s
+[PROGRESS] lora4_1250 | one-epoch training 545/1250 optimizer update attempts | elapsed 2881s
+[PROGRESS] lora4_1250 | one-epoch training 546/1250 optimizer update attempts | elapsed 2887s
+[HEARTBEAT] lora4_1250 | one-epoch training 546/1250 optimizer update attempts | elapsed 2888s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 547/1250 optimizer update attempts | elapsed 2892s
+[PROGRESS] lora4_1250 | one-epoch training 548/1250 optimizer update attempts | elapsed 2897s
+[PROGRESS] lora4_1250 | one-epoch training 549/1250 optimizer update attempts | elapsed 2902s
+[HEARTBEAT] lora4_1250 | one-epoch training 549/1250 optimizer update attempts | elapsed 2902s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 550/1250 optimizer update attempts | elapsed 2908s
+lora4: 550/1250  SFT=0.2125  5.27s/update
+[PROGRESS] lora4_1250 | one-epoch training 551/1250 optimizer update attempts | elapsed 2913s
+[HEARTBEAT] lora4_1250 | one-epoch training 551/1250 optimizer update attempts | elapsed 2918s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 552/1250 optimizer update attempts | elapsed 2918s
+[PROGRESS] lora4_1250 | one-epoch training 553/1250 optimizer update attempts | elapsed 2923s
+[PROGRESS] lora4_1250 | one-epoch training 554/1250 optimizer update attempts | elapsed 2929s
+[HEARTBEAT] lora4_1250 | one-epoch training 554/1250 optimizer update attempts | elapsed 2932s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 555/1250 optimizer update attempts | elapsed 2934s
+[PROGRESS] lora4_1250 | one-epoch training 556/1250 optimizer update attempts | elapsed 2939s
+[PROGRESS] lora4_1250 | one-epoch training 557/1250 optimizer update attempts | elapsed 2944s
+[HEARTBEAT] lora4_1250 | one-epoch training 557/1250 optimizer update attempts | elapsed 2948s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 558/1250 optimizer update attempts | elapsed 2950s
+[PROGRESS] lora4_1250 | one-epoch training 559/1250 optimizer update attempts | elapsed 2955s
+[PROGRESS] lora4_1250 | one-epoch training 560/1250 optimizer update attempts | elapsed 2960s
+[HEARTBEAT] lora4_1250 | one-epoch training 560/1250 optimizer update attempts | elapsed 2962s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 561/1250 optimizer update attempts | elapsed 2965s
+[PROGRESS] lora4_1250 | one-epoch training 562/1250 optimizer update attempts | elapsed 2970s
+[PROGRESS] lora4_1250 | one-epoch training 563/1250 optimizer update attempts | elapsed 2976s
+[HEARTBEAT] lora4_1250 | one-epoch training 563/1250 optimizer update attempts | elapsed 2978s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 564/1250 optimizer update attempts | elapsed 2981s
+[PROGRESS] lora4_1250 | one-epoch training 565/1250 optimizer update attempts | elapsed 2986s
+[PROGRESS] lora4_1250 | one-epoch training 566/1250 optimizer update attempts | elapsed 2992s
+[HEARTBEAT] lora4_1250 | one-epoch training 566/1250 optimizer update attempts | elapsed 2992s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 567/1250 optimizer update attempts | elapsed 2997s
+[PROGRESS] lora4_1250 | one-epoch training 568/1250 optimizer update attempts | elapsed 3003s
+[HEARTBEAT] lora4_1250 | one-epoch training 568/1250 optimizer update attempts | elapsed 3008s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 569/1250 optimizer update attempts | elapsed 3008s
+[PROGRESS] lora4_1250 | one-epoch training 570/1250 optimizer update attempts | elapsed 3013s
+[PROGRESS] lora4_1250 | one-epoch training 571/1250 optimizer update attempts | elapsed 3018s
+[HEARTBEAT] lora4_1250 | one-epoch training 571/1250 optimizer update attempts | elapsed 3023s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 572/1250 optimizer update attempts | elapsed 3024s
+[PROGRESS] lora4_1250 | one-epoch training 573/1250 optimizer update attempts | elapsed 3029s
+[PROGRESS] lora4_1250 | one-epoch training 574/1250 optimizer update attempts | elapsed 3034s
+[HEARTBEAT] lora4_1250 | one-epoch training 574/1250 optimizer update attempts | elapsed 3038s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 575/1250 optimizer update attempts | elapsed 3040s
+lora4: 575/1250  SFT=0.2187  5.44s/update
+[PROGRESS] lora4_1250 | one-epoch training 576/1250 optimizer update attempts | elapsed 3045s
+[PROGRESS] lora4_1250 | one-epoch training 577/1250 optimizer update attempts | elapsed 3051s
+[HEARTBEAT] lora4_1250 | one-epoch training 577/1250 optimizer update attempts | elapsed 3053s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 578/1250 optimizer update attempts | elapsed 3056s
+[PROGRESS] lora4_1250 | one-epoch training 579/1250 optimizer update attempts | elapsed 3061s
+[PROGRESS] lora4_1250 | one-epoch training 580/1250 optimizer update attempts | elapsed 3066s
+[HEARTBEAT] lora4_1250 | one-epoch training 580/1250 optimizer update attempts | elapsed 3068s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 581/1250 optimizer update attempts | elapsed 3072s
+[PROGRESS] lora4_1250 | one-epoch training 582/1250 optimizer update attempts | elapsed 3077s
+[PROGRESS] lora4_1250 | one-epoch training 583/1250 optimizer update attempts | elapsed 3082s
+[HEARTBEAT] lora4_1250 | one-epoch training 583/1250 optimizer update attempts | elapsed 3083s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 584/1250 optimizer update attempts | elapsed 3087s
+[PROGRESS] lora4_1250 | one-epoch training 585/1250 optimizer update attempts | elapsed 3093s
+[HEARTBEAT] lora4_1250 | one-epoch training 585/1250 optimizer update attempts | elapsed 3098s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 586/1250 optimizer update attempts | elapsed 3098s
+[PROGRESS] lora4_1250 | one-epoch training 587/1250 optimizer update attempts | elapsed 3104s
+[PROGRESS] lora4_1250 | one-epoch training 588/1250 optimizer update attempts | elapsed 3109s
+[HEARTBEAT] lora4_1250 | one-epoch training 588/1250 optimizer update attempts | elapsed 3113s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 589/1250 optimizer update attempts | elapsed 3114s
+[PROGRESS] lora4_1250 | one-epoch training 590/1250 optimizer update attempts | elapsed 3120s
+[PROGRESS] lora4_1250 | one-epoch training 591/1250 optimizer update attempts | elapsed 3125s
+[HEARTBEAT] lora4_1250 | one-epoch training 591/1250 optimizer update attempts | elapsed 3128s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 592/1250 optimizer update attempts | elapsed 3130s
+[PROGRESS] lora4_1250 | one-epoch training 593/1250 optimizer update attempts | elapsed 3136s
+[PROGRESS] lora4_1250 | one-epoch training 594/1250 optimizer update attempts | elapsed 3141s
+[HEARTBEAT] lora4_1250 | one-epoch training 594/1250 optimizer update attempts | elapsed 3143s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 595/1250 optimizer update attempts | elapsed 3147s
+[PROGRESS] lora4_1250 | one-epoch training 596/1250 optimizer update attempts | elapsed 3152s
+[PROGRESS] lora4_1250 | one-epoch training 597/1250 optimizer update attempts | elapsed 3158s
+[HEARTBEAT] lora4_1250 | one-epoch training 597/1250 optimizer update attempts | elapsed 3158s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 598/1250 optimizer update attempts | elapsed 3163s
+[PROGRESS] lora4_1250 | one-epoch training 599/1250 optimizer update attempts | elapsed 3168s
+[HEARTBEAT] lora4_1250 | one-epoch training 599/1250 optimizer update attempts | elapsed 3173s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 600/1250 optimizer update attempts | elapsed 3173s
+lora4: 600/1250  SFT=0.2178  5.02s/update
+[CHECKPOINT] lora4_1250 | one-epoch training 600/1250 optimizer update attempts | elapsed 3173s
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/lora4/checkpoints/rolling_update_0600.pt | update 600 | 0.03 GiB
+[PROGRESS] lora4_1250 | one-epoch training 601/1250 optimizer update attempts | elapsed 3179s
+[PROGRESS] lora4_1250 | one-epoch training 602/1250 optimizer update attempts | elapsed 3184s
+[HEARTBEAT] lora4_1250 | one-epoch training 602/1250 optimizer update attempts | elapsed 3188s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 603/1250 optimizer update attempts | elapsed 3190s
+[PROGRESS] lora4_1250 | one-epoch training 604/1250 optimizer update attempts | elapsed 3195s
+[PROGRESS] lora4_1250 | one-epoch training 605/1250 optimizer update attempts | elapsed 3200s
+[HEARTBEAT] lora4_1250 | one-epoch training 605/1250 optimizer update attempts | elapsed 3203s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 606/1250 optimizer update attempts | elapsed 3206s
+[PROGRESS] lora4_1250 | one-epoch training 607/1250 optimizer update attempts | elapsed 3212s
+[PROGRESS] lora4_1250 | one-epoch training 608/1250 optimizer update attempts | elapsed 3217s
+[HEARTBEAT] lora4_1250 | one-epoch training 608/1250 optimizer update attempts | elapsed 3218s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 609/1250 optimizer update attempts | elapsed 3222s
+[PROGRESS] lora4_1250 | one-epoch training 610/1250 optimizer update attempts | elapsed 3228s
+[HEARTBEAT] lora4_1250 | one-epoch training 610/1250 optimizer update attempts | elapsed 3233s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 611/1250 optimizer update attempts | elapsed 3233s
+[PROGRESS] lora4_1250 | one-epoch training 612/1250 optimizer update attempts | elapsed 3238s
+[PROGRESS] lora4_1250 | one-epoch training 613/1250 optimizer update attempts | elapsed 3244s
+[HEARTBEAT] lora4_1250 | one-epoch training 613/1250 optimizer update attempts | elapsed 3248s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 614/1250 optimizer update attempts | elapsed 3249s
+[PROGRESS] lora4_1250 | one-epoch training 615/1250 optimizer update attempts | elapsed 3254s
+[PROGRESS] lora4_1250 | one-epoch training 616/1250 optimizer update attempts | elapsed 3260s
+[HEARTBEAT] lora4_1250 | one-epoch training 616/1250 optimizer update attempts | elapsed 3263s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 617/1250 optimizer update attempts | elapsed 3265s
+[PROGRESS] lora4_1250 | one-epoch training 618/1250 optimizer update attempts | elapsed 3270s
+[PROGRESS] lora4_1250 | one-epoch training 619/1250 optimizer update attempts | elapsed 3276s
+[HEARTBEAT] lora4_1250 | one-epoch training 619/1250 optimizer update attempts | elapsed 3278s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 620/1250 optimizer update attempts | elapsed 3281s
+[PROGRESS] lora4_1250 | one-epoch training 621/1250 optimizer update attempts | elapsed 3286s
+[PROGRESS] lora4_1250 | one-epoch training 622/1250 optimizer update attempts | elapsed 3291s
+[HEARTBEAT] lora4_1250 | one-epoch training 622/1250 optimizer update attempts | elapsed 3293s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 623/1250 optimizer update attempts | elapsed 3296s
+[PROGRESS] lora4_1250 | one-epoch training 624/1250 optimizer update attempts | elapsed 3302s
+[PROGRESS] lora4_1250 | one-epoch training 625/1250 optimizer update attempts | elapsed 3307s
+lora4: 625/1250  SFT=0.2126  5.43s/update
+[CHECKPOINT] lora4_1250 | one-epoch training 625/1250 optimizer update attempts | elapsed 3307s
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/lora4/checkpoints/update_0625.pt | update 625 | 0.03 GiB
+[HEARTBEAT] lora4_1250 | one-epoch training 625/1250 optimizer update attempts | elapsed 3308s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 626/1250 optimizer update attempts | elapsed 3313s
+[PROGRESS] lora4_1250 | one-epoch training 627/1250 optimizer update attempts | elapsed 3318s
+[HEARTBEAT] lora4_1250 | one-epoch training 627/1250 optimizer update attempts | elapsed 3323s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 628/1250 optimizer update attempts | elapsed 3324s
+[PROGRESS] lora4_1250 | one-epoch training 629/1250 optimizer update attempts | elapsed 3329s
+[PROGRESS] lora4_1250 | one-epoch training 630/1250 optimizer update attempts | elapsed 3335s
+[HEARTBEAT] lora4_1250 | one-epoch training 630/1250 optimizer update attempts | elapsed 3338s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 631/1250 optimizer update attempts | elapsed 3340s
+[PROGRESS] lora4_1250 | one-epoch training 632/1250 optimizer update attempts | elapsed 3345s
+[PROGRESS] lora4_1250 | one-epoch training 633/1250 optimizer update attempts | elapsed 3351s
+[HEARTBEAT] lora4_1250 | one-epoch training 633/1250 optimizer update attempts | elapsed 3353s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 634/1250 optimizer update attempts | elapsed 3356s
+[PROGRESS] lora4_1250 | one-epoch training 635/1250 optimizer update attempts | elapsed 3361s
+[PROGRESS] lora4_1250 | one-epoch training 636/1250 optimizer update attempts | elapsed 3366s
+[HEARTBEAT] lora4_1250 | one-epoch training 636/1250 optimizer update attempts | elapsed 3368s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 637/1250 optimizer update attempts | elapsed 3372s
+[PROGRESS] lora4_1250 | one-epoch training 638/1250 optimizer update attempts | elapsed 3377s
+[PROGRESS] lora4_1250 | one-epoch training 639/1250 optimizer update attempts | elapsed 3383s
+[HEARTBEAT] lora4_1250 | one-epoch training 639/1250 optimizer update attempts | elapsed 3383s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 640/1250 optimizer update attempts | elapsed 3388s
+[PROGRESS] lora4_1250 | one-epoch training 641/1250 optimizer update attempts | elapsed 3393s
+[HEARTBEAT] lora4_1250 | one-epoch training 641/1250 optimizer update attempts | elapsed 3398s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 642/1250 optimizer update attempts | elapsed 3399s
+[PROGRESS] lora4_1250 | one-epoch training 643/1250 optimizer update attempts | elapsed 3404s
+[PROGRESS] lora4_1250 | one-epoch training 644/1250 optimizer update attempts | elapsed 3409s
+[HEARTBEAT] lora4_1250 | one-epoch training 644/1250 optimizer update attempts | elapsed 3413s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 645/1250 optimizer update attempts | elapsed 3414s
+[PROGRESS] lora4_1250 | one-epoch training 646/1250 optimizer update attempts | elapsed 3420s
+[PROGRESS] lora4_1250 | one-epoch training 647/1250 optimizer update attempts | elapsed 3425s
+[HEARTBEAT] lora4_1250 | one-epoch training 647/1250 optimizer update attempts | elapsed 3428s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 648/1250 optimizer update attempts | elapsed 3430s
+[PROGRESS] lora4_1250 | one-epoch training 649/1250 optimizer update attempts | elapsed 3435s
+[PROGRESS] lora4_1250 | one-epoch training 650/1250 optimizer update attempts | elapsed 3441s
+lora4: 650/1250  SFT=0.1939  5.24s/update
+[HEARTBEAT] lora4_1250 | one-epoch training 650/1250 optimizer update attempts | elapsed 3443s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 651/1250 optimizer update attempts | elapsed 3446s
+[PROGRESS] lora4_1250 | one-epoch training 652/1250 optimizer update attempts | elapsed 3451s
+[PROGRESS] lora4_1250 | one-epoch training 653/1250 optimizer update attempts | elapsed 3456s
+[HEARTBEAT] lora4_1250 | one-epoch training 653/1250 optimizer update attempts | elapsed 3458s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 654/1250 optimizer update attempts | elapsed 3461s
+[PROGRESS] lora4_1250 | one-epoch training 655/1250 optimizer update attempts | elapsed 3467s
+[PROGRESS] lora4_1250 | one-epoch training 656/1250 optimizer update attempts | elapsed 3472s
+[HEARTBEAT] lora4_1250 | one-epoch training 656/1250 optimizer update attempts | elapsed 3473s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 657/1250 optimizer update attempts | elapsed 3477s
+[PROGRESS] lora4_1250 | one-epoch training 658/1250 optimizer update attempts | elapsed 3482s
+[PROGRESS] lora4_1250 | one-epoch training 659/1250 optimizer update attempts | elapsed 3488s
+[HEARTBEAT] lora4_1250 | one-epoch training 659/1250 optimizer update attempts | elapsed 3488s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 660/1250 optimizer update attempts | elapsed 3493s
+[PROGRESS] lora4_1250 | one-epoch training 661/1250 optimizer update attempts | elapsed 3498s
+[HEARTBEAT] lora4_1250 | one-epoch training 661/1250 optimizer update attempts | elapsed 3503s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 662/1250 optimizer update attempts | elapsed 3503s
+[PROGRESS] lora4_1250 | one-epoch training 663/1250 optimizer update attempts | elapsed 3508s
+[PROGRESS] lora4_1250 | one-epoch training 664/1250 optimizer update attempts | elapsed 3513s
+[HEARTBEAT] lora4_1250 | one-epoch training 664/1250 optimizer update attempts | elapsed 3518s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 665/1250 optimizer update attempts | elapsed 3518s
+[PROGRESS] lora4_1250 | one-epoch training 666/1250 optimizer update attempts | elapsed 3523s
+[PROGRESS] lora4_1250 | one-epoch training 667/1250 optimizer update attempts | elapsed 3528s
+[HEARTBEAT] lora4_1250 | one-epoch training 667/1250 optimizer update attempts | elapsed 3533s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 668/1250 optimizer update attempts | elapsed 3533s
+[PROGRESS] lora4_1250 | one-epoch training 669/1250 optimizer update attempts | elapsed 3539s
+[PROGRESS] lora4_1250 | one-epoch training 670/1250 optimizer update attempts | elapsed 3544s
+[HEARTBEAT] lora4_1250 | one-epoch training 670/1250 optimizer update attempts | elapsed 3548s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 671/1250 optimizer update attempts | elapsed 3549s
+[PROGRESS] lora4_1250 | one-epoch training 672/1250 optimizer update attempts | elapsed 3554s
+[PROGRESS] lora4_1250 | one-epoch training 673/1250 optimizer update attempts | elapsed 3559s
+[HEARTBEAT] lora4_1250 | one-epoch training 673/1250 optimizer update attempts | elapsed 3563s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 674/1250 optimizer update attempts | elapsed 3564s
+[PROGRESS] lora4_1250 | one-epoch training 675/1250 optimizer update attempts | elapsed 3569s
+lora4: 675/1250  SFT=0.2249  5.11s/update
+[PROGRESS] lora4_1250 | one-epoch training 676/1250 optimizer update attempts | elapsed 3574s
+[HEARTBEAT] lora4_1250 | one-epoch training 676/1250 optimizer update attempts | elapsed 3578s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 677/1250 optimizer update attempts | elapsed 3579s
+[PROGRESS] lora4_1250 | one-epoch training 678/1250 optimizer update attempts | elapsed 3584s
+[PROGRESS] lora4_1250 | one-epoch training 679/1250 optimizer update attempts | elapsed 3589s
+[HEARTBEAT] lora4_1250 | one-epoch training 679/1250 optimizer update attempts | elapsed 3593s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 680/1250 optimizer update attempts | elapsed 3594s
+[PROGRESS] lora4_1250 | one-epoch training 681/1250 optimizer update attempts | elapsed 3599s
+[PROGRESS] lora4_1250 | one-epoch training 682/1250 optimizer update attempts | elapsed 3604s
+[HEARTBEAT] lora4_1250 | one-epoch training 682/1250 optimizer update attempts | elapsed 3608s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 683/1250 optimizer update attempts | elapsed 3610s
+[PROGRESS] lora4_1250 | one-epoch training 684/1250 optimizer update attempts | elapsed 3615s
+[PROGRESS] lora4_1250 | one-epoch training 685/1250 optimizer update attempts | elapsed 3620s
+[HEARTBEAT] lora4_1250 | one-epoch training 685/1250 optimizer update attempts | elapsed 3623s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 686/1250 optimizer update attempts | elapsed 3625s
+[PROGRESS] lora4_1250 | one-epoch training 687/1250 optimizer update attempts | elapsed 3630s
+[PROGRESS] lora4_1250 | one-epoch training 688/1250 optimizer update attempts | elapsed 3635s
+[HEARTBEAT] lora4_1250 | one-epoch training 688/1250 optimizer update attempts | elapsed 3638s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 689/1250 optimizer update attempts | elapsed 3640s
+[PROGRESS] lora4_1250 | one-epoch training 690/1250 optimizer update attempts | elapsed 3645s
+[PROGRESS] lora4_1250 | one-epoch training 691/1250 optimizer update attempts | elapsed 3650s
+[HEARTBEAT] lora4_1250 | one-epoch training 691/1250 optimizer update attempts | elapsed 3653s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 692/1250 optimizer update attempts | elapsed 3655s
+[PROGRESS] lora4_1250 | one-epoch training 693/1250 optimizer update attempts | elapsed 3660s
+[PROGRESS] lora4_1250 | one-epoch training 694/1250 optimizer update attempts | elapsed 3665s
+[HEARTBEAT] lora4_1250 | one-epoch training 694/1250 optimizer update attempts | elapsed 3668s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 695/1250 optimizer update attempts | elapsed 3670s
+[PROGRESS] lora4_1250 | one-epoch training 696/1250 optimizer update attempts | elapsed 3676s
+[PROGRESS] lora4_1250 | one-epoch training 697/1250 optimizer update attempts | elapsed 3681s
+[HEARTBEAT] lora4_1250 | one-epoch training 697/1250 optimizer update attempts | elapsed 3683s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 698/1250 optimizer update attempts | elapsed 3686s
+[PROGRESS] lora4_1250 | one-epoch training 699/1250 optimizer update attempts | elapsed 3691s
+[PROGRESS] lora4_1250 | one-epoch training 700/1250 optimizer update attempts | elapsed 3696s
+lora4: 700/1250  SFT=0.2227  5.14s/update
+[CHECKPOINT] lora4_1250 | one-epoch training 700/1250 optimizer update attempts | elapsed 3696s
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/lora4/checkpoints/rolling_update_0700.pt | update 700 | 0.03 GiB
+[HEARTBEAT] lora4_1250 | one-epoch training 700/1250 optimizer update attempts | elapsed 3698s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 701/1250 optimizer update attempts | elapsed 3701s
+[PROGRESS] lora4_1250 | one-epoch training 702/1250 optimizer update attempts | elapsed 3706s
+[PROGRESS] lora4_1250 | one-epoch training 703/1250 optimizer update attempts | elapsed 3711s
+[HEARTBEAT] lora4_1250 | one-epoch training 703/1250 optimizer update attempts | elapsed 3713s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 704/1250 optimizer update attempts | elapsed 3716s
+[PROGRESS] lora4_1250 | one-epoch training 705/1250 optimizer update attempts | elapsed 3721s
+[PROGRESS] lora4_1250 | one-epoch training 706/1250 optimizer update attempts | elapsed 3727s
+[HEARTBEAT] lora4_1250 | one-epoch training 706/1250 optimizer update attempts | elapsed 3728s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 707/1250 optimizer update attempts | elapsed 3731s
+[PROGRESS] lora4_1250 | one-epoch training 708/1250 optimizer update attempts | elapsed 3737s
+[PROGRESS] lora4_1250 | one-epoch training 709/1250 optimizer update attempts | elapsed 3742s
+[HEARTBEAT] lora4_1250 | one-epoch training 709/1250 optimizer update attempts | elapsed 3743s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 710/1250 optimizer update attempts | elapsed 3747s
+[PROGRESS] lora4_1250 | one-epoch training 711/1250 optimizer update attempts | elapsed 3752s
+[PROGRESS] lora4_1250 | one-epoch training 712/1250 optimizer update attempts | elapsed 3757s
+[HEARTBEAT] lora4_1250 | one-epoch training 712/1250 optimizer update attempts | elapsed 3758s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 713/1250 optimizer update attempts | elapsed 3762s
+[PROGRESS] lora4_1250 | one-epoch training 714/1250 optimizer update attempts | elapsed 3767s
+[PROGRESS] lora4_1250 | one-epoch training 715/1250 optimizer update attempts | elapsed 3772s
+[HEARTBEAT] lora4_1250 | one-epoch training 715/1250 optimizer update attempts | elapsed 3773s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 716/1250 optimizer update attempts | elapsed 3777s
+[PROGRESS] lora4_1250 | one-epoch training 717/1250 optimizer update attempts | elapsed 3782s
+[PROGRESS] lora4_1250 | one-epoch training 718/1250 optimizer update attempts | elapsed 3788s
+[HEARTBEAT] lora4_1250 | one-epoch training 718/1250 optimizer update attempts | elapsed 3788s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 719/1250 optimizer update attempts | elapsed 3793s
+[PROGRESS] lora4_1250 | one-epoch training 720/1250 optimizer update attempts | elapsed 3798s
+[PROGRESS] lora4_1250 | one-epoch training 721/1250 optimizer update attempts | elapsed 3803s
+[HEARTBEAT] lora4_1250 | one-epoch training 721/1250 optimizer update attempts | elapsed 3803s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 722/1250 optimizer update attempts | elapsed 3808s
+[PROGRESS] lora4_1250 | one-epoch training 723/1250 optimizer update attempts | elapsed 3813s
+[PROGRESS] lora4_1250 | one-epoch training 724/1250 optimizer update attempts | elapsed 3818s
+[HEARTBEAT] lora4_1250 | one-epoch training 724/1250 optimizer update attempts | elapsed 3818s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 725/1250 optimizer update attempts | elapsed 3823s
+lora4: 725/1250  SFT=0.2047  5.17s/update
+[PROGRESS] lora4_1250 | one-epoch training 726/1250 optimizer update attempts | elapsed 3828s
+[HEARTBEAT] lora4_1250 | one-epoch training 726/1250 optimizer update attempts | elapsed 3833s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 727/1250 optimizer update attempts | elapsed 3833s
+[PROGRESS] lora4_1250 | one-epoch training 728/1250 optimizer update attempts | elapsed 3838s
+[PROGRESS] lora4_1250 | one-epoch training 729/1250 optimizer update attempts | elapsed 3843s
+[HEARTBEAT] lora4_1250 | one-epoch training 729/1250 optimizer update attempts | elapsed 3848s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 730/1250 optimizer update attempts | elapsed 3848s
+[PROGRESS] lora4_1250 | one-epoch training 731/1250 optimizer update attempts | elapsed 3854s
+[PROGRESS] lora4_1250 | one-epoch training 732/1250 optimizer update attempts | elapsed 3859s
+[HEARTBEAT] lora4_1250 | one-epoch training 732/1250 optimizer update attempts | elapsed 3863s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 733/1250 optimizer update attempts | elapsed 3864s
+[PROGRESS] lora4_1250 | one-epoch training 734/1250 optimizer update attempts | elapsed 3869s
+[PROGRESS] lora4_1250 | one-epoch training 735/1250 optimizer update attempts | elapsed 3874s
+[HEARTBEAT] lora4_1250 | one-epoch training 735/1250 optimizer update attempts | elapsed 3878s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 736/1250 optimizer update attempts | elapsed 3879s
+[PROGRESS] lora4_1250 | one-epoch training 737/1250 optimizer update attempts | elapsed 3884s
+[PROGRESS] lora4_1250 | one-epoch training 738/1250 optimizer update attempts | elapsed 3889s
+[HEARTBEAT] lora4_1250 | one-epoch training 738/1250 optimizer update attempts | elapsed 3893s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 739/1250 optimizer update attempts | elapsed 3894s
+[PROGRESS] lora4_1250 | one-epoch training 740/1250 optimizer update attempts | elapsed 3899s
+[PROGRESS] lora4_1250 | one-epoch training 741/1250 optimizer update attempts | elapsed 3904s
+[HEARTBEAT] lora4_1250 | one-epoch training 741/1250 optimizer update attempts | elapsed 3908s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 742/1250 optimizer update attempts | elapsed 3909s
+[PROGRESS] lora4_1250 | one-epoch training 743/1250 optimizer update attempts | elapsed 3914s
+[PROGRESS] lora4_1250 | one-epoch training 744/1250 optimizer update attempts | elapsed 3920s
+[HEARTBEAT] lora4_1250 | one-epoch training 744/1250 optimizer update attempts | elapsed 3923s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 745/1250 optimizer update attempts | elapsed 3925s
+[PROGRESS] lora4_1250 | one-epoch training 746/1250 optimizer update attempts | elapsed 3930s
+[PROGRESS] lora4_1250 | one-epoch training 747/1250 optimizer update attempts | elapsed 3935s
+[HEARTBEAT] lora4_1250 | one-epoch training 747/1250 optimizer update attempts | elapsed 3938s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 748/1250 optimizer update attempts | elapsed 3940s
+[PROGRESS] lora4_1250 | one-epoch training 749/1250 optimizer update attempts | elapsed 3945s
+[PROGRESS] lora4_1250 | one-epoch training 750/1250 optimizer update attempts | elapsed 3950s
+lora4: 750/1250  SFT=0.1668  5.13s/update
+[HEARTBEAT] lora4_1250 | one-epoch training 750/1250 optimizer update attempts | elapsed 3953s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 751/1250 optimizer update attempts | elapsed 3955s
+[PROGRESS] lora4_1250 | one-epoch training 752/1250 optimizer update attempts | elapsed 3960s
+[PROGRESS] lora4_1250 | one-epoch training 753/1250 optimizer update attempts | elapsed 3965s
+[HEARTBEAT] lora4_1250 | one-epoch training 753/1250 optimizer update attempts | elapsed 3968s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 754/1250 optimizer update attempts | elapsed 3970s
+[PROGRESS] lora4_1250 | one-epoch training 755/1250 optimizer update attempts | elapsed 3975s
+[PROGRESS] lora4_1250 | one-epoch training 756/1250 optimizer update attempts | elapsed 3980s
+[HEARTBEAT] lora4_1250 | one-epoch training 756/1250 optimizer update attempts | elapsed 3983s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 757/1250 optimizer update attempts | elapsed 3986s
+[PROGRESS] lora4_1250 | one-epoch training 758/1250 optimizer update attempts | elapsed 3991s
+[PROGRESS] lora4_1250 | one-epoch training 759/1250 optimizer update attempts | elapsed 3996s
+[HEARTBEAT] lora4_1250 | one-epoch training 759/1250 optimizer update attempts | elapsed 3998s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 760/1250 optimizer update attempts | elapsed 4001s
+[PROGRESS] lora4_1250 | one-epoch training 761/1250 optimizer update attempts | elapsed 4006s
+[PROGRESS] lora4_1250 | one-epoch training 762/1250 optimizer update attempts | elapsed 4011s
+[HEARTBEAT] lora4_1250 | one-epoch training 762/1250 optimizer update attempts | elapsed 4013s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 763/1250 optimizer update attempts | elapsed 4016s
+[PROGRESS] lora4_1250 | one-epoch training 764/1250 optimizer update attempts | elapsed 4021s
+[PROGRESS] lora4_1250 | one-epoch training 765/1250 optimizer update attempts | elapsed 4026s
+[HEARTBEAT] lora4_1250 | one-epoch training 765/1250 optimizer update attempts | elapsed 4028s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 766/1250 optimizer update attempts | elapsed 4031s
+[PROGRESS] lora4_1250 | one-epoch training 767/1250 optimizer update attempts | elapsed 4036s
+[PROGRESS] lora4_1250 | one-epoch training 768/1250 optimizer update attempts | elapsed 4041s
+[HEARTBEAT] lora4_1250 | one-epoch training 768/1250 optimizer update attempts | elapsed 4043s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 769/1250 optimizer update attempts | elapsed 4046s
+[PROGRESS] lora4_1250 | one-epoch training 770/1250 optimizer update attempts | elapsed 4051s
+[PROGRESS] lora4_1250 | one-epoch training 771/1250 optimizer update attempts | elapsed 4057s
+[HEARTBEAT] lora4_1250 | one-epoch training 771/1250 optimizer update attempts | elapsed 4058s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 772/1250 optimizer update attempts | elapsed 4062s
+[PROGRESS] lora4_1250 | one-epoch training 773/1250 optimizer update attempts | elapsed 4066s
+[PROGRESS] lora4_1250 | one-epoch training 774/1250 optimizer update attempts | elapsed 4072s
+[HEARTBEAT] lora4_1250 | one-epoch training 774/1250 optimizer update attempts | elapsed 4073s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 775/1250 optimizer update attempts | elapsed 4077s
+lora4: 775/1250  SFT=0.1963  5.14s/update
+[PROGRESS] lora4_1250 | one-epoch training 776/1250 optimizer update attempts | elapsed 4082s
+[PROGRESS] lora4_1250 | one-epoch training 777/1250 optimizer update attempts | elapsed 4087s
+[HEARTBEAT] lora4_1250 | one-epoch training 777/1250 optimizer update attempts | elapsed 4088s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 778/1250 optimizer update attempts | elapsed 4092s
+[PROGRESS] lora4_1250 | one-epoch training 779/1250 optimizer update attempts | elapsed 4097s
+[PROGRESS] lora4_1250 | one-epoch training 780/1250 optimizer update attempts | elapsed 4102s
+[HEARTBEAT] lora4_1250 | one-epoch training 780/1250 optimizer update attempts | elapsed 4103s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 781/1250 optimizer update attempts | elapsed 4108s
+[PROGRESS] lora4_1250 | one-epoch training 782/1250 optimizer update attempts | elapsed 4112s
+[PROGRESS] lora4_1250 | one-epoch training 783/1250 optimizer update attempts | elapsed 4117s
+[HEARTBEAT] lora4_1250 | one-epoch training 783/1250 optimizer update attempts | elapsed 4118s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 784/1250 optimizer update attempts | elapsed 4123s
+[PROGRESS] lora4_1250 | one-epoch training 785/1250 optimizer update attempts | elapsed 4128s
+[PROGRESS] lora4_1250 | one-epoch training 786/1250 optimizer update attempts | elapsed 4133s
+[HEARTBEAT] lora4_1250 | one-epoch training 786/1250 optimizer update attempts | elapsed 4133s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 787/1250 optimizer update attempts | elapsed 4138s
+[PROGRESS] lora4_1250 | one-epoch training 788/1250 optimizer update attempts | elapsed 4143s
+[PROGRESS] lora4_1250 | one-epoch training 789/1250 optimizer update attempts | elapsed 4148s
+[HEARTBEAT] lora4_1250 | one-epoch training 789/1250 optimizer update attempts | elapsed 4148s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 790/1250 optimizer update attempts | elapsed 4153s
+[PROGRESS] lora4_1250 | one-epoch training 791/1250 optimizer update attempts | elapsed 4158s
+[PROGRESS] lora4_1250 | one-epoch training 792/1250 optimizer update attempts | elapsed 4163s
+[HEARTBEAT] lora4_1250 | one-epoch training 792/1250 optimizer update attempts | elapsed 4163s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 793/1250 optimizer update attempts | elapsed 4168s
+[PROGRESS] lora4_1250 | one-epoch training 794/1250 optimizer update attempts | elapsed 4173s
+[PROGRESS] lora4_1250 | one-epoch training 795/1250 optimizer update attempts | elapsed 4178s
+[HEARTBEAT] lora4_1250 | one-epoch training 795/1250 optimizer update attempts | elapsed 4178s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 796/1250 optimizer update attempts | elapsed 4183s
+[PROGRESS] lora4_1250 | one-epoch training 797/1250 optimizer update attempts | elapsed 4188s
+[HEARTBEAT] lora4_1250 | one-epoch training 797/1250 optimizer update attempts | elapsed 4193s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 798/1250 optimizer update attempts | elapsed 4194s
+[PROGRESS] lora4_1250 | one-epoch training 799/1250 optimizer update attempts | elapsed 4199s
+[PROGRESS] lora4_1250 | one-epoch training 800/1250 optimizer update attempts | elapsed 4204s
+lora4: 800/1250  SFT=0.1944  4.86s/update
+[CHECKPOINT] lora4_1250 | one-epoch training 800/1250 optimizer update attempts | elapsed 4204s
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/lora4/checkpoints/rolling_update_0800.pt | update 800 | 0.03 GiB
+[HEARTBEAT] lora4_1250 | one-epoch training 800/1250 optimizer update attempts | elapsed 4208s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 801/1250 optimizer update attempts | elapsed 4209s
+[PROGRESS] lora4_1250 | one-epoch training 802/1250 optimizer update attempts | elapsed 4214s
+[PROGRESS] lora4_1250 | one-epoch training 803/1250 optimizer update attempts | elapsed 4219s
+[HEARTBEAT] lora4_1250 | one-epoch training 803/1250 optimizer update attempts | elapsed 4223s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 804/1250 optimizer update attempts | elapsed 4224s
+[PROGRESS] lora4_1250 | one-epoch training 805/1250 optimizer update attempts | elapsed 4229s
+[PROGRESS] lora4_1250 | one-epoch training 806/1250 optimizer update attempts | elapsed 4234s
+[HEARTBEAT] lora4_1250 | one-epoch training 806/1250 optimizer update attempts | elapsed 4238s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 807/1250 optimizer update attempts | elapsed 4240s
+[PROGRESS] lora4_1250 | one-epoch training 808/1250 optimizer update attempts | elapsed 4244s
+[PROGRESS] lora4_1250 | one-epoch training 809/1250 optimizer update attempts | elapsed 4250s
+[HEARTBEAT] lora4_1250 | one-epoch training 809/1250 optimizer update attempts | elapsed 4253s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 810/1250 optimizer update attempts | elapsed 4255s
+[PROGRESS] lora4_1250 | one-epoch training 811/1250 optimizer update attempts | elapsed 4260s
+[PROGRESS] lora4_1250 | one-epoch training 812/1250 optimizer update attempts | elapsed 4265s
+[HEARTBEAT] lora4_1250 | one-epoch training 812/1250 optimizer update attempts | elapsed 4268s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 813/1250 optimizer update attempts | elapsed 4270s
+[PROGRESS] lora4_1250 | one-epoch training 814/1250 optimizer update attempts | elapsed 4275s
+[PROGRESS] lora4_1250 | one-epoch training 815/1250 optimizer update attempts | elapsed 4280s
+[HEARTBEAT] lora4_1250 | one-epoch training 815/1250 optimizer update attempts | elapsed 4283s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 816/1250 optimizer update attempts | elapsed 4285s
+[PROGRESS] lora4_1250 | one-epoch training 817/1250 optimizer update attempts | elapsed 4290s
+[PROGRESS] lora4_1250 | one-epoch training 818/1250 optimizer update attempts | elapsed 4295s
+[HEARTBEAT] lora4_1250 | one-epoch training 818/1250 optimizer update attempts | elapsed 4298s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 819/1250 optimizer update attempts | elapsed 4300s
+[PROGRESS] lora4_1250 | one-epoch training 820/1250 optimizer update attempts | elapsed 4305s
+[PROGRESS] lora4_1250 | one-epoch training 821/1250 optimizer update attempts | elapsed 4310s
+[HEARTBEAT] lora4_1250 | one-epoch training 821/1250 optimizer update attempts | elapsed 4313s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 822/1250 optimizer update attempts | elapsed 4315s
+[PROGRESS] lora4_1250 | one-epoch training 823/1250 optimizer update attempts | elapsed 4320s
+[PROGRESS] lora4_1250 | one-epoch training 824/1250 optimizer update attempts | elapsed 4326s
+[HEARTBEAT] lora4_1250 | one-epoch training 824/1250 optimizer update attempts | elapsed 4328s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 825/1250 optimizer update attempts | elapsed 4331s
+lora4: 825/1250  SFT=0.2376  5.13s/update
+[PROGRESS] lora4_1250 | one-epoch training 826/1250 optimizer update attempts | elapsed 4336s
+[PROGRESS] lora4_1250 | one-epoch training 827/1250 optimizer update attempts | elapsed 4341s
+[HEARTBEAT] lora4_1250 | one-epoch training 827/1250 optimizer update attempts | elapsed 4344s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 828/1250 optimizer update attempts | elapsed 4346s
+[PROGRESS] lora4_1250 | one-epoch training 829/1250 optimizer update attempts | elapsed 4351s
+[PROGRESS] lora4_1250 | one-epoch training 830/1250 optimizer update attempts | elapsed 4356s
+[HEARTBEAT] lora4_1250 | one-epoch training 830/1250 optimizer update attempts | elapsed 4358s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 831/1250 optimizer update attempts | elapsed 4361s
+[PROGRESS] lora4_1250 | one-epoch training 832/1250 optimizer update attempts | elapsed 4366s
+[PROGRESS] lora4_1250 | one-epoch training 833/1250 optimizer update attempts | elapsed 4371s
+[HEARTBEAT] lora4_1250 | one-epoch training 833/1250 optimizer update attempts | elapsed 4374s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 834/1250 optimizer update attempts | elapsed 4376s
+[PROGRESS] lora4_1250 | one-epoch training 835/1250 optimizer update attempts | elapsed 4381s
+[PROGRESS] lora4_1250 | one-epoch training 836/1250 optimizer update attempts | elapsed 4386s
+[HEARTBEAT] lora4_1250 | one-epoch training 836/1250 optimizer update attempts | elapsed 4388s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 837/1250 optimizer update attempts | elapsed 4392s
+[PROGRESS] lora4_1250 | one-epoch training 838/1250 optimizer update attempts | elapsed 4397s
+[PROGRESS] lora4_1250 | one-epoch training 839/1250 optimizer update attempts | elapsed 4402s
+[HEARTBEAT] lora4_1250 | one-epoch training 839/1250 optimizer update attempts | elapsed 4404s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 840/1250 optimizer update attempts | elapsed 4407s
+[PROGRESS] lora4_1250 | one-epoch training 841/1250 optimizer update attempts | elapsed 4412s
+[PROGRESS] lora4_1250 | one-epoch training 842/1250 optimizer update attempts | elapsed 4417s
+[HEARTBEAT] lora4_1250 | one-epoch training 842/1250 optimizer update attempts | elapsed 4418s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 843/1250 optimizer update attempts | elapsed 4422s
+[PROGRESS] lora4_1250 | one-epoch training 844/1250 optimizer update attempts | elapsed 4427s
+[PROGRESS] lora4_1250 | one-epoch training 845/1250 optimizer update attempts | elapsed 4432s
+[HEARTBEAT] lora4_1250 | one-epoch training 845/1250 optimizer update attempts | elapsed 4434s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 846/1250 optimizer update attempts | elapsed 4437s
+[PROGRESS] lora4_1250 | one-epoch training 847/1250 optimizer update attempts | elapsed 4442s
+[PROGRESS] lora4_1250 | one-epoch training 848/1250 optimizer update attempts | elapsed 4447s
+[HEARTBEAT] lora4_1250 | one-epoch training 848/1250 optimizer update attempts | elapsed 4448s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 849/1250 optimizer update attempts | elapsed 4452s
+[PROGRESS] lora4_1250 | one-epoch training 850/1250 optimizer update attempts | elapsed 4457s
+lora4: 850/1250  SFT=0.2168  5.14s/update
+[PROGRESS] lora4_1250 | one-epoch training 851/1250 optimizer update attempts | elapsed 4462s
+[HEARTBEAT] lora4_1250 | one-epoch training 851/1250 optimizer update attempts | elapsed 4464s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 852/1250 optimizer update attempts | elapsed 4467s
+[PROGRESS] lora4_1250 | one-epoch training 853/1250 optimizer update attempts | elapsed 4472s
+[PROGRESS] lora4_1250 | one-epoch training 854/1250 optimizer update attempts | elapsed 4478s
+[HEARTBEAT] lora4_1250 | one-epoch training 854/1250 optimizer update attempts | elapsed 4478s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 855/1250 optimizer update attempts | elapsed 4483s
+[PROGRESS] lora4_1250 | one-epoch training 856/1250 optimizer update attempts | elapsed 4488s
+[PROGRESS] lora4_1250 | one-epoch training 857/1250 optimizer update attempts | elapsed 4493s
+[HEARTBEAT] lora4_1250 | one-epoch training 857/1250 optimizer update attempts | elapsed 4494s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 858/1250 optimizer update attempts | elapsed 4498s
+[PROGRESS] lora4_1250 | one-epoch training 859/1250 optimizer update attempts | elapsed 4503s
+[PROGRESS] lora4_1250 | one-epoch training 860/1250 optimizer update attempts | elapsed 4508s
+[HEARTBEAT] lora4_1250 | one-epoch training 860/1250 optimizer update attempts | elapsed 4508s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 861/1250 optimizer update attempts | elapsed 4513s
+[PROGRESS] lora4_1250 | one-epoch training 862/1250 optimizer update attempts | elapsed 4518s
+[PROGRESS] lora4_1250 | one-epoch training 863/1250 optimizer update attempts | elapsed 4523s
+[HEARTBEAT] lora4_1250 | one-epoch training 863/1250 optimizer update attempts | elapsed 4524s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 864/1250 optimizer update attempts | elapsed 4528s
+[PROGRESS] lora4_1250 | one-epoch training 865/1250 optimizer update attempts | elapsed 4533s
+[PROGRESS] lora4_1250 | one-epoch training 866/1250 optimizer update attempts | elapsed 4538s
+[HEARTBEAT] lora4_1250 | one-epoch training 866/1250 optimizer update attempts | elapsed 4538s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 867/1250 optimizer update attempts | elapsed 4543s
+[PROGRESS] lora4_1250 | one-epoch training 868/1250 optimizer update attempts | elapsed 4549s
+[PROGRESS] lora4_1250 | one-epoch training 869/1250 optimizer update attempts | elapsed 4553s
+[HEARTBEAT] lora4_1250 | one-epoch training 869/1250 optimizer update attempts | elapsed 4554s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 870/1250 optimizer update attempts | elapsed 4558s
+[PROGRESS] lora4_1250 | one-epoch training 871/1250 optimizer update attempts | elapsed 4564s
+[HEARTBEAT] lora4_1250 | one-epoch training 871/1250 optimizer update attempts | elapsed 4569s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 872/1250 optimizer update attempts | elapsed 4569s
+[PROGRESS] lora4_1250 | one-epoch training 873/1250 optimizer update attempts | elapsed 4574s
+[PROGRESS] lora4_1250 | one-epoch training 874/1250 optimizer update attempts | elapsed 4579s
+[HEARTBEAT] lora4_1250 | one-epoch training 874/1250 optimizer update attempts | elapsed 4584s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 875/1250 optimizer update attempts | elapsed 4584s
+lora4: 875/1250  SFT=0.2044  5.12s/update
+[PROGRESS] lora4_1250 | one-epoch training 876/1250 optimizer update attempts | elapsed 4589s
+[PROGRESS] lora4_1250 | one-epoch training 877/1250 optimizer update attempts | elapsed 4594s
+[HEARTBEAT] lora4_1250 | one-epoch training 877/1250 optimizer update attempts | elapsed 4599s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 878/1250 optimizer update attempts | elapsed 4599s
+[PROGRESS] lora4_1250 | one-epoch training 879/1250 optimizer update attempts | elapsed 4604s
+[PROGRESS] lora4_1250 | one-epoch training 880/1250 optimizer update attempts | elapsed 4609s
+[HEARTBEAT] lora4_1250 | one-epoch training 880/1250 optimizer update attempts | elapsed 4614s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 881/1250 optimizer update attempts | elapsed 4614s
+[PROGRESS] lora4_1250 | one-epoch training 882/1250 optimizer update attempts | elapsed 4620s
+[PROGRESS] lora4_1250 | one-epoch training 883/1250 optimizer update attempts | elapsed 4624s
+[HEARTBEAT] lora4_1250 | one-epoch training 883/1250 optimizer update attempts | elapsed 4629s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 884/1250 optimizer update attempts | elapsed 4630s
+[PROGRESS] lora4_1250 | one-epoch training 885/1250 optimizer update attempts | elapsed 4635s
+[PROGRESS] lora4_1250 | one-epoch training 886/1250 optimizer update attempts | elapsed 4640s
+[HEARTBEAT] lora4_1250 | one-epoch training 886/1250 optimizer update attempts | elapsed 4644s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 887/1250 optimizer update attempts | elapsed 4645s
+[PROGRESS] lora4_1250 | one-epoch training 888/1250 optimizer update attempts | elapsed 4650s
+[PROGRESS] lora4_1250 | one-epoch training 889/1250 optimizer update attempts | elapsed 4655s
+[HEARTBEAT] lora4_1250 | one-epoch training 889/1250 optimizer update attempts | elapsed 4659s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 890/1250 optimizer update attempts | elapsed 4660s
+[PROGRESS] lora4_1250 | one-epoch training 891/1250 optimizer update attempts | elapsed 4665s
+[PROGRESS] lora4_1250 | one-epoch training 892/1250 optimizer update attempts | elapsed 4670s
+[HEARTBEAT] lora4_1250 | one-epoch training 892/1250 optimizer update attempts | elapsed 4674s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 893/1250 optimizer update attempts | elapsed 4675s
+[PROGRESS] lora4_1250 | one-epoch training 894/1250 optimizer update attempts | elapsed 4680s
+[PROGRESS] lora4_1250 | one-epoch training 895/1250 optimizer update attempts | elapsed 4685s
+[HEARTBEAT] lora4_1250 | one-epoch training 895/1250 optimizer update attempts | elapsed 4689s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 896/1250 optimizer update attempts | elapsed 4690s
+[PROGRESS] lora4_1250 | one-epoch training 897/1250 optimizer update attempts | elapsed 4695s
+[PROGRESS] lora4_1250 | one-epoch training 898/1250 optimizer update attempts | elapsed 4700s
+[HEARTBEAT] lora4_1250 | one-epoch training 898/1250 optimizer update attempts | elapsed 4704s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 899/1250 optimizer update attempts | elapsed 4706s
+[PROGRESS] lora4_1250 | one-epoch training 900/1250 optimizer update attempts | elapsed 4711s
+lora4: 900/1250  SFT=0.1937  5.16s/update
+[CHECKPOINT] lora4_1250 | one-epoch training 900/1250 optimizer update attempts | elapsed 4711s
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/lora4/checkpoints/rolling_update_0900.pt | update 900 | 0.03 GiB
+[PROGRESS] lora4_1250 | one-epoch training 901/1250 optimizer update attempts | elapsed 4716s
+[HEARTBEAT] lora4_1250 | one-epoch training 901/1250 optimizer update attempts | elapsed 4719s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 902/1250 optimizer update attempts | elapsed 4721s
+[PROGRESS] lora4_1250 | one-epoch training 903/1250 optimizer update attempts | elapsed 4726s
+[PROGRESS] lora4_1250 | one-epoch training 904/1250 optimizer update attempts | elapsed 4731s
+[HEARTBEAT] lora4_1250 | one-epoch training 904/1250 optimizer update attempts | elapsed 4734s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 905/1250 optimizer update attempts | elapsed 4736s
+[PROGRESS] lora4_1250 | one-epoch training 906/1250 optimizer update attempts | elapsed 4741s
+[PROGRESS] lora4_1250 | one-epoch training 907/1250 optimizer update attempts | elapsed 4746s
+[HEARTBEAT] lora4_1250 | one-epoch training 907/1250 optimizer update attempts | elapsed 4749s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 908/1250 optimizer update attempts | elapsed 4751s
+[PROGRESS] lora4_1250 | one-epoch training 909/1250 optimizer update attempts | elapsed 4756s
+[PROGRESS] lora4_1250 | one-epoch training 910/1250 optimizer update attempts | elapsed 4761s
+[HEARTBEAT] lora4_1250 | one-epoch training 910/1250 optimizer update attempts | elapsed 4764s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 911/1250 optimizer update attempts | elapsed 4766s
+[PROGRESS] lora4_1250 | one-epoch training 912/1250 optimizer update attempts | elapsed 4771s
+[PROGRESS] lora4_1250 | one-epoch training 913/1250 optimizer update attempts | elapsed 4777s
+[HEARTBEAT] lora4_1250 | one-epoch training 913/1250 optimizer update attempts | elapsed 4779s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 914/1250 optimizer update attempts | elapsed 4782s
+[PROGRESS] lora4_1250 | one-epoch training 915/1250 optimizer update attempts | elapsed 4786s
+[PROGRESS] lora4_1250 | one-epoch training 916/1250 optimizer update attempts | elapsed 4792s
+[HEARTBEAT] lora4_1250 | one-epoch training 916/1250 optimizer update attempts | elapsed 4794s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 917/1250 optimizer update attempts | elapsed 4797s
+[PROGRESS] lora4_1250 | one-epoch training 918/1250 optimizer update attempts | elapsed 4802s
+[PROGRESS] lora4_1250 | one-epoch training 919/1250 optimizer update attempts | elapsed 4807s
+[HEARTBEAT] lora4_1250 | one-epoch training 919/1250 optimizer update attempts | elapsed 4809s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 920/1250 optimizer update attempts | elapsed 4812s
+[PROGRESS] lora4_1250 | one-epoch training 921/1250 optimizer update attempts | elapsed 4817s
+[PROGRESS] lora4_1250 | one-epoch training 922/1250 optimizer update attempts | elapsed 4822s
+[HEARTBEAT] lora4_1250 | one-epoch training 922/1250 optimizer update attempts | elapsed 4824s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 923/1250 optimizer update attempts | elapsed 4827s
+[PROGRESS] lora4_1250 | one-epoch training 924/1250 optimizer update attempts | elapsed 4832s
+[PROGRESS] lora4_1250 | one-epoch training 925/1250 optimizer update attempts | elapsed 4837s
+lora4: 925/1250  SFT=0.2041  5.14s/update
+[HEARTBEAT] lora4_1250 | one-epoch training 925/1250 optimizer update attempts | elapsed 4839s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 926/1250 optimizer update attempts | elapsed 4842s
+[PROGRESS] lora4_1250 | one-epoch training 927/1250 optimizer update attempts | elapsed 4848s
+[PROGRESS] lora4_1250 | one-epoch training 928/1250 optimizer update attempts | elapsed 4852s
+[HEARTBEAT] lora4_1250 | one-epoch training 928/1250 optimizer update attempts | elapsed 4854s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 929/1250 optimizer update attempts | elapsed 4858s
+[PROGRESS] lora4_1250 | one-epoch training 930/1250 optimizer update attempts | elapsed 4863s
+[PROGRESS] lora4_1250 | one-epoch training 931/1250 optimizer update attempts | elapsed 4868s
+[HEARTBEAT] lora4_1250 | one-epoch training 931/1250 optimizer update attempts | elapsed 4869s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 932/1250 optimizer update attempts | elapsed 4873s
+[PROGRESS] lora4_1250 | one-epoch training 933/1250 optimizer update attempts | elapsed 4878s
+[PROGRESS] lora4_1250 | one-epoch training 934/1250 optimizer update attempts | elapsed 4883s
+[HEARTBEAT] lora4_1250 | one-epoch training 934/1250 optimizer update attempts | elapsed 4884s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 935/1250 optimizer update attempts | elapsed 4888s
+[PROGRESS] lora4_1250 | one-epoch training 936/1250 optimizer update attempts | elapsed 4893s
+[PROGRESS] lora4_1250 | one-epoch training 937/1250 optimizer update attempts | elapsed 4898s
+[CHECKPOINT] lora4_1250 | one-epoch training 937/1250 optimizer update attempts | elapsed 4898s
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/lora4/checkpoints/update_0937.pt | update 937 | 0.03 GiB
+[HEARTBEAT] lora4_1250 | one-epoch training 937/1250 optimizer update attempts | elapsed 4899s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 938/1250 optimizer update attempts | elapsed 4903s
+[PROGRESS] lora4_1250 | one-epoch training 939/1250 optimizer update attempts | elapsed 4908s
+[PROGRESS] lora4_1250 | one-epoch training 940/1250 optimizer update attempts | elapsed 4913s
+[HEARTBEAT] lora4_1250 | one-epoch training 940/1250 optimizer update attempts | elapsed 4914s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 941/1250 optimizer update attempts | elapsed 4918s
+[PROGRESS] lora4_1250 | one-epoch training 942/1250 optimizer update attempts | elapsed 4924s
+[PROGRESS] lora4_1250 | one-epoch training 943/1250 optimizer update attempts | elapsed 4929s
+[HEARTBEAT] lora4_1250 | one-epoch training 943/1250 optimizer update attempts | elapsed 4929s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 944/1250 optimizer update attempts | elapsed 4934s
+[PROGRESS] lora4_1250 | one-epoch training 945/1250 optimizer update attempts | elapsed 4939s
+[PROGRESS] lora4_1250 | one-epoch training 946/1250 optimizer update attempts | elapsed 4944s
+[HEARTBEAT] lora4_1250 | one-epoch training 946/1250 optimizer update attempts | elapsed 4944s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 947/1250 optimizer update attempts | elapsed 4949s
+[PROGRESS] lora4_1250 | one-epoch training 948/1250 optimizer update attempts | elapsed 4954s
+[HEARTBEAT] lora4_1250 | one-epoch training 948/1250 optimizer update attempts | elapsed 4959s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 949/1250 optimizer update attempts | elapsed 4959s
+[PROGRESS] lora4_1250 | one-epoch training 950/1250 optimizer update attempts | elapsed 4964s
+lora4: 950/1250  SFT=0.2232  4.84s/update
+[PROGRESS] lora4_1250 | one-epoch training 951/1250 optimizer update attempts | elapsed 4969s
+[HEARTBEAT] lora4_1250 | one-epoch training 951/1250 optimizer update attempts | elapsed 4974s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 952/1250 optimizer update attempts | elapsed 4974s
+[PROGRESS] lora4_1250 | one-epoch training 953/1250 optimizer update attempts | elapsed 4979s
+[PROGRESS] lora4_1250 | one-epoch training 954/1250 optimizer update attempts | elapsed 4985s
+[HEARTBEAT] lora4_1250 | one-epoch training 954/1250 optimizer update attempts | elapsed 4989s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 955/1250 optimizer update attempts | elapsed 4989s
+[PROGRESS] lora4_1250 | one-epoch training 956/1250 optimizer update attempts | elapsed 4994s
+[PROGRESS] lora4_1250 | one-epoch training 957/1250 optimizer update attempts | elapsed 5000s
+[HEARTBEAT] lora4_1250 | one-epoch training 957/1250 optimizer update attempts | elapsed 5004s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 958/1250 optimizer update attempts | elapsed 5005s
+[PROGRESS] lora4_1250 | one-epoch training 959/1250 optimizer update attempts | elapsed 5010s
+[PROGRESS] lora4_1250 | one-epoch training 960/1250 optimizer update attempts | elapsed 5015s
+[HEARTBEAT] lora4_1250 | one-epoch training 960/1250 optimizer update attempts | elapsed 5019s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 961/1250 optimizer update attempts | elapsed 5020s
+[PROGRESS] lora4_1250 | one-epoch training 962/1250 optimizer update attempts | elapsed 5025s
+[PROGRESS] lora4_1250 | one-epoch training 963/1250 optimizer update attempts | elapsed 5030s
+[HEARTBEAT] lora4_1250 | one-epoch training 963/1250 optimizer update attempts | elapsed 5034s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 964/1250 optimizer update attempts | elapsed 5035s
+[PROGRESS] lora4_1250 | one-epoch training 965/1250 optimizer update attempts | elapsed 5040s
+[PROGRESS] lora4_1250 | one-epoch training 966/1250 optimizer update attempts | elapsed 5045s
+[HEARTBEAT] lora4_1250 | one-epoch training 966/1250 optimizer update attempts | elapsed 5049s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 967/1250 optimizer update attempts | elapsed 5050s
+[PROGRESS] lora4_1250 | one-epoch training 968/1250 optimizer update attempts | elapsed 5055s
+[PROGRESS] lora4_1250 | one-epoch training 969/1250 optimizer update attempts | elapsed 5060s
+[HEARTBEAT] lora4_1250 | one-epoch training 969/1250 optimizer update attempts | elapsed 5064s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 970/1250 optimizer update attempts | elapsed 5066s
+[PROGRESS] lora4_1250 | one-epoch training 971/1250 optimizer update attempts | elapsed 5071s
+[PROGRESS] lora4_1250 | one-epoch training 972/1250 optimizer update attempts | elapsed 5076s
+[HEARTBEAT] lora4_1250 | one-epoch training 972/1250 optimizer update attempts | elapsed 5079s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 973/1250 optimizer update attempts | elapsed 5081s
+[PROGRESS] lora4_1250 | one-epoch training 974/1250 optimizer update attempts | elapsed 5086s
+[PROGRESS] lora4_1250 | one-epoch training 975/1250 optimizer update attempts | elapsed 5091s
+lora4: 975/1250  SFT=0.2332  5.11s/update
+[HEARTBEAT] lora4_1250 | one-epoch training 975/1250 optimizer update attempts | elapsed 5094s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 976/1250 optimizer update attempts | elapsed 5096s
+[PROGRESS] lora4_1250 | one-epoch training 977/1250 optimizer update attempts | elapsed 5101s
+[PROGRESS] lora4_1250 | one-epoch training 978/1250 optimizer update attempts | elapsed 5106s
+[HEARTBEAT] lora4_1250 | one-epoch training 978/1250 optimizer update attempts | elapsed 5109s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 979/1250 optimizer update attempts | elapsed 5111s
+[PROGRESS] lora4_1250 | one-epoch training 980/1250 optimizer update attempts | elapsed 5116s
+[PROGRESS] lora4_1250 | one-epoch training 981/1250 optimizer update attempts | elapsed 5121s
+[HEARTBEAT] lora4_1250 | one-epoch training 981/1250 optimizer update attempts | elapsed 5124s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 982/1250 optimizer update attempts | elapsed 5126s
+[PROGRESS] lora4_1250 | one-epoch training 983/1250 optimizer update attempts | elapsed 5131s
+[PROGRESS] lora4_1250 | one-epoch training 984/1250 optimizer update attempts | elapsed 5136s
+[HEARTBEAT] lora4_1250 | one-epoch training 984/1250 optimizer update attempts | elapsed 5139s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 985/1250 optimizer update attempts | elapsed 5142s
+[PROGRESS] lora4_1250 | one-epoch training 986/1250 optimizer update attempts | elapsed 5146s
+[PROGRESS] lora4_1250 | one-epoch training 987/1250 optimizer update attempts | elapsed 5152s
+[HEARTBEAT] lora4_1250 | one-epoch training 987/1250 optimizer update attempts | elapsed 5154s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 988/1250 optimizer update attempts | elapsed 5157s
+[PROGRESS] lora4_1250 | one-epoch training 989/1250 optimizer update attempts | elapsed 5162s
+[PROGRESS] lora4_1250 | one-epoch training 990/1250 optimizer update attempts | elapsed 5167s
+[HEARTBEAT] lora4_1250 | one-epoch training 990/1250 optimizer update attempts | elapsed 5169s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 991/1250 optimizer update attempts | elapsed 5172s
+[PROGRESS] lora4_1250 | one-epoch training 992/1250 optimizer update attempts | elapsed 5177s
+[PROGRESS] lora4_1250 | one-epoch training 993/1250 optimizer update attempts | elapsed 5182s
+[HEARTBEAT] lora4_1250 | one-epoch training 993/1250 optimizer update attempts | elapsed 5184s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 994/1250 optimizer update attempts | elapsed 5187s
+[PROGRESS] lora4_1250 | one-epoch training 995/1250 optimizer update attempts | elapsed 5192s
+[PROGRESS] lora4_1250 | one-epoch training 996/1250 optimizer update attempts | elapsed 5197s
+[HEARTBEAT] lora4_1250 | one-epoch training 996/1250 optimizer update attempts | elapsed 5199s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 997/1250 optimizer update attempts | elapsed 5202s
+[PROGRESS] lora4_1250 | one-epoch training 998/1250 optimizer update attempts | elapsed 5207s
+[PROGRESS] lora4_1250 | one-epoch training 999/1250 optimizer update attempts | elapsed 5212s
+[HEARTBEAT] lora4_1250 | one-epoch training 999/1250 optimizer update attempts | elapsed 5214s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1000/1250 optimizer update attempts | elapsed 5217s
+lora4: 1000/1250  SFT=0.2318  5.10s/update
+[CHECKPOINT] lora4_1250 | one-epoch training 1000/1250 optimizer update attempts | elapsed 5217s
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/lora4/checkpoints/rolling_update_1000.pt | update 1000 | 0.03 GiB
+[PROGRESS] lora4_1250 | one-epoch training 1001/1250 optimizer update attempts | elapsed 5222s
+[PROGRESS] lora4_1250 | one-epoch training 1002/1250 optimizer update attempts | elapsed 5228s
+[HEARTBEAT] lora4_1250 | one-epoch training 1002/1250 optimizer update attempts | elapsed 5229s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1003/1250 optimizer update attempts | elapsed 5232s
+[PROGRESS] lora4_1250 | one-epoch training 1004/1250 optimizer update attempts | elapsed 5238s
+[PROGRESS] lora4_1250 | one-epoch training 1005/1250 optimizer update attempts | elapsed 5243s
+[HEARTBEAT] lora4_1250 | one-epoch training 1005/1250 optimizer update attempts | elapsed 5244s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1006/1250 optimizer update attempts | elapsed 5248s
+[PROGRESS] lora4_1250 | one-epoch training 1007/1250 optimizer update attempts | elapsed 5253s
+[PROGRESS] lora4_1250 | one-epoch training 1008/1250 optimizer update attempts | elapsed 5258s
+[HEARTBEAT] lora4_1250 | one-epoch training 1008/1250 optimizer update attempts | elapsed 5259s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1009/1250 optimizer update attempts | elapsed 5263s
+[PROGRESS] lora4_1250 | one-epoch training 1010/1250 optimizer update attempts | elapsed 5268s
+[PROGRESS] lora4_1250 | one-epoch training 1011/1250 optimizer update attempts | elapsed 5274s
+[HEARTBEAT] lora4_1250 | one-epoch training 1011/1250 optimizer update attempts | elapsed 5274s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1012/1250 optimizer update attempts | elapsed 5279s
+[PROGRESS] lora4_1250 | one-epoch training 1013/1250 optimizer update attempts | elapsed 5284s
+[PROGRESS] lora4_1250 | one-epoch training 1014/1250 optimizer update attempts | elapsed 5289s
+[HEARTBEAT] lora4_1250 | one-epoch training 1014/1250 optimizer update attempts | elapsed 5289s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1015/1250 optimizer update attempts | elapsed 5294s
+[PROGRESS] lora4_1250 | one-epoch training 1016/1250 optimizer update attempts | elapsed 5300s
+[HEARTBEAT] lora4_1250 | one-epoch training 1016/1250 optimizer update attempts | elapsed 5304s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1017/1250 optimizer update attempts | elapsed 5305s
+[PROGRESS] lora4_1250 | one-epoch training 1018/1250 optimizer update attempts | elapsed 5310s
+[PROGRESS] lora4_1250 | one-epoch training 1019/1250 optimizer update attempts | elapsed 5315s
+[HEARTBEAT] lora4_1250 | one-epoch training 1019/1250 optimizer update attempts | elapsed 5319s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1020/1250 optimizer update attempts | elapsed 5320s
+[PROGRESS] lora4_1250 | one-epoch training 1021/1250 optimizer update attempts | elapsed 5326s
+[PROGRESS] lora4_1250 | one-epoch training 1022/1250 optimizer update attempts | elapsed 5331s
+[HEARTBEAT] lora4_1250 | one-epoch training 1022/1250 optimizer update attempts | elapsed 5334s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1023/1250 optimizer update attempts | elapsed 5336s
+[PROGRESS] lora4_1250 | one-epoch training 1024/1250 optimizer update attempts | elapsed 5341s
+[PROGRESS] lora4_1250 | one-epoch training 1025/1250 optimizer update attempts | elapsed 5346s
+lora4: 1025/1250  SFT=0.2052  5.22s/update
+[HEARTBEAT] lora4_1250 | one-epoch training 1025/1250 optimizer update attempts | elapsed 5349s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1026/1250 optimizer update attempts | elapsed 5352s
+[PROGRESS] lora4_1250 | one-epoch training 1027/1250 optimizer update attempts | elapsed 5357s
+[PROGRESS] lora4_1250 | one-epoch training 1028/1250 optimizer update attempts | elapsed 5362s
+[HEARTBEAT] lora4_1250 | one-epoch training 1028/1250 optimizer update attempts | elapsed 5364s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1029/1250 optimizer update attempts | elapsed 5367s
+[PROGRESS] lora4_1250 | one-epoch training 1030/1250 optimizer update attempts | elapsed 5372s
+[PROGRESS] lora4_1250 | one-epoch training 1031/1250 optimizer update attempts | elapsed 5377s
+[HEARTBEAT] lora4_1250 | one-epoch training 1031/1250 optimizer update attempts | elapsed 5379s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1032/1250 optimizer update attempts | elapsed 5383s
+[PROGRESS] lora4_1250 | one-epoch training 1033/1250 optimizer update attempts | elapsed 5388s
+[PROGRESS] lora4_1250 | one-epoch training 1034/1250 optimizer update attempts | elapsed 5393s
+[HEARTBEAT] lora4_1250 | one-epoch training 1034/1250 optimizer update attempts | elapsed 5394s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1035/1250 optimizer update attempts | elapsed 5398s
+[PROGRESS] lora4_1250 | one-epoch training 1036/1250 optimizer update attempts | elapsed 5403s
+[PROGRESS] lora4_1250 | one-epoch training 1037/1250 optimizer update attempts | elapsed 5408s
+[HEARTBEAT] lora4_1250 | one-epoch training 1037/1250 optimizer update attempts | elapsed 5409s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1038/1250 optimizer update attempts | elapsed 5413s
+[PROGRESS] lora4_1250 | one-epoch training 1039/1250 optimizer update attempts | elapsed 5418s
+[PROGRESS] lora4_1250 | one-epoch training 1040/1250 optimizer update attempts | elapsed 5423s
+[HEARTBEAT] lora4_1250 | one-epoch training 1040/1250 optimizer update attempts | elapsed 5424s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1041/1250 optimizer update attempts | elapsed 5428s
+[PROGRESS] lora4_1250 | one-epoch training 1042/1250 optimizer update attempts | elapsed 5433s
+[PROGRESS] lora4_1250 | one-epoch training 1043/1250 optimizer update attempts | elapsed 5438s
+[HEARTBEAT] lora4_1250 | one-epoch training 1043/1250 optimizer update attempts | elapsed 5439s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1044/1250 optimizer update attempts | elapsed 5443s
+[PROGRESS] lora4_1250 | one-epoch training 1045/1250 optimizer update attempts | elapsed 5448s
+[PROGRESS] lora4_1250 | one-epoch training 1046/1250 optimizer update attempts | elapsed 5454s
+[HEARTBEAT] lora4_1250 | one-epoch training 1046/1250 optimizer update attempts | elapsed 5454s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1047/1250 optimizer update attempts | elapsed 5459s
+[PROGRESS] lora4_1250 | one-epoch training 1048/1250 optimizer update attempts | elapsed 5464s
+[PROGRESS] lora4_1250 | one-epoch training 1049/1250 optimizer update attempts | elapsed 5469s
+[HEARTBEAT] lora4_1250 | one-epoch training 1049/1250 optimizer update attempts | elapsed 5469s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1050/1250 optimizer update attempts | elapsed 5474s
+lora4: 1050/1250  SFT=0.2425  5.12s/update
+[PROGRESS] lora4_1250 | one-epoch training 1051/1250 optimizer update attempts | elapsed 5479s
+[PROGRESS] lora4_1250 | one-epoch training 1052/1250 optimizer update attempts | elapsed 5484s
+[HEARTBEAT] lora4_1250 | one-epoch training 1052/1250 optimizer update attempts | elapsed 5484s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1053/1250 optimizer update attempts | elapsed 5489s
+[PROGRESS] lora4_1250 | one-epoch training 1054/1250 optimizer update attempts | elapsed 5494s
+[PROGRESS] lora4_1250 | one-epoch training 1055/1250 optimizer update attempts | elapsed 5499s
+[HEARTBEAT] lora4_1250 | one-epoch training 1055/1250 optimizer update attempts | elapsed 5499s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1056/1250 optimizer update attempts | elapsed 5504s
+[PROGRESS] lora4_1250 | one-epoch training 1057/1250 optimizer update attempts | elapsed 5509s
+[HEARTBEAT] lora4_1250 | one-epoch training 1057/1250 optimizer update attempts | elapsed 5514s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1058/1250 optimizer update attempts | elapsed 5514s
+[PROGRESS] lora4_1250 | one-epoch training 1059/1250 optimizer update attempts | elapsed 5520s
+[PROGRESS] lora4_1250 | one-epoch training 1060/1250 optimizer update attempts | elapsed 5525s
+[HEARTBEAT] lora4_1250 | one-epoch training 1060/1250 optimizer update attempts | elapsed 5529s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1061/1250 optimizer update attempts | elapsed 5530s
+[PROGRESS] lora4_1250 | one-epoch training 1062/1250 optimizer update attempts | elapsed 5535s
+[PROGRESS] lora4_1250 | one-epoch training 1063/1250 optimizer update attempts | elapsed 5540s
+[HEARTBEAT] lora4_1250 | one-epoch training 1063/1250 optimizer update attempts | elapsed 5544s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1064/1250 optimizer update attempts | elapsed 5545s
+[PROGRESS] lora4_1250 | one-epoch training 1065/1250 optimizer update attempts | elapsed 5550s
+[PROGRESS] lora4_1250 | one-epoch training 1066/1250 optimizer update attempts | elapsed 5555s
+[HEARTBEAT] lora4_1250 | one-epoch training 1066/1250 optimizer update attempts | elapsed 5559s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1067/1250 optimizer update attempts | elapsed 5560s
+[PROGRESS] lora4_1250 | one-epoch training 1068/1250 optimizer update attempts | elapsed 5565s
+[PROGRESS] lora4_1250 | one-epoch training 1069/1250 optimizer update attempts | elapsed 5570s
+[HEARTBEAT] lora4_1250 | one-epoch training 1069/1250 optimizer update attempts | elapsed 5574s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1070/1250 optimizer update attempts | elapsed 5575s
+[PROGRESS] lora4_1250 | one-epoch training 1071/1250 optimizer update attempts | elapsed 5580s
+[PROGRESS] lora4_1250 | one-epoch training 1072/1250 optimizer update attempts | elapsed 5585s
+[HEARTBEAT] lora4_1250 | one-epoch training 1072/1250 optimizer update attempts | elapsed 5589s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1073/1250 optimizer update attempts | elapsed 5590s
+[PROGRESS] lora4_1250 | one-epoch training 1074/1250 optimizer update attempts | elapsed 5596s
+[PROGRESS] lora4_1250 | one-epoch training 1075/1250 optimizer update attempts | elapsed 5600s
+lora4: 1075/1250  SFT=0.1903  4.83s/update
+[HEARTBEAT] lora4_1250 | one-epoch training 1075/1250 optimizer update attempts | elapsed 5604s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1076/1250 optimizer update attempts | elapsed 5606s
+[PROGRESS] lora4_1250 | one-epoch training 1077/1250 optimizer update attempts | elapsed 5611s
+[PROGRESS] lora4_1250 | one-epoch training 1078/1250 optimizer update attempts | elapsed 5616s
+[HEARTBEAT] lora4_1250 | one-epoch training 1078/1250 optimizer update attempts | elapsed 5619s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1079/1250 optimizer update attempts | elapsed 5621s
+[PROGRESS] lora4_1250 | one-epoch training 1080/1250 optimizer update attempts | elapsed 5626s
+[PROGRESS] lora4_1250 | one-epoch training 1081/1250 optimizer update attempts | elapsed 5631s
+[HEARTBEAT] lora4_1250 | one-epoch training 1081/1250 optimizer update attempts | elapsed 5634s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1082/1250 optimizer update attempts | elapsed 5636s
+[PROGRESS] lora4_1250 | one-epoch training 1083/1250 optimizer update attempts | elapsed 5641s
+[PROGRESS] lora4_1250 | one-epoch training 1084/1250 optimizer update attempts | elapsed 5646s
+[HEARTBEAT] lora4_1250 | one-epoch training 1084/1250 optimizer update attempts | elapsed 5649s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1085/1250 optimizer update attempts | elapsed 5651s
+[PROGRESS] lora4_1250 | one-epoch training 1086/1250 optimizer update attempts | elapsed 5656s
+[PROGRESS] lora4_1250 | one-epoch training 1087/1250 optimizer update attempts | elapsed 5662s
+[HEARTBEAT] lora4_1250 | one-epoch training 1087/1250 optimizer update attempts | elapsed 5664s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1088/1250 optimizer update attempts | elapsed 5666s
+[PROGRESS] lora4_1250 | one-epoch training 1089/1250 optimizer update attempts | elapsed 5672s
+[PROGRESS] lora4_1250 | one-epoch training 1090/1250 optimizer update attempts | elapsed 5677s
+[HEARTBEAT] lora4_1250 | one-epoch training 1090/1250 optimizer update attempts | elapsed 5679s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1091/1250 optimizer update attempts | elapsed 5682s
+[PROGRESS] lora4_1250 | one-epoch training 1092/1250 optimizer update attempts | elapsed 5687s
+[PROGRESS] lora4_1250 | one-epoch training 1093/1250 optimizer update attempts | elapsed 5692s
+[HEARTBEAT] lora4_1250 | one-epoch training 1093/1250 optimizer update attempts | elapsed 5694s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1094/1250 optimizer update attempts | elapsed 5697s
+[PROGRESS] lora4_1250 | one-epoch training 1095/1250 optimizer update attempts | elapsed 5702s
+[PROGRESS] lora4_1250 | one-epoch training 1096/1250 optimizer update attempts | elapsed 5707s
+[HEARTBEAT] lora4_1250 | one-epoch training 1096/1250 optimizer update attempts | elapsed 5709s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1097/1250 optimizer update attempts | elapsed 5712s
+[PROGRESS] lora4_1250 | one-epoch training 1098/1250 optimizer update attempts | elapsed 5717s
+[PROGRESS] lora4_1250 | one-epoch training 1099/1250 optimizer update attempts | elapsed 5722s
+[HEARTBEAT] lora4_1250 | one-epoch training 1099/1250 optimizer update attempts | elapsed 5724s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1100/1250 optimizer update attempts | elapsed 5727s
+lora4: 1100/1250  SFT=0.2282  5.13s/update
+[CHECKPOINT] lora4_1250 | one-epoch training 1100/1250 optimizer update attempts | elapsed 5728s
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/lora4/checkpoints/rolling_update_1100.pt | update 1100 | 0.03 GiB
+[PROGRESS] lora4_1250 | one-epoch training 1101/1250 optimizer update attempts | elapsed 5733s
+[PROGRESS] lora4_1250 | one-epoch training 1102/1250 optimizer update attempts | elapsed 5738s
+[HEARTBEAT] lora4_1250 | one-epoch training 1102/1250 optimizer update attempts | elapsed 5739s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1103/1250 optimizer update attempts | elapsed 5743s
+[PROGRESS] lora4_1250 | one-epoch training 1104/1250 optimizer update attempts | elapsed 5748s
+[PROGRESS] lora4_1250 | one-epoch training 1105/1250 optimizer update attempts | elapsed 5753s
+[HEARTBEAT] lora4_1250 | one-epoch training 1105/1250 optimizer update attempts | elapsed 5754s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1106/1250 optimizer update attempts | elapsed 5758s
+[PROGRESS] lora4_1250 | one-epoch training 1107/1250 optimizer update attempts | elapsed 5763s
+[PROGRESS] lora4_1250 | one-epoch training 1108/1250 optimizer update attempts | elapsed 5768s
+[HEARTBEAT] lora4_1250 | one-epoch training 1108/1250 optimizer update attempts | elapsed 5769s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1109/1250 optimizer update attempts | elapsed 5773s
+[PROGRESS] lora4_1250 | one-epoch training 1110/1250 optimizer update attempts | elapsed 5778s
+[PROGRESS] lora4_1250 | one-epoch training 1111/1250 optimizer update attempts | elapsed 5784s
+[HEARTBEAT] lora4_1250 | one-epoch training 1111/1250 optimizer update attempts | elapsed 5784s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1112/1250 optimizer update attempts | elapsed 5789s
+[PROGRESS] lora4_1250 | one-epoch training 1113/1250 optimizer update attempts | elapsed 5794s
+[PROGRESS] lora4_1250 | one-epoch training 1114/1250 optimizer update attempts | elapsed 5799s
+[HEARTBEAT] lora4_1250 | one-epoch training 1114/1250 optimizer update attempts | elapsed 5799s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1115/1250 optimizer update attempts | elapsed 5804s
+[PROGRESS] lora4_1250 | one-epoch training 1116/1250 optimizer update attempts | elapsed 5809s
+[PROGRESS] lora4_1250 | one-epoch training 1117/1250 optimizer update attempts | elapsed 5814s
+[HEARTBEAT] lora4_1250 | one-epoch training 1117/1250 optimizer update attempts | elapsed 5814s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1118/1250 optimizer update attempts | elapsed 5819s
+[PROGRESS] lora4_1250 | one-epoch training 1119/1250 optimizer update attempts | elapsed 5824s
+[PROGRESS] lora4_1250 | one-epoch training 1120/1250 optimizer update attempts | elapsed 5829s
+[HEARTBEAT] lora4_1250 | one-epoch training 1120/1250 optimizer update attempts | elapsed 5829s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1121/1250 optimizer update attempts | elapsed 5834s
+[PROGRESS] lora4_1250 | one-epoch training 1122/1250 optimizer update attempts | elapsed 5840s
+[HEARTBEAT] lora4_1250 | one-epoch training 1122/1250 optimizer update attempts | elapsed 5844s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1123/1250 optimizer update attempts | elapsed 5845s
+[PROGRESS] lora4_1250 | one-epoch training 1124/1250 optimizer update attempts | elapsed 5850s
+[PROGRESS] lora4_1250 | one-epoch training 1125/1250 optimizer update attempts | elapsed 5855s
+lora4: 1125/1250  SFT=0.2234  5.11s/update
+[HEARTBEAT] lora4_1250 | one-epoch training 1125/1250 optimizer update attempts | elapsed 5859s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1126/1250 optimizer update attempts | elapsed 5860s
+[PROGRESS] lora4_1250 | one-epoch training 1127/1250 optimizer update attempts | elapsed 5865s
+[PROGRESS] lora4_1250 | one-epoch training 1128/1250 optimizer update attempts | elapsed 5870s
+[HEARTBEAT] lora4_1250 | one-epoch training 1128/1250 optimizer update attempts | elapsed 5874s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1129/1250 optimizer update attempts | elapsed 5875s
+[PROGRESS] lora4_1250 | one-epoch training 1130/1250 optimizer update attempts | elapsed 5880s
+[PROGRESS] lora4_1250 | one-epoch training 1131/1250 optimizer update attempts | elapsed 5885s
+[HEARTBEAT] lora4_1250 | one-epoch training 1131/1250 optimizer update attempts | elapsed 5889s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1132/1250 optimizer update attempts | elapsed 5890s
+[PROGRESS] lora4_1250 | one-epoch training 1133/1250 optimizer update attempts | elapsed 5895s
+[PROGRESS] lora4_1250 | one-epoch training 1134/1250 optimizer update attempts | elapsed 5900s
+[HEARTBEAT] lora4_1250 | one-epoch training 1134/1250 optimizer update attempts | elapsed 5904s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1135/1250 optimizer update attempts | elapsed 5905s
+[PROGRESS] lora4_1250 | one-epoch training 1136/1250 optimizer update attempts | elapsed 5910s
+[PROGRESS] lora4_1250 | one-epoch training 1137/1250 optimizer update attempts | elapsed 5915s
+[HEARTBEAT] lora4_1250 | one-epoch training 1137/1250 optimizer update attempts | elapsed 5919s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1138/1250 optimizer update attempts | elapsed 5920s
+[PROGRESS] lora4_1250 | one-epoch training 1139/1250 optimizer update attempts | elapsed 5926s
+[PROGRESS] lora4_1250 | one-epoch training 1140/1250 optimizer update attempts | elapsed 5931s
+[HEARTBEAT] lora4_1250 | one-epoch training 1140/1250 optimizer update attempts | elapsed 5934s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1141/1250 optimizer update attempts | elapsed 5936s
+[PROGRESS] lora4_1250 | one-epoch training 1142/1250 optimizer update attempts | elapsed 5941s
+[PROGRESS] lora4_1250 | one-epoch training 1143/1250 optimizer update attempts | elapsed 5946s
+[HEARTBEAT] lora4_1250 | one-epoch training 1143/1250 optimizer update attempts | elapsed 5949s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1144/1250 optimizer update attempts | elapsed 5951s
+[PROGRESS] lora4_1250 | one-epoch training 1145/1250 optimizer update attempts | elapsed 5956s
+[PROGRESS] lora4_1250 | one-epoch training 1146/1250 optimizer update attempts | elapsed 5961s
+[HEARTBEAT] lora4_1250 | one-epoch training 1146/1250 optimizer update attempts | elapsed 5964s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1147/1250 optimizer update attempts | elapsed 5966s
+[PROGRESS] lora4_1250 | one-epoch training 1148/1250 optimizer update attempts | elapsed 5971s
+[PROGRESS] lora4_1250 | one-epoch training 1149/1250 optimizer update attempts | elapsed 5977s
+[HEARTBEAT] lora4_1250 | one-epoch training 1149/1250 optimizer update attempts | elapsed 5979s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1150/1250 optimizer update attempts | elapsed 5982s
+lora4: 1150/1250  SFT=0.1810  4.93s/update
+[PROGRESS] lora4_1250 | one-epoch training 1151/1250 optimizer update attempts | elapsed 5987s
+[PROGRESS] lora4_1250 | one-epoch training 1152/1250 optimizer update attempts | elapsed 5992s
+[HEARTBEAT] lora4_1250 | one-epoch training 1152/1250 optimizer update attempts | elapsed 5994s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1153/1250 optimizer update attempts | elapsed 5997s
+[PROGRESS] lora4_1250 | one-epoch training 1154/1250 optimizer update attempts | elapsed 6002s
+[PROGRESS] lora4_1250 | one-epoch training 1155/1250 optimizer update attempts | elapsed 6008s
+[HEARTBEAT] lora4_1250 | one-epoch training 1155/1250 optimizer update attempts | elapsed 6009s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1156/1250 optimizer update attempts | elapsed 6013s
+[PROGRESS] lora4_1250 | one-epoch training 1157/1250 optimizer update attempts | elapsed 6019s
+[HEARTBEAT] lora4_1250 | one-epoch training 1157/1250 optimizer update attempts | elapsed 6024s | activity age 6s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1158/1250 optimizer update attempts | elapsed 6025s
+[PROGRESS] lora4_1250 | one-epoch training 1159/1250 optimizer update attempts | elapsed 6030s
+[PROGRESS] lora4_1250 | one-epoch training 1160/1250 optimizer update attempts | elapsed 6035s
+[HEARTBEAT] lora4_1250 | one-epoch training 1160/1250 optimizer update attempts | elapsed 6039s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1161/1250 optimizer update attempts | elapsed 6041s
+[PROGRESS] lora4_1250 | one-epoch training 1162/1250 optimizer update attempts | elapsed 6046s
+[PROGRESS] lora4_1250 | one-epoch training 1163/1250 optimizer update attempts | elapsed 6052s
+[HEARTBEAT] lora4_1250 | one-epoch training 1163/1250 optimizer update attempts | elapsed 6054s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1164/1250 optimizer update attempts | elapsed 6056s
+[PROGRESS] lora4_1250 | one-epoch training 1165/1250 optimizer update attempts | elapsed 6062s
+[PROGRESS] lora4_1250 | one-epoch training 1166/1250 optimizer update attempts | elapsed 6067s
+[HEARTBEAT] lora4_1250 | one-epoch training 1166/1250 optimizer update attempts | elapsed 6069s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1167/1250 optimizer update attempts | elapsed 6072s
+[PROGRESS] lora4_1250 | one-epoch training 1168/1250 optimizer update attempts | elapsed 6077s
+[PROGRESS] lora4_1250 | one-epoch training 1169/1250 optimizer update attempts | elapsed 6082s
+[HEARTBEAT] lora4_1250 | one-epoch training 1169/1250 optimizer update attempts | elapsed 6084s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1170/1250 optimizer update attempts | elapsed 6087s
+[PROGRESS] lora4_1250 | one-epoch training 1171/1250 optimizer update attempts | elapsed 6092s
+[PROGRESS] lora4_1250 | one-epoch training 1172/1250 optimizer update attempts | elapsed 6097s
+[HEARTBEAT] lora4_1250 | one-epoch training 1172/1250 optimizer update attempts | elapsed 6099s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1173/1250 optimizer update attempts | elapsed 6102s
+[PROGRESS] lora4_1250 | one-epoch training 1174/1250 optimizer update attempts | elapsed 6107s
+[PROGRESS] lora4_1250 | one-epoch training 1175/1250 optimizer update attempts | elapsed 6112s
+lora4: 1175/1250  SFT=0.1926  5.13s/update
+[HEARTBEAT] lora4_1250 | one-epoch training 1175/1250 optimizer update attempts | elapsed 6114s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1176/1250 optimizer update attempts | elapsed 6118s
+[PROGRESS] lora4_1250 | one-epoch training 1177/1250 optimizer update attempts | elapsed 6123s
+[PROGRESS] lora4_1250 | one-epoch training 1178/1250 optimizer update attempts | elapsed 6128s
+[HEARTBEAT] lora4_1250 | one-epoch training 1178/1250 optimizer update attempts | elapsed 6129s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1179/1250 optimizer update attempts | elapsed 6133s
+[PROGRESS] lora4_1250 | one-epoch training 1180/1250 optimizer update attempts | elapsed 6138s
+[PROGRESS] lora4_1250 | one-epoch training 1181/1250 optimizer update attempts | elapsed 6143s
+[HEARTBEAT] lora4_1250 | one-epoch training 1181/1250 optimizer update attempts | elapsed 6144s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1182/1250 optimizer update attempts | elapsed 6148s
+[PROGRESS] lora4_1250 | one-epoch training 1183/1250 optimizer update attempts | elapsed 6153s
+[PROGRESS] lora4_1250 | one-epoch training 1184/1250 optimizer update attempts | elapsed 6158s
+[HEARTBEAT] lora4_1250 | one-epoch training 1184/1250 optimizer update attempts | elapsed 6159s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1185/1250 optimizer update attempts | elapsed 6163s
+[PROGRESS] lora4_1250 | one-epoch training 1186/1250 optimizer update attempts | elapsed 6169s
+[PROGRESS] lora4_1250 | one-epoch training 1187/1250 optimizer update attempts | elapsed 6173s
+[HEARTBEAT] lora4_1250 | one-epoch training 1187/1250 optimizer update attempts | elapsed 6174s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1188/1250 optimizer update attempts | elapsed 6179s
+[PROGRESS] lora4_1250 | one-epoch training 1189/1250 optimizer update attempts | elapsed 6184s
+[PROGRESS] lora4_1250 | one-epoch training 1190/1250 optimizer update attempts | elapsed 6189s
+[HEARTBEAT] lora4_1250 | one-epoch training 1190/1250 optimizer update attempts | elapsed 6189s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1191/1250 optimizer update attempts | elapsed 6194s
+[PROGRESS] lora4_1250 | one-epoch training 1192/1250 optimizer update attempts | elapsed 6199s
+[PROGRESS] lora4_1250 | one-epoch training 1193/1250 optimizer update attempts | elapsed 6204s
+[HEARTBEAT] lora4_1250 | one-epoch training 1193/1250 optimizer update attempts | elapsed 6204s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1194/1250 optimizer update attempts | elapsed 6209s
+[PROGRESS] lora4_1250 | one-epoch training 1195/1250 optimizer update attempts | elapsed 6214s
+[PROGRESS] lora4_1250 | one-epoch training 1196/1250 optimizer update attempts | elapsed 6219s
+[HEARTBEAT] lora4_1250 | one-epoch training 1196/1250 optimizer update attempts | elapsed 6219s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1197/1250 optimizer update attempts | elapsed 6224s
+[PROGRESS] lora4_1250 | one-epoch training 1198/1250 optimizer update attempts | elapsed 6230s
+[HEARTBEAT] lora4_1250 | one-epoch training 1198/1250 optimizer update attempts | elapsed 6234s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1199/1250 optimizer update attempts | elapsed 6235s
+[PROGRESS] lora4_1250 | one-epoch training 1200/1250 optimizer update attempts | elapsed 6240s
+lora4: 1200/1250  SFT=0.1902  4.86s/update
+[CHECKPOINT] lora4_1250 | one-epoch training 1200/1250 optimizer update attempts | elapsed 6240s
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/lora4/checkpoints/rolling_update_1200.pt | update 1200 | 0.03 GiB
+[PROGRESS] lora4_1250 | one-epoch training 1201/1250 optimizer update attempts | elapsed 6245s
+[HEARTBEAT] lora4_1250 | one-epoch training 1201/1250 optimizer update attempts | elapsed 6249s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1202/1250 optimizer update attempts | elapsed 6250s
+[PROGRESS] lora4_1250 | one-epoch training 1203/1250 optimizer update attempts | elapsed 6256s
+[PROGRESS] lora4_1250 | one-epoch training 1204/1250 optimizer update attempts | elapsed 6260s
+[HEARTBEAT] lora4_1250 | one-epoch training 1204/1250 optimizer update attempts | elapsed 6264s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1205/1250 optimizer update attempts | elapsed 6266s
+[PROGRESS] lora4_1250 | one-epoch training 1206/1250 optimizer update attempts | elapsed 6271s
+[PROGRESS] lora4_1250 | one-epoch training 1207/1250 optimizer update attempts | elapsed 6276s
+[HEARTBEAT] lora4_1250 | one-epoch training 1207/1250 optimizer update attempts | elapsed 6279s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1208/1250 optimizer update attempts | elapsed 6281s
+[PROGRESS] lora4_1250 | one-epoch training 1209/1250 optimizer update attempts | elapsed 6286s
+[PROGRESS] lora4_1250 | one-epoch training 1210/1250 optimizer update attempts | elapsed 6292s
+[HEARTBEAT] lora4_1250 | one-epoch training 1210/1250 optimizer update attempts | elapsed 6294s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1211/1250 optimizer update attempts | elapsed 6297s
+[PROGRESS] lora4_1250 | one-epoch training 1212/1250 optimizer update attempts | elapsed 6302s
+[PROGRESS] lora4_1250 | one-epoch training 1213/1250 optimizer update attempts | elapsed 6307s
+[HEARTBEAT] lora4_1250 | one-epoch training 1213/1250 optimizer update attempts | elapsed 6309s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1214/1250 optimizer update attempts | elapsed 6312s
+[PROGRESS] lora4_1250 | one-epoch training 1215/1250 optimizer update attempts | elapsed 6318s
+[PROGRESS] lora4_1250 | one-epoch training 1216/1250 optimizer update attempts | elapsed 6323s
+[HEARTBEAT] lora4_1250 | one-epoch training 1216/1250 optimizer update attempts | elapsed 6324s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1217/1250 optimizer update attempts | elapsed 6328s
+[PROGRESS] lora4_1250 | one-epoch training 1218/1250 optimizer update attempts | elapsed 6333s
+[PROGRESS] lora4_1250 | one-epoch training 1219/1250 optimizer update attempts | elapsed 6338s
+[HEARTBEAT] lora4_1250 | one-epoch training 1219/1250 optimizer update attempts | elapsed 6339s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1220/1250 optimizer update attempts | elapsed 6343s
+[PROGRESS] lora4_1250 | one-epoch training 1221/1250 optimizer update attempts | elapsed 6348s
+[PROGRESS] lora4_1250 | one-epoch training 1222/1250 optimizer update attempts | elapsed 6353s
+[HEARTBEAT] lora4_1250 | one-epoch training 1222/1250 optimizer update attempts | elapsed 6354s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1223/1250 optimizer update attempts | elapsed 6358s
+[PROGRESS] lora4_1250 | one-epoch training 1224/1250 optimizer update attempts | elapsed 6363s
+[PROGRESS] lora4_1250 | one-epoch training 1225/1250 optimizer update attempts | elapsed 6368s
+lora4: 1225/1250  SFT=0.2543  5.14s/update
+[HEARTBEAT] lora4_1250 | one-epoch training 1225/1250 optimizer update attempts | elapsed 6369s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1226/1250 optimizer update attempts | elapsed 6374s
+[PROGRESS] lora4_1250 | one-epoch training 1227/1250 optimizer update attempts | elapsed 6379s
+[PROGRESS] lora4_1250 | one-epoch training 1228/1250 optimizer update attempts | elapsed 6384s
+[HEARTBEAT] lora4_1250 | one-epoch training 1228/1250 optimizer update attempts | elapsed 6384s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1229/1250 optimizer update attempts | elapsed 6389s
+[PROGRESS] lora4_1250 | one-epoch training 1230/1250 optimizer update attempts | elapsed 6394s
+[PROGRESS] lora4_1250 | one-epoch training 1231/1250 optimizer update attempts | elapsed 6399s
+[HEARTBEAT] lora4_1250 | one-epoch training 1231/1250 optimizer update attempts | elapsed 6399s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1232/1250 optimizer update attempts | elapsed 6404s
+[PROGRESS] lora4_1250 | one-epoch training 1233/1250 optimizer update attempts | elapsed 6409s
+[PROGRESS] lora4_1250 | one-epoch training 1234/1250 optimizer update attempts | elapsed 6414s
+[HEARTBEAT] lora4_1250 | one-epoch training 1234/1250 optimizer update attempts | elapsed 6414s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1235/1250 optimizer update attempts | elapsed 6419s
+[PROGRESS] lora4_1250 | one-epoch training 1236/1250 optimizer update attempts | elapsed 6424s
+[HEARTBEAT] lora4_1250 | one-epoch training 1236/1250 optimizer update attempts | elapsed 6429s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1237/1250 optimizer update attempts | elapsed 6430s
+[PROGRESS] lora4_1250 | one-epoch training 1238/1250 optimizer update attempts | elapsed 6435s
+[PROGRESS] lora4_1250 | one-epoch training 1239/1250 optimizer update attempts | elapsed 6440s
+[HEARTBEAT] lora4_1250 | one-epoch training 1239/1250 optimizer update attempts | elapsed 6444s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1240/1250 optimizer update attempts | elapsed 6445s
+[PROGRESS] lora4_1250 | one-epoch training 1241/1250 optimizer update attempts | elapsed 6450s
+[PROGRESS] lora4_1250 | one-epoch training 1242/1250 optimizer update attempts | elapsed 6455s
+[HEARTBEAT] lora4_1250 | one-epoch training 1242/1250 optimizer update attempts | elapsed 6459s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1243/1250 optimizer update attempts | elapsed 6460s
+[PROGRESS] lora4_1250 | one-epoch training 1244/1250 optimizer update attempts | elapsed 6465s
+[PROGRESS] lora4_1250 | one-epoch training 1245/1250 optimizer update attempts | elapsed 6470s
+[HEARTBEAT] lora4_1250 | one-epoch training 1245/1250 optimizer update attempts | elapsed 6474s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1246/1250 optimizer update attempts | elapsed 6475s
+[PROGRESS] lora4_1250 | one-epoch training 1247/1250 optimizer update attempts | elapsed 6480s
+[PROGRESS] lora4_1250 | one-epoch training 1248/1250 optimizer update attempts | elapsed 6486s
+[HEARTBEAT] lora4_1250 | one-epoch training 1248/1250 optimizer update attempts | elapsed 6489s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] lora4_1250 | one-epoch training 1249/1250 optimizer update attempts | elapsed 6490s
+[PROGRESS] lora4_1250 | one-epoch training 1250/1250 optimizer update attempts | elapsed 6496s
+lora4: 1250/1250  SFT=0.1941  5.14s/update
+[CHECKPOINT] lora4_1250 | one-epoch training 1250/1250 optimizer update attempts | elapsed 6496s
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/lora4/checkpoints/update_1250.pt | update 1250 | 0.03 GiB
+[DONE] lora4_1250 | one-epoch training 1250/1250 optimizer update attempts | elapsed 6496s

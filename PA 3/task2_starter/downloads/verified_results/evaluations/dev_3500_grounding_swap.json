@@ -1,0 +1,290 @@
+[
+  {
+    "id": "ground-val2014-dev-presence-0-0",
+    "image_id": 77548,
+    "target": "yes",
+    "nll": 8.203478813171387
+  },
+  {
+    "id": "ground-val2014-dev-presence-0-1",
+    "image_id": 412914,
+    "target": "no",
+    "nll": 8.329254150390625
+  },
+  {
+    "id": "ground-val2014-dev-presence-1-0",
+    "image_id": 233223,
+    "target": "yes",
+    "nll": 7.000996112823486
+  },
+  {
+    "id": "ground-val2014-dev-presence-1-1",
+    "image_id": 180917,
+    "target": "no",
+    "nll": 1.0248113870620728
+  },
+  {
+    "id": "ground-val2014-dev-presence-2-0",
+    "image_id": 454562,
+    "target": "yes",
+    "nll": 5.364146709442139
+  },
+  {
+    "id": "ground-val2014-dev-presence-2-1",
+    "image_id": 299987,
+    "target": "no",
+    "nll": 7.9067301750183105
+  },
+  {
+    "id": "ground-val2014-dev-presence-3-0",
+    "image_id": 276720,
+    "target": "yes",
+    "nll": 1.7017146348953247
+  },
+  {
+    "id": "ground-val2014-dev-presence-3-1",
+    "image_id": 287216,
+    "target": "no",
+    "nll": 3.336047410964966
+  },
+  {
+    "id": "ground-val2014-dev-presence-4-0",
+    "image_id": 112065,
+    "target": "yes",
+    "nll": 2.1963741779327393
+  },
+  {
+    "id": "ground-val2014-dev-presence-4-1",
+    "image_id": 218362,
+    "target": "no",
+    "nll": 0.8088492751121521
+  },
+  {
+    "id": "ground-val2014-dev-presence-5-0",
+    "image_id": 106048,
+    "target": "yes",
+    "nll": 4.449345111846924
+  },
+  {
+    "id": "ground-val2014-dev-presence-5-1",
+    "image_id": 346589,
+    "target": "no",
+    "nll": 8.469149589538574
+  },
+  {
+    "id": "ground-val2014-dev-presence-6-0",
+    "image_id": 432258,
+    "target": "yes",
+    "nll": 3.759053945541382
+  },
+  {
+    "id": "ground-val2014-dev-presence-6-1",
+    "image_id": 502663,
+    "target": "no",
+    "nll": 4.789675235748291
+  },
+  {
+    "id": "ground-val2014-dev-presence-7-0",
+    "image_id": 465675,
+    "target": "yes",
+    "nll": 3.666698932647705
+  },
+  {
+    "id": "ground-val2014-dev-presence-7-1",
+    "image_id": 551338,
+    "target": "no",
+    "nll": 4.805889129638672
+  },
+  {
+    "id": "ground-val2014-dev-presence-8-0",
+    "image_id": 132776,
+    "target": "yes",
+    "nll": 8.234752655029297
+  },
+  {
+    "id": "ground-val2014-dev-presence-8-1",
+    "image_id": 213904,
+    "target": "no",
+    "nll": 6.0339555740356445
+  },
+  {
+    "id": "ground-val2014-dev-presence-9-0",
+    "image_id": 211097,
+    "target": "yes",
+    "nll": 1.6257833242416382
+  },
+  {
+    "id": "ground-val2014-dev-presence-9-1",
+    "image_id": 169936,
+    "target": "no",
+    "nll": 0.5303833484649658
+  },
+  {
+    "id": "ground-val2014-dev-presence-10-0",
+    "image_id": 279203,
+    "target": "yes",
+    "nll": 1.8839737176895142
+  },
+  {
+    "id": "ground-val2014-dev-presence-10-1",
+    "image_id": 269006,
+    "target": "no",
+    "nll": 5.022393226623535
+  },
+  {
+    "id": "ground-val2014-dev-presence-11-0",
+    "image_id": 450570,
+    "target": "yes",
+    "nll": 7.485083103179932
+  },
+  {
+    "id": "ground-val2014-dev-presence-11-1",
+    "image_id": 101304,
+    "target": "no",
+    "nll": 6.8294243812561035
+  },
+  {
+    "id": "ground-val2014-dev-counting-12-0",
+    "image_id": 311553,
+    "target": "3",
+    "nll": 2.304001808166504
+  },
+  {
+    "id": "ground-val2014-dev-counting-12-1",
+    "image_id": 439982,
+    "target": "2",
+    "nll": 1.226694107055664
+  },
+  {
+    "id": "ground-val2014-dev-counting-13-0",
+    "image_id": 311303,
+    "target": "1",
+    "nll": 1.1051121950149536
+  },
+  {
+    "id": "ground-val2014-dev-counting-13-1",
+    "image_id": 520787,
+    "target": "4",
+    "nll": 3.3813562393188477
+  },
+  {
+    "id": "ground-val2014-dev-counting-14-0",
+    "image_id": 116037,
+    "target": "1",
+    "nll": 0.5522361993789673
+  },
+  {
+    "id": "ground-val2014-dev-counting-14-1",
+    "image_id": 420069,
+    "target": "4",
+    "nll": 3.6492369174957275
+  },
+  {
+    "id": "ground-val2014-dev-counting-15-0",
+    "image_id": 47435,
+    "target": "4",
+    "nll": 0.5710154175758362
+  },
+  {
+    "id": "ground-val2014-dev-counting-15-1",
+    "image_id": 125458,
+    "target": "3",
+    "nll": 1.5615237951278687
+  },
+  {
+    "id": "ground-val2014-dev-counting-16-0",
+    "image_id": 133819,
+    "target": "4",
+    "nll": 4.163720607757568
+  },
+  {
+    "id": "ground-val2014-dev-counting-16-1",
+    "image_id": 462840,
+    "target": "1",
+    "nll": 1.0252766609191895
+  },
+  {
+    "id": "ground-val2014-dev-counting-17-0",
+    "image_id": 313585,
+    "target": "2",
+    "nll": 1.856217861175537
+  },
+  {
+    "id": "ground-val2014-dev-counting-17-1",
+    "image_id": 144481,
+    "target": "3",
+    "nll": 1.4834537506103516
+  },
+  {
+    "id": "ground-val2014-dev-counting-18-0",
+    "image_id": 196085,
+    "target": "3",
+    "nll": 1.1569944620132446
+  },
+  {
+    "id": "ground-val2014-dev-counting-18-1",
+    "image_id": 21993,
+    "target": "4",
+    "nll": 0.8288270235061646
+  },
+  {
+    "id": "ground-val2014-dev-counting-19-0",
+    "image_id": 162357,
+    "target": "1",
+    "nll": 0.13250106573104858
+  },
+  {
+    "id": "ground-val2014-dev-counting-19-1",
+    "image_id": 249347,
+    "target": "2",
+    "nll": 2.5863683223724365
+  },
+  {
+    "id": "ground-val2014-dev-counting-20-0",
+    "image_id": 116819,
+    "target": "3",
+    "nll": 1.138115406036377
+  },
+  {
+    "id": "ground-val2014-dev-counting-20-1",
+    "image_id": 551199,
+    "target": "1",
+    "nll": 1.4720406532287598
+  },
+  {
+    "id": "ground-val2014-dev-counting-21-0",
+    "image_id": 520525,
+    "target": "4",
+    "nll": 2.154825210571289
+  },
+  {
+    "id": "ground-val2014-dev-counting-21-1",
+    "image_id": 30992,
+    "target": "1",
+    "nll": 1.3678290843963623
+  },
+  {
+    "id": "ground-val2014-dev-counting-22-0",
+    "image_id": 555476,
+    "target": "2",
+    "nll": 1.8614603281021118
+  },
+  {
+    "id": "ground-val2014-dev-counting-22-1",
+    "image_id": 500829,
+    "target": "1",
+    "nll": 1.6111297607421875
+  },
+  {
+    "id": "ground-val2014-dev-counting-23-0",
+    "image_id": 196885,
+    "target": "2",
+    "nll": 1.8388904333114624
+  },
+  {
+    "id": "ground-val2014-dev-counting-23-1",
+    "image_id": 46859,
+    "target": "1",
+    "nll": 0.9707801342010498
+  }
+]

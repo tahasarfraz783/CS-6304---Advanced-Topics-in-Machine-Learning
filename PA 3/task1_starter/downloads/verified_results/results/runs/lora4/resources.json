@@ -1,0 +1,19 @@
+{
+  "training_seconds": 6488.605743055348,
+  "peak_gpu_bytes": 9754212352,
+  "skipped_updates": 0,
+  "reference_transfer_seconds": 0.0,
+  "checkpoint_seconds": 1.7115369479870424,
+  "reference_setup_seconds": 0.0,
+  "method": "lora4",
+  "trainable_parameters": 2523136,
+  "reference_bytes_cpu": 0,
+  "reference_setup_seconds_this_process": 0.0,
+  "protection_basis_bytes_gpu": 0,
+  "trainable_state_bytes": 10092544,
+  "last_checkpoint_bytes": 30740565,
+  "last_update": 1250,
+  "rolling_checkpoint_interval_updates": 100,
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "timing_note": "Training excludes checkpoint/evaluation/plotting; these are logged separately."
+}

@@ -1,0 +1,19 @@
+{
+  "training_seconds": 4622.653892934555,
+  "peak_gpu_bytes": 18622527488,
+  "skipped_updates": 0,
+  "reference_transfer_seconds": 297.77982917410554,
+  "checkpoint_seconds": 141.48029085510643,
+  "reference_setup_seconds": 2.0504794050357305,
+  "method": "l2sp",
+  "trainable_parameters": 596049920,
+  "reference_bytes_cpu": 2384199680,
+  "reference_setup_seconds_this_process": 2.0504794050357305,
+  "protection_basis_bytes_gpu": 0,
+  "trainable_state_bytes": 2384199680,
+  "last_checkpoint_bytes": 7152979641,
+  "last_update": 1250,
+  "rolling_checkpoint_interval_updates": 100,
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "timing_note": "Training excludes checkpoint/evaluation/plotting; these are logged separately."
+}

@@ -1,0 +1,19 @@
+{
+  "model": "Qwen/Qwen3-0.6B",
+  "seed": 6304,
+  "examples": 40000,
+  "max_length": 2048,
+  "microbatch": 2,
+  "accumulation": 16,
+  "warmup_updates": 38,
+  "weight_decay": 0.01,
+  "lambda_sp": 0.001,
+  "protection_rank": 128,
+  "adapter_dropout": 0.05,
+  "eval_batch_size": 1,
+  "plot_every": 25,
+  "methods": ["full_ft", "l2sp", "lora4", "lora16", "oplora16"],
+  "probe_layers": [0, 13, 27],
+  "qualitative_file": "inputs/first_plot_questions.yaml",
+  "output": "outputs/assignment"
+}

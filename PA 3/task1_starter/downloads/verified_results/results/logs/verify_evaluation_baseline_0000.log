@@ -1,0 +1,74 @@
+[START] baseline_0000 | starting | elapsed 0s
+[PHASE] baseline_0000 | loading existing starting model for quick evaluation preflight | elapsed 0s
+`torch_dtype` is deprecated! Use `dtype` instead!
+`pretrained` model kwarg is not of type `str`. Many other model arguments may be ignored. Please do not launch via accelerate or use `parallelize=True` if passing an existing model this way.
+Passed an already-initialized model through `pretrained`, assuming single-process call to evaluate() or custom distributed integration
+[PHASE] baseline_0000 | GSM8K answer generation (not prompt preparation) 0/2 answers | elapsed 0s
+GSM8K generation: starting 2 requests; 0 saved answers available
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[PROGRESS] baseline_0000 | GSM8K answer generation (not prompt preparation) 1/2 answers | elapsed 1s | question ID 0 | current answer: 8 decode steps
+[PROGRESS] baseline_0000 | GSM8K answer generation (not prompt preparation) 2/2 answers | elapsed 1s | question ID 1 | current answer: 5 decode steps
+[PHASE] baseline_0000 | GSM8K answer generation (not prompt preparation) 0/2 answers | elapsed 0s
+GSM8K generation: starting 2 requests; 2 saved answers available
+[PROGRESS] baseline_0000 | GSM8K answer generation (not prompt preparation) 1/2 answers | elapsed 0s | question ID 0 | current answer: 0 decode steps
+[PROGRESS] baseline_0000 | GSM8K answer generation (not prompt preparation) 2/2 answers | elapsed 0s | question ID 1 | current answer: 0 decode steps
+[PHASE] baseline_0000 | preflight candidate-likelihood scoring 0/1 candidate scores | elapsed 0s
+[PROGRESS] baseline_0000 | preflight candidate-likelihood scoring 1/1 candidate scores | elapsed 0s
+EVALUATION PREFLIGHT PASSED: generation, progress, per-answer saves, resume, and likelihood scoring.
+[DONE] baseline_0000 | preflight candidate-likelihood scoring 1/1 candidate scores | elapsed 0s
+[START] baseline_0000 | starting | elapsed 0s
+[PHASE] baseline_0000 | loading existing starting model for quick evaluation preflight | elapsed 0s
+`torch_dtype` is deprecated! Use `dtype` instead!
+`pretrained` model kwarg is not of type `str`. Many other model arguments may be ignored. Please do not launch via accelerate or use `parallelize=True` if passing an existing model this way.
+Passed an already-initialized model through `pretrained`, assuming single-process call to evaluate() or custom distributed integration
+[PHASE] baseline_0000 | GSM8K answer generation (not prompt preparation) 0/2 answers | elapsed 0s
+GSM8K generation: starting 2 requests; 2 saved answers available
+[PROGRESS] baseline_0000 | GSM8K answer generation (not prompt preparation) 1/2 answers | elapsed 0s | question ID 0 | current answer: 0 decode steps
+[PROGRESS] baseline_0000 | GSM8K answer generation (not prompt preparation) 2/2 answers | elapsed 0s | question ID 1 | current answer: 0 decode steps
+[PHASE] baseline_0000 | GSM8K answer generation (not prompt preparation) 0/2 answers | elapsed 0s
+GSM8K generation: starting 2 requests; 2 saved answers available
+[PROGRESS] baseline_0000 | GSM8K answer generation (not prompt preparation) 1/2 answers | elapsed 0s | question ID 0 | current answer: 0 decode steps
+[PROGRESS] baseline_0000 | GSM8K answer generation (not prompt preparation) 2/2 answers | elapsed 0s | question ID 1 | current answer: 0 decode steps
+[PHASE] baseline_0000 | preflight candidate-likelihood scoring 0/1 candidate scores | elapsed 0s
+[PROGRESS] baseline_0000 | preflight candidate-likelihood scoring 1/1 candidate scores | elapsed 0s
+EVALUATION PREFLIGHT PASSED: generation, progress, per-answer saves, resume, and likelihood scoring.
+[DONE] baseline_0000 | preflight candidate-likelihood scoring 1/1 candidate scores | elapsed 0s
+[START] baseline_0000 | starting | elapsed 0s
+[PHASE] baseline_0000 | loading existing starting model for quick evaluation preflight | elapsed 0s
+`torch_dtype` is deprecated! Use `dtype` instead!
+`pretrained` model kwarg is not of type `str`. Many other model arguments may be ignored. Please do not launch via accelerate or use `parallelize=True` if passing an existing model this way.
+Passed an already-initialized model through `pretrained`, assuming single-process call to evaluate() or custom distributed integration
+[PHASE] baseline_0000 | GSM8K batched answer generation 0/32 answers | elapsed 0s
+GSM8K: 32 questions, batch size 32, 0 cached answers
+[PROGRESS] baseline_0000 | GSM8K batched answer generation 0/32 answers | elapsed 0s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[PROGRESS] baseline_0000 | GSM8K batched answer generation 32/32 answers | elapsed 1s | question ID 7 | current batch: 8 decode steps | approx phase remaining 0.0 min (measured estimate)
+`pretrained` model kwarg is not of type `str`. Many other model arguments may be ignored. Please do not launch via accelerate or use `parallelize=True` if passing an existing model this way.
+Passed an already-initialized model through `pretrained`, assuming single-process call to evaluate() or custom distributed integration
+[PHASE] baseline_0000 | comparing traced batch answers with unmodified stock harness | elapsed 0s
+[PHASE] baseline_0000 | GSM8K batched answer generation 0/32 answers | elapsed 0s
+GSM8K: 32 questions, batch size 32, 32 cached answers
+[PROGRESS] baseline_0000 | GSM8K batched answer generation 32/32 answers | elapsed 0s
+[PHASE] baseline_0000 | preflight candidate-likelihood scoring 0/1 candidate scores | elapsed 0s
+[PROGRESS] baseline_0000 | preflight candidate-likelihood scoring 1/1 candidate scores | elapsed 0s
+EVALUATION PREFLIGHT PASSED: generation, progress, per-answer saves, resume, and likelihood scoring.
+[DONE] baseline_0000 | preflight candidate-likelihood scoring 1/1 candidate scores | elapsed 0s
+[START] baseline_0000 | starting | elapsed 0s
+[PHASE] baseline_0000 | loading existing starting model for quick evaluation preflight | elapsed 0s
+`torch_dtype` is deprecated! Use `dtype` instead!
+`pretrained` model kwarg is not of type `str`. Many other model arguments may be ignored. Please do not launch via accelerate or use `parallelize=True` if passing an existing model this way.
+Passed an already-initialized model through `pretrained`, assuming single-process call to evaluate() or custom distributed integration
+[PHASE] baseline_0000 | GSM8K batched answer generation 0/32 answers | elapsed 0s
+GSM8K: 32 questions, batch size 32, 32 cached answers
+[PROGRESS] baseline_0000 | GSM8K batched answer generation 32/32 answers | elapsed 0s
+`pretrained` model kwarg is not of type `str`. Many other model arguments may be ignored. Please do not launch via accelerate or use `parallelize=True` if passing an existing model this way.
+Passed an already-initialized model through `pretrained`, assuming single-process call to evaluate() or custom distributed integration
+[PHASE] baseline_0000 | comparing traced batch answers with unmodified stock harness | elapsed 0s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[PHASE] baseline_0000 | GSM8K batched answer generation 0/32 answers | elapsed 0s
+GSM8K: 32 questions, batch size 32, 32 cached answers
+[PROGRESS] baseline_0000 | GSM8K batched answer generation 32/32 answers | elapsed 0s
+[PHASE] baseline_0000 | preflight candidate-likelihood scoring 0/1 candidate scores | elapsed 0s
+[PROGRESS] baseline_0000 | preflight candidate-likelihood scoring 1/1 candidate scores | elapsed 0s
+EVALUATION PREFLIGHT PASSED: generation, progress, per-answer saves, resume, and likelihood scoring.
+[DONE] baseline_0000 | preflight candidate-likelihood scoring 1/1 candidate scores | elapsed 0s

@@ -1,0 +1,218 @@
+2 Vision-Language Models and Visual Grounding
+Introduction and Terminology
+A vision-language model (VLM) combines image representations with a language model to generate imageconditioned responses. Connecting two pretrained models requires an interface between their representation spaces
+and training that teaches the language model to use the visual information.
+A vision encoder converts an image into patch features. A trainable connector maps these features into the language
+model’s embedding space, producing continuous visual tokens. These tokens are inserted alongside text embeddings,
+allowing the language model to attend to image information when generating its response. Here, a two-layer MLP
+connects a frozen SigLIP encoder to Qwen:
+F(I) ∈ R
+196×768, Z(I) = gϕ(F(I)) ∈ R
+196×1024
+,
+where I is the image and ϕ denotes connector parameters.
+Caption alignment trains the connector to make visual features useful for predicting image descriptions. Visual
+instruction tuning trains the system to answer image-conditioned questions. LoRA adapters allow the language
+model to adapt while its original parameters remain frozen. Training first on captions, then simple visual questions,
+and finally natural VQA forms a curriculum. Replay mixes examples from earlier stages into later training.
+Visual grounding means that an answer is supported by image evidence. A model can instead exploit language
+priors, such as frequently occurring answers to a question type. A complementary pair contains the same question
+6
+applied to two images with different reference answers. Question wording alone cannot identify both answers. Changing
+the image tests whether predictions respond to visual evidence; correctness determines whether that response is useful.
+In this task, you will build and train a SigLIP–Qwen VLM through three sequential stages, then investigate grounding
+using complementary pairs and image controls. An optional experiment compares 196 and 49 visual tokens.
+Readings
+Required:
+• Liu et al., Visual Instruction Tuning: visual connectors, feature alignment, and instruction tuning.
+Optional:
+• Goyal et al., Making the V in VQA Matter : complementary pairs and language priors.
+• Sigmoid Loss for Language Image Pre-Training and the VQA answer-normalization and scoring code.
+Dataset, Models, and Experimental Setup
+Models. Start from the original post-trained Qwen checkpoint. Disable thinking during training and generation
+(enable_thinking=False).
+Component Model / architecture Training policy
+Vision encoder google/siglip-base-patch16-224 Always frozen
+Connector Linear 768 → 1024, GELU, Linear 1024 → 1024 Trainable throughout
+Language model Qwen/Qwen3-0.6B Original weights frozen; LoRA in Stages 2–3
+Use the 196 final patch features in their 14 × 14 spatial order, applying SigLIP’s final layer normalization exactly
+once. Cache them in FP16 with deterministic image preprocessing, then remove the vision encoder from GPU memory
+before training Qwen.
+Data. Prepare three components using COCO 2014 captions and instance annotations and VQAv2 complementary
+pairs. A question pair contains the same question applied to two different images with different reference answers;
+each pair therefore provides two question–image examples.
+• COCO captions: select existing image–caption examples for caption alignment and later replay. Use three
+captions per selected training image and one per development image.
+• Annotation-derived grounding: write a script to generate template questions and answers from COCO object
+annotations. For presence, ask “Does this image contain [object]?” and pair an image with an annotated object
+with an image without annotations for that category, giving yes/no targets. For counting, ask “How many [objects]
+can you see?” and pair images with different annotated counts between 1 and 4. These questions are generated
+programmatically rather than manually written.
+• Natural VQAv2: select existing complementary pairs, questions, and human answers. Keep pairs whose
+normalized consensus answers differ and have agreement from at least 8 of 10 annotators for each image. Use an
+original answer string from the consensus group as the training target; retain all ten human answers for scoring.
+Apply the same answer normalization throughout.
+Splits and sizes. Use train2014 images for training and val2014 images for development and final test. Form pairs
+within each split. Keep all development and final-test sets image-disjoint from one another and from training. Training
+images may recur across curriculum stages; evaluation images cannot enter training or replay.
+Dataset Training Development Final test
+COCO captions 6,000 images × 3 captions = 18,000
+examples
+96 images, one caption
+each
+—
+Annotation-derived
+grounding
+Generated pair pools, sampled during
+training
+24 pairs / 48 questions 64 pairs / 128 questions
+Natural VQAv2 1,536 pairs / 3,072 questions 32 pairs / 64 questions 96 pairs / 192 questions
+7
+The annotation-derived counts combine presence and counting pairs. No fixed number of unique training pairs is
+required: construct reusable pools, then draw from them according to the stage sampling probabilities in the Steps
+subsection. The update budgets determine the amount of training; pairs may be sampled repeatedly.
+For natural VQAv2, the yes/no, number, and other pair counts are 640/256/640 for training, 12/8/12 for development,
+and 36/24/36 for final test. Use seed 6304 for data selection and save the selected image, question, and pair IDs.
+Shared training settings. Continue the same model through all three stages.
+Setting Value
+Seed 6304
+Batch size Microbatch 8; accumulation 2; effective batch 16
+Optimizer / weight decay AdamW / 0.01
+Gradient clipping Global norm 1.0
+Learning-rate schedule Per-stage 5% warmup, then cosine decay to 10% of peak LR
+Gradient checkpointing / quantization Enabled / none
+Content-token caps Question 80; caption target 64; short-answer target 16
+Use FP16 autocast with dynamic gradient scaling, a frozen FP16 backbone, and FP32 trainable parameters and
+optimizer states. Unscale before clipping.
+Compute causal cross-entropy on caption/answer tokens and the end-of-turn token; mask visual tokens, prompts, and
+padding. Average supervised-token loss within each example, then across the effective batch:
+L = −
+1
+|B|
+∑︂
+i∈B
+1
+|Ri
+|
+∑︂
+t∈Ri
+log p(yi,t | Ii
+, qi
+, yi,<t).
+This example-weighted loss gives each caption or short answer equal weight.
+Training budget and checkpoints. The main run has 4,500 updates and 72,000 example presentations, including
+replay.
+Stage Updates Connector peak LR LoRA peak LR
+1. Caption alignment 2,250 10−3 —
+2. Visual instruction tuning 1,500 10−4
+2 × 10−5
+3. Natural VQA specialization 750 5 × 10−5
+10−5
+Save resumable checkpoints every 250 main-run updates and connector/adapter weights after each stage. Include
+optimizer, scheduler, scaler, sampler position, stage progress, and RNG state. The completed Stage 3 model is the
+final model.
+Development evaluation. Evaluate before training, every 500 main-run updates, and at stage endpoints 2,250, 3,750,
+and 4,500. Track caption reference loss and reference-answer negative log-likelihood (NLL) on both VQA development
+suites under correct, complementary, and no-image inputs. For answer NLL, exclude termination and average token
+NLL within each example before averaging examples. Define the image-swap penalty
+∆NLL = NLL(y | q, Ipartner) − NLL(y | q, Icorrect).
+Positive values mean the correct image makes the original reference more likely.
+Final evaluation. Evaluate both final-test suites using greedy decoding, thinking disabled, a 16-new-token cap, and
+batch size 8. Keep the question and original references fixed across four conditions:
+Condition Image input
+Correct Original image
+Complementary swap Partner image with a different answer
+Mismatched Unrelated image from another pair in the same suite
+No image Visual tokens omitted; text instructions unchanged
+Fix the mismatched-image mapping before generation, excluding both images of the original pair, and reuse it across
+comparisons. For no-image inputs, remove visual tokens and rebuild masks and positions.
+8
+Score grounding questions with normalized exact match, separating presence and counting. Score natural VQAv2 with
+local VQA soft consensus accuracy against all ten answers, separating yes/no, number, and other. For normalized
+prediction aˆ and references a1, . . . , a10, use
+s(ˆa) = 1
+10
+∑︂
+10
+i=1
+min
+⎛
+⎝1,
+1
+3
+∑︂
+j̸=i
+1[ˆa = aj ]
+⎞
+⎠ .
+These are local subset results, not full-benchmark server scores.
+For each suite and image condition, also report pair accuracy (both predictions match their original canonical
+answers), identical-answer rate, empty-answer rate, mean reference-answer NLL, and generation time per answer.
+Keep empty outputs in accuracy denominators. Report correct-image advantages over complementary swaps in
+accuracy and NLL. Give 95% confidence intervals using 4,000 bootstrap resamples of complete pairs, matching sampled
+pair IDs across conditions when computing differences.
+Steps
+1. Build the Visual Interface. Implement the connector and insert its visual embeddings into the user message
+before the question, preserving Qwen’s chat structure. Construct matching labels, attention masks, and position
+indices. Check feature shapes, frozen parameter sets, connector gradients, and split isolation. Calibrate connector
+output magnitude against text embeddings using training data only, and record the rule and resulting scale.
+Logging throughout training. Save training loss, mixture counts, development metrics, and configurations.
+Record trainable parameters by stage, runtime, and peak GPU memory, separating feature caching from the
+training run. Save raw references, generations, and per-example metrics for evaluation.
+2. Caption Alignment. Train only the connector for two passes over the 18,000 caption examples (2,250 updates).
+This stage learns an interface between frozen visual features and the language model before adding question-answer
+training.
+3. Visual Instruction Tuning. Continue for 1,500 updates. For each draw, randomly choose presence with
+probability 50%, counting with probability 25%, or caption replay with probability 25%. Train the connector
+and newly enabled LoRA adapters, keeping original backbone parameters frozen. Use LoRA rank 16, alpha 32,
+dropout 0.05, no trainable biases, and targets q_proj, k_proj, v_proj, and o_proj. This stage introduces explicit
+visual questions while retaining caption examples.
+Each draw contributes two examples: a complete question pair, or two caption examples for replay. This keeps the
+sampling probabilities comparable across components while preserving pairs. Use the seeded random sampler for
+both question-training stages; do not enforce exact batch or stage quotas. Repeated sampling of training pools is
+allowed.
+4. Natural VQA Specialization. Continue the same connector and adapters for 750 updates. For each draw,
+randomly choose natural VQAv2 with probability 70%, presence replay with probability 10%, counting replay with
+probability 10%, or caption replay with probability 10%. This stage moves from annotation-derived questions to
+natural questions and answers.
+5. Evaluate Visual Grounding. Apply the development and final evaluation protocols above. Compare correctimage results with complementary, mismatched, and no-image controls, reporting the two suites separately.
+Examine whether changes under complementary swaps follow the partner image’s answer or simply produce an
+unsupported answer.
+6. Analyze Training and Model Behavior. Plot development metrics across stages alongside training loss.
+Compare reference likelihood, generated accuracy, and pair-level results across image conditions and question types.
+Present complementary images with the shared question, references, and predictions, using a stated selection rule
+for illustrative examples. Discuss image use, answer consistency, and the limitations of the observed results.
+7. Optional Visual-Token Compression. Repeat the complete recipe with 49 visual tokens, averaging each spatial
+2 × 2 block of the 14 × 14 feature grid before the connector. Initialize a new connector and adapters, keeping seed,
+data, training budgets, and evaluation unchanged. Compare grounding, accuracy, runtime, and memory with the
+196-token run. This experiment is optional.
+9
+What to Watch For
+• Freezing Qwen’s parameters must still allow gradients to reach the connector. Disabling autograd for its entire
+forward pass prevents connector learning.
+• COCO annotations can omit objects or contain ambiguous counts. Inspect labels independently of model predictions;
+keep evaluation images out of training and replay.
+• Swapped-image scores use the original references. Image sensitivity, correctness under the original image, and
+following the new image are different measurements.
+• No-image inputs also shorten the prefix. Complementary swaps preserve question wording and visual-token count.
+• Teacher-forced answer likelihood and free generation measure different behavior.
+• Bootstrap complete pairs, preserving their shared question structure. Do not select checkpoints using final-test
+results.
+Required Evidence
+• Learning curves: training loss, development caption loss, answer NLL, and image-swap penalties, with stage
+boundaries identified.
+• Final results: compact tables for both suites under all four image conditions, including question-type results,
+pair diagnostics, reference NLL, correct-image advantages, and pair-bootstrap intervals.
+• Qualitative findings: aligned complementary-image examples showing the question, references, and model
+responses, with an explanation of example selection and observed behavior.
+• Resources: training and generation time, peak GPU memory, and trainable parameters by stage, including
+feature-caching costs. Optional compression results may be reported separately.
+Research Questions
+1. Learning a visual interface. How does the training curriculum affect the model’s ability to describe images and
+answer visual questions? What carries over or changes between stages?
+2. Grounding and generalization. To what extent do answers depend correctly on visual evidence, and how does
+this vary between annotation-derived and natural questions?
+3. Measuring image use. How consistent are the conclusions suggested by reference likelihood, generated answers,
+pair-level metrics, and qualitative behavior?
+4. Capabilities and cost. What capabilities and limitations characterize this VLM, and what computational costs
+accompany its training and inference?

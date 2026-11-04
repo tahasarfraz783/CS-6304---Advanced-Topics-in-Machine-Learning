@@ -1,0 +1,11 @@
+{
+  "seed": 6304,
+  "workers": 8,
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "live_batch_size": 1,
+  "live_dtype": "float16",
+  "quantization": false,
+  "bootstrap_resamples": 1000,
+  "orders": 10
+}

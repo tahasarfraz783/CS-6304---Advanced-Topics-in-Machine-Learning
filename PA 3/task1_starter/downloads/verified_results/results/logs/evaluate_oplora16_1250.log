@@ -1,0 +1,1165 @@
+[START] oplora16_1250 | starting | elapsed 0s
+[PHASE] oplora16_1250 | loading evaluation model | elapsed 0s
+`torch_dtype` is deprecated! Use `dtype` instead!
+[PHASE] oplora16_1250 | exporting standalone inference model | elapsed 0s
+`pretrained` model kwarg is not of type `str`. Many other model arguments may be ignored. Please do not launch via accelerate or use `parallelize=True` if passing an existing model this way.
+Passed an already-initialized model through `pretrained`, assuming single-process call to evaluate() or custom distributed integration
+[PHASE] oplora16_1250 | preparing gsm8k_cot prompts/requests (generation has not finished) | elapsed 0s
+generation_kwargs: {'max_gen_toks': 1024, 'do_sample': False} specified through cli, these settings will update set parameters in yaml tasks. Ensure 'do_sample=True' for non-greedy decoding!
+[HEARTBEAT] oplora16_1250 | preparing gsm8k_cot prompts/requests (generation has not finished) | elapsed 3s | activity age 3s (heartbeat is NOT proof of progress)
+Overwriting default num_fewshot of gsm8k_cot from 8 to 0
+
+  0%|          | 0/1319 [00:00<?, ?it/s]
+  5%|▍         | 65/1319 [00:00<00:01, 643.81it/s]
+ 11%|█         | 143/1319 [00:00<00:01, 720.32it/s]
+ 17%|█▋        | 221/1319 [00:00<00:01, 747.25it/s]
+ 23%|██▎       | 297/1319 [00:00<00:01, 750.84it/s]
+ 28%|██▊       | 375/1319 [00:00<00:01, 760.51it/s]
+ 34%|███▍      | 452/1319 [00:00<00:01, 714.67it/s]
+ 40%|███▉      | 524/1319 [00:00<00:01, 713.98it/s]
+ 46%|████▌     | 604/1319 [00:00<00:00, 737.68it/s]
+ 52%|█████▏    | 684/1319 [00:00<00:00, 755.17it/s]
+ 58%|█████▊    | 764/1319 [00:01<00:00, 766.00it/s]
+ 64%|██████▍   | 844/1319 [00:01<00:00, 774.21it/s]
+ 70%|██████▉   | 923/1319 [00:01<00:00, 777.99it/s]
+ 76%|███████▌  | 1003/1319 [00:01<00:00, 783.09it/s]
+ 82%|████████▏ | 1083/1319 [00:01<00:00, 787.09it/s]
+ 88%|████████▊ | 1164/1319 [00:01<00:00, 791.88it/s]
+ 94%|█████████▍| 1244/1319 [00:01<00:00, 785.03it/s]
+100%|██████████| 1319/1319 [00:01<00:00, 762.56it/s]
+[PHASE] oplora16_1250 | GSM8K batched answer generation 0/1319 answers | elapsed 0s
+GSM8K: 1319 questions, batch size 32, 0 cached answers
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 0/1319 answers | elapsed 0s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 0/1319 answers | elapsed 7s | question ID 1077 | current batch: 165 decode steps | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 0/1319 answers | elapsed 22s | question ID 1077 | current batch: 566 decode steps | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 0/1319 answers | elapsed 37s | question ID 1077 | current batch: 941 decode steps | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 32/1319 answers | elapsed 41s | question ID 1077 | current batch: 1024 decode steps | approx phase remaining 27.3 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 32/1319 answers | elapsed 52s | question ID 677 | current batch: 299 decode steps | approx phase remaining 27.3 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 64/1319 answers | elapsed 54s | question ID 677 | current batch: 349 decode steps | approx phase remaining 17.6 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 64/1319 answers | elapsed 67s | question ID 770 | current batch: 344 decode steps | approx phase remaining 17.6 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 64/1319 answers | elapsed 82s | question ID 770 | current batch: 747 decode steps | approx phase remaining 17.6 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 96/1319 answers | elapsed 93s | question ID 770 | current batch: 1024 decode steps | approx phase remaining 19.8 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 96/1319 answers | elapsed 97s | question ID 876 | current batch: 95 decode steps | approx phase remaining 19.8 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 128/1319 answers | elapsed 104s | question ID 876 | current batch: 268 decode steps | approx phase remaining 16.1 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 128/1319 answers | elapsed 112s | question ID 283 | current batch: 204 decode steps | approx phase remaining 16.1 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 128/1319 answers | elapsed 127s | question ID 283 | current batch: 583 decode steps | approx phase remaining 16.1 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 128/1319 answers | elapsed 142s | question ID 283 | current batch: 968 decode steps | approx phase remaining 16.1 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 160/1319 answers | elapsed 144s | question ID 283 | current batch: 1024 decode steps | approx phase remaining 17.4 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 160/1319 answers | elapsed 157s | question ID 525 | current batch: 338 decode steps | approx phase remaining 17.4 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 160/1319 answers | elapsed 172s | question ID 525 | current batch: 736 decode steps | approx phase remaining 17.4 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 192/1319 answers | elapsed 184s | question ID 525 | current batch: 1024 decode steps | approx phase remaining 17.9 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 192/1319 answers | elapsed 187s | question ID 778 | current batch: 92 decode steps | approx phase remaining 17.9 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 224/1319 answers | elapsed 196s | question ID 778 | current batch: 329 decode steps | approx phase remaining 15.9 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 224/1319 answers | elapsed 202s | question ID 1172 | current batch: 168 decode steps | approx phase remaining 15.9 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 256/1319 answers | elapsed 205s | question ID 1172 | current batch: 255 decode steps | approx phase remaining 14.2 min (measured estimate)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 288/1319 answers | elapsed 214s | question ID 1088 | current batch: 239 decode steps | approx phase remaining 12.8 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 288/1319 answers | elapsed 217s | question ID 901 | current batch: 73 decode steps | approx phase remaining 12.8 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 320/1319 answers | elapsed 224s | question ID 901 | current batch: 268 decode steps | approx phase remaining 11.7 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 320/1319 answers | elapsed 232s | question ID 530 | current batch: 196 decode steps | approx phase remaining 11.7 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 352/1319 answers | elapsed 235s | question ID 530 | current batch: 277 decode steps | approx phase remaining 10.8 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 352/1319 answers | elapsed 247s | question ID 154 | current batch: 313 decode steps | approx phase remaining 10.8 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 352/1319 answers | elapsed 262s | question ID 154 | current batch: 704 decode steps | approx phase remaining 10.8 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 384/1319 answers | elapsed 275s | question ID 154 | current batch: 1024 decode steps | approx phase remaining 11.2 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 384/1319 answers | elapsed 277s | question ID 390 | current batch: 53 decode steps | approx phase remaining 11.2 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 416/1319 answers | elapsed 285s | question ID 390 | current batch: 246 decode steps | approx phase remaining 10.3 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 416/1319 answers | elapsed 292s | question ID 1090 | current batch: 191 decode steps | approx phase remaining 10.3 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 416/1319 answers | elapsed 307s | question ID 1090 | current batch: 589 decode steps | approx phase remaining 10.3 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 416/1319 answers | elapsed 322s | question ID 1090 | current batch: 965 decode steps | approx phase remaining 10.3 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 448/1319 answers | elapsed 324s | question ID 1090 | current batch: 1024 decode steps | approx phase remaining 10.5 min (measured estimate)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 480/1319 answers | elapsed 335s | question ID 349 | current batch: 256 decode steps | approx phase remaining 9.8 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 480/1319 answers | elapsed 337s | question ID 886 | current batch: 52 decode steps | approx phase remaining 9.8 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 512/1319 answers | elapsed 344s | question ID 886 | current batch: 234 decode steps | approx phase remaining 9.0 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 512/1319 answers | elapsed 352s | question ID 1282 | current batch: 185 decode steps | approx phase remaining 9.0 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 544/1319 answers | elapsed 356s | question ID 1282 | current batch: 286 decode steps | approx phase remaining 8.4 min (measured estimate)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 576/1319 answers | elapsed 364s | question ID 629 | current batch: 220 decode steps | approx phase remaining 7.8 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 576/1319 answers | elapsed 367s | question ID 1314 | current batch: 73 decode steps | approx phase remaining 7.8 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 608/1319 answers | elapsed 373s | question ID 1314 | current batch: 239 decode steps | approx phase remaining 7.3 min (measured estimate)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 640/1319 answers | elapsed 380s | question ID 676 | current batch: 190 decode steps | approx phase remaining 6.7 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 640/1319 answers | elapsed 382s | question ID 1068 | current batch: 45 decode steps | approx phase remaining 6.7 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 672/1319 answers | elapsed 391s | question ID 1068 | current batch: 272 decode steps | approx phase remaining 6.3 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 672/1319 answers | elapsed 397s | question ID 1276 | current batch: 167 decode steps | approx phase remaining 6.3 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 672/1319 answers | elapsed 412s | question ID 1276 | current batch: 563 decode steps | approx phase remaining 6.3 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 704/1319 answers | elapsed 420s | question ID 1276 | current batch: 779 decode steps | approx phase remaining 6.1 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 704/1319 answers | elapsed 427s | question ID 160 | current batch: 171 decode steps | approx phase remaining 6.1 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 736/1319 answers | elapsed 432s | question ID 160 | current batch: 290 decode steps | approx phase remaining 5.7 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 736/1319 answers | elapsed 442s | question ID 314 | current batch: 274 decode steps | approx phase remaining 5.7 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 768/1319 answers | elapsed 442s | question ID 314 | current batch: 278 decode steps | approx phase remaining 5.3 min (measured estimate)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 800/1319 answers | elapsed 455s | question ID 364 | current batch: 336 decode steps | approx phase remaining 4.9 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 800/1319 answers | elapsed 457s | question ID 291 | current batch: 50 decode steps | approx phase remaining 4.9 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 832/1319 answers | elapsed 467s | question ID 291 | current batch: 312 decode steps | approx phase remaining 4.6 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 832/1319 answers | elapsed 472s | question ID 1017 | current batch: 138 decode steps | approx phase remaining 4.6 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 864/1319 answers | elapsed 476s | question ID 1017 | current batch: 261 decode steps | approx phase remaining 4.2 min (measured estimate)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 896/1319 answers | elapsed 484s | question ID 180 | current batch: 205 decode steps | approx phase remaining 3.8 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 896/1319 answers | elapsed 487s | question ID 322 | current batch: 76 decode steps | approx phase remaining 3.8 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 928/1319 answers | elapsed 491s | question ID 322 | current batch: 189 decode steps | approx phase remaining 3.4 min (measured estimate)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 960/1319 answers | elapsed 501s | question ID 1201 | current batch: 250 decode steps | approx phase remaining 3.1 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 960/1319 answers | elapsed 502s | question ID 21 | current batch: 34 decode steps | approx phase remaining 3.1 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 992/1319 answers | elapsed 508s | question ID 21 | current batch: 194 decode steps | approx phase remaining 2.8 min (measured estimate)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 1024/1319 answers | elapsed 515s | question ID 717 | current batch: 188 decode steps | approx phase remaining 2.5 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 1024/1319 answers | elapsed 517s | question ID 667 | current batch: 56 decode steps | approx phase remaining 2.5 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 1056/1319 answers | elapsed 522s | question ID 667 | current batch: 178 decode steps | approx phase remaining 2.2 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 1056/1319 answers | elapsed 532s | question ID 902 | current batch: 277 decode steps | approx phase remaining 2.2 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 1056/1319 answers | elapsed 547s | question ID 902 | current batch: 669 decode steps | approx phase remaining 2.2 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 1088/1319 answers | elapsed 561s | question ID 902 | current batch: 1024 decode steps | approx phase remaining 2.0 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 1088/1319 answers | elapsed 562s | question ID 967 | current batch: 24 decode steps | approx phase remaining 2.0 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 1120/1319 answers | elapsed 573s | question ID 967 | current batch: 302 decode steps | approx phase remaining 1.7 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 1120/1319 answers | elapsed 577s | question ID 30 | current batch: 103 decode steps | approx phase remaining 1.7 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 1152/1319 answers | elapsed 585s | question ID 30 | current batch: 307 decode steps | approx phase remaining 1.4 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 1152/1319 answers | elapsed 592s | question ID 638 | current batch: 195 decode steps | approx phase remaining 1.4 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 1184/1319 answers | elapsed 592s | question ID 638 | current batch: 199 decode steps | approx phase remaining 1.1 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 1184/1319 answers | elapsed 607s | question ID 1224 | current batch: 393 decode steps | approx phase remaining 1.1 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 1184/1319 answers | elapsed 622s | question ID 1224 | current batch: 779 decode steps | approx phase remaining 1.1 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 1216/1319 answers | elapsed 632s | question ID 1224 | current batch: 1024 decode steps | approx phase remaining 0.9 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 1216/1319 answers | elapsed 637s | question ID 3 | current batch: 136 decode steps | approx phase remaining 0.9 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 1248/1319 answers | elapsed 638s | question ID 3 | current batch: 159 decode steps | approx phase remaining 0.6 min (measured estimate)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 1280/1319 answers | elapsed 645s | question ID 978 | current batch: 180 decode steps | approx phase remaining 0.3 min (measured estimate)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 1280/1319 answers | elapsed 652s | question ID 82 | current batch: 195 decode steps | approx phase remaining 0.3 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 1280/1319 answers | elapsed 667s | question ID 82 | current batch: 598 decode steps | approx phase remaining 0.3 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 1280/1319 answers | elapsed 682s | question ID 82 | current batch: 990 decode steps | approx phase remaining 0.3 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 1312/1319 answers | elapsed 683s | question ID 82 | current batch: 1024 decode steps | approx phase remaining 0.1 min (measured estimate)
+[PROGRESS] oplora16_1250 | GSM8K batched answer generation 1319/1319 answers | elapsed 688s | question ID 623 | current batch: 138 decode steps | approx phase remaining 0.0 min (measured estimate)
+fatal: not a git repository (or any of the parent directories): .git
+[HEARTBEAT] oplora16_1250 | GSM8K batched answer generation 1319/1319 answers | elapsed 697s | question ID 623 | current batch: 138 decode steps | approx phase remaining 0.0 min (measured estimate) | activity age 9s (heartbeat is NOT proof of progress)
+[PHASE] oplora16_1250 | preparing hellaswag prompts/requests (generation has not finished) | elapsed 0s
+Overwriting default num_fewshot of hellaswag from None to 0
+
+  0%|          | 0/10042 [00:00<?, ?it/s]
+  2%|▏         | 190/10042 [00:00<00:05, 1899.86it/s]
+  4%|▍         | 385/10042 [00:00<00:05, 1923.53it/s]
+  6%|▌         | 578/10042 [00:00<00:04, 1923.54it/s]
+  8%|▊         | 772/10042 [00:00<00:04, 1928.30it/s]
+ 10%|▉         | 966/10042 [00:00<00:04, 1930.74it/s]
+ 12%|█▏        | 1162/10042 [00:00<00:04, 1937.68it/s]
+ 14%|█▎        | 1357/10042 [00:00<00:04, 1938.59it/s]
+ 15%|█▌        | 1554/10042 [00:00<00:04, 1946.27it/s]
+ 17%|█▋        | 1749/10042 [00:00<00:04, 1942.17it/s]
+ 19%|█▉        | 1944/10042 [00:01<00:04, 1938.36it/s]
+ 21%|██▏       | 2141/10042 [00:01<00:04, 1945.75it/s]
+ 23%|██▎       | 2336/10042 [00:01<00:03, 1945.84it/s]
+ 25%|██▌       | 2531/10042 [00:01<00:03, 1945.49it/s][HEARTBEAT] oplora16_1250 | preparing hellaswag prompts/requests (generation has not finished) | elapsed 14s | activity age 14s (heartbeat is NOT proof of progress)
+
+ 27%|██▋       | 2726/10042 [00:01<00:03, 1940.90it/s]
+ 29%|██▉       | 2925/10042 [00:01<00:03, 1954.13it/s]
+ 31%|███       | 3125/10042 [00:01<00:03, 1966.65it/s]
+ 33%|███▎      | 3324/10042 [00:01<00:03, 1971.67it/s]
+ 35%|███▌      | 3523/10042 [00:01<00:03, 1974.33it/s]
+ 37%|███▋      | 3722/10042 [00:01<00:03, 1977.12it/s]
+ 39%|███▉      | 3920/10042 [00:02<00:03, 1973.12it/s]
+ 41%|████      | 4118/10042 [00:02<00:03, 1965.26it/s]
+ 43%|████▎     | 4315/10042 [00:02<00:02, 1963.69it/s]
+ 45%|████▍     | 4512/10042 [00:02<00:02, 1953.68it/s]
+ 47%|████▋     | 4709/10042 [00:02<00:02, 1956.33it/s]
+ 49%|████▉     | 4907/10042 [00:02<00:02, 1961.16it/s]
+ 51%|█████     | 5105/10042 [00:02<00:02, 1964.91it/s]
+ 53%|█████▎    | 5303/10042 [00:02<00:02, 1968.24it/s]
+ 55%|█████▍    | 5501/10042 [00:02<00:02, 1970.55it/s]
+ 57%|█████▋    | 5699/10042 [00:02<00:02, 1969.32it/s]
+ 59%|█████▊    | 5896/10042 [00:03<00:02, 1967.43it/s]
+ 61%|██████    | 6093/10042 [00:03<00:02, 1960.21it/s]
+ 63%|██████▎   | 6290/10042 [00:03<00:01, 1959.58it/s]
+ 65%|██████▍   | 6488/10042 [00:03<00:01, 1962.77it/s]
+ 67%|██████▋   | 6686/10042 [00:03<00:01, 1965.79it/s]
+ 69%|██████▊   | 6883/10042 [00:03<00:01, 1967.03it/s]
+ 71%|███████   | 7080/10042 [00:03<00:01, 1965.94it/s]
+ 72%|███████▏  | 7277/10042 [00:03<00:01, 1966.83it/s]
+ 74%|███████▍  | 7474/10042 [00:03<00:01, 1967.17it/s]
+ 76%|███████▋  | 7671/10042 [00:03<00:01, 1967.16it/s]
+ 78%|███████▊  | 7868/10042 [00:04<00:01, 1954.98it/s]
+ 80%|████████  | 8064/10042 [00:04<00:01, 1950.90it/s]
+ 82%|████████▏ | 8260/10042 [00:04<00:00, 1945.58it/s]
+ 84%|████████▍ | 8455/10042 [00:04<00:00, 1942.65it/s]
+ 86%|████████▌ | 8652/10042 [00:04<00:00, 1949.18it/s]
+ 88%|████████▊ | 8848/10042 [00:04<00:00, 1951.34it/s]
+ 90%|█████████ | 9045/10042 [00:04<00:00, 1954.61it/s]
+ 92%|█████████▏| 9242/10042 [00:04<00:00, 1956.32it/s]
+ 94%|█████████▍| 9439/10042 [00:04<00:00, 1957.76it/s]
+ 96%|█████████▌| 9636/10042 [00:04<00:00, 1959.30it/s]
+ 98%|█████████▊| 9833/10042 [00:05<00:00, 1959.79it/s]
+100%|█████████▉| 10030/10042 [00:05<00:00, 1960.63it/s]
+100%|██████████| 10042/10042 [00:05<00:00, 1956.04it/s]
+[PHASE] oplora16_1250 | hellaswag candidate-likelihood scoring 0/40168 candidate scores | elapsed 0s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 64/40168 candidate scores | elapsed 0s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 128/40168 candidate scores | elapsed 0s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 192/40168 candidate scores | elapsed 0s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 256/40168 candidate scores | elapsed 0s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 320/40168 candidate scores | elapsed 1s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 384/40168 candidate scores | elapsed 1s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 448/40168 candidate scores | elapsed 1s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 512/40168 candidate scores | elapsed 1s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 576/40168 candidate scores | elapsed 1s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 640/40168 candidate scores | elapsed 1s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 704/40168 candidate scores | elapsed 1s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 768/40168 candidate scores | elapsed 1s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 832/40168 candidate scores | elapsed 1s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 896/40168 candidate scores | elapsed 2s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 960/40168 candidate scores | elapsed 2s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 1024/40168 candidate scores | elapsed 2s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 1088/40168 candidate scores | elapsed 2s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 1152/40168 candidate scores | elapsed 2s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 1216/40168 candidate scores | elapsed 2s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 1280/40168 candidate scores | elapsed 2s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 1344/40168 candidate scores | elapsed 2s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 1408/40168 candidate scores | elapsed 2s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 1472/40168 candidate scores | elapsed 2s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 1536/40168 candidate scores | elapsed 2s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 1600/40168 candidate scores | elapsed 3s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 1664/40168 candidate scores | elapsed 3s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 1728/40168 candidate scores | elapsed 3s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 1792/40168 candidate scores | elapsed 3s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 1856/40168 candidate scores | elapsed 3s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 1920/40168 candidate scores | elapsed 3s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 1984/40168 candidate scores | elapsed 3s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 2048/40168 candidate scores | elapsed 3s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 2112/40168 candidate scores | elapsed 3s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 2176/40168 candidate scores | elapsed 4s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 2240/40168 candidate scores | elapsed 4s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 2304/40168 candidate scores | elapsed 4s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 2368/40168 candidate scores | elapsed 4s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 2432/40168 candidate scores | elapsed 4s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 2496/40168 candidate scores | elapsed 4s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 2560/40168 candidate scores | elapsed 4s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 2624/40168 candidate scores | elapsed 4s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 2688/40168 candidate scores | elapsed 4s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 2752/40168 candidate scores | elapsed 4s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 2816/40168 candidate scores | elapsed 4s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 2880/40168 candidate scores | elapsed 5s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 2944/40168 candidate scores | elapsed 5s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 3008/40168 candidate scores | elapsed 5s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 3072/40168 candidate scores | elapsed 5s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 3136/40168 candidate scores | elapsed 5s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 3200/40168 candidate scores | elapsed 5s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 3264/40168 candidate scores | elapsed 5s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 3328/40168 candidate scores | elapsed 5s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 3392/40168 candidate scores | elapsed 5s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 3456/40168 candidate scores | elapsed 6s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 3520/40168 candidate scores | elapsed 6s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 3584/40168 candidate scores | elapsed 6s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 3648/40168 candidate scores | elapsed 6s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 3712/40168 candidate scores | elapsed 6s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 3776/40168 candidate scores | elapsed 6s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 3840/40168 candidate scores | elapsed 6s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 3904/40168 candidate scores | elapsed 6s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 3968/40168 candidate scores | elapsed 6s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 4032/40168 candidate scores | elapsed 6s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 4096/40168 candidate scores | elapsed 6s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 4160/40168 candidate scores | elapsed 7s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 4224/40168 candidate scores | elapsed 7s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 4288/40168 candidate scores | elapsed 7s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 4352/40168 candidate scores | elapsed 7s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 4416/40168 candidate scores | elapsed 7s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 4480/40168 candidate scores | elapsed 7s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 4544/40168 candidate scores | elapsed 7s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 4608/40168 candidate scores | elapsed 7s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 4672/40168 candidate scores | elapsed 7s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 4736/40168 candidate scores | elapsed 8s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 4800/40168 candidate scores | elapsed 8s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 4864/40168 candidate scores | elapsed 8s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 4928/40168 candidate scores | elapsed 8s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 4992/40168 candidate scores | elapsed 8s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 5056/40168 candidate scores | elapsed 8s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 5120/40168 candidate scores | elapsed 8s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 5184/40168 candidate scores | elapsed 8s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 5248/40168 candidate scores | elapsed 8s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 5312/40168 candidate scores | elapsed 8s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 5376/40168 candidate scores | elapsed 8s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 5440/40168 candidate scores | elapsed 9s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 5504/40168 candidate scores | elapsed 9s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 5568/40168 candidate scores | elapsed 9s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 5632/40168 candidate scores | elapsed 9s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 5696/40168 candidate scores | elapsed 9s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 5760/40168 candidate scores | elapsed 9s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 5824/40168 candidate scores | elapsed 9s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 5888/40168 candidate scores | elapsed 9s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 5952/40168 candidate scores | elapsed 9s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 6016/40168 candidate scores | elapsed 10s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 6080/40168 candidate scores | elapsed 10s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 6144/40168 candidate scores | elapsed 10s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 6208/40168 candidate scores | elapsed 10s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 6272/40168 candidate scores | elapsed 10s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 6336/40168 candidate scores | elapsed 10s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 6400/40168 candidate scores | elapsed 10s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 6464/40168 candidate scores | elapsed 10s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 6528/40168 candidate scores | elapsed 10s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 6592/40168 candidate scores | elapsed 10s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 6656/40168 candidate scores | elapsed 10s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 6720/40168 candidate scores | elapsed 11s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 6784/40168 candidate scores | elapsed 11s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 6848/40168 candidate scores | elapsed 11s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 6912/40168 candidate scores | elapsed 11s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 6976/40168 candidate scores | elapsed 11s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 7040/40168 candidate scores | elapsed 11s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 7104/40168 candidate scores | elapsed 11s
+[HEARTBEAT] oplora16_1250 | hellaswag candidate-likelihood scoring 7104/40168 candidate scores | elapsed 11s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 7168/40168 candidate scores | elapsed 11s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 7232/40168 candidate scores | elapsed 11s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 7296/40168 candidate scores | elapsed 12s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 7360/40168 candidate scores | elapsed 12s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 7424/40168 candidate scores | elapsed 12s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 7488/40168 candidate scores | elapsed 12s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 7552/40168 candidate scores | elapsed 12s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 7616/40168 candidate scores | elapsed 12s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 7680/40168 candidate scores | elapsed 12s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 7744/40168 candidate scores | elapsed 12s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 7808/40168 candidate scores | elapsed 12s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 7872/40168 candidate scores | elapsed 12s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 7936/40168 candidate scores | elapsed 12s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 8000/40168 candidate scores | elapsed 13s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 8064/40168 candidate scores | elapsed 13s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 8128/40168 candidate scores | elapsed 13s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 8192/40168 candidate scores | elapsed 13s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 8256/40168 candidate scores | elapsed 13s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 8320/40168 candidate scores | elapsed 13s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 8384/40168 candidate scores | elapsed 13s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 8448/40168 candidate scores | elapsed 13s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 8512/40168 candidate scores | elapsed 13s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 8576/40168 candidate scores | elapsed 14s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 8640/40168 candidate scores | elapsed 14s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 8704/40168 candidate scores | elapsed 14s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 8768/40168 candidate scores | elapsed 14s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 8832/40168 candidate scores | elapsed 14s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 8896/40168 candidate scores | elapsed 14s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 8960/40168 candidate scores | elapsed 14s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 9024/40168 candidate scores | elapsed 14s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 9088/40168 candidate scores | elapsed 14s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 9152/40168 candidate scores | elapsed 14s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 9216/40168 candidate scores | elapsed 14s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 9280/40168 candidate scores | elapsed 15s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 9344/40168 candidate scores | elapsed 15s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 9408/40168 candidate scores | elapsed 15s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 9472/40168 candidate scores | elapsed 15s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 9536/40168 candidate scores | elapsed 15s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 9600/40168 candidate scores | elapsed 15s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 9664/40168 candidate scores | elapsed 15s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 9728/40168 candidate scores | elapsed 15s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 9792/40168 candidate scores | elapsed 15s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 9856/40168 candidate scores | elapsed 16s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 9920/40168 candidate scores | elapsed 16s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 9984/40168 candidate scores | elapsed 16s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 10048/40168 candidate scores | elapsed 16s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 10112/40168 candidate scores | elapsed 16s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 10176/40168 candidate scores | elapsed 16s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 10240/40168 candidate scores | elapsed 16s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 10304/40168 candidate scores | elapsed 16s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 10368/40168 candidate scores | elapsed 16s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 10432/40168 candidate scores | elapsed 16s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 10496/40168 candidate scores | elapsed 16s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 10560/40168 candidate scores | elapsed 17s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 10624/40168 candidate scores | elapsed 17s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 10688/40168 candidate scores | elapsed 17s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 10752/40168 candidate scores | elapsed 17s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 10816/40168 candidate scores | elapsed 17s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 10880/40168 candidate scores | elapsed 17s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 10944/40168 candidate scores | elapsed 17s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 11008/40168 candidate scores | elapsed 17s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 11072/40168 candidate scores | elapsed 17s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 11136/40168 candidate scores | elapsed 18s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 11200/40168 candidate scores | elapsed 18s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 11264/40168 candidate scores | elapsed 18s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 11328/40168 candidate scores | elapsed 18s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 11392/40168 candidate scores | elapsed 18s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 11456/40168 candidate scores | elapsed 18s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 11520/40168 candidate scores | elapsed 18s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 11584/40168 candidate scores | elapsed 18s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 11648/40168 candidate scores | elapsed 18s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 11712/40168 candidate scores | elapsed 18s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 11776/40168 candidate scores | elapsed 18s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 11840/40168 candidate scores | elapsed 19s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 11904/40168 candidate scores | elapsed 19s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 11968/40168 candidate scores | elapsed 19s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 12032/40168 candidate scores | elapsed 19s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 12096/40168 candidate scores | elapsed 19s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 12160/40168 candidate scores | elapsed 19s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 12224/40168 candidate scores | elapsed 19s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 12288/40168 candidate scores | elapsed 19s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 12352/40168 candidate scores | elapsed 19s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 12416/40168 candidate scores | elapsed 20s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 12480/40168 candidate scores | elapsed 20s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 12544/40168 candidate scores | elapsed 20s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 12608/40168 candidate scores | elapsed 20s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 12672/40168 candidate scores | elapsed 20s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 12736/40168 candidate scores | elapsed 20s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 12800/40168 candidate scores | elapsed 20s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 12864/40168 candidate scores | elapsed 20s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 12928/40168 candidate scores | elapsed 20s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 12992/40168 candidate scores | elapsed 20s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 13056/40168 candidate scores | elapsed 21s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 13120/40168 candidate scores | elapsed 21s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 13184/40168 candidate scores | elapsed 21s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 13248/40168 candidate scores | elapsed 21s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 13312/40168 candidate scores | elapsed 21s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 13376/40168 candidate scores | elapsed 21s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 13440/40168 candidate scores | elapsed 22s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 13504/40168 candidate scores | elapsed 22s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 13568/40168 candidate scores | elapsed 22s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 13632/40168 candidate scores | elapsed 22s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 13696/40168 candidate scores | elapsed 22s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 13760/40168 candidate scores | elapsed 22s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 13824/40168 candidate scores | elapsed 22s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 13888/40168 candidate scores | elapsed 22s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 13952/40168 candidate scores | elapsed 23s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 14016/40168 candidate scores | elapsed 23s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 14080/40168 candidate scores | elapsed 23s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 14144/40168 candidate scores | elapsed 23s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 14208/40168 candidate scores | elapsed 23s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 14272/40168 candidate scores | elapsed 23s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 14336/40168 candidate scores | elapsed 24s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 14400/40168 candidate scores | elapsed 24s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 14464/40168 candidate scores | elapsed 24s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 14528/40168 candidate scores | elapsed 24s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 14592/40168 candidate scores | elapsed 24s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 14656/40168 candidate scores | elapsed 24s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 14720/40168 candidate scores | elapsed 24s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 14784/40168 candidate scores | elapsed 25s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 14848/40168 candidate scores | elapsed 25s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 14912/40168 candidate scores | elapsed 25s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 14976/40168 candidate scores | elapsed 25s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 15040/40168 candidate scores | elapsed 25s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 15104/40168 candidate scores | elapsed 25s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 15168/40168 candidate scores | elapsed 26s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 15232/40168 candidate scores | elapsed 26s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 15296/40168 candidate scores | elapsed 26s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 15360/40168 candidate scores | elapsed 26s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 15424/40168 candidate scores | elapsed 26s
+[HEARTBEAT] oplora16_1250 | hellaswag candidate-likelihood scoring 15424/40168 candidate scores | elapsed 26s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 15488/40168 candidate scores | elapsed 26s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 15552/40168 candidate scores | elapsed 26s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 15616/40168 candidate scores | elapsed 27s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 15680/40168 candidate scores | elapsed 27s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 15744/40168 candidate scores | elapsed 27s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 15808/40168 candidate scores | elapsed 27s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 15872/40168 candidate scores | elapsed 27s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 15936/40168 candidate scores | elapsed 27s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 16000/40168 candidate scores | elapsed 28s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 16064/40168 candidate scores | elapsed 28s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 16128/40168 candidate scores | elapsed 28s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 16192/40168 candidate scores | elapsed 28s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 16256/40168 candidate scores | elapsed 28s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 16320/40168 candidate scores | elapsed 28s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 16384/40168 candidate scores | elapsed 28s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 16448/40168 candidate scores | elapsed 29s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 16512/40168 candidate scores | elapsed 29s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 16576/40168 candidate scores | elapsed 29s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 16640/40168 candidate scores | elapsed 29s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 16704/40168 candidate scores | elapsed 29s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 16768/40168 candidate scores | elapsed 29s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 16832/40168 candidate scores | elapsed 30s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 16896/40168 candidate scores | elapsed 30s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 16960/40168 candidate scores | elapsed 30s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 17024/40168 candidate scores | elapsed 30s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 17088/40168 candidate scores | elapsed 30s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 17152/40168 candidate scores | elapsed 30s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 17216/40168 candidate scores | elapsed 30s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 17280/40168 candidate scores | elapsed 31s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 17344/40168 candidate scores | elapsed 31s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 17408/40168 candidate scores | elapsed 31s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 17472/40168 candidate scores | elapsed 31s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 17536/40168 candidate scores | elapsed 31s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 17600/40168 candidate scores | elapsed 31s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 17664/40168 candidate scores | elapsed 32s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 17728/40168 candidate scores | elapsed 32s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 17792/40168 candidate scores | elapsed 32s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 17856/40168 candidate scores | elapsed 32s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 17920/40168 candidate scores | elapsed 32s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 17984/40168 candidate scores | elapsed 32s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 18048/40168 candidate scores | elapsed 32s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 18112/40168 candidate scores | elapsed 32s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 18176/40168 candidate scores | elapsed 33s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 18240/40168 candidate scores | elapsed 33s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 18304/40168 candidate scores | elapsed 33s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 18368/40168 candidate scores | elapsed 33s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 18432/40168 candidate scores | elapsed 33s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 18496/40168 candidate scores | elapsed 33s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 18560/40168 candidate scores | elapsed 34s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 18624/40168 candidate scores | elapsed 34s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 18688/40168 candidate scores | elapsed 34s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 18752/40168 candidate scores | elapsed 34s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 18816/40168 candidate scores | elapsed 34s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 18880/40168 candidate scores | elapsed 34s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 18944/40168 candidate scores | elapsed 34s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 19008/40168 candidate scores | elapsed 35s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 19072/40168 candidate scores | elapsed 35s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 19136/40168 candidate scores | elapsed 35s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 19200/40168 candidate scores | elapsed 35s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 19264/40168 candidate scores | elapsed 35s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 19328/40168 candidate scores | elapsed 35s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 19392/40168 candidate scores | elapsed 36s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 19456/40168 candidate scores | elapsed 36s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 19520/40168 candidate scores | elapsed 36s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 19584/40168 candidate scores | elapsed 36s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 19648/40168 candidate scores | elapsed 36s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 19712/40168 candidate scores | elapsed 36s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 19776/40168 candidate scores | elapsed 36s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 19840/40168 candidate scores | elapsed 37s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 19904/40168 candidate scores | elapsed 37s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 19968/40168 candidate scores | elapsed 37s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 20032/40168 candidate scores | elapsed 37s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 20096/40168 candidate scores | elapsed 37s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 20160/40168 candidate scores | elapsed 37s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 20224/40168 candidate scores | elapsed 38s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 20288/40168 candidate scores | elapsed 38s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 20352/40168 candidate scores | elapsed 38s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 20416/40168 candidate scores | elapsed 38s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 20480/40168 candidate scores | elapsed 38s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 20544/40168 candidate scores | elapsed 38s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 20608/40168 candidate scores | elapsed 38s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 20672/40168 candidate scores | elapsed 39s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 20736/40168 candidate scores | elapsed 39s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 20800/40168 candidate scores | elapsed 39s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 20864/40168 candidate scores | elapsed 39s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 20928/40168 candidate scores | elapsed 39s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 20992/40168 candidate scores | elapsed 39s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 21056/40168 candidate scores | elapsed 40s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 21120/40168 candidate scores | elapsed 40s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 21184/40168 candidate scores | elapsed 40s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 21248/40168 candidate scores | elapsed 40s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 21312/40168 candidate scores | elapsed 40s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 21376/40168 candidate scores | elapsed 40s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 21440/40168 candidate scores | elapsed 40s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 21504/40168 candidate scores | elapsed 41s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 21568/40168 candidate scores | elapsed 41s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 21632/40168 candidate scores | elapsed 41s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 21696/40168 candidate scores | elapsed 41s
+[HEARTBEAT] oplora16_1250 | hellaswag candidate-likelihood scoring 21696/40168 candidate scores | elapsed 41s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 21760/40168 candidate scores | elapsed 41s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 21824/40168 candidate scores | elapsed 41s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 21888/40168 candidate scores | elapsed 42s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 21952/40168 candidate scores | elapsed 42s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 22016/40168 candidate scores | elapsed 42s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 22080/40168 candidate scores | elapsed 42s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 22144/40168 candidate scores | elapsed 42s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 22208/40168 candidate scores | elapsed 42s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 22272/40168 candidate scores | elapsed 42s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 22336/40168 candidate scores | elapsed 43s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 22400/40168 candidate scores | elapsed 43s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 22464/40168 candidate scores | elapsed 43s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 22528/40168 candidate scores | elapsed 43s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 22592/40168 candidate scores | elapsed 43s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 22656/40168 candidate scores | elapsed 43s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 22720/40168 candidate scores | elapsed 44s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 22784/40168 candidate scores | elapsed 44s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 22848/40168 candidate scores | elapsed 44s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 22912/40168 candidate scores | elapsed 44s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 22976/40168 candidate scores | elapsed 44s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 23040/40168 candidate scores | elapsed 44s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 23104/40168 candidate scores | elapsed 44s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 23168/40168 candidate scores | elapsed 45s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 23232/40168 candidate scores | elapsed 45s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 23296/40168 candidate scores | elapsed 45s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 23360/40168 candidate scores | elapsed 45s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 23424/40168 candidate scores | elapsed 45s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 23488/40168 candidate scores | elapsed 45s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 23552/40168 candidate scores | elapsed 46s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 23616/40168 candidate scores | elapsed 46s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 23680/40168 candidate scores | elapsed 46s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 23744/40168 candidate scores | elapsed 46s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 23808/40168 candidate scores | elapsed 46s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 23872/40168 candidate scores | elapsed 46s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 23936/40168 candidate scores | elapsed 46s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 24000/40168 candidate scores | elapsed 47s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 24064/40168 candidate scores | elapsed 47s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 24128/40168 candidate scores | elapsed 47s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 24192/40168 candidate scores | elapsed 47s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 24256/40168 candidate scores | elapsed 47s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 24320/40168 candidate scores | elapsed 48s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 24384/40168 candidate scores | elapsed 48s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 24448/40168 candidate scores | elapsed 48s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 24512/40168 candidate scores | elapsed 48s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 24576/40168 candidate scores | elapsed 48s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 24640/40168 candidate scores | elapsed 48s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 24704/40168 candidate scores | elapsed 48s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 24768/40168 candidate scores | elapsed 49s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 24832/40168 candidate scores | elapsed 49s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 24896/40168 candidate scores | elapsed 49s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 24960/40168 candidate scores | elapsed 49s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 25024/40168 candidate scores | elapsed 49s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 25088/40168 candidate scores | elapsed 49s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 25152/40168 candidate scores | elapsed 50s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 25216/40168 candidate scores | elapsed 50s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 25280/40168 candidate scores | elapsed 50s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 25344/40168 candidate scores | elapsed 50s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 25408/40168 candidate scores | elapsed 50s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 25472/40168 candidate scores | elapsed 50s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 25536/40168 candidate scores | elapsed 50s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 25600/40168 candidate scores | elapsed 51s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 25664/40168 candidate scores | elapsed 51s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 25728/40168 candidate scores | elapsed 51s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 25792/40168 candidate scores | elapsed 51s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 25856/40168 candidate scores | elapsed 51s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 25920/40168 candidate scores | elapsed 51s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 25984/40168 candidate scores | elapsed 52s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 26048/40168 candidate scores | elapsed 52s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 26112/40168 candidate scores | elapsed 52s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 26176/40168 candidate scores | elapsed 52s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 26240/40168 candidate scores | elapsed 52s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 26304/40168 candidate scores | elapsed 52s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 26368/40168 candidate scores | elapsed 52s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 26432/40168 candidate scores | elapsed 53s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 26496/40168 candidate scores | elapsed 53s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 26560/40168 candidate scores | elapsed 53s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 26624/40168 candidate scores | elapsed 53s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 26688/40168 candidate scores | elapsed 53s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 26752/40168 candidate scores | elapsed 53s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 26816/40168 candidate scores | elapsed 54s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 26880/40168 candidate scores | elapsed 54s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 26944/40168 candidate scores | elapsed 54s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 27008/40168 candidate scores | elapsed 54s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 27072/40168 candidate scores | elapsed 54s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 27136/40168 candidate scores | elapsed 54s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 27200/40168 candidate scores | elapsed 55s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 27264/40168 candidate scores | elapsed 55s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 27328/40168 candidate scores | elapsed 55s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 27392/40168 candidate scores | elapsed 55s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 27456/40168 candidate scores | elapsed 55s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 27520/40168 candidate scores | elapsed 55s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 27584/40168 candidate scores | elapsed 56s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 27648/40168 candidate scores | elapsed 56s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 27712/40168 candidate scores | elapsed 56s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 27776/40168 candidate scores | elapsed 56s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 27840/40168 candidate scores | elapsed 56s
+[HEARTBEAT] oplora16_1250 | hellaswag candidate-likelihood scoring 27840/40168 candidate scores | elapsed 56s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 27904/40168 candidate scores | elapsed 56s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 27968/40168 candidate scores | elapsed 56s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 28032/40168 candidate scores | elapsed 57s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 28096/40168 candidate scores | elapsed 57s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 28160/40168 candidate scores | elapsed 57s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 28224/40168 candidate scores | elapsed 57s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 28288/40168 candidate scores | elapsed 57s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 28352/40168 candidate scores | elapsed 57s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 28416/40168 candidate scores | elapsed 58s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 28480/40168 candidate scores | elapsed 58s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 28544/40168 candidate scores | elapsed 58s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 28608/40168 candidate scores | elapsed 58s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 28672/40168 candidate scores | elapsed 58s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 28736/40168 candidate scores | elapsed 58s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 28800/40168 candidate scores | elapsed 58s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 28864/40168 candidate scores | elapsed 59s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 28928/40168 candidate scores | elapsed 59s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 28992/40168 candidate scores | elapsed 59s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 29056/40168 candidate scores | elapsed 59s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 29120/40168 candidate scores | elapsed 59s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 29184/40168 candidate scores | elapsed 59s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 29248/40168 candidate scores | elapsed 60s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 29312/40168 candidate scores | elapsed 60s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 29376/40168 candidate scores | elapsed 60s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 29440/40168 candidate scores | elapsed 60s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 29504/40168 candidate scores | elapsed 60s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 29568/40168 candidate scores | elapsed 60s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 29632/40168 candidate scores | elapsed 60s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 29696/40168 candidate scores | elapsed 61s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 29760/40168 candidate scores | elapsed 61s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 29824/40168 candidate scores | elapsed 61s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 29888/40168 candidate scores | elapsed 61s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 29952/40168 candidate scores | elapsed 61s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 30016/40168 candidate scores | elapsed 61s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 30080/40168 candidate scores | elapsed 62s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 30144/40168 candidate scores | elapsed 62s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 30208/40168 candidate scores | elapsed 62s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 30272/40168 candidate scores | elapsed 62s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 30336/40168 candidate scores | elapsed 62s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 30400/40168 candidate scores | elapsed 62s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 30464/40168 candidate scores | elapsed 63s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 30528/40168 candidate scores | elapsed 63s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 30592/40168 candidate scores | elapsed 63s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 30656/40168 candidate scores | elapsed 63s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 30720/40168 candidate scores | elapsed 63s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 30784/40168 candidate scores | elapsed 63s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 30848/40168 candidate scores | elapsed 64s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 30912/40168 candidate scores | elapsed 64s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 30976/40168 candidate scores | elapsed 64s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 31040/40168 candidate scores | elapsed 64s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 31104/40168 candidate scores | elapsed 64s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 31168/40168 candidate scores | elapsed 64s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 31232/40168 candidate scores | elapsed 64s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 31296/40168 candidate scores | elapsed 65s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 31360/40168 candidate scores | elapsed 65s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 31424/40168 candidate scores | elapsed 65s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 31488/40168 candidate scores | elapsed 65s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 31552/40168 candidate scores | elapsed 65s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 31616/40168 candidate scores | elapsed 65s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 31680/40168 candidate scores | elapsed 66s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 31744/40168 candidate scores | elapsed 66s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 31808/40168 candidate scores | elapsed 66s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 31872/40168 candidate scores | elapsed 66s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 31936/40168 candidate scores | elapsed 66s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 32000/40168 candidate scores | elapsed 66s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 32064/40168 candidate scores | elapsed 66s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 32128/40168 candidate scores | elapsed 67s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 32192/40168 candidate scores | elapsed 67s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 32256/40168 candidate scores | elapsed 67s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 32320/40168 candidate scores | elapsed 67s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 32384/40168 candidate scores | elapsed 67s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 32448/40168 candidate scores | elapsed 67s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 32512/40168 candidate scores | elapsed 68s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 32576/40168 candidate scores | elapsed 68s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 32640/40168 candidate scores | elapsed 68s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 32704/40168 candidate scores | elapsed 68s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 32768/40168 candidate scores | elapsed 68s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 32832/40168 candidate scores | elapsed 68s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 32896/40168 candidate scores | elapsed 68s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 32960/40168 candidate scores | elapsed 69s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 33024/40168 candidate scores | elapsed 69s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 33088/40168 candidate scores | elapsed 69s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 33152/40168 candidate scores | elapsed 69s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 33216/40168 candidate scores | elapsed 69s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 33280/40168 candidate scores | elapsed 69s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 33344/40168 candidate scores | elapsed 70s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 33408/40168 candidate scores | elapsed 70s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 33472/40168 candidate scores | elapsed 70s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 33536/40168 candidate scores | elapsed 70s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 33600/40168 candidate scores | elapsed 70s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 33664/40168 candidate scores | elapsed 70s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 33728/40168 candidate scores | elapsed 70s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 33792/40168 candidate scores | elapsed 71s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 33856/40168 candidate scores | elapsed 71s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 33920/40168 candidate scores | elapsed 71s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 33984/40168 candidate scores | elapsed 71s
+[HEARTBEAT] oplora16_1250 | hellaswag candidate-likelihood scoring 33984/40168 candidate scores | elapsed 71s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 34048/40168 candidate scores | elapsed 71s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 34112/40168 candidate scores | elapsed 71s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 34176/40168 candidate scores | elapsed 72s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 34240/40168 candidate scores | elapsed 72s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 34304/40168 candidate scores | elapsed 72s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 34368/40168 candidate scores | elapsed 72s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 34432/40168 candidate scores | elapsed 72s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 34496/40168 candidate scores | elapsed 72s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 34560/40168 candidate scores | elapsed 72s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 34624/40168 candidate scores | elapsed 73s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 34688/40168 candidate scores | elapsed 73s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 34752/40168 candidate scores | elapsed 73s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 34816/40168 candidate scores | elapsed 73s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 34880/40168 candidate scores | elapsed 73s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 34944/40168 candidate scores | elapsed 74s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 35008/40168 candidate scores | elapsed 74s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 35072/40168 candidate scores | elapsed 74s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 35136/40168 candidate scores | elapsed 74s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 35200/40168 candidate scores | elapsed 74s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 35264/40168 candidate scores | elapsed 74s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 35328/40168 candidate scores | elapsed 74s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 35392/40168 candidate scores | elapsed 75s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 35456/40168 candidate scores | elapsed 75s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 35520/40168 candidate scores | elapsed 75s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 35584/40168 candidate scores | elapsed 75s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 35648/40168 candidate scores | elapsed 75s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 35712/40168 candidate scores | elapsed 75s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 35776/40168 candidate scores | elapsed 76s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 35840/40168 candidate scores | elapsed 76s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 35904/40168 candidate scores | elapsed 76s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 35968/40168 candidate scores | elapsed 76s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 36032/40168 candidate scores | elapsed 76s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 36096/40168 candidate scores | elapsed 76s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 36160/40168 candidate scores | elapsed 76s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 36224/40168 candidate scores | elapsed 77s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 36288/40168 candidate scores | elapsed 77s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 36352/40168 candidate scores | elapsed 77s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 36416/40168 candidate scores | elapsed 77s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 36480/40168 candidate scores | elapsed 77s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 36544/40168 candidate scores | elapsed 77s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 36608/40168 candidate scores | elapsed 78s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 36672/40168 candidate scores | elapsed 78s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 36736/40168 candidate scores | elapsed 78s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 36800/40168 candidate scores | elapsed 78s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 36864/40168 candidate scores | elapsed 78s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 36928/40168 candidate scores | elapsed 78s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 36992/40168 candidate scores | elapsed 78s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 37056/40168 candidate scores | elapsed 79s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 37120/40168 candidate scores | elapsed 79s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 37184/40168 candidate scores | elapsed 79s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 37248/40168 candidate scores | elapsed 79s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 37312/40168 candidate scores | elapsed 79s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 37376/40168 candidate scores | elapsed 79s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 37440/40168 candidate scores | elapsed 80s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 37504/40168 candidate scores | elapsed 80s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 37568/40168 candidate scores | elapsed 80s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 37632/40168 candidate scores | elapsed 80s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 37696/40168 candidate scores | elapsed 80s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 37760/40168 candidate scores | elapsed 80s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 37824/40168 candidate scores | elapsed 80s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 37888/40168 candidate scores | elapsed 80s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 37952/40168 candidate scores | elapsed 81s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 38016/40168 candidate scores | elapsed 81s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 38080/40168 candidate scores | elapsed 81s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 38144/40168 candidate scores | elapsed 81s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 38208/40168 candidate scores | elapsed 81s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 38272/40168 candidate scores | elapsed 81s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 38336/40168 candidate scores | elapsed 82s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 38400/40168 candidate scores | elapsed 82s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 38464/40168 candidate scores | elapsed 82s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 38528/40168 candidate scores | elapsed 82s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 38592/40168 candidate scores | elapsed 82s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 38656/40168 candidate scores | elapsed 82s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 38720/40168 candidate scores | elapsed 82s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 38784/40168 candidate scores | elapsed 83s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 38848/40168 candidate scores | elapsed 83s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 38912/40168 candidate scores | elapsed 83s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 38976/40168 candidate scores | elapsed 83s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 39040/40168 candidate scores | elapsed 83s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 39104/40168 candidate scores | elapsed 83s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 39168/40168 candidate scores | elapsed 84s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 39232/40168 candidate scores | elapsed 84s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 39296/40168 candidate scores | elapsed 84s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 39360/40168 candidate scores | elapsed 84s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 39424/40168 candidate scores | elapsed 84s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 39488/40168 candidate scores | elapsed 84s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 39552/40168 candidate scores | elapsed 84s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 39616/40168 candidate scores | elapsed 85s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 39680/40168 candidate scores | elapsed 85s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 39744/40168 candidate scores | elapsed 85s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 39808/40168 candidate scores | elapsed 85s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 39872/40168 candidate scores | elapsed 85s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 39936/40168 candidate scores | elapsed 85s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 40000/40168 candidate scores | elapsed 86s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 40064/40168 candidate scores | elapsed 86s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 40128/40168 candidate scores | elapsed 86s
+[PROGRESS] oplora16_1250 | hellaswag candidate-likelihood scoring 40168/40168 candidate scores | elapsed 86s
+[HEARTBEAT] oplora16_1250 | hellaswag candidate-likelihood scoring 40168/40168 candidate scores | elapsed 86s | activity age 0s (heartbeat is NOT proof of progress)
+fatal: not a git repository (or any of the parent directories): .git
+[PHASE] oplora16_1250 | preparing boolq prompts/requests (generation has not finished) | elapsed 0s
+[HEARTBEAT] oplora16_1250 | preparing boolq prompts/requests (generation has not finished) | elapsed 3s | activity age 3s (heartbeat is NOT proof of progress)
+[Task: boolq] metric acc is defined, but aggregation is not. using default aggregation=mean
+[Task: boolq] metric acc is defined, but higher_is_better is not. using default higher_is_better=True
+Overwriting default num_fewshot of boolq from None to 0
+
+  0%|          | 0/3270 [00:00<?, ?it/s]
+  8%|▊         | 268/3270 [00:00<00:01, 2673.42it/s]
+ 17%|█▋        | 544/3270 [00:00<00:01, 2719.03it/s]
+ 25%|██▍       | 817/3270 [00:00<00:00, 2723.78it/s]
+ 33%|███▎      | 1090/3270 [00:00<00:00, 2679.93it/s]
+ 42%|████▏     | 1359/3270 [00:00<00:00, 2677.78it/s]
+ 50%|████▉     | 1630/3270 [00:00<00:00, 2688.16it/s]
+ 58%|█████▊    | 1899/3270 [00:00<00:00, 2660.59it/s]
+ 67%|██████▋   | 2175/3270 [00:00<00:00, 2689.71it/s]
+ 75%|███████▌  | 2453/3270 [00:00<00:00, 2717.24it/s]
+ 84%|████████▎ | 2732/3270 [00:01<00:00, 2738.94it/s]
+ 92%|█████████▏| 3011/3270 [00:01<00:00, 2754.19it/s]
+100%|██████████| 3270/3270 [00:01<00:00, 2719.97it/s]
+[PHASE] oplora16_1250 | boolq candidate-likelihood scoring 0/6540 candidate scores | elapsed 0s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 64/6540 candidate scores | elapsed 0s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 128/6540 candidate scores | elapsed 1s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 192/6540 candidate scores | elapsed 1s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 256/6540 candidate scores | elapsed 1s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 320/6540 candidate scores | elapsed 1s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 384/6540 candidate scores | elapsed 2s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 448/6540 candidate scores | elapsed 2s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 512/6540 candidate scores | elapsed 2s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 576/6540 candidate scores | elapsed 2s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 640/6540 candidate scores | elapsed 3s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 704/6540 candidate scores | elapsed 3s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 768/6540 candidate scores | elapsed 3s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 832/6540 candidate scores | elapsed 3s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 896/6540 candidate scores | elapsed 4s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 960/6540 candidate scores | elapsed 4s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 1024/6540 candidate scores | elapsed 4s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 1088/6540 candidate scores | elapsed 4s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 1152/6540 candidate scores | elapsed 4s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 1216/6540 candidate scores | elapsed 5s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 1280/6540 candidate scores | elapsed 5s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 1344/6540 candidate scores | elapsed 5s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 1408/6540 candidate scores | elapsed 5s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 1472/6540 candidate scores | elapsed 6s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 1536/6540 candidate scores | elapsed 6s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 1600/6540 candidate scores | elapsed 6s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 1664/6540 candidate scores | elapsed 6s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 1728/6540 candidate scores | elapsed 6s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 1792/6540 candidate scores | elapsed 7s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 1856/6540 candidate scores | elapsed 7s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 1920/6540 candidate scores | elapsed 7s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 1984/6540 candidate scores | elapsed 8s
+[HEARTBEAT] oplora16_1250 | boolq candidate-likelihood scoring 1984/6540 candidate scores | elapsed 8s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 2048/6540 candidate scores | elapsed 8s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 2112/6540 candidate scores | elapsed 8s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 2176/6540 candidate scores | elapsed 8s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 2240/6540 candidate scores | elapsed 8s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 2304/6540 candidate scores | elapsed 9s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 2368/6540 candidate scores | elapsed 9s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 2432/6540 candidate scores | elapsed 9s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 2496/6540 candidate scores | elapsed 9s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 2560/6540 candidate scores | elapsed 10s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 2624/6540 candidate scores | elapsed 10s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 2688/6540 candidate scores | elapsed 10s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 2752/6540 candidate scores | elapsed 10s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 2816/6540 candidate scores | elapsed 10s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 2880/6540 candidate scores | elapsed 11s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 2944/6540 candidate scores | elapsed 11s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 3008/6540 candidate scores | elapsed 11s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 3072/6540 candidate scores | elapsed 11s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 3136/6540 candidate scores | elapsed 12s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 3200/6540 candidate scores | elapsed 12s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 3264/6540 candidate scores | elapsed 12s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 3328/6540 candidate scores | elapsed 12s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 3392/6540 candidate scores | elapsed 13s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 3456/6540 candidate scores | elapsed 13s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 3520/6540 candidate scores | elapsed 13s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 3584/6540 candidate scores | elapsed 13s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 3648/6540 candidate scores | elapsed 14s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 3712/6540 candidate scores | elapsed 14s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 3776/6540 candidate scores | elapsed 14s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 3840/6540 candidate scores | elapsed 14s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 3904/6540 candidate scores | elapsed 14s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 3968/6540 candidate scores | elapsed 15s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 4032/6540 candidate scores | elapsed 15s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 4096/6540 candidate scores | elapsed 15s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 4160/6540 candidate scores | elapsed 15s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 4224/6540 candidate scores | elapsed 16s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 4288/6540 candidate scores | elapsed 16s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 4352/6540 candidate scores | elapsed 16s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 4416/6540 candidate scores | elapsed 16s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 4480/6540 candidate scores | elapsed 16s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 4544/6540 candidate scores | elapsed 17s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 4608/6540 candidate scores | elapsed 17s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 4672/6540 candidate scores | elapsed 17s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 4736/6540 candidate scores | elapsed 18s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 4800/6540 candidate scores | elapsed 18s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 4864/6540 candidate scores | elapsed 18s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 4928/6540 candidate scores | elapsed 18s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 4992/6540 candidate scores | elapsed 18s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 5056/6540 candidate scores | elapsed 19s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 5120/6540 candidate scores | elapsed 19s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 5184/6540 candidate scores | elapsed 19s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 5248/6540 candidate scores | elapsed 19s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 5312/6540 candidate scores | elapsed 19s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 5376/6540 candidate scores | elapsed 20s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 5440/6540 candidate scores | elapsed 20s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 5504/6540 candidate scores | elapsed 20s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 5568/6540 candidate scores | elapsed 20s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 5632/6540 candidate scores | elapsed 20s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 5696/6540 candidate scores | elapsed 21s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 5760/6540 candidate scores | elapsed 21s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 5824/6540 candidate scores | elapsed 21s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 5888/6540 candidate scores | elapsed 22s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 5952/6540 candidate scores | elapsed 22s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 6016/6540 candidate scores | elapsed 22s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 6080/6540 candidate scores | elapsed 22s
+[HEARTBEAT] oplora16_1250 | boolq candidate-likelihood scoring 6080/6540 candidate scores | elapsed 22s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 6144/6540 candidate scores | elapsed 23s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 6208/6540 candidate scores | elapsed 23s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 6272/6540 candidate scores | elapsed 23s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 6336/6540 candidate scores | elapsed 24s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 6400/6540 candidate scores | elapsed 24s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 6464/6540 candidate scores | elapsed 24s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 6528/6540 candidate scores | elapsed 24s
+[PROGRESS] oplora16_1250 | boolq candidate-likelihood scoring 6540/6540 candidate scores | elapsed 25s
+fatal: not a git repository (or any of the parent directories): .git
+[PHASE] oplora16_1250 | preparing arc_easy prompts/requests (generation has not finished) | elapsed 0s
+[HEARTBEAT] oplora16_1250 | preparing arc_easy prompts/requests (generation has not finished) | elapsed 8s | activity age 8s (heartbeat is NOT proof of progress)
+Overwriting default num_fewshot of arc_easy from None to 0
+
+  0%|          | 0/2376 [00:00<?, ?it/s]
+  3%|▎         | 72/2376 [00:00<00:03, 718.33it/s]
+  6%|▌         | 145/2376 [00:00<00:03, 724.50it/s]
+  9%|▉         | 219/2376 [00:00<00:02, 728.40it/s]
+ 12%|█▏        | 293/2376 [00:00<00:02, 731.98it/s]
+ 15%|█▌        | 368/2376 [00:00<00:02, 736.09it/s]
+ 19%|█▊        | 442/2376 [00:00<00:02, 734.98it/s]
+ 22%|██▏       | 516/2376 [00:00<00:02, 733.23it/s]
+ 25%|██▍       | 590/2376 [00:00<00:02, 731.42it/s]
+ 28%|██▊       | 664/2376 [00:00<00:02, 731.23it/s]
+ 31%|███       | 738/2376 [00:01<00:02, 729.29it/s]
+ 34%|███▍      | 811/2376 [00:01<00:02, 727.35it/s]
+ 37%|███▋      | 884/2376 [00:01<00:02, 727.79it/s]
+ 40%|████      | 957/2376 [00:01<00:01, 726.02it/s]
+ 43%|████▎     | 1030/2376 [00:01<00:01, 726.13it/s]
+ 46%|████▋     | 1103/2376 [00:01<00:01, 724.56it/s]
+ 49%|████▉     | 1176/2376 [00:01<00:01, 724.56it/s]
+ 53%|█████▎    | 1249/2376 [00:01<00:01, 724.30it/s]
+ 56%|█████▌    | 1322/2376 [00:01<00:01, 724.19it/s]
+ 59%|█████▊    | 1395/2376 [00:01<00:01, 723.09it/s]
+ 62%|██████▏   | 1468/2376 [00:02<00:01, 722.87it/s]
+ 65%|██████▍   | 1542/2376 [00:02<00:01, 725.20it/s]
+ 68%|██████▊   | 1615/2376 [00:02<00:01, 724.91it/s]
+ 71%|███████   | 1689/2376 [00:02<00:00, 726.87it/s]
+ 74%|███████▍  | 1763/2376 [00:02<00:00, 727.95it/s]
+ 77%|███████▋  | 1836/2376 [00:02<00:00, 728.54it/s]
+ 80%|████████  | 1909/2376 [00:02<00:00, 727.59it/s]
+ 83%|████████▎ | 1982/2376 [00:02<00:00, 726.66it/s]
+ 86%|████████▋ | 2055/2376 [00:02<00:00, 725.79it/s]
+ 90%|████████▉ | 2128/2376 [00:02<00:00, 724.55it/s]
+ 93%|█████████▎| 2201/2376 [00:03<00:00, 725.26it/s]
+ 96%|█████████▌| 2274/2376 [00:03<00:00, 726.43it/s]
+ 99%|█████████▉| 2348/2376 [00:03<00:00, 727.61it/s]
+100%|██████████| 2376/2376 [00:03<00:00, 727.21it/s]
+[PHASE] oplora16_1250 | arc_easy candidate-likelihood scoring 0/9501 candidate scores | elapsed 0s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 64/9501 candidate scores | elapsed 0s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 128/9501 candidate scores | elapsed 0s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 192/9501 candidate scores | elapsed 0s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 256/9501 candidate scores | elapsed 0s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 320/9501 candidate scores | elapsed 0s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 384/9501 candidate scores | elapsed 1s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 448/9501 candidate scores | elapsed 1s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 512/9501 candidate scores | elapsed 1s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 576/9501 candidate scores | elapsed 1s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 640/9501 candidate scores | elapsed 1s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 704/9501 candidate scores | elapsed 1s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 768/9501 candidate scores | elapsed 1s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 832/9501 candidate scores | elapsed 1s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 896/9501 candidate scores | elapsed 2s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 960/9501 candidate scores | elapsed 2s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 1024/9501 candidate scores | elapsed 2s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 1088/9501 candidate scores | elapsed 2s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 1152/9501 candidate scores | elapsed 2s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 1216/9501 candidate scores | elapsed 2s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 1280/9501 candidate scores | elapsed 2s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 1344/9501 candidate scores | elapsed 2s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 1408/9501 candidate scores | elapsed 2s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 1472/9501 candidate scores | elapsed 2s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 1536/9501 candidate scores | elapsed 2s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 1600/9501 candidate scores | elapsed 3s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 1664/9501 candidate scores | elapsed 3s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 1728/9501 candidate scores | elapsed 3s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 1792/9501 candidate scores | elapsed 3s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 1856/9501 candidate scores | elapsed 3s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 1920/9501 candidate scores | elapsed 3s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 1984/9501 candidate scores | elapsed 3s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 2048/9501 candidate scores | elapsed 3s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 2112/9501 candidate scores | elapsed 3s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 2176/9501 candidate scores | elapsed 4s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 2240/9501 candidate scores | elapsed 4s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 2304/9501 candidate scores | elapsed 4s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 2368/9501 candidate scores | elapsed 4s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 2432/9501 candidate scores | elapsed 4s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 2496/9501 candidate scores | elapsed 4s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 2560/9501 candidate scores | elapsed 4s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 2624/9501 candidate scores | elapsed 4s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 2688/9501 candidate scores | elapsed 4s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 2752/9501 candidate scores | elapsed 4s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 2816/9501 candidate scores | elapsed 4s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 2880/9501 candidate scores | elapsed 5s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 2944/9501 candidate scores | elapsed 5s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 3008/9501 candidate scores | elapsed 5s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 3072/9501 candidate scores | elapsed 5s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 3136/9501 candidate scores | elapsed 5s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 3200/9501 candidate scores | elapsed 5s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 3264/9501 candidate scores | elapsed 5s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 3328/9501 candidate scores | elapsed 5s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 3392/9501 candidate scores | elapsed 5s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 3456/9501 candidate scores | elapsed 6s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 3520/9501 candidate scores | elapsed 6s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 3584/9501 candidate scores | elapsed 6s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 3648/9501 candidate scores | elapsed 6s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 3712/9501 candidate scores | elapsed 6s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 3776/9501 candidate scores | elapsed 6s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 3840/9501 candidate scores | elapsed 6s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 3904/9501 candidate scores | elapsed 6s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 3968/9501 candidate scores | elapsed 6s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 4032/9501 candidate scores | elapsed 6s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 4096/9501 candidate scores | elapsed 7s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 4160/9501 candidate scores | elapsed 7s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 4224/9501 candidate scores | elapsed 7s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 4288/9501 candidate scores | elapsed 7s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 4352/9501 candidate scores | elapsed 7s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 4416/9501 candidate scores | elapsed 7s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 4480/9501 candidate scores | elapsed 7s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 4544/9501 candidate scores | elapsed 7s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 4608/9501 candidate scores | elapsed 7s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 4672/9501 candidate scores | elapsed 8s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 4736/9501 candidate scores | elapsed 8s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 4800/9501 candidate scores | elapsed 8s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 4864/9501 candidate scores | elapsed 8s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 4928/9501 candidate scores | elapsed 8s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 4992/9501 candidate scores | elapsed 8s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 5056/9501 candidate scores | elapsed 8s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 5120/9501 candidate scores | elapsed 8s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 5184/9501 candidate scores | elapsed 8s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 5248/9501 candidate scores | elapsed 8s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 5312/9501 candidate scores | elapsed 8s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 5376/9501 candidate scores | elapsed 9s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 5440/9501 candidate scores | elapsed 9s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 5504/9501 candidate scores | elapsed 9s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 5568/9501 candidate scores | elapsed 9s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 5632/9501 candidate scores | elapsed 9s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 5696/9501 candidate scores | elapsed 9s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 5760/9501 candidate scores | elapsed 9s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 5824/9501 candidate scores | elapsed 9s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 5888/9501 candidate scores | elapsed 9s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 5952/9501 candidate scores | elapsed 10s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 6016/9501 candidate scores | elapsed 10s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 6080/9501 candidate scores | elapsed 10s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 6144/9501 candidate scores | elapsed 10s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 6208/9501 candidate scores | elapsed 10s
+[HEARTBEAT] oplora16_1250 | arc_easy candidate-likelihood scoring 6208/9501 candidate scores | elapsed 10s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 6272/9501 candidate scores | elapsed 10s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 6336/9501 candidate scores | elapsed 10s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 6400/9501 candidate scores | elapsed 10s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 6464/9501 candidate scores | elapsed 10s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 6528/9501 candidate scores | elapsed 10s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 6592/9501 candidate scores | elapsed 10s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 6656/9501 candidate scores | elapsed 10s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 6720/9501 candidate scores | elapsed 11s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 6784/9501 candidate scores | elapsed 11s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 6848/9501 candidate scores | elapsed 11s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 6912/9501 candidate scores | elapsed 11s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 6976/9501 candidate scores | elapsed 11s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 7040/9501 candidate scores | elapsed 11s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 7104/9501 candidate scores | elapsed 11s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 7168/9501 candidate scores | elapsed 11s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 7232/9501 candidate scores | elapsed 11s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 7296/9501 candidate scores | elapsed 12s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 7360/9501 candidate scores | elapsed 12s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 7424/9501 candidate scores | elapsed 12s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 7488/9501 candidate scores | elapsed 12s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 7552/9501 candidate scores | elapsed 12s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 7616/9501 candidate scores | elapsed 12s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 7680/9501 candidate scores | elapsed 12s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 7744/9501 candidate scores | elapsed 12s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 7808/9501 candidate scores | elapsed 12s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 7872/9501 candidate scores | elapsed 12s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 7936/9501 candidate scores | elapsed 12s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 8000/9501 candidate scores | elapsed 13s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 8064/9501 candidate scores | elapsed 13s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 8128/9501 candidate scores | elapsed 13s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 8192/9501 candidate scores | elapsed 13s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 8256/9501 candidate scores | elapsed 13s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 8320/9501 candidate scores | elapsed 13s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 8384/9501 candidate scores | elapsed 13s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 8448/9501 candidate scores | elapsed 13s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 8512/9501 candidate scores | elapsed 13s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 8576/9501 candidate scores | elapsed 14s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 8640/9501 candidate scores | elapsed 14s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 8704/9501 candidate scores | elapsed 14s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 8768/9501 candidate scores | elapsed 14s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 8832/9501 candidate scores | elapsed 14s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 8896/9501 candidate scores | elapsed 14s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 8960/9501 candidate scores | elapsed 14s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 9024/9501 candidate scores | elapsed 14s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 9088/9501 candidate scores | elapsed 14s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 9152/9501 candidate scores | elapsed 14s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 9216/9501 candidate scores | elapsed 14s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 9280/9501 candidate scores | elapsed 15s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 9344/9501 candidate scores | elapsed 15s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 9408/9501 candidate scores | elapsed 15s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 9472/9501 candidate scores | elapsed 15s
+[PROGRESS] oplora16_1250 | arc_easy candidate-likelihood scoring 9501/9501 candidate scores | elapsed 15s
+fatal: not a git repository (or any of the parent directories): .git
+[PHASE] oplora16_1250 | qualitative response generation 0/24 responses | elapsed 0s
+[PROGRESS] oplora16_1250 | qualitative response generation 1/24 responses | elapsed 0s
+[PROGRESS] oplora16_1250 | qualitative response generation 2/24 responses | elapsed 2s
+[HEARTBEAT] oplora16_1250 | qualitative response generation 2/24 responses | elapsed 3s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | qualitative response generation 3/24 responses | elapsed 6s
+[PROGRESS] oplora16_1250 | qualitative response generation 4/24 responses | elapsed 11s
+[HEARTBEAT] oplora16_1250 | qualitative response generation 4/24 responses | elapsed 18s | activity age 6s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | qualitative response generation 5/24 responses | elapsed 18s
+[PROGRESS] oplora16_1250 | qualitative response generation 6/24 responses | elapsed 32s
+[HEARTBEAT] oplora16_1250 | qualitative response generation 6/24 responses | elapsed 33s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | qualitative response generation 7/24 responses | elapsed 36s
+[PROGRESS] oplora16_1250 | qualitative response generation 8/24 responses | elapsed 38s
+[PROGRESS] oplora16_1250 | qualitative response generation 9/24 responses | elapsed 39s
+[PROGRESS] oplora16_1250 | qualitative response generation 10/24 responses | elapsed 40s
+[PROGRESS] oplora16_1250 | qualitative response generation 11/24 responses | elapsed 42s
+[HEARTBEAT] oplora16_1250 | qualitative response generation 11/24 responses | elapsed 48s | activity age 6s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | qualitative response generation 12/24 responses | elapsed 49s
+[PROGRESS] oplora16_1250 | qualitative response generation 13/24 responses | elapsed 56s
+[HEARTBEAT] oplora16_1250 | qualitative response generation 13/24 responses | elapsed 63s | activity age 6s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | qualitative response generation 14/24 responses | elapsed 70s
+[PROGRESS] oplora16_1250 | qualitative response generation 15/24 responses | elapsed 76s
+[HEARTBEAT] oplora16_1250 | qualitative response generation 15/24 responses | elapsed 78s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | qualitative response generation 16/24 responses | elapsed 79s
+[PROGRESS] oplora16_1250 | qualitative response generation 17/24 responses | elapsed 80s
+[PROGRESS] oplora16_1250 | qualitative response generation 18/24 responses | elapsed 83s
+[PROGRESS] oplora16_1250 | qualitative response generation 19/24 responses | elapsed 85s
+[PROGRESS] oplora16_1250 | qualitative response generation 20/24 responses | elapsed 86s
+[HEARTBEAT] oplora16_1250 | qualitative response generation 20/24 responses | elapsed 93s | activity age 6s (heartbeat is NOT proof of progress)
+[PROGRESS] oplora16_1250 | qualitative response generation 21/24 responses | elapsed 100s
+[PROGRESS] oplora16_1250 | qualitative response generation 22/24 responses | elapsed 102s
+[PROGRESS] oplora16_1250 | qualitative response generation 23/24 responses | elapsed 105s
+[PROGRESS] oplora16_1250 | qualitative response generation 24/24 responses | elapsed 107s
+[DONE] oplora16_1250 | qualitative response generation 24/24 responses | elapsed 107s

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="660" viewBox="0 0 1100 660">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#1e293b;font-size:13px}</style>
+<text x="100" y="32" style="font-size:21px;font-weight:bold">Training seconds</text>
+<line x1="100" x2="950" y1="445.0" y2="445.0" stroke="#e2e8f0"/>
+<text x="88" y="449.0" text-anchor="end">0</text>
+<line x1="100" x2="950" y1="371.0" y2="371.0" stroke="#e2e8f0"/>
+<text x="88" y="375.0" text-anchor="end">0.53</text>
+<line x1="100" x2="950" y1="297.0" y2="297.0" stroke="#e2e8f0"/>
+<text x="88" y="301.0" text-anchor="end">1.06</text>
+<line x1="100" x2="950" y1="222.99999999999997" y2="222.99999999999997" stroke="#e2e8f0"/>
+<text x="88" y="226.99999999999997" text-anchor="end">1.59</text>
+<line x1="100" x2="950" y1="149.0" y2="149.0" stroke="#e2e8f0"/>
+<text x="88" y="153.0" text-anchor="end">2.12</text>
+<line x1="100" x2="950" y1="75.0" y2="75.0" stroke="#e2e8f0"/>
+<text x="88" y="79.0" text-anchor="end">2.65</text>
+<text transform="translate(100.0,463) rotate(25)" text-anchor="start">full_ft</text>
+<text transform="translate(312.5,463) rotate(25)" text-anchor="start">l2sp</text>
+<text transform="translate(525.0,463) rotate(25)" text-anchor="start">lora16</text>
+<text transform="translate(737.5,463) rotate(25)" text-anchor="start">lora4</text>
+<text transform="translate(950.0,463) rotate(25)" text-anchor="start">oplora16</text>
+<text x="525.0" y="530" text-anchor="middle">Training method</text>
+<text transform="translate(23,260.0) rotate(-90)" text-anchor="middle">Training hours</text>
+<circle cx="100.0" cy="278.53333127834014" r="3" fill="#2563eb"/>
+<circle cx="312.5" cy="265.6405821763799" r="3" fill="#2563eb"/>
+<circle cx="525.0" cy="197.1036286375641" r="3" fill="#2563eb"/>
+<circle cx="737.5" cy="193.2414700481489" r="3" fill="#2563eb"/>
+<circle cx="950.0" cy="102.40740740740739" r="3" fill="#2563eb"/>
+<rect x="100" y="560" width="14" height="4" fill="#2563eb"/>
+<text x="120" y="567">training_seconds</text>
+</svg>

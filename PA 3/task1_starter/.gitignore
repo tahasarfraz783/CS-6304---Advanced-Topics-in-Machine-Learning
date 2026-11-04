@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+cache/
+outputs/
+.verification/
+*.pt
+*.safetensors

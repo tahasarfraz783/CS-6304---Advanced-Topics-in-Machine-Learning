@@ -1,0 +1,2 @@
+{"key": "64db18fb063531e1df3d1bac22a277335c501548447a9eff4aa5329fd98a0a19", "doc_id": 0, "answer": "2 + 2 = 4.", "metadata": {"generated_tokens": 8, "hit_token_cap": true, "truncated": true, "raw_response": "2 + 2 = 4."}}
+{"key": "b4faaea41654d525de66a5aa2663d4f8cda79efcaebb883083c30ee5ed480411", "doc_id": 1, "answer": "Hello! 😊", "metadata": {"generated_tokens": 5, "hit_token_cap": false, "truncated": false, "raw_response": "Hello! 😊<|im_end|>"}}

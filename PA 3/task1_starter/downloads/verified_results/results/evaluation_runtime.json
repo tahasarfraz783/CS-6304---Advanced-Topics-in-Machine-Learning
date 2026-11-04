@@ -1,0 +1,7 @@
+{
+  "schema": "batched-v3",
+  "batch_size": 32,
+  "training_batch_unchanged": true,
+  "scoring": "stock harness; FP16 greedy generation",
+  "note": "Batch size can affect FP16 rounding. Apply consistently to all conditions."
+}

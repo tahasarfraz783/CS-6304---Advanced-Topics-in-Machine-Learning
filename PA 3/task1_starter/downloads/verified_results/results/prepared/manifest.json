@@ -1,0 +1,14 @@
+{
+  "config_hash": "0aed221701dae74c47ed8d94ab0fcea3d2508871b17588090e98f307dbd1c6a1",
+  "model_commit": "c1899de289a04d12100db370d81485cdf75e47ca",
+  "metamath_fingerprint": "7fea5e64bb080f6e",
+  "gsm8k_fingerprint": "59ec1b7f9357c7a2",
+  "retained": 40000,
+  "excluded_before_cutoff": {
+    "empty": 0,
+    "test_match": 0,
+    "too_long": 2
+  },
+  "training_sha256": "1dd8b2e1a8dcff505d61a8606d9f0deed912dc7514d01ba0d40230437cca5b12",
+  "normalization": "Unicode NFKC, casefold, collapse whitespace, preserve punctuation"
+}

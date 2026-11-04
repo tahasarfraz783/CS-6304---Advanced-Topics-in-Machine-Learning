@@ -1,0 +1,1174 @@
+[START] full_ft_0625 | starting | elapsed 0s
+[PHASE] full_ft_0625 | loading evaluation model | elapsed 0s
+`torch_dtype` is deprecated! Use `dtype` instead!
+[PHASE] full_ft_0625 | exporting standalone inference model | elapsed 0s
+`pretrained` model kwarg is not of type `str`. Many other model arguments may be ignored. Please do not launch via accelerate or use `parallelize=True` if passing an existing model this way.
+Passed an already-initialized model through `pretrained`, assuming single-process call to evaluate() or custom distributed integration
+[PHASE] full_ft_0625 | preparing gsm8k_cot prompts/requests (generation has not finished) | elapsed 0s
+generation_kwargs: {'max_gen_toks': 1024, 'do_sample': False} specified through cli, these settings will update set parameters in yaml tasks. Ensure 'do_sample=True' for non-greedy decoding!
+[HEARTBEAT] full_ft_0625 | preparing gsm8k_cot prompts/requests (generation has not finished) | elapsed 2s | activity age 2s (heartbeat is NOT proof of progress)
+Overwriting default num_fewshot of gsm8k_cot from 8 to 0
+
+  0%|          | 0/1319 [00:00<?, ?it/s]
+  5%|▍         | 61/1319 [00:00<00:02, 609.80it/s]
+ 10%|█         | 136/1319 [00:00<00:01, 688.77it/s]
+ 16%|█▌        | 214/1319 [00:00<00:01, 727.36it/s]
+ 22%|██▏       | 292/1319 [00:00<00:01, 746.56it/s]
+ 28%|██▊       | 371/1319 [00:00<00:01, 758.39it/s]
+ 34%|███▍      | 449/1319 [00:00<00:01, 764.71it/s]
+ 40%|███▉      | 526/1319 [00:00<00:01, 757.19it/s]
+ 46%|████▌     | 605/1319 [00:00<00:00, 765.89it/s]
+ 52%|█████▏    | 684/1319 [00:00<00:00, 771.28it/s]
+ 58%|█████▊    | 763/1319 [00:01<00:00, 774.50it/s]
+ 64%|██████▍   | 842/1319 [00:01<00:00, 777.45it/s]
+ 70%|██████▉   | 920/1319 [00:01<00:00, 769.41it/s]
+ 76%|███████▌  | 999/1319 [00:01<00:00, 773.79it/s]
+ 82%|████████▏ | 1078/1319 [00:01<00:00, 776.06it/s]
+ 88%|████████▊ | 1156/1319 [00:01<00:00, 777.00it/s]
+ 94%|█████████▎| 1235/1319 [00:01<00:00, 778.90it/s]
+100%|█████████▉| 1314/1319 [00:01<00:00, 780.60it/s]
+100%|██████████| 1319/1319 [00:01<00:00, 764.64it/s]
+[PHASE] full_ft_0625 | GSM8K batched answer generation 0/1319 answers | elapsed 0s
+GSM8K: 1319 questions, batch size 32, 0 cached answers
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 0/1319 answers | elapsed 0s
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 0/1319 answers | elapsed 5s | question ID 1077 | current batch: 112 decode steps | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 0/1319 answers | elapsed 20s | question ID 1077 | current batch: 511 decode steps | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 0/1319 answers | elapsed 35s | question ID 1077 | current batch: 896 decode steps | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 32/1319 answers | elapsed 41s | question ID 1077 | current batch: 1024 decode steps | approx phase remaining 27.4 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 32/1319 answers | elapsed 50s | question ID 677 | current batch: 248 decode steps | approx phase remaining 27.4 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 64/1319 answers | elapsed 56s | question ID 677 | current batch: 416 decode steps | approx phase remaining 18.4 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 64/1319 answers | elapsed 65s | question ID 770 | current batch: 224 decode steps | approx phase remaining 18.4 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 64/1319 answers | elapsed 80s | question ID 770 | current batch: 627 decode steps | approx phase remaining 18.4 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 64/1319 answers | elapsed 95s | question ID 770 | current batch: 1008 decode steps | approx phase remaining 18.4 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 96/1319 answers | elapsed 96s | question ID 770 | current batch: 1024 decode steps | approx phase remaining 20.3 min (measured estimate)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 128/1319 answers | elapsed 106s | question ID 876 | current batch: 269 decode steps | approx phase remaining 16.4 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 128/1319 answers | elapsed 110s | question ID 283 | current batch: 106 decode steps | approx phase remaining 16.4 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 128/1319 answers | elapsed 125s | question ID 283 | current batch: 503 decode steps | approx phase remaining 16.4 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 128/1319 answers | elapsed 140s | question ID 283 | current batch: 904 decode steps | approx phase remaining 16.4 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 160/1319 answers | elapsed 145s | question ID 283 | current batch: 1024 decode steps | approx phase remaining 17.5 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 160/1319 answers | elapsed 155s | question ID 525 | current batch: 268 decode steps | approx phase remaining 17.5 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 192/1319 answers | elapsed 158s | question ID 525 | current batch: 351 decode steps | approx phase remaining 15.5 min (measured estimate)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 224/1319 answers | elapsed 168s | question ID 778 | current batch: 260 decode steps | approx phase remaining 13.7 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 224/1319 answers | elapsed 170s | question ID 1172 | current batch: 62 decode steps | approx phase remaining 13.7 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 224/1319 answers | elapsed 185s | question ID 1172 | current batch: 463 decode steps | approx phase remaining 13.7 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 224/1319 answers | elapsed 200s | question ID 1172 | current batch: 868 decode steps | approx phase remaining 13.7 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 256/1319 answers | elapsed 207s | question ID 1172 | current batch: 1024 decode steps | approx phase remaining 14.3 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 256/1319 answers | elapsed 215s | question ID 1088 | current batch: 232 decode steps | approx phase remaining 14.3 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 256/1319 answers | elapsed 230s | question ID 1088 | current batch: 641 decode steps | approx phase remaining 14.3 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 288/1319 answers | elapsed 245s | question ID 1088 | current batch: 1024 decode steps | approx phase remaining 14.6 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 288/1319 answers | elapsed 245s | question ID 901 | current batch: 1 decode steps | approx phase remaining 14.6 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 320/1319 answers | elapsed 255s | question ID 901 | current batch: 265 decode steps | approx phase remaining 13.3 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 320/1319 answers | elapsed 260s | question ID 530 | current batch: 143 decode steps | approx phase remaining 13.3 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 320/1319 answers | elapsed 275s | question ID 530 | current batch: 551 decode steps | approx phase remaining 13.3 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 320/1319 answers | elapsed 290s | question ID 530 | current batch: 941 decode steps | approx phase remaining 13.3 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 352/1319 answers | elapsed 294s | question ID 530 | current batch: 1024 decode steps | approx phase remaining 13.4 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 352/1319 answers | elapsed 305s | question ID 154 | current batch: 314 decode steps | approx phase remaining 13.4 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 384/1319 answers | elapsed 305s | question ID 154 | current batch: 317 decode steps | approx phase remaining 12.4 min (measured estimate)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 416/1319 answers | elapsed 314s | question ID 390 | current batch: 223 decode steps | approx phase remaining 11.3 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 416/1319 answers | elapsed 320s | question ID 1090 | current batch: 179 decode steps | approx phase remaining 11.3 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 448/1319 answers | elapsed 323s | question ID 1090 | current batch: 255 decode steps | approx phase remaining 10.5 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 448/1319 answers | elapsed 335s | question ID 349 | current batch: 331 decode steps | approx phase remaining 10.5 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 448/1319 answers | elapsed 350s | question ID 349 | current batch: 739 decode steps | approx phase remaining 10.5 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 480/1319 answers | elapsed 361s | question ID 349 | current batch: 1024 decode steps | approx phase remaining 10.5 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 480/1319 answers | elapsed 365s | question ID 886 | current batch: 102 decode steps | approx phase remaining 10.5 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 512/1319 answers | elapsed 369s | question ID 886 | current batch: 213 decode steps | approx phase remaining 9.7 min (measured estimate)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 544/1319 answers | elapsed 378s | question ID 1282 | current batch: 232 decode steps | approx phase remaining 9.0 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 544/1319 answers | elapsed 380s | question ID 629 | current batch: 64 decode steps | approx phase remaining 9.0 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 576/1319 answers | elapsed 388s | question ID 629 | current batch: 258 decode steps | approx phase remaining 8.3 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 576/1319 answers | elapsed 395s | question ID 1314 | current batch: 206 decode steps | approx phase remaining 8.3 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 608/1319 answers | elapsed 398s | question ID 1314 | current batch: 282 decode steps | approx phase remaining 7.8 min (measured estimate)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 640/1319 answers | elapsed 405s | question ID 676 | current batch: 187 decode steps | approx phase remaining 7.2 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 640/1319 answers | elapsed 410s | question ID 1068 | current batch: 144 decode steps | approx phase remaining 7.2 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 640/1319 answers | elapsed 425s | question ID 1068 | current batch: 554 decode steps | approx phase remaining 7.2 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 640/1319 answers | elapsed 440s | question ID 1068 | current batch: 953 decode steps | approx phase remaining 7.2 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 672/1319 answers | elapsed 443s | question ID 1068 | current batch: 1024 decode steps | approx phase remaining 7.1 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 672/1319 answers | elapsed 455s | question ID 1276 | current batch: 327 decode steps | approx phase remaining 7.1 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 672/1319 answers | elapsed 470s | question ID 1276 | current batch: 736 decode steps | approx phase remaining 7.1 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 704/1319 answers | elapsed 482s | question ID 1276 | current batch: 1024 decode steps | approx phase remaining 7.0 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 704/1319 answers | elapsed 485s | question ID 160 | current batch: 100 decode steps | approx phase remaining 7.0 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 736/1319 answers | elapsed 491s | question ID 160 | current batch: 258 decode steps | approx phase remaining 6.5 min (measured estimate)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 768/1319 answers | elapsed 500s | question ID 314 | current batch: 242 decode steps | approx phase remaining 6.0 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 768/1319 answers | elapsed 500s | question ID 364 | current batch: 0 decode steps | approx phase remaining 6.0 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 768/1319 answers | elapsed 515s | question ID 364 | current batch: 406 decode steps | approx phase remaining 6.0 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 768/1319 answers | elapsed 530s | question ID 364 | current batch: 805 decode steps | approx phase remaining 6.0 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 800/1319 answers | elapsed 540s | question ID 364 | current batch: 1024 decode steps | approx phase remaining 5.8 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 800/1319 answers | elapsed 545s | question ID 291 | current batch: 141 decode steps | approx phase remaining 5.8 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 800/1319 answers | elapsed 560s | question ID 291 | current batch: 547 decode steps | approx phase remaining 5.8 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 800/1319 answers | elapsed 575s | question ID 291 | current batch: 944 decode steps | approx phase remaining 5.8 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 832/1319 answers | elapsed 578s | question ID 291 | current batch: 1024 decode steps | approx phase remaining 5.6 min (measured estimate)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 864/1319 answers | elapsed 587s | question ID 1017 | current batch: 231 decode steps | approx phase remaining 5.2 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 864/1319 answers | elapsed 590s | question ID 180 | current batch: 84 decode steps | approx phase remaining 5.2 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 896/1319 answers | elapsed 599s | question ID 180 | current batch: 317 decode steps | approx phase remaining 4.7 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 896/1319 answers | elapsed 605s | question ID 322 | current batch: 162 decode steps | approx phase remaining 4.7 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 928/1319 answers | elapsed 607s | question ID 322 | current batch: 207 decode steps | approx phase remaining 4.3 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 928/1319 answers | elapsed 620s | question ID 1201 | current batch: 361 decode steps | approx phase remaining 4.3 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 928/1319 answers | elapsed 635s | question ID 1201 | current batch: 767 decode steps | approx phase remaining 4.3 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 960/1319 answers | elapsed 645s | question ID 1201 | current batch: 1024 decode steps | approx phase remaining 4.0 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 960/1319 answers | elapsed 650s | question ID 21 | current batch: 132 decode steps | approx phase remaining 4.0 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 992/1319 answers | elapsed 652s | question ID 21 | current batch: 196 decode steps | approx phase remaining 3.6 min (measured estimate)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 1024/1319 answers | elapsed 660s | question ID 717 | current batch: 188 decode steps | approx phase remaining 3.2 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 1024/1319 answers | elapsed 665s | question ID 667 | current batch: 152 decode steps | approx phase remaining 3.2 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 1056/1319 answers | elapsed 667s | question ID 667 | current batch: 211 decode steps | approx phase remaining 2.8 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 1056/1319 answers | elapsed 680s | question ID 902 | current batch: 343 decode steps | approx phase remaining 2.8 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 1056/1319 answers | elapsed 695s | question ID 902 | current batch: 736 decode steps | approx phase remaining 2.8 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 1088/1319 answers | elapsed 706s | question ID 902 | current batch: 1024 decode steps | approx phase remaining 2.5 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 1088/1319 answers | elapsed 710s | question ID 967 | current batch: 100 decode steps | approx phase remaining 2.5 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 1120/1319 answers | elapsed 716s | question ID 967 | current batch: 245 decode steps | approx phase remaining 2.1 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 1120/1319 answers | elapsed 725s | question ID 30 | current batch: 253 decode steps | approx phase remaining 2.1 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 1152/1319 answers | elapsed 726s | question ID 30 | current batch: 277 decode steps | approx phase remaining 1.8 min (measured estimate)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 1184/1319 answers | elapsed 734s | question ID 638 | current batch: 203 decode steps | approx phase remaining 1.4 min (measured estimate)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 1216/1319 answers | elapsed 740s | question ID 1224 | current batch: 162 decode steps | approx phase remaining 1.0 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 1216/1319 answers | elapsed 740s | question ID 3 | current batch: 12 decode steps | approx phase remaining 1.0 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 1248/1319 answers | elapsed 746s | question ID 3 | current batch: 156 decode steps | approx phase remaining 0.7 min (measured estimate)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 1280/1319 answers | elapsed 753s | question ID 978 | current batch: 198 decode steps | approx phase remaining 0.4 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 1280/1319 answers | elapsed 755s | question ID 82 | current batch: 59 decode steps | approx phase remaining 0.4 min (measured estimate) | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 1312/1319 answers | elapsed 760s | question ID 82 | current batch: 197 decode steps | approx phase remaining 0.1 min (measured estimate)
+[PROGRESS] full_ft_0625 | GSM8K batched answer generation 1319/1319 answers | elapsed 767s | question ID 623 | current batch: 195 decode steps | approx phase remaining 0.0 min (measured estimate)
+[HEARTBEAT] full_ft_0625 | GSM8K batched answer generation 1319/1319 answers | elapsed 770s | question ID 623 | current batch: 195 decode steps | approx phase remaining 0.0 min (measured estimate) | activity age 3s (heartbeat is NOT proof of progress)
+fatal: not a git repository (or any of the parent directories): .git
+[PHASE] full_ft_0625 | preparing hellaswag prompts/requests (generation has not finished) | elapsed 0s
+[HEARTBEAT] full_ft_0625 | preparing hellaswag prompts/requests (generation has not finished) | elapsed 9s | activity age 9s (heartbeat is NOT proof of progress)
+Overwriting default num_fewshot of hellaswag from None to 0
+
+  0%|          | 0/10042 [00:00<?, ?it/s]
+  2%|▏         | 189/10042 [00:00<00:05, 1884.72it/s]
+  4%|▍         | 385/10042 [00:00<00:05, 1927.06it/s]
+  6%|▌         | 581/10042 [00:00<00:04, 1940.80it/s]
+  8%|▊         | 778/10042 [00:00<00:04, 1951.27it/s]
+ 10%|▉         | 974/10042 [00:00<00:04, 1945.04it/s]
+ 12%|█▏        | 1171/10042 [00:00<00:04, 1951.21it/s]
+ 14%|█▎        | 1368/10042 [00:00<00:04, 1956.22it/s]
+ 16%|█▌        | 1565/10042 [00:00<00:04, 1959.35it/s]
+ 18%|█▊        | 1761/10042 [00:00<00:04, 1958.66it/s]
+ 19%|█▉        | 1957/10042 [00:01<00:04, 1953.38it/s]
+ 21%|██▏       | 2153/10042 [00:01<00:04, 1944.09it/s]
+ 23%|██▎       | 2350/10042 [00:01<00:03, 1951.74it/s]
+ 25%|██▌       | 2549/10042 [00:01<00:03, 1961.79it/s]
+ 27%|██▋       | 2748/10042 [00:01<00:03, 1968.95it/s]
+ 29%|██▉       | 2945/10042 [00:01<00:03, 1962.08it/s]
+ 31%|███▏      | 3142/10042 [00:01<00:03, 1962.72it/s]
+ 33%|███▎      | 3340/10042 [00:01<00:03, 1966.50it/s]
+ 35%|███▌      | 3538/10042 [00:01<00:03, 1969.62it/s]
+ 37%|███▋      | 3735/10042 [00:02<00:06, 909.08it/s] 
+ 39%|███▉      | 3933/10042 [00:02<00:05, 1085.39it/s]
+ 41%|████      | 4131/10042 [00:02<00:04, 1254.99it/s]
+ 43%|████▎     | 4328/10042 [00:02<00:04, 1407.31it/s]
+ 45%|████▌     | 4524/10042 [00:02<00:03, 1535.82it/s]
+ 47%|████▋     | 4721/10042 [00:02<00:03, 1644.39it/s]
+ 49%|████▉     | 4917/10042 [00:02<00:02, 1727.45it/s]
+ 51%|█████     | 5113/10042 [00:02<00:02, 1790.87it/s]
+ 53%|█████▎    | 5307/10042 [00:03<00:02, 1832.40it/s]
+ 55%|█████▍    | 5505/10042 [00:03<00:02, 1872.65it/s]
+ 57%|█████▋    | 5700/10042 [00:03<00:02, 1894.50it/s]
+ 59%|█████▊    | 5896/10042 [00:03<00:02, 1913.37it/s]
+ 61%|██████    | 6093/10042 [00:03<00:02, 1927.55it/s]
+ 63%|██████▎   | 6290/10042 [00:03<00:01, 1938.51it/s]
+ 65%|██████▍   | 6487/10042 [00:03<00:01, 1946.30it/s]
+ 67%|██████▋   | 6683/10042 [00:03<00:01, 1950.09it/s]
+ 69%|██████▊   | 6879/10042 [00:03<00:01, 1950.51it/s]
+ 70%|███████   | 7075/10042 [00:04<00:01, 1950.58it/s]
+ 72%|███████▏  | 7272/10042 [00:04<00:01, 1954.92it/s]
+ 74%|███████▍  | 7469/10042 [00:04<00:01, 1958.89it/s]
+ 76%|███████▋  | 7666/10042 [00:04<00:01, 1959.05it/s]
+ 78%|███████▊  | 7863/10042 [00:04<00:01, 1952.98it/s]
+ 80%|████████  | 8060/10042 [00:04<00:01, 1956.27it/s]
+ 82%|████████▏ | 8257/10042 [00:04<00:00, 1959.31it/s]
+ 84%|████████▍ | 8454/10042 [00:04<00:00, 1961.92it/s]
+ 86%|████████▌ | 8651/10042 [00:04<00:00, 1955.90it/s]
+ 88%|████████▊ | 8847/10042 [00:04<00:00, 1951.08it/s]
+ 90%|█████████ | 9043/10042 [00:05<00:00, 1948.16it/s]
+ 92%|█████████▏| 9239/10042 [00:05<00:00, 1949.32it/s]
+ 94%|█████████▍| 9434/10042 [00:05<00:00, 1947.79it/s]
+ 96%|█████████▌| 9630/10042 [00:05<00:00, 1950.52it/s]
+ 98%|█████████▊| 9826/10042 [00:05<00:00, 1952.46it/s]
+100%|█████████▉| 10022/10042 [00:05<00:00, 1944.69it/s]
+100%|██████████| 10042/10042 [00:05<00:00, 1818.90it/s]
+[PHASE] full_ft_0625 | hellaswag candidate-likelihood scoring 0/40168 candidate scores | elapsed 0s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 64/40168 candidate scores | elapsed 0s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 128/40168 candidate scores | elapsed 0s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 192/40168 candidate scores | elapsed 0s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 256/40168 candidate scores | elapsed 0s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 320/40168 candidate scores | elapsed 1s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 384/40168 candidate scores | elapsed 1s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 448/40168 candidate scores | elapsed 1s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 512/40168 candidate scores | elapsed 1s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 576/40168 candidate scores | elapsed 1s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 640/40168 candidate scores | elapsed 1s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 704/40168 candidate scores | elapsed 1s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 768/40168 candidate scores | elapsed 1s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 832/40168 candidate scores | elapsed 1s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 896/40168 candidate scores | elapsed 2s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 960/40168 candidate scores | elapsed 2s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 1024/40168 candidate scores | elapsed 2s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 1088/40168 candidate scores | elapsed 2s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 1152/40168 candidate scores | elapsed 2s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 1216/40168 candidate scores | elapsed 2s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 1280/40168 candidate scores | elapsed 2s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 1344/40168 candidate scores | elapsed 2s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 1408/40168 candidate scores | elapsed 2s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 1472/40168 candidate scores | elapsed 2s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 1536/40168 candidate scores | elapsed 2s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 1600/40168 candidate scores | elapsed 3s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 1664/40168 candidate scores | elapsed 3s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 1728/40168 candidate scores | elapsed 3s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 1792/40168 candidate scores | elapsed 3s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 1856/40168 candidate scores | elapsed 3s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 1920/40168 candidate scores | elapsed 3s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 1984/40168 candidate scores | elapsed 3s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 2048/40168 candidate scores | elapsed 3s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 2112/40168 candidate scores | elapsed 3s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 2176/40168 candidate scores | elapsed 4s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 2240/40168 candidate scores | elapsed 4s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 2304/40168 candidate scores | elapsed 4s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 2368/40168 candidate scores | elapsed 4s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 2432/40168 candidate scores | elapsed 4s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 2496/40168 candidate scores | elapsed 4s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 2560/40168 candidate scores | elapsed 4s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 2624/40168 candidate scores | elapsed 4s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 2688/40168 candidate scores | elapsed 4s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 2752/40168 candidate scores | elapsed 4s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 2816/40168 candidate scores | elapsed 4s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 2880/40168 candidate scores | elapsed 5s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 2944/40168 candidate scores | elapsed 5s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 3008/40168 candidate scores | elapsed 5s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 3072/40168 candidate scores | elapsed 5s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 3136/40168 candidate scores | elapsed 5s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 3200/40168 candidate scores | elapsed 5s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 3264/40168 candidate scores | elapsed 5s
+[HEARTBEAT] full_ft_0625 | hellaswag candidate-likelihood scoring 3264/40168 candidate scores | elapsed 5s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 3328/40168 candidate scores | elapsed 5s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 3392/40168 candidate scores | elapsed 5s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 3456/40168 candidate scores | elapsed 6s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 3520/40168 candidate scores | elapsed 6s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 3584/40168 candidate scores | elapsed 6s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 3648/40168 candidate scores | elapsed 6s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 3712/40168 candidate scores | elapsed 6s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 3776/40168 candidate scores | elapsed 6s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 3840/40168 candidate scores | elapsed 6s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 3904/40168 candidate scores | elapsed 6s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 3968/40168 candidate scores | elapsed 6s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 4032/40168 candidate scores | elapsed 6s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 4096/40168 candidate scores | elapsed 6s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 4160/40168 candidate scores | elapsed 7s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 4224/40168 candidate scores | elapsed 7s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 4288/40168 candidate scores | elapsed 7s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 4352/40168 candidate scores | elapsed 7s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 4416/40168 candidate scores | elapsed 7s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 4480/40168 candidate scores | elapsed 7s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 4544/40168 candidate scores | elapsed 7s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 4608/40168 candidate scores | elapsed 7s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 4672/40168 candidate scores | elapsed 7s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 4736/40168 candidate scores | elapsed 8s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 4800/40168 candidate scores | elapsed 8s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 4864/40168 candidate scores | elapsed 8s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 4928/40168 candidate scores | elapsed 8s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 4992/40168 candidate scores | elapsed 8s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 5056/40168 candidate scores | elapsed 8s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 5120/40168 candidate scores | elapsed 8s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 5184/40168 candidate scores | elapsed 8s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 5248/40168 candidate scores | elapsed 8s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 5312/40168 candidate scores | elapsed 8s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 5376/40168 candidate scores | elapsed 8s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 5440/40168 candidate scores | elapsed 9s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 5504/40168 candidate scores | elapsed 9s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 5568/40168 candidate scores | elapsed 9s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 5632/40168 candidate scores | elapsed 9s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 5696/40168 candidate scores | elapsed 9s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 5760/40168 candidate scores | elapsed 9s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 5824/40168 candidate scores | elapsed 9s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 5888/40168 candidate scores | elapsed 9s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 5952/40168 candidate scores | elapsed 9s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 6016/40168 candidate scores | elapsed 10s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 6080/40168 candidate scores | elapsed 10s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 6144/40168 candidate scores | elapsed 10s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 6208/40168 candidate scores | elapsed 10s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 6272/40168 candidate scores | elapsed 10s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 6336/40168 candidate scores | elapsed 10s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 6400/40168 candidate scores | elapsed 10s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 6464/40168 candidate scores | elapsed 10s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 6528/40168 candidate scores | elapsed 10s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 6592/40168 candidate scores | elapsed 10s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 6656/40168 candidate scores | elapsed 10s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 6720/40168 candidate scores | elapsed 11s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 6784/40168 candidate scores | elapsed 11s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 6848/40168 candidate scores | elapsed 11s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 6912/40168 candidate scores | elapsed 11s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 6976/40168 candidate scores | elapsed 11s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 7040/40168 candidate scores | elapsed 11s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 7104/40168 candidate scores | elapsed 11s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 7168/40168 candidate scores | elapsed 11s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 7232/40168 candidate scores | elapsed 11s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 7296/40168 candidate scores | elapsed 12s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 7360/40168 candidate scores | elapsed 12s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 7424/40168 candidate scores | elapsed 12s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 7488/40168 candidate scores | elapsed 12s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 7552/40168 candidate scores | elapsed 12s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 7616/40168 candidate scores | elapsed 12s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 7680/40168 candidate scores | elapsed 12s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 7744/40168 candidate scores | elapsed 12s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 7808/40168 candidate scores | elapsed 12s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 7872/40168 candidate scores | elapsed 12s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 7936/40168 candidate scores | elapsed 12s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 8000/40168 candidate scores | elapsed 13s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 8064/40168 candidate scores | elapsed 13s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 8128/40168 candidate scores | elapsed 13s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 8192/40168 candidate scores | elapsed 13s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 8256/40168 candidate scores | elapsed 13s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 8320/40168 candidate scores | elapsed 13s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 8384/40168 candidate scores | elapsed 13s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 8448/40168 candidate scores | elapsed 13s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 8512/40168 candidate scores | elapsed 13s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 8576/40168 candidate scores | elapsed 14s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 8640/40168 candidate scores | elapsed 14s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 8704/40168 candidate scores | elapsed 14s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 8768/40168 candidate scores | elapsed 14s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 8832/40168 candidate scores | elapsed 14s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 8896/40168 candidate scores | elapsed 14s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 8960/40168 candidate scores | elapsed 14s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 9024/40168 candidate scores | elapsed 14s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 9088/40168 candidate scores | elapsed 14s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 9152/40168 candidate scores | elapsed 14s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 9216/40168 candidate scores | elapsed 14s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 9280/40168 candidate scores | elapsed 15s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 9344/40168 candidate scores | elapsed 15s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 9408/40168 candidate scores | elapsed 15s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 9472/40168 candidate scores | elapsed 15s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 9536/40168 candidate scores | elapsed 15s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 9600/40168 candidate scores | elapsed 15s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 9664/40168 candidate scores | elapsed 15s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 9728/40168 candidate scores | elapsed 15s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 9792/40168 candidate scores | elapsed 15s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 9856/40168 candidate scores | elapsed 16s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 9920/40168 candidate scores | elapsed 16s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 9984/40168 candidate scores | elapsed 16s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 10048/40168 candidate scores | elapsed 16s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 10112/40168 candidate scores | elapsed 16s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 10176/40168 candidate scores | elapsed 16s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 10240/40168 candidate scores | elapsed 16s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 10304/40168 candidate scores | elapsed 16s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 10368/40168 candidate scores | elapsed 16s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 10432/40168 candidate scores | elapsed 16s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 10496/40168 candidate scores | elapsed 16s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 10560/40168 candidate scores | elapsed 17s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 10624/40168 candidate scores | elapsed 17s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 10688/40168 candidate scores | elapsed 17s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 10752/40168 candidate scores | elapsed 17s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 10816/40168 candidate scores | elapsed 17s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 10880/40168 candidate scores | elapsed 17s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 10944/40168 candidate scores | elapsed 17s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 11008/40168 candidate scores | elapsed 17s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 11072/40168 candidate scores | elapsed 17s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 11136/40168 candidate scores | elapsed 18s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 11200/40168 candidate scores | elapsed 18s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 11264/40168 candidate scores | elapsed 18s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 11328/40168 candidate scores | elapsed 18s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 11392/40168 candidate scores | elapsed 18s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 11456/40168 candidate scores | elapsed 18s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 11520/40168 candidate scores | elapsed 18s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 11584/40168 candidate scores | elapsed 18s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 11648/40168 candidate scores | elapsed 18s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 11712/40168 candidate scores | elapsed 18s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 11776/40168 candidate scores | elapsed 18s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 11840/40168 candidate scores | elapsed 19s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 11904/40168 candidate scores | elapsed 19s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 11968/40168 candidate scores | elapsed 19s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 12032/40168 candidate scores | elapsed 19s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 12096/40168 candidate scores | elapsed 19s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 12160/40168 candidate scores | elapsed 19s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 12224/40168 candidate scores | elapsed 19s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 12288/40168 candidate scores | elapsed 19s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 12352/40168 candidate scores | elapsed 19s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 12416/40168 candidate scores | elapsed 20s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 12480/40168 candidate scores | elapsed 20s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 12544/40168 candidate scores | elapsed 20s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 12608/40168 candidate scores | elapsed 20s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 12672/40168 candidate scores | elapsed 20s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 12736/40168 candidate scores | elapsed 20s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 12800/40168 candidate scores | elapsed 20s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 12864/40168 candidate scores | elapsed 20s
+[HEARTBEAT] full_ft_0625 | hellaswag candidate-likelihood scoring 12864/40168 candidate scores | elapsed 20s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 12928/40168 candidate scores | elapsed 20s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 12992/40168 candidate scores | elapsed 20s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 13056/40168 candidate scores | elapsed 21s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 13120/40168 candidate scores | elapsed 21s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 13184/40168 candidate scores | elapsed 21s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 13248/40168 candidate scores | elapsed 21s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 13312/40168 candidate scores | elapsed 21s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 13376/40168 candidate scores | elapsed 21s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 13440/40168 candidate scores | elapsed 22s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 13504/40168 candidate scores | elapsed 22s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 13568/40168 candidate scores | elapsed 22s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 13632/40168 candidate scores | elapsed 22s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 13696/40168 candidate scores | elapsed 22s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 13760/40168 candidate scores | elapsed 22s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 13824/40168 candidate scores | elapsed 22s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 13888/40168 candidate scores | elapsed 22s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 13952/40168 candidate scores | elapsed 23s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 14016/40168 candidate scores | elapsed 23s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 14080/40168 candidate scores | elapsed 23s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 14144/40168 candidate scores | elapsed 23s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 14208/40168 candidate scores | elapsed 23s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 14272/40168 candidate scores | elapsed 23s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 14336/40168 candidate scores | elapsed 24s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 14400/40168 candidate scores | elapsed 24s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 14464/40168 candidate scores | elapsed 24s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 14528/40168 candidate scores | elapsed 24s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 14592/40168 candidate scores | elapsed 24s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 14656/40168 candidate scores | elapsed 24s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 14720/40168 candidate scores | elapsed 24s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 14784/40168 candidate scores | elapsed 25s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 14848/40168 candidate scores | elapsed 25s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 14912/40168 candidate scores | elapsed 25s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 14976/40168 candidate scores | elapsed 25s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 15040/40168 candidate scores | elapsed 25s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 15104/40168 candidate scores | elapsed 25s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 15168/40168 candidate scores | elapsed 25s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 15232/40168 candidate scores | elapsed 26s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 15296/40168 candidate scores | elapsed 26s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 15360/40168 candidate scores | elapsed 26s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 15424/40168 candidate scores | elapsed 26s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 15488/40168 candidate scores | elapsed 26s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 15552/40168 candidate scores | elapsed 26s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 15616/40168 candidate scores | elapsed 26s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 15680/40168 candidate scores | elapsed 27s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 15744/40168 candidate scores | elapsed 27s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 15808/40168 candidate scores | elapsed 27s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 15872/40168 candidate scores | elapsed 27s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 15936/40168 candidate scores | elapsed 27s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 16000/40168 candidate scores | elapsed 27s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 16064/40168 candidate scores | elapsed 28s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 16128/40168 candidate scores | elapsed 28s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 16192/40168 candidate scores | elapsed 28s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 16256/40168 candidate scores | elapsed 28s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 16320/40168 candidate scores | elapsed 28s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 16384/40168 candidate scores | elapsed 28s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 16448/40168 candidate scores | elapsed 28s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 16512/40168 candidate scores | elapsed 29s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 16576/40168 candidate scores | elapsed 29s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 16640/40168 candidate scores | elapsed 29s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 16704/40168 candidate scores | elapsed 29s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 16768/40168 candidate scores | elapsed 29s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 16832/40168 candidate scores | elapsed 29s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 16896/40168 candidate scores | elapsed 30s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 16960/40168 candidate scores | elapsed 30s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 17024/40168 candidate scores | elapsed 30s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 17088/40168 candidate scores | elapsed 30s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 17152/40168 candidate scores | elapsed 30s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 17216/40168 candidate scores | elapsed 30s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 17280/40168 candidate scores | elapsed 30s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 17344/40168 candidate scores | elapsed 30s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 17408/40168 candidate scores | elapsed 31s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 17472/40168 candidate scores | elapsed 31s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 17536/40168 candidate scores | elapsed 31s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 17600/40168 candidate scores | elapsed 31s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 17664/40168 candidate scores | elapsed 31s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 17728/40168 candidate scores | elapsed 31s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 17792/40168 candidate scores | elapsed 32s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 17856/40168 candidate scores | elapsed 32s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 17920/40168 candidate scores | elapsed 32s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 17984/40168 candidate scores | elapsed 32s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 18048/40168 candidate scores | elapsed 32s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 18112/40168 candidate scores | elapsed 32s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 18176/40168 candidate scores | elapsed 32s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 18240/40168 candidate scores | elapsed 33s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 18304/40168 candidate scores | elapsed 33s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 18368/40168 candidate scores | elapsed 33s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 18432/40168 candidate scores | elapsed 33s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 18496/40168 candidate scores | elapsed 33s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 18560/40168 candidate scores | elapsed 33s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 18624/40168 candidate scores | elapsed 33s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 18688/40168 candidate scores | elapsed 34s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 18752/40168 candidate scores | elapsed 34s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 18816/40168 candidate scores | elapsed 34s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 18880/40168 candidate scores | elapsed 34s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 18944/40168 candidate scores | elapsed 34s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 19008/40168 candidate scores | elapsed 34s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 19072/40168 candidate scores | elapsed 34s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 19136/40168 candidate scores | elapsed 35s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 19200/40168 candidate scores | elapsed 35s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 19264/40168 candidate scores | elapsed 35s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 19328/40168 candidate scores | elapsed 35s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 19392/40168 candidate scores | elapsed 35s
+[HEARTBEAT] full_ft_0625 | hellaswag candidate-likelihood scoring 19392/40168 candidate scores | elapsed 35s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 19456/40168 candidate scores | elapsed 35s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 19520/40168 candidate scores | elapsed 36s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 19584/40168 candidate scores | elapsed 36s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 19648/40168 candidate scores | elapsed 36s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 19712/40168 candidate scores | elapsed 36s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 19776/40168 candidate scores | elapsed 36s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 19840/40168 candidate scores | elapsed 36s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 19904/40168 candidate scores | elapsed 36s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 19968/40168 candidate scores | elapsed 36s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 20032/40168 candidate scores | elapsed 37s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 20096/40168 candidate scores | elapsed 37s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 20160/40168 candidate scores | elapsed 37s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 20224/40168 candidate scores | elapsed 37s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 20288/40168 candidate scores | elapsed 37s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 20352/40168 candidate scores | elapsed 37s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 20416/40168 candidate scores | elapsed 38s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 20480/40168 candidate scores | elapsed 38s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 20544/40168 candidate scores | elapsed 38s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 20608/40168 candidate scores | elapsed 38s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 20672/40168 candidate scores | elapsed 38s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 20736/40168 candidate scores | elapsed 38s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 20800/40168 candidate scores | elapsed 38s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 20864/40168 candidate scores | elapsed 39s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 20928/40168 candidate scores | elapsed 39s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 20992/40168 candidate scores | elapsed 39s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 21056/40168 candidate scores | elapsed 39s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 21120/40168 candidate scores | elapsed 39s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 21184/40168 candidate scores | elapsed 39s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 21248/40168 candidate scores | elapsed 40s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 21312/40168 candidate scores | elapsed 40s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 21376/40168 candidate scores | elapsed 40s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 21440/40168 candidate scores | elapsed 40s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 21504/40168 candidate scores | elapsed 40s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 21568/40168 candidate scores | elapsed 40s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 21632/40168 candidate scores | elapsed 40s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 21696/40168 candidate scores | elapsed 41s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 21760/40168 candidate scores | elapsed 41s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 21824/40168 candidate scores | elapsed 41s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 21888/40168 candidate scores | elapsed 41s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 21952/40168 candidate scores | elapsed 41s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 22016/40168 candidate scores | elapsed 41s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 22080/40168 candidate scores | elapsed 41s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 22144/40168 candidate scores | elapsed 42s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 22208/40168 candidate scores | elapsed 42s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 22272/40168 candidate scores | elapsed 42s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 22336/40168 candidate scores | elapsed 42s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 22400/40168 candidate scores | elapsed 42s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 22464/40168 candidate scores | elapsed 42s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 22528/40168 candidate scores | elapsed 42s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 22592/40168 candidate scores | elapsed 43s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 22656/40168 candidate scores | elapsed 43s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 22720/40168 candidate scores | elapsed 43s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 22784/40168 candidate scores | elapsed 43s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 22848/40168 candidate scores | elapsed 43s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 22912/40168 candidate scores | elapsed 43s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 22976/40168 candidate scores | elapsed 44s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 23040/40168 candidate scores | elapsed 44s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 23104/40168 candidate scores | elapsed 44s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 23168/40168 candidate scores | elapsed 44s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 23232/40168 candidate scores | elapsed 44s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 23296/40168 candidate scores | elapsed 44s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 23360/40168 candidate scores | elapsed 44s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 23424/40168 candidate scores | elapsed 44s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 23488/40168 candidate scores | elapsed 45s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 23552/40168 candidate scores | elapsed 45s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 23616/40168 candidate scores | elapsed 45s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 23680/40168 candidate scores | elapsed 45s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 23744/40168 candidate scores | elapsed 45s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 23808/40168 candidate scores | elapsed 45s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 23872/40168 candidate scores | elapsed 46s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 23936/40168 candidate scores | elapsed 46s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 24000/40168 candidate scores | elapsed 46s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 24064/40168 candidate scores | elapsed 46s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 24128/40168 candidate scores | elapsed 46s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 24192/40168 candidate scores | elapsed 46s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 24256/40168 candidate scores | elapsed 46s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 24320/40168 candidate scores | elapsed 47s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 24384/40168 candidate scores | elapsed 47s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 24448/40168 candidate scores | elapsed 47s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 24512/40168 candidate scores | elapsed 47s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 24576/40168 candidate scores | elapsed 47s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 24640/40168 candidate scores | elapsed 47s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 24704/40168 candidate scores | elapsed 48s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 24768/40168 candidate scores | elapsed 48s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 24832/40168 candidate scores | elapsed 48s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 24896/40168 candidate scores | elapsed 48s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 24960/40168 candidate scores | elapsed 48s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 25024/40168 candidate scores | elapsed 48s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 25088/40168 candidate scores | elapsed 48s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 25152/40168 candidate scores | elapsed 48s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 25216/40168 candidate scores | elapsed 49s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 25280/40168 candidate scores | elapsed 49s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 25344/40168 candidate scores | elapsed 49s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 25408/40168 candidate scores | elapsed 49s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 25472/40168 candidate scores | elapsed 49s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 25536/40168 candidate scores | elapsed 49s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 25600/40168 candidate scores | elapsed 50s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 25664/40168 candidate scores | elapsed 50s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 25728/40168 candidate scores | elapsed 50s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 25792/40168 candidate scores | elapsed 50s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 25856/40168 candidate scores | elapsed 50s
+[HEARTBEAT] full_ft_0625 | hellaswag candidate-likelihood scoring 25856/40168 candidate scores | elapsed 50s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 25920/40168 candidate scores | elapsed 50s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 25984/40168 candidate scores | elapsed 50s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 26048/40168 candidate scores | elapsed 51s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 26112/40168 candidate scores | elapsed 51s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 26176/40168 candidate scores | elapsed 51s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 26240/40168 candidate scores | elapsed 51s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 26304/40168 candidate scores | elapsed 51s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 26368/40168 candidate scores | elapsed 51s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 26432/40168 candidate scores | elapsed 52s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 26496/40168 candidate scores | elapsed 52s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 26560/40168 candidate scores | elapsed 52s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 26624/40168 candidate scores | elapsed 52s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 26688/40168 candidate scores | elapsed 52s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 26752/40168 candidate scores | elapsed 52s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 26816/40168 candidate scores | elapsed 52s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 26880/40168 candidate scores | elapsed 52s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 26944/40168 candidate scores | elapsed 53s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 27008/40168 candidate scores | elapsed 53s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 27072/40168 candidate scores | elapsed 53s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 27136/40168 candidate scores | elapsed 53s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 27200/40168 candidate scores | elapsed 53s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 27264/40168 candidate scores | elapsed 53s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 27328/40168 candidate scores | elapsed 54s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 27392/40168 candidate scores | elapsed 54s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 27456/40168 candidate scores | elapsed 54s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 27520/40168 candidate scores | elapsed 54s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 27584/40168 candidate scores | elapsed 54s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 27648/40168 candidate scores | elapsed 54s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 27712/40168 candidate scores | elapsed 54s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 27776/40168 candidate scores | elapsed 55s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 27840/40168 candidate scores | elapsed 55s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 27904/40168 candidate scores | elapsed 55s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 27968/40168 candidate scores | elapsed 55s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 28032/40168 candidate scores | elapsed 55s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 28096/40168 candidate scores | elapsed 55s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 28160/40168 candidate scores | elapsed 56s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 28224/40168 candidate scores | elapsed 56s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 28288/40168 candidate scores | elapsed 56s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 28352/40168 candidate scores | elapsed 56s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 28416/40168 candidate scores | elapsed 56s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 28480/40168 candidate scores | elapsed 56s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 28544/40168 candidate scores | elapsed 56s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 28608/40168 candidate scores | elapsed 56s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 28672/40168 candidate scores | elapsed 57s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 28736/40168 candidate scores | elapsed 57s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 28800/40168 candidate scores | elapsed 57s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 28864/40168 candidate scores | elapsed 57s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 28928/40168 candidate scores | elapsed 57s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 28992/40168 candidate scores | elapsed 57s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 29056/40168 candidate scores | elapsed 58s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 29120/40168 candidate scores | elapsed 58s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 29184/40168 candidate scores | elapsed 58s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 29248/40168 candidate scores | elapsed 58s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 29312/40168 candidate scores | elapsed 58s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 29376/40168 candidate scores | elapsed 58s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 29440/40168 candidate scores | elapsed 58s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 29504/40168 candidate scores | elapsed 59s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 29568/40168 candidate scores | elapsed 59s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 29632/40168 candidate scores | elapsed 59s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 29696/40168 candidate scores | elapsed 59s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 29760/40168 candidate scores | elapsed 59s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 29824/40168 candidate scores | elapsed 59s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 29888/40168 candidate scores | elapsed 60s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 29952/40168 candidate scores | elapsed 60s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 30016/40168 candidate scores | elapsed 60s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 30080/40168 candidate scores | elapsed 60s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 30144/40168 candidate scores | elapsed 60s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 30208/40168 candidate scores | elapsed 60s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 30272/40168 candidate scores | elapsed 60s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 30336/40168 candidate scores | elapsed 61s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 30400/40168 candidate scores | elapsed 61s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 30464/40168 candidate scores | elapsed 61s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 30528/40168 candidate scores | elapsed 61s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 30592/40168 candidate scores | elapsed 61s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 30656/40168 candidate scores | elapsed 61s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 30720/40168 candidate scores | elapsed 62s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 30784/40168 candidate scores | elapsed 62s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 30848/40168 candidate scores | elapsed 62s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 30912/40168 candidate scores | elapsed 62s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 30976/40168 candidate scores | elapsed 62s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 31040/40168 candidate scores | elapsed 62s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 31104/40168 candidate scores | elapsed 62s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 31168/40168 candidate scores | elapsed 62s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 31232/40168 candidate scores | elapsed 63s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 31296/40168 candidate scores | elapsed 63s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 31360/40168 candidate scores | elapsed 63s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 31424/40168 candidate scores | elapsed 63s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 31488/40168 candidate scores | elapsed 63s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 31552/40168 candidate scores | elapsed 63s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 31616/40168 candidate scores | elapsed 64s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 31680/40168 candidate scores | elapsed 64s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 31744/40168 candidate scores | elapsed 64s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 31808/40168 candidate scores | elapsed 64s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 31872/40168 candidate scores | elapsed 64s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 31936/40168 candidate scores | elapsed 64s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 32000/40168 candidate scores | elapsed 64s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 32064/40168 candidate scores | elapsed 65s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 32128/40168 candidate scores | elapsed 65s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 32192/40168 candidate scores | elapsed 65s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 32256/40168 candidate scores | elapsed 65s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 32320/40168 candidate scores | elapsed 65s
+[HEARTBEAT] full_ft_0625 | hellaswag candidate-likelihood scoring 32320/40168 candidate scores | elapsed 65s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 32384/40168 candidate scores | elapsed 65s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 32448/40168 candidate scores | elapsed 65s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 32512/40168 candidate scores | elapsed 66s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 32576/40168 candidate scores | elapsed 66s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 32640/40168 candidate scores | elapsed 66s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 32704/40168 candidate scores | elapsed 66s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 32768/40168 candidate scores | elapsed 66s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 32832/40168 candidate scores | elapsed 66s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 32896/40168 candidate scores | elapsed 66s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 32960/40168 candidate scores | elapsed 67s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 33024/40168 candidate scores | elapsed 67s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 33088/40168 candidate scores | elapsed 67s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 33152/40168 candidate scores | elapsed 67s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 33216/40168 candidate scores | elapsed 67s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 33280/40168 candidate scores | elapsed 67s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 33344/40168 candidate scores | elapsed 68s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 33408/40168 candidate scores | elapsed 68s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 33472/40168 candidate scores | elapsed 68s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 33536/40168 candidate scores | elapsed 68s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 33600/40168 candidate scores | elapsed 68s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 33664/40168 candidate scores | elapsed 68s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 33728/40168 candidate scores | elapsed 68s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 33792/40168 candidate scores | elapsed 68s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 33856/40168 candidate scores | elapsed 69s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 33920/40168 candidate scores | elapsed 69s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 33984/40168 candidate scores | elapsed 69s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 34048/40168 candidate scores | elapsed 69s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 34112/40168 candidate scores | elapsed 69s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 34176/40168 candidate scores | elapsed 69s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 34240/40168 candidate scores | elapsed 70s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 34304/40168 candidate scores | elapsed 70s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 34368/40168 candidate scores | elapsed 70s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 34432/40168 candidate scores | elapsed 70s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 34496/40168 candidate scores | elapsed 70s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 34560/40168 candidate scores | elapsed 70s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 34624/40168 candidate scores | elapsed 70s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 34688/40168 candidate scores | elapsed 71s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 34752/40168 candidate scores | elapsed 71s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 34816/40168 candidate scores | elapsed 71s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 34880/40168 candidate scores | elapsed 71s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 34944/40168 candidate scores | elapsed 71s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 35008/40168 candidate scores | elapsed 71s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 35072/40168 candidate scores | elapsed 72s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 35136/40168 candidate scores | elapsed 72s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 35200/40168 candidate scores | elapsed 72s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 35264/40168 candidate scores | elapsed 72s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 35328/40168 candidate scores | elapsed 72s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 35392/40168 candidate scores | elapsed 72s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 35456/40168 candidate scores | elapsed 72s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 35520/40168 candidate scores | elapsed 72s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 35584/40168 candidate scores | elapsed 73s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 35648/40168 candidate scores | elapsed 73s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 35712/40168 candidate scores | elapsed 73s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 35776/40168 candidate scores | elapsed 73s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 35840/40168 candidate scores | elapsed 73s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 35904/40168 candidate scores | elapsed 73s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 35968/40168 candidate scores | elapsed 74s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 36032/40168 candidate scores | elapsed 74s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 36096/40168 candidate scores | elapsed 74s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 36160/40168 candidate scores | elapsed 74s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 36224/40168 candidate scores | elapsed 74s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 36288/40168 candidate scores | elapsed 74s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 36352/40168 candidate scores | elapsed 74s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 36416/40168 candidate scores | elapsed 75s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 36480/40168 candidate scores | elapsed 75s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 36544/40168 candidate scores | elapsed 75s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 36608/40168 candidate scores | elapsed 75s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 36672/40168 candidate scores | elapsed 75s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 36736/40168 candidate scores | elapsed 75s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 36800/40168 candidate scores | elapsed 76s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 36864/40168 candidate scores | elapsed 76s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 36928/40168 candidate scores | elapsed 76s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 36992/40168 candidate scores | elapsed 76s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 37056/40168 candidate scores | elapsed 76s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 37120/40168 candidate scores | elapsed 76s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 37184/40168 candidate scores | elapsed 76s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 37248/40168 candidate scores | elapsed 77s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 37312/40168 candidate scores | elapsed 77s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 37376/40168 candidate scores | elapsed 77s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 37440/40168 candidate scores | elapsed 77s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 37504/40168 candidate scores | elapsed 77s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 37568/40168 candidate scores | elapsed 77s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 37632/40168 candidate scores | elapsed 78s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 37696/40168 candidate scores | elapsed 78s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 37760/40168 candidate scores | elapsed 78s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 37824/40168 candidate scores | elapsed 78s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 37888/40168 candidate scores | elapsed 78s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 37952/40168 candidate scores | elapsed 78s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 38016/40168 candidate scores | elapsed 78s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 38080/40168 candidate scores | elapsed 78s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 38144/40168 candidate scores | elapsed 79s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 38208/40168 candidate scores | elapsed 79s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 38272/40168 candidate scores | elapsed 79s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 38336/40168 candidate scores | elapsed 79s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 38400/40168 candidate scores | elapsed 79s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 38464/40168 candidate scores | elapsed 79s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 38528/40168 candidate scores | elapsed 80s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 38592/40168 candidate scores | elapsed 80s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 38656/40168 candidate scores | elapsed 80s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 38720/40168 candidate scores | elapsed 80s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 38784/40168 candidate scores | elapsed 80s
+[HEARTBEAT] full_ft_0625 | hellaswag candidate-likelihood scoring 38784/40168 candidate scores | elapsed 80s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 38848/40168 candidate scores | elapsed 80s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 38912/40168 candidate scores | elapsed 80s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 38976/40168 candidate scores | elapsed 81s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 39040/40168 candidate scores | elapsed 81s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 39104/40168 candidate scores | elapsed 81s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 39168/40168 candidate scores | elapsed 81s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 39232/40168 candidate scores | elapsed 81s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 39296/40168 candidate scores | elapsed 81s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 39360/40168 candidate scores | elapsed 82s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 39424/40168 candidate scores | elapsed 82s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 39488/40168 candidate scores | elapsed 82s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 39552/40168 candidate scores | elapsed 82s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 39616/40168 candidate scores | elapsed 82s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 39680/40168 candidate scores | elapsed 82s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 39744/40168 candidate scores | elapsed 82s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 39808/40168 candidate scores | elapsed 82s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 39872/40168 candidate scores | elapsed 83s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 39936/40168 candidate scores | elapsed 83s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 40000/40168 candidate scores | elapsed 83s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 40064/40168 candidate scores | elapsed 83s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 40128/40168 candidate scores | elapsed 83s
+[PROGRESS] full_ft_0625 | hellaswag candidate-likelihood scoring 40168/40168 candidate scores | elapsed 83s
+fatal: not a git repository (or any of the parent directories): .git
+[HEARTBEAT] full_ft_0625 | hellaswag candidate-likelihood scoring 40168/40168 candidate scores | elapsed 95s | activity age 12s (heartbeat is NOT proof of progress)
+[PHASE] full_ft_0625 | preparing boolq prompts/requests (generation has not finished) | elapsed 0s
+[Task: boolq] metric acc is defined, but aggregation is not. using default aggregation=mean
+[Task: boolq] metric acc is defined, but higher_is_better is not. using default higher_is_better=True
+Overwriting default num_fewshot of boolq from None to 0
+
+  0%|          | 0/3270 [00:00<?, ?it/s]
+  8%|▊         | 258/3270 [00:00<00:01, 2574.85it/s]
+ 16%|█▌        | 531/3270 [00:00<00:01, 2660.52it/s]
+ 25%|██▍       | 804/3270 [00:00<00:00, 2688.39it/s]
+ 33%|███▎      | 1077/3270 [00:00<00:00, 2702.22it/s]
+ 41%|████▏     | 1351/3270 [00:00<00:00, 2715.59it/s]
+ 50%|████▉     | 1624/3270 [00:00<00:00, 2718.20it/s]
+ 58%|█████▊    | 1900/3270 [00:00<00:00, 2730.73it/s]
+ 66%|██████▋   | 2174/3270 [00:00<00:00, 2700.48it/s]
+ 75%|███████▍  | 2445/3270 [00:00<00:00, 2687.77it/s]
+ 83%|████████▎ | 2714/3270 [00:01<00:00, 2685.57it/s]
+ 91%|█████████▏| 2984/3270 [00:01<00:00, 2689.12it/s]
+ 99%|█████████▉| 3253/3270 [00:01<00:00, 2676.32it/s]
+100%|██████████| 3270/3270 [00:01<00:00, 2689.65it/s]
+[PHASE] full_ft_0625 | boolq candidate-likelihood scoring 0/6540 candidate scores | elapsed 0s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 64/6540 candidate scores | elapsed 0s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 128/6540 candidate scores | elapsed 1s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 192/6540 candidate scores | elapsed 1s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 256/6540 candidate scores | elapsed 1s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 320/6540 candidate scores | elapsed 1s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 384/6540 candidate scores | elapsed 2s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 448/6540 candidate scores | elapsed 2s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 512/6540 candidate scores | elapsed 2s
+[HEARTBEAT] full_ft_0625 | boolq candidate-likelihood scoring 512/6540 candidate scores | elapsed 2s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 576/6540 candidate scores | elapsed 2s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 640/6540 candidate scores | elapsed 3s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 704/6540 candidate scores | elapsed 3s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 768/6540 candidate scores | elapsed 3s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 832/6540 candidate scores | elapsed 3s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 896/6540 candidate scores | elapsed 4s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 960/6540 candidate scores | elapsed 4s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 1024/6540 candidate scores | elapsed 4s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 1088/6540 candidate scores | elapsed 4s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 1152/6540 candidate scores | elapsed 4s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 1216/6540 candidate scores | elapsed 5s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 1280/6540 candidate scores | elapsed 5s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 1344/6540 candidate scores | elapsed 5s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 1408/6540 candidate scores | elapsed 5s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 1472/6540 candidate scores | elapsed 6s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 1536/6540 candidate scores | elapsed 6s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 1600/6540 candidate scores | elapsed 6s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 1664/6540 candidate scores | elapsed 6s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 1728/6540 candidate scores | elapsed 6s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 1792/6540 candidate scores | elapsed 7s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 1856/6540 candidate scores | elapsed 7s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 1920/6540 candidate scores | elapsed 7s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 1984/6540 candidate scores | elapsed 8s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 2048/6540 candidate scores | elapsed 8s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 2112/6540 candidate scores | elapsed 8s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 2176/6540 candidate scores | elapsed 8s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 2240/6540 candidate scores | elapsed 8s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 2304/6540 candidate scores | elapsed 9s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 2368/6540 candidate scores | elapsed 9s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 2432/6540 candidate scores | elapsed 9s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 2496/6540 candidate scores | elapsed 9s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 2560/6540 candidate scores | elapsed 10s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 2624/6540 candidate scores | elapsed 10s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 2688/6540 candidate scores | elapsed 10s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 2752/6540 candidate scores | elapsed 10s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 2816/6540 candidate scores | elapsed 10s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 2880/6540 candidate scores | elapsed 11s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 2944/6540 candidate scores | elapsed 11s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 3008/6540 candidate scores | elapsed 11s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 3072/6540 candidate scores | elapsed 11s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 3136/6540 candidate scores | elapsed 12s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 3200/6540 candidate scores | elapsed 12s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 3264/6540 candidate scores | elapsed 12s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 3328/6540 candidate scores | elapsed 12s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 3392/6540 candidate scores | elapsed 13s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 3456/6540 candidate scores | elapsed 13s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 3520/6540 candidate scores | elapsed 13s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 3584/6540 candidate scores | elapsed 13s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 3648/6540 candidate scores | elapsed 13s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 3712/6540 candidate scores | elapsed 14s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 3776/6540 candidate scores | elapsed 14s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 3840/6540 candidate scores | elapsed 14s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 3904/6540 candidate scores | elapsed 14s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 3968/6540 candidate scores | elapsed 15s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 4032/6540 candidate scores | elapsed 15s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 4096/6540 candidate scores | elapsed 15s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 4160/6540 candidate scores | elapsed 15s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 4224/6540 candidate scores | elapsed 16s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 4288/6540 candidate scores | elapsed 16s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 4352/6540 candidate scores | elapsed 16s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 4416/6540 candidate scores | elapsed 16s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 4480/6540 candidate scores | elapsed 16s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 4544/6540 candidate scores | elapsed 17s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 4608/6540 candidate scores | elapsed 17s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 4672/6540 candidate scores | elapsed 17s
+[HEARTBEAT] full_ft_0625 | boolq candidate-likelihood scoring 4672/6540 candidate scores | elapsed 17s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 4736/6540 candidate scores | elapsed 18s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 4800/6540 candidate scores | elapsed 18s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 4864/6540 candidate scores | elapsed 18s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 4928/6540 candidate scores | elapsed 18s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 4992/6540 candidate scores | elapsed 18s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 5056/6540 candidate scores | elapsed 19s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 5120/6540 candidate scores | elapsed 19s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 5184/6540 candidate scores | elapsed 19s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 5248/6540 candidate scores | elapsed 19s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 5312/6540 candidate scores | elapsed 19s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 5376/6540 candidate scores | elapsed 20s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 5440/6540 candidate scores | elapsed 20s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 5504/6540 candidate scores | elapsed 20s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 5568/6540 candidate scores | elapsed 20s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 5632/6540 candidate scores | elapsed 20s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 5696/6540 candidate scores | elapsed 21s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 5760/6540 candidate scores | elapsed 21s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 5824/6540 candidate scores | elapsed 21s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 5888/6540 candidate scores | elapsed 22s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 5952/6540 candidate scores | elapsed 22s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 6016/6540 candidate scores | elapsed 22s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 6080/6540 candidate scores | elapsed 22s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 6144/6540 candidate scores | elapsed 22s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 6208/6540 candidate scores | elapsed 23s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 6272/6540 candidate scores | elapsed 23s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 6336/6540 candidate scores | elapsed 24s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 6400/6540 candidate scores | elapsed 24s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 6464/6540 candidate scores | elapsed 24s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 6528/6540 candidate scores | elapsed 24s
+[PROGRESS] full_ft_0625 | boolq candidate-likelihood scoring 6540/6540 candidate scores | elapsed 24s
+fatal: not a git repository (or any of the parent directories): .git
+[PHASE] full_ft_0625 | preparing arc_easy prompts/requests (generation has not finished) | elapsed 0s
+[HEARTBEAT] full_ft_0625 | preparing arc_easy prompts/requests (generation has not finished) | elapsed 3s | activity age 3s (heartbeat is NOT proof of progress)
+Overwriting default num_fewshot of arc_easy from None to 0
+
+  0%|          | 0/2376 [00:00<?, ?it/s]
+  3%|▎         | 73/2376 [00:00<00:03, 721.76it/s]
+  6%|▌         | 146/2376 [00:00<00:03, 697.75it/s]
+  9%|▉         | 216/2376 [00:00<00:03, 694.00it/s]
+ 12%|█▏        | 286/2376 [00:00<00:03, 689.70it/s]
+ 15%|█▍        | 355/2376 [00:00<00:02, 688.78it/s]
+ 18%|█▊        | 424/2376 [00:00<00:02, 688.07it/s]
+ 21%|██        | 497/2376 [00:00<00:02, 701.24it/s]
+ 24%|██▍       | 569/2376 [00:00<00:02, 704.38it/s]
+ 27%|██▋       | 643/2376 [00:00<00:02, 713.36it/s]
+ 30%|███       | 715/2376 [00:01<00:02, 708.94it/s]
+ 33%|███▎      | 788/2376 [00:01<00:02, 713.30it/s]
+ 36%|███▋      | 862/2376 [00:01<00:02, 718.71it/s]
+ 39%|███▉      | 936/2376 [00:01<00:01, 722.89it/s]
+ 42%|████▏     | 1009/2376 [00:01<00:01, 724.49it/s]
+ 46%|████▌     | 1082/2376 [00:01<00:01, 724.16it/s]
+ 49%|████▊     | 1155/2376 [00:01<00:01, 724.12it/s]
+ 52%|█████▏    | 1228/2376 [00:01<00:01, 723.62it/s]
+ 55%|█████▍    | 1301/2376 [00:01<00:01, 724.69it/s]
+ 58%|█████▊    | 1374/2376 [00:01<00:01, 723.78it/s]
+ 61%|██████    | 1447/2376 [00:02<00:01, 724.12it/s]
+ 64%|██████▍   | 1520/2376 [00:02<00:01, 724.27it/s]
+ 67%|██████▋   | 1593/2376 [00:02<00:01, 724.79it/s]
+ 70%|███████   | 1666/2376 [00:02<00:00, 723.39it/s]
+ 73%|███████▎  | 1739/2376 [00:02<00:00, 724.32it/s]
+ 76%|███████▋  | 1812/2376 [00:02<00:00, 724.94it/s]
+ 79%|███████▉  | 1885/2376 [00:02<00:00, 722.61it/s]
+ 82%|████████▏ | 1958/2376 [00:02<00:00, 721.93it/s]
+ 85%|████████▌ | 2031/2376 [00:02<00:00, 723.93it/s]
+ 89%|████████▊ | 2104/2376 [00:02<00:00, 724.00it/s]
+ 92%|█████████▏| 2178/2376 [00:03<00:00, 726.66it/s]
+ 95%|█████████▍| 2251/2376 [00:03<00:00, 717.24it/s]
+ 98%|█████████▊| 2324/2376 [00:03<00:00, 720.40it/s]
+100%|██████████| 2376/2376 [00:03<00:00, 716.98it/s]
+[PHASE] full_ft_0625 | arc_easy candidate-likelihood scoring 0/9501 candidate scores | elapsed 0s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 64/9501 candidate scores | elapsed 0s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 128/9501 candidate scores | elapsed 0s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 192/9501 candidate scores | elapsed 0s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 256/9501 candidate scores | elapsed 0s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 320/9501 candidate scores | elapsed 0s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 384/9501 candidate scores | elapsed 1s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 448/9501 candidate scores | elapsed 1s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 512/9501 candidate scores | elapsed 1s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 576/9501 candidate scores | elapsed 1s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 640/9501 candidate scores | elapsed 1s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 704/9501 candidate scores | elapsed 1s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 768/9501 candidate scores | elapsed 1s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 832/9501 candidate scores | elapsed 1s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 896/9501 candidate scores | elapsed 2s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 960/9501 candidate scores | elapsed 2s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 1024/9501 candidate scores | elapsed 2s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 1088/9501 candidate scores | elapsed 2s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 1152/9501 candidate scores | elapsed 2s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 1216/9501 candidate scores | elapsed 2s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 1280/9501 candidate scores | elapsed 2s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 1344/9501 candidate scores | elapsed 2s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 1408/9501 candidate scores | elapsed 2s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 1472/9501 candidate scores | elapsed 2s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 1536/9501 candidate scores | elapsed 2s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 1600/9501 candidate scores | elapsed 3s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 1664/9501 candidate scores | elapsed 3s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 1728/9501 candidate scores | elapsed 3s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 1792/9501 candidate scores | elapsed 3s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 1856/9501 candidate scores | elapsed 3s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 1920/9501 candidate scores | elapsed 3s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 1984/9501 candidate scores | elapsed 3s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 2048/9501 candidate scores | elapsed 3s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 2112/9501 candidate scores | elapsed 3s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 2176/9501 candidate scores | elapsed 4s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 2240/9501 candidate scores | elapsed 4s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 2304/9501 candidate scores | elapsed 4s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 2368/9501 candidate scores | elapsed 4s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 2432/9501 candidate scores | elapsed 4s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 2496/9501 candidate scores | elapsed 4s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 2560/9501 candidate scores | elapsed 4s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 2624/9501 candidate scores | elapsed 4s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 2688/9501 candidate scores | elapsed 4s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 2752/9501 candidate scores | elapsed 4s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 2816/9501 candidate scores | elapsed 4s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 2880/9501 candidate scores | elapsed 5s
+[HEARTBEAT] full_ft_0625 | arc_easy candidate-likelihood scoring 2880/9501 candidate scores | elapsed 5s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 2944/9501 candidate scores | elapsed 5s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 3008/9501 candidate scores | elapsed 5s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 3072/9501 candidate scores | elapsed 5s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 3136/9501 candidate scores | elapsed 5s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 3200/9501 candidate scores | elapsed 5s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 3264/9501 candidate scores | elapsed 5s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 3328/9501 candidate scores | elapsed 5s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 3392/9501 candidate scores | elapsed 5s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 3456/9501 candidate scores | elapsed 6s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 3520/9501 candidate scores | elapsed 6s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 3584/9501 candidate scores | elapsed 6s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 3648/9501 candidate scores | elapsed 6s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 3712/9501 candidate scores | elapsed 6s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 3776/9501 candidate scores | elapsed 6s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 3840/9501 candidate scores | elapsed 6s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 3904/9501 candidate scores | elapsed 6s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 3968/9501 candidate scores | elapsed 6s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 4032/9501 candidate scores | elapsed 6s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 4096/9501 candidate scores | elapsed 6s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 4160/9501 candidate scores | elapsed 7s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 4224/9501 candidate scores | elapsed 7s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 4288/9501 candidate scores | elapsed 7s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 4352/9501 candidate scores | elapsed 7s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 4416/9501 candidate scores | elapsed 7s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 4480/9501 candidate scores | elapsed 7s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 4544/9501 candidate scores | elapsed 7s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 4608/9501 candidate scores | elapsed 7s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 4672/9501 candidate scores | elapsed 8s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 4736/9501 candidate scores | elapsed 8s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 4800/9501 candidate scores | elapsed 8s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 4864/9501 candidate scores | elapsed 8s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 4928/9501 candidate scores | elapsed 8s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 4992/9501 candidate scores | elapsed 8s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 5056/9501 candidate scores | elapsed 8s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 5120/9501 candidate scores | elapsed 8s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 5184/9501 candidate scores | elapsed 8s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 5248/9501 candidate scores | elapsed 8s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 5312/9501 candidate scores | elapsed 8s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 5376/9501 candidate scores | elapsed 9s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 5440/9501 candidate scores | elapsed 9s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 5504/9501 candidate scores | elapsed 9s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 5568/9501 candidate scores | elapsed 9s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 5632/9501 candidate scores | elapsed 9s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 5696/9501 candidate scores | elapsed 9s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 5760/9501 candidate scores | elapsed 9s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 5824/9501 candidate scores | elapsed 9s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 5888/9501 candidate scores | elapsed 9s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 5952/9501 candidate scores | elapsed 10s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 6016/9501 candidate scores | elapsed 10s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 6080/9501 candidate scores | elapsed 10s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 6144/9501 candidate scores | elapsed 10s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 6208/9501 candidate scores | elapsed 10s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 6272/9501 candidate scores | elapsed 10s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 6336/9501 candidate scores | elapsed 10s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 6400/9501 candidate scores | elapsed 10s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 6464/9501 candidate scores | elapsed 10s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 6528/9501 candidate scores | elapsed 10s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 6592/9501 candidate scores | elapsed 10s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 6656/9501 candidate scores | elapsed 11s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 6720/9501 candidate scores | elapsed 11s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 6784/9501 candidate scores | elapsed 11s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 6848/9501 candidate scores | elapsed 11s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 6912/9501 candidate scores | elapsed 11s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 6976/9501 candidate scores | elapsed 11s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 7040/9501 candidate scores | elapsed 11s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 7104/9501 candidate scores | elapsed 11s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 7168/9501 candidate scores | elapsed 11s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 7232/9501 candidate scores | elapsed 12s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 7296/9501 candidate scores | elapsed 12s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 7360/9501 candidate scores | elapsed 12s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 7424/9501 candidate scores | elapsed 12s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 7488/9501 candidate scores | elapsed 12s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 7552/9501 candidate scores | elapsed 12s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 7616/9501 candidate scores | elapsed 12s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 7680/9501 candidate scores | elapsed 12s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 7744/9501 candidate scores | elapsed 12s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 7808/9501 candidate scores | elapsed 12s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 7872/9501 candidate scores | elapsed 12s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 7936/9501 candidate scores | elapsed 13s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 8000/9501 candidate scores | elapsed 13s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 8064/9501 candidate scores | elapsed 13s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 8128/9501 candidate scores | elapsed 13s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 8192/9501 candidate scores | elapsed 13s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 8256/9501 candidate scores | elapsed 13s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 8320/9501 candidate scores | elapsed 13s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 8384/9501 candidate scores | elapsed 13s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 8448/9501 candidate scores | elapsed 13s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 8512/9501 candidate scores | elapsed 14s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 8576/9501 candidate scores | elapsed 14s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 8640/9501 candidate scores | elapsed 14s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 8704/9501 candidate scores | elapsed 14s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 8768/9501 candidate scores | elapsed 14s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 8832/9501 candidate scores | elapsed 14s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 8896/9501 candidate scores | elapsed 14s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 8960/9501 candidate scores | elapsed 14s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 9024/9501 candidate scores | elapsed 14s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 9088/9501 candidate scores | elapsed 14s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 9152/9501 candidate scores | elapsed 14s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 9216/9501 candidate scores | elapsed 14s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 9280/9501 candidate scores | elapsed 15s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 9344/9501 candidate scores | elapsed 15s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 9408/9501 candidate scores | elapsed 15s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 9472/9501 candidate scores | elapsed 15s
+[PROGRESS] full_ft_0625 | arc_easy candidate-likelihood scoring 9501/9501 candidate scores | elapsed 15s
+fatal: not a git repository (or any of the parent directories): .git
+[HEARTBEAT] full_ft_0625 | arc_easy candidate-likelihood scoring 9501/9501 candidate scores | elapsed 20s | activity age 5s (heartbeat is NOT proof of progress)
+[PHASE] full_ft_0625 | qualitative response generation 0/24 responses | elapsed 0s
+[PROGRESS] full_ft_0625 | qualitative response generation 1/24 responses | elapsed 2s
+[PROGRESS] full_ft_0625 | qualitative response generation 2/24 responses | elapsed 6s
+[HEARTBEAT] full_ft_0625 | qualitative response generation 2/24 responses | elapsed 12s | activity age 6s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | qualitative response generation 3/24 responses | elapsed 13s
+[PROGRESS] full_ft_0625 | qualitative response generation 4/24 responses | elapsed 27s
+[HEARTBEAT] full_ft_0625 | qualitative response generation 4/24 responses | elapsed 27s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | qualitative response generation 5/24 responses | elapsed 34s
+[PROGRESS] full_ft_0625 | qualitative response generation 6/24 responses | elapsed 37s
+[HEARTBEAT] full_ft_0625 | qualitative response generation 6/24 responses | elapsed 42s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | qualitative response generation 7/24 responses | elapsed 50s
+[HEARTBEAT] full_ft_0625 | qualitative response generation 7/24 responses | elapsed 57s | activity age 7s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | qualitative response generation 8/24 responses | elapsed 64s
+[PROGRESS] full_ft_0625 | qualitative response generation 9/24 responses | elapsed 64s
+[PROGRESS] full_ft_0625 | qualitative response generation 10/24 responses | elapsed 65s
+[PROGRESS] full_ft_0625 | qualitative response generation 11/24 responses | elapsed 69s
+[HEARTBEAT] full_ft_0625 | qualitative response generation 11/24 responses | elapsed 72s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | qualitative response generation 12/24 responses | elapsed 82s
+[HEARTBEAT] full_ft_0625 | qualitative response generation 12/24 responses | elapsed 87s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | qualitative response generation 13/24 responses | elapsed 88s
+[PROGRESS] full_ft_0625 | qualitative response generation 14/24 responses | elapsed 89s
+[PROGRESS] full_ft_0625 | qualitative response generation 15/24 responses | elapsed 92s
+[HEARTBEAT] full_ft_0625 | qualitative response generation 15/24 responses | elapsed 102s | activity age 10s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | qualitative response generation 16/24 responses | elapsed 106s
+[PROGRESS] full_ft_0625 | qualitative response generation 17/24 responses | elapsed 106s
+[PROGRESS] full_ft_0625 | qualitative response generation 18/24 responses | elapsed 108s
+[PROGRESS] full_ft_0625 | qualitative response generation 19/24 responses | elapsed 110s
+[PROGRESS] full_ft_0625 | qualitative response generation 20/24 responses | elapsed 113s
+[PROGRESS] full_ft_0625 | qualitative response generation 21/24 responses | elapsed 114s
+[PROGRESS] full_ft_0625 | qualitative response generation 22/24 responses | elapsed 116s
+[HEARTBEAT] full_ft_0625 | qualitative response generation 22/24 responses | elapsed 117s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | qualitative response generation 23/24 responses | elapsed 118s
+[PROGRESS] full_ft_0625 | qualitative response generation 24/24 responses | elapsed 119s
+[DONE] full_ft_0625 | qualitative response generation 24/24 responses | elapsed 119s

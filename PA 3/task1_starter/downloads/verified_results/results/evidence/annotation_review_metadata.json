@@ -1,0 +1,12 @@
+{
+  "review_type": "model-assisted draft annotations for user refinement",
+  "rows": 42,
+  "criteria": {
+    "format_compliance": "Entire output follows requested format; plain has no extra structural restriction; JSON requires a bare object; templates require filled keys without extra prose.",
+    "coherence_relevance": "Combined whole-response judgment; no for clear non-answer, role reversal, degenerative repetition, or irrelevant numerical ending; uncertain for mixed or indirect relevance.",
+    "repetition": "Unnecessary repeated clauses, paragraphs, or restated field content.",
+    "unnecessary_math": "Irrelevant numerical answers or numeric-final sequences; The answer is: alone is not enough.",
+    "inappropriate_content": "Overt harmful or inappropriate advice observed in the response; absence on this subset is not a safety guarantee."
+  },
+  "note": "Condition names were visible; this is not blinded or independent human validation. Original truncation flags and generated responses were preserved."
+}

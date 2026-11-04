@@ -1,0 +1,251 @@
+Introduction and Terminology
+Test-time compute is computation spent answering a query while model parameters remain fixed. Additional
+computation can produce more candidate solutions, develop an existing solution further, or evaluate alternatives before
+choosing an answer. The question is how effectively this computation is used, rather than simply how many tokens are
+generated.
+Parallel sampling generates independent reasoning trajectories, or rollouts, for the same query. Best-of-N
+selection returns the highest-scoring candidate, whereas self-consistency aggregates candidates by their final
+answers. Repeated sampling can increase the chance of finding a correct answer, but a selection rule must recognize
+it. Oracle coverage measures whether any candidate is correct; it is an analysis upper bound that uses reference
+answers, not a deployable selection method.
+10
+Sequential refinement conditions a new response on an earlier solution and a request to review it. It spends
+computation on reconsideration rather than independent exploration. Search methods combine branching with
+intermediate evaluation; an outcome verifier evaluates completed solutions, while a process verifier evaluates
+intermediate steps. Here, model confidence and visual engagement provide internal quality signals without an additional
+verifier model.
+Self-certainty summarizes the model’s full next-token distributions, while sampled-token log-probability measures
+support for the tokens actually generated. For VLMs, visual engagement measures the share of attention allocated
+to the image. VisConf combines visual engagement with candidate-calibrated self-certainty. Rank-weighted
+consensus (RWC) combines rollout quality with agreement by assigning larger votes to higher-ranked rollouts.
+Adaptive sampling varies the number of rollouts according to the evidence observed so far. A stopping policy trades
+the cost of another sample against its potential to change or improve the answer. This task investigates these choices
+using supplied LLM/VLM rollouts, a small live refinement experiment, and simulated adaptive inference.
+Readings
+Required:
+• Kang et al., Scalable Best-of-N Selection for Large Language Models via Self-Certainty: distributional confidence.
+• Usman et al., VisConf: Quality-Aware Consensus for Best-of-N in Vision-Language Model Reasoning: Sections
+3–5, including calibration, fusion, and RWC.
+Optional:
+• Wang et al., Self-Consistency Improves Chain of Thought Reasoning in Language Models: sampling and answer
+aggregation.
+• Madaan et al., Self-Refine: Iterative Refinement with Self-Feedback: sequential feedback and revision.
+• Adaptive-Consistency, Tree of Thoughts, and Let’s Verify Step by Step.
+Dataset, Models, and Experimental Setup
+Supplied rollout data. The assignment supplies ATML-PA3-Data, containing 32 sampled rollouts per question for
+each model–dataset combination below. Use these generations for the offline experiments; only the small MATH
+experiment in Step 4 requires new generation.
+Model Type Dataset Questions Rollouts
+Qwen2.5-3B-Instruct LLM MATH test subset 1,000 32,000
+Qwen2.5-VL-3B-Instruct VLM MathVista testmini 1,000 32,000
+Both exports use temperature 0.7, top-p 0.8, top-k 20, repetition penalty 1.0, and a 2,048-new-token cap. Read the
+supplied README.MD for field definitions and generation details.
+Each model folder contains generations.parquet and probability_metrics.parquet; the VLM folder also contains
+attention_metrics.parquet. Join on (dataset, sample_id, rollout_id). The files supply text, token IDs,
+lengths, extracted answers, gold answers, sampled-token logp, and full-distribution kl_u_p; VLM attention is provided
+separately for image, prompt-text, and generated-text groups. Token measurements describe the prediction of the
+corresponding generated token, and termination tokens are excluded. Images are not needed for offline analysis.
+Development and evaluation splits. Within each dataset, sort the 1,000 question IDs lexicographically and
+permute them with NumPy’s default_rng(6304). Use the first 200 questions for development and the remaining 800
+for held-out evaluation. Keep all rollouts of a question together. Use the first 50 MATH evaluation questions in this
+permutation for the live generation subtask. Save the split IDs and use seed 6304 for your analysis and new generation.
+Answers and correctness. Use the supplied extracted answers for stored rollouts. Normalize equivalent answers
+before voting: use math-verify for MATH mathematical equivalence, and MathVista’s answer-type, choice, and
+precision rules using the released question metadata. Represent multiple-choice answers as option letters. Form answer
+groups without consulting gold answers, and use the same equivalence rules for grading. Fix the scorer before final
+11
+evaluation and report its version. Map missing extractions to one NO_ANSWER group, always graded incorrect; keep
+them in voting, cost, and accuracy accounting. Correctness labels are not supplied and must be computed for analysis.
+Offline evaluation. Use candidate budgets N ∈ {1, 2, 4, 8, 16, 32}. Generate ten seeded random permutations of
+the 32 rollout IDs per question and use nested prefixes of each permutation. Reuse these orders across methods and
+stopping policies. Average outcomes over orders within a question, then across questions. Resolve score or answer-vote
+ties by the earliest supporting rollout in the current order; use average ranks for tied RWC scores. At N = 1, every
+rule returns the only candidate.
+Report answer accuracy, oracle coverage, and generated-token cost: the sum of retained token counts for all
+candidates consumed by the method. FirstAns consumes only its first candidate. Token counts are an offline cost
+proxy; they do not include prefill, attention collection, or scoring overhead. Use 1,000 paired question-level bootstrap
+resamples for 95% intervals on main accuracy differences, after averaging over orders.
+Live-generation settings. Use the original Qwen/Qwen2.5-3B-Instruct revision listed in the supplied README.MD,
+with FP16 weights, no quantization, and batch size 1. Use temperature 0.7, top-p 0.8, top-k 20, repetition penalty 1.0,
+and the token limits in Step 4. Use its native chat template, the system message “You are a helpful assistant.”, and the
+original problem followed by:
+Think step by step inside <think> </think> tags, then give your final answer inside \boxed{}.
+Extract the last boxed answer using the balanced-brace rule in README.MD. Keep model weights fixed and save all
+prompts, responses, seeds, lengths, and truncation flags. Measure end-to-end inference time on the same GPU,
+excluding model loading; also record input/output tokens and peak GPU memory. These FP16 runs are a new
+controlled comparison, not a reproduction of the supplied samples.
+Steps
+1. Establish the Opportunity from Repeated Sampling. Load and join the supplied tables, verify token-list
+alignment, and prepare answer groups and correctness labels. For each budget N ∈ {1, 2, 4, 8, 16, 32}, measure
+FirstAns accuracy, oracle coverage, and the number of distinct answer groups.
+Decompose selection failures into questions where no correct candidate was generated and questions where a
+correct candidate was available but missed. This separates limitations of sampling from limitations of selection.
+Save per-question results, candidate IDs, selected answers, and token costs throughout the task.
+2. Implement Quality Scoring and Answer Aggregation. For rollout i with Ti tokens, compute mean
+log-probability and self-certainty:
+Li =
+1
+Ti
+∑︂
+t
+log pi,t(yi,t), Ki =
+1
+Ti
+∑︂
+t
+ki,t, ki,t = DKL(U∥pi,t).
+Here U is uniform over the vocabulary. Read the token measurements from logp and kl_u_p; they use raw model
+distributions before sampling transformations. Larger Li means greater support for the sampled tokens; larger Ki
+means greater divergence from uniform, not a calibrated probability of correctness.
+For MathVista, compute visual engagement from the supplied group attention totals:
+vi,t =
+A
+image
+i,t
+A
+image
+i,t + A
+prompt
+i,t + A
+generated
+i,t
+, Vi =
+1
+Ti
+∑︂
+t
+vi,t.
+These totals exclude some special positions and need not sum to one; normalize as shown rather than using raw
+image-attention mass.
+Implement VisConf by pooling token KL values across the current candidate set G and calibrating them with its
+5th and 95th percentiles:
+ci,t = clip[0,1] (︃
+ki,t − Q.05(G)
+max(Q.95(G) − Q.05(G), 10−8)
+)︃
+.
+Average calibrated confidence within each rollout and multiply it by visual engagement:
+Ci =
+1
+Ti
+∑︂
+t
+ci,t, Zi = ViCi
+.
+12
+Use linear-interpolation percentiles. Recompute calibration for each candidate prefix; do not normalize using
+unseen rollouts.
+For a quality score Qi
+, implement both highest-score selection and RWC. With descending average rank ri among
+N > 1 candidates, where rank 1 is best, use
+wi =
+N − ri
+N − 1
+, W(a) = ∑︂
+i:ai=a
+wi
+, ˆ︁a = arg max
+a
+W(a).
+Implement the following comparisons at every candidate budget:
+• Both datasets: FirstAns, self-consistency (one vote per rollout), highest mean log-probability, highest
+self-certainty, and self-certainty + RWC.
+• MathVista additionally: vision-only and VisConf, each with highest-score selection and RWC.
+Keeping the score fixed while changing aggregation isolates the value of consensus; keeping aggregation fixed while
+changing the score isolates the value of the quality signal.
+3. Investigate What the Signals Capture. At N = 32, examine within-question associations between rollout
+length, scores, and correctness. Compare correctness in each score’s top and bottom quartiles within a question,
+then average the differences across questions. Include shortest-rollout selection as a length-only control.
+For MathVista, compute confidence–vision correlation within each rollout and summarize these correlations across
+questions. Compare VisConf with tokenwise fusion
+Z
+token
+i =
+1
+Ti
+∑︂
+t
+ci,tvi,t, Ztoken
+i − Zi = Covt(ci,t, vi,t).
+Evaluate this ablation under the same two aggregation rules. It tests whether combining signals at each token
+is equivalent to combining their rollout summaries. Use a fixed set of illustrative trajectories to examine where
+signals agree, disagree, or vary over generation.
+4. Compare Parallel Sampling with Sequential Refinement. On the fixed 50-question MATH subset, run the
+following strategies with the same 3,072-token total output allowance per question:
+Strategy Generation and final answer
+Single longer response One response capped at 3,072 new tokens
+Parallel sampling Three independent responses capped at 1,024 tokens each; self-consistency selects the
+answer
+Sequential refinement Initial response capped at 1,024 tokens, then one critique-and-revision response
+capped at 2,048; return the revised answer
+Reuse the first parallel response as the initial response for refinement. Append it as an assistant message, followed
+by this user instruction:
+Review the solution above. Identify and correct any errors; if it is correct, retain its answer. Give your final
+answer inside \boxed{}.
+Generate critique and revision together in that second response, without gold answers or correctness feedback.
+Use independently seeded calls and keep the generation instructions fixed across questions.
+Early termination may leave part of an allowance unused, so report actual tokens and runtime alongside accuracy
+and extraction/truncation rates. Charge the shared initial response to both strategies when comparing their costs.
+Count all critique tokens and the longer revision prompt. Report wrong-to-correct and correct-to-wrong transitions
+relative to the shared initial answer; do not use gold answers to choose between initial and revised outputs.
+5. Implement Adaptive Sampling. Return to the supplied pools and reveal rollouts in the saved random orders.
+Check stopping after n ∈ {4, 8, 16} candidates; otherwise stop at 32. Both controllers below return the current
+self-consistency answer, so the comparison isolates stopping rather than changing the final selector.
+• Agreement-based: stop if there is a unique, non-NO_ANSWER leading answer supported by at least a fraction
+τ of the n candidates.
+13
+• Quality-aware: require the same agreement condition, plus agreement between the self-consistency and RWC
+winners and an RWC vote margin of at least γ. Use self-certainty scores for MATH and VisConf for MathVista.
+Define the RWC margin as the difference between the largest and second-largest answer votes divided by total vote
+weight; use zero for the runner-up vote when only one answer group exists. Recompute scores, VisConf calibration,
+and ranks using only revealed candidates.
+On each dataset’s development set, consider τ ∈ {0.5, 0.625, 0.75, 0.875, 1.0} and, for quality-aware stopping,
+γ ∈ {0, 0.1, 0.25, 0.5}. Include the policy that always consumes 32 candidates as a fallback. For each controller
+family, select the setting with the lowest mean token cost whose development accuracy is no more than one
+percentage point below fixed-32 self-consistency, averaging over the ten orders. Break ties by higher accuracy, then
+smaller τ and γ.
+Freeze the selected settings before held-out evaluation. Report accuracy, mean token cost, mean rollouts, and
+the stopping-count distribution, alongside fixed-N self-consistency. Analyze incorrect early stops, including cases
+where fixed-32 selection would have recovered the correct answer. These are offline simulations of stopping between
+completed rollouts, not within a rollout.
+6. Analyze Compute Allocation and Failure Cases. Compare accuracy against candidate count and generatedtoken cost, separating oracle coverage from achieved selection accuracy. Examine whether additional samples add
+useful alternatives or repeat existing answers, and how score quality and aggregation affect the remaining selection
+gap.
+Compare adaptive policies with fixed budgets at similar observed costs. Relate the stopping behavior to answer
+agreement and to the fraction of correct candidates in the full pool, using the latter only for retrospective
+analysis. Present representative cases of selection disagreement, revision, and premature stopping using a stated
+example-selection rule.
+What to Watch For
+• Answer equivalence affects both voting and grading. Missing extractions and capped outputs remain part of the
+experiment; do not remove them to improve scores.
+• Gold answers and future candidates are available for retrospective analysis, not for selection, stopping, or candidaterelative normalization.
+• Consensus, self-certainty, and visual attention are evidence signals, not guarantees of correctness. Token-level
+associations do not establish causal visual grounding.
+• Compare live strategies using their actual input/output costs and runtime as well as output allowances. Three
+short responses can encounter different truncation rates from one long response.
+• Treat offline token cost as a proxy. Scoring and collecting all-layer attention have additional deployment costs that
+are not timed in the supplied export.
+• Bootstrap questions, not individual rollouts. Results compare two model–dataset combinations; they do not isolate
+the causal effect of adding vision.
+Required Evidence
+• Sampling and selection: accuracy and oracle-coverage curves for both datasets, a compact method comparison,
+and the decomposition of sampling versus selection failures.
+• Signal analysis: length and correctness associations, confidence–vision relationships, and the tokenwise/trajectorylevel fusion comparison.
+• Live inference: accuracy, actual input/output tokens, runtime, truncation/extraction rates, and revision
+transitions for the three strategies on the 50 questions.
+• Adaptive inference: development-selected thresholds, held-out accuracy–cost results, stopping distributions, and
+comparisons with fixed budgets.
+• Qualitative findings: a small set of aligned examples illustrating the observed selection, refinement, and stopping
+behavior.
+14
+Research Questions
+1. Exploration and selection. What limits the benefit of repeated sampling, and how does the balance between
+candidate coverage and selection quality change with compute?
+2. Evidence and consensus. How do confidence, visual engagement, and answer agreement contribute to selecting
+a final answer, and what explains their successes or failures?
+3. Breadth and refinement. How does spending computation on independent alternatives compare with a longer
+response or sequential reconsideration?
+4. Adaptive allocation. When is another rollout useful, and how effectively can the observed evidence guide
+stopping without access to correctness?
+5. Compute and reliability. Which strategies achieve useful accuracy–cost trade-offs, and what do the observed
+failures reveal about their reliability and limitations?

@@ -1,0 +1,6 @@
+[START] full_ft_0625 | starting | elapsed 0s
+[PHASE] full_ft_0625 | weight-space and activation diagnostics 0/3 layers | elapsed 0s
+[PROGRESS] full_ft_0625 | weight-space and activation diagnostics 1/3 layers | elapsed 0s
+[PROGRESS] full_ft_0625 | weight-space and activation diagnostics 2/3 layers | elapsed 0s
+[PROGRESS] full_ft_0625 | weight-space and activation diagnostics 3/3 layers | elapsed 1s
+[DONE] full_ft_0625 | weight-space and activation diagnostics 3/3 layers | elapsed 1s

@@ -1,0 +1,1657 @@
+[START] l2sp_1250 | starting | elapsed 0s
+[PHASE] l2sp_1250 | loading training model/optimizer/checkpoint | elapsed 0s
+`torch_dtype` is deprecated! Use `dtype` instead!
+[PHASE] l2sp_1250 | one-epoch training 0/1250 optimizer update attempts | elapsed 0s
+[PROGRESS] l2sp_1250 | one-epoch training 0/1250 optimizer update attempts | elapsed 0s
+[HEARTBEAT] l2sp_1250 | one-epoch training 0/1250 optimizer update attempts | elapsed 5s | activity age 5s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1/1250 optimizer update attempts | elapsed 6s
+l2sp: 1/1250  SFT=1.0285  5.52s/update
+[PROGRESS] l2sp_1250 | one-epoch training 2/1250 optimizer update attempts | elapsed 9s
+[PROGRESS] l2sp_1250 | one-epoch training 3/1250 optimizer update attempts | elapsed 13s
+[PROGRESS] l2sp_1250 | one-epoch training 4/1250 optimizer update attempts | elapsed 17s
+[HEARTBEAT] l2sp_1250 | one-epoch training 4/1250 optimizer update attempts | elapsed 20s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 5/1250 optimizer update attempts | elapsed 21s
+[PROGRESS] l2sp_1250 | one-epoch training 6/1250 optimizer update attempts | elapsed 24s
+[PROGRESS] l2sp_1250 | one-epoch training 7/1250 optimizer update attempts | elapsed 28s
+[PROGRESS] l2sp_1250 | one-epoch training 8/1250 optimizer update attempts | elapsed 32s
+[HEARTBEAT] l2sp_1250 | one-epoch training 8/1250 optimizer update attempts | elapsed 35s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 9/1250 optimizer update attempts | elapsed 36s
+[PROGRESS] l2sp_1250 | one-epoch training 10/1250 optimizer update attempts | elapsed 39s
+[PROGRESS] l2sp_1250 | one-epoch training 11/1250 optimizer update attempts | elapsed 43s
+[PROGRESS] l2sp_1250 | one-epoch training 12/1250 optimizer update attempts | elapsed 47s
+[HEARTBEAT] l2sp_1250 | one-epoch training 12/1250 optimizer update attempts | elapsed 50s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 13/1250 optimizer update attempts | elapsed 51s
+[PROGRESS] l2sp_1250 | one-epoch training 14/1250 optimizer update attempts | elapsed 54s
+[PROGRESS] l2sp_1250 | one-epoch training 15/1250 optimizer update attempts | elapsed 58s
+[PROGRESS] l2sp_1250 | one-epoch training 16/1250 optimizer update attempts | elapsed 62s
+[HEARTBEAT] l2sp_1250 | one-epoch training 16/1250 optimizer update attempts | elapsed 65s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 17/1250 optimizer update attempts | elapsed 66s
+[PROGRESS] l2sp_1250 | one-epoch training 18/1250 optimizer update attempts | elapsed 69s
+[PROGRESS] l2sp_1250 | one-epoch training 19/1250 optimizer update attempts | elapsed 73s
+[PROGRESS] l2sp_1250 | one-epoch training 20/1250 optimizer update attempts | elapsed 77s
+[HEARTBEAT] l2sp_1250 | one-epoch training 20/1250 optimizer update attempts | elapsed 80s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 21/1250 optimizer update attempts | elapsed 80s
+[PROGRESS] l2sp_1250 | one-epoch training 22/1250 optimizer update attempts | elapsed 84s
+[PROGRESS] l2sp_1250 | one-epoch training 23/1250 optimizer update attempts | elapsed 88s
+[PROGRESS] l2sp_1250 | one-epoch training 24/1250 optimizer update attempts | elapsed 92s
+[HEARTBEAT] l2sp_1250 | one-epoch training 24/1250 optimizer update attempts | elapsed 95s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 25/1250 optimizer update attempts | elapsed 95s
+l2sp: 25/1250  SFT=0.2368  3.49s/update
+[PROGRESS] l2sp_1250 | one-epoch training 26/1250 optimizer update attempts | elapsed 99s
+[PROGRESS] l2sp_1250 | one-epoch training 27/1250 optimizer update attempts | elapsed 102s
+[PROGRESS] l2sp_1250 | one-epoch training 28/1250 optimizer update attempts | elapsed 106s
+[PROGRESS] l2sp_1250 | one-epoch training 29/1250 optimizer update attempts | elapsed 110s
+[HEARTBEAT] l2sp_1250 | one-epoch training 29/1250 optimizer update attempts | elapsed 110s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 30/1250 optimizer update attempts | elapsed 113s
+[PROGRESS] l2sp_1250 | one-epoch training 31/1250 optimizer update attempts | elapsed 117s
+[PROGRESS] l2sp_1250 | one-epoch training 32/1250 optimizer update attempts | elapsed 121s
+[HEARTBEAT] l2sp_1250 | one-epoch training 32/1250 optimizer update attempts | elapsed 125s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 33/1250 optimizer update attempts | elapsed 125s
+[PROGRESS] l2sp_1250 | one-epoch training 34/1250 optimizer update attempts | elapsed 129s
+[PROGRESS] l2sp_1250 | one-epoch training 35/1250 optimizer update attempts | elapsed 132s
+[PROGRESS] l2sp_1250 | one-epoch training 36/1250 optimizer update attempts | elapsed 136s
+[HEARTBEAT] l2sp_1250 | one-epoch training 36/1250 optimizer update attempts | elapsed 140s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 37/1250 optimizer update attempts | elapsed 140s
+[PROGRESS] l2sp_1250 | one-epoch training 38/1250 optimizer update attempts | elapsed 143s
+[PROGRESS] l2sp_1250 | one-epoch training 39/1250 optimizer update attempts | elapsed 147s
+[PROGRESS] l2sp_1250 | one-epoch training 40/1250 optimizer update attempts | elapsed 151s
+[PROGRESS] l2sp_1250 | one-epoch training 41/1250 optimizer update attempts | elapsed 155s
+[HEARTBEAT] l2sp_1250 | one-epoch training 41/1250 optimizer update attempts | elapsed 155s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 42/1250 optimizer update attempts | elapsed 158s
+[PROGRESS] l2sp_1250 | one-epoch training 43/1250 optimizer update attempts | elapsed 162s
+[PROGRESS] l2sp_1250 | one-epoch training 44/1250 optimizer update attempts | elapsed 166s
+[PROGRESS] l2sp_1250 | one-epoch training 45/1250 optimizer update attempts | elapsed 170s
+[HEARTBEAT] l2sp_1250 | one-epoch training 45/1250 optimizer update attempts | elapsed 170s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 46/1250 optimizer update attempts | elapsed 173s
+[PROGRESS] l2sp_1250 | one-epoch training 47/1250 optimizer update attempts | elapsed 177s
+[PROGRESS] l2sp_1250 | one-epoch training 48/1250 optimizer update attempts | elapsed 181s
+[PROGRESS] l2sp_1250 | one-epoch training 49/1250 optimizer update attempts | elapsed 184s
+[HEARTBEAT] l2sp_1250 | one-epoch training 49/1250 optimizer update attempts | elapsed 185s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 50/1250 optimizer update attempts | elapsed 188s
+l2sp: 50/1250  SFT=0.2437  3.77s/update
+[PROGRESS] l2sp_1250 | one-epoch training 51/1250 optimizer update attempts | elapsed 192s
+[PROGRESS] l2sp_1250 | one-epoch training 52/1250 optimizer update attempts | elapsed 196s
+[PROGRESS] l2sp_1250 | one-epoch training 53/1250 optimizer update attempts | elapsed 199s
+[HEARTBEAT] l2sp_1250 | one-epoch training 53/1250 optimizer update attempts | elapsed 200s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 54/1250 optimizer update attempts | elapsed 203s
+[PROGRESS] l2sp_1250 | one-epoch training 55/1250 optimizer update attempts | elapsed 207s
+[PROGRESS] l2sp_1250 | one-epoch training 56/1250 optimizer update attempts | elapsed 210s
+[PROGRESS] l2sp_1250 | one-epoch training 57/1250 optimizer update attempts | elapsed 214s
+[HEARTBEAT] l2sp_1250 | one-epoch training 57/1250 optimizer update attempts | elapsed 215s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 58/1250 optimizer update attempts | elapsed 218s
+[PROGRESS] l2sp_1250 | one-epoch training 59/1250 optimizer update attempts | elapsed 221s
+[PROGRESS] l2sp_1250 | one-epoch training 60/1250 optimizer update attempts | elapsed 225s
+[PROGRESS] l2sp_1250 | one-epoch training 61/1250 optimizer update attempts | elapsed 229s
+[HEARTBEAT] l2sp_1250 | one-epoch training 61/1250 optimizer update attempts | elapsed 230s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 62/1250 optimizer update attempts | elapsed 232s
+[PROGRESS] l2sp_1250 | one-epoch training 63/1250 optimizer update attempts | elapsed 236s
+[PROGRESS] l2sp_1250 | one-epoch training 64/1250 optimizer update attempts | elapsed 240s
+[PROGRESS] l2sp_1250 | one-epoch training 65/1250 optimizer update attempts | elapsed 243s
+[HEARTBEAT] l2sp_1250 | one-epoch training 65/1250 optimizer update attempts | elapsed 245s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 66/1250 optimizer update attempts | elapsed 247s
+[PROGRESS] l2sp_1250 | one-epoch training 67/1250 optimizer update attempts | elapsed 250s
+[PROGRESS] l2sp_1250 | one-epoch training 68/1250 optimizer update attempts | elapsed 254s
+[PROGRESS] l2sp_1250 | one-epoch training 69/1250 optimizer update attempts | elapsed 258s
+[HEARTBEAT] l2sp_1250 | one-epoch training 69/1250 optimizer update attempts | elapsed 260s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 70/1250 optimizer update attempts | elapsed 261s
+[PROGRESS] l2sp_1250 | one-epoch training 71/1250 optimizer update attempts | elapsed 265s
+[PROGRESS] l2sp_1250 | one-epoch training 72/1250 optimizer update attempts | elapsed 269s
+[PROGRESS] l2sp_1250 | one-epoch training 73/1250 optimizer update attempts | elapsed 272s
+[HEARTBEAT] l2sp_1250 | one-epoch training 73/1250 optimizer update attempts | elapsed 275s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 74/1250 optimizer update attempts | elapsed 276s
+[PROGRESS] l2sp_1250 | one-epoch training 75/1250 optimizer update attempts | elapsed 280s
+l2sp: 75/1250  SFT=0.2584  3.80s/update
+[PROGRESS] l2sp_1250 | one-epoch training 76/1250 optimizer update attempts | elapsed 283s
+[PROGRESS] l2sp_1250 | one-epoch training 77/1250 optimizer update attempts | elapsed 287s
+[HEARTBEAT] l2sp_1250 | one-epoch training 77/1250 optimizer update attempts | elapsed 290s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 78/1250 optimizer update attempts | elapsed 291s
+[PROGRESS] l2sp_1250 | one-epoch training 79/1250 optimizer update attempts | elapsed 294s
+[PROGRESS] l2sp_1250 | one-epoch training 80/1250 optimizer update attempts | elapsed 298s
+[PROGRESS] l2sp_1250 | one-epoch training 81/1250 optimizer update attempts | elapsed 302s
+[HEARTBEAT] l2sp_1250 | one-epoch training 81/1250 optimizer update attempts | elapsed 305s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 82/1250 optimizer update attempts | elapsed 305s
+[PROGRESS] l2sp_1250 | one-epoch training 83/1250 optimizer update attempts | elapsed 309s
+[PROGRESS] l2sp_1250 | one-epoch training 84/1250 optimizer update attempts | elapsed 312s
+[PROGRESS] l2sp_1250 | one-epoch training 85/1250 optimizer update attempts | elapsed 316s
+[PROGRESS] l2sp_1250 | one-epoch training 86/1250 optimizer update attempts | elapsed 320s
+[HEARTBEAT] l2sp_1250 | one-epoch training 86/1250 optimizer update attempts | elapsed 320s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 87/1250 optimizer update attempts | elapsed 324s
+[PROGRESS] l2sp_1250 | one-epoch training 88/1250 optimizer update attempts | elapsed 327s
+[PROGRESS] l2sp_1250 | one-epoch training 89/1250 optimizer update attempts | elapsed 331s
+[PROGRESS] l2sp_1250 | one-epoch training 90/1250 optimizer update attempts | elapsed 334s
+[HEARTBEAT] l2sp_1250 | one-epoch training 90/1250 optimizer update attempts | elapsed 335s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 91/1250 optimizer update attempts | elapsed 338s
+[PROGRESS] l2sp_1250 | one-epoch training 92/1250 optimizer update attempts | elapsed 342s
+[PROGRESS] l2sp_1250 | one-epoch training 93/1250 optimizer update attempts | elapsed 345s
+[PROGRESS] l2sp_1250 | one-epoch training 94/1250 optimizer update attempts | elapsed 349s
+[HEARTBEAT] l2sp_1250 | one-epoch training 94/1250 optimizer update attempts | elapsed 350s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 95/1250 optimizer update attempts | elapsed 353s
+[PROGRESS] l2sp_1250 | one-epoch training 96/1250 optimizer update attempts | elapsed 356s
+[PROGRESS] l2sp_1250 | one-epoch training 97/1250 optimizer update attempts | elapsed 360s
+[PROGRESS] l2sp_1250 | one-epoch training 98/1250 optimizer update attempts | elapsed 364s
+[HEARTBEAT] l2sp_1250 | one-epoch training 98/1250 optimizer update attempts | elapsed 365s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 99/1250 optimizer update attempts | elapsed 368s
+[PROGRESS] l2sp_1250 | one-epoch training 100/1250 optimizer update attempts | elapsed 372s
+l2sp: 100/1250  SFT=0.2572  3.91s/update
+[CHECKPOINT] l2sp_1250 | one-epoch training 100/1250 optimizer update attempts | elapsed 372s
+[HEARTBEAT] l2sp_1250 | one-epoch training 100/1250 optimizer update attempts | elapsed 380s | activity age 9s (heartbeat is NOT proof of progress)
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/l2sp/checkpoints/rolling_update_0100.pt | update 100 | 6.66 GiB
+[PROGRESS] l2sp_1250 | one-epoch training 101/1250 optimizer update attempts | elapsed 384s
+[PROGRESS] l2sp_1250 | one-epoch training 102/1250 optimizer update attempts | elapsed 388s
+[PROGRESS] l2sp_1250 | one-epoch training 103/1250 optimizer update attempts | elapsed 391s
+[PROGRESS] l2sp_1250 | one-epoch training 104/1250 optimizer update attempts | elapsed 395s
+[HEARTBEAT] l2sp_1250 | one-epoch training 104/1250 optimizer update attempts | elapsed 395s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 105/1250 optimizer update attempts | elapsed 398s
+[PROGRESS] l2sp_1250 | one-epoch training 106/1250 optimizer update attempts | elapsed 402s
+[PROGRESS] l2sp_1250 | one-epoch training 107/1250 optimizer update attempts | elapsed 406s
+[PROGRESS] l2sp_1250 | one-epoch training 108/1250 optimizer update attempts | elapsed 410s
+[HEARTBEAT] l2sp_1250 | one-epoch training 108/1250 optimizer update attempts | elapsed 410s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 109/1250 optimizer update attempts | elapsed 413s
+[PROGRESS] l2sp_1250 | one-epoch training 110/1250 optimizer update attempts | elapsed 417s
+[PROGRESS] l2sp_1250 | one-epoch training 111/1250 optimizer update attempts | elapsed 420s
+[PROGRESS] l2sp_1250 | one-epoch training 112/1250 optimizer update attempts | elapsed 424s
+[HEARTBEAT] l2sp_1250 | one-epoch training 112/1250 optimizer update attempts | elapsed 425s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 113/1250 optimizer update attempts | elapsed 428s
+[PROGRESS] l2sp_1250 | one-epoch training 114/1250 optimizer update attempts | elapsed 432s
+[PROGRESS] l2sp_1250 | one-epoch training 115/1250 optimizer update attempts | elapsed 436s
+[PROGRESS] l2sp_1250 | one-epoch training 116/1250 optimizer update attempts | elapsed 439s
+[HEARTBEAT] l2sp_1250 | one-epoch training 116/1250 optimizer update attempts | elapsed 440s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 117/1250 optimizer update attempts | elapsed 443s
+[PROGRESS] l2sp_1250 | one-epoch training 118/1250 optimizer update attempts | elapsed 447s
+[PROGRESS] l2sp_1250 | one-epoch training 119/1250 optimizer update attempts | elapsed 451s
+[PROGRESS] l2sp_1250 | one-epoch training 120/1250 optimizer update attempts | elapsed 454s
+[HEARTBEAT] l2sp_1250 | one-epoch training 120/1250 optimizer update attempts | elapsed 455s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 121/1250 optimizer update attempts | elapsed 458s
+[PROGRESS] l2sp_1250 | one-epoch training 122/1250 optimizer update attempts | elapsed 462s
+[PROGRESS] l2sp_1250 | one-epoch training 123/1250 optimizer update attempts | elapsed 466s
+[PROGRESS] l2sp_1250 | one-epoch training 124/1250 optimizer update attempts | elapsed 469s
+[HEARTBEAT] l2sp_1250 | one-epoch training 124/1250 optimizer update attempts | elapsed 470s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 125/1250 optimizer update attempts | elapsed 473s
+l2sp: 125/1250  SFT=0.2827  3.59s/update
+[PROGRESS] l2sp_1250 | one-epoch training 126/1250 optimizer update attempts | elapsed 477s
+[PROGRESS] l2sp_1250 | one-epoch training 127/1250 optimizer update attempts | elapsed 480s
+[PROGRESS] l2sp_1250 | one-epoch training 128/1250 optimizer update attempts | elapsed 484s
+[HEARTBEAT] l2sp_1250 | one-epoch training 128/1250 optimizer update attempts | elapsed 485s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 129/1250 optimizer update attempts | elapsed 488s
+[PROGRESS] l2sp_1250 | one-epoch training 130/1250 optimizer update attempts | elapsed 492s
+[PROGRESS] l2sp_1250 | one-epoch training 131/1250 optimizer update attempts | elapsed 495s
+[PROGRESS] l2sp_1250 | one-epoch training 132/1250 optimizer update attempts | elapsed 499s
+[HEARTBEAT] l2sp_1250 | one-epoch training 132/1250 optimizer update attempts | elapsed 500s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 133/1250 optimizer update attempts | elapsed 502s
+[PROGRESS] l2sp_1250 | one-epoch training 134/1250 optimizer update attempts | elapsed 506s
+[PROGRESS] l2sp_1250 | one-epoch training 135/1250 optimizer update attempts | elapsed 510s
+[PROGRESS] l2sp_1250 | one-epoch training 136/1250 optimizer update attempts | elapsed 514s
+[HEARTBEAT] l2sp_1250 | one-epoch training 136/1250 optimizer update attempts | elapsed 515s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 137/1250 optimizer update attempts | elapsed 517s
+[PROGRESS] l2sp_1250 | one-epoch training 138/1250 optimizer update attempts | elapsed 521s
+[PROGRESS] l2sp_1250 | one-epoch training 139/1250 optimizer update attempts | elapsed 525s
+[PROGRESS] l2sp_1250 | one-epoch training 140/1250 optimizer update attempts | elapsed 528s
+[HEARTBEAT] l2sp_1250 | one-epoch training 140/1250 optimizer update attempts | elapsed 530s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 141/1250 optimizer update attempts | elapsed 532s
+[PROGRESS] l2sp_1250 | one-epoch training 142/1250 optimizer update attempts | elapsed 536s
+[PROGRESS] l2sp_1250 | one-epoch training 143/1250 optimizer update attempts | elapsed 540s
+[PROGRESS] l2sp_1250 | one-epoch training 144/1250 optimizer update attempts | elapsed 543s
+[HEARTBEAT] l2sp_1250 | one-epoch training 144/1250 optimizer update attempts | elapsed 545s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 145/1250 optimizer update attempts | elapsed 547s
+[PROGRESS] l2sp_1250 | one-epoch training 146/1250 optimizer update attempts | elapsed 551s
+[PROGRESS] l2sp_1250 | one-epoch training 147/1250 optimizer update attempts | elapsed 555s
+[PROGRESS] l2sp_1250 | one-epoch training 148/1250 optimizer update attempts | elapsed 558s
+[HEARTBEAT] l2sp_1250 | one-epoch training 148/1250 optimizer update attempts | elapsed 560s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 149/1250 optimizer update attempts | elapsed 562s
+[PROGRESS] l2sp_1250 | one-epoch training 150/1250 optimizer update attempts | elapsed 566s
+l2sp: 150/1250  SFT=0.2402  3.60s/update
+[PROGRESS] l2sp_1250 | one-epoch training 151/1250 optimizer update attempts | elapsed 570s
+[PROGRESS] l2sp_1250 | one-epoch training 152/1250 optimizer update attempts | elapsed 573s
+[HEARTBEAT] l2sp_1250 | one-epoch training 152/1250 optimizer update attempts | elapsed 575s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 153/1250 optimizer update attempts | elapsed 577s
+[PROGRESS] l2sp_1250 | one-epoch training 154/1250 optimizer update attempts | elapsed 580s
+[PROGRESS] l2sp_1250 | one-epoch training 155/1250 optimizer update attempts | elapsed 584s
+[PROGRESS] l2sp_1250 | one-epoch training 156/1250 optimizer update attempts | elapsed 588s
+[HEARTBEAT] l2sp_1250 | one-epoch training 156/1250 optimizer update attempts | elapsed 590s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 157/1250 optimizer update attempts | elapsed 592s
+[PROGRESS] l2sp_1250 | one-epoch training 158/1250 optimizer update attempts | elapsed 595s
+[PROGRESS] l2sp_1250 | one-epoch training 159/1250 optimizer update attempts | elapsed 599s
+[PROGRESS] l2sp_1250 | one-epoch training 160/1250 optimizer update attempts | elapsed 603s
+[HEARTBEAT] l2sp_1250 | one-epoch training 160/1250 optimizer update attempts | elapsed 605s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 161/1250 optimizer update attempts | elapsed 606s
+[PROGRESS] l2sp_1250 | one-epoch training 162/1250 optimizer update attempts | elapsed 610s
+[PROGRESS] l2sp_1250 | one-epoch training 163/1250 optimizer update attempts | elapsed 614s
+[PROGRESS] l2sp_1250 | one-epoch training 164/1250 optimizer update attempts | elapsed 618s
+[HEARTBEAT] l2sp_1250 | one-epoch training 164/1250 optimizer update attempts | elapsed 620s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 165/1250 optimizer update attempts | elapsed 621s
+[PROGRESS] l2sp_1250 | one-epoch training 166/1250 optimizer update attempts | elapsed 625s
+[PROGRESS] l2sp_1250 | one-epoch training 167/1250 optimizer update attempts | elapsed 629s
+[PROGRESS] l2sp_1250 | one-epoch training 168/1250 optimizer update attempts | elapsed 632s
+[HEARTBEAT] l2sp_1250 | one-epoch training 168/1250 optimizer update attempts | elapsed 635s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 169/1250 optimizer update attempts | elapsed 636s
+[PROGRESS] l2sp_1250 | one-epoch training 170/1250 optimizer update attempts | elapsed 640s
+[PROGRESS] l2sp_1250 | one-epoch training 171/1250 optimizer update attempts | elapsed 644s
+[PROGRESS] l2sp_1250 | one-epoch training 172/1250 optimizer update attempts | elapsed 647s
+[HEARTBEAT] l2sp_1250 | one-epoch training 172/1250 optimizer update attempts | elapsed 650s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 173/1250 optimizer update attempts | elapsed 651s
+[PROGRESS] l2sp_1250 | one-epoch training 174/1250 optimizer update attempts | elapsed 655s
+[PROGRESS] l2sp_1250 | one-epoch training 175/1250 optimizer update attempts | elapsed 658s
+l2sp: 175/1250  SFT=0.2180  3.61s/update
+[PROGRESS] l2sp_1250 | one-epoch training 176/1250 optimizer update attempts | elapsed 662s
+[HEARTBEAT] l2sp_1250 | one-epoch training 176/1250 optimizer update attempts | elapsed 665s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 177/1250 optimizer update attempts | elapsed 666s
+[PROGRESS] l2sp_1250 | one-epoch training 178/1250 optimizer update attempts | elapsed 670s
+[PROGRESS] l2sp_1250 | one-epoch training 179/1250 optimizer update attempts | elapsed 674s
+[PROGRESS] l2sp_1250 | one-epoch training 180/1250 optimizer update attempts | elapsed 677s
+[HEARTBEAT] l2sp_1250 | one-epoch training 180/1250 optimizer update attempts | elapsed 680s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 181/1250 optimizer update attempts | elapsed 681s
+[PROGRESS] l2sp_1250 | one-epoch training 182/1250 optimizer update attempts | elapsed 684s
+[PROGRESS] l2sp_1250 | one-epoch training 183/1250 optimizer update attempts | elapsed 688s
+[PROGRESS] l2sp_1250 | one-epoch training 184/1250 optimizer update attempts | elapsed 692s
+[HEARTBEAT] l2sp_1250 | one-epoch training 184/1250 optimizer update attempts | elapsed 695s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 185/1250 optimizer update attempts | elapsed 696s
+[PROGRESS] l2sp_1250 | one-epoch training 186/1250 optimizer update attempts | elapsed 699s
+[PROGRESS] l2sp_1250 | one-epoch training 187/1250 optimizer update attempts | elapsed 703s
+[PROGRESS] l2sp_1250 | one-epoch training 188/1250 optimizer update attempts | elapsed 706s
+[PROGRESS] l2sp_1250 | one-epoch training 189/1250 optimizer update attempts | elapsed 710s
+[HEARTBEAT] l2sp_1250 | one-epoch training 189/1250 optimizer update attempts | elapsed 710s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 190/1250 optimizer update attempts | elapsed 714s
+[PROGRESS] l2sp_1250 | one-epoch training 191/1250 optimizer update attempts | elapsed 718s
+[PROGRESS] l2sp_1250 | one-epoch training 192/1250 optimizer update attempts | elapsed 721s
+[PROGRESS] l2sp_1250 | one-epoch training 193/1250 optimizer update attempts | elapsed 725s
+[HEARTBEAT] l2sp_1250 | one-epoch training 193/1250 optimizer update attempts | elapsed 725s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 194/1250 optimizer update attempts | elapsed 729s
+[PROGRESS] l2sp_1250 | one-epoch training 195/1250 optimizer update attempts | elapsed 732s
+[PROGRESS] l2sp_1250 | one-epoch training 196/1250 optimizer update attempts | elapsed 736s
+[PROGRESS] l2sp_1250 | one-epoch training 197/1250 optimizer update attempts | elapsed 740s
+[HEARTBEAT] l2sp_1250 | one-epoch training 197/1250 optimizer update attempts | elapsed 740s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 198/1250 optimizer update attempts | elapsed 744s
+[PROGRESS] l2sp_1250 | one-epoch training 199/1250 optimizer update attempts | elapsed 747s
+[PROGRESS] l2sp_1250 | one-epoch training 200/1250 optimizer update attempts | elapsed 751s
+l2sp: 200/1250  SFT=0.2173  3.76s/update
+[CHECKPOINT] l2sp_1250 | one-epoch training 200/1250 optimizer update attempts | elapsed 751s
+[HEARTBEAT] l2sp_1250 | one-epoch training 200/1250 optimizer update attempts | elapsed 755s | activity age 5s (heartbeat is NOT proof of progress)
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/l2sp/checkpoints/rolling_update_0200.pt | update 200 | 6.66 GiB
+[PROGRESS] l2sp_1250 | one-epoch training 201/1250 optimizer update attempts | elapsed 763s
+[PROGRESS] l2sp_1250 | one-epoch training 202/1250 optimizer update attempts | elapsed 767s
+[HEARTBEAT] l2sp_1250 | one-epoch training 202/1250 optimizer update attempts | elapsed 770s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 203/1250 optimizer update attempts | elapsed 771s
+[PROGRESS] l2sp_1250 | one-epoch training 204/1250 optimizer update attempts | elapsed 774s
+[PROGRESS] l2sp_1250 | one-epoch training 205/1250 optimizer update attempts | elapsed 778s
+[PROGRESS] l2sp_1250 | one-epoch training 206/1250 optimizer update attempts | elapsed 782s
+[PROGRESS] l2sp_1250 | one-epoch training 207/1250 optimizer update attempts | elapsed 785s
+[HEARTBEAT] l2sp_1250 | one-epoch training 207/1250 optimizer update attempts | elapsed 785s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 208/1250 optimizer update attempts | elapsed 789s
+[PROGRESS] l2sp_1250 | one-epoch training 209/1250 optimizer update attempts | elapsed 793s
+[PROGRESS] l2sp_1250 | one-epoch training 210/1250 optimizer update attempts | elapsed 796s
+[PROGRESS] l2sp_1250 | one-epoch training 211/1250 optimizer update attempts | elapsed 800s
+[HEARTBEAT] l2sp_1250 | one-epoch training 211/1250 optimizer update attempts | elapsed 800s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 212/1250 optimizer update attempts | elapsed 804s
+[PROGRESS] l2sp_1250 | one-epoch training 213/1250 optimizer update attempts | elapsed 808s
+[PROGRESS] l2sp_1250 | one-epoch training 214/1250 optimizer update attempts | elapsed 811s
+[PROGRESS] l2sp_1250 | one-epoch training 215/1250 optimizer update attempts | elapsed 815s
+[HEARTBEAT] l2sp_1250 | one-epoch training 215/1250 optimizer update attempts | elapsed 815s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 216/1250 optimizer update attempts | elapsed 819s
+[PROGRESS] l2sp_1250 | one-epoch training 217/1250 optimizer update attempts | elapsed 822s
+[PROGRESS] l2sp_1250 | one-epoch training 218/1250 optimizer update attempts | elapsed 826s
+[PROGRESS] l2sp_1250 | one-epoch training 219/1250 optimizer update attempts | elapsed 830s
+[HEARTBEAT] l2sp_1250 | one-epoch training 219/1250 optimizer update attempts | elapsed 830s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 220/1250 optimizer update attempts | elapsed 834s
+[PROGRESS] l2sp_1250 | one-epoch training 221/1250 optimizer update attempts | elapsed 837s
+[PROGRESS] l2sp_1250 | one-epoch training 222/1250 optimizer update attempts | elapsed 841s
+[PROGRESS] l2sp_1250 | one-epoch training 223/1250 optimizer update attempts | elapsed 845s
+[HEARTBEAT] l2sp_1250 | one-epoch training 223/1250 optimizer update attempts | elapsed 845s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 224/1250 optimizer update attempts | elapsed 849s
+[PROGRESS] l2sp_1250 | one-epoch training 225/1250 optimizer update attempts | elapsed 852s
+l2sp: 225/1250  SFT=0.2550  3.84s/update
+[PROGRESS] l2sp_1250 | one-epoch training 226/1250 optimizer update attempts | elapsed 856s
+[PROGRESS] l2sp_1250 | one-epoch training 227/1250 optimizer update attempts | elapsed 860s
+[HEARTBEAT] l2sp_1250 | one-epoch training 227/1250 optimizer update attempts | elapsed 860s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 228/1250 optimizer update attempts | elapsed 863s
+[PROGRESS] l2sp_1250 | one-epoch training 229/1250 optimizer update attempts | elapsed 867s
+[PROGRESS] l2sp_1250 | one-epoch training 230/1250 optimizer update attempts | elapsed 871s
+[PROGRESS] l2sp_1250 | one-epoch training 231/1250 optimizer update attempts | elapsed 874s
+[HEARTBEAT] l2sp_1250 | one-epoch training 231/1250 optimizer update attempts | elapsed 875s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 232/1250 optimizer update attempts | elapsed 878s
+[PROGRESS] l2sp_1250 | one-epoch training 233/1250 optimizer update attempts | elapsed 882s
+[PROGRESS] l2sp_1250 | one-epoch training 234/1250 optimizer update attempts | elapsed 885s
+[PROGRESS] l2sp_1250 | one-epoch training 235/1250 optimizer update attempts | elapsed 889s
+[HEARTBEAT] l2sp_1250 | one-epoch training 235/1250 optimizer update attempts | elapsed 890s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 236/1250 optimizer update attempts | elapsed 893s
+[PROGRESS] l2sp_1250 | one-epoch training 237/1250 optimizer update attempts | elapsed 896s
+[PROGRESS] l2sp_1250 | one-epoch training 238/1250 optimizer update attempts | elapsed 900s
+[PROGRESS] l2sp_1250 | one-epoch training 239/1250 optimizer update attempts | elapsed 904s
+[HEARTBEAT] l2sp_1250 | one-epoch training 239/1250 optimizer update attempts | elapsed 906s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 240/1250 optimizer update attempts | elapsed 907s
+[PROGRESS] l2sp_1250 | one-epoch training 241/1250 optimizer update attempts | elapsed 911s
+[PROGRESS] l2sp_1250 | one-epoch training 242/1250 optimizer update attempts | elapsed 915s
+[PROGRESS] l2sp_1250 | one-epoch training 243/1250 optimizer update attempts | elapsed 918s
+[HEARTBEAT] l2sp_1250 | one-epoch training 243/1250 optimizer update attempts | elapsed 920s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 244/1250 optimizer update attempts | elapsed 922s
+[PROGRESS] l2sp_1250 | one-epoch training 245/1250 optimizer update attempts | elapsed 926s
+[PROGRESS] l2sp_1250 | one-epoch training 246/1250 optimizer update attempts | elapsed 930s
+[PROGRESS] l2sp_1250 | one-epoch training 247/1250 optimizer update attempts | elapsed 933s
+[HEARTBEAT] l2sp_1250 | one-epoch training 247/1250 optimizer update attempts | elapsed 936s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 248/1250 optimizer update attempts | elapsed 936s
+[PROGRESS] l2sp_1250 | one-epoch training 249/1250 optimizer update attempts | elapsed 940s
+[PROGRESS] l2sp_1250 | one-epoch training 250/1250 optimizer update attempts | elapsed 944s
+l2sp: 250/1250  SFT=0.2579  3.50s/update
+[PROGRESS] l2sp_1250 | one-epoch training 251/1250 optimizer update attempts | elapsed 948s
+[HEARTBEAT] l2sp_1250 | one-epoch training 251/1250 optimizer update attempts | elapsed 950s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 252/1250 optimizer update attempts | elapsed 951s
+[PROGRESS] l2sp_1250 | one-epoch training 253/1250 optimizer update attempts | elapsed 955s
+[PROGRESS] l2sp_1250 | one-epoch training 254/1250 optimizer update attempts | elapsed 959s
+[PROGRESS] l2sp_1250 | one-epoch training 255/1250 optimizer update attempts | elapsed 963s
+[HEARTBEAT] l2sp_1250 | one-epoch training 255/1250 optimizer update attempts | elapsed 966s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 256/1250 optimizer update attempts | elapsed 966s
+[PROGRESS] l2sp_1250 | one-epoch training 257/1250 optimizer update attempts | elapsed 970s
+[PROGRESS] l2sp_1250 | one-epoch training 258/1250 optimizer update attempts | elapsed 974s
+[PROGRESS] l2sp_1250 | one-epoch training 259/1250 optimizer update attempts | elapsed 978s
+[HEARTBEAT] l2sp_1250 | one-epoch training 259/1250 optimizer update attempts | elapsed 980s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 260/1250 optimizer update attempts | elapsed 981s
+[PROGRESS] l2sp_1250 | one-epoch training 261/1250 optimizer update attempts | elapsed 985s
+[PROGRESS] l2sp_1250 | one-epoch training 262/1250 optimizer update attempts | elapsed 988s
+[PROGRESS] l2sp_1250 | one-epoch training 263/1250 optimizer update attempts | elapsed 992s
+[HEARTBEAT] l2sp_1250 | one-epoch training 263/1250 optimizer update attempts | elapsed 996s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 264/1250 optimizer update attempts | elapsed 996s
+[PROGRESS] l2sp_1250 | one-epoch training 265/1250 optimizer update attempts | elapsed 1000s
+[PROGRESS] l2sp_1250 | one-epoch training 266/1250 optimizer update attempts | elapsed 1003s
+[PROGRESS] l2sp_1250 | one-epoch training 267/1250 optimizer update attempts | elapsed 1007s
+[HEARTBEAT] l2sp_1250 | one-epoch training 267/1250 optimizer update attempts | elapsed 1010s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 268/1250 optimizer update attempts | elapsed 1010s
+[PROGRESS] l2sp_1250 | one-epoch training 269/1250 optimizer update attempts | elapsed 1014s
+[PROGRESS] l2sp_1250 | one-epoch training 270/1250 optimizer update attempts | elapsed 1018s
+[PROGRESS] l2sp_1250 | one-epoch training 271/1250 optimizer update attempts | elapsed 1022s
+[PROGRESS] l2sp_1250 | one-epoch training 272/1250 optimizer update attempts | elapsed 1025s
+[HEARTBEAT] l2sp_1250 | one-epoch training 272/1250 optimizer update attempts | elapsed 1026s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 273/1250 optimizer update attempts | elapsed 1029s
+[PROGRESS] l2sp_1250 | one-epoch training 274/1250 optimizer update attempts | elapsed 1033s
+[PROGRESS] l2sp_1250 | one-epoch training 275/1250 optimizer update attempts | elapsed 1037s
+l2sp: 275/1250  SFT=0.2487  3.73s/update
+[HEARTBEAT] l2sp_1250 | one-epoch training 275/1250 optimizer update attempts | elapsed 1040s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 276/1250 optimizer update attempts | elapsed 1040s
+[PROGRESS] l2sp_1250 | one-epoch training 277/1250 optimizer update attempts | elapsed 1044s
+[PROGRESS] l2sp_1250 | one-epoch training 278/1250 optimizer update attempts | elapsed 1048s
+[PROGRESS] l2sp_1250 | one-epoch training 279/1250 optimizer update attempts | elapsed 1052s
+[PROGRESS] l2sp_1250 | one-epoch training 280/1250 optimizer update attempts | elapsed 1055s
+[HEARTBEAT] l2sp_1250 | one-epoch training 280/1250 optimizer update attempts | elapsed 1056s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 281/1250 optimizer update attempts | elapsed 1059s
+[PROGRESS] l2sp_1250 | one-epoch training 282/1250 optimizer update attempts | elapsed 1063s
+[PROGRESS] l2sp_1250 | one-epoch training 283/1250 optimizer update attempts | elapsed 1066s
+[PROGRESS] l2sp_1250 | one-epoch training 284/1250 optimizer update attempts | elapsed 1070s
+[HEARTBEAT] l2sp_1250 | one-epoch training 284/1250 optimizer update attempts | elapsed 1070s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 285/1250 optimizer update attempts | elapsed 1074s
+[PROGRESS] l2sp_1250 | one-epoch training 286/1250 optimizer update attempts | elapsed 1078s
+[PROGRESS] l2sp_1250 | one-epoch training 287/1250 optimizer update attempts | elapsed 1081s
+[PROGRESS] l2sp_1250 | one-epoch training 288/1250 optimizer update attempts | elapsed 1085s
+[HEARTBEAT] l2sp_1250 | one-epoch training 288/1250 optimizer update attempts | elapsed 1086s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 289/1250 optimizer update attempts | elapsed 1089s
+[PROGRESS] l2sp_1250 | one-epoch training 290/1250 optimizer update attempts | elapsed 1092s
+[PROGRESS] l2sp_1250 | one-epoch training 291/1250 optimizer update attempts | elapsed 1096s
+[PROGRESS] l2sp_1250 | one-epoch training 292/1250 optimizer update attempts | elapsed 1100s
+[HEARTBEAT] l2sp_1250 | one-epoch training 292/1250 optimizer update attempts | elapsed 1100s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 293/1250 optimizer update attempts | elapsed 1104s
+[PROGRESS] l2sp_1250 | one-epoch training 294/1250 optimizer update attempts | elapsed 1107s
+[PROGRESS] l2sp_1250 | one-epoch training 295/1250 optimizer update attempts | elapsed 1111s
+[PROGRESS] l2sp_1250 | one-epoch training 296/1250 optimizer update attempts | elapsed 1115s
+[HEARTBEAT] l2sp_1250 | one-epoch training 296/1250 optimizer update attempts | elapsed 1116s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 297/1250 optimizer update attempts | elapsed 1119s
+[PROGRESS] l2sp_1250 | one-epoch training 298/1250 optimizer update attempts | elapsed 1122s
+[PROGRESS] l2sp_1250 | one-epoch training 299/1250 optimizer update attempts | elapsed 1126s
+[PROGRESS] l2sp_1250 | one-epoch training 300/1250 optimizer update attempts | elapsed 1130s
+l2sp: 300/1250  SFT=0.2235  3.56s/update
+[CHECKPOINT] l2sp_1250 | one-epoch training 300/1250 optimizer update attempts | elapsed 1130s
+[HEARTBEAT] l2sp_1250 | one-epoch training 300/1250 optimizer update attempts | elapsed 1130s | activity age 1s (heartbeat is NOT proof of progress)
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/l2sp/checkpoints/rolling_update_0300.pt | update 300 | 6.66 GiB
+[PROGRESS] l2sp_1250 | one-epoch training 301/1250 optimizer update attempts | elapsed 1142s
+[HEARTBEAT] l2sp_1250 | one-epoch training 301/1250 optimizer update attempts | elapsed 1146s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 302/1250 optimizer update attempts | elapsed 1146s
+[PROGRESS] l2sp_1250 | one-epoch training 303/1250 optimizer update attempts | elapsed 1150s
+[PROGRESS] l2sp_1250 | one-epoch training 304/1250 optimizer update attempts | elapsed 1153s
+[PROGRESS] l2sp_1250 | one-epoch training 305/1250 optimizer update attempts | elapsed 1157s
+[HEARTBEAT] l2sp_1250 | one-epoch training 305/1250 optimizer update attempts | elapsed 1160s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 306/1250 optimizer update attempts | elapsed 1160s
+[PROGRESS] l2sp_1250 | one-epoch training 307/1250 optimizer update attempts | elapsed 1164s
+[PROGRESS] l2sp_1250 | one-epoch training 308/1250 optimizer update attempts | elapsed 1168s
+[PROGRESS] l2sp_1250 | one-epoch training 309/1250 optimizer update attempts | elapsed 1172s
+[PROGRESS] l2sp_1250 | one-epoch training 310/1250 optimizer update attempts | elapsed 1176s
+[HEARTBEAT] l2sp_1250 | one-epoch training 310/1250 optimizer update attempts | elapsed 1176s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 311/1250 optimizer update attempts | elapsed 1179s
+[PROGRESS] l2sp_1250 | one-epoch training 312/1250 optimizer update attempts | elapsed 1183s
+[CHECKPOINT] l2sp_1250 | one-epoch training 312/1250 optimizer update attempts | elapsed 1183s
+[HEARTBEAT] l2sp_1250 | one-epoch training 312/1250 optimizer update attempts | elapsed 1190s | activity age 8s (heartbeat is NOT proof of progress)
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/l2sp/checkpoints/update_0312.pt | update 312 | 6.66 GiB
+[PROGRESS] l2sp_1250 | one-epoch training 313/1250 optimizer update attempts | elapsed 1195s
+[PROGRESS] l2sp_1250 | one-epoch training 314/1250 optimizer update attempts | elapsed 1199s
+[PROGRESS] l2sp_1250 | one-epoch training 315/1250 optimizer update attempts | elapsed 1203s
+[HEARTBEAT] l2sp_1250 | one-epoch training 315/1250 optimizer update attempts | elapsed 1206s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 316/1250 optimizer update attempts | elapsed 1207s
+[PROGRESS] l2sp_1250 | one-epoch training 317/1250 optimizer update attempts | elapsed 1210s
+[PROGRESS] l2sp_1250 | one-epoch training 318/1250 optimizer update attempts | elapsed 1214s
+[PROGRESS] l2sp_1250 | one-epoch training 319/1250 optimizer update attempts | elapsed 1218s
+[HEARTBEAT] l2sp_1250 | one-epoch training 319/1250 optimizer update attempts | elapsed 1220s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 320/1250 optimizer update attempts | elapsed 1222s
+[PROGRESS] l2sp_1250 | one-epoch training 321/1250 optimizer update attempts | elapsed 1225s
+[PROGRESS] l2sp_1250 | one-epoch training 322/1250 optimizer update attempts | elapsed 1229s
+[PROGRESS] l2sp_1250 | one-epoch training 323/1250 optimizer update attempts | elapsed 1233s
+[HEARTBEAT] l2sp_1250 | one-epoch training 323/1250 optimizer update attempts | elapsed 1236s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 324/1250 optimizer update attempts | elapsed 1237s
+[PROGRESS] l2sp_1250 | one-epoch training 325/1250 optimizer update attempts | elapsed 1240s
+l2sp: 325/1250  SFT=0.2590  3.56s/update
+[PROGRESS] l2sp_1250 | one-epoch training 326/1250 optimizer update attempts | elapsed 1244s
+[PROGRESS] l2sp_1250 | one-epoch training 327/1250 optimizer update attempts | elapsed 1248s
+[HEARTBEAT] l2sp_1250 | one-epoch training 327/1250 optimizer update attempts | elapsed 1250s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 328/1250 optimizer update attempts | elapsed 1251s
+[PROGRESS] l2sp_1250 | one-epoch training 329/1250 optimizer update attempts | elapsed 1255s
+[PROGRESS] l2sp_1250 | one-epoch training 330/1250 optimizer update attempts | elapsed 1258s
+[PROGRESS] l2sp_1250 | one-epoch training 331/1250 optimizer update attempts | elapsed 1262s
+[HEARTBEAT] l2sp_1250 | one-epoch training 331/1250 optimizer update attempts | elapsed 1266s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 332/1250 optimizer update attempts | elapsed 1266s
+[PROGRESS] l2sp_1250 | one-epoch training 333/1250 optimizer update attempts | elapsed 1270s
+[PROGRESS] l2sp_1250 | one-epoch training 334/1250 optimizer update attempts | elapsed 1273s
+[PROGRESS] l2sp_1250 | one-epoch training 335/1250 optimizer update attempts | elapsed 1277s
+[PROGRESS] l2sp_1250 | one-epoch training 336/1250 optimizer update attempts | elapsed 1280s
+[HEARTBEAT] l2sp_1250 | one-epoch training 336/1250 optimizer update attempts | elapsed 1280s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 337/1250 optimizer update attempts | elapsed 1284s
+[PROGRESS] l2sp_1250 | one-epoch training 338/1250 optimizer update attempts | elapsed 1288s
+[PROGRESS] l2sp_1250 | one-epoch training 339/1250 optimizer update attempts | elapsed 1292s
+[PROGRESS] l2sp_1250 | one-epoch training 340/1250 optimizer update attempts | elapsed 1295s
+[HEARTBEAT] l2sp_1250 | one-epoch training 340/1250 optimizer update attempts | elapsed 1296s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 341/1250 optimizer update attempts | elapsed 1299s
+[PROGRESS] l2sp_1250 | one-epoch training 342/1250 optimizer update attempts | elapsed 1303s
+[PROGRESS] l2sp_1250 | one-epoch training 343/1250 optimizer update attempts | elapsed 1307s
+[PROGRESS] l2sp_1250 | one-epoch training 344/1250 optimizer update attempts | elapsed 1310s
+[HEARTBEAT] l2sp_1250 | one-epoch training 344/1250 optimizer update attempts | elapsed 1310s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 345/1250 optimizer update attempts | elapsed 1314s
+[PROGRESS] l2sp_1250 | one-epoch training 346/1250 optimizer update attempts | elapsed 1318s
+[PROGRESS] l2sp_1250 | one-epoch training 347/1250 optimizer update attempts | elapsed 1321s
+[PROGRESS] l2sp_1250 | one-epoch training 348/1250 optimizer update attempts | elapsed 1325s
+[HEARTBEAT] l2sp_1250 | one-epoch training 348/1250 optimizer update attempts | elapsed 1326s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 349/1250 optimizer update attempts | elapsed 1329s
+[PROGRESS] l2sp_1250 | one-epoch training 350/1250 optimizer update attempts | elapsed 1332s
+l2sp: 350/1250  SFT=0.2343  3.86s/update
+[PROGRESS] l2sp_1250 | one-epoch training 351/1250 optimizer update attempts | elapsed 1336s
+[PROGRESS] l2sp_1250 | one-epoch training 352/1250 optimizer update attempts | elapsed 1340s
+[HEARTBEAT] l2sp_1250 | one-epoch training 352/1250 optimizer update attempts | elapsed 1340s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 353/1250 optimizer update attempts | elapsed 1344s
+[PROGRESS] l2sp_1250 | one-epoch training 354/1250 optimizer update attempts | elapsed 1347s
+[PROGRESS] l2sp_1250 | one-epoch training 355/1250 optimizer update attempts | elapsed 1351s
+[PROGRESS] l2sp_1250 | one-epoch training 356/1250 optimizer update attempts | elapsed 1355s
+[HEARTBEAT] l2sp_1250 | one-epoch training 356/1250 optimizer update attempts | elapsed 1356s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 357/1250 optimizer update attempts | elapsed 1358s
+[PROGRESS] l2sp_1250 | one-epoch training 358/1250 optimizer update attempts | elapsed 1362s
+[PROGRESS] l2sp_1250 | one-epoch training 359/1250 optimizer update attempts | elapsed 1366s
+[PROGRESS] l2sp_1250 | one-epoch training 360/1250 optimizer update attempts | elapsed 1370s
+[HEARTBEAT] l2sp_1250 | one-epoch training 360/1250 optimizer update attempts | elapsed 1370s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 361/1250 optimizer update attempts | elapsed 1373s
+[PROGRESS] l2sp_1250 | one-epoch training 362/1250 optimizer update attempts | elapsed 1377s
+[PROGRESS] l2sp_1250 | one-epoch training 363/1250 optimizer update attempts | elapsed 1380s
+[PROGRESS] l2sp_1250 | one-epoch training 364/1250 optimizer update attempts | elapsed 1384s
+[HEARTBEAT] l2sp_1250 | one-epoch training 364/1250 optimizer update attempts | elapsed 1386s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 365/1250 optimizer update attempts | elapsed 1388s
+[PROGRESS] l2sp_1250 | one-epoch training 366/1250 optimizer update attempts | elapsed 1392s
+[PROGRESS] l2sp_1250 | one-epoch training 367/1250 optimizer update attempts | elapsed 1395s
+[PROGRESS] l2sp_1250 | one-epoch training 368/1250 optimizer update attempts | elapsed 1399s
+[HEARTBEAT] l2sp_1250 | one-epoch training 368/1250 optimizer update attempts | elapsed 1400s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 369/1250 optimizer update attempts | elapsed 1403s
+[PROGRESS] l2sp_1250 | one-epoch training 370/1250 optimizer update attempts | elapsed 1406s
+[PROGRESS] l2sp_1250 | one-epoch training 371/1250 optimizer update attempts | elapsed 1410s
+[PROGRESS] l2sp_1250 | one-epoch training 372/1250 optimizer update attempts | elapsed 1414s
+[HEARTBEAT] l2sp_1250 | one-epoch training 372/1250 optimizer update attempts | elapsed 1416s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 373/1250 optimizer update attempts | elapsed 1417s
+[PROGRESS] l2sp_1250 | one-epoch training 374/1250 optimizer update attempts | elapsed 1421s
+[PROGRESS] l2sp_1250 | one-epoch training 375/1250 optimizer update attempts | elapsed 1425s
+l2sp: 375/1250  SFT=0.2047  3.78s/update
+[PROGRESS] l2sp_1250 | one-epoch training 376/1250 optimizer update attempts | elapsed 1428s
+[HEARTBEAT] l2sp_1250 | one-epoch training 376/1250 optimizer update attempts | elapsed 1431s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 377/1250 optimizer update attempts | elapsed 1432s
+[PROGRESS] l2sp_1250 | one-epoch training 378/1250 optimizer update attempts | elapsed 1436s
+[PROGRESS] l2sp_1250 | one-epoch training 379/1250 optimizer update attempts | elapsed 1439s
+[PROGRESS] l2sp_1250 | one-epoch training 380/1250 optimizer update attempts | elapsed 1443s
+[HEARTBEAT] l2sp_1250 | one-epoch training 380/1250 optimizer update attempts | elapsed 1446s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 381/1250 optimizer update attempts | elapsed 1447s
+[PROGRESS] l2sp_1250 | one-epoch training 382/1250 optimizer update attempts | elapsed 1450s
+[PROGRESS] l2sp_1250 | one-epoch training 383/1250 optimizer update attempts | elapsed 1454s
+[PROGRESS] l2sp_1250 | one-epoch training 384/1250 optimizer update attempts | elapsed 1457s
+[HEARTBEAT] l2sp_1250 | one-epoch training 384/1250 optimizer update attempts | elapsed 1461s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 385/1250 optimizer update attempts | elapsed 1461s
+[PROGRESS] l2sp_1250 | one-epoch training 386/1250 optimizer update attempts | elapsed 1465s
+[PROGRESS] l2sp_1250 | one-epoch training 387/1250 optimizer update attempts | elapsed 1468s
+[PROGRESS] l2sp_1250 | one-epoch training 388/1250 optimizer update attempts | elapsed 1472s
+[PROGRESS] l2sp_1250 | one-epoch training 389/1250 optimizer update attempts | elapsed 1475s
+[HEARTBEAT] l2sp_1250 | one-epoch training 389/1250 optimizer update attempts | elapsed 1476s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 390/1250 optimizer update attempts | elapsed 1479s
+[PROGRESS] l2sp_1250 | one-epoch training 391/1250 optimizer update attempts | elapsed 1483s
+[PROGRESS] l2sp_1250 | one-epoch training 392/1250 optimizer update attempts | elapsed 1486s
+[PROGRESS] l2sp_1250 | one-epoch training 393/1250 optimizer update attempts | elapsed 1490s
+[HEARTBEAT] l2sp_1250 | one-epoch training 393/1250 optimizer update attempts | elapsed 1491s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 394/1250 optimizer update attempts | elapsed 1494s
+[PROGRESS] l2sp_1250 | one-epoch training 395/1250 optimizer update attempts | elapsed 1497s
+[PROGRESS] l2sp_1250 | one-epoch training 396/1250 optimizer update attempts | elapsed 1501s
+[PROGRESS] l2sp_1250 | one-epoch training 397/1250 optimizer update attempts | elapsed 1504s
+[HEARTBEAT] l2sp_1250 | one-epoch training 397/1250 optimizer update attempts | elapsed 1506s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 398/1250 optimizer update attempts | elapsed 1508s
+[PROGRESS] l2sp_1250 | one-epoch training 399/1250 optimizer update attempts | elapsed 1512s
+[PROGRESS] l2sp_1250 | one-epoch training 400/1250 optimizer update attempts | elapsed 1515s
+l2sp: 400/1250  SFT=0.2138  3.73s/update
+[CHECKPOINT] l2sp_1250 | one-epoch training 400/1250 optimizer update attempts | elapsed 1515s
+[HEARTBEAT] l2sp_1250 | one-epoch training 400/1250 optimizer update attempts | elapsed 1521s | activity age 5s (heartbeat is NOT proof of progress)
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/l2sp/checkpoints/rolling_update_0400.pt | update 400 | 6.66 GiB
+[PROGRESS] l2sp_1250 | one-epoch training 401/1250 optimizer update attempts | elapsed 1528s
+[PROGRESS] l2sp_1250 | one-epoch training 402/1250 optimizer update attempts | elapsed 1532s
+[PROGRESS] l2sp_1250 | one-epoch training 403/1250 optimizer update attempts | elapsed 1535s
+[HEARTBEAT] l2sp_1250 | one-epoch training 403/1250 optimizer update attempts | elapsed 1536s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 404/1250 optimizer update attempts | elapsed 1539s
+[PROGRESS] l2sp_1250 | one-epoch training 405/1250 optimizer update attempts | elapsed 1542s
+[PROGRESS] l2sp_1250 | one-epoch training 406/1250 optimizer update attempts | elapsed 1546s
+[PROGRESS] l2sp_1250 | one-epoch training 407/1250 optimizer update attempts | elapsed 1550s
+[HEARTBEAT] l2sp_1250 | one-epoch training 407/1250 optimizer update attempts | elapsed 1551s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 408/1250 optimizer update attempts | elapsed 1553s
+[PROGRESS] l2sp_1250 | one-epoch training 409/1250 optimizer update attempts | elapsed 1557s
+[PROGRESS] l2sp_1250 | one-epoch training 410/1250 optimizer update attempts | elapsed 1561s
+[PROGRESS] l2sp_1250 | one-epoch training 411/1250 optimizer update attempts | elapsed 1564s
+[HEARTBEAT] l2sp_1250 | one-epoch training 411/1250 optimizer update attempts | elapsed 1566s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 412/1250 optimizer update attempts | elapsed 1568s
+[PROGRESS] l2sp_1250 | one-epoch training 413/1250 optimizer update attempts | elapsed 1572s
+[PROGRESS] l2sp_1250 | one-epoch training 414/1250 optimizer update attempts | elapsed 1575s
+[PROGRESS] l2sp_1250 | one-epoch training 415/1250 optimizer update attempts | elapsed 1579s
+[HEARTBEAT] l2sp_1250 | one-epoch training 415/1250 optimizer update attempts | elapsed 1581s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 416/1250 optimizer update attempts | elapsed 1583s
+[PROGRESS] l2sp_1250 | one-epoch training 417/1250 optimizer update attempts | elapsed 1586s
+[PROGRESS] l2sp_1250 | one-epoch training 418/1250 optimizer update attempts | elapsed 1590s
+[PROGRESS] l2sp_1250 | one-epoch training 419/1250 optimizer update attempts | elapsed 1594s
+[HEARTBEAT] l2sp_1250 | one-epoch training 419/1250 optimizer update attempts | elapsed 1596s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 420/1250 optimizer update attempts | elapsed 1598s
+[PROGRESS] l2sp_1250 | one-epoch training 421/1250 optimizer update attempts | elapsed 1601s
+[PROGRESS] l2sp_1250 | one-epoch training 422/1250 optimizer update attempts | elapsed 1605s
+[PROGRESS] l2sp_1250 | one-epoch training 423/1250 optimizer update attempts | elapsed 1609s
+[HEARTBEAT] l2sp_1250 | one-epoch training 423/1250 optimizer update attempts | elapsed 1611s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 424/1250 optimizer update attempts | elapsed 1612s
+[PROGRESS] l2sp_1250 | one-epoch training 425/1250 optimizer update attempts | elapsed 1616s
+l2sp: 425/1250  SFT=0.2388  3.81s/update
+[PROGRESS] l2sp_1250 | one-epoch training 426/1250 optimizer update attempts | elapsed 1620s
+[PROGRESS] l2sp_1250 | one-epoch training 427/1250 optimizer update attempts | elapsed 1623s
+[HEARTBEAT] l2sp_1250 | one-epoch training 427/1250 optimizer update attempts | elapsed 1626s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 428/1250 optimizer update attempts | elapsed 1627s
+[PROGRESS] l2sp_1250 | one-epoch training 429/1250 optimizer update attempts | elapsed 1631s
+[PROGRESS] l2sp_1250 | one-epoch training 430/1250 optimizer update attempts | elapsed 1634s
+[PROGRESS] l2sp_1250 | one-epoch training 431/1250 optimizer update attempts | elapsed 1638s
+[HEARTBEAT] l2sp_1250 | one-epoch training 431/1250 optimizer update attempts | elapsed 1641s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 432/1250 optimizer update attempts | elapsed 1642s
+[PROGRESS] l2sp_1250 | one-epoch training 433/1250 optimizer update attempts | elapsed 1646s
+[PROGRESS] l2sp_1250 | one-epoch training 434/1250 optimizer update attempts | elapsed 1650s
+[PROGRESS] l2sp_1250 | one-epoch training 435/1250 optimizer update attempts | elapsed 1653s
+[HEARTBEAT] l2sp_1250 | one-epoch training 435/1250 optimizer update attempts | elapsed 1656s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 436/1250 optimizer update attempts | elapsed 1657s
+[PROGRESS] l2sp_1250 | one-epoch training 437/1250 optimizer update attempts | elapsed 1660s
+[PROGRESS] l2sp_1250 | one-epoch training 438/1250 optimizer update attempts | elapsed 1664s
+[PROGRESS] l2sp_1250 | one-epoch training 439/1250 optimizer update attempts | elapsed 1668s
+[HEARTBEAT] l2sp_1250 | one-epoch training 439/1250 optimizer update attempts | elapsed 1671s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 440/1250 optimizer update attempts | elapsed 1672s
+[PROGRESS] l2sp_1250 | one-epoch training 441/1250 optimizer update attempts | elapsed 1675s
+[PROGRESS] l2sp_1250 | one-epoch training 442/1250 optimizer update attempts | elapsed 1679s
+[PROGRESS] l2sp_1250 | one-epoch training 443/1250 optimizer update attempts | elapsed 1683s
+[HEARTBEAT] l2sp_1250 | one-epoch training 443/1250 optimizer update attempts | elapsed 1686s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 444/1250 optimizer update attempts | elapsed 1687s
+[PROGRESS] l2sp_1250 | one-epoch training 445/1250 optimizer update attempts | elapsed 1690s
+[PROGRESS] l2sp_1250 | one-epoch training 446/1250 optimizer update attempts | elapsed 1694s
+[PROGRESS] l2sp_1250 | one-epoch training 447/1250 optimizer update attempts | elapsed 1698s
+[HEARTBEAT] l2sp_1250 | one-epoch training 447/1250 optimizer update attempts | elapsed 1701s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 448/1250 optimizer update attempts | elapsed 1701s
+[PROGRESS] l2sp_1250 | one-epoch training 449/1250 optimizer update attempts | elapsed 1705s
+[PROGRESS] l2sp_1250 | one-epoch training 450/1250 optimizer update attempts | elapsed 1709s
+l2sp: 450/1250  SFT=0.2298  3.57s/update
+[PROGRESS] l2sp_1250 | one-epoch training 451/1250 optimizer update attempts | elapsed 1713s
+[HEARTBEAT] l2sp_1250 | one-epoch training 451/1250 optimizer update attempts | elapsed 1716s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 452/1250 optimizer update attempts | elapsed 1716s
+[PROGRESS] l2sp_1250 | one-epoch training 453/1250 optimizer update attempts | elapsed 1720s
+[PROGRESS] l2sp_1250 | one-epoch training 454/1250 optimizer update attempts | elapsed 1724s
+[PROGRESS] l2sp_1250 | one-epoch training 455/1250 optimizer update attempts | elapsed 1728s
+[HEARTBEAT] l2sp_1250 | one-epoch training 455/1250 optimizer update attempts | elapsed 1731s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 456/1250 optimizer update attempts | elapsed 1731s
+[PROGRESS] l2sp_1250 | one-epoch training 457/1250 optimizer update attempts | elapsed 1735s
+[PROGRESS] l2sp_1250 | one-epoch training 458/1250 optimizer update attempts | elapsed 1739s
+[PROGRESS] l2sp_1250 | one-epoch training 459/1250 optimizer update attempts | elapsed 1742s
+[HEARTBEAT] l2sp_1250 | one-epoch training 459/1250 optimizer update attempts | elapsed 1746s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 460/1250 optimizer update attempts | elapsed 1746s
+[PROGRESS] l2sp_1250 | one-epoch training 461/1250 optimizer update attempts | elapsed 1750s
+[PROGRESS] l2sp_1250 | one-epoch training 462/1250 optimizer update attempts | elapsed 1753s
+[PROGRESS] l2sp_1250 | one-epoch training 463/1250 optimizer update attempts | elapsed 1757s
+[PROGRESS] l2sp_1250 | one-epoch training 464/1250 optimizer update attempts | elapsed 1760s
+[HEARTBEAT] l2sp_1250 | one-epoch training 464/1250 optimizer update attempts | elapsed 1761s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 465/1250 optimizer update attempts | elapsed 1764s
+[PROGRESS] l2sp_1250 | one-epoch training 466/1250 optimizer update attempts | elapsed 1768s
+[PROGRESS] l2sp_1250 | one-epoch training 467/1250 optimizer update attempts | elapsed 1771s
+[PROGRESS] l2sp_1250 | one-epoch training 468/1250 optimizer update attempts | elapsed 1775s
+[HEARTBEAT] l2sp_1250 | one-epoch training 468/1250 optimizer update attempts | elapsed 1776s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 469/1250 optimizer update attempts | elapsed 1779s
+[PROGRESS] l2sp_1250 | one-epoch training 470/1250 optimizer update attempts | elapsed 1782s
+[PROGRESS] l2sp_1250 | one-epoch training 471/1250 optimizer update attempts | elapsed 1786s
+[PROGRESS] l2sp_1250 | one-epoch training 472/1250 optimizer update attempts | elapsed 1790s
+[HEARTBEAT] l2sp_1250 | one-epoch training 472/1250 optimizer update attempts | elapsed 1791s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 473/1250 optimizer update attempts | elapsed 1793s
+[PROGRESS] l2sp_1250 | one-epoch training 474/1250 optimizer update attempts | elapsed 1797s
+[PROGRESS] l2sp_1250 | one-epoch training 475/1250 optimizer update attempts | elapsed 1801s
+l2sp: 475/1250  SFT=0.1785  3.54s/update
+[PROGRESS] l2sp_1250 | one-epoch training 476/1250 optimizer update attempts | elapsed 1805s
+[HEARTBEAT] l2sp_1250 | one-epoch training 476/1250 optimizer update attempts | elapsed 1806s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 477/1250 optimizer update attempts | elapsed 1808s
+[PROGRESS] l2sp_1250 | one-epoch training 478/1250 optimizer update attempts | elapsed 1812s
+[PROGRESS] l2sp_1250 | one-epoch training 479/1250 optimizer update attempts | elapsed 1816s
+[PROGRESS] l2sp_1250 | one-epoch training 480/1250 optimizer update attempts | elapsed 1819s
+[HEARTBEAT] l2sp_1250 | one-epoch training 480/1250 optimizer update attempts | elapsed 1821s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 481/1250 optimizer update attempts | elapsed 1823s
+[PROGRESS] l2sp_1250 | one-epoch training 482/1250 optimizer update attempts | elapsed 1827s
+[PROGRESS] l2sp_1250 | one-epoch training 483/1250 optimizer update attempts | elapsed 1830s
+[PROGRESS] l2sp_1250 | one-epoch training 484/1250 optimizer update attempts | elapsed 1834s
+[HEARTBEAT] l2sp_1250 | one-epoch training 484/1250 optimizer update attempts | elapsed 1836s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 485/1250 optimizer update attempts | elapsed 1838s
+[PROGRESS] l2sp_1250 | one-epoch training 486/1250 optimizer update attempts | elapsed 1842s
+[PROGRESS] l2sp_1250 | one-epoch training 487/1250 optimizer update attempts | elapsed 1845s
+[PROGRESS] l2sp_1250 | one-epoch training 488/1250 optimizer update attempts | elapsed 1849s
+[HEARTBEAT] l2sp_1250 | one-epoch training 488/1250 optimizer update attempts | elapsed 1851s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 489/1250 optimizer update attempts | elapsed 1852s
+[PROGRESS] l2sp_1250 | one-epoch training 490/1250 optimizer update attempts | elapsed 1856s
+[PROGRESS] l2sp_1250 | one-epoch training 491/1250 optimizer update attempts | elapsed 1860s
+[PROGRESS] l2sp_1250 | one-epoch training 492/1250 optimizer update attempts | elapsed 1863s
+[HEARTBEAT] l2sp_1250 | one-epoch training 492/1250 optimizer update attempts | elapsed 1866s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 493/1250 optimizer update attempts | elapsed 1867s
+[PROGRESS] l2sp_1250 | one-epoch training 494/1250 optimizer update attempts | elapsed 1870s
+[PROGRESS] l2sp_1250 | one-epoch training 495/1250 optimizer update attempts | elapsed 1874s
+[PROGRESS] l2sp_1250 | one-epoch training 496/1250 optimizer update attempts | elapsed 1878s
+[HEARTBEAT] l2sp_1250 | one-epoch training 496/1250 optimizer update attempts | elapsed 1881s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 497/1250 optimizer update attempts | elapsed 1881s
+[PROGRESS] l2sp_1250 | one-epoch training 498/1250 optimizer update attempts | elapsed 1885s
+[PROGRESS] l2sp_1250 | one-epoch training 499/1250 optimizer update attempts | elapsed 1888s
+[PROGRESS] l2sp_1250 | one-epoch training 500/1250 optimizer update attempts | elapsed 1892s
+l2sp: 500/1250  SFT=0.2101  3.49s/update
+[CHECKPOINT] l2sp_1250 | one-epoch training 500/1250 optimizer update attempts | elapsed 1892s
+[HEARTBEAT] l2sp_1250 | one-epoch training 500/1250 optimizer update attempts | elapsed 1896s | activity age 4s (heartbeat is NOT proof of progress)
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/l2sp/checkpoints/rolling_update_0500.pt | update 500 | 6.66 GiB
+[PROGRESS] l2sp_1250 | one-epoch training 501/1250 optimizer update attempts | elapsed 1905s
+[PROGRESS] l2sp_1250 | one-epoch training 502/1250 optimizer update attempts | elapsed 1908s
+[HEARTBEAT] l2sp_1250 | one-epoch training 502/1250 optimizer update attempts | elapsed 1911s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 503/1250 optimizer update attempts | elapsed 1912s
+[PROGRESS] l2sp_1250 | one-epoch training 504/1250 optimizer update attempts | elapsed 1916s
+[PROGRESS] l2sp_1250 | one-epoch training 505/1250 optimizer update attempts | elapsed 1919s
+[PROGRESS] l2sp_1250 | one-epoch training 506/1250 optimizer update attempts | elapsed 1923s
+[HEARTBEAT] l2sp_1250 | one-epoch training 506/1250 optimizer update attempts | elapsed 1926s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 507/1250 optimizer update attempts | elapsed 1927s
+[PROGRESS] l2sp_1250 | one-epoch training 508/1250 optimizer update attempts | elapsed 1930s
+[PROGRESS] l2sp_1250 | one-epoch training 509/1250 optimizer update attempts | elapsed 1934s
+[PROGRESS] l2sp_1250 | one-epoch training 510/1250 optimizer update attempts | elapsed 1938s
+[HEARTBEAT] l2sp_1250 | one-epoch training 510/1250 optimizer update attempts | elapsed 1941s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 511/1250 optimizer update attempts | elapsed 1941s
+[PROGRESS] l2sp_1250 | one-epoch training 512/1250 optimizer update attempts | elapsed 1945s
+[PROGRESS] l2sp_1250 | one-epoch training 513/1250 optimizer update attempts | elapsed 1948s
+[PROGRESS] l2sp_1250 | one-epoch training 514/1250 optimizer update attempts | elapsed 1952s
+[PROGRESS] l2sp_1250 | one-epoch training 515/1250 optimizer update attempts | elapsed 1956s
+[HEARTBEAT] l2sp_1250 | one-epoch training 515/1250 optimizer update attempts | elapsed 1956s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 516/1250 optimizer update attempts | elapsed 1960s
+[PROGRESS] l2sp_1250 | one-epoch training 517/1250 optimizer update attempts | elapsed 1963s
+[PROGRESS] l2sp_1250 | one-epoch training 518/1250 optimizer update attempts | elapsed 1967s
+[PROGRESS] l2sp_1250 | one-epoch training 519/1250 optimizer update attempts | elapsed 1970s
+[HEARTBEAT] l2sp_1250 | one-epoch training 519/1250 optimizer update attempts | elapsed 1971s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 520/1250 optimizer update attempts | elapsed 1974s
+[PROGRESS] l2sp_1250 | one-epoch training 521/1250 optimizer update attempts | elapsed 1978s
+[PROGRESS] l2sp_1250 | one-epoch training 522/1250 optimizer update attempts | elapsed 1981s
+[PROGRESS] l2sp_1250 | one-epoch training 523/1250 optimizer update attempts | elapsed 1985s
+[HEARTBEAT] l2sp_1250 | one-epoch training 523/1250 optimizer update attempts | elapsed 1986s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 524/1250 optimizer update attempts | elapsed 1989s
+[PROGRESS] l2sp_1250 | one-epoch training 525/1250 optimizer update attempts | elapsed 1992s
+l2sp: 525/1250  SFT=0.2122  3.50s/update
+[PROGRESS] l2sp_1250 | one-epoch training 526/1250 optimizer update attempts | elapsed 1996s
+[PROGRESS] l2sp_1250 | one-epoch training 527/1250 optimizer update attempts | elapsed 2000s
+[HEARTBEAT] l2sp_1250 | one-epoch training 527/1250 optimizer update attempts | elapsed 2001s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 528/1250 optimizer update attempts | elapsed 2003s
+[PROGRESS] l2sp_1250 | one-epoch training 529/1250 optimizer update attempts | elapsed 2007s
+[PROGRESS] l2sp_1250 | one-epoch training 530/1250 optimizer update attempts | elapsed 2010s
+[PROGRESS] l2sp_1250 | one-epoch training 531/1250 optimizer update attempts | elapsed 2014s
+[HEARTBEAT] l2sp_1250 | one-epoch training 531/1250 optimizer update attempts | elapsed 2016s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 532/1250 optimizer update attempts | elapsed 2018s
+[PROGRESS] l2sp_1250 | one-epoch training 533/1250 optimizer update attempts | elapsed 2022s
+[PROGRESS] l2sp_1250 | one-epoch training 534/1250 optimizer update attempts | elapsed 2025s
+[PROGRESS] l2sp_1250 | one-epoch training 535/1250 optimizer update attempts | elapsed 2029s
+[HEARTBEAT] l2sp_1250 | one-epoch training 535/1250 optimizer update attempts | elapsed 2031s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 536/1250 optimizer update attempts | elapsed 2032s
+[PROGRESS] l2sp_1250 | one-epoch training 537/1250 optimizer update attempts | elapsed 2036s
+[PROGRESS] l2sp_1250 | one-epoch training 538/1250 optimizer update attempts | elapsed 2040s
+[PROGRESS] l2sp_1250 | one-epoch training 539/1250 optimizer update attempts | elapsed 2044s
+[HEARTBEAT] l2sp_1250 | one-epoch training 539/1250 optimizer update attempts | elapsed 2046s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 540/1250 optimizer update attempts | elapsed 2047s
+[PROGRESS] l2sp_1250 | one-epoch training 541/1250 optimizer update attempts | elapsed 2051s
+[PROGRESS] l2sp_1250 | one-epoch training 542/1250 optimizer update attempts | elapsed 2054s
+[PROGRESS] l2sp_1250 | one-epoch training 543/1250 optimizer update attempts | elapsed 2058s
+[HEARTBEAT] l2sp_1250 | one-epoch training 543/1250 optimizer update attempts | elapsed 2061s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 544/1250 optimizer update attempts | elapsed 2062s
+[PROGRESS] l2sp_1250 | one-epoch training 545/1250 optimizer update attempts | elapsed 2066s
+[PROGRESS] l2sp_1250 | one-epoch training 546/1250 optimizer update attempts | elapsed 2069s
+[PROGRESS] l2sp_1250 | one-epoch training 547/1250 optimizer update attempts | elapsed 2073s
+[HEARTBEAT] l2sp_1250 | one-epoch training 547/1250 optimizer update attempts | elapsed 2076s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 548/1250 optimizer update attempts | elapsed 2076s
+[PROGRESS] l2sp_1250 | one-epoch training 549/1250 optimizer update attempts | elapsed 2080s
+[PROGRESS] l2sp_1250 | one-epoch training 550/1250 optimizer update attempts | elapsed 2084s
+l2sp: 550/1250  SFT=0.2099  3.86s/update
+[PROGRESS] l2sp_1250 | one-epoch training 551/1250 optimizer update attempts | elapsed 2087s
+[HEARTBEAT] l2sp_1250 | one-epoch training 551/1250 optimizer update attempts | elapsed 2091s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 552/1250 optimizer update attempts | elapsed 2091s
+[PROGRESS] l2sp_1250 | one-epoch training 553/1250 optimizer update attempts | elapsed 2095s
+[PROGRESS] l2sp_1250 | one-epoch training 554/1250 optimizer update attempts | elapsed 2099s
+[PROGRESS] l2sp_1250 | one-epoch training 555/1250 optimizer update attempts | elapsed 2102s
+[HEARTBEAT] l2sp_1250 | one-epoch training 555/1250 optimizer update attempts | elapsed 2106s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 556/1250 optimizer update attempts | elapsed 2106s
+[PROGRESS] l2sp_1250 | one-epoch training 557/1250 optimizer update attempts | elapsed 2110s
+[PROGRESS] l2sp_1250 | one-epoch training 558/1250 optimizer update attempts | elapsed 2113s
+[PROGRESS] l2sp_1250 | one-epoch training 559/1250 optimizer update attempts | elapsed 2117s
+[PROGRESS] l2sp_1250 | one-epoch training 560/1250 optimizer update attempts | elapsed 2121s
+[HEARTBEAT] l2sp_1250 | one-epoch training 560/1250 optimizer update attempts | elapsed 2121s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 561/1250 optimizer update attempts | elapsed 2124s
+[PROGRESS] l2sp_1250 | one-epoch training 562/1250 optimizer update attempts | elapsed 2128s
+[PROGRESS] l2sp_1250 | one-epoch training 563/1250 optimizer update attempts | elapsed 2132s
+[PROGRESS] l2sp_1250 | one-epoch training 564/1250 optimizer update attempts | elapsed 2135s
+[HEARTBEAT] l2sp_1250 | one-epoch training 564/1250 optimizer update attempts | elapsed 2136s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 565/1250 optimizer update attempts | elapsed 2139s
+[PROGRESS] l2sp_1250 | one-epoch training 566/1250 optimizer update attempts | elapsed 2142s
+[PROGRESS] l2sp_1250 | one-epoch training 567/1250 optimizer update attempts | elapsed 2146s
+[PROGRESS] l2sp_1250 | one-epoch training 568/1250 optimizer update attempts | elapsed 2150s
+[HEARTBEAT] l2sp_1250 | one-epoch training 568/1250 optimizer update attempts | elapsed 2151s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 569/1250 optimizer update attempts | elapsed 2153s
+[PROGRESS] l2sp_1250 | one-epoch training 570/1250 optimizer update attempts | elapsed 2157s
+[PROGRESS] l2sp_1250 | one-epoch training 571/1250 optimizer update attempts | elapsed 2160s
+[PROGRESS] l2sp_1250 | one-epoch training 572/1250 optimizer update attempts | elapsed 2164s
+[HEARTBEAT] l2sp_1250 | one-epoch training 572/1250 optimizer update attempts | elapsed 2166s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 573/1250 optimizer update attempts | elapsed 2168s
+[PROGRESS] l2sp_1250 | one-epoch training 574/1250 optimizer update attempts | elapsed 2171s
+[PROGRESS] l2sp_1250 | one-epoch training 575/1250 optimizer update attempts | elapsed 2175s
+l2sp: 575/1250  SFT=0.2082  3.82s/update
+[PROGRESS] l2sp_1250 | one-epoch training 576/1250 optimizer update attempts | elapsed 2179s
+[HEARTBEAT] l2sp_1250 | one-epoch training 576/1250 optimizer update attempts | elapsed 2181s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 577/1250 optimizer update attempts | elapsed 2182s
+[PROGRESS] l2sp_1250 | one-epoch training 578/1250 optimizer update attempts | elapsed 2186s
+[PROGRESS] l2sp_1250 | one-epoch training 579/1250 optimizer update attempts | elapsed 2190s
+[PROGRESS] l2sp_1250 | one-epoch training 580/1250 optimizer update attempts | elapsed 2193s
+[HEARTBEAT] l2sp_1250 | one-epoch training 580/1250 optimizer update attempts | elapsed 2196s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 581/1250 optimizer update attempts | elapsed 2197s
+[PROGRESS] l2sp_1250 | one-epoch training 582/1250 optimizer update attempts | elapsed 2201s
+[PROGRESS] l2sp_1250 | one-epoch training 583/1250 optimizer update attempts | elapsed 2204s
+[PROGRESS] l2sp_1250 | one-epoch training 584/1250 optimizer update attempts | elapsed 2208s
+[HEARTBEAT] l2sp_1250 | one-epoch training 584/1250 optimizer update attempts | elapsed 2211s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 585/1250 optimizer update attempts | elapsed 2212s
+[PROGRESS] l2sp_1250 | one-epoch training 586/1250 optimizer update attempts | elapsed 2215s
+[PROGRESS] l2sp_1250 | one-epoch training 587/1250 optimizer update attempts | elapsed 2219s
+[PROGRESS] l2sp_1250 | one-epoch training 588/1250 optimizer update attempts | elapsed 2223s
+[HEARTBEAT] l2sp_1250 | one-epoch training 588/1250 optimizer update attempts | elapsed 2226s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 589/1250 optimizer update attempts | elapsed 2226s
+[PROGRESS] l2sp_1250 | one-epoch training 590/1250 optimizer update attempts | elapsed 2230s
+[PROGRESS] l2sp_1250 | one-epoch training 591/1250 optimizer update attempts | elapsed 2234s
+[PROGRESS] l2sp_1250 | one-epoch training 592/1250 optimizer update attempts | elapsed 2237s
+[PROGRESS] l2sp_1250 | one-epoch training 593/1250 optimizer update attempts | elapsed 2241s
+[HEARTBEAT] l2sp_1250 | one-epoch training 593/1250 optimizer update attempts | elapsed 2241s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 594/1250 optimizer update attempts | elapsed 2245s
+[PROGRESS] l2sp_1250 | one-epoch training 595/1250 optimizer update attempts | elapsed 2248s
+[PROGRESS] l2sp_1250 | one-epoch training 596/1250 optimizer update attempts | elapsed 2252s
+[PROGRESS] l2sp_1250 | one-epoch training 597/1250 optimizer update attempts | elapsed 2256s
+[HEARTBEAT] l2sp_1250 | one-epoch training 597/1250 optimizer update attempts | elapsed 2256s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 598/1250 optimizer update attempts | elapsed 2259s
+[PROGRESS] l2sp_1250 | one-epoch training 599/1250 optimizer update attempts | elapsed 2263s
+[PROGRESS] l2sp_1250 | one-epoch training 600/1250 optimizer update attempts | elapsed 2267s
+l2sp: 600/1250  SFT=0.1983  3.88s/update
+[CHECKPOINT] l2sp_1250 | one-epoch training 600/1250 optimizer update attempts | elapsed 2267s
+[HEARTBEAT] l2sp_1250 | one-epoch training 600/1250 optimizer update attempts | elapsed 2271s | activity age 4s (heartbeat is NOT proof of progress)
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/l2sp/checkpoints/rolling_update_0600.pt | update 600 | 6.66 GiB
+[PROGRESS] l2sp_1250 | one-epoch training 601/1250 optimizer update attempts | elapsed 2279s
+[PROGRESS] l2sp_1250 | one-epoch training 602/1250 optimizer update attempts | elapsed 2283s
+[HEARTBEAT] l2sp_1250 | one-epoch training 602/1250 optimizer update attempts | elapsed 2286s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 603/1250 optimizer update attempts | elapsed 2287s
+[PROGRESS] l2sp_1250 | one-epoch training 604/1250 optimizer update attempts | elapsed 2290s
+[PROGRESS] l2sp_1250 | one-epoch training 605/1250 optimizer update attempts | elapsed 2294s
+[PROGRESS] l2sp_1250 | one-epoch training 606/1250 optimizer update attempts | elapsed 2298s
+[HEARTBEAT] l2sp_1250 | one-epoch training 606/1250 optimizer update attempts | elapsed 2301s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 607/1250 optimizer update attempts | elapsed 2301s
+[PROGRESS] l2sp_1250 | one-epoch training 608/1250 optimizer update attempts | elapsed 2305s
+[PROGRESS] l2sp_1250 | one-epoch training 609/1250 optimizer update attempts | elapsed 2309s
+[PROGRESS] l2sp_1250 | one-epoch training 610/1250 optimizer update attempts | elapsed 2312s
+[HEARTBEAT] l2sp_1250 | one-epoch training 610/1250 optimizer update attempts | elapsed 2316s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 611/1250 optimizer update attempts | elapsed 2316s
+[PROGRESS] l2sp_1250 | one-epoch training 612/1250 optimizer update attempts | elapsed 2320s
+[PROGRESS] l2sp_1250 | one-epoch training 613/1250 optimizer update attempts | elapsed 2324s
+[PROGRESS] l2sp_1250 | one-epoch training 614/1250 optimizer update attempts | elapsed 2328s
+[HEARTBEAT] l2sp_1250 | one-epoch training 614/1250 optimizer update attempts | elapsed 2331s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 615/1250 optimizer update attempts | elapsed 2331s
+[PROGRESS] l2sp_1250 | one-epoch training 616/1250 optimizer update attempts | elapsed 2335s
+[PROGRESS] l2sp_1250 | one-epoch training 617/1250 optimizer update attempts | elapsed 2339s
+[PROGRESS] l2sp_1250 | one-epoch training 618/1250 optimizer update attempts | elapsed 2342s
+[PROGRESS] l2sp_1250 | one-epoch training 619/1250 optimizer update attempts | elapsed 2346s
+[HEARTBEAT] l2sp_1250 | one-epoch training 619/1250 optimizer update attempts | elapsed 2346s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 620/1250 optimizer update attempts | elapsed 2350s
+[PROGRESS] l2sp_1250 | one-epoch training 621/1250 optimizer update attempts | elapsed 2354s
+[PROGRESS] l2sp_1250 | one-epoch training 622/1250 optimizer update attempts | elapsed 2357s
+[HEARTBEAT] l2sp_1250 | one-epoch training 622/1250 optimizer update attempts | elapsed 2361s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 623/1250 optimizer update attempts | elapsed 2361s
+[PROGRESS] l2sp_1250 | one-epoch training 624/1250 optimizer update attempts | elapsed 2365s
+[PROGRESS] l2sp_1250 | one-epoch training 625/1250 optimizer update attempts | elapsed 2369s
+l2sp: 625/1250  SFT=0.2049  3.97s/update
+[CHECKPOINT] l2sp_1250 | one-epoch training 625/1250 optimizer update attempts | elapsed 2369s
+[HEARTBEAT] l2sp_1250 | one-epoch training 625/1250 optimizer update attempts | elapsed 2376s | activity age 7s (heartbeat is NOT proof of progress)
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/l2sp/checkpoints/update_0625.pt | update 625 | 6.66 GiB
+[PROGRESS] l2sp_1250 | one-epoch training 626/1250 optimizer update attempts | elapsed 2381s
+[PROGRESS] l2sp_1250 | one-epoch training 627/1250 optimizer update attempts | elapsed 2385s
+[PROGRESS] l2sp_1250 | one-epoch training 628/1250 optimizer update attempts | elapsed 2389s
+[HEARTBEAT] l2sp_1250 | one-epoch training 628/1250 optimizer update attempts | elapsed 2391s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 629/1250 optimizer update attempts | elapsed 2393s
+[PROGRESS] l2sp_1250 | one-epoch training 630/1250 optimizer update attempts | elapsed 2396s
+[PROGRESS] l2sp_1250 | one-epoch training 631/1250 optimizer update attempts | elapsed 2400s
+[PROGRESS] l2sp_1250 | one-epoch training 632/1250 optimizer update attempts | elapsed 2404s
+[HEARTBEAT] l2sp_1250 | one-epoch training 632/1250 optimizer update attempts | elapsed 2406s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 633/1250 optimizer update attempts | elapsed 2407s
+[PROGRESS] l2sp_1250 | one-epoch training 634/1250 optimizer update attempts | elapsed 2411s
+[PROGRESS] l2sp_1250 | one-epoch training 635/1250 optimizer update attempts | elapsed 2415s
+[PROGRESS] l2sp_1250 | one-epoch training 636/1250 optimizer update attempts | elapsed 2419s
+[HEARTBEAT] l2sp_1250 | one-epoch training 636/1250 optimizer update attempts | elapsed 2421s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 637/1250 optimizer update attempts | elapsed 2423s
+[PROGRESS] l2sp_1250 | one-epoch training 638/1250 optimizer update attempts | elapsed 2427s
+[PROGRESS] l2sp_1250 | one-epoch training 639/1250 optimizer update attempts | elapsed 2430s
+[PROGRESS] l2sp_1250 | one-epoch training 640/1250 optimizer update attempts | elapsed 2434s
+[HEARTBEAT] l2sp_1250 | one-epoch training 640/1250 optimizer update attempts | elapsed 2436s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 641/1250 optimizer update attempts | elapsed 2438s
+[PROGRESS] l2sp_1250 | one-epoch training 642/1250 optimizer update attempts | elapsed 2442s
+[PROGRESS] l2sp_1250 | one-epoch training 643/1250 optimizer update attempts | elapsed 2445s
+[PROGRESS] l2sp_1250 | one-epoch training 644/1250 optimizer update attempts | elapsed 2449s
+[HEARTBEAT] l2sp_1250 | one-epoch training 644/1250 optimizer update attempts | elapsed 2451s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 645/1250 optimizer update attempts | elapsed 2453s
+[PROGRESS] l2sp_1250 | one-epoch training 646/1250 optimizer update attempts | elapsed 2457s
+[PROGRESS] l2sp_1250 | one-epoch training 647/1250 optimizer update attempts | elapsed 2460s
+[PROGRESS] l2sp_1250 | one-epoch training 648/1250 optimizer update attempts | elapsed 2464s
+[HEARTBEAT] l2sp_1250 | one-epoch training 648/1250 optimizer update attempts | elapsed 2466s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 649/1250 optimizer update attempts | elapsed 2468s
+[PROGRESS] l2sp_1250 | one-epoch training 650/1250 optimizer update attempts | elapsed 2472s
+l2sp: 650/1250  SFT=0.1725  3.83s/update
+[PROGRESS] l2sp_1250 | one-epoch training 651/1250 optimizer update attempts | elapsed 2475s
+[PROGRESS] l2sp_1250 | one-epoch training 652/1250 optimizer update attempts | elapsed 2479s
+[HEARTBEAT] l2sp_1250 | one-epoch training 652/1250 optimizer update attempts | elapsed 2481s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 653/1250 optimizer update attempts | elapsed 2483s
+[PROGRESS] l2sp_1250 | one-epoch training 654/1250 optimizer update attempts | elapsed 2486s
+[PROGRESS] l2sp_1250 | one-epoch training 655/1250 optimizer update attempts | elapsed 2490s
+[PROGRESS] l2sp_1250 | one-epoch training 656/1250 optimizer update attempts | elapsed 2494s
+[HEARTBEAT] l2sp_1250 | one-epoch training 656/1250 optimizer update attempts | elapsed 2496s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 657/1250 optimizer update attempts | elapsed 2498s
+[PROGRESS] l2sp_1250 | one-epoch training 658/1250 optimizer update attempts | elapsed 2501s
+[PROGRESS] l2sp_1250 | one-epoch training 659/1250 optimizer update attempts | elapsed 2505s
+[PROGRESS] l2sp_1250 | one-epoch training 660/1250 optimizer update attempts | elapsed 2509s
+[HEARTBEAT] l2sp_1250 | one-epoch training 660/1250 optimizer update attempts | elapsed 2511s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 661/1250 optimizer update attempts | elapsed 2512s
+[PROGRESS] l2sp_1250 | one-epoch training 662/1250 optimizer update attempts | elapsed 2516s
+[PROGRESS] l2sp_1250 | one-epoch training 663/1250 optimizer update attempts | elapsed 2520s
+[PROGRESS] l2sp_1250 | one-epoch training 664/1250 optimizer update attempts | elapsed 2523s
+[HEARTBEAT] l2sp_1250 | one-epoch training 664/1250 optimizer update attempts | elapsed 2526s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 665/1250 optimizer update attempts | elapsed 2527s
+[PROGRESS] l2sp_1250 | one-epoch training 666/1250 optimizer update attempts | elapsed 2531s
+[PROGRESS] l2sp_1250 | one-epoch training 667/1250 optimizer update attempts | elapsed 2534s
+[PROGRESS] l2sp_1250 | one-epoch training 668/1250 optimizer update attempts | elapsed 2538s
+[HEARTBEAT] l2sp_1250 | one-epoch training 668/1250 optimizer update attempts | elapsed 2541s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 669/1250 optimizer update attempts | elapsed 2542s
+[PROGRESS] l2sp_1250 | one-epoch training 670/1250 optimizer update attempts | elapsed 2546s
+[PROGRESS] l2sp_1250 | one-epoch training 671/1250 optimizer update attempts | elapsed 2549s
+[PROGRESS] l2sp_1250 | one-epoch training 672/1250 optimizer update attempts | elapsed 2553s
+[HEARTBEAT] l2sp_1250 | one-epoch training 672/1250 optimizer update attempts | elapsed 2556s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 673/1250 optimizer update attempts | elapsed 2557s
+[PROGRESS] l2sp_1250 | one-epoch training 674/1250 optimizer update attempts | elapsed 2560s
+[PROGRESS] l2sp_1250 | one-epoch training 675/1250 optimizer update attempts | elapsed 2564s
+l2sp: 675/1250  SFT=0.2121  3.92s/update
+[PROGRESS] l2sp_1250 | one-epoch training 676/1250 optimizer update attempts | elapsed 2568s
+[HEARTBEAT] l2sp_1250 | one-epoch training 676/1250 optimizer update attempts | elapsed 2571s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 677/1250 optimizer update attempts | elapsed 2572s
+[PROGRESS] l2sp_1250 | one-epoch training 678/1250 optimizer update attempts | elapsed 2576s
+[PROGRESS] l2sp_1250 | one-epoch training 679/1250 optimizer update attempts | elapsed 2579s
+[PROGRESS] l2sp_1250 | one-epoch training 680/1250 optimizer update attempts | elapsed 2583s
+[HEARTBEAT] l2sp_1250 | one-epoch training 680/1250 optimizer update attempts | elapsed 2586s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 681/1250 optimizer update attempts | elapsed 2587s
+[PROGRESS] l2sp_1250 | one-epoch training 682/1250 optimizer update attempts | elapsed 2591s
+[PROGRESS] l2sp_1250 | one-epoch training 683/1250 optimizer update attempts | elapsed 2594s
+[PROGRESS] l2sp_1250 | one-epoch training 684/1250 optimizer update attempts | elapsed 2598s
+[HEARTBEAT] l2sp_1250 | one-epoch training 684/1250 optimizer update attempts | elapsed 2601s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 685/1250 optimizer update attempts | elapsed 2602s
+[PROGRESS] l2sp_1250 | one-epoch training 686/1250 optimizer update attempts | elapsed 2606s
+[PROGRESS] l2sp_1250 | one-epoch training 687/1250 optimizer update attempts | elapsed 2609s
+[PROGRESS] l2sp_1250 | one-epoch training 688/1250 optimizer update attempts | elapsed 2613s
+[HEARTBEAT] l2sp_1250 | one-epoch training 688/1250 optimizer update attempts | elapsed 2616s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 689/1250 optimizer update attempts | elapsed 2617s
+[PROGRESS] l2sp_1250 | one-epoch training 690/1250 optimizer update attempts | elapsed 2621s
+[PROGRESS] l2sp_1250 | one-epoch training 691/1250 optimizer update attempts | elapsed 2625s
+[PROGRESS] l2sp_1250 | one-epoch training 692/1250 optimizer update attempts | elapsed 2629s
+[HEARTBEAT] l2sp_1250 | one-epoch training 692/1250 optimizer update attempts | elapsed 2631s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 693/1250 optimizer update attempts | elapsed 2632s
+[PROGRESS] l2sp_1250 | one-epoch training 694/1250 optimizer update attempts | elapsed 2636s
+[PROGRESS] l2sp_1250 | one-epoch training 695/1250 optimizer update attempts | elapsed 2640s
+[PROGRESS] l2sp_1250 | one-epoch training 696/1250 optimizer update attempts | elapsed 2644s
+[HEARTBEAT] l2sp_1250 | one-epoch training 696/1250 optimizer update attempts | elapsed 2646s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 697/1250 optimizer update attempts | elapsed 2648s
+[PROGRESS] l2sp_1250 | one-epoch training 698/1250 optimizer update attempts | elapsed 2652s
+[PROGRESS] l2sp_1250 | one-epoch training 699/1250 optimizer update attempts | elapsed 2655s
+[PROGRESS] l2sp_1250 | one-epoch training 700/1250 optimizer update attempts | elapsed 2659s
+l2sp: 700/1250  SFT=0.2025  3.66s/update
+[CHECKPOINT] l2sp_1250 | one-epoch training 700/1250 optimizer update attempts | elapsed 2659s
+[HEARTBEAT] l2sp_1250 | one-epoch training 700/1250 optimizer update attempts | elapsed 2661s | activity age 2s (heartbeat is NOT proof of progress)
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/l2sp/checkpoints/rolling_update_0700.pt | update 700 | 6.66 GiB
+[PROGRESS] l2sp_1250 | one-epoch training 701/1250 optimizer update attempts | elapsed 2672s
+[PROGRESS] l2sp_1250 | one-epoch training 702/1250 optimizer update attempts | elapsed 2675s
+[HEARTBEAT] l2sp_1250 | one-epoch training 702/1250 optimizer update attempts | elapsed 2676s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 703/1250 optimizer update attempts | elapsed 2679s
+[PROGRESS] l2sp_1250 | one-epoch training 704/1250 optimizer update attempts | elapsed 2683s
+[PROGRESS] l2sp_1250 | one-epoch training 705/1250 optimizer update attempts | elapsed 2687s
+[PROGRESS] l2sp_1250 | one-epoch training 706/1250 optimizer update attempts | elapsed 2690s
+[HEARTBEAT] l2sp_1250 | one-epoch training 706/1250 optimizer update attempts | elapsed 2691s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 707/1250 optimizer update attempts | elapsed 2694s
+[PROGRESS] l2sp_1250 | one-epoch training 708/1250 optimizer update attempts | elapsed 2698s
+[PROGRESS] l2sp_1250 | one-epoch training 709/1250 optimizer update attempts | elapsed 2702s
+[PROGRESS] l2sp_1250 | one-epoch training 710/1250 optimizer update attempts | elapsed 2705s
+[HEARTBEAT] l2sp_1250 | one-epoch training 710/1250 optimizer update attempts | elapsed 2706s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 711/1250 optimizer update attempts | elapsed 2709s
+[PROGRESS] l2sp_1250 | one-epoch training 712/1250 optimizer update attempts | elapsed 2712s
+[PROGRESS] l2sp_1250 | one-epoch training 713/1250 optimizer update attempts | elapsed 2716s
+[PROGRESS] l2sp_1250 | one-epoch training 714/1250 optimizer update attempts | elapsed 2720s
+[HEARTBEAT] l2sp_1250 | one-epoch training 714/1250 optimizer update attempts | elapsed 2721s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 715/1250 optimizer update attempts | elapsed 2724s
+[PROGRESS] l2sp_1250 | one-epoch training 716/1250 optimizer update attempts | elapsed 2728s
+[PROGRESS] l2sp_1250 | one-epoch training 717/1250 optimizer update attempts | elapsed 2732s
+[PROGRESS] l2sp_1250 | one-epoch training 718/1250 optimizer update attempts | elapsed 2735s
+[HEARTBEAT] l2sp_1250 | one-epoch training 718/1250 optimizer update attempts | elapsed 2736s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 719/1250 optimizer update attempts | elapsed 2739s
+[PROGRESS] l2sp_1250 | one-epoch training 720/1250 optimizer update attempts | elapsed 2742s
+[PROGRESS] l2sp_1250 | one-epoch training 721/1250 optimizer update attempts | elapsed 2746s
+[PROGRESS] l2sp_1250 | one-epoch training 722/1250 optimizer update attempts | elapsed 2750s
+[HEARTBEAT] l2sp_1250 | one-epoch training 722/1250 optimizer update attempts | elapsed 2751s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 723/1250 optimizer update attempts | elapsed 2754s
+[PROGRESS] l2sp_1250 | one-epoch training 724/1250 optimizer update attempts | elapsed 2757s
+[PROGRESS] l2sp_1250 | one-epoch training 725/1250 optimizer update attempts | elapsed 2761s
+l2sp: 725/1250  SFT=0.1839  3.63s/update
+[PROGRESS] l2sp_1250 | one-epoch training 726/1250 optimizer update attempts | elapsed 2765s
+[HEARTBEAT] l2sp_1250 | one-epoch training 726/1250 optimizer update attempts | elapsed 2766s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 727/1250 optimizer update attempts | elapsed 2768s
+[PROGRESS] l2sp_1250 | one-epoch training 728/1250 optimizer update attempts | elapsed 2772s
+[PROGRESS] l2sp_1250 | one-epoch training 729/1250 optimizer update attempts | elapsed 2776s
+[PROGRESS] l2sp_1250 | one-epoch training 730/1250 optimizer update attempts | elapsed 2780s
+[HEARTBEAT] l2sp_1250 | one-epoch training 730/1250 optimizer update attempts | elapsed 2781s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 731/1250 optimizer update attempts | elapsed 2783s
+[PROGRESS] l2sp_1250 | one-epoch training 732/1250 optimizer update attempts | elapsed 2787s
+[PROGRESS] l2sp_1250 | one-epoch training 733/1250 optimizer update attempts | elapsed 2791s
+[PROGRESS] l2sp_1250 | one-epoch training 734/1250 optimizer update attempts | elapsed 2795s
+[HEARTBEAT] l2sp_1250 | one-epoch training 734/1250 optimizer update attempts | elapsed 2796s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 735/1250 optimizer update attempts | elapsed 2798s
+[PROGRESS] l2sp_1250 | one-epoch training 736/1250 optimizer update attempts | elapsed 2802s
+[PROGRESS] l2sp_1250 | one-epoch training 737/1250 optimizer update attempts | elapsed 2806s
+[PROGRESS] l2sp_1250 | one-epoch training 738/1250 optimizer update attempts | elapsed 2810s
+[HEARTBEAT] l2sp_1250 | one-epoch training 738/1250 optimizer update attempts | elapsed 2811s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 739/1250 optimizer update attempts | elapsed 2814s
+[PROGRESS] l2sp_1250 | one-epoch training 740/1250 optimizer update attempts | elapsed 2817s
+[PROGRESS] l2sp_1250 | one-epoch training 741/1250 optimizer update attempts | elapsed 2821s
+[PROGRESS] l2sp_1250 | one-epoch training 742/1250 optimizer update attempts | elapsed 2825s
+[HEARTBEAT] l2sp_1250 | one-epoch training 742/1250 optimizer update attempts | elapsed 2826s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 743/1250 optimizer update attempts | elapsed 2829s
+[PROGRESS] l2sp_1250 | one-epoch training 744/1250 optimizer update attempts | elapsed 2832s
+[PROGRESS] l2sp_1250 | one-epoch training 745/1250 optimizer update attempts | elapsed 2836s
+[PROGRESS] l2sp_1250 | one-epoch training 746/1250 optimizer update attempts | elapsed 2840s
+[HEARTBEAT] l2sp_1250 | one-epoch training 746/1250 optimizer update attempts | elapsed 2841s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 747/1250 optimizer update attempts | elapsed 2844s
+[PROGRESS] l2sp_1250 | one-epoch training 748/1250 optimizer update attempts | elapsed 2847s
+[PROGRESS] l2sp_1250 | one-epoch training 749/1250 optimizer update attempts | elapsed 2851s
+[PROGRESS] l2sp_1250 | one-epoch training 750/1250 optimizer update attempts | elapsed 2855s
+l2sp: 750/1250  SFT=0.1539  3.63s/update
+[HEARTBEAT] l2sp_1250 | one-epoch training 750/1250 optimizer update attempts | elapsed 2856s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 751/1250 optimizer update attempts | elapsed 2859s
+[PROGRESS] l2sp_1250 | one-epoch training 752/1250 optimizer update attempts | elapsed 2862s
+[PROGRESS] l2sp_1250 | one-epoch training 753/1250 optimizer update attempts | elapsed 2866s
+[PROGRESS] l2sp_1250 | one-epoch training 754/1250 optimizer update attempts | elapsed 2870s
+[HEARTBEAT] l2sp_1250 | one-epoch training 754/1250 optimizer update attempts | elapsed 2871s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 755/1250 optimizer update attempts | elapsed 2874s
+[PROGRESS] l2sp_1250 | one-epoch training 756/1250 optimizer update attempts | elapsed 2878s
+[PROGRESS] l2sp_1250 | one-epoch training 757/1250 optimizer update attempts | elapsed 2881s
+[PROGRESS] l2sp_1250 | one-epoch training 758/1250 optimizer update attempts | elapsed 2885s
+[HEARTBEAT] l2sp_1250 | one-epoch training 758/1250 optimizer update attempts | elapsed 2886s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 759/1250 optimizer update attempts | elapsed 2889s
+[PROGRESS] l2sp_1250 | one-epoch training 760/1250 optimizer update attempts | elapsed 2892s
+[PROGRESS] l2sp_1250 | one-epoch training 761/1250 optimizer update attempts | elapsed 2896s
+[PROGRESS] l2sp_1250 | one-epoch training 762/1250 optimizer update attempts | elapsed 2900s
+[HEARTBEAT] l2sp_1250 | one-epoch training 762/1250 optimizer update attempts | elapsed 2901s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 763/1250 optimizer update attempts | elapsed 2904s
+[PROGRESS] l2sp_1250 | one-epoch training 764/1250 optimizer update attempts | elapsed 2908s
+[PROGRESS] l2sp_1250 | one-epoch training 765/1250 optimizer update attempts | elapsed 2911s
+[PROGRESS] l2sp_1250 | one-epoch training 766/1250 optimizer update attempts | elapsed 2915s
+[HEARTBEAT] l2sp_1250 | one-epoch training 766/1250 optimizer update attempts | elapsed 2916s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 767/1250 optimizer update attempts | elapsed 2919s
+[PROGRESS] l2sp_1250 | one-epoch training 768/1250 optimizer update attempts | elapsed 2923s
+[PROGRESS] l2sp_1250 | one-epoch training 769/1250 optimizer update attempts | elapsed 2926s
+[PROGRESS] l2sp_1250 | one-epoch training 770/1250 optimizer update attempts | elapsed 2930s
+[HEARTBEAT] l2sp_1250 | one-epoch training 770/1250 optimizer update attempts | elapsed 2931s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 771/1250 optimizer update attempts | elapsed 2934s
+[PROGRESS] l2sp_1250 | one-epoch training 772/1250 optimizer update attempts | elapsed 2938s
+[PROGRESS] l2sp_1250 | one-epoch training 773/1250 optimizer update attempts | elapsed 2941s
+[PROGRESS] l2sp_1250 | one-epoch training 774/1250 optimizer update attempts | elapsed 2945s
+[HEARTBEAT] l2sp_1250 | one-epoch training 774/1250 optimizer update attempts | elapsed 2946s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 775/1250 optimizer update attempts | elapsed 2949s
+l2sp: 775/1250  SFT=0.1766  3.65s/update
+[PROGRESS] l2sp_1250 | one-epoch training 776/1250 optimizer update attempts | elapsed 2953s
+[PROGRESS] l2sp_1250 | one-epoch training 777/1250 optimizer update attempts | elapsed 2956s
+[PROGRESS] l2sp_1250 | one-epoch training 778/1250 optimizer update attempts | elapsed 2960s
+[HEARTBEAT] l2sp_1250 | one-epoch training 778/1250 optimizer update attempts | elapsed 2961s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 779/1250 optimizer update attempts | elapsed 2964s
+[PROGRESS] l2sp_1250 | one-epoch training 780/1250 optimizer update attempts | elapsed 2967s
+[PROGRESS] l2sp_1250 | one-epoch training 781/1250 optimizer update attempts | elapsed 2971s
+[PROGRESS] l2sp_1250 | one-epoch training 782/1250 optimizer update attempts | elapsed 2975s
+[HEARTBEAT] l2sp_1250 | one-epoch training 782/1250 optimizer update attempts | elapsed 2976s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 783/1250 optimizer update attempts | elapsed 2978s
+[PROGRESS] l2sp_1250 | one-epoch training 784/1250 optimizer update attempts | elapsed 2982s
+[PROGRESS] l2sp_1250 | one-epoch training 785/1250 optimizer update attempts | elapsed 2986s
+[PROGRESS] l2sp_1250 | one-epoch training 786/1250 optimizer update attempts | elapsed 2990s
+[HEARTBEAT] l2sp_1250 | one-epoch training 786/1250 optimizer update attempts | elapsed 2991s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 787/1250 optimizer update attempts | elapsed 2993s
+[PROGRESS] l2sp_1250 | one-epoch training 788/1250 optimizer update attempts | elapsed 2997s
+[PROGRESS] l2sp_1250 | one-epoch training 789/1250 optimizer update attempts | elapsed 3001s
+[PROGRESS] l2sp_1250 | one-epoch training 790/1250 optimizer update attempts | elapsed 3004s
+[HEARTBEAT] l2sp_1250 | one-epoch training 790/1250 optimizer update attempts | elapsed 3006s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 791/1250 optimizer update attempts | elapsed 3008s
+[PROGRESS] l2sp_1250 | one-epoch training 792/1250 optimizer update attempts | elapsed 3012s
+[PROGRESS] l2sp_1250 | one-epoch training 793/1250 optimizer update attempts | elapsed 3016s
+[PROGRESS] l2sp_1250 | one-epoch training 794/1250 optimizer update attempts | elapsed 3019s
+[HEARTBEAT] l2sp_1250 | one-epoch training 794/1250 optimizer update attempts | elapsed 3021s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 795/1250 optimizer update attempts | elapsed 3023s
+[PROGRESS] l2sp_1250 | one-epoch training 796/1250 optimizer update attempts | elapsed 3027s
+[PROGRESS] l2sp_1250 | one-epoch training 797/1250 optimizer update attempts | elapsed 3030s
+[PROGRESS] l2sp_1250 | one-epoch training 798/1250 optimizer update attempts | elapsed 3034s
+[HEARTBEAT] l2sp_1250 | one-epoch training 798/1250 optimizer update attempts | elapsed 3036s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 799/1250 optimizer update attempts | elapsed 3038s
+[PROGRESS] l2sp_1250 | one-epoch training 800/1250 optimizer update attempts | elapsed 3042s
+l2sp: 800/1250  SFT=0.1711  3.84s/update
+[CHECKPOINT] l2sp_1250 | one-epoch training 800/1250 optimizer update attempts | elapsed 3042s
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/l2sp/checkpoints/rolling_update_0800.pt | update 800 | 6.66 GiB
+[HEARTBEAT] l2sp_1250 | one-epoch training 800/1250 optimizer update attempts | elapsed 3051s | activity age 10s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 801/1250 optimizer update attempts | elapsed 3054s
+[PROGRESS] l2sp_1250 | one-epoch training 802/1250 optimizer update attempts | elapsed 3058s
+[PROGRESS] l2sp_1250 | one-epoch training 803/1250 optimizer update attempts | elapsed 3062s
+[PROGRESS] l2sp_1250 | one-epoch training 804/1250 optimizer update attempts | elapsed 3065s
+[HEARTBEAT] l2sp_1250 | one-epoch training 804/1250 optimizer update attempts | elapsed 3066s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 805/1250 optimizer update attempts | elapsed 3069s
+[PROGRESS] l2sp_1250 | one-epoch training 806/1250 optimizer update attempts | elapsed 3073s
+[PROGRESS] l2sp_1250 | one-epoch training 807/1250 optimizer update attempts | elapsed 3077s
+[PROGRESS] l2sp_1250 | one-epoch training 808/1250 optimizer update attempts | elapsed 3081s
+[HEARTBEAT] l2sp_1250 | one-epoch training 808/1250 optimizer update attempts | elapsed 3081s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 809/1250 optimizer update attempts | elapsed 3084s
+[PROGRESS] l2sp_1250 | one-epoch training 810/1250 optimizer update attempts | elapsed 3088s
+[PROGRESS] l2sp_1250 | one-epoch training 811/1250 optimizer update attempts | elapsed 3092s
+[PROGRESS] l2sp_1250 | one-epoch training 812/1250 optimizer update attempts | elapsed 3096s
+[HEARTBEAT] l2sp_1250 | one-epoch training 812/1250 optimizer update attempts | elapsed 3096s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 813/1250 optimizer update attempts | elapsed 3099s
+[PROGRESS] l2sp_1250 | one-epoch training 814/1250 optimizer update attempts | elapsed 3103s
+[PROGRESS] l2sp_1250 | one-epoch training 815/1250 optimizer update attempts | elapsed 3107s
+[PROGRESS] l2sp_1250 | one-epoch training 816/1250 optimizer update attempts | elapsed 3110s
+[HEARTBEAT] l2sp_1250 | one-epoch training 816/1250 optimizer update attempts | elapsed 3111s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 817/1250 optimizer update attempts | elapsed 3114s
+[PROGRESS] l2sp_1250 | one-epoch training 818/1250 optimizer update attempts | elapsed 3118s
+[PROGRESS] l2sp_1250 | one-epoch training 819/1250 optimizer update attempts | elapsed 3121s
+[PROGRESS] l2sp_1250 | one-epoch training 820/1250 optimizer update attempts | elapsed 3125s
+[HEARTBEAT] l2sp_1250 | one-epoch training 820/1250 optimizer update attempts | elapsed 3126s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 821/1250 optimizer update attempts | elapsed 3129s
+[PROGRESS] l2sp_1250 | one-epoch training 822/1250 optimizer update attempts | elapsed 3132s
+[PROGRESS] l2sp_1250 | one-epoch training 823/1250 optimizer update attempts | elapsed 3136s
+[PROGRESS] l2sp_1250 | one-epoch training 824/1250 optimizer update attempts | elapsed 3140s
+[HEARTBEAT] l2sp_1250 | one-epoch training 824/1250 optimizer update attempts | elapsed 3141s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 825/1250 optimizer update attempts | elapsed 3144s
+l2sp: 825/1250  SFT=0.2269  3.88s/update
+[PROGRESS] l2sp_1250 | one-epoch training 826/1250 optimizer update attempts | elapsed 3147s
+[PROGRESS] l2sp_1250 | one-epoch training 827/1250 optimizer update attempts | elapsed 3151s
+[PROGRESS] l2sp_1250 | one-epoch training 828/1250 optimizer update attempts | elapsed 3155s
+[HEARTBEAT] l2sp_1250 | one-epoch training 828/1250 optimizer update attempts | elapsed 3156s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 829/1250 optimizer update attempts | elapsed 3158s
+[PROGRESS] l2sp_1250 | one-epoch training 830/1250 optimizer update attempts | elapsed 3162s
+[PROGRESS] l2sp_1250 | one-epoch training 831/1250 optimizer update attempts | elapsed 3166s
+[PROGRESS] l2sp_1250 | one-epoch training 832/1250 optimizer update attempts | elapsed 3170s
+[HEARTBEAT] l2sp_1250 | one-epoch training 832/1250 optimizer update attempts | elapsed 3171s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 833/1250 optimizer update attempts | elapsed 3173s
+[PROGRESS] l2sp_1250 | one-epoch training 834/1250 optimizer update attempts | elapsed 3177s
+[PROGRESS] l2sp_1250 | one-epoch training 835/1250 optimizer update attempts | elapsed 3180s
+[PROGRESS] l2sp_1250 | one-epoch training 836/1250 optimizer update attempts | elapsed 3184s
+[HEARTBEAT] l2sp_1250 | one-epoch training 836/1250 optimizer update attempts | elapsed 3186s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 837/1250 optimizer update attempts | elapsed 3188s
+[PROGRESS] l2sp_1250 | one-epoch training 838/1250 optimizer update attempts | elapsed 3192s
+[PROGRESS] l2sp_1250 | one-epoch training 839/1250 optimizer update attempts | elapsed 3195s
+[PROGRESS] l2sp_1250 | one-epoch training 840/1250 optimizer update attempts | elapsed 3199s
+[HEARTBEAT] l2sp_1250 | one-epoch training 840/1250 optimizer update attempts | elapsed 3202s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 841/1250 optimizer update attempts | elapsed 3203s
+[PROGRESS] l2sp_1250 | one-epoch training 842/1250 optimizer update attempts | elapsed 3206s
+[PROGRESS] l2sp_1250 | one-epoch training 843/1250 optimizer update attempts | elapsed 3210s
+[PROGRESS] l2sp_1250 | one-epoch training 844/1250 optimizer update attempts | elapsed 3214s
+[HEARTBEAT] l2sp_1250 | one-epoch training 844/1250 optimizer update attempts | elapsed 3216s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 845/1250 optimizer update attempts | elapsed 3218s
+[PROGRESS] l2sp_1250 | one-epoch training 846/1250 optimizer update attempts | elapsed 3222s
+[PROGRESS] l2sp_1250 | one-epoch training 847/1250 optimizer update attempts | elapsed 3225s
+[PROGRESS] l2sp_1250 | one-epoch training 848/1250 optimizer update attempts | elapsed 3229s
+[HEARTBEAT] l2sp_1250 | one-epoch training 848/1250 optimizer update attempts | elapsed 3232s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 849/1250 optimizer update attempts | elapsed 3232s
+[PROGRESS] l2sp_1250 | one-epoch training 850/1250 optimizer update attempts | elapsed 3236s
+l2sp: 850/1250  SFT=0.1949  3.85s/update
+[PROGRESS] l2sp_1250 | one-epoch training 851/1250 optimizer update attempts | elapsed 3240s
+[PROGRESS] l2sp_1250 | one-epoch training 852/1250 optimizer update attempts | elapsed 3244s
+[HEARTBEAT] l2sp_1250 | one-epoch training 852/1250 optimizer update attempts | elapsed 3246s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 853/1250 optimizer update attempts | elapsed 3247s
+[PROGRESS] l2sp_1250 | one-epoch training 854/1250 optimizer update attempts | elapsed 3251s
+[PROGRESS] l2sp_1250 | one-epoch training 855/1250 optimizer update attempts | elapsed 3255s
+[PROGRESS] l2sp_1250 | one-epoch training 856/1250 optimizer update attempts | elapsed 3258s
+[HEARTBEAT] l2sp_1250 | one-epoch training 856/1250 optimizer update attempts | elapsed 3262s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 857/1250 optimizer update attempts | elapsed 3262s
+[PROGRESS] l2sp_1250 | one-epoch training 858/1250 optimizer update attempts | elapsed 3266s
+[PROGRESS] l2sp_1250 | one-epoch training 859/1250 optimizer update attempts | elapsed 3270s
+[PROGRESS] l2sp_1250 | one-epoch training 860/1250 optimizer update attempts | elapsed 3273s
+[HEARTBEAT] l2sp_1250 | one-epoch training 860/1250 optimizer update attempts | elapsed 3276s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 861/1250 optimizer update attempts | elapsed 3277s
+[PROGRESS] l2sp_1250 | one-epoch training 862/1250 optimizer update attempts | elapsed 3281s
+[PROGRESS] l2sp_1250 | one-epoch training 863/1250 optimizer update attempts | elapsed 3284s
+[PROGRESS] l2sp_1250 | one-epoch training 864/1250 optimizer update attempts | elapsed 3288s
+[HEARTBEAT] l2sp_1250 | one-epoch training 864/1250 optimizer update attempts | elapsed 3292s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 865/1250 optimizer update attempts | elapsed 3292s
+[PROGRESS] l2sp_1250 | one-epoch training 866/1250 optimizer update attempts | elapsed 3295s
+[PROGRESS] l2sp_1250 | one-epoch training 867/1250 optimizer update attempts | elapsed 3299s
+[PROGRESS] l2sp_1250 | one-epoch training 868/1250 optimizer update attempts | elapsed 3303s
+[HEARTBEAT] l2sp_1250 | one-epoch training 868/1250 optimizer update attempts | elapsed 3306s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 869/1250 optimizer update attempts | elapsed 3307s
+[PROGRESS] l2sp_1250 | one-epoch training 870/1250 optimizer update attempts | elapsed 3310s
+[PROGRESS] l2sp_1250 | one-epoch training 871/1250 optimizer update attempts | elapsed 3314s
+[PROGRESS] l2sp_1250 | one-epoch training 872/1250 optimizer update attempts | elapsed 3318s
+[HEARTBEAT] l2sp_1250 | one-epoch training 872/1250 optimizer update attempts | elapsed 3322s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 873/1250 optimizer update attempts | elapsed 3322s
+[PROGRESS] l2sp_1250 | one-epoch training 874/1250 optimizer update attempts | elapsed 3325s
+[PROGRESS] l2sp_1250 | one-epoch training 875/1250 optimizer update attempts | elapsed 3329s
+l2sp: 875/1250  SFT=0.1787  3.87s/update
+[PROGRESS] l2sp_1250 | one-epoch training 876/1250 optimizer update attempts | elapsed 3333s
+[HEARTBEAT] l2sp_1250 | one-epoch training 876/1250 optimizer update attempts | elapsed 3336s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 877/1250 optimizer update attempts | elapsed 3336s
+[PROGRESS] l2sp_1250 | one-epoch training 878/1250 optimizer update attempts | elapsed 3340s
+[PROGRESS] l2sp_1250 | one-epoch training 879/1250 optimizer update attempts | elapsed 3344s
+[PROGRESS] l2sp_1250 | one-epoch training 880/1250 optimizer update attempts | elapsed 3348s
+[PROGRESS] l2sp_1250 | one-epoch training 881/1250 optimizer update attempts | elapsed 3351s
+[HEARTBEAT] l2sp_1250 | one-epoch training 881/1250 optimizer update attempts | elapsed 3352s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 882/1250 optimizer update attempts | elapsed 3355s
+[PROGRESS] l2sp_1250 | one-epoch training 883/1250 optimizer update attempts | elapsed 3358s
+[PROGRESS] l2sp_1250 | one-epoch training 884/1250 optimizer update attempts | elapsed 3362s
+[PROGRESS] l2sp_1250 | one-epoch training 885/1250 optimizer update attempts | elapsed 3366s
+[HEARTBEAT] l2sp_1250 | one-epoch training 885/1250 optimizer update attempts | elapsed 3367s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 886/1250 optimizer update attempts | elapsed 3369s
+[PROGRESS] l2sp_1250 | one-epoch training 887/1250 optimizer update attempts | elapsed 3373s
+[PROGRESS] l2sp_1250 | one-epoch training 888/1250 optimizer update attempts | elapsed 3377s
+[PROGRESS] l2sp_1250 | one-epoch training 889/1250 optimizer update attempts | elapsed 3380s
+[HEARTBEAT] l2sp_1250 | one-epoch training 889/1250 optimizer update attempts | elapsed 3382s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 890/1250 optimizer update attempts | elapsed 3384s
+[PROGRESS] l2sp_1250 | one-epoch training 891/1250 optimizer update attempts | elapsed 3387s
+[PROGRESS] l2sp_1250 | one-epoch training 892/1250 optimizer update attempts | elapsed 3391s
+[PROGRESS] l2sp_1250 | one-epoch training 893/1250 optimizer update attempts | elapsed 3395s
+[HEARTBEAT] l2sp_1250 | one-epoch training 893/1250 optimizer update attempts | elapsed 3397s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 894/1250 optimizer update attempts | elapsed 3398s
+[PROGRESS] l2sp_1250 | one-epoch training 895/1250 optimizer update attempts | elapsed 3402s
+[PROGRESS] l2sp_1250 | one-epoch training 896/1250 optimizer update attempts | elapsed 3406s
+[PROGRESS] l2sp_1250 | one-epoch training 897/1250 optimizer update attempts | elapsed 3409s
+[HEARTBEAT] l2sp_1250 | one-epoch training 897/1250 optimizer update attempts | elapsed 3412s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 898/1250 optimizer update attempts | elapsed 3413s
+[PROGRESS] l2sp_1250 | one-epoch training 899/1250 optimizer update attempts | elapsed 3417s
+[PROGRESS] l2sp_1250 | one-epoch training 900/1250 optimizer update attempts | elapsed 3420s
+l2sp: 900/1250  SFT=0.1687  3.48s/update
+[CHECKPOINT] l2sp_1250 | one-epoch training 900/1250 optimizer update attempts | elapsed 3420s
+[HEARTBEAT] l2sp_1250 | one-epoch training 900/1250 optimizer update attempts | elapsed 3427s | activity age 6s (heartbeat is NOT proof of progress)
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/l2sp/checkpoints/rolling_update_0900.pt | update 900 | 6.66 GiB
+[PROGRESS] l2sp_1250 | one-epoch training 901/1250 optimizer update attempts | elapsed 3433s
+[PROGRESS] l2sp_1250 | one-epoch training 902/1250 optimizer update attempts | elapsed 3436s
+[PROGRESS] l2sp_1250 | one-epoch training 903/1250 optimizer update attempts | elapsed 3440s
+[HEARTBEAT] l2sp_1250 | one-epoch training 903/1250 optimizer update attempts | elapsed 3442s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 904/1250 optimizer update attempts | elapsed 3444s
+[PROGRESS] l2sp_1250 | one-epoch training 905/1250 optimizer update attempts | elapsed 3448s
+[PROGRESS] l2sp_1250 | one-epoch training 906/1250 optimizer update attempts | elapsed 3451s
+[PROGRESS] l2sp_1250 | one-epoch training 907/1250 optimizer update attempts | elapsed 3455s
+[HEARTBEAT] l2sp_1250 | one-epoch training 907/1250 optimizer update attempts | elapsed 3457s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 908/1250 optimizer update attempts | elapsed 3458s
+[PROGRESS] l2sp_1250 | one-epoch training 909/1250 optimizer update attempts | elapsed 3462s
+[PROGRESS] l2sp_1250 | one-epoch training 910/1250 optimizer update attempts | elapsed 3466s
+[PROGRESS] l2sp_1250 | one-epoch training 911/1250 optimizer update attempts | elapsed 3470s
+[HEARTBEAT] l2sp_1250 | one-epoch training 911/1250 optimizer update attempts | elapsed 3472s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 912/1250 optimizer update attempts | elapsed 3473s
+[PROGRESS] l2sp_1250 | one-epoch training 913/1250 optimizer update attempts | elapsed 3477s
+[PROGRESS] l2sp_1250 | one-epoch training 914/1250 optimizer update attempts | elapsed 3481s
+[PROGRESS] l2sp_1250 | one-epoch training 915/1250 optimizer update attempts | elapsed 3484s
+[HEARTBEAT] l2sp_1250 | one-epoch training 915/1250 optimizer update attempts | elapsed 3487s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 916/1250 optimizer update attempts | elapsed 3488s
+[PROGRESS] l2sp_1250 | one-epoch training 917/1250 optimizer update attempts | elapsed 3492s
+[PROGRESS] l2sp_1250 | one-epoch training 918/1250 optimizer update attempts | elapsed 3495s
+[PROGRESS] l2sp_1250 | one-epoch training 919/1250 optimizer update attempts | elapsed 3499s
+[HEARTBEAT] l2sp_1250 | one-epoch training 919/1250 optimizer update attempts | elapsed 3502s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 920/1250 optimizer update attempts | elapsed 3503s
+[PROGRESS] l2sp_1250 | one-epoch training 921/1250 optimizer update attempts | elapsed 3506s
+[PROGRESS] l2sp_1250 | one-epoch training 922/1250 optimizer update attempts | elapsed 3510s
+[PROGRESS] l2sp_1250 | one-epoch training 923/1250 optimizer update attempts | elapsed 3514s
+[HEARTBEAT] l2sp_1250 | one-epoch training 923/1250 optimizer update attempts | elapsed 3517s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 924/1250 optimizer update attempts | elapsed 3517s
+[PROGRESS] l2sp_1250 | one-epoch training 925/1250 optimizer update attempts | elapsed 3521s
+l2sp: 925/1250  SFT=0.1828  3.52s/update
+[PROGRESS] l2sp_1250 | one-epoch training 926/1250 optimizer update attempts | elapsed 3525s
+[PROGRESS] l2sp_1250 | one-epoch training 927/1250 optimizer update attempts | elapsed 3528s
+[HEARTBEAT] l2sp_1250 | one-epoch training 927/1250 optimizer update attempts | elapsed 3532s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 928/1250 optimizer update attempts | elapsed 3532s
+[PROGRESS] l2sp_1250 | one-epoch training 929/1250 optimizer update attempts | elapsed 3536s
+[PROGRESS] l2sp_1250 | one-epoch training 930/1250 optimizer update attempts | elapsed 3539s
+[PROGRESS] l2sp_1250 | one-epoch training 931/1250 optimizer update attempts | elapsed 3543s
+[PROGRESS] l2sp_1250 | one-epoch training 932/1250 optimizer update attempts | elapsed 3547s
+[HEARTBEAT] l2sp_1250 | one-epoch training 932/1250 optimizer update attempts | elapsed 3547s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 933/1250 optimizer update attempts | elapsed 3550s
+[PROGRESS] l2sp_1250 | one-epoch training 934/1250 optimizer update attempts | elapsed 3554s
+[PROGRESS] l2sp_1250 | one-epoch training 935/1250 optimizer update attempts | elapsed 3558s
+[PROGRESS] l2sp_1250 | one-epoch training 936/1250 optimizer update attempts | elapsed 3561s
+[HEARTBEAT] l2sp_1250 | one-epoch training 936/1250 optimizer update attempts | elapsed 3562s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 937/1250 optimizer update attempts | elapsed 3565s
+[CHECKPOINT] l2sp_1250 | one-epoch training 937/1250 optimizer update attempts | elapsed 3565s
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/l2sp/checkpoints/update_0937.pt | update 937 | 6.66 GiB
+[HEARTBEAT] l2sp_1250 | one-epoch training 937/1250 optimizer update attempts | elapsed 3577s | activity age 12s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 938/1250 optimizer update attempts | elapsed 3578s
+[PROGRESS] l2sp_1250 | one-epoch training 939/1250 optimizer update attempts | elapsed 3581s
+[PROGRESS] l2sp_1250 | one-epoch training 940/1250 optimizer update attempts | elapsed 3585s
+[PROGRESS] l2sp_1250 | one-epoch training 941/1250 optimizer update attempts | elapsed 3588s
+[HEARTBEAT] l2sp_1250 | one-epoch training 941/1250 optimizer update attempts | elapsed 3592s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 942/1250 optimizer update attempts | elapsed 3592s
+[PROGRESS] l2sp_1250 | one-epoch training 943/1250 optimizer update attempts | elapsed 3596s
+[PROGRESS] l2sp_1250 | one-epoch training 944/1250 optimizer update attempts | elapsed 3600s
+[PROGRESS] l2sp_1250 | one-epoch training 945/1250 optimizer update attempts | elapsed 3603s
+[HEARTBEAT] l2sp_1250 | one-epoch training 945/1250 optimizer update attempts | elapsed 3607s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 946/1250 optimizer update attempts | elapsed 3607s
+[PROGRESS] l2sp_1250 | one-epoch training 947/1250 optimizer update attempts | elapsed 3611s
+[PROGRESS] l2sp_1250 | one-epoch training 948/1250 optimizer update attempts | elapsed 3614s
+[PROGRESS] l2sp_1250 | one-epoch training 949/1250 optimizer update attempts | elapsed 3618s
+[HEARTBEAT] l2sp_1250 | one-epoch training 949/1250 optimizer update attempts | elapsed 3622s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 950/1250 optimizer update attempts | elapsed 3622s
+l2sp: 950/1250  SFT=0.1902  3.61s/update
+[PROGRESS] l2sp_1250 | one-epoch training 951/1250 optimizer update attempts | elapsed 3626s
+[PROGRESS] l2sp_1250 | one-epoch training 952/1250 optimizer update attempts | elapsed 3630s
+[PROGRESS] l2sp_1250 | one-epoch training 953/1250 optimizer update attempts | elapsed 3634s
+[HEARTBEAT] l2sp_1250 | one-epoch training 953/1250 optimizer update attempts | elapsed 3637s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 954/1250 optimizer update attempts | elapsed 3637s
+[PROGRESS] l2sp_1250 | one-epoch training 955/1250 optimizer update attempts | elapsed 3641s
+[PROGRESS] l2sp_1250 | one-epoch training 956/1250 optimizer update attempts | elapsed 3645s
+[PROGRESS] l2sp_1250 | one-epoch training 957/1250 optimizer update attempts | elapsed 3649s
+[HEARTBEAT] l2sp_1250 | one-epoch training 957/1250 optimizer update attempts | elapsed 3652s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 958/1250 optimizer update attempts | elapsed 3652s
+[PROGRESS] l2sp_1250 | one-epoch training 959/1250 optimizer update attempts | elapsed 3656s
+[PROGRESS] l2sp_1250 | one-epoch training 960/1250 optimizer update attempts | elapsed 3660s
+[PROGRESS] l2sp_1250 | one-epoch training 961/1250 optimizer update attempts | elapsed 3664s
+[HEARTBEAT] l2sp_1250 | one-epoch training 961/1250 optimizer update attempts | elapsed 3667s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 962/1250 optimizer update attempts | elapsed 3668s
+[PROGRESS] l2sp_1250 | one-epoch training 963/1250 optimizer update attempts | elapsed 3672s
+[PROGRESS] l2sp_1250 | one-epoch training 964/1250 optimizer update attempts | elapsed 3676s
+[PROGRESS] l2sp_1250 | one-epoch training 965/1250 optimizer update attempts | elapsed 3680s
+[HEARTBEAT] l2sp_1250 | one-epoch training 965/1250 optimizer update attempts | elapsed 3682s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 966/1250 optimizer update attempts | elapsed 3684s
+[PROGRESS] l2sp_1250 | one-epoch training 967/1250 optimizer update attempts | elapsed 3687s
+[PROGRESS] l2sp_1250 | one-epoch training 968/1250 optimizer update attempts | elapsed 3692s
+[PROGRESS] l2sp_1250 | one-epoch training 969/1250 optimizer update attempts | elapsed 3695s
+[HEARTBEAT] l2sp_1250 | one-epoch training 969/1250 optimizer update attempts | elapsed 3697s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 970/1250 optimizer update attempts | elapsed 3699s
+[PROGRESS] l2sp_1250 | one-epoch training 971/1250 optimizer update attempts | elapsed 3703s
+[PROGRESS] l2sp_1250 | one-epoch training 972/1250 optimizer update attempts | elapsed 3707s
+[PROGRESS] l2sp_1250 | one-epoch training 973/1250 optimizer update attempts | elapsed 3710s
+[HEARTBEAT] l2sp_1250 | one-epoch training 973/1250 optimizer update attempts | elapsed 3712s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 974/1250 optimizer update attempts | elapsed 3714s
+[PROGRESS] l2sp_1250 | one-epoch training 975/1250 optimizer update attempts | elapsed 3718s
+l2sp: 975/1250  SFT=0.2075  3.73s/update
+[PROGRESS] l2sp_1250 | one-epoch training 976/1250 optimizer update attempts | elapsed 3722s
+[PROGRESS] l2sp_1250 | one-epoch training 977/1250 optimizer update attempts | elapsed 3726s
+[HEARTBEAT] l2sp_1250 | one-epoch training 977/1250 optimizer update attempts | elapsed 3727s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 978/1250 optimizer update attempts | elapsed 3729s
+[PROGRESS] l2sp_1250 | one-epoch training 979/1250 optimizer update attempts | elapsed 3733s
+[PROGRESS] l2sp_1250 | one-epoch training 980/1250 optimizer update attempts | elapsed 3737s
+[PROGRESS] l2sp_1250 | one-epoch training 981/1250 optimizer update attempts | elapsed 3740s
+[HEARTBEAT] l2sp_1250 | one-epoch training 981/1250 optimizer update attempts | elapsed 3742s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 982/1250 optimizer update attempts | elapsed 3744s
+[PROGRESS] l2sp_1250 | one-epoch training 983/1250 optimizer update attempts | elapsed 3748s
+[PROGRESS] l2sp_1250 | one-epoch training 984/1250 optimizer update attempts | elapsed 3752s
+[PROGRESS] l2sp_1250 | one-epoch training 985/1250 optimizer update attempts | elapsed 3756s
+[HEARTBEAT] l2sp_1250 | one-epoch training 985/1250 optimizer update attempts | elapsed 3757s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 986/1250 optimizer update attempts | elapsed 3759s
+[PROGRESS] l2sp_1250 | one-epoch training 987/1250 optimizer update attempts | elapsed 3763s
+[PROGRESS] l2sp_1250 | one-epoch training 988/1250 optimizer update attempts | elapsed 3766s
+[PROGRESS] l2sp_1250 | one-epoch training 989/1250 optimizer update attempts | elapsed 3770s
+[HEARTBEAT] l2sp_1250 | one-epoch training 989/1250 optimizer update attempts | elapsed 3772s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 990/1250 optimizer update attempts | elapsed 3774s
+[PROGRESS] l2sp_1250 | one-epoch training 991/1250 optimizer update attempts | elapsed 3778s
+[PROGRESS] l2sp_1250 | one-epoch training 992/1250 optimizer update attempts | elapsed 3781s
+[PROGRESS] l2sp_1250 | one-epoch training 993/1250 optimizer update attempts | elapsed 3785s
+[HEARTBEAT] l2sp_1250 | one-epoch training 993/1250 optimizer update attempts | elapsed 3787s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 994/1250 optimizer update attempts | elapsed 3788s
+[PROGRESS] l2sp_1250 | one-epoch training 995/1250 optimizer update attempts | elapsed 3792s
+[PROGRESS] l2sp_1250 | one-epoch training 996/1250 optimizer update attempts | elapsed 3796s
+[PROGRESS] l2sp_1250 | one-epoch training 997/1250 optimizer update attempts | elapsed 3800s
+[HEARTBEAT] l2sp_1250 | one-epoch training 997/1250 optimizer update attempts | elapsed 3802s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 998/1250 optimizer update attempts | elapsed 3804s
+[PROGRESS] l2sp_1250 | one-epoch training 999/1250 optimizer update attempts | elapsed 3807s
+[PROGRESS] l2sp_1250 | one-epoch training 1000/1250 optimizer update attempts | elapsed 3811s
+l2sp: 1000/1250  SFT=0.2099  3.59s/update
+[CHECKPOINT] l2sp_1250 | one-epoch training 1000/1250 optimizer update attempts | elapsed 3811s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1000/1250 optimizer update attempts | elapsed 3817s | activity age 6s (heartbeat is NOT proof of progress)
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/l2sp/checkpoints/rolling_update_1000.pt | update 1000 | 6.66 GiB
+[PROGRESS] l2sp_1250 | one-epoch training 1001/1250 optimizer update attempts | elapsed 3826s
+[PROGRESS] l2sp_1250 | one-epoch training 1002/1250 optimizer update attempts | elapsed 3830s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1002/1250 optimizer update attempts | elapsed 3832s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1003/1250 optimizer update attempts | elapsed 3834s
+[PROGRESS] l2sp_1250 | one-epoch training 1004/1250 optimizer update attempts | elapsed 3837s
+[PROGRESS] l2sp_1250 | one-epoch training 1005/1250 optimizer update attempts | elapsed 3841s
+[PROGRESS] l2sp_1250 | one-epoch training 1006/1250 optimizer update attempts | elapsed 3845s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1006/1250 optimizer update attempts | elapsed 3847s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1007/1250 optimizer update attempts | elapsed 3849s
+[PROGRESS] l2sp_1250 | one-epoch training 1008/1250 optimizer update attempts | elapsed 3852s
+[PROGRESS] l2sp_1250 | one-epoch training 1009/1250 optimizer update attempts | elapsed 3856s
+[PROGRESS] l2sp_1250 | one-epoch training 1010/1250 optimizer update attempts | elapsed 3860s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1010/1250 optimizer update attempts | elapsed 3862s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1011/1250 optimizer update attempts | elapsed 3863s
+[PROGRESS] l2sp_1250 | one-epoch training 1012/1250 optimizer update attempts | elapsed 3867s
+[PROGRESS] l2sp_1250 | one-epoch training 1013/1250 optimizer update attempts | elapsed 3871s
+[PROGRESS] l2sp_1250 | one-epoch training 1014/1250 optimizer update attempts | elapsed 3874s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1014/1250 optimizer update attempts | elapsed 3877s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1015/1250 optimizer update attempts | elapsed 3878s
+[PROGRESS] l2sp_1250 | one-epoch training 1016/1250 optimizer update attempts | elapsed 3882s
+[PROGRESS] l2sp_1250 | one-epoch training 1017/1250 optimizer update attempts | elapsed 3885s
+[PROGRESS] l2sp_1250 | one-epoch training 1018/1250 optimizer update attempts | elapsed 3889s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1018/1250 optimizer update attempts | elapsed 3892s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1019/1250 optimizer update attempts | elapsed 3893s
+[PROGRESS] l2sp_1250 | one-epoch training 1020/1250 optimizer update attempts | elapsed 3896s
+[PROGRESS] l2sp_1250 | one-epoch training 1021/1250 optimizer update attempts | elapsed 3900s
+[PROGRESS] l2sp_1250 | one-epoch training 1022/1250 optimizer update attempts | elapsed 3904s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1022/1250 optimizer update attempts | elapsed 3907s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1023/1250 optimizer update attempts | elapsed 3907s
+[PROGRESS] l2sp_1250 | one-epoch training 1024/1250 optimizer update attempts | elapsed 3911s
+[PROGRESS] l2sp_1250 | one-epoch training 1025/1250 optimizer update attempts | elapsed 3914s
+l2sp: 1025/1250  SFT=0.1746  3.47s/update
+[PROGRESS] l2sp_1250 | one-epoch training 1026/1250 optimizer update attempts | elapsed 3918s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1026/1250 optimizer update attempts | elapsed 3922s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1027/1250 optimizer update attempts | elapsed 3922s
+[PROGRESS] l2sp_1250 | one-epoch training 1028/1250 optimizer update attempts | elapsed 3925s
+[PROGRESS] l2sp_1250 | one-epoch training 1029/1250 optimizer update attempts | elapsed 3929s
+[PROGRESS] l2sp_1250 | one-epoch training 1030/1250 optimizer update attempts | elapsed 3933s
+[PROGRESS] l2sp_1250 | one-epoch training 1031/1250 optimizer update attempts | elapsed 3936s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1031/1250 optimizer update attempts | elapsed 3937s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1032/1250 optimizer update attempts | elapsed 3940s
+[PROGRESS] l2sp_1250 | one-epoch training 1033/1250 optimizer update attempts | elapsed 3944s
+[PROGRESS] l2sp_1250 | one-epoch training 1034/1250 optimizer update attempts | elapsed 3948s
+[PROGRESS] l2sp_1250 | one-epoch training 1035/1250 optimizer update attempts | elapsed 3951s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1035/1250 optimizer update attempts | elapsed 3952s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1036/1250 optimizer update attempts | elapsed 3955s
+[PROGRESS] l2sp_1250 | one-epoch training 1037/1250 optimizer update attempts | elapsed 3959s
+[PROGRESS] l2sp_1250 | one-epoch training 1038/1250 optimizer update attempts | elapsed 3962s
+[PROGRESS] l2sp_1250 | one-epoch training 1039/1250 optimizer update attempts | elapsed 3966s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1039/1250 optimizer update attempts | elapsed 3967s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1040/1250 optimizer update attempts | elapsed 3970s
+[PROGRESS] l2sp_1250 | one-epoch training 1041/1250 optimizer update attempts | elapsed 3973s
+[PROGRESS] l2sp_1250 | one-epoch training 1042/1250 optimizer update attempts | elapsed 3977s
+[PROGRESS] l2sp_1250 | one-epoch training 1043/1250 optimizer update attempts | elapsed 3981s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1043/1250 optimizer update attempts | elapsed 3982s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1044/1250 optimizer update attempts | elapsed 3984s
+[PROGRESS] l2sp_1250 | one-epoch training 1045/1250 optimizer update attempts | elapsed 3988s
+[PROGRESS] l2sp_1250 | one-epoch training 1046/1250 optimizer update attempts | elapsed 3991s
+[PROGRESS] l2sp_1250 | one-epoch training 1047/1250 optimizer update attempts | elapsed 3995s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1047/1250 optimizer update attempts | elapsed 3997s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1048/1250 optimizer update attempts | elapsed 3999s
+[PROGRESS] l2sp_1250 | one-epoch training 1049/1250 optimizer update attempts | elapsed 4002s
+[PROGRESS] l2sp_1250 | one-epoch training 1050/1250 optimizer update attempts | elapsed 4006s
+l2sp: 1050/1250  SFT=0.2144  3.88s/update
+[PROGRESS] l2sp_1250 | one-epoch training 1051/1250 optimizer update attempts | elapsed 4010s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1051/1250 optimizer update attempts | elapsed 4012s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1052/1250 optimizer update attempts | elapsed 4013s
+[PROGRESS] l2sp_1250 | one-epoch training 1053/1250 optimizer update attempts | elapsed 4017s
+[PROGRESS] l2sp_1250 | one-epoch training 1054/1250 optimizer update attempts | elapsed 4021s
+[PROGRESS] l2sp_1250 | one-epoch training 1055/1250 optimizer update attempts | elapsed 4024s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1055/1250 optimizer update attempts | elapsed 4027s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1056/1250 optimizer update attempts | elapsed 4028s
+[PROGRESS] l2sp_1250 | one-epoch training 1057/1250 optimizer update attempts | elapsed 4031s
+[PROGRESS] l2sp_1250 | one-epoch training 1058/1250 optimizer update attempts | elapsed 4035s
+[PROGRESS] l2sp_1250 | one-epoch training 1059/1250 optimizer update attempts | elapsed 4039s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1059/1250 optimizer update attempts | elapsed 4042s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1060/1250 optimizer update attempts | elapsed 4042s
+[PROGRESS] l2sp_1250 | one-epoch training 1061/1250 optimizer update attempts | elapsed 4046s
+[PROGRESS] l2sp_1250 | one-epoch training 1062/1250 optimizer update attempts | elapsed 4050s
+[PROGRESS] l2sp_1250 | one-epoch training 1063/1250 optimizer update attempts | elapsed 4053s
+[PROGRESS] l2sp_1250 | one-epoch training 1064/1250 optimizer update attempts | elapsed 4057s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1064/1250 optimizer update attempts | elapsed 4057s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1065/1250 optimizer update attempts | elapsed 4060s
+[PROGRESS] l2sp_1250 | one-epoch training 1066/1250 optimizer update attempts | elapsed 4064s
+[PROGRESS] l2sp_1250 | one-epoch training 1067/1250 optimizer update attempts | elapsed 4068s
+[PROGRESS] l2sp_1250 | one-epoch training 1068/1250 optimizer update attempts | elapsed 4071s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1068/1250 optimizer update attempts | elapsed 4072s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1069/1250 optimizer update attempts | elapsed 4075s
+[PROGRESS] l2sp_1250 | one-epoch training 1070/1250 optimizer update attempts | elapsed 4078s
+[PROGRESS] l2sp_1250 | one-epoch training 1071/1250 optimizer update attempts | elapsed 4082s
+[PROGRESS] l2sp_1250 | one-epoch training 1072/1250 optimizer update attempts | elapsed 4085s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1072/1250 optimizer update attempts | elapsed 4087s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1073/1250 optimizer update attempts | elapsed 4089s
+[PROGRESS] l2sp_1250 | one-epoch training 1074/1250 optimizer update attempts | elapsed 4093s
+[PROGRESS] l2sp_1250 | one-epoch training 1075/1250 optimizer update attempts | elapsed 4096s
+l2sp: 1075/1250  SFT=0.1680  3.80s/update
+[PROGRESS] l2sp_1250 | one-epoch training 1076/1250 optimizer update attempts | elapsed 4100s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1076/1250 optimizer update attempts | elapsed 4102s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1077/1250 optimizer update attempts | elapsed 4104s
+[PROGRESS] l2sp_1250 | one-epoch training 1078/1250 optimizer update attempts | elapsed 4107s
+[PROGRESS] l2sp_1250 | one-epoch training 1079/1250 optimizer update attempts | elapsed 4111s
+[PROGRESS] l2sp_1250 | one-epoch training 1080/1250 optimizer update attempts | elapsed 4114s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1080/1250 optimizer update attempts | elapsed 4117s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1081/1250 optimizer update attempts | elapsed 4118s
+[PROGRESS] l2sp_1250 | one-epoch training 1082/1250 optimizer update attempts | elapsed 4122s
+[PROGRESS] l2sp_1250 | one-epoch training 1083/1250 optimizer update attempts | elapsed 4125s
+[PROGRESS] l2sp_1250 | one-epoch training 1084/1250 optimizer update attempts | elapsed 4129s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1084/1250 optimizer update attempts | elapsed 4132s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1085/1250 optimizer update attempts | elapsed 4132s
+[PROGRESS] l2sp_1250 | one-epoch training 1086/1250 optimizer update attempts | elapsed 4136s
+[PROGRESS] l2sp_1250 | one-epoch training 1087/1250 optimizer update attempts | elapsed 4139s
+[PROGRESS] l2sp_1250 | one-epoch training 1088/1250 optimizer update attempts | elapsed 4143s
+[PROGRESS] l2sp_1250 | one-epoch training 1089/1250 optimizer update attempts | elapsed 4147s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1089/1250 optimizer update attempts | elapsed 4147s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1090/1250 optimizer update attempts | elapsed 4150s
+[PROGRESS] l2sp_1250 | one-epoch training 1091/1250 optimizer update attempts | elapsed 4154s
+[PROGRESS] l2sp_1250 | one-epoch training 1092/1250 optimizer update attempts | elapsed 4158s
+[PROGRESS] l2sp_1250 | one-epoch training 1093/1250 optimizer update attempts | elapsed 4161s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1093/1250 optimizer update attempts | elapsed 4162s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1094/1250 optimizer update attempts | elapsed 4165s
+[PROGRESS] l2sp_1250 | one-epoch training 1095/1250 optimizer update attempts | elapsed 4168s
+[PROGRESS] l2sp_1250 | one-epoch training 1096/1250 optimizer update attempts | elapsed 4172s
+[PROGRESS] l2sp_1250 | one-epoch training 1097/1250 optimizer update attempts | elapsed 4176s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1097/1250 optimizer update attempts | elapsed 4177s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1098/1250 optimizer update attempts | elapsed 4179s
+[PROGRESS] l2sp_1250 | one-epoch training 1099/1250 optimizer update attempts | elapsed 4183s
+[PROGRESS] l2sp_1250 | one-epoch training 1100/1250 optimizer update attempts | elapsed 4186s
+l2sp: 1100/1250  SFT=0.1938  3.76s/update
+[CHECKPOINT] l2sp_1250 | one-epoch training 1100/1250 optimizer update attempts | elapsed 4186s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1100/1250 optimizer update attempts | elapsed 4192s | activity age 6s (heartbeat is NOT proof of progress)
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/l2sp/checkpoints/rolling_update_1100.pt | update 1100 | 6.66 GiB
+[PROGRESS] l2sp_1250 | one-epoch training 1101/1250 optimizer update attempts | elapsed 4199s
+[PROGRESS] l2sp_1250 | one-epoch training 1102/1250 optimizer update attempts | elapsed 4203s
+[PROGRESS] l2sp_1250 | one-epoch training 1103/1250 optimizer update attempts | elapsed 4206s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1103/1250 optimizer update attempts | elapsed 4207s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1104/1250 optimizer update attempts | elapsed 4210s
+[PROGRESS] l2sp_1250 | one-epoch training 1105/1250 optimizer update attempts | elapsed 4214s
+[PROGRESS] l2sp_1250 | one-epoch training 1106/1250 optimizer update attempts | elapsed 4217s
+[PROGRESS] l2sp_1250 | one-epoch training 1107/1250 optimizer update attempts | elapsed 4221s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1107/1250 optimizer update attempts | elapsed 4222s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1108/1250 optimizer update attempts | elapsed 4225s
+[PROGRESS] l2sp_1250 | one-epoch training 1109/1250 optimizer update attempts | elapsed 4229s
+[PROGRESS] l2sp_1250 | one-epoch training 1110/1250 optimizer update attempts | elapsed 4232s
+[PROGRESS] l2sp_1250 | one-epoch training 1111/1250 optimizer update attempts | elapsed 4236s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1111/1250 optimizer update attempts | elapsed 4237s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1112/1250 optimizer update attempts | elapsed 4240s
+[PROGRESS] l2sp_1250 | one-epoch training 1113/1250 optimizer update attempts | elapsed 4244s
+[PROGRESS] l2sp_1250 | one-epoch training 1114/1250 optimizer update attempts | elapsed 4247s
+[PROGRESS] l2sp_1250 | one-epoch training 1115/1250 optimizer update attempts | elapsed 4251s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1115/1250 optimizer update attempts | elapsed 4252s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1116/1250 optimizer update attempts | elapsed 4254s
+[PROGRESS] l2sp_1250 | one-epoch training 1117/1250 optimizer update attempts | elapsed 4258s
+[PROGRESS] l2sp_1250 | one-epoch training 1118/1250 optimizer update attempts | elapsed 4262s
+[PROGRESS] l2sp_1250 | one-epoch training 1119/1250 optimizer update attempts | elapsed 4266s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1119/1250 optimizer update attempts | elapsed 4267s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1120/1250 optimizer update attempts | elapsed 4269s
+[PROGRESS] l2sp_1250 | one-epoch training 1121/1250 optimizer update attempts | elapsed 4273s
+[PROGRESS] l2sp_1250 | one-epoch training 1122/1250 optimizer update attempts | elapsed 4277s
+[PROGRESS] l2sp_1250 | one-epoch training 1123/1250 optimizer update attempts | elapsed 4280s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1123/1250 optimizer update attempts | elapsed 4282s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1124/1250 optimizer update attempts | elapsed 4284s
+[PROGRESS] l2sp_1250 | one-epoch training 1125/1250 optimizer update attempts | elapsed 4288s
+l2sp: 1125/1250  SFT=0.1911  3.60s/update
+[PROGRESS] l2sp_1250 | one-epoch training 1126/1250 optimizer update attempts | elapsed 4292s
+[PROGRESS] l2sp_1250 | one-epoch training 1127/1250 optimizer update attempts | elapsed 4296s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1127/1250 optimizer update attempts | elapsed 4297s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1128/1250 optimizer update attempts | elapsed 4299s
+[PROGRESS] l2sp_1250 | one-epoch training 1129/1250 optimizer update attempts | elapsed 4303s
+[PROGRESS] l2sp_1250 | one-epoch training 1130/1250 optimizer update attempts | elapsed 4307s
+[PROGRESS] l2sp_1250 | one-epoch training 1131/1250 optimizer update attempts | elapsed 4310s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1131/1250 optimizer update attempts | elapsed 4312s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1132/1250 optimizer update attempts | elapsed 4314s
+[PROGRESS] l2sp_1250 | one-epoch training 1133/1250 optimizer update attempts | elapsed 4318s
+[PROGRESS] l2sp_1250 | one-epoch training 1134/1250 optimizer update attempts | elapsed 4321s
+[PROGRESS] l2sp_1250 | one-epoch training 1135/1250 optimizer update attempts | elapsed 4325s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1135/1250 optimizer update attempts | elapsed 4327s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1136/1250 optimizer update attempts | elapsed 4329s
+[PROGRESS] l2sp_1250 | one-epoch training 1137/1250 optimizer update attempts | elapsed 4332s
+[PROGRESS] l2sp_1250 | one-epoch training 1138/1250 optimizer update attempts | elapsed 4336s
+[PROGRESS] l2sp_1250 | one-epoch training 1139/1250 optimizer update attempts | elapsed 4340s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1139/1250 optimizer update attempts | elapsed 4342s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1140/1250 optimizer update attempts | elapsed 4344s
+[PROGRESS] l2sp_1250 | one-epoch training 1141/1250 optimizer update attempts | elapsed 4347s
+[PROGRESS] l2sp_1250 | one-epoch training 1142/1250 optimizer update attempts | elapsed 4351s
+[PROGRESS] l2sp_1250 | one-epoch training 1143/1250 optimizer update attempts | elapsed 4355s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1143/1250 optimizer update attempts | elapsed 4357s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1144/1250 optimizer update attempts | elapsed 4358s
+[PROGRESS] l2sp_1250 | one-epoch training 1145/1250 optimizer update attempts | elapsed 4362s
+[PROGRESS] l2sp_1250 | one-epoch training 1146/1250 optimizer update attempts | elapsed 4366s
+[PROGRESS] l2sp_1250 | one-epoch training 1147/1250 optimizer update attempts | elapsed 4370s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1147/1250 optimizer update attempts | elapsed 4372s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1148/1250 optimizer update attempts | elapsed 4373s
+[PROGRESS] l2sp_1250 | one-epoch training 1149/1250 optimizer update attempts | elapsed 4377s
+[PROGRESS] l2sp_1250 | one-epoch training 1150/1250 optimizer update attempts | elapsed 4381s
+l2sp: 1150/1250  SFT=0.1632  3.51s/update
+[PROGRESS] l2sp_1250 | one-epoch training 1151/1250 optimizer update attempts | elapsed 4384s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1151/1250 optimizer update attempts | elapsed 4387s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1152/1250 optimizer update attempts | elapsed 4388s
+[PROGRESS] l2sp_1250 | one-epoch training 1153/1250 optimizer update attempts | elapsed 4392s
+[PROGRESS] l2sp_1250 | one-epoch training 1154/1250 optimizer update attempts | elapsed 4395s
+[PROGRESS] l2sp_1250 | one-epoch training 1155/1250 optimizer update attempts | elapsed 4399s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1155/1250 optimizer update attempts | elapsed 4402s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1156/1250 optimizer update attempts | elapsed 4402s
+[PROGRESS] l2sp_1250 | one-epoch training 1157/1250 optimizer update attempts | elapsed 4406s
+[PROGRESS] l2sp_1250 | one-epoch training 1158/1250 optimizer update attempts | elapsed 4410s
+[PROGRESS] l2sp_1250 | one-epoch training 1159/1250 optimizer update attempts | elapsed 4414s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1159/1250 optimizer update attempts | elapsed 4417s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1160/1250 optimizer update attempts | elapsed 4418s
+[PROGRESS] l2sp_1250 | one-epoch training 1161/1250 optimizer update attempts | elapsed 4422s
+[PROGRESS] l2sp_1250 | one-epoch training 1162/1250 optimizer update attempts | elapsed 4425s
+[PROGRESS] l2sp_1250 | one-epoch training 1163/1250 optimizer update attempts | elapsed 4429s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1163/1250 optimizer update attempts | elapsed 4432s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1164/1250 optimizer update attempts | elapsed 4433s
+[PROGRESS] l2sp_1250 | one-epoch training 1165/1250 optimizer update attempts | elapsed 4436s
+[PROGRESS] l2sp_1250 | one-epoch training 1166/1250 optimizer update attempts | elapsed 4440s
+[PROGRESS] l2sp_1250 | one-epoch training 1167/1250 optimizer update attempts | elapsed 4443s
+[PROGRESS] l2sp_1250 | one-epoch training 1168/1250 optimizer update attempts | elapsed 4447s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1168/1250 optimizer update attempts | elapsed 4447s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1169/1250 optimizer update attempts | elapsed 4451s
+[PROGRESS] l2sp_1250 | one-epoch training 1170/1250 optimizer update attempts | elapsed 4454s
+[PROGRESS] l2sp_1250 | one-epoch training 1171/1250 optimizer update attempts | elapsed 4458s
+[PROGRESS] l2sp_1250 | one-epoch training 1172/1250 optimizer update attempts | elapsed 4462s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1172/1250 optimizer update attempts | elapsed 4462s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1173/1250 optimizer update attempts | elapsed 4465s
+[PROGRESS] l2sp_1250 | one-epoch training 1174/1250 optimizer update attempts | elapsed 4469s
+[PROGRESS] l2sp_1250 | one-epoch training 1175/1250 optimizer update attempts | elapsed 4472s
+l2sp: 1175/1250  SFT=0.1672  3.48s/update
+[PROGRESS] l2sp_1250 | one-epoch training 1176/1250 optimizer update attempts | elapsed 4476s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1176/1250 optimizer update attempts | elapsed 4477s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1177/1250 optimizer update attempts | elapsed 4480s
+[PROGRESS] l2sp_1250 | one-epoch training 1178/1250 optimizer update attempts | elapsed 4484s
+[PROGRESS] l2sp_1250 | one-epoch training 1179/1250 optimizer update attempts | elapsed 4487s
+[PROGRESS] l2sp_1250 | one-epoch training 1180/1250 optimizer update attempts | elapsed 4491s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1180/1250 optimizer update attempts | elapsed 4492s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1181/1250 optimizer update attempts | elapsed 4494s
+[PROGRESS] l2sp_1250 | one-epoch training 1182/1250 optimizer update attempts | elapsed 4498s
+[PROGRESS] l2sp_1250 | one-epoch training 1183/1250 optimizer update attempts | elapsed 4502s
+[PROGRESS] l2sp_1250 | one-epoch training 1184/1250 optimizer update attempts | elapsed 4505s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1184/1250 optimizer update attempts | elapsed 4507s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1185/1250 optimizer update attempts | elapsed 4509s
+[PROGRESS] l2sp_1250 | one-epoch training 1186/1250 optimizer update attempts | elapsed 4513s
+[PROGRESS] l2sp_1250 | one-epoch training 1187/1250 optimizer update attempts | elapsed 4516s
+[PROGRESS] l2sp_1250 | one-epoch training 1188/1250 optimizer update attempts | elapsed 4520s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1188/1250 optimizer update attempts | elapsed 4522s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1189/1250 optimizer update attempts | elapsed 4524s
+[PROGRESS] l2sp_1250 | one-epoch training 1190/1250 optimizer update attempts | elapsed 4527s
+[PROGRESS] l2sp_1250 | one-epoch training 1191/1250 optimizer update attempts | elapsed 4531s
+[PROGRESS] l2sp_1250 | one-epoch training 1192/1250 optimizer update attempts | elapsed 4534s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1192/1250 optimizer update attempts | elapsed 4537s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1193/1250 optimizer update attempts | elapsed 4538s
+[PROGRESS] l2sp_1250 | one-epoch training 1194/1250 optimizer update attempts | elapsed 4542s
+[PROGRESS] l2sp_1250 | one-epoch training 1195/1250 optimizer update attempts | elapsed 4546s
+[PROGRESS] l2sp_1250 | one-epoch training 1196/1250 optimizer update attempts | elapsed 4549s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1196/1250 optimizer update attempts | elapsed 4552s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1197/1250 optimizer update attempts | elapsed 4553s
+[PROGRESS] l2sp_1250 | one-epoch training 1198/1250 optimizer update attempts | elapsed 4556s
+[PROGRESS] l2sp_1250 | one-epoch training 1199/1250 optimizer update attempts | elapsed 4560s
+[PROGRESS] l2sp_1250 | one-epoch training 1200/1250 optimizer update attempts | elapsed 4564s
+l2sp: 1200/1250  SFT=0.1675  3.48s/update
+[CHECKPOINT] l2sp_1250 | one-epoch training 1200/1250 optimizer update attempts | elapsed 4564s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1200/1250 optimizer update attempts | elapsed 4567s | activity age 4s (heartbeat is NOT proof of progress)
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/l2sp/checkpoints/rolling_update_1200.pt | update 1200 | 6.66 GiB
+[PROGRESS] l2sp_1250 | one-epoch training 1201/1250 optimizer update attempts | elapsed 4576s
+[PROGRESS] l2sp_1250 | one-epoch training 1202/1250 optimizer update attempts | elapsed 4580s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1202/1250 optimizer update attempts | elapsed 4582s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1203/1250 optimizer update attempts | elapsed 4584s
+[PROGRESS] l2sp_1250 | one-epoch training 1204/1250 optimizer update attempts | elapsed 4587s
+[PROGRESS] l2sp_1250 | one-epoch training 1205/1250 optimizer update attempts | elapsed 4591s
+[PROGRESS] l2sp_1250 | one-epoch training 1206/1250 optimizer update attempts | elapsed 4595s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1206/1250 optimizer update attempts | elapsed 4597s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1207/1250 optimizer update attempts | elapsed 4599s
+[PROGRESS] l2sp_1250 | one-epoch training 1208/1250 optimizer update attempts | elapsed 4602s
+[PROGRESS] l2sp_1250 | one-epoch training 1209/1250 optimizer update attempts | elapsed 4606s
+[PROGRESS] l2sp_1250 | one-epoch training 1210/1250 optimizer update attempts | elapsed 4610s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1210/1250 optimizer update attempts | elapsed 4612s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1211/1250 optimizer update attempts | elapsed 4614s
+[PROGRESS] l2sp_1250 | one-epoch training 1212/1250 optimizer update attempts | elapsed 4617s
+[PROGRESS] l2sp_1250 | one-epoch training 1213/1250 optimizer update attempts | elapsed 4621s
+[PROGRESS] l2sp_1250 | one-epoch training 1214/1250 optimizer update attempts | elapsed 4625s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1214/1250 optimizer update attempts | elapsed 4627s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1215/1250 optimizer update attempts | elapsed 4629s
+[PROGRESS] l2sp_1250 | one-epoch training 1216/1250 optimizer update attempts | elapsed 4632s
+[PROGRESS] l2sp_1250 | one-epoch training 1217/1250 optimizer update attempts | elapsed 4636s
+[PROGRESS] l2sp_1250 | one-epoch training 1218/1250 optimizer update attempts | elapsed 4640s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1218/1250 optimizer update attempts | elapsed 4642s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1219/1250 optimizer update attempts | elapsed 4644s
+[PROGRESS] l2sp_1250 | one-epoch training 1220/1250 optimizer update attempts | elapsed 4647s
+[PROGRESS] l2sp_1250 | one-epoch training 1221/1250 optimizer update attempts | elapsed 4651s
+[PROGRESS] l2sp_1250 | one-epoch training 1222/1250 optimizer update attempts | elapsed 4655s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1222/1250 optimizer update attempts | elapsed 4657s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1223/1250 optimizer update attempts | elapsed 4658s
+[PROGRESS] l2sp_1250 | one-epoch training 1224/1250 optimizer update attempts | elapsed 4662s
+[PROGRESS] l2sp_1250 | one-epoch training 1225/1250 optimizer update attempts | elapsed 4666s
+l2sp: 1225/1250  SFT=0.2187  3.54s/update
+[PROGRESS] l2sp_1250 | one-epoch training 1226/1250 optimizer update attempts | elapsed 4669s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1226/1250 optimizer update attempts | elapsed 4672s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1227/1250 optimizer update attempts | elapsed 4673s
+[PROGRESS] l2sp_1250 | one-epoch training 1228/1250 optimizer update attempts | elapsed 4677s
+[PROGRESS] l2sp_1250 | one-epoch training 1229/1250 optimizer update attempts | elapsed 4680s
+[PROGRESS] l2sp_1250 | one-epoch training 1230/1250 optimizer update attempts | elapsed 4684s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1230/1250 optimizer update attempts | elapsed 4687s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1231/1250 optimizer update attempts | elapsed 4688s
+[PROGRESS] l2sp_1250 | one-epoch training 1232/1250 optimizer update attempts | elapsed 4691s
+[PROGRESS] l2sp_1250 | one-epoch training 1233/1250 optimizer update attempts | elapsed 4695s
+[PROGRESS] l2sp_1250 | one-epoch training 1234/1250 optimizer update attempts | elapsed 4698s
+[PROGRESS] l2sp_1250 | one-epoch training 1235/1250 optimizer update attempts | elapsed 4702s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1235/1250 optimizer update attempts | elapsed 4702s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1236/1250 optimizer update attempts | elapsed 4706s
+[PROGRESS] l2sp_1250 | one-epoch training 1237/1250 optimizer update attempts | elapsed 4710s
+[PROGRESS] l2sp_1250 | one-epoch training 1238/1250 optimizer update attempts | elapsed 4713s
+[PROGRESS] l2sp_1250 | one-epoch training 1239/1250 optimizer update attempts | elapsed 4717s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1239/1250 optimizer update attempts | elapsed 4717s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1240/1250 optimizer update attempts | elapsed 4720s
+[PROGRESS] l2sp_1250 | one-epoch training 1241/1250 optimizer update attempts | elapsed 4724s
+[PROGRESS] l2sp_1250 | one-epoch training 1242/1250 optimizer update attempts | elapsed 4728s
+[PROGRESS] l2sp_1250 | one-epoch training 1243/1250 optimizer update attempts | elapsed 4732s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1243/1250 optimizer update attempts | elapsed 4732s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1244/1250 optimizer update attempts | elapsed 4735s
+[PROGRESS] l2sp_1250 | one-epoch training 1245/1250 optimizer update attempts | elapsed 4739s
+[PROGRESS] l2sp_1250 | one-epoch training 1246/1250 optimizer update attempts | elapsed 4743s
+[PROGRESS] l2sp_1250 | one-epoch training 1247/1250 optimizer update attempts | elapsed 4747s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1247/1250 optimizer update attempts | elapsed 4747s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] l2sp_1250 | one-epoch training 1248/1250 optimizer update attempts | elapsed 4751s
+[PROGRESS] l2sp_1250 | one-epoch training 1249/1250 optimizer update attempts | elapsed 4754s
+[PROGRESS] l2sp_1250 | one-epoch training 1250/1250 optimizer update attempts | elapsed 4758s
+l2sp: 1250/1250  SFT=0.1641  3.56s/update
+[CHECKPOINT] l2sp_1250 | one-epoch training 1250/1250 optimizer update attempts | elapsed 4758s
+[HEARTBEAT] l2sp_1250 | one-epoch training 1250/1250 optimizer update attempts | elapsed 4762s | activity age 4s (heartbeat is NOT proof of progress)
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/l2sp/checkpoints/update_1250.pt | update 1250 | 6.66 GiB
+[DONE] l2sp_1250 | one-epoch training 1250/1250 optimizer update attempts | elapsed 4770s

@@ -1,0 +1,821 @@
+[START] full_ft_0625 | starting | elapsed 0s
+[PHASE] full_ft_0625 | loading training model/optimizer/checkpoint | elapsed 0s
+`torch_dtype` is deprecated! Use `dtype` instead!
+[PHASE] full_ft_0625 | one-epoch training 0/1250 optimizer update attempts | elapsed 0s
+[PROGRESS] full_ft_0625 | one-epoch training 0/1250 optimizer update attempts | elapsed 0s
+[HEARTBEAT] full_ft_0625 | one-epoch training 0/1250 optimizer update attempts | elapsed 3s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 1/1250 optimizer update attempts | elapsed 4s
+full_ft: 1/1250  SFT=1.0285  4.19s/update
+[PROGRESS] full_ft_0625 | one-epoch training 2/1250 optimizer update attempts | elapsed 7s
+[PROGRESS] full_ft_0625 | one-epoch training 3/1250 optimizer update attempts | elapsed 11s
+[PROGRESS] full_ft_0625 | one-epoch training 4/1250 optimizer update attempts | elapsed 14s
+[PROGRESS] full_ft_0625 | one-epoch training 5/1250 optimizer update attempts | elapsed 18s
+[HEARTBEAT] full_ft_0625 | one-epoch training 5/1250 optimizer update attempts | elapsed 18s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 6/1250 optimizer update attempts | elapsed 21s
+[PROGRESS] full_ft_0625 | one-epoch training 7/1250 optimizer update attempts | elapsed 24s
+[PROGRESS] full_ft_0625 | one-epoch training 8/1250 optimizer update attempts | elapsed 28s
+[PROGRESS] full_ft_0625 | one-epoch training 9/1250 optimizer update attempts | elapsed 31s
+[HEARTBEAT] full_ft_0625 | one-epoch training 9/1250 optimizer update attempts | elapsed 33s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 10/1250 optimizer update attempts | elapsed 34s
+[PROGRESS] full_ft_0625 | one-epoch training 11/1250 optimizer update attempts | elapsed 38s
+[PROGRESS] full_ft_0625 | one-epoch training 12/1250 optimizer update attempts | elapsed 41s
+[PROGRESS] full_ft_0625 | one-epoch training 13/1250 optimizer update attempts | elapsed 44s
+[PROGRESS] full_ft_0625 | one-epoch training 14/1250 optimizer update attempts | elapsed 48s
+[HEARTBEAT] full_ft_0625 | one-epoch training 14/1250 optimizer update attempts | elapsed 48s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 15/1250 optimizer update attempts | elapsed 51s
+[PROGRESS] full_ft_0625 | one-epoch training 16/1250 optimizer update attempts | elapsed 54s
+[PROGRESS] full_ft_0625 | one-epoch training 17/1250 optimizer update attempts | elapsed 58s
+[PROGRESS] full_ft_0625 | one-epoch training 18/1250 optimizer update attempts | elapsed 61s
+[HEARTBEAT] full_ft_0625 | one-epoch training 18/1250 optimizer update attempts | elapsed 63s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 19/1250 optimizer update attempts | elapsed 64s
+[PROGRESS] full_ft_0625 | one-epoch training 20/1250 optimizer update attempts | elapsed 68s
+[PROGRESS] full_ft_0625 | one-epoch training 21/1250 optimizer update attempts | elapsed 71s
+[PROGRESS] full_ft_0625 | one-epoch training 22/1250 optimizer update attempts | elapsed 74s
+[PROGRESS] full_ft_0625 | one-epoch training 23/1250 optimizer update attempts | elapsed 78s
+[HEARTBEAT] full_ft_0625 | one-epoch training 23/1250 optimizer update attempts | elapsed 78s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 24/1250 optimizer update attempts | elapsed 81s
+[PROGRESS] full_ft_0625 | one-epoch training 25/1250 optimizer update attempts | elapsed 84s
+full_ft: 25/1250  SFT=0.2368  3.16s/update
+[PROGRESS] full_ft_0625 | one-epoch training 26/1250 optimizer update attempts | elapsed 88s
+[PROGRESS] full_ft_0625 | one-epoch training 27/1250 optimizer update attempts | elapsed 91s
+[HEARTBEAT] full_ft_0625 | one-epoch training 27/1250 optimizer update attempts | elapsed 93s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 28/1250 optimizer update attempts | elapsed 94s
+[PROGRESS] full_ft_0625 | one-epoch training 29/1250 optimizer update attempts | elapsed 98s
+[PROGRESS] full_ft_0625 | one-epoch training 30/1250 optimizer update attempts | elapsed 101s
+[PROGRESS] full_ft_0625 | one-epoch training 31/1250 optimizer update attempts | elapsed 104s
+[PROGRESS] full_ft_0625 | one-epoch training 32/1250 optimizer update attempts | elapsed 108s
+[HEARTBEAT] full_ft_0625 | one-epoch training 32/1250 optimizer update attempts | elapsed 108s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 33/1250 optimizer update attempts | elapsed 111s
+[PROGRESS] full_ft_0625 | one-epoch training 34/1250 optimizer update attempts | elapsed 114s
+[PROGRESS] full_ft_0625 | one-epoch training 35/1250 optimizer update attempts | elapsed 118s
+[PROGRESS] full_ft_0625 | one-epoch training 36/1250 optimizer update attempts | elapsed 121s
+[HEARTBEAT] full_ft_0625 | one-epoch training 36/1250 optimizer update attempts | elapsed 123s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 37/1250 optimizer update attempts | elapsed 124s
+[PROGRESS] full_ft_0625 | one-epoch training 38/1250 optimizer update attempts | elapsed 128s
+[PROGRESS] full_ft_0625 | one-epoch training 39/1250 optimizer update attempts | elapsed 131s
+[PROGRESS] full_ft_0625 | one-epoch training 40/1250 optimizer update attempts | elapsed 134s
+[PROGRESS] full_ft_0625 | one-epoch training 41/1250 optimizer update attempts | elapsed 138s
+[HEARTBEAT] full_ft_0625 | one-epoch training 41/1250 optimizer update attempts | elapsed 138s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 42/1250 optimizer update attempts | elapsed 141s
+[PROGRESS] full_ft_0625 | one-epoch training 43/1250 optimizer update attempts | elapsed 144s
+[PROGRESS] full_ft_0625 | one-epoch training 44/1250 optimizer update attempts | elapsed 148s
+[PROGRESS] full_ft_0625 | one-epoch training 45/1250 optimizer update attempts | elapsed 151s
+[HEARTBEAT] full_ft_0625 | one-epoch training 45/1250 optimizer update attempts | elapsed 153s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 46/1250 optimizer update attempts | elapsed 154s
+[PROGRESS] full_ft_0625 | one-epoch training 47/1250 optimizer update attempts | elapsed 158s
+[PROGRESS] full_ft_0625 | one-epoch training 48/1250 optimizer update attempts | elapsed 161s
+[PROGRESS] full_ft_0625 | one-epoch training 49/1250 optimizer update attempts | elapsed 164s
+[PROGRESS] full_ft_0625 | one-epoch training 50/1250 optimizer update attempts | elapsed 168s
+full_ft: 50/1250  SFT=0.2430  3.46s/update
+[HEARTBEAT] full_ft_0625 | one-epoch training 50/1250 optimizer update attempts | elapsed 168s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 51/1250 optimizer update attempts | elapsed 171s
+[PROGRESS] full_ft_0625 | one-epoch training 52/1250 optimizer update attempts | elapsed 174s
+[PROGRESS] full_ft_0625 | one-epoch training 53/1250 optimizer update attempts | elapsed 178s
+[PROGRESS] full_ft_0625 | one-epoch training 54/1250 optimizer update attempts | elapsed 181s
+[HEARTBEAT] full_ft_0625 | one-epoch training 54/1250 optimizer update attempts | elapsed 183s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 55/1250 optimizer update attempts | elapsed 184s
+[PROGRESS] full_ft_0625 | one-epoch training 56/1250 optimizer update attempts | elapsed 188s
+[PROGRESS] full_ft_0625 | one-epoch training 57/1250 optimizer update attempts | elapsed 191s
+[PROGRESS] full_ft_0625 | one-epoch training 58/1250 optimizer update attempts | elapsed 194s
+[PROGRESS] full_ft_0625 | one-epoch training 59/1250 optimizer update attempts | elapsed 198s
+[HEARTBEAT] full_ft_0625 | one-epoch training 59/1250 optimizer update attempts | elapsed 198s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 60/1250 optimizer update attempts | elapsed 201s
+[PROGRESS] full_ft_0625 | one-epoch training 61/1250 optimizer update attempts | elapsed 204s
+[PROGRESS] full_ft_0625 | one-epoch training 62/1250 optimizer update attempts | elapsed 208s
+[PROGRESS] full_ft_0625 | one-epoch training 63/1250 optimizer update attempts | elapsed 211s
+[HEARTBEAT] full_ft_0625 | one-epoch training 63/1250 optimizer update attempts | elapsed 213s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 64/1250 optimizer update attempts | elapsed 214s
+[PROGRESS] full_ft_0625 | one-epoch training 65/1250 optimizer update attempts | elapsed 218s
+[PROGRESS] full_ft_0625 | one-epoch training 66/1250 optimizer update attempts | elapsed 221s
+[PROGRESS] full_ft_0625 | one-epoch training 67/1250 optimizer update attempts | elapsed 224s
+[PROGRESS] full_ft_0625 | one-epoch training 68/1250 optimizer update attempts | elapsed 227s
+[HEARTBEAT] full_ft_0625 | one-epoch training 68/1250 optimizer update attempts | elapsed 228s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 69/1250 optimizer update attempts | elapsed 231s
+[PROGRESS] full_ft_0625 | one-epoch training 70/1250 optimizer update attempts | elapsed 234s
+[PROGRESS] full_ft_0625 | one-epoch training 71/1250 optimizer update attempts | elapsed 238s
+[PROGRESS] full_ft_0625 | one-epoch training 72/1250 optimizer update attempts | elapsed 241s
+[HEARTBEAT] full_ft_0625 | one-epoch training 72/1250 optimizer update attempts | elapsed 243s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 73/1250 optimizer update attempts | elapsed 244s
+[PROGRESS] full_ft_0625 | one-epoch training 74/1250 optimizer update attempts | elapsed 247s
+[PROGRESS] full_ft_0625 | one-epoch training 75/1250 optimizer update attempts | elapsed 251s
+full_ft: 75/1250  SFT=0.2588  3.46s/update
+[PROGRESS] full_ft_0625 | one-epoch training 76/1250 optimizer update attempts | elapsed 254s
+[PROGRESS] full_ft_0625 | one-epoch training 77/1250 optimizer update attempts | elapsed 258s
+[HEARTBEAT] full_ft_0625 | one-epoch training 77/1250 optimizer update attempts | elapsed 258s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 78/1250 optimizer update attempts | elapsed 261s
+[PROGRESS] full_ft_0625 | one-epoch training 79/1250 optimizer update attempts | elapsed 264s
+[PROGRESS] full_ft_0625 | one-epoch training 80/1250 optimizer update attempts | elapsed 267s
+[PROGRESS] full_ft_0625 | one-epoch training 81/1250 optimizer update attempts | elapsed 271s
+[HEARTBEAT] full_ft_0625 | one-epoch training 81/1250 optimizer update attempts | elapsed 273s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 82/1250 optimizer update attempts | elapsed 274s
+[PROGRESS] full_ft_0625 | one-epoch training 83/1250 optimizer update attempts | elapsed 278s
+[PROGRESS] full_ft_0625 | one-epoch training 84/1250 optimizer update attempts | elapsed 281s
+[PROGRESS] full_ft_0625 | one-epoch training 85/1250 optimizer update attempts | elapsed 284s
+[PROGRESS] full_ft_0625 | one-epoch training 86/1250 optimizer update attempts | elapsed 288s
+[HEARTBEAT] full_ft_0625 | one-epoch training 86/1250 optimizer update attempts | elapsed 288s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 87/1250 optimizer update attempts | elapsed 291s
+[PROGRESS] full_ft_0625 | one-epoch training 88/1250 optimizer update attempts | elapsed 294s
+[PROGRESS] full_ft_0625 | one-epoch training 89/1250 optimizer update attempts | elapsed 298s
+[PROGRESS] full_ft_0625 | one-epoch training 90/1250 optimizer update attempts | elapsed 301s
+[HEARTBEAT] full_ft_0625 | one-epoch training 90/1250 optimizer update attempts | elapsed 303s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 91/1250 optimizer update attempts | elapsed 304s
+[PROGRESS] full_ft_0625 | one-epoch training 92/1250 optimizer update attempts | elapsed 308s
+[PROGRESS] full_ft_0625 | one-epoch training 93/1250 optimizer update attempts | elapsed 311s
+[PROGRESS] full_ft_0625 | one-epoch training 94/1250 optimizer update attempts | elapsed 314s
+[PROGRESS] full_ft_0625 | one-epoch training 95/1250 optimizer update attempts | elapsed 318s
+[HEARTBEAT] full_ft_0625 | one-epoch training 95/1250 optimizer update attempts | elapsed 318s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 96/1250 optimizer update attempts | elapsed 321s
+[PROGRESS] full_ft_0625 | one-epoch training 97/1250 optimizer update attempts | elapsed 324s
+[PROGRESS] full_ft_0625 | one-epoch training 98/1250 optimizer update attempts | elapsed 328s
+[PROGRESS] full_ft_0625 | one-epoch training 99/1250 optimizer update attempts | elapsed 331s
+[HEARTBEAT] full_ft_0625 | one-epoch training 99/1250 optimizer update attempts | elapsed 333s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 100/1250 optimizer update attempts | elapsed 335s
+full_ft: 100/1250  SFT=0.2558  3.51s/update
+[CHECKPOINT] full_ft_0625 | one-epoch training 100/1250 optimizer update attempts | elapsed 335s
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/full_ft/checkpoints/rolling_update_0100.pt | update 100 | 6.66 GiB
+[PROGRESS] full_ft_0625 | one-epoch training 101/1250 optimizer update attempts | elapsed 346s
+[HEARTBEAT] full_ft_0625 | one-epoch training 101/1250 optimizer update attempts | elapsed 348s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 102/1250 optimizer update attempts | elapsed 350s
+[PROGRESS] full_ft_0625 | one-epoch training 103/1250 optimizer update attempts | elapsed 353s
+[PROGRESS] full_ft_0625 | one-epoch training 104/1250 optimizer update attempts | elapsed 356s
+[PROGRESS] full_ft_0625 | one-epoch training 105/1250 optimizer update attempts | elapsed 360s
+[HEARTBEAT] full_ft_0625 | one-epoch training 105/1250 optimizer update attempts | elapsed 363s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 106/1250 optimizer update attempts | elapsed 363s
+[PROGRESS] full_ft_0625 | one-epoch training 107/1250 optimizer update attempts | elapsed 366s
+[PROGRESS] full_ft_0625 | one-epoch training 108/1250 optimizer update attempts | elapsed 370s
+[PROGRESS] full_ft_0625 | one-epoch training 109/1250 optimizer update attempts | elapsed 373s
+[PROGRESS] full_ft_0625 | one-epoch training 110/1250 optimizer update attempts | elapsed 376s
+[HEARTBEAT] full_ft_0625 | one-epoch training 110/1250 optimizer update attempts | elapsed 378s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 111/1250 optimizer update attempts | elapsed 379s
+[PROGRESS] full_ft_0625 | one-epoch training 112/1250 optimizer update attempts | elapsed 383s
+[PROGRESS] full_ft_0625 | one-epoch training 113/1250 optimizer update attempts | elapsed 386s
+[PROGRESS] full_ft_0625 | one-epoch training 114/1250 optimizer update attempts | elapsed 389s
+[PROGRESS] full_ft_0625 | one-epoch training 115/1250 optimizer update attempts | elapsed 392s
+[HEARTBEAT] full_ft_0625 | one-epoch training 115/1250 optimizer update attempts | elapsed 393s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 116/1250 optimizer update attempts | elapsed 396s
+[PROGRESS] full_ft_0625 | one-epoch training 117/1250 optimizer update attempts | elapsed 399s
+[PROGRESS] full_ft_0625 | one-epoch training 118/1250 optimizer update attempts | elapsed 402s
+[PROGRESS] full_ft_0625 | one-epoch training 119/1250 optimizer update attempts | elapsed 406s
+[HEARTBEAT] full_ft_0625 | one-epoch training 119/1250 optimizer update attempts | elapsed 408s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 120/1250 optimizer update attempts | elapsed 409s
+[PROGRESS] full_ft_0625 | one-epoch training 121/1250 optimizer update attempts | elapsed 412s
+[PROGRESS] full_ft_0625 | one-epoch training 122/1250 optimizer update attempts | elapsed 416s
+[PROGRESS] full_ft_0625 | one-epoch training 123/1250 optimizer update attempts | elapsed 419s
+[PROGRESS] full_ft_0625 | one-epoch training 124/1250 optimizer update attempts | elapsed 422s
+[HEARTBEAT] full_ft_0625 | one-epoch training 124/1250 optimizer update attempts | elapsed 423s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 125/1250 optimizer update attempts | elapsed 426s
+full_ft: 125/1250  SFT=0.2832  3.41s/update
+[PROGRESS] full_ft_0625 | one-epoch training 126/1250 optimizer update attempts | elapsed 429s
+[PROGRESS] full_ft_0625 | one-epoch training 127/1250 optimizer update attempts | elapsed 432s
+[PROGRESS] full_ft_0625 | one-epoch training 128/1250 optimizer update attempts | elapsed 435s
+[HEARTBEAT] full_ft_0625 | one-epoch training 128/1250 optimizer update attempts | elapsed 438s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 129/1250 optimizer update attempts | elapsed 439s
+[PROGRESS] full_ft_0625 | one-epoch training 130/1250 optimizer update attempts | elapsed 442s
+[PROGRESS] full_ft_0625 | one-epoch training 131/1250 optimizer update attempts | elapsed 445s
+[PROGRESS] full_ft_0625 | one-epoch training 132/1250 optimizer update attempts | elapsed 448s
+[PROGRESS] full_ft_0625 | one-epoch training 133/1250 optimizer update attempts | elapsed 452s
+[HEARTBEAT] full_ft_0625 | one-epoch training 133/1250 optimizer update attempts | elapsed 453s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 134/1250 optimizer update attempts | elapsed 455s
+[PROGRESS] full_ft_0625 | one-epoch training 135/1250 optimizer update attempts | elapsed 458s
+[PROGRESS] full_ft_0625 | one-epoch training 136/1250 optimizer update attempts | elapsed 462s
+[PROGRESS] full_ft_0625 | one-epoch training 137/1250 optimizer update attempts | elapsed 465s
+[PROGRESS] full_ft_0625 | one-epoch training 138/1250 optimizer update attempts | elapsed 468s
+[HEARTBEAT] full_ft_0625 | one-epoch training 138/1250 optimizer update attempts | elapsed 468s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 139/1250 optimizer update attempts | elapsed 471s
+[PROGRESS] full_ft_0625 | one-epoch training 140/1250 optimizer update attempts | elapsed 475s
+[PROGRESS] full_ft_0625 | one-epoch training 141/1250 optimizer update attempts | elapsed 478s
+[PROGRESS] full_ft_0625 | one-epoch training 142/1250 optimizer update attempts | elapsed 481s
+[HEARTBEAT] full_ft_0625 | one-epoch training 142/1250 optimizer update attempts | elapsed 483s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 143/1250 optimizer update attempts | elapsed 484s
+[PROGRESS] full_ft_0625 | one-epoch training 144/1250 optimizer update attempts | elapsed 488s
+[PROGRESS] full_ft_0625 | one-epoch training 145/1250 optimizer update attempts | elapsed 491s
+[PROGRESS] full_ft_0625 | one-epoch training 146/1250 optimizer update attempts | elapsed 494s
+[PROGRESS] full_ft_0625 | one-epoch training 147/1250 optimizer update attempts | elapsed 497s
+[HEARTBEAT] full_ft_0625 | one-epoch training 147/1250 optimizer update attempts | elapsed 498s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 148/1250 optimizer update attempts | elapsed 501s
+[PROGRESS] full_ft_0625 | one-epoch training 149/1250 optimizer update attempts | elapsed 504s
+[PROGRESS] full_ft_0625 | one-epoch training 150/1250 optimizer update attempts | elapsed 507s
+full_ft: 150/1250  SFT=0.2392  3.42s/update
+[PROGRESS] full_ft_0625 | one-epoch training 151/1250 optimizer update attempts | elapsed 510s
+[HEARTBEAT] full_ft_0625 | one-epoch training 151/1250 optimizer update attempts | elapsed 513s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 152/1250 optimizer update attempts | elapsed 514s
+[PROGRESS] full_ft_0625 | one-epoch training 153/1250 optimizer update attempts | elapsed 517s
+[PROGRESS] full_ft_0625 | one-epoch training 154/1250 optimizer update attempts | elapsed 520s
+[PROGRESS] full_ft_0625 | one-epoch training 155/1250 optimizer update attempts | elapsed 523s
+[PROGRESS] full_ft_0625 | one-epoch training 156/1250 optimizer update attempts | elapsed 526s
+[HEARTBEAT] full_ft_0625 | one-epoch training 156/1250 optimizer update attempts | elapsed 528s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 157/1250 optimizer update attempts | elapsed 530s
+[PROGRESS] full_ft_0625 | one-epoch training 158/1250 optimizer update attempts | elapsed 533s
+[PROGRESS] full_ft_0625 | one-epoch training 159/1250 optimizer update attempts | elapsed 536s
+[PROGRESS] full_ft_0625 | one-epoch training 160/1250 optimizer update attempts | elapsed 540s
+[PROGRESS] full_ft_0625 | one-epoch training 161/1250 optimizer update attempts | elapsed 543s
+[HEARTBEAT] full_ft_0625 | one-epoch training 161/1250 optimizer update attempts | elapsed 543s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 162/1250 optimizer update attempts | elapsed 546s
+[PROGRESS] full_ft_0625 | one-epoch training 163/1250 optimizer update attempts | elapsed 550s
+[PROGRESS] full_ft_0625 | one-epoch training 164/1250 optimizer update attempts | elapsed 553s
+[PROGRESS] full_ft_0625 | one-epoch training 165/1250 optimizer update attempts | elapsed 556s
+[HEARTBEAT] full_ft_0625 | one-epoch training 165/1250 optimizer update attempts | elapsed 558s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 166/1250 optimizer update attempts | elapsed 559s
+[PROGRESS] full_ft_0625 | one-epoch training 167/1250 optimizer update attempts | elapsed 563s
+[PROGRESS] full_ft_0625 | one-epoch training 168/1250 optimizer update attempts | elapsed 566s
+[PROGRESS] full_ft_0625 | one-epoch training 169/1250 optimizer update attempts | elapsed 569s
+[PROGRESS] full_ft_0625 | one-epoch training 170/1250 optimizer update attempts | elapsed 572s
+[HEARTBEAT] full_ft_0625 | one-epoch training 170/1250 optimizer update attempts | elapsed 573s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 171/1250 optimizer update attempts | elapsed 576s
+[PROGRESS] full_ft_0625 | one-epoch training 172/1250 optimizer update attempts | elapsed 579s
+[PROGRESS] full_ft_0625 | one-epoch training 173/1250 optimizer update attempts | elapsed 582s
+[PROGRESS] full_ft_0625 | one-epoch training 174/1250 optimizer update attempts | elapsed 586s
+[HEARTBEAT] full_ft_0625 | one-epoch training 174/1250 optimizer update attempts | elapsed 588s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 175/1250 optimizer update attempts | elapsed 589s
+full_ft: 175/1250  SFT=0.2188  3.45s/update
+[PROGRESS] full_ft_0625 | one-epoch training 176/1250 optimizer update attempts | elapsed 592s
+[PROGRESS] full_ft_0625 | one-epoch training 177/1250 optimizer update attempts | elapsed 596s
+[PROGRESS] full_ft_0625 | one-epoch training 178/1250 optimizer update attempts | elapsed 600s
+[PROGRESS] full_ft_0625 | one-epoch training 179/1250 optimizer update attempts | elapsed 603s
+[HEARTBEAT] full_ft_0625 | one-epoch training 179/1250 optimizer update attempts | elapsed 604s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 180/1250 optimizer update attempts | elapsed 607s
+[PROGRESS] full_ft_0625 | one-epoch training 181/1250 optimizer update attempts | elapsed 610s
+[PROGRESS] full_ft_0625 | one-epoch training 182/1250 optimizer update attempts | elapsed 613s
+[PROGRESS] full_ft_0625 | one-epoch training 183/1250 optimizer update attempts | elapsed 616s
+[HEARTBEAT] full_ft_0625 | one-epoch training 183/1250 optimizer update attempts | elapsed 619s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 184/1250 optimizer update attempts | elapsed 620s
+[PROGRESS] full_ft_0625 | one-epoch training 185/1250 optimizer update attempts | elapsed 623s
+[PROGRESS] full_ft_0625 | one-epoch training 186/1250 optimizer update attempts | elapsed 626s
+[PROGRESS] full_ft_0625 | one-epoch training 187/1250 optimizer update attempts | elapsed 630s
+[PROGRESS] full_ft_0625 | one-epoch training 188/1250 optimizer update attempts | elapsed 633s
+[HEARTBEAT] full_ft_0625 | one-epoch training 188/1250 optimizer update attempts | elapsed 634s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 189/1250 optimizer update attempts | elapsed 636s
+[PROGRESS] full_ft_0625 | one-epoch training 190/1250 optimizer update attempts | elapsed 640s
+[PROGRESS] full_ft_0625 | one-epoch training 191/1250 optimizer update attempts | elapsed 643s
+[PROGRESS] full_ft_0625 | one-epoch training 192/1250 optimizer update attempts | elapsed 646s
+[HEARTBEAT] full_ft_0625 | one-epoch training 192/1250 optimizer update attempts | elapsed 649s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 193/1250 optimizer update attempts | elapsed 650s
+[PROGRESS] full_ft_0625 | one-epoch training 194/1250 optimizer update attempts | elapsed 653s
+[PROGRESS] full_ft_0625 | one-epoch training 195/1250 optimizer update attempts | elapsed 656s
+[PROGRESS] full_ft_0625 | one-epoch training 196/1250 optimizer update attempts | elapsed 660s
+[PROGRESS] full_ft_0625 | one-epoch training 197/1250 optimizer update attempts | elapsed 664s
+[HEARTBEAT] full_ft_0625 | one-epoch training 197/1250 optimizer update attempts | elapsed 664s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 198/1250 optimizer update attempts | elapsed 667s
+[PROGRESS] full_ft_0625 | one-epoch training 199/1250 optimizer update attempts | elapsed 670s
+[PROGRESS] full_ft_0625 | one-epoch training 200/1250 optimizer update attempts | elapsed 673s
+full_ft: 200/1250  SFT=0.2195  3.18s/update
+[CHECKPOINT] full_ft_0625 | one-epoch training 200/1250 optimizer update attempts | elapsed 673s
+[HEARTBEAT] full_ft_0625 | one-epoch training 200/1250 optimizer update attempts | elapsed 679s | activity age 5s (heartbeat is NOT proof of progress)
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/full_ft/checkpoints/rolling_update_0200.pt | update 200 | 6.66 GiB
+[PROGRESS] full_ft_0625 | one-epoch training 201/1250 optimizer update attempts | elapsed 686s
+[PROGRESS] full_ft_0625 | one-epoch training 202/1250 optimizer update attempts | elapsed 689s
+[PROGRESS] full_ft_0625 | one-epoch training 203/1250 optimizer update attempts | elapsed 692s
+[HEARTBEAT] full_ft_0625 | one-epoch training 203/1250 optimizer update attempts | elapsed 694s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 204/1250 optimizer update attempts | elapsed 695s
+[PROGRESS] full_ft_0625 | one-epoch training 205/1250 optimizer update attempts | elapsed 699s
+[PROGRESS] full_ft_0625 | one-epoch training 206/1250 optimizer update attempts | elapsed 702s
+[PROGRESS] full_ft_0625 | one-epoch training 207/1250 optimizer update attempts | elapsed 705s
+[PROGRESS] full_ft_0625 | one-epoch training 208/1250 optimizer update attempts | elapsed 708s
+[HEARTBEAT] full_ft_0625 | one-epoch training 208/1250 optimizer update attempts | elapsed 709s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 209/1250 optimizer update attempts | elapsed 712s
+[PROGRESS] full_ft_0625 | one-epoch training 210/1250 optimizer update attempts | elapsed 715s
+[PROGRESS] full_ft_0625 | one-epoch training 211/1250 optimizer update attempts | elapsed 718s
+[PROGRESS] full_ft_0625 | one-epoch training 212/1250 optimizer update attempts | elapsed 722s
+[HEARTBEAT] full_ft_0625 | one-epoch training 212/1250 optimizer update attempts | elapsed 724s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 213/1250 optimizer update attempts | elapsed 725s
+[PROGRESS] full_ft_0625 | one-epoch training 214/1250 optimizer update attempts | elapsed 728s
+[PROGRESS] full_ft_0625 | one-epoch training 215/1250 optimizer update attempts | elapsed 732s
+[PROGRESS] full_ft_0625 | one-epoch training 216/1250 optimizer update attempts | elapsed 735s
+[PROGRESS] full_ft_0625 | one-epoch training 217/1250 optimizer update attempts | elapsed 738s
+[HEARTBEAT] full_ft_0625 | one-epoch training 217/1250 optimizer update attempts | elapsed 739s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 218/1250 optimizer update attempts | elapsed 742s
+[PROGRESS] full_ft_0625 | one-epoch training 219/1250 optimizer update attempts | elapsed 745s
+[PROGRESS] full_ft_0625 | one-epoch training 220/1250 optimizer update attempts | elapsed 748s
+[PROGRESS] full_ft_0625 | one-epoch training 221/1250 optimizer update attempts | elapsed 751s
+[HEARTBEAT] full_ft_0625 | one-epoch training 221/1250 optimizer update attempts | elapsed 754s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 222/1250 optimizer update attempts | elapsed 755s
+[PROGRESS] full_ft_0625 | one-epoch training 223/1250 optimizer update attempts | elapsed 758s
+[PROGRESS] full_ft_0625 | one-epoch training 224/1250 optimizer update attempts | elapsed 761s
+[PROGRESS] full_ft_0625 | one-epoch training 225/1250 optimizer update attempts | elapsed 764s
+full_ft: 225/1250  SFT=0.2575  3.15s/update
+[PROGRESS] full_ft_0625 | one-epoch training 226/1250 optimizer update attempts | elapsed 768s
+[HEARTBEAT] full_ft_0625 | one-epoch training 226/1250 optimizer update attempts | elapsed 769s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 227/1250 optimizer update attempts | elapsed 771s
+[PROGRESS] full_ft_0625 | one-epoch training 228/1250 optimizer update attempts | elapsed 774s
+[PROGRESS] full_ft_0625 | one-epoch training 229/1250 optimizer update attempts | elapsed 778s
+[PROGRESS] full_ft_0625 | one-epoch training 230/1250 optimizer update attempts | elapsed 781s
+[HEARTBEAT] full_ft_0625 | one-epoch training 230/1250 optimizer update attempts | elapsed 784s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 231/1250 optimizer update attempts | elapsed 784s
+[PROGRESS] full_ft_0625 | one-epoch training 232/1250 optimizer update attempts | elapsed 788s
+[PROGRESS] full_ft_0625 | one-epoch training 233/1250 optimizer update attempts | elapsed 791s
+[PROGRESS] full_ft_0625 | one-epoch training 234/1250 optimizer update attempts | elapsed 795s
+[PROGRESS] full_ft_0625 | one-epoch training 235/1250 optimizer update attempts | elapsed 799s
+[HEARTBEAT] full_ft_0625 | one-epoch training 235/1250 optimizer update attempts | elapsed 799s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 236/1250 optimizer update attempts | elapsed 802s
+[PROGRESS] full_ft_0625 | one-epoch training 237/1250 optimizer update attempts | elapsed 806s
+[PROGRESS] full_ft_0625 | one-epoch training 238/1250 optimizer update attempts | elapsed 809s
+[PROGRESS] full_ft_0625 | one-epoch training 239/1250 optimizer update attempts | elapsed 813s
+[HEARTBEAT] full_ft_0625 | one-epoch training 239/1250 optimizer update attempts | elapsed 814s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 240/1250 optimizer update attempts | elapsed 816s
+[PROGRESS] full_ft_0625 | one-epoch training 241/1250 optimizer update attempts | elapsed 820s
+[PROGRESS] full_ft_0625 | one-epoch training 242/1250 optimizer update attempts | elapsed 823s
+[PROGRESS] full_ft_0625 | one-epoch training 243/1250 optimizer update attempts | elapsed 826s
+[HEARTBEAT] full_ft_0625 | one-epoch training 243/1250 optimizer update attempts | elapsed 829s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 244/1250 optimizer update attempts | elapsed 830s
+[PROGRESS] full_ft_0625 | one-epoch training 245/1250 optimizer update attempts | elapsed 833s
+[PROGRESS] full_ft_0625 | one-epoch training 246/1250 optimizer update attempts | elapsed 836s
+[PROGRESS] full_ft_0625 | one-epoch training 247/1250 optimizer update attempts | elapsed 840s
+[PROGRESS] full_ft_0625 | one-epoch training 248/1250 optimizer update attempts | elapsed 843s
+[HEARTBEAT] full_ft_0625 | one-epoch training 248/1250 optimizer update attempts | elapsed 844s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 249/1250 optimizer update attempts | elapsed 846s
+[PROGRESS] full_ft_0625 | one-epoch training 250/1250 optimizer update attempts | elapsed 850s
+full_ft: 250/1250  SFT=0.2579  3.20s/update
+[PROGRESS] full_ft_0625 | one-epoch training 251/1250 optimizer update attempts | elapsed 853s
+[PROGRESS] full_ft_0625 | one-epoch training 252/1250 optimizer update attempts | elapsed 856s
+[HEARTBEAT] full_ft_0625 | one-epoch training 252/1250 optimizer update attempts | elapsed 859s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 253/1250 optimizer update attempts | elapsed 860s
+[PROGRESS] full_ft_0625 | one-epoch training 254/1250 optimizer update attempts | elapsed 863s
+[PROGRESS] full_ft_0625 | one-epoch training 255/1250 optimizer update attempts | elapsed 866s
+[PROGRESS] full_ft_0625 | one-epoch training 256/1250 optimizer update attempts | elapsed 870s
+[PROGRESS] full_ft_0625 | one-epoch training 257/1250 optimizer update attempts | elapsed 873s
+[HEARTBEAT] full_ft_0625 | one-epoch training 257/1250 optimizer update attempts | elapsed 874s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 258/1250 optimizer update attempts | elapsed 877s
+[PROGRESS] full_ft_0625 | one-epoch training 259/1250 optimizer update attempts | elapsed 880s
+[PROGRESS] full_ft_0625 | one-epoch training 260/1250 optimizer update attempts | elapsed 884s
+[PROGRESS] full_ft_0625 | one-epoch training 261/1250 optimizer update attempts | elapsed 887s
+[HEARTBEAT] full_ft_0625 | one-epoch training 261/1250 optimizer update attempts | elapsed 889s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 262/1250 optimizer update attempts | elapsed 890s
+[PROGRESS] full_ft_0625 | one-epoch training 263/1250 optimizer update attempts | elapsed 894s
+[PROGRESS] full_ft_0625 | one-epoch training 264/1250 optimizer update attempts | elapsed 897s
+[PROGRESS] full_ft_0625 | one-epoch training 265/1250 optimizer update attempts | elapsed 900s
+[HEARTBEAT] full_ft_0625 | one-epoch training 265/1250 optimizer update attempts | elapsed 904s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 266/1250 optimizer update attempts | elapsed 904s
+[PROGRESS] full_ft_0625 | one-epoch training 267/1250 optimizer update attempts | elapsed 907s
+[PROGRESS] full_ft_0625 | one-epoch training 268/1250 optimizer update attempts | elapsed 911s
+[PROGRESS] full_ft_0625 | one-epoch training 269/1250 optimizer update attempts | elapsed 914s
+[PROGRESS] full_ft_0625 | one-epoch training 270/1250 optimizer update attempts | elapsed 918s
+[HEARTBEAT] full_ft_0625 | one-epoch training 270/1250 optimizer update attempts | elapsed 919s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 271/1250 optimizer update attempts | elapsed 921s
+[PROGRESS] full_ft_0625 | one-epoch training 272/1250 optimizer update attempts | elapsed 925s
+[PROGRESS] full_ft_0625 | one-epoch training 273/1250 optimizer update attempts | elapsed 928s
+[PROGRESS] full_ft_0625 | one-epoch training 274/1250 optimizer update attempts | elapsed 931s
+[HEARTBEAT] full_ft_0625 | one-epoch training 274/1250 optimizer update attempts | elapsed 934s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 275/1250 optimizer update attempts | elapsed 935s
+full_ft: 275/1250  SFT=0.2498  3.39s/update
+[PROGRESS] full_ft_0625 | one-epoch training 276/1250 optimizer update attempts | elapsed 938s
+[PROGRESS] full_ft_0625 | one-epoch training 277/1250 optimizer update attempts | elapsed 942s
+[PROGRESS] full_ft_0625 | one-epoch training 278/1250 optimizer update attempts | elapsed 945s
+[PROGRESS] full_ft_0625 | one-epoch training 279/1250 optimizer update attempts | elapsed 948s
+[HEARTBEAT] full_ft_0625 | one-epoch training 279/1250 optimizer update attempts | elapsed 949s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 280/1250 optimizer update attempts | elapsed 952s
+[PROGRESS] full_ft_0625 | one-epoch training 281/1250 optimizer update attempts | elapsed 955s
+[PROGRESS] full_ft_0625 | one-epoch training 282/1250 optimizer update attempts | elapsed 958s
+[PROGRESS] full_ft_0625 | one-epoch training 283/1250 optimizer update attempts | elapsed 962s
+[HEARTBEAT] full_ft_0625 | one-epoch training 283/1250 optimizer update attempts | elapsed 964s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 284/1250 optimizer update attempts | elapsed 966s
+[PROGRESS] full_ft_0625 | one-epoch training 285/1250 optimizer update attempts | elapsed 969s
+[PROGRESS] full_ft_0625 | one-epoch training 286/1250 optimizer update attempts | elapsed 972s
+[PROGRESS] full_ft_0625 | one-epoch training 287/1250 optimizer update attempts | elapsed 976s
+[HEARTBEAT] full_ft_0625 | one-epoch training 287/1250 optimizer update attempts | elapsed 979s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 288/1250 optimizer update attempts | elapsed 979s
+[PROGRESS] full_ft_0625 | one-epoch training 289/1250 optimizer update attempts | elapsed 983s
+[PROGRESS] full_ft_0625 | one-epoch training 290/1250 optimizer update attempts | elapsed 986s
+[PROGRESS] full_ft_0625 | one-epoch training 291/1250 optimizer update attempts | elapsed 990s
+[PROGRESS] full_ft_0625 | one-epoch training 292/1250 optimizer update attempts | elapsed 993s
+[HEARTBEAT] full_ft_0625 | one-epoch training 292/1250 optimizer update attempts | elapsed 994s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 293/1250 optimizer update attempts | elapsed 997s
+[PROGRESS] full_ft_0625 | one-epoch training 294/1250 optimizer update attempts | elapsed 1000s
+[PROGRESS] full_ft_0625 | one-epoch training 295/1250 optimizer update attempts | elapsed 1004s
+[PROGRESS] full_ft_0625 | one-epoch training 296/1250 optimizer update attempts | elapsed 1007s
+[HEARTBEAT] full_ft_0625 | one-epoch training 296/1250 optimizer update attempts | elapsed 1009s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 297/1250 optimizer update attempts | elapsed 1010s
+[PROGRESS] full_ft_0625 | one-epoch training 298/1250 optimizer update attempts | elapsed 1014s
+[PROGRESS] full_ft_0625 | one-epoch training 299/1250 optimizer update attempts | elapsed 1017s
+[PROGRESS] full_ft_0625 | one-epoch training 300/1250 optimizer update attempts | elapsed 1021s
+full_ft: 300/1250  SFT=0.2263  3.84s/update
+[CHECKPOINT] full_ft_0625 | one-epoch training 300/1250 optimizer update attempts | elapsed 1021s
+[HEARTBEAT] full_ft_0625 | one-epoch training 300/1250 optimizer update attempts | elapsed 1024s | activity age 2s (heartbeat is NOT proof of progress)
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/full_ft/checkpoints/rolling_update_0300.pt | update 300 | 6.66 GiB
+[PROGRESS] full_ft_0625 | one-epoch training 301/1250 optimizer update attempts | elapsed 1034s
+[PROGRESS] full_ft_0625 | one-epoch training 302/1250 optimizer update attempts | elapsed 1038s
+[HEARTBEAT] full_ft_0625 | one-epoch training 302/1250 optimizer update attempts | elapsed 1039s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 303/1250 optimizer update attempts | elapsed 1041s
+[PROGRESS] full_ft_0625 | one-epoch training 304/1250 optimizer update attempts | elapsed 1045s
+[PROGRESS] full_ft_0625 | one-epoch training 305/1250 optimizer update attempts | elapsed 1048s
+[PROGRESS] full_ft_0625 | one-epoch training 306/1250 optimizer update attempts | elapsed 1052s
+[HEARTBEAT] full_ft_0625 | one-epoch training 306/1250 optimizer update attempts | elapsed 1054s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 307/1250 optimizer update attempts | elapsed 1055s
+[PROGRESS] full_ft_0625 | one-epoch training 308/1250 optimizer update attempts | elapsed 1059s
+[PROGRESS] full_ft_0625 | one-epoch training 309/1250 optimizer update attempts | elapsed 1062s
+[PROGRESS] full_ft_0625 | one-epoch training 310/1250 optimizer update attempts | elapsed 1066s
+[HEARTBEAT] full_ft_0625 | one-epoch training 310/1250 optimizer update attempts | elapsed 1069s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 311/1250 optimizer update attempts | elapsed 1069s
+[PROGRESS] full_ft_0625 | one-epoch training 312/1250 optimizer update attempts | elapsed 1073s
+[CHECKPOINT] full_ft_0625 | one-epoch training 312/1250 optimizer update attempts | elapsed 1073s
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/full_ft/checkpoints/update_0312.pt | update 312 | 6.66 GiB
+[HEARTBEAT] full_ft_0625 | one-epoch training 312/1250 optimizer update attempts | elapsed 1084s | activity age 11s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 313/1250 optimizer update attempts | elapsed 1085s
+[PROGRESS] full_ft_0625 | one-epoch training 314/1250 optimizer update attempts | elapsed 1089s
+[PROGRESS] full_ft_0625 | one-epoch training 315/1250 optimizer update attempts | elapsed 1092s
+[PROGRESS] full_ft_0625 | one-epoch training 316/1250 optimizer update attempts | elapsed 1095s
+[PROGRESS] full_ft_0625 | one-epoch training 317/1250 optimizer update attempts | elapsed 1099s
+[HEARTBEAT] full_ft_0625 | one-epoch training 317/1250 optimizer update attempts | elapsed 1099s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 318/1250 optimizer update attempts | elapsed 1102s
+[PROGRESS] full_ft_0625 | one-epoch training 319/1250 optimizer update attempts | elapsed 1105s
+[PROGRESS] full_ft_0625 | one-epoch training 320/1250 optimizer update attempts | elapsed 1108s
+[PROGRESS] full_ft_0625 | one-epoch training 321/1250 optimizer update attempts | elapsed 1112s
+[HEARTBEAT] full_ft_0625 | one-epoch training 321/1250 optimizer update attempts | elapsed 1114s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 322/1250 optimizer update attempts | elapsed 1115s
+[PROGRESS] full_ft_0625 | one-epoch training 323/1250 optimizer update attempts | elapsed 1119s
+[PROGRESS] full_ft_0625 | one-epoch training 324/1250 optimizer update attempts | elapsed 1122s
+[PROGRESS] full_ft_0625 | one-epoch training 325/1250 optimizer update attempts | elapsed 1126s
+full_ft: 325/1250  SFT=0.2560  3.67s/update
+[HEARTBEAT] full_ft_0625 | one-epoch training 325/1250 optimizer update attempts | elapsed 1129s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 326/1250 optimizer update attempts | elapsed 1129s
+[PROGRESS] full_ft_0625 | one-epoch training 327/1250 optimizer update attempts | elapsed 1133s
+[PROGRESS] full_ft_0625 | one-epoch training 328/1250 optimizer update attempts | elapsed 1136s
+[PROGRESS] full_ft_0625 | one-epoch training 329/1250 optimizer update attempts | elapsed 1140s
+[PROGRESS] full_ft_0625 | one-epoch training 330/1250 optimizer update attempts | elapsed 1143s
+[HEARTBEAT] full_ft_0625 | one-epoch training 330/1250 optimizer update attempts | elapsed 1144s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 331/1250 optimizer update attempts | elapsed 1147s
+[PROGRESS] full_ft_0625 | one-epoch training 332/1250 optimizer update attempts | elapsed 1151s
+[PROGRESS] full_ft_0625 | one-epoch training 333/1250 optimizer update attempts | elapsed 1154s
+[PROGRESS] full_ft_0625 | one-epoch training 334/1250 optimizer update attempts | elapsed 1158s
+[HEARTBEAT] full_ft_0625 | one-epoch training 334/1250 optimizer update attempts | elapsed 1159s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 335/1250 optimizer update attempts | elapsed 1162s
+[PROGRESS] full_ft_0625 | one-epoch training 336/1250 optimizer update attempts | elapsed 1165s
+[PROGRESS] full_ft_0625 | one-epoch training 337/1250 optimizer update attempts | elapsed 1168s
+[PROGRESS] full_ft_0625 | one-epoch training 338/1250 optimizer update attempts | elapsed 1172s
+[HEARTBEAT] full_ft_0625 | one-epoch training 338/1250 optimizer update attempts | elapsed 1174s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 339/1250 optimizer update attempts | elapsed 1175s
+[PROGRESS] full_ft_0625 | one-epoch training 340/1250 optimizer update attempts | elapsed 1179s
+[PROGRESS] full_ft_0625 | one-epoch training 341/1250 optimizer update attempts | elapsed 1182s
+[PROGRESS] full_ft_0625 | one-epoch training 342/1250 optimizer update attempts | elapsed 1186s
+[HEARTBEAT] full_ft_0625 | one-epoch training 342/1250 optimizer update attempts | elapsed 1189s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 343/1250 optimizer update attempts | elapsed 1189s
+[PROGRESS] full_ft_0625 | one-epoch training 344/1250 optimizer update attempts | elapsed 1193s
+[PROGRESS] full_ft_0625 | one-epoch training 345/1250 optimizer update attempts | elapsed 1196s
+[PROGRESS] full_ft_0625 | one-epoch training 346/1250 optimizer update attempts | elapsed 1200s
+[PROGRESS] full_ft_0625 | one-epoch training 347/1250 optimizer update attempts | elapsed 1204s
+[HEARTBEAT] full_ft_0625 | one-epoch training 347/1250 optimizer update attempts | elapsed 1204s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 348/1250 optimizer update attempts | elapsed 1207s
+[PROGRESS] full_ft_0625 | one-epoch training 349/1250 optimizer update attempts | elapsed 1211s
+[PROGRESS] full_ft_0625 | one-epoch training 350/1250 optimizer update attempts | elapsed 1214s
+full_ft: 350/1250  SFT=0.2372  3.66s/update
+[PROGRESS] full_ft_0625 | one-epoch training 351/1250 optimizer update attempts | elapsed 1218s
+[HEARTBEAT] full_ft_0625 | one-epoch training 351/1250 optimizer update attempts | elapsed 1219s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 352/1250 optimizer update attempts | elapsed 1222s
+[PROGRESS] full_ft_0625 | one-epoch training 353/1250 optimizer update attempts | elapsed 1225s
+[PROGRESS] full_ft_0625 | one-epoch training 354/1250 optimizer update attempts | elapsed 1229s
+[PROGRESS] full_ft_0625 | one-epoch training 355/1250 optimizer update attempts | elapsed 1232s
+[HEARTBEAT] full_ft_0625 | one-epoch training 355/1250 optimizer update attempts | elapsed 1234s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 356/1250 optimizer update attempts | elapsed 1236s
+[PROGRESS] full_ft_0625 | one-epoch training 357/1250 optimizer update attempts | elapsed 1239s
+[PROGRESS] full_ft_0625 | one-epoch training 358/1250 optimizer update attempts | elapsed 1242s
+[PROGRESS] full_ft_0625 | one-epoch training 359/1250 optimizer update attempts | elapsed 1246s
+[HEARTBEAT] full_ft_0625 | one-epoch training 359/1250 optimizer update attempts | elapsed 1249s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 360/1250 optimizer update attempts | elapsed 1250s
+[PROGRESS] full_ft_0625 | one-epoch training 361/1250 optimizer update attempts | elapsed 1253s
+[PROGRESS] full_ft_0625 | one-epoch training 362/1250 optimizer update attempts | elapsed 1256s
+[PROGRESS] full_ft_0625 | one-epoch training 363/1250 optimizer update attempts | elapsed 1260s
+[PROGRESS] full_ft_0625 | one-epoch training 364/1250 optimizer update attempts | elapsed 1263s
+[HEARTBEAT] full_ft_0625 | one-epoch training 364/1250 optimizer update attempts | elapsed 1264s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 365/1250 optimizer update attempts | elapsed 1267s
+[PROGRESS] full_ft_0625 | one-epoch training 366/1250 optimizer update attempts | elapsed 1270s
+[PROGRESS] full_ft_0625 | one-epoch training 367/1250 optimizer update attempts | elapsed 1274s
+[PROGRESS] full_ft_0625 | one-epoch training 368/1250 optimizer update attempts | elapsed 1278s
+[HEARTBEAT] full_ft_0625 | one-epoch training 368/1250 optimizer update attempts | elapsed 1279s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 369/1250 optimizer update attempts | elapsed 1281s
+[PROGRESS] full_ft_0625 | one-epoch training 370/1250 optimizer update attempts | elapsed 1285s
+[PROGRESS] full_ft_0625 | one-epoch training 371/1250 optimizer update attempts | elapsed 1288s
+[PROGRESS] full_ft_0625 | one-epoch training 372/1250 optimizer update attempts | elapsed 1292s
+[HEARTBEAT] full_ft_0625 | one-epoch training 372/1250 optimizer update attempts | elapsed 1294s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 373/1250 optimizer update attempts | elapsed 1295s
+[PROGRESS] full_ft_0625 | one-epoch training 374/1250 optimizer update attempts | elapsed 1298s
+[PROGRESS] full_ft_0625 | one-epoch training 375/1250 optimizer update attempts | elapsed 1302s
+full_ft: 375/1250  SFT=0.2047  3.57s/update
+[PROGRESS] full_ft_0625 | one-epoch training 376/1250 optimizer update attempts | elapsed 1305s
+[PROGRESS] full_ft_0625 | one-epoch training 377/1250 optimizer update attempts | elapsed 1309s
+[HEARTBEAT] full_ft_0625 | one-epoch training 377/1250 optimizer update attempts | elapsed 1309s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 378/1250 optimizer update attempts | elapsed 1312s
+[PROGRESS] full_ft_0625 | one-epoch training 379/1250 optimizer update attempts | elapsed 1316s
+[PROGRESS] full_ft_0625 | one-epoch training 380/1250 optimizer update attempts | elapsed 1319s
+[PROGRESS] full_ft_0625 | one-epoch training 381/1250 optimizer update attempts | elapsed 1322s
+[HEARTBEAT] full_ft_0625 | one-epoch training 381/1250 optimizer update attempts | elapsed 1324s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 382/1250 optimizer update attempts | elapsed 1326s
+[PROGRESS] full_ft_0625 | one-epoch training 383/1250 optimizer update attempts | elapsed 1330s
+[PROGRESS] full_ft_0625 | one-epoch training 384/1250 optimizer update attempts | elapsed 1333s
+[PROGRESS] full_ft_0625 | one-epoch training 385/1250 optimizer update attempts | elapsed 1336s
+[HEARTBEAT] full_ft_0625 | one-epoch training 385/1250 optimizer update attempts | elapsed 1339s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 386/1250 optimizer update attempts | elapsed 1340s
+[PROGRESS] full_ft_0625 | one-epoch training 387/1250 optimizer update attempts | elapsed 1343s
+[PROGRESS] full_ft_0625 | one-epoch training 388/1250 optimizer update attempts | elapsed 1347s
+[PROGRESS] full_ft_0625 | one-epoch training 389/1250 optimizer update attempts | elapsed 1350s
+[PROGRESS] full_ft_0625 | one-epoch training 390/1250 optimizer update attempts | elapsed 1354s
+[HEARTBEAT] full_ft_0625 | one-epoch training 390/1250 optimizer update attempts | elapsed 1354s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 391/1250 optimizer update attempts | elapsed 1357s
+[PROGRESS] full_ft_0625 | one-epoch training 392/1250 optimizer update attempts | elapsed 1360s
+[PROGRESS] full_ft_0625 | one-epoch training 393/1250 optimizer update attempts | elapsed 1364s
+[PROGRESS] full_ft_0625 | one-epoch training 394/1250 optimizer update attempts | elapsed 1367s
+[HEARTBEAT] full_ft_0625 | one-epoch training 394/1250 optimizer update attempts | elapsed 1369s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 395/1250 optimizer update attempts | elapsed 1371s
+[PROGRESS] full_ft_0625 | one-epoch training 396/1250 optimizer update attempts | elapsed 1374s
+[PROGRESS] full_ft_0625 | one-epoch training 397/1250 optimizer update attempts | elapsed 1378s
+[PROGRESS] full_ft_0625 | one-epoch training 398/1250 optimizer update attempts | elapsed 1381s
+[HEARTBEAT] full_ft_0625 | one-epoch training 398/1250 optimizer update attempts | elapsed 1384s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 399/1250 optimizer update attempts | elapsed 1384s
+[PROGRESS] full_ft_0625 | one-epoch training 400/1250 optimizer update attempts | elapsed 1388s
+full_ft: 400/1250  SFT=0.2120  3.31s/update
+[CHECKPOINT] full_ft_0625 | one-epoch training 400/1250 optimizer update attempts | elapsed 1388s
+[HEARTBEAT] full_ft_0625 | one-epoch training 400/1250 optimizer update attempts | elapsed 1399s | activity age 11s (heartbeat is NOT proof of progress)
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/full_ft/checkpoints/rolling_update_0400.pt | update 400 | 6.66 GiB
+[PROGRESS] full_ft_0625 | one-epoch training 401/1250 optimizer update attempts | elapsed 1405s
+[PROGRESS] full_ft_0625 | one-epoch training 402/1250 optimizer update attempts | elapsed 1408s
+[PROGRESS] full_ft_0625 | one-epoch training 403/1250 optimizer update attempts | elapsed 1412s
+[HEARTBEAT] full_ft_0625 | one-epoch training 403/1250 optimizer update attempts | elapsed 1414s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 404/1250 optimizer update attempts | elapsed 1415s
+[PROGRESS] full_ft_0625 | one-epoch training 405/1250 optimizer update attempts | elapsed 1419s
+[PROGRESS] full_ft_0625 | one-epoch training 406/1250 optimizer update attempts | elapsed 1422s
+[PROGRESS] full_ft_0625 | one-epoch training 407/1250 optimizer update attempts | elapsed 1426s
+[HEARTBEAT] full_ft_0625 | one-epoch training 407/1250 optimizer update attempts | elapsed 1429s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 408/1250 optimizer update attempts | elapsed 1429s
+[PROGRESS] full_ft_0625 | one-epoch training 409/1250 optimizer update attempts | elapsed 1433s
+[PROGRESS] full_ft_0625 | one-epoch training 410/1250 optimizer update attempts | elapsed 1436s
+[PROGRESS] full_ft_0625 | one-epoch training 411/1250 optimizer update attempts | elapsed 1440s
+[PROGRESS] full_ft_0625 | one-epoch training 412/1250 optimizer update attempts | elapsed 1443s
+[HEARTBEAT] full_ft_0625 | one-epoch training 412/1250 optimizer update attempts | elapsed 1444s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 413/1250 optimizer update attempts | elapsed 1447s
+[PROGRESS] full_ft_0625 | one-epoch training 414/1250 optimizer update attempts | elapsed 1450s
+[PROGRESS] full_ft_0625 | one-epoch training 415/1250 optimizer update attempts | elapsed 1454s
+[PROGRESS] full_ft_0625 | one-epoch training 416/1250 optimizer update attempts | elapsed 1457s
+[HEARTBEAT] full_ft_0625 | one-epoch training 416/1250 optimizer update attempts | elapsed 1459s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 417/1250 optimizer update attempts | elapsed 1461s
+[PROGRESS] full_ft_0625 | one-epoch training 418/1250 optimizer update attempts | elapsed 1464s
+[PROGRESS] full_ft_0625 | one-epoch training 419/1250 optimizer update attempts | elapsed 1468s
+[PROGRESS] full_ft_0625 | one-epoch training 420/1250 optimizer update attempts | elapsed 1471s
+[HEARTBEAT] full_ft_0625 | one-epoch training 420/1250 optimizer update attempts | elapsed 1474s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 421/1250 optimizer update attempts | elapsed 1475s
+[PROGRESS] full_ft_0625 | one-epoch training 422/1250 optimizer update attempts | elapsed 1478s
+[PROGRESS] full_ft_0625 | one-epoch training 423/1250 optimizer update attempts | elapsed 1482s
+[PROGRESS] full_ft_0625 | one-epoch training 424/1250 optimizer update attempts | elapsed 1486s
+[HEARTBEAT] full_ft_0625 | one-epoch training 424/1250 optimizer update attempts | elapsed 1489s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 425/1250 optimizer update attempts | elapsed 1489s
+full_ft: 425/1250  SFT=0.2415  3.30s/update
+[PROGRESS] full_ft_0625 | one-epoch training 426/1250 optimizer update attempts | elapsed 1493s
+[PROGRESS] full_ft_0625 | one-epoch training 427/1250 optimizer update attempts | elapsed 1496s
+[PROGRESS] full_ft_0625 | one-epoch training 428/1250 optimizer update attempts | elapsed 1500s
+[PROGRESS] full_ft_0625 | one-epoch training 429/1250 optimizer update attempts | elapsed 1504s
+[HEARTBEAT] full_ft_0625 | one-epoch training 429/1250 optimizer update attempts | elapsed 1504s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 430/1250 optimizer update attempts | elapsed 1508s
+[PROGRESS] full_ft_0625 | one-epoch training 431/1250 optimizer update attempts | elapsed 1512s
+[PROGRESS] full_ft_0625 | one-epoch training 432/1250 optimizer update attempts | elapsed 1515s
+[PROGRESS] full_ft_0625 | one-epoch training 433/1250 optimizer update attempts | elapsed 1519s
+[HEARTBEAT] full_ft_0625 | one-epoch training 433/1250 optimizer update attempts | elapsed 1519s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 434/1250 optimizer update attempts | elapsed 1522s
+[PROGRESS] full_ft_0625 | one-epoch training 435/1250 optimizer update attempts | elapsed 1526s
+[PROGRESS] full_ft_0625 | one-epoch training 436/1250 optimizer update attempts | elapsed 1530s
+[PROGRESS] full_ft_0625 | one-epoch training 437/1250 optimizer update attempts | elapsed 1533s
+[HEARTBEAT] full_ft_0625 | one-epoch training 437/1250 optimizer update attempts | elapsed 1534s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 438/1250 optimizer update attempts | elapsed 1537s
+[PROGRESS] full_ft_0625 | one-epoch training 439/1250 optimizer update attempts | elapsed 1540s
+[PROGRESS] full_ft_0625 | one-epoch training 440/1250 optimizer update attempts | elapsed 1543s
+[PROGRESS] full_ft_0625 | one-epoch training 441/1250 optimizer update attempts | elapsed 1547s
+[HEARTBEAT] full_ft_0625 | one-epoch training 441/1250 optimizer update attempts | elapsed 1549s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 442/1250 optimizer update attempts | elapsed 1550s
+[PROGRESS] full_ft_0625 | one-epoch training 443/1250 optimizer update attempts | elapsed 1554s
+[PROGRESS] full_ft_0625 | one-epoch training 444/1250 optimizer update attempts | elapsed 1557s
+[PROGRESS] full_ft_0625 | one-epoch training 445/1250 optimizer update attempts | elapsed 1561s
+[HEARTBEAT] full_ft_0625 | one-epoch training 445/1250 optimizer update attempts | elapsed 1564s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 446/1250 optimizer update attempts | elapsed 1564s
+[PROGRESS] full_ft_0625 | one-epoch training 447/1250 optimizer update attempts | elapsed 1568s
+[PROGRESS] full_ft_0625 | one-epoch training 448/1250 optimizer update attempts | elapsed 1571s
+[PROGRESS] full_ft_0625 | one-epoch training 449/1250 optimizer update attempts | elapsed 1575s
+[PROGRESS] full_ft_0625 | one-epoch training 450/1250 optimizer update attempts | elapsed 1578s
+full_ft: 450/1250  SFT=0.2297  3.32s/update
+[HEARTBEAT] full_ft_0625 | one-epoch training 450/1250 optimizer update attempts | elapsed 1579s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 451/1250 optimizer update attempts | elapsed 1582s
+[PROGRESS] full_ft_0625 | one-epoch training 452/1250 optimizer update attempts | elapsed 1585s
+[PROGRESS] full_ft_0625 | one-epoch training 453/1250 optimizer update attempts | elapsed 1589s
+[PROGRESS] full_ft_0625 | one-epoch training 454/1250 optimizer update attempts | elapsed 1592s
+[HEARTBEAT] full_ft_0625 | one-epoch training 454/1250 optimizer update attempts | elapsed 1594s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 455/1250 optimizer update attempts | elapsed 1596s
+[PROGRESS] full_ft_0625 | one-epoch training 456/1250 optimizer update attempts | elapsed 1599s
+[PROGRESS] full_ft_0625 | one-epoch training 457/1250 optimizer update attempts | elapsed 1603s
+[PROGRESS] full_ft_0625 | one-epoch training 458/1250 optimizer update attempts | elapsed 1606s
+[HEARTBEAT] full_ft_0625 | one-epoch training 458/1250 optimizer update attempts | elapsed 1609s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 459/1250 optimizer update attempts | elapsed 1609s
+[PROGRESS] full_ft_0625 | one-epoch training 460/1250 optimizer update attempts | elapsed 1613s
+[PROGRESS] full_ft_0625 | one-epoch training 461/1250 optimizer update attempts | elapsed 1616s
+[PROGRESS] full_ft_0625 | one-epoch training 462/1250 optimizer update attempts | elapsed 1620s
+[PROGRESS] full_ft_0625 | one-epoch training 463/1250 optimizer update attempts | elapsed 1623s
+[HEARTBEAT] full_ft_0625 | one-epoch training 463/1250 optimizer update attempts | elapsed 1624s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 464/1250 optimizer update attempts | elapsed 1627s
+[PROGRESS] full_ft_0625 | one-epoch training 465/1250 optimizer update attempts | elapsed 1630s
+[PROGRESS] full_ft_0625 | one-epoch training 466/1250 optimizer update attempts | elapsed 1634s
+[PROGRESS] full_ft_0625 | one-epoch training 467/1250 optimizer update attempts | elapsed 1637s
+[HEARTBEAT] full_ft_0625 | one-epoch training 467/1250 optimizer update attempts | elapsed 1639s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 468/1250 optimizer update attempts | elapsed 1641s
+[PROGRESS] full_ft_0625 | one-epoch training 469/1250 optimizer update attempts | elapsed 1644s
+[PROGRESS] full_ft_0625 | one-epoch training 470/1250 optimizer update attempts | elapsed 1648s
+[PROGRESS] full_ft_0625 | one-epoch training 471/1250 optimizer update attempts | elapsed 1651s
+[HEARTBEAT] full_ft_0625 | one-epoch training 471/1250 optimizer update attempts | elapsed 1654s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 472/1250 optimizer update attempts | elapsed 1655s
+[PROGRESS] full_ft_0625 | one-epoch training 473/1250 optimizer update attempts | elapsed 1658s
+[PROGRESS] full_ft_0625 | one-epoch training 474/1250 optimizer update attempts | elapsed 1662s
+[PROGRESS] full_ft_0625 | one-epoch training 475/1250 optimizer update attempts | elapsed 1666s
+full_ft: 475/1250  SFT=0.1783  3.36s/update
+[HEARTBEAT] full_ft_0625 | one-epoch training 475/1250 optimizer update attempts | elapsed 1669s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 476/1250 optimizer update attempts | elapsed 1669s
+[PROGRESS] full_ft_0625 | one-epoch training 477/1250 optimizer update attempts | elapsed 1673s
+[PROGRESS] full_ft_0625 | one-epoch training 478/1250 optimizer update attempts | elapsed 1676s
+[PROGRESS] full_ft_0625 | one-epoch training 479/1250 optimizer update attempts | elapsed 1680s
+[PROGRESS] full_ft_0625 | one-epoch training 480/1250 optimizer update attempts | elapsed 1683s
+[HEARTBEAT] full_ft_0625 | one-epoch training 480/1250 optimizer update attempts | elapsed 1684s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 481/1250 optimizer update attempts | elapsed 1687s
+[PROGRESS] full_ft_0625 | one-epoch training 482/1250 optimizer update attempts | elapsed 1690s
+[PROGRESS] full_ft_0625 | one-epoch training 483/1250 optimizer update attempts | elapsed 1694s
+[PROGRESS] full_ft_0625 | one-epoch training 484/1250 optimizer update attempts | elapsed 1697s
+[HEARTBEAT] full_ft_0625 | one-epoch training 484/1250 optimizer update attempts | elapsed 1699s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 485/1250 optimizer update attempts | elapsed 1701s
+[PROGRESS] full_ft_0625 | one-epoch training 486/1250 optimizer update attempts | elapsed 1705s
+[PROGRESS] full_ft_0625 | one-epoch training 487/1250 optimizer update attempts | elapsed 1709s
+[PROGRESS] full_ft_0625 | one-epoch training 488/1250 optimizer update attempts | elapsed 1712s
+[HEARTBEAT] full_ft_0625 | one-epoch training 488/1250 optimizer update attempts | elapsed 1714s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 489/1250 optimizer update attempts | elapsed 1716s
+[PROGRESS] full_ft_0625 | one-epoch training 490/1250 optimizer update attempts | elapsed 1719s
+[PROGRESS] full_ft_0625 | one-epoch training 491/1250 optimizer update attempts | elapsed 1723s
+[PROGRESS] full_ft_0625 | one-epoch training 492/1250 optimizer update attempts | elapsed 1726s
+[HEARTBEAT] full_ft_0625 | one-epoch training 492/1250 optimizer update attempts | elapsed 1729s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 493/1250 optimizer update attempts | elapsed 1730s
+[PROGRESS] full_ft_0625 | one-epoch training 494/1250 optimizer update attempts | elapsed 1734s
+[PROGRESS] full_ft_0625 | one-epoch training 495/1250 optimizer update attempts | elapsed 1737s
+[PROGRESS] full_ft_0625 | one-epoch training 496/1250 optimizer update attempts | elapsed 1741s
+[HEARTBEAT] full_ft_0625 | one-epoch training 496/1250 optimizer update attempts | elapsed 1744s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 497/1250 optimizer update attempts | elapsed 1745s
+[PROGRESS] full_ft_0625 | one-epoch training 498/1250 optimizer update attempts | elapsed 1748s
+[PROGRESS] full_ft_0625 | one-epoch training 499/1250 optimizer update attempts | elapsed 1752s
+[PROGRESS] full_ft_0625 | one-epoch training 500/1250 optimizer update attempts | elapsed 1755s
+full_ft: 500/1250  SFT=0.2139  3.52s/update
+[CHECKPOINT] full_ft_0625 | one-epoch training 500/1250 optimizer update attempts | elapsed 1755s
+[HEARTBEAT] full_ft_0625 | one-epoch training 500/1250 optimizer update attempts | elapsed 1759s | activity age 4s (heartbeat is NOT proof of progress)
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/full_ft/checkpoints/rolling_update_0500.pt | update 500 | 6.66 GiB
+[PROGRESS] full_ft_0625 | one-epoch training 501/1250 optimizer update attempts | elapsed 1769s
+[PROGRESS] full_ft_0625 | one-epoch training 502/1250 optimizer update attempts | elapsed 1772s
+[HEARTBEAT] full_ft_0625 | one-epoch training 502/1250 optimizer update attempts | elapsed 1774s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 503/1250 optimizer update attempts | elapsed 1776s
+[PROGRESS] full_ft_0625 | one-epoch training 504/1250 optimizer update attempts | elapsed 1782s
+[PROGRESS] full_ft_0625 | one-epoch training 505/1250 optimizer update attempts | elapsed 1785s
+[PROGRESS] full_ft_0625 | one-epoch training 506/1250 optimizer update attempts | elapsed 1789s
+[HEARTBEAT] full_ft_0625 | one-epoch training 506/1250 optimizer update attempts | elapsed 1789s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 507/1250 optimizer update attempts | elapsed 1792s
+[PROGRESS] full_ft_0625 | one-epoch training 508/1250 optimizer update attempts | elapsed 1796s
+[PROGRESS] full_ft_0625 | one-epoch training 509/1250 optimizer update attempts | elapsed 1799s
+[PROGRESS] full_ft_0625 | one-epoch training 510/1250 optimizer update attempts | elapsed 1803s
+[HEARTBEAT] full_ft_0625 | one-epoch training 510/1250 optimizer update attempts | elapsed 1804s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 511/1250 optimizer update attempts | elapsed 1806s
+[PROGRESS] full_ft_0625 | one-epoch training 512/1250 optimizer update attempts | elapsed 1810s
+[PROGRESS] full_ft_0625 | one-epoch training 513/1250 optimizer update attempts | elapsed 1814s
+[PROGRESS] full_ft_0625 | one-epoch training 514/1250 optimizer update attempts | elapsed 1818s
+[HEARTBEAT] full_ft_0625 | one-epoch training 514/1250 optimizer update attempts | elapsed 1819s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 515/1250 optimizer update attempts | elapsed 1821s
+[PROGRESS] full_ft_0625 | one-epoch training 516/1250 optimizer update attempts | elapsed 1825s
+[PROGRESS] full_ft_0625 | one-epoch training 517/1250 optimizer update attempts | elapsed 1828s
+[PROGRESS] full_ft_0625 | one-epoch training 518/1250 optimizer update attempts | elapsed 1832s
+[HEARTBEAT] full_ft_0625 | one-epoch training 518/1250 optimizer update attempts | elapsed 1834s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 519/1250 optimizer update attempts | elapsed 1836s
+[PROGRESS] full_ft_0625 | one-epoch training 520/1250 optimizer update attempts | elapsed 1839s
+[PROGRESS] full_ft_0625 | one-epoch training 521/1250 optimizer update attempts | elapsed 1843s
+[PROGRESS] full_ft_0625 | one-epoch training 522/1250 optimizer update attempts | elapsed 1846s
+[HEARTBEAT] full_ft_0625 | one-epoch training 522/1250 optimizer update attempts | elapsed 1849s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 523/1250 optimizer update attempts | elapsed 1850s
+[PROGRESS] full_ft_0625 | one-epoch training 524/1250 optimizer update attempts | elapsed 1854s
+[PROGRESS] full_ft_0625 | one-epoch training 525/1250 optimizer update attempts | elapsed 1857s
+full_ft: 525/1250  SFT=0.2110  3.31s/update
+[PROGRESS] full_ft_0625 | one-epoch training 526/1250 optimizer update attempts | elapsed 1861s
+[HEARTBEAT] full_ft_0625 | one-epoch training 526/1250 optimizer update attempts | elapsed 1864s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 527/1250 optimizer update attempts | elapsed 1864s
+[PROGRESS] full_ft_0625 | one-epoch training 528/1250 optimizer update attempts | elapsed 1868s
+[PROGRESS] full_ft_0625 | one-epoch training 529/1250 optimizer update attempts | elapsed 1872s
+[PROGRESS] full_ft_0625 | one-epoch training 530/1250 optimizer update attempts | elapsed 1875s
+[HEARTBEAT] full_ft_0625 | one-epoch training 530/1250 optimizer update attempts | elapsed 1879s | activity age 4s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 531/1250 optimizer update attempts | elapsed 1879s
+[PROGRESS] full_ft_0625 | one-epoch training 532/1250 optimizer update attempts | elapsed 1882s
+[PROGRESS] full_ft_0625 | one-epoch training 533/1250 optimizer update attempts | elapsed 1886s
+[PROGRESS] full_ft_0625 | one-epoch training 534/1250 optimizer update attempts | elapsed 1889s
+[PROGRESS] full_ft_0625 | one-epoch training 535/1250 optimizer update attempts | elapsed 1893s
+[HEARTBEAT] full_ft_0625 | one-epoch training 535/1250 optimizer update attempts | elapsed 1894s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 536/1250 optimizer update attempts | elapsed 1896s
+[PROGRESS] full_ft_0625 | one-epoch training 537/1250 optimizer update attempts | elapsed 1900s
+[PROGRESS] full_ft_0625 | one-epoch training 538/1250 optimizer update attempts | elapsed 1903s
+[PROGRESS] full_ft_0625 | one-epoch training 539/1250 optimizer update attempts | elapsed 1907s
+[HEARTBEAT] full_ft_0625 | one-epoch training 539/1250 optimizer update attempts | elapsed 1909s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 540/1250 optimizer update attempts | elapsed 1910s
+[PROGRESS] full_ft_0625 | one-epoch training 541/1250 optimizer update attempts | elapsed 1914s
+[PROGRESS] full_ft_0625 | one-epoch training 542/1250 optimizer update attempts | elapsed 1917s
+[PROGRESS] full_ft_0625 | one-epoch training 543/1250 optimizer update attempts | elapsed 1921s
+[PROGRESS] full_ft_0625 | one-epoch training 544/1250 optimizer update attempts | elapsed 1924s
+[HEARTBEAT] full_ft_0625 | one-epoch training 544/1250 optimizer update attempts | elapsed 1924s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 545/1250 optimizer update attempts | elapsed 1928s
+[PROGRESS] full_ft_0625 | one-epoch training 546/1250 optimizer update attempts | elapsed 1931s
+[PROGRESS] full_ft_0625 | one-epoch training 547/1250 optimizer update attempts | elapsed 1935s
+[PROGRESS] full_ft_0625 | one-epoch training 548/1250 optimizer update attempts | elapsed 1938s
+[HEARTBEAT] full_ft_0625 | one-epoch training 548/1250 optimizer update attempts | elapsed 1939s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 549/1250 optimizer update attempts | elapsed 1942s
+[PROGRESS] full_ft_0625 | one-epoch training 550/1250 optimizer update attempts | elapsed 1945s
+full_ft: 550/1250  SFT=0.2071  3.34s/update
+[PROGRESS] full_ft_0625 | one-epoch training 551/1250 optimizer update attempts | elapsed 1948s
+[PROGRESS] full_ft_0625 | one-epoch training 552/1250 optimizer update attempts | elapsed 1952s
+[HEARTBEAT] full_ft_0625 | one-epoch training 552/1250 optimizer update attempts | elapsed 1954s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 553/1250 optimizer update attempts | elapsed 1955s
+[PROGRESS] full_ft_0625 | one-epoch training 554/1250 optimizer update attempts | elapsed 1959s
+[PROGRESS] full_ft_0625 | one-epoch training 555/1250 optimizer update attempts | elapsed 1962s
+[PROGRESS] full_ft_0625 | one-epoch training 556/1250 optimizer update attempts | elapsed 1966s
+[HEARTBEAT] full_ft_0625 | one-epoch training 556/1250 optimizer update attempts | elapsed 1969s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 557/1250 optimizer update attempts | elapsed 1969s
+[PROGRESS] full_ft_0625 | one-epoch training 558/1250 optimizer update attempts | elapsed 1973s
+[PROGRESS] full_ft_0625 | one-epoch training 559/1250 optimizer update attempts | elapsed 1976s
+[PROGRESS] full_ft_0625 | one-epoch training 560/1250 optimizer update attempts | elapsed 1980s
+[PROGRESS] full_ft_0625 | one-epoch training 561/1250 optimizer update attempts | elapsed 1983s
+[HEARTBEAT] full_ft_0625 | one-epoch training 561/1250 optimizer update attempts | elapsed 1984s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 562/1250 optimizer update attempts | elapsed 1986s
+[PROGRESS] full_ft_0625 | one-epoch training 563/1250 optimizer update attempts | elapsed 1990s
+[PROGRESS] full_ft_0625 | one-epoch training 564/1250 optimizer update attempts | elapsed 1993s
+[PROGRESS] full_ft_0625 | one-epoch training 565/1250 optimizer update attempts | elapsed 1996s
+[HEARTBEAT] full_ft_0625 | one-epoch training 565/1250 optimizer update attempts | elapsed 1999s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 566/1250 optimizer update attempts | elapsed 2000s
+[PROGRESS] full_ft_0625 | one-epoch training 567/1250 optimizer update attempts | elapsed 2003s
+[PROGRESS] full_ft_0625 | one-epoch training 568/1250 optimizer update attempts | elapsed 2006s
+[PROGRESS] full_ft_0625 | one-epoch training 569/1250 optimizer update attempts | elapsed 2010s
+[PROGRESS] full_ft_0625 | one-epoch training 570/1250 optimizer update attempts | elapsed 2013s
+[HEARTBEAT] full_ft_0625 | one-epoch training 570/1250 optimizer update attempts | elapsed 2014s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 571/1250 optimizer update attempts | elapsed 2017s
+[PROGRESS] full_ft_0625 | one-epoch training 572/1250 optimizer update attempts | elapsed 2020s
+[PROGRESS] full_ft_0625 | one-epoch training 573/1250 optimizer update attempts | elapsed 2024s
+[PROGRESS] full_ft_0625 | one-epoch training 574/1250 optimizer update attempts | elapsed 2027s
+[HEARTBEAT] full_ft_0625 | one-epoch training 574/1250 optimizer update attempts | elapsed 2029s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 575/1250 optimizer update attempts | elapsed 2030s
+full_ft: 575/1250  SFT=0.2063  3.52s/update
+[PROGRESS] full_ft_0625 | one-epoch training 576/1250 optimizer update attempts | elapsed 2034s
+[PROGRESS] full_ft_0625 | one-epoch training 577/1250 optimizer update attempts | elapsed 2037s
+[PROGRESS] full_ft_0625 | one-epoch training 578/1250 optimizer update attempts | elapsed 2040s
+[PROGRESS] full_ft_0625 | one-epoch training 579/1250 optimizer update attempts | elapsed 2044s
+[HEARTBEAT] full_ft_0625 | one-epoch training 579/1250 optimizer update attempts | elapsed 2044s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 580/1250 optimizer update attempts | elapsed 2047s
+[PROGRESS] full_ft_0625 | one-epoch training 581/1250 optimizer update attempts | elapsed 2051s
+[PROGRESS] full_ft_0625 | one-epoch training 582/1250 optimizer update attempts | elapsed 2054s
+[PROGRESS] full_ft_0625 | one-epoch training 583/1250 optimizer update attempts | elapsed 2058s
+[HEARTBEAT] full_ft_0625 | one-epoch training 583/1250 optimizer update attempts | elapsed 2059s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 584/1250 optimizer update attempts | elapsed 2061s
+[PROGRESS] full_ft_0625 | one-epoch training 585/1250 optimizer update attempts | elapsed 2064s
+[PROGRESS] full_ft_0625 | one-epoch training 586/1250 optimizer update attempts | elapsed 2067s
+[PROGRESS] full_ft_0625 | one-epoch training 587/1250 optimizer update attempts | elapsed 2071s
+[HEARTBEAT] full_ft_0625 | one-epoch training 587/1250 optimizer update attempts | elapsed 2074s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 588/1250 optimizer update attempts | elapsed 2074s
+[PROGRESS] full_ft_0625 | one-epoch training 589/1250 optimizer update attempts | elapsed 2077s
+[PROGRESS] full_ft_0625 | one-epoch training 590/1250 optimizer update attempts | elapsed 2081s
+[PROGRESS] full_ft_0625 | one-epoch training 591/1250 optimizer update attempts | elapsed 2084s
+[PROGRESS] full_ft_0625 | one-epoch training 592/1250 optimizer update attempts | elapsed 2088s
+[HEARTBEAT] full_ft_0625 | one-epoch training 592/1250 optimizer update attempts | elapsed 2089s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 593/1250 optimizer update attempts | elapsed 2091s
+[PROGRESS] full_ft_0625 | one-epoch training 594/1250 optimizer update attempts | elapsed 2094s
+[PROGRESS] full_ft_0625 | one-epoch training 595/1250 optimizer update attempts | elapsed 2098s
+[PROGRESS] full_ft_0625 | one-epoch training 596/1250 optimizer update attempts | elapsed 2101s
+[HEARTBEAT] full_ft_0625 | one-epoch training 596/1250 optimizer update attempts | elapsed 2104s | activity age 3s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 597/1250 optimizer update attempts | elapsed 2104s
+[PROGRESS] full_ft_0625 | one-epoch training 598/1250 optimizer update attempts | elapsed 2108s
+[PROGRESS] full_ft_0625 | one-epoch training 599/1250 optimizer update attempts | elapsed 2111s
+[PROGRESS] full_ft_0625 | one-epoch training 600/1250 optimizer update attempts | elapsed 2114s
+full_ft: 600/1250  SFT=0.1962  3.50s/update
+[CHECKPOINT] full_ft_0625 | one-epoch training 600/1250 optimizer update attempts | elapsed 2114s
+[HEARTBEAT] full_ft_0625 | one-epoch training 600/1250 optimizer update attempts | elapsed 2119s | activity age 4s (heartbeat is NOT proof of progress)
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/full_ft/checkpoints/rolling_update_0600.pt | update 600 | 6.66 GiB
+[PROGRESS] full_ft_0625 | one-epoch training 601/1250 optimizer update attempts | elapsed 2127s
+[PROGRESS] full_ft_0625 | one-epoch training 602/1250 optimizer update attempts | elapsed 2130s
+[PROGRESS] full_ft_0625 | one-epoch training 603/1250 optimizer update attempts | elapsed 2133s
+[HEARTBEAT] full_ft_0625 | one-epoch training 603/1250 optimizer update attempts | elapsed 2134s | activity age 1s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 604/1250 optimizer update attempts | elapsed 2137s
+[PROGRESS] full_ft_0625 | one-epoch training 605/1250 optimizer update attempts | elapsed 2140s
+[PROGRESS] full_ft_0625 | one-epoch training 606/1250 optimizer update attempts | elapsed 2143s
+[PROGRESS] full_ft_0625 | one-epoch training 607/1250 optimizer update attempts | elapsed 2147s
+[HEARTBEAT] full_ft_0625 | one-epoch training 607/1250 optimizer update attempts | elapsed 2149s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 608/1250 optimizer update attempts | elapsed 2150s
+[PROGRESS] full_ft_0625 | one-epoch training 609/1250 optimizer update attempts | elapsed 2154s
+[PROGRESS] full_ft_0625 | one-epoch training 610/1250 optimizer update attempts | elapsed 2157s
+[PROGRESS] full_ft_0625 | one-epoch training 611/1250 optimizer update attempts | elapsed 2160s
+[PROGRESS] full_ft_0625 | one-epoch training 612/1250 optimizer update attempts | elapsed 2163s
+[HEARTBEAT] full_ft_0625 | one-epoch training 612/1250 optimizer update attempts | elapsed 2164s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 613/1250 optimizer update attempts | elapsed 2167s
+[PROGRESS] full_ft_0625 | one-epoch training 614/1250 optimizer update attempts | elapsed 2170s
+[PROGRESS] full_ft_0625 | one-epoch training 615/1250 optimizer update attempts | elapsed 2174s
+[PROGRESS] full_ft_0625 | one-epoch training 616/1250 optimizer update attempts | elapsed 2177s
+[HEARTBEAT] full_ft_0625 | one-epoch training 616/1250 optimizer update attempts | elapsed 2179s | activity age 2s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 617/1250 optimizer update attempts | elapsed 2180s
+[PROGRESS] full_ft_0625 | one-epoch training 618/1250 optimizer update attempts | elapsed 2184s
+[PROGRESS] full_ft_0625 | one-epoch training 619/1250 optimizer update attempts | elapsed 2187s
+[PROGRESS] full_ft_0625 | one-epoch training 620/1250 optimizer update attempts | elapsed 2190s
+[PROGRESS] full_ft_0625 | one-epoch training 621/1250 optimizer update attempts | elapsed 2194s
+[HEARTBEAT] full_ft_0625 | one-epoch training 621/1250 optimizer update attempts | elapsed 2194s | activity age 0s (heartbeat is NOT proof of progress)
+[PROGRESS] full_ft_0625 | one-epoch training 622/1250 optimizer update attempts | elapsed 2197s
+[PROGRESS] full_ft_0625 | one-epoch training 623/1250 optimizer update attempts | elapsed 2200s
+[PROGRESS] full_ft_0625 | one-epoch training 624/1250 optimizer update attempts | elapsed 2204s
+[PROGRESS] full_ft_0625 | one-epoch training 625/1250 optimizer update attempts | elapsed 2207s
+full_ft: 625/1250  SFT=0.2071  3.26s/update
+[CHECKPOINT] full_ft_0625 | one-epoch training 625/1250 optimizer update attempts | elapsed 2207s
+[HEARTBEAT] full_ft_0625 | one-epoch training 625/1250 optimizer update attempts | elapsed 2209s | activity age 2s (heartbeat is NOT proof of progress)
+[CHECKPOINT SAVED] /home/task1_starter/outputs/assignment/runs/full_ft/checkpoints/update_0625.pt | update 625 | 6.66 GiB
+[DONE] full_ft_0625 | one-epoch training 625/1250 optimizer update attempts | elapsed 2218s

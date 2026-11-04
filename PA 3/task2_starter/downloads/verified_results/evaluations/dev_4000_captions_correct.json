@@ -1,0 +1,578 @@
+[
+  {
+    "id": "caption-780099",
+    "image_id": 522446,
+    "target": "a number of people sitting at a bar with wine glasses ",
+    "nll": 1.4950931072235107
+  },
+  {
+    "id": "caption-828497",
+    "image_id": 435299,
+    "target": "An orange cat about to jump onto a tile floor from a bed.",
+    "nll": 2.1472036838531494
+  },
+  {
+    "id": "caption-628796",
+    "image_id": 333656,
+    "target": "A surf teacher and two students practice on the beach. ",
+    "nll": 2.5489306449890137
+  },
+  {
+    "id": "caption-65640",
+    "image_id": 87483,
+    "target": "Several sheep eating in a pasture and one is looking up.",
+    "nll": 2.7082531452178955
+  },
+  {
+    "id": "caption-403785",
+    "image_id": 521719,
+    "target": "Multicolored wind socks hanging from a patio roof.",
+    "nll": 3.940450429916382
+  },
+  {
+    "id": "caption-518118",
+    "image_id": 175437,
+    "target": "A man that is leaning over a tray of doughnuts.",
+    "nll": 2.3436644077301025
+  },
+  {
+    "id": "caption-556670",
+    "image_id": 52774,
+    "target": "A slice of vegetarian pizza with cheese, olives and mushrooms.",
+    "nll": 3.1046855449676514
+  },
+  {
+    "id": "caption-126693",
+    "image_id": 160941,
+    "target": "an image of train moving down the tracks",
+    "nll": 2.0296013355255127
+  },
+  {
+    "id": "caption-40795",
+    "image_id": 38666,
+    "target": "A young child holding a teddy bear around his friends. ",
+    "nll": 2.1839287281036377
+  },
+  {
+    "id": "caption-16766",
+    "image_id": 16761,
+    "target": "Two dogs looking through an iron fence with a flower pot.",
+    "nll": 2.2569451332092285
+  },
+  {
+    "id": "caption-260017",
+    "image_id": 513688,
+    "target": "a desk with a laptop with a mouse and phone",
+    "nll": 2.051379919052124
+  },
+  {
+    "id": "caption-652152",
+    "image_id": 409627,
+    "target": "Young boy consuming food at outdoor seating area.",
+    "nll": 3.0071208477020264
+  },
+  {
+    "id": "caption-565822",
+    "image_id": 580693,
+    "target": "a giraffe is laying down in a field",
+    "nll": 1.756364107131958
+  },
+  {
+    "id": "caption-776817",
+    "image_id": 130225,
+    "target": "Two people standing in the grass flying a kite.",
+    "nll": 1.6069378852844238
+  },
+  {
+    "id": "caption-479461",
+    "image_id": 453427,
+    "target": "The entrance to the city of Reno sign. ",
+    "nll": 3.794915199279785
+  },
+  {
+    "id": "caption-346837",
+    "image_id": 26045,
+    "target": "A row of urinals on ledge next to yellow wall.",
+    "nll": 2.9764299392700195
+  },
+  {
+    "id": "caption-534216",
+    "image_id": 530875,
+    "target": "A young man on a skateboard in a skate park.",
+    "nll": 1.1417410373687744
+  },
+  {
+    "id": "caption-558373",
+    "image_id": 268831,
+    "target": "A very nice looking rest room with a big sink.",
+    "nll": 3.358518362045288
+  },
+  {
+    "id": "caption-692032",
+    "image_id": 42568,
+    "target": "a bathroom with a stand up shower and tub.",
+    "nll": 2.264765501022339
+  },
+  {
+    "id": "caption-374861",
+    "image_id": 237318,
+    "target": "A view of the woods from a car of knocked down trees. ",
+    "nll": 3.1293845176696777
+  },
+  {
+    "id": "caption-78519",
+    "image_id": 481928,
+    "target": "colorful trains going down tracks on both sides of the road",
+    "nll": 3.036163806915283
+  },
+  {
+    "id": "caption-86285",
+    "image_id": 396863,
+    "target": "The young girl wearing red and black rides atop the white pony.",
+    "nll": 3.7191004753112793
+  },
+  {
+    "id": "caption-177344",
+    "image_id": 500583,
+    "target": "Three men ride in a horse drawn carriage on a road in the mountains.",
+    "nll": 1.4582812786102295
+  },
+  {
+    "id": "caption-55326",
+    "image_id": 156416,
+    "target": "Two men and a women are in the water at the beach while playing Frisbee. ",
+    "nll": 2.2509093284606934
+  },
+  {
+    "id": "caption-734699",
+    "image_id": 227226,
+    "target": "A group of men standing around a room.",
+    "nll": 1.4267598390579224
+  },
+  {
+    "id": "caption-423096",
+    "image_id": 38479,
+    "target": "A large clocktower is pictured near a fence.",
+    "nll": 2.9818358421325684
+  },
+  {
+    "id": "caption-468863",
+    "image_id": 80066,
+    "target": "A bedroom has a canopy bed with red cloth and a gilded mirror.",
+    "nll": 3.2082326412200928
+  },
+  {
+    "id": "caption-534290",
+    "image_id": 19447,
+    "target": "Two adult and one baby giraffe between stacked logs and a pond.",
+    "nll": 3.235018253326416
+  },
+  {
+    "id": "caption-641051",
+    "image_id": 96215,
+    "target": "A bunch of woman clapping around a birthday cake.",
+    "nll": 2.3781673908233643
+  },
+  {
+    "id": "caption-397732",
+    "image_id": 104965,
+    "target": "A stop sign in front of a short building",
+    "nll": 2.0374045372009277
+  },
+  {
+    "id": "caption-369135",
+    "image_id": 346343,
+    "target": "A train station with a few passengers waiting for the train to arrive.",
+    "nll": 1.231703281402588
+  },
+  {
+    "id": "caption-718556",
+    "image_id": 500422,
+    "target": "A giraffe standing up near a few deer",
+    "nll": 2.8193557262420654
+  },
+  {
+    "id": "caption-512808",
+    "image_id": 428248,
+    "target": "A black and white photo of a guy skateboarding. ",
+    "nll": 1.396315097808838
+  },
+  {
+    "id": "caption-427811",
+    "image_id": 537672,
+    "target": "A black refrigerator freezer inside of a kitchen.",
+    "nll": 1.9433386325836182
+  },
+  {
+    "id": "caption-549427",
+    "image_id": 421923,
+    "target": "A statue next to a vase of flowers on a shelf. ",
+    "nll": 1.8163812160491943
+  },
+  {
+    "id": "caption-803307",
+    "image_id": 149890,
+    "target": "A giraffe and some zebra grazing near a tree.",
+    "nll": 1.3000853061676025
+  },
+  {
+    "id": "caption-585884",
+    "image_id": 47654,
+    "target": "A man kneeling down next to two girls.",
+    "nll": 3.1732394695281982
+  },
+  {
+    "id": "caption-206384",
+    "image_id": 123810,
+    "target": "A bride and groom are cutting into a cake.",
+    "nll": 1.3169634342193604
+  },
+  {
+    "id": "caption-377254",
+    "image_id": 357992,
+    "target": "This desk has a one computer and two laptops on it.",
+    "nll": 2.242758274078369
+  },
+  {
+    "id": "caption-107216",
+    "image_id": 226762,
+    "target": "A man in a suit talking on a cell phone while sitting on a train.",
+    "nll": 1.3345022201538086
+  },
+  {
+    "id": "caption-562490",
+    "image_id": 363188,
+    "target": "A group of people walk down the street dressed as zombies.",
+    "nll": 2.0493884086608887
+  },
+  {
+    "id": "caption-210807",
+    "image_id": 374629,
+    "target": "Cows are walking along a grassy area and sidewalk.",
+    "nll": 2.388939619064331
+  },
+  {
+    "id": "caption-408854",
+    "image_id": 207675,
+    "target": "A church has a clock tower with a steeple.",
+    "nll": 1.6743475198745728
+  },
+  {
+    "id": "caption-815639",
+    "image_id": 365385,
+    "target": "A toothbrush is sitting inside a cup next to a sink.",
+    "nll": 1.506941795349121
+  },
+  {
+    "id": "caption-108138",
+    "image_id": 320641,
+    "target": "A young man riding a bike past a lake.",
+    "nll": 1.8148499727249146
+  },
+  {
+    "id": "caption-743629",
+    "image_id": 189427,
+    "target": "Garbage can on sidewalk with humorous caricature with sign.",
+    "nll": 3.7944700717926025
+  },
+  {
+    "id": "caption-519470",
+    "image_id": 431952,
+    "target": "A group of people practicing a sport in the grass.",
+    "nll": 1.3837777376174927
+  },
+  {
+    "id": "caption-610184",
+    "image_id": 470746,
+    "target": "A library with furniture for sitting and a fireplace.",
+    "nll": 2.6368393898010254
+  },
+  {
+    "id": "caption-111126",
+    "image_id": 528720,
+    "target": "Two guys with skateboards standing on  a hill",
+    "nll": 3.8574776649475098
+  },
+  {
+    "id": "caption-427764",
+    "image_id": 377352,
+    "target": "Two motorcycle riders talking on the side of the road. ",
+    "nll": 1.6098606586456299
+  },
+  {
+    "id": "caption-814491",
+    "image_id": 249668,
+    "target": "A tern stands on a beach with a fish in its beak.",
+    "nll": 1.7269136905670166
+  },
+  {
+    "id": "caption-285138",
+    "image_id": 200745,
+    "target": "A goalie at a soccer game attempting to block a soccer ball from the goal.",
+    "nll": 1.942462682723999
+  },
+  {
+    "id": "caption-737795",
+    "image_id": 67131,
+    "target": "Old hot rods are sitting in a grass lot.",
+    "nll": 2.912672996520996
+  },
+  {
+    "id": "caption-98382",
+    "image_id": 542792,
+    "target": "An extremely large wooden bat leaning against a building.",
+    "nll": 2.9950027465820312
+  },
+  {
+    "id": "caption-57549",
+    "image_id": 80163,
+    "target": "a young boy with a blue shirt is playing tennis",
+    "nll": 2.571535587310791
+  },
+  {
+    "id": "caption-102742",
+    "image_id": 368204,
+    "target": "A man is playing tennis, dressed in white, about to swing his racket.",
+    "nll": 1.9276885986328125
+  },
+  {
+    "id": "caption-287034",
+    "image_id": 230993,
+    "target": "Two women with open umbrellas walking down a street.",
+    "nll": 1.5994986295700073
+  },
+  {
+    "id": "caption-435454",
+    "image_id": 418699,
+    "target": "Two scissors that are interlocked on a table.",
+    "nll": 2.5103864669799805
+  },
+  {
+    "id": "caption-76522",
+    "image_id": 378928,
+    "target": "A woman playing tennis on a grass court",
+    "nll": 1.5257041454315186
+  },
+  {
+    "id": "caption-526789",
+    "image_id": 285114,
+    "target": "A bunch of commercial planes parked by terminals at night.",
+    "nll": 2.6854028701782227
+  },
+  {
+    "id": "caption-677699",
+    "image_id": 836,
+    "target": "A snowboarder does a flip after jumping off a hill.",
+    "nll": 1.5089243650436401
+  },
+  {
+    "id": "caption-512239",
+    "image_id": 214565,
+    "target": "An elephant sticks it's trunk towards the ground.",
+    "nll": 2.4054059982299805
+  },
+  {
+    "id": "caption-689963",
+    "image_id": 102820,
+    "target": "A child with a red spider man cake.",
+    "nll": 3.2660820484161377
+  },
+  {
+    "id": "caption-537499",
+    "image_id": 19924,
+    "target": "A black and white photo of a woman smoking a cigarette.",
+    "nll": 1.1857078075408936
+  },
+  {
+    "id": "caption-95133",
+    "image_id": 22667,
+    "target": "A light house on an island surrounded by sail boats.",
+    "nll": 3.06765079498291
+  },
+  {
+    "id": "caption-126160",
+    "image_id": 51605,
+    "target": "A man swinging a bat while playing baseball.",
+    "nll": 1.429917812347412
+  },
+  {
+    "id": "caption-396885",
+    "image_id": 41449,
+    "target": "A young girl tossing a frisbee to an older man",
+    "nll": 1.5863988399505615
+  },
+  {
+    "id": "caption-309942",
+    "image_id": 974,
+    "target": "A few people riding on an elephants back.",
+    "nll": 1.8836959600448608
+  },
+  {
+    "id": "caption-522711",
+    "image_id": 133611,
+    "target": "A white pontoon-type boat is in the water with people in it.",
+    "nll": 2.489161729812622
+  },
+  {
+    "id": "caption-759889",
+    "image_id": 313924,
+    "target": "a tennis player with a racket on a court ",
+    "nll": 1.5901650190353394
+  },
+  {
+    "id": "caption-699718",
+    "image_id": 72397,
+    "target": "a yellow and blue fire hydrant by the curb",
+    "nll": 2.149411201477051
+  },
+  {
+    "id": "caption-38544",
+    "image_id": 316397,
+    "target": "Batter getting ready to swing his bat at a baseball game.",
+    "nll": 1.212120771408081
+  },
+  {
+    "id": "caption-131956",
+    "image_id": 84474,
+    "target": "A boat dock with two planes floating on the water.",
+    "nll": 2.015995740890503
+  },
+  {
+    "id": "caption-807637",
+    "image_id": 471521,
+    "target": "two brown dogs laying on a rug by a door ",
+    "nll": 2.0867631435394287
+  },
+  {
+    "id": "caption-553436",
+    "image_id": 188044,
+    "target": "People are standing at a station while holding luggage.",
+    "nll": 1.757920742034912
+  },
+  {
+    "id": "caption-447764",
+    "image_id": 139605,
+    "target": "A small tug boat is gliding in the ocean.",
+    "nll": 2.2227420806884766
+  },
+  {
+    "id": "caption-150391",
+    "image_id": 117223,
+    "target": "A baby is shown with two computers and a toy.",
+    "nll": 2.5334393978118896
+  },
+  {
+    "id": "caption-359067",
+    "image_id": 97048,
+    "target": "The tennis court seems to be made of dirt or clay.",
+    "nll": 3.376659870147705
+  },
+  {
+    "id": "caption-178580",
+    "image_id": 391548,
+    "target": "A large man with a label around his neck is staring straight ahead as he smiles.",
+    "nll": 3.2493293285369873
+  },
+  {
+    "id": "caption-541287",
+    "image_id": 286106,
+    "target": "a kid smiles as he holds a cell phone",
+    "nll": 2.107731342315674
+  },
+  {
+    "id": "caption-437044",
+    "image_id": 260686,
+    "target": "A political figure is on the Television near the blue signs. ",
+    "nll": 4.399095058441162
+  },
+  {
+    "id": "caption-63920",
+    "image_id": 171298,
+    "target": "Parked buses have a tower reflected in the window.",
+    "nll": 3.242340087890625
+  },
+  {
+    "id": "caption-609827",
+    "image_id": 230220,
+    "target": "A cat is eating out of a food dish.",
+    "nll": 2.1546010971069336
+  },
+  {
+    "id": "caption-330000",
+    "image_id": 113045,
+    "target": "A wooden spatula in a bowl with shredded carrot.",
+    "nll": 2.935664415359497
+  },
+  {
+    "id": "caption-182907",
+    "image_id": 99477,
+    "target": "Red headed man bending at a desk while looking up at a monitor.",
+    "nll": 3.4087185859680176
+  },
+  {
+    "id": "caption-1324",
+    "image_id": 362797,
+    "target": "A kite festival has dragon kites flying in the sky.",
+    "nll": 2.3436617851257324
+  },
+  {
+    "id": "caption-265380",
+    "image_id": 530520,
+    "target": "Three young men sitting on a lawn while one uses a laptop.",
+    "nll": 1.8474149703979492
+  },
+  {
+    "id": "caption-299986",
+    "image_id": 70321,
+    "target": "Woman in a red tutu with a bicycle on a European city street",
+    "nll": 3.2531301975250244
+  },
+  {
+    "id": "caption-726988",
+    "image_id": 388157,
+    "target": "Tropical bananas still in bunches on a tree.",
+    "nll": 3.0890865325927734
+  },
+  {
+    "id": "caption-782528",
+    "image_id": 70048,
+    "target": "a table that has some food on top of it",
+    "nll": 1.9813122749328613
+  },
+  {
+    "id": "caption-668840",
+    "image_id": 214503,
+    "target": "a rainbow umbrella that has people under it",
+    "nll": 2.8692266941070557
+  },
+  {
+    "id": "caption-15269",
+    "image_id": 317763,
+    "target": "A close up view of an electrical device",
+    "nll": 2.837773084640503
+  },
+  {
+    "id": "caption-805700",
+    "image_id": 157756,
+    "target": "A clock tower that is sitting in the middle of the street.",
+    "nll": 1.0158779621124268
+  },
+  {
+    "id": "caption-316449",
+    "image_id": 565045,
+    "target": "Blue bathroom with two white towels hanging by the shower.",
+    "nll": 2.631063461303711
+  },
+  {
+    "id": "caption-655420",
+    "image_id": 28273,
+    "target": "A brown kitten sits in a small bag.",
+    "nll": 1.8449379205703735
+  },
+  {
+    "id": "caption-345355",
+    "image_id": 556608,
+    "target": "A birthday cake with English and Chinese characters.",
+    "nll": 2.7616004943847656
+  }
+]

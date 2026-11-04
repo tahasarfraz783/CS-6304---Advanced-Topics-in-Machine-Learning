@@ -1,0 +1,14 @@
+{
+  "update": 4000,
+  "captions_correct_nll": 2.3438304103910923,
+  "grounding_correct_nll": 0.7834245743676244,
+  "grounding_swap_nll": 2.1766537353396416,
+  "grounding_none_nll": 1.6945954182495673,
+  "grounding_swap_penalty": 1.3932291609720173,
+  "natural_correct_nll": 0.9251342151546851,
+  "natural_swap_nll": 2.5152850542217493,
+  "natural_none_nll": 2.96473332028836,
+  "natural_swap_penalty": 1.5901508390670642,
+  "seconds": 1.723132838960737,
+  "peak_gpu_bytes": 5464492544
+}

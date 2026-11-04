@@ -1,0 +1,13 @@
+{
+  "feature_shape": [
+    2,
+    196,
+    768
+  ],
+  "connector_gradient_norm": 451.6970495236158,
+  "loss": 5.070302486419678,
+  "backbone_frozen": true,
+  "matching_masks": true,
+  "trainable_fp32": true,
+  "policy": "Autograd enabled through frozen Qwen; supervised-position projection; per-example mean loss."
+}

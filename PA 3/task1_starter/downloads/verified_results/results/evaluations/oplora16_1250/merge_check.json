@@ -1,0 +1,12 @@
+{
+  "max_abs_logit_differences": [
+    0.03125,
+    0.02734375
+  ],
+  "relative_l2_errors": [
+    0.0020818065386265516,
+    0.0014853751054033637
+  ],
+  "relative_l2_tolerance": 0.02,
+  "note": "FP16 merge changes rounding; inspect saved errors as well as threshold."
+}

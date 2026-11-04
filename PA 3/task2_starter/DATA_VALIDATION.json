@@ -1,0 +1,59 @@
+{
+  "source": "Official COCO 2014 and VQAv2 annotations/questions/complementary pairs; no model predictions used.",
+  "selected_images": 9404,
+  "image_counts": {
+    "train": 8876,
+    "dev": 208,
+    "test": 320
+  },
+  "caption_examples": 18000,
+  "natural_train_pairs": 1536,
+  "natural_dev_pairs": 32,
+  "natural_test_pairs": 96,
+  "ground_dev_pairs": 24,
+  "ground_test_pairs": 64,
+  "selection_sha256": "a8fbf908f48754fbcfa1d0ee35473b255589bc8248df143a671ac2fcc075fb30",
+  "source_files": {
+    "v2_mscoco_train2014_annotations.json": {
+      "sha256": "770d2d3980e7838d6186082e0ddeddd804014c390ae45a592e996d6baf841d92",
+      "bytes": 355516514
+    },
+    "v2_mscoco_train2014_complementary_pairs.json": {
+      "sha256": "b1ac37a0bae6bd4d8073c98364f46e513647bdd6440199a2db025d45fdf9c37d",
+      "bytes": 4733284
+    },
+    "v2_mscoco_val2014_annotations.json": {
+      "sha256": "0564650e712b34c246e4ad142894692bf2e45dee8e9cc6ebb2cedbe85731c4bf",
+      "bytes": 171762489
+    },
+    "v2_mscoco_val2014_complementary_pairs.json": {
+      "sha256": "66d2dab90e7e905e2c9bf3448f3cd744e011fda33879e6109a04834f6e70c0bc",
+      "bytes": 2247414
+    },
+    "v2_OpenEnded_mscoco_train2014_questions.json": {
+      "sha256": "cb671e77b52a86fc3722b2a0ffc456c8199240391bfd97eaf2d850448404845c",
+      "bytes": 41957627
+    },
+    "v2_OpenEnded_mscoco_val2014_questions.json": {
+      "sha256": "f34d9c9909dea76700d361baddd63dd47b4494945097459b542d9fe840244811",
+      "bytes": 20247670
+    },
+    "annotations\\captions_train2014.json": {
+      "sha256": "dd8c9636dc11740f956e36728866ea0c4ebe4988dcbdc5e712b7c2267f152d12",
+      "bytes": 66782097
+    },
+    "annotations\\captions_val2014.json": {
+      "sha256": "7da4cc45cb76ee1642d163e846e1e0a33feffac2e841c9c426d585ea499165a4",
+      "bytes": 32421077
+    },
+    "annotations\\instances_train2014.json": {
+      "sha256": "777ef504abfeba349930485bb32ecd5b6529129a3e010f7852e1437cb049b732",
+      "bytes": 332556225
+    },
+    "annotations\\instances_val2014.json": {
+      "sha256": "e1b4d1bc54906827b1a029981b1c77f2088bd4462569b7615db7929070c3ab47",
+      "bytes": 160682675
+    }
+  },
+  "annotation_policy": "Presence: any annotation incl. crowd; negative: no category annotation. Counts: noncrowd instances; category/image with crowd excluded; broccoli excluded from counting because grouped florets have ambiguous units (annotation-only inspection before model predictions). Absence is annotation-based, not guaranteed visual absence."
+}

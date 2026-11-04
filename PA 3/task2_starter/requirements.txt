@@ -1,0 +1,11 @@
+# Install CUDA-enabled torch first. Reuses Task 1's transformers/peft versions.
+torch>=2.6,<3
+transformers==4.57.1
+peft==0.17.1
+accelerate>=1.0,<2
+numpy>=1.26,<3
+matplotlib>=3.8,<4
+Pillow>=10,<14
+safetensors>=0.4
+sentencepiece>=0.2
+protobuf>=4

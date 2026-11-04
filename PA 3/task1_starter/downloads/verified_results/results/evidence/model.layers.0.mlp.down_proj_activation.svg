@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="660" viewBox="0 0 1100 660">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#1e293b;font-size:13px}</style>
+<text x="100" y="32" style="font-size:21px;font-weight:bold">Local correction: model.layers.0.mlp.down_proj</text>
+<line x1="100" x2="950" y1="445.0" y2="445.0" stroke="#e2e8f0"/>
+<text x="88" y="449.0" text-anchor="end">0</text>
+<line x1="100" x2="950" y1="371.0" y2="371.0" stroke="#e2e8f0"/>
+<text x="88" y="375.0" text-anchor="end">0.0194</text>
+<line x1="100" x2="950" y1="297.0" y2="297.0" stroke="#e2e8f0"/>
+<text x="88" y="301.0" text-anchor="end">0.0388</text>
+<line x1="100" x2="950" y1="223.0" y2="223.0" stroke="#e2e8f0"/>
+<text x="88" y="227.0" text-anchor="end">0.0581</text>
+<line x1="100" x2="950" y1="149.0" y2="149.0" stroke="#e2e8f0"/>
+<text x="88" y="153.0" text-anchor="end">0.0775</text>
+<line x1="100" x2="950" y1="75.0" y2="75.0" stroke="#e2e8f0"/>
+<text x="88" y="79.0" text-anchor="end">0.0969</text>
+<text transform="translate(100.0,463) rotate(25)" text-anchor="start">full_ft_0625</text>
+<text transform="translate(270.0,463) rotate(25)" text-anchor="start">full_ft_1250</text>
+<text transform="translate(440.0,463) rotate(25)" text-anchor="start">l2sp_1250</text>
+<text transform="translate(610.0,463) rotate(25)" text-anchor="start">lora16_1250</text>
+<text transform="translate(780.0,463) rotate(25)" text-anchor="start">lora4_1250</text>
+<text transform="translate(950.0,463) rotate(25)" text-anchor="start">oplora16_1250</text>
+<text x="525.0" y="530" text-anchor="middle">Checkpoint</text>
+<text transform="translate(23,260.0) rotate(-90)" text-anchor="middle">Mean R(z)</text>
+<circle cx="100.0" cy="247.13909448434526" r="3" fill="#2563eb"/>
+<circle cx="270.0" cy="242.5773332404621" r="3" fill="#2563eb"/>
+<circle cx="440.0" cy="268.32350316850477" r="3" fill="#2563eb"/>
+<circle cx="610.0" cy="206.98410506140416" r="3" fill="#2563eb"/>
+<circle cx="780.0" cy="232.59483773185153" r="3" fill="#2563eb"/>
+<circle cx="950.0" cy="102.40740740740739" r="3" fill="#2563eb"/>
+<rect x="100" y="560" width="14" height="4" fill="#2563eb"/>
+<text x="120" y="567">math</text>
+<circle cx="100.0" cy="347.54372142417236" r="3" fill="#d97706"/>
+<circle cx="270.0" cy="344.4587417119899" r="3" fill="#d97706"/>
+<circle cx="440.0" cy="357.39054761439587" r="3" fill="#d97706"/>
+<circle cx="610.0" cy="354.2632385911943" r="3" fill="#d97706"/>
+<circle cx="780.0" cy="393.2457380017099" r="3" fill="#d97706"/>
+<circle cx="950.0" cy="356.0796160851421" r="3" fill="#d97706"/>
+<rect x="420" y="560" width="14" height="4" fill="#d97706"/>
+<text x="440" y="567">non_math</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="660" viewBox="0 0 1100 660">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#1e293b;font-size:13px}</style>
+<text x="100" y="32" style="font-size:21px;font-weight:bold">Relative update magnitude</text>
+<line x1="100" x2="950" y1="445.0" y2="445.0" stroke="#e2e8f0"/>
+<text x="88" y="449.0" text-anchor="end">0</text>
+<line x1="100" x2="950" y1="371.0" y2="371.0" stroke="#e2e8f0"/>
+<text x="88" y="375.0" text-anchor="end">0.00422</text>
+<line x1="100" x2="950" y1="297.0" y2="297.0" stroke="#e2e8f0"/>
+<text x="88" y="301.0" text-anchor="end">0.00844</text>
+<line x1="100" x2="950" y1="223.0" y2="223.0" stroke="#e2e8f0"/>
+<text x="88" y="227.0" text-anchor="end">0.0127</text>
+<line x1="100" x2="950" y1="149.0" y2="149.0" stroke="#e2e8f0"/>
+<text x="88" y="153.0" text-anchor="end">0.0169</text>
+<line x1="100" x2="950" y1="75.0" y2="75.0" stroke="#e2e8f0"/>
+<text x="88" y="79.0" text-anchor="end">0.0211</text>
+<text transform="translate(100.0,463) rotate(25)" text-anchor="start">full_ft_0625</text>
+<text transform="translate(270.0,463) rotate(25)" text-anchor="start">full_ft_1250</text>
+<text transform="translate(440.0,463) rotate(25)" text-anchor="start">l2sp_1250</text>
+<text transform="translate(610.0,463) rotate(25)" text-anchor="start">lora16_1250</text>
+<text transform="translate(780.0,463) rotate(25)" text-anchor="start">lora4_1250</text>
+<text transform="translate(950.0,463) rotate(25)" text-anchor="start">oplora16_1250</text>
+<text x="525.0" y="530" text-anchor="middle">Checkpoint</text>
+<text transform="translate(23,260.0) rotate(-90)" text-anchor="middle">eta</text>
+<circle cx="100.0" cy="214.82425182339543" r="3" fill="#2563eb"/>
+<circle cx="270.0" cy="206.7548708407919" r="3" fill="#2563eb"/>
+<circle cx="440.0" cy="249.53725487760727" r="3" fill="#2563eb"/>
+<circle cx="610.0" cy="195.7703649564577" r="3" fill="#2563eb"/>
+<circle cx="780.0" cy="294.63064017249155" r="3" fill="#2563eb"/>
+<circle cx="950.0" cy="184.55588788981606" r="3" fill="#2563eb"/>
+<rect x="100" y="560" width="14" height="4" fill="#2563eb"/>
+<text x="120" y="567">model.layers.0.mlp.down_proj</text>
+<circle cx="100.0" cy="174.28599833925068" r="3" fill="#d97706"/>
+<circle cx="270.0" cy="163.41247527968312" r="3" fill="#d97706"/>
+<circle cx="440.0" cy="204.77725917821658" r="3" fill="#d97706"/>
+<circle cx="610.0" cy="106.7194160891388" r="3" fill="#d97706"/>
+<circle cx="780.0" cy="214.90484629926377" r="3" fill="#d97706"/>
+<circle cx="950.0" cy="102.40740740740739" r="3" fill="#d97706"/>
+<rect x="420" y="560" width="14" height="4" fill="#d97706"/>
+<text x="440" y="567">model.layers.13.mlp.down_proj</text>
+<circle cx="100.0" cy="226.19465706309353" r="3" fill="#059669"/>
+<circle cx="270.0" cy="217.53631393563336" r="3" fill="#059669"/>
+<circle cx="440.0" cy="306.77869306318934" r="3" fill="#059669"/>
+<circle cx="610.0" cy="246.72205209515718" r="3" fill="#059669"/>
+<circle cx="780.0" cy="327.95776296981177" r="3" fill="#059669"/>
+<circle cx="950.0" cy="283.2307124884605" r="3" fill="#059669"/>
+<rect x="740" y="560" width="14" height="4" fill="#059669"/>
+<text x="760" y="567">model.layers.27.mlp.down_proj</text>
+</svg>

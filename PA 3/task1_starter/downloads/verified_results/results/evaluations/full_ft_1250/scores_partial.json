@@ -1,0 +1,40 @@
+{
+  "method": "full_ft",
+  "results": {
+    "gsm8k_cot": {
+      "name": "gsm8k_cot",
+      "alias": "gsm8k_cot",
+      "sample_len": 1319,
+      "exact_match,strict-match": 0.0,
+      "exact_match_stderr,strict-match": 0.0,
+      "exact_match,flexible-extract": 0.6444275966641395,
+      "exact_match_stderr,flexible-extract": 0.01318540225271385
+    },
+    "hellaswag": {
+      "name": "hellaswag",
+      "alias": "hellaswag",
+      "sample_len": 10042,
+      "acc,none": 0.37402907787293366,
+      "acc_stderr,none": 0.004828822920915538,
+      "acc_norm,none": 0.4613622784305915,
+      "acc_norm_stderr,none": 0.004974860878464459
+    },
+    "boolq": {
+      "name": "boolq",
+      "alias": "boolq",
+      "sample_len": 3270,
+      "acc,none": 0.5743119266055046,
+      "acc_stderr,none": 0.008647930658219475
+    },
+    "arc_easy": {
+      "name": "arc_easy",
+      "alias": "arc_easy",
+      "sample_len": 2376,
+      "acc,none": 0.6632996632996633,
+      "acc_stderr,none": 0.009697166595752359,
+      "acc_norm,none": 0.6321548821548821,
+      "acc_norm_stderr,none": 0.009894923464455033
+    }
+  },
+  "complete": true
+}

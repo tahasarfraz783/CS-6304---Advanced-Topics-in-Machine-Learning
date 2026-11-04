@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "answers": [
+    "2 + 2 = 4.",
+    "Hello! 😊",
+    "5 minus 2 equals **3**",
+    "One color is blue.",
+    "3 times 3 is **9**",
+    "Yes, I can help you with that",
+    "Mango.",
+    "10 divided by 2 is ",
+    "2 + 2 = 4.",
+    "Hello! 😊",
+    "5 minus 2 equals **3**",
+    "One color is blue.",
+    "3 times 3 is **9**",
+    "Yes, I can help you with that",
+    "Mango.",
+    "10 divided by 2 is ",
+    "2 + 2 = 4.",
+    "Hello! 😊",
+    "5 minus 2 equals **3**",
+    "One color is blue.",
+    "3 times 3 is **9**",
+    "Yes, I can help you with that",
+    "Mango.",
+    "10 divided by 2 is ",
+    "2 + 2 = 4.",
+    "Hello! 😊",
+    "5 minus 2 equals **3**",
+    "One color is blue.",
+    "3 times 3 is **9**",
+    "Yes, I can help you with that",
+    "Mango.",
+    "10 divided by 2 is "
+  ],
+  "likelihood": [
+    [
+      -7.55859375,
+      false
+    ]
+  ],
+  "batch_size": 32,
+  "stock_harness_parity": true,
+  "note": "Short eight-token outputs only; not benchmark results or a runtime estimate."
+}

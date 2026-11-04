@@ -1,0 +1,6 @@
+{
+  "basis_preprocessing_seconds": 19.248231619945727,
+  "basis_storage_bytes_all_targets": 323381156,
+  "probe_count": 64,
+  "precision": "FP32 SVD, starting weights, probe forward, cached z, and local measurements"
+}

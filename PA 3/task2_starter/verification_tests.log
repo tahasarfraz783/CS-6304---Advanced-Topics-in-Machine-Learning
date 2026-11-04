@@ -1,0 +1,25 @@
+test_atomic_batches_reused_after_interrupt (test_evaluation_recovery.EvaluationRecoveryTests.test_atomic_batches_reused_after_interrupt) ... ok
+test_figures_tables_dashboard_and_live_refresh (test_evidence.EvidenceTests.test_figures_tables_dashboard_and_live_refresh) ... ok
+test_cached_greedy_generation_batched_and_no_image (test_numeric.NumericTests.test_cached_greedy_generation_batched_and_no_image) ... ok
+test_checkpoint_restores_optimizer_sampler_and_dropout_rng (test_numeric.NumericTests.test_checkpoint_restores_optimizer_sampler_and_dropout_rng) ... ok
+test_lora_and_checkpointing_still_train_connector (test_numeric.NumericTests.test_lora_and_checkpointing_still_train_connector) ... ok
+test_no_image_masks_positions_and_termination (test_numeric.NumericTests.test_no_image_masks_positions_and_termination) ... ok
+test_schedule_endpoints (test_numeric.NumericTests.test_schedule_endpoints) ... ok
+test_selected_logits_equal_full_projection_and_gradients (test_numeric.NumericTests.test_selected_logits_equal_full_projection_and_gradients) ... ok
+test_siglip_processor_shape_and_single_final_normalization (test_numeric.NumericTests.test_siglip_processor_shape_and_single_final_normalization) ... ok
+test_bundled_official_selection_quotas_hash_and_mismatches (test_protocol.ProtocolTests.test_bundled_official_selection_quotas_hash_and_mismatches) ... ok
+test_confidence_intervals_and_paired_differences (test_protocol.ProtocolTests.test_confidence_intervals_and_paired_differences) ... ok
+test_default_preparation_reuses_bundle_without_annotation_download (test_protocol.ProtocolTests.test_default_preparation_reuses_bundle_without_annotation_download) ... ok
+test_mismatch_excludes_both_images (test_protocol.ProtocolTests.test_mismatch_excludes_both_images) ... ok
+test_normalization (test_protocol.ProtocolTests.test_normalization) ... ok
+test_pair_draws_stay_adjacent (test_protocol.ProtocolTests.test_pair_draws_stay_adjacent) ... ok
+test_partial_jsonl_recovery (test_protocol.ProtocolTests.test_partial_jsonl_recovery) ... ok
+test_sampler_exact_recovery_across_stages (test_protocol.ProtocolTests.test_sampler_exact_recovery_across_stages) ... ok
+test_soft_consensus_not_capped_count (test_protocol.ProtocolTests.test_soft_consensus_not_capped_count) ... ok
+test_split_audit_rejects_leak (test_protocol.ProtocolTests.test_split_audit_rejects_leak) ... ok
+test_stage1_exactly_two_passes (test_protocol.ProtocolTests.test_stage1_exactly_two_passes) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 9.424s
+
+OK

@@ -1,0 +1,9 @@
+{
+  "completed_benchmark_conditions": 7,
+  "expected_conditions": 7,
+  "saved_qualitative_responses": 168,
+  "expected_responses": 168,
+  "annotation_template_rows": 42,
+  "expected_annotation_rows": 42,
+  "manual_work": "Copy annotation_template.csv to annotations.csv; annotate and interpret results yourself."
+}

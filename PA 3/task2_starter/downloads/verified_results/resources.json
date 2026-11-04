@@ -1,0 +1,26 @@
+{
+  "1": {
+    "training_seconds": 808.4989811892156,
+    "updates": 2250,
+    "peak_gpu_bytes": 5386586624,
+    "connector": 1837056,
+    "lora": 0,
+    "frozen": 596049920
+  },
+  "2": {
+    "training_seconds": 864.1758298376808,
+    "updates": 1500,
+    "peak_gpu_bytes": 5464619520,
+    "connector": 1837056,
+    "lora": 4587520,
+    "frozen": 596049920
+  },
+  "3": {
+    "training_seconds": 434.272687265533,
+    "updates": 750,
+    "peak_gpu_bytes": 5464492544,
+    "connector": 1837056,
+    "lora": 4587520,
+    "frozen": 596049920
+  }
+}

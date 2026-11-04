@@ -1,0 +1,145 @@
+{
+  "calibration": {
+    "rule": "Fixed scalar = training-caption text-embedding RMS / initial connector-output RMS, first 64 selected training captions; no eval data.",
+    "text_rms": 0.027357568964362144,
+    "connector_rms": 0.5022607445716858,
+    "scale": 0.05446885898709297,
+    "example_ids": [
+      "caption-175350",
+      "caption-181683",
+      "caption-172656",
+      "caption-322781",
+      "caption-319883",
+      "caption-316940",
+      "caption-255496",
+      "caption-255421",
+      "caption-253114",
+      "caption-701716",
+      "caption-699892",
+      "caption-697693",
+      "caption-359972",
+      "caption-357083",
+      "caption-363860",
+      "caption-79763",
+      "caption-80381",
+      "caption-76784",
+      "caption-675261",
+      "caption-674616",
+      "caption-662826",
+      "caption-700561",
+      "caption-704569",
+      "caption-698845",
+      "caption-217540",
+      "caption-219601",
+      "caption-213919",
+      "caption-135179",
+      "caption-118298",
+      "caption-124592",
+      "caption-629254",
+      "caption-624004",
+      "caption-620728",
+      "caption-271580",
+      "caption-276896",
+      "caption-275666",
+      "caption-12679",
+      "caption-23680",
+      "caption-21388",
+      "caption-234615",
+      "caption-231954",
+      "caption-228576",
+      "caption-451422",
+      "caption-449766",
+      "caption-452301",
+      "caption-259223",
+      "caption-258533",
+      "caption-241985",
+      "caption-429808",
+      "caption-420403",
+      "caption-422908",
+      "caption-502094",
+      "caption-504044",
+      "caption-501173",
+      "caption-393040",
+      "caption-390634",
+      "caption-395944",
+      "caption-226119",
+      "caption-230823",
+      "caption-233040",
+      "caption-362817",
+      "caption-359997",
+      "caption-363723",
+      "caption-767476"
+    ]
+  },
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "total_gpu_bytes": 85293072384,
+  "stages": [
+    {
+      "stage": 1,
+      "median_seconds_per_update": 0.35381899401545525,
+      "examples_per_second": 45.220862278809996,
+      "projected_training_seconds": 796.0927365347743,
+      "peak_gpu_bytes": 4416586240,
+      "parameters": {
+        "connector": 1837056,
+        "lora": 0,
+        "frozen": 596049920
+      },
+      "amp_skips": 4
+    },
+    {
+      "stage": 2,
+      "median_seconds_per_update": 0.5529574130196124,
+      "examples_per_second": 28.935320556833748,
+      "projected_training_seconds": 829.4361195294186,
+      "peak_gpu_bytes": 4484001792,
+      "parameters": {
+        "connector": 1837056,
+        "lora": 4587520,
+        "frozen": 596049920
+      },
+      "amp_skips": 0
+    },
+    {
+      "stage": 3,
+      "median_seconds_per_update": 0.554824406048283,
+      "examples_per_second": 28.837952738884415,
+      "projected_training_seconds": 416.11830453621224,
+      "peak_gpu_bytes": 4458160128,
+      "parameters": {
+        "connector": 1837056,
+        "lora": 4587520,
+        "frozen": 596049920
+      },
+      "amp_skips": 1
+    }
+  ],
+  "generation_test_seconds": 0.3500951480236836,
+  "generation_batch": 8,
+  "likelihood_batch": 32,
+  "training_only_estimate_seconds": 2041.6471606004052,
+  "note": "Disposable training, excludes preparation/dev/final/packaging; estimates from 15 post-warmup updates per stage. Not scientific evidence.",
+  "likelihood_batch_candidates": [
+    {
+      "batch": 8,
+      "seconds_per_example": 0.008042433746595634,
+      "peak_gpu_bytes": 4263373824
+    },
+    {
+      "batch": 16,
+      "seconds_per_example": 0.005108655686854036,
+      "peak_gpu_bytes": 4417117696
+    },
+    {
+      "batch": 32,
+      "seconds_per_example": 0.005017104078433476,
+      "peak_gpu_bytes": 4759014912
+    },
+    {
+      "batch": 64,
+      "seconds_per_example": 0.004856284007473732,
+      "peak_gpu_bytes": 5409216512
+    }
+  ],
+  "chosen_likelihood_batch": 64
+}

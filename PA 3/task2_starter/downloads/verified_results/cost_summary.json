@@ -1,0 +1,10 @@
+{
+  "training_seconds": 2106.9474982924294,
+  "development_seconds": 19.11590515001444,
+  "final_generation_seconds": 24.48186006740434,
+  "final_reference_nll_seconds": 9.224347341689281,
+  "final_peak_gpu_bytes": 4378255872,
+  "feature_cache_seconds": 25.57709001802141,
+  "feature_cache_peak_gpu_bytes": 745710080,
+  "note": "Component times exclude downloads/model load/saves/plots. run_sessions.jsonl records wall time including overhead and failed sessions."
+}

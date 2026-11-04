@@ -1,0 +1,12 @@
+# Install the appropriate CUDA-enabled PyTorch build first (see README).
+torch>=2.6,<3
+transformers==4.57.1
+datasets==3.6.0
+accelerate>=1.0,<2
+lm_eval[hf]==0.4.13
+peft==0.17.1
+numpy>=1.26,<3
+PyYAML>=6,<7
+safetensors>=0.4
+sentencepiece>=0.2
+protobuf>=4

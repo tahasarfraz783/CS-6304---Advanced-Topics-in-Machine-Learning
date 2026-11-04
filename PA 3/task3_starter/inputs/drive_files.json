@@ -1,0 +1,11 @@
+{
+  "qwen25-math": {
+    "generations.parquet": "1SaWxZ4mpycw2BWZ5G0dahoYZ6Hh8tPWP",
+    "probability_metrics.parquet": "1RCYHrTnUKtF7gHLSTe92x6W9ZsCOekfQ"
+  },
+  "qwen25vl-mathvista": {
+    "attention_metrics.parquet": "1Nzg2VwE2qFzA10BF1lTxEcBZCePBe51q",
+    "generations.parquet": "1sedMpWLI_UgPvAQVj7tS3HYVH0ARS1yA",
+    "probability_metrics.parquet": "1f2XAu_J5NviYHEhtkRrFbKc7b2us1WiW"
+  }
+}

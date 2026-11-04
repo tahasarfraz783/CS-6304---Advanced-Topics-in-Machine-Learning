@@ -1,0 +1,4 @@
+{
+  "seconds": 2726.705527504033,
+  "includes": "This invocation: preparation, disposable preflight if needed, training/evaluation, saves and plots; excludes subsequent packaging. See run_sessions.jsonl for previous attempts."
+}

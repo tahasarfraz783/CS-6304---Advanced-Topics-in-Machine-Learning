@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="660" viewBox="0 0 1100 660">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#1e293b;font-size:13px}</style>
+<text x="100" y="32" style="font-size:21px;font-weight:bold">Benchmark performance</text>
+<line x1="100" x2="950" y1="445.0" y2="445.0" stroke="#e2e8f0"/>
+<text x="88" y="449.0" text-anchor="end">0</text>
+<line x1="100" x2="950" y1="371.0" y2="371.0" stroke="#e2e8f0"/>
+<text x="88" y="375.0" text-anchor="end">15.5</text>
+<line x1="100" x2="950" y1="297.0" y2="297.0" stroke="#e2e8f0"/>
+<text x="88" y="301.0" text-anchor="end">30.9</text>
+<line x1="100" x2="950" y1="223.0" y2="223.0" stroke="#e2e8f0"/>
+<text x="88" y="227.0" text-anchor="end">46.4</text>
+<line x1="100" x2="950" y1="149.0" y2="149.0" stroke="#e2e8f0"/>
+<text x="88" y="153.0" text-anchor="end">61.9</text>
+<line x1="100" x2="950" y1="75.0" y2="75.0" stroke="#e2e8f0"/>
+<text x="88" y="79.0" text-anchor="end">77.4</text>
+<text transform="translate(100.0,463) rotate(25)" text-anchor="start">baseline_0000</text>
+<text transform="translate(241.66666666666666,463) rotate(25)" text-anchor="start">full_ft_0625</text>
+<text transform="translate(383.3333333333333,463) rotate(25)" text-anchor="start">full_ft_1250</text>
+<text transform="translate(525.0,463) rotate(25)" text-anchor="start">l2sp_1250</text>
+<text transform="translate(666.6666666666666,463) rotate(25)" text-anchor="start">lora16_1250</text>
+<text transform="translate(808.3333333333334,463) rotate(25)" text-anchor="start">lora4_1250</text>
+<text transform="translate(950.0,463) rotate(25)" text-anchor="start">oplora16_1250</text>
+<text x="525.0" y="530" text-anchor="middle">Evaluation condition</text>
+<text transform="translate(23,260.0) rotate(-90)" text-anchor="middle">Primary score (%)</text>
+<circle cx="100.0" cy="237.56116546354667" r="3" fill="#2563eb"/>
+<circle cx="241.66666666666666" cy="169.74462340355234" r="3" fill="#2563eb"/>
+<circle cx="383.3333333333333" cy="136.74299063638932" r="3" fill="#2563eb"/>
+<circle cx="525.0" cy="135.29236941585464" r="3" fill="#2563eb"/>
+<circle cx="666.6666666666666" cy="144.72140734932987" r="3" fill="#2563eb"/>
+<circle cx="808.3333333333334" cy="155.6010665033396" r="3" fill="#2563eb"/>
+<circle cx="950.0" cy="145.08406265446348" r="3" fill="#2563eb"/>
+<rect x="100" y="560" width="14" height="4" fill="#2563eb"/>
+<text x="120" y="567">gsm8k_cot</text>
+<circle cx="100.0" cy="218.59478415344802" r="3" fill="#d97706"/>
+<circle cx="241.66666666666666" cy="227.12130080325502" r="3" fill="#d97706"/>
+<circle cx="383.3333333333333" cy="224.31088470080468" r="3" fill="#d97706"/>
+<circle cx="525.0" cy="222.35788368045786" r="3" fill="#d97706"/>
+<circle cx="666.6666666666666" cy="219.07112586572777" r="3" fill="#d97706"/>
+<circle cx="808.3333333333334" cy="218.4042474685361" r="3" fill="#d97706"/>
+<circle cx="950.0" cy="218.97585752327177" r="3" fill="#d97706"/>
+<rect x="420" y="560" width="14" height="4" fill="#d97706"/>
+<text x="440" y="567">hellaswag</text>
+<circle cx="100.0" cy="136.19856406363664" r="3" fill="#059669"/>
+<circle cx="241.66666666666666" cy="170.1360027833128" r="3" fill="#059669"/>
+<circle cx="383.3333333333333" cy="170.28228484675964" r="3" fill="#059669"/>
+<circle cx="525.0" cy="129.3233070816333" r="3" fill="#059669"/>
+<circle cx="666.6666666666666" cy="102.40740740740739" r="3" fill="#059669"/>
+<circle cx="808.3333333333334" cy="114.25625454660474" r="3" fill="#059669"/>
+<circle cx="950.0" cy="103.57766391498245" r="3" fill="#059669"/>
+<rect x="740" y="560" width="14" height="4" fill="#059669"/>
+<text x="760" y="567">boolq</text>
+<circle cx="100.0" cy="177.44234857350426" r="3" fill="#dc2626"/>
+<circle cx="241.66666666666666" cy="149.8611610299152" r="3" fill="#dc2626"/>
+<circle cx="383.3333333333333" cy="142.61354970459251" r="3" fill="#dc2626"/>
+<circle cx="525.0" cy="143.62016238866505" r="3" fill="#dc2626"/>
+<circle cx="666.6666666666666" cy="142.21090463096346" r="3" fill="#dc2626"/>
+<circle cx="808.3333333333334" cy="141.8082595573344" r="3" fill="#dc2626"/>
+<circle cx="950.0" cy="143.41883985185058" r="3" fill="#dc2626"/>
+<rect x="100" y="585" width="14" height="4" fill="#dc2626"/>
+<text x="120" y="592">arc_easy</text>
+</svg>

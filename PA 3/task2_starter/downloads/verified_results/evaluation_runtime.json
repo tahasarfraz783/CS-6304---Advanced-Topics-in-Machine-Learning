@@ -1,0 +1,4 @@
+{
+  "likelihood_batch": 64,
+  "selection_rule": "Lowest median seconds/example; 2 timed trials after 1 warmup; caption dev data; <90% allocated VRAM. Final decoding remains batch 8."
+}

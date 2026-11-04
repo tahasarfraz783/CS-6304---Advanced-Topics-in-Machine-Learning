@@ -1,0 +1,58 @@
+{
+  "seed": 6304,
+  "vision_model": "google/siglip-base-patch16-224",
+  "language_model": "Qwen/Qwen3-0.6B",
+  "visual_tokens": 196,
+  "microbatch": 8,
+  "accumulation": 2,
+  "stage_updates": [
+    2250,
+    1500,
+    750
+  ],
+  "connector_lr": [
+    0.001,
+    0.0001,
+    5e-05
+  ],
+  "lora_lr": [
+    0.0,
+    2e-05,
+    1e-05
+  ],
+  "weight_decay": 0.01,
+  "warmup_fraction": 0.05,
+  "lr_floor": 0.1,
+  "clip_norm": 1.0,
+  "checkpoint_every": 250,
+  "dev_every": 500,
+  "question_cap": 80,
+  "caption_cap": 64,
+  "answer_cap": 16,
+  "generation_batch": 8,
+  "likelihood_batch": 32,
+  "cache_batch": 128,
+  "cache_workers": 8,
+  "download_workers": 16,
+  "caption_images": 6000,
+  "caption_dev_images": 96,
+  "ground_dev_pairs": 24,
+  "ground_test_pairs": 64,
+  "natural_train_counts": [
+    640,
+    256,
+    640
+  ],
+  "natural_dev_counts": [
+    12,
+    8,
+    12
+  ],
+  "natural_test_counts": [
+    36,
+    24,
+    36
+  ],
+  "bootstrap_resamples": 4000,
+  "keep_all_checkpoints": true
+}
